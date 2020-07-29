@@ -1,1 +1,1 @@
-Update your product
+Contains the documentation files for Bold Reports Enterprise platform
