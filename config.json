@@ -1,0 +1,16 @@
+{
+    "customFileNames": [],
+    "customNames": [
+        "api",
+        "ip",
+        "faq"
+    ],
+    "homePage": {
+        "name": "OverView",
+        "fileName": "overview"
+    },
+    "siteVersion": "2.3.26",
+    "umsVersion": "2.3.26",
+    "reportserviceurl": "https://demos.boldreports.com/services/",
+    "githubserviceloc": "https://github.com/boldreports/demo-services/"
+}

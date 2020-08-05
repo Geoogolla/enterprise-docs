@@ -1,0 +1,15 @@
+{
+   "Getting Started": "getting-started.md",
+   "User And Group Management": "user-and-group-management",
+   "Manage Report": "manage-report.md",
+   "Report Designer": "report-designer.md",
+   "Manage Schedule": "manage-schedule",
+   "Settings": "settings",
+   "REST API Reference": {
+      "v1.0": "v1.0?html=true"
+   },
+   "FAQ": {
+      "List of IP addresses that need to be white listed for Bold Reports Cloud remote database access": "list-of-ip-addresses-that-need-to-be-white-listed-for-bold-reports-cloud-remote-database-access.md",
+      "Does Report Server store reports execution data to the server database": "does-report-server-store-reports-execution-data-to-the-server-database.md"
+   }
+}
