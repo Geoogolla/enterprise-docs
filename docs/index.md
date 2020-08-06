@@ -1,10 +1,9 @@
 ---
 layout: post
-title: Introduction | Report cloud user guide | Syncfusion
-description: Explains about introduction to Bold Reports cloud. The Report Server is a solution for design, generation, management and distribution of documents.
+title: Introduction | Report Server user guide | Syncfusion
+description: Explains about introduction to Bold Reports On-Premise. The Report Server is a solution for design, generation, management and distribution of documents.
 platform: report-platform
 documentation: ug
-keywords: boldreports
 ---
 
 # Overview
@@ -13,27 +12,29 @@ The Bold Reports is an online solution for analyzing data in web using the inter
 
 It is an end-to-end solution for creating, managing, and sharing interactive business report that includes a powerful report designer for composing easily.
 
-It does not required any installation and maintenance.
-
 ## Key features
 
-**Wide variety of date sources**: All the commonly used datasource such as Microsoft SQL Server, PostgreSQL and all the RESTful web services are supported.
+**Report management** --- Reports  can be efficiently organized under the categories. Permission to view the reports can be given to specific users or groups.
 
-**Rich selection of data visualizations**: Bold Report Cloud include charts, grids and several powerful filtering possibilities using data picker and combo boxes.
-
-**Business user friendly**: Drag-friendly report designer allows business user to compose and publish report without any help from IT
-
-**Report management**: Reports  can be efficiently organized under the categories. Permission to view the reports can be given to specific users or groups.
+**Business user friendly**: The drag-and-drop friendly report designer allows business users to compose and publish reports without any help from IT.
 
 **Cost effective licensing**: The licensing cost is effective for both small and large teams. Check the [pricing plans](https://www.boldreports.com/pricing/)
 
-**User management**: Users can be easily organized into groups to accurately map the structure of the small and large organizations.
+**Multi-tenant**: Multi-tenant mode provides a convenient, cost-effective method for deploying our report solution to multiple tenants.
 
-**Scheduling**: Reports can be generated and emailed according to a schedule. The scheduling functionality is very flexible.
+**Versioning** --- All items stored in the Report Server are versioned, so it is possible to revert to an older version.
 
-**Flexible permissions**: A flexible permission scheme controls the access to read, write, and delete reports
+**User management** --- Users can be easily organized into groups to accurately map the structure of the small and large organizations.
 
-**Custom branding**: The Report Server has built-in customization capabilities that allows you to add your organization’s name, logo, welcome note, etc.
+**Scheduling** --- Reports can be generated and emailed according to a schedule. The scheduling functionality is very flexible.
+
+**Flexible permissions** --- A flexible permission scheme controls the access to read, write, and delete reports.
+
+**View reports** --- The built-in HTML 5 RDL Report Viewer control allows the user to view reports through the browser.
+
+**Export** --- The RDL reports can be exported to Excel, Word, PDF, and HTML file formats.
+
+**Custom branding** --- The Report Server has built-in customization capabilities that allows you to add your organization’s name, logo, welcome note, etc.
 
 ## Create a support incident
 

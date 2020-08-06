@@ -3,7 +3,7 @@
   "info": {
     "title": "API Reference",
     "version": "1.0",
-    "description": "# Introduction\n You can manage users,groups,items and permissions in the Bold Reports Cloud using the REST API."
+    "description": "# Introduction\n You can manage users,groups,items and permissions in the Bold Reports On-Premise using the REST API."
   },
   "consumes": [
     "application/json"
@@ -14,27 +14,27 @@
   "tags": [
     {
       "name": "Authentication",
-      "description": "When you sign in to the Bold Reports Cloud, an authentication token is provided that should be attached in the request header(Authorization) for all subsequent API calls to authenticate the requests.\n"
+      "description": "When you sign in to the Bold Reports On-Premise, an authentication token is provided that should be attached in the request header(Authorization) for all subsequent API calls to authenticate the requests.\n"
     },
     {
       "name": "Users",
-      "description": "To retrieve a list of users, or retrieve, create  a particular user in the Bold Reports Cloud, use the corresponding endpoints below.\n"
+      "description": "To retrieve a list of users, or retrieve, create  a particular user in the Bold Reports On-Premise, use the corresponding endpoints below.\n"
     },
     {
       "name": "Groups",
-      "description": "To retrieve a list of groups, or retrieve, create a particular group in the Bold Reports Cloud, use the corresponding endpoints below.\n"
+      "description": "To retrieve a list of groups, or retrieve, create a particular group in the Bold Reports On-Premise, use the corresponding endpoints below.\n"
     },
 	{
       "name": "Items",
-      "description": "To retrieve a list of items, or retrieve, create, modify, and delete a particular item in the Bold Reports Cloud, use the corresponding endpoints below.\n"
+      "description": "To retrieve a list of items, or retrieve, create, modify, and delete a particular item in the Bold Reports On-Premise, use the corresponding endpoints below.\n"
     },
     {
       "name": "Permission",
-      "description": "To retrieve a list of permissions, or retrieve, create and delete a particular permission in the Bold Reports Cloud, use the corresponding endpoints below.\n"
+      "description": "To retrieve a list of permissions, or retrieve, create and delete a particular permission in the Bold Reports On-Premise, use the corresponding endpoints below.\n"
     }
 	],
   "paths": {
-    "/api/token": {
+    "/api/site/{tenant-name}/token": {
       "post": {
         "tags": [
           "Authentication"
@@ -50,7 +50,7 @@
             "x-nullable": false,
             "description": "Email ID of the user."
           },
-		  {
+          {
             "type": "string",
             "name": "password",
             "in": "formData",
@@ -58,7 +58,7 @@
             "x-nullable": false,
             "description": "Password of the user."
           },
-		  {
+          {
             "type": "string",
             "name": "grant_type",
             "in": "formData",
@@ -88,9 +88,9 @@
             "description": "Request type was not POST"
           }
         }
-      }      
+      }
     },
-    "/api/v1.0/groups": {
+    "/api/site/{tenant-name}/v1.0/groups": {
       "post": {
         "tags": [
           "Groups"
@@ -162,7 +162,7 @@
         }
       }
     },
-    "/api/v1.0/groups/{id}": {
+    "/api/site/{tenant-name}/v1.0/groups/{id}": {
       "delete": {
         "tags": [
           "Groups"
@@ -303,7 +303,7 @@
         }
       }
     },
-    "/api/v1.0/groups/{id}/users": {
+    "/api/site/{tenant-name}/v1.0/groups/{id}/users": {
       "get": {
         "tags": [
           "Groups"
@@ -454,7 +454,7 @@
         }
       }
     },
-    "/api/v1.0/items/{id}": {
+    "/api/site/{tenant-name}/v1.0/items/{id}": {
       "get": {
         "tags": [
           "Items"
@@ -536,7 +536,7 @@
         }
       }
     },
-    "/api/v1.0/categories": {
+    "/api/site/{tenant-name}/v1.0/categories": {
       "post": {
         "tags": [
           "Items"
@@ -635,7 +635,7 @@
         }
       }
     },
-    "/api/v1.0/items/is-name-exists": {
+    "/api/site/{tenant-name}/v1.0/items/is-name-exists": {
       "post": {
         "tags": [
           "Items"
@@ -678,7 +678,7 @@
         }
       }
     },
-    "/api/v1.0/reports": {
+    "/api/site/{tenant-name}/v1.0/reports": {
       "post": {
         "tags": [
           "Items"
@@ -783,7 +783,7 @@
         }
       }
     },
-    "/api/v1.0/reports/data-sources": {
+    "/api/site/{tenant-name}/v1.0/reports/data-sources": {
       "post": {
         "tags": [
           "Items"
@@ -882,7 +882,7 @@
         }
       }
     },
-    "/api/v1.0/reports/datasets": {
+    "/api/site/{tenant-name}/v1.0/reports/datasets": {
       "post": {
         "tags": [
           "Items"
@@ -981,7 +981,7 @@
         }
       }
     },
-    "/api/v1.0/items": {
+    "/api/site/{tenant-name}/v1.0/items": {
       "get": {
         "tags": [
           "Items"
@@ -1034,7 +1034,7 @@
         }
       }
     },
-    "/api/v1.0/reports/schedule": {
+    "/api/site/{tenant-name}/v1.0/reports/schedule": {
       "post": {
         "tags": [
           "Items"
@@ -1086,7 +1086,7 @@
         }
       }
     },
-    "/api/v1.0/reports/schedule/{scheduleid}": {
+    "/api/site/{tenant-name}/v1.0/reports/schedule/{scheduleid}": {
       "put": {
         "tags": [
           "Items"
@@ -1147,7 +1147,7 @@
         }
       }
     },
-    "/api/v1.0/reports/schedule/items": {
+    "/api/site/{tenant-name}/v1.0/reports/schedule/items": {
       "get": {
         "tags": [
           "Items"
@@ -1172,7 +1172,7 @@
         }
       }
     },
-    "/api/v1.0/reports/schedule/{scheduleId}": {
+    "/api/site/{tenant-name}/v1.0/reports/schedule/{scheduleId}": {
       "get": {
         "tags": [
           "Items"
@@ -1210,7 +1210,7 @@
         }
       }
     },
-    "/api/v1.0/schedules/{scheduleId}/run": {
+    "/api/site/{tenant-name}/v1.0/schedules/{scheduleId}/run": {
       "get": {
         "tags": [
           "Items"
@@ -1255,7 +1255,7 @@
         }
       }
     },
-    "/api/v1.0/items/{itemId}/location": {
+    "/api/site/{tenant-name}/v1.0/items/{itemId}/location": {
       "get": {
         "tags": [
           "Items"
@@ -1297,7 +1297,7 @@
         }
       }
     },
-    "/api/v1.0/reports/export": {
+    "/api/site/{tenant-name}/v1.0/reports/export": {
       "post": {
         "tags": [
           "Items"
@@ -1346,7 +1346,7 @@
         }
       }
     },
-    "/api/v1.0/reports/{reportId}/{exportType}/export-filter": {
+    "/api/site/{tenant-name}/v1.0/reports/{reportId}/{exportType}/export-filter": {
       "post": {
         "tags": [
           "Items"
@@ -1410,7 +1410,7 @@
         }
       }
     },
-    "/api/v1.0/permissions/users/{id}": {
+    "/api/site/{tenant-name}/v1.0/permissions/users/{id}": {
       "get": {
         "tags": [
           "Permission"
@@ -1498,7 +1498,7 @@
         }
       }
     },
-    "/api/v1.0/permissions/groups/{id}": {
+    "/api/site/{tenant-name}/v1.0/permissions/groups/{id}": {
       "get": {
         "tags": [
           "Permission"
@@ -1586,7 +1586,7 @@
         }
       }
     },
-    "/api/v1.0/permissions/users": {
+    "/api/site/{tenant-name}/v1.0/permissions/users": {
       "post": {
         "tags": [
           "Permission"
@@ -1637,7 +1637,7 @@
         }
       }
     },
-    "/api/v1.0/permissions/groups": {
+    "/api/site/{tenant-name}/v1.0/permissions/groups": {
       "post": {
         "tags": [
           "Permission"
@@ -1688,7 +1688,7 @@
         }
       }
     },
-    "/api/v1.0/users": {
+    "/api/site/{tenant-name}/v1.0/users": {
       "post": {
         "tags": [
           "Users"
@@ -1760,7 +1760,7 @@
         }
       }
     },
-    "/api/v1.0/users/{user}": {
+    "/api/site/{tenant-name}/v1.0/users/{user}": {
       "delete": {
         "tags": [
           "Users"
@@ -1953,7 +1953,7 @@
         }
       }
     },
-    "/api/v1.0/csv-users/download-template": {
+    "/api/site/{tenant-name}/v1.0/csv-users/download-template": {
       "get": {
         "tags": [
           "Users"
@@ -1981,7 +1981,7 @@
         }
       }
     },
-    "/api/v1.0/csv-users": {
+    "/api/site/{tenant-name}/v1.0/csv-users": {
       "post": {
         "tags": [
           "Users"
@@ -2024,7 +2024,7 @@
         }
       }
     },
-    "/api/v1.0/users/{user}/groups": {
+    "/api/site/{tenant-name}/v1.0/users/{user}/groups": {
       "get": {
         "tags": [
           "Users"
