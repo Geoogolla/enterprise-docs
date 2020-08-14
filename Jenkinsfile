@@ -6,7 +6,7 @@ node('EssentialStudio')
         try {        
             stage 'Import'
                 println("Reports Platform Document Validation");
-			    git url: 'https://gitlab.syncfusion.com/essential-studio/reports-shared-groovy.git', branch: 'master', credentialsId: env.JENKINS_CREDENTIAL_ID
+			    git url: 'https://gitlab.syncfusion.com/bold-reports/shared-groovy.git', branch: 'master', credentialsId: env.JENKINS_CREDENTIAL_ID
 			    shared = load 'src/shared.groovy'
 			    shared.setEnvCurlPath();                
 
