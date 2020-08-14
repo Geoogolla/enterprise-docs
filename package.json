@@ -1,5 +1,5 @@
 {
-  "name": "bold-reports-enterprise-docs",
+  "name": "enterprise-docs",
   "version": "1.0.0",
   "description": "Bold Reports documentation",
   "author": "Syncfusion Inc.",
@@ -12,6 +12,6 @@
   },
   "dependencies": {
     "gatsby": "2.0.50",
-    "@boldreports/bold-reports-docs-helper": "*"
+    "@boldreports/docs-helper": "*"
   }
 }
