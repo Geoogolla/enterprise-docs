@@ -51,6 +51,7 @@
         "name": "OverView",
         "fileName": "overview"
     },
+    "branch": "development",
     "siteVersion": "2.3.26",
     "umsVersion": "2.3.26",
     "reportserviceurl": "https://demos.boldreports.com/services/",

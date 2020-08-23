@@ -131,3 +131,92 @@ Run the below command to test markdown lint, typo error and file name validation
 ```cmd
     gulp test
 ```
+
+## Common files
+
+In some scenario, we need to `reuse` MD content of `other platform` in `our platform` instead of creating separate MD content in our platform. For an example, let say our current platform is `cloud`. We need a `Email settings` content from `enterprise` platform in our `cloud` platform.
+
+To handle this scenario, We have provided a configuration file `common-files.json`. Here we can specify your common files like the below.
+
+Note: Don't forget to add the entry in `summary.json` and don't commit the `.gitignore` file.
+
+ ```json
+{
+    "enterprise-docs": [ //(1)
+        {
+            "src": "settings/email-settings.md", //(2)
+            "frontmatter": { //(3)
+                "title": "Your platform specific title",
+                "description": "Your platform specific decription"
+            }
+        }
+    ]
+}
+
+```
+
+(1). Here `enterprise-docs` is the target platform from which we are going to utilize MD content. We need to specify the `package name` of the `target repository`.
+
+(2). This is where we specify the `path of target platform MD file`. We need to provide the path of the MD file relative to `docs` folder.
+
+The target platform will have this structure
+
+```cmd
+--> enterprise-docs
+   --> docs
+        --> settings
+            --> email-settings.md
+
+```
+
+After running the common file gulp task, your current platform will have this structure
+
+```cmd
+--> cloud-docs
+   --> docs
+        --> settings
+            --> email-settings.md
+```
+
+(3). To avoid `duplicate` title and description, We have provided `frontmatter` object. Here, we can add your front matters like `title, description, keywords..etc`.
+
+Note: We can also specify `multiple MD contents and platforms` like the below.
+
+```json
+{
+    "enterprise-docs": [
+        {
+            "src": "settings/email-settings.md",
+            "frontmatter": {
+                "title": "Your platform specific title",
+                "description": "Your platform specific decription"
+            }
+        },
+        {
+            "src": "manage-content/reports/create-report.md",
+            "frontmatter": {
+                "title": "Your platform specific title",
+                "description": "Your platform specific decription"
+            }
+        }
+    ],
+    "embedded-docs": [
+        {
+            "src": "javascript/report-viewer/ssrs-report.md",
+            "frontmatter": {
+                "title": "Your platform specific title",
+                "description": "Your platform specific decription"
+            }
+        }
+    ]
+}
+
+```
+
+Note: You can specify the target branch using `branch` property in `config.json`.
+
+### Gulp task
+
+We have provided `gulp copy-common-files` task and triggered this task in NPM `postinstall` life cycle.
+
+Note: whenever we make the changes in common files configuration, we need to manually call this task. so, the configured source files will be copied to destination.

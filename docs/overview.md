@@ -5,6 +5,7 @@ description: Bold Reports is a business intelligence tool provided to create, ma
 platform: report-platform
 documentation: ug
 keywords: boldreports
+canonical: ''
 ---
 
 # Overview
