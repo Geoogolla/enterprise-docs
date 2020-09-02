@@ -30,12 +30,12 @@ You can display dynamic values in the textbox using parameters and dataset field
 5. You can choose/specify the required expression in the text area. Here, a `InvoiceID` parameter appended with `#` symbol is assigned as expression.
 ![Design report using textbox](/static/assets/on-premise/images/report-designer/report-items/textbox/set-parameter-value-as-expression.png)
    > To learn more about handling expressions in report designer refer [Expressions](/on-premise/report-designer/compose-report/expressions/) section.
-6. The specified expression is displayed as `<<Expr>>` in the text area at respective cursor position.
+6. The specified expression is displayed as `<<Exp>>` in the text area at respective cursor position.
    ![Design report using textbox](/static/assets/on-premise/images/report-designer/report-items/textbox/expression-created.png)
 
 ## Edit the expression
 
-1. To edit the created expression in the textbox, select the specific `<<Expr>>` tag.
+1. To edit the created expression in the textbox, select the specific `<<Exp>>` tag.
 ![Design report using textbox](/static/assets/on-premise/images/report-designer/report-items/textbox/select-expression-tag.png)
 2. Right click on the respective tag to open the context menu.
 ![Design report using textbox](/static/assets/on-premise/images/report-designer/report-items/textbox/open-textbox-context-menu.png)

@@ -6,7 +6,7 @@ keywords: reports, ejreports, reportdesigner, report designer, web designer, bol
 
 # Data source
 
-Bold Report Designer provides support to create an embedded or shared data source using built-in or data processing extension. You can have any number of data sources that connect to different local or server data bases. It provides connection to major data providers such as **Microsoft SQL Server**, **SQL CE**, **Oracle**, **XML**, **OLEDB**, **ODBC**, **SASS**, **Web API**, **MySQL**, and **PostgreSQL** for exploring data and designing reports with a wide range of data sources.
+Bold Report Designer provides support to create an embedded or shared data source using built-in or data processing extension. You can have any number of data sources that connect to different local or server data bases. It provides connection to major data providers such as **Microsoft SQL Server**, **Oracle**, **OLEDB**, **ODBC**, **Web API**, **OData**, **JSON**, and **XML**. for exploring data and designing reports with a wide range of data sources.
 
 ## Embedded data source
 

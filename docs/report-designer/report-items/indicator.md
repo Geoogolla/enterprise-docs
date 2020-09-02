@@ -79,15 +79,19 @@ This property is used to customize the states of indicator.
 
 ![Indicator States](/static/assets/on-premise/images/report-designer/report-items/indicator/states.png)
 
+![Indicator States Panel](/static/assets/on-premise/images/report-designer/report-items/indicator/states-panel.png)
+
 #### Customizing a state
 
-* `Customizing an icon` - You can choose different icon for each state from the dropdown under `Icon` column.
+* `Customizing an icon` - You can choose different icon for each state from the dropdown under `Icon` field.
 
-* `Customizing a color` - You can choose different color for each state from the color picker under `Color` column.
+* `Customizing a color` - You can choose different color for each state from the color picker under `Color` field.
 
-* `Customizing start value` - You can assign start value for each state from the numeric textbox under `Start` column and also set the start value based on dynamic values using expressions.
+* `Customizing start value` - You can assign start value for each state from the numeric textbox under `Start` field and also set the start value based on dynamic values using expressions.
 
-* `Customizing end value` - You can assign end value for each state from the numeric textbox under `End` column and also set the end value based on dynamic values using expressions.
+* `Customizing end value` - You can assign end value for each state from the numeric textbox under `End` field and also set the end value based on dynamic values using expressions.
+
+* `Customizing scale factor value` - You can assign scale factor value for each state from the numeric textbox under `Scale Factor` field and also set the scale factor value based on dynamic values using expressions.
 
 #### Adding a new state
 
@@ -97,6 +101,7 @@ You can add a new state by clicking the `Add icon`. The new state will be create
 * color - No Color
 * Start - ''
 * End - ''
+* Scale Factor - 1
 
 ![Adding indicator states](/static/assets/on-premise/images/report-designer/report-items/indicator/states-add.png)
 

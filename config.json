@@ -42,7 +42,13 @@
         "html",
         "oauth-2.0",
         "openid-connect",
-        "rest-api-reference"
+        "rest-api-reference",
+		"sql",
+		"json",
+        "xml",
+        "odata",
+        "odbc",
+        "oledb"
     ],
     "homePage": {
         "name": "OverView",
