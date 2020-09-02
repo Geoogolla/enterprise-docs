@@ -27,58 +27,30 @@ GROUP BY DATEPART(yy, SOH.OrderDate), PC.Name, PS.Name, 'Q' + DATENAME(qq, SOH.O
 
 ## Add matrix to the report
 
-1. The table report item is listed in the item panel under the `Data Regions` category.
-![Tablix listed in item panel](/static/assets/on-premise/images/report-designer/report-items/tablix/item-panel-view.png)
-2. Drag and drop the table report item into the design area from the item panel.
-![Drag and drop tablix report item into design area](/static/assets/on-premise/images/report-designer/report-items/tablix/drag-and-drop-table.png)
-3. Assign dataset to the `Dataset` property of table report item.
-![Drag and drop tablix report item into design area](/static/assets/on-premise/images/report-designer/report-items/matrix/assign-data.png)
+The matrix report item is listed in the item panel under the `Data Regions` category.
+![Matrix listed in item panel](/static/assets/on-premise/images/report-designer/report-items/matrix/item-panel-view.png)
 
-### Add parent row group
+Drag and drop the matrix report item into the design area from the item panel. The properties of matrix report item will be listed in properties panel. By default, it will be named as `Tablix1`.
 
-1. Select the tablix data region in the design area, now the `Grouping Panel` will be enabled in the design view.
-![Enable grouping panel](/static/assets/on-premise/images/report-designer/report-items/matrix/enable-grouping-panel.png)
-2. To add a  group, go to `Row Groups` pane in grouping panel and open the context menu on the `Details` group field.
-![Open group menu](/static/assets/on-premise/images/report-designer/report-items/matrix/open-group-menu.png)
-3. From the context menu, click on `Parent Group...` option under `Add Group` category.
-![Open group menu](/static/assets/on-premise/images/report-designer/report-items/matrix/select-parent-group.png)
-4. Once you click on the `Parent Group` option, a `Tablix Group` dialog will be opened to configure the grouping.
-![Open group menu](/static/assets/on-premise/images/report-designer/report-items/tablix-insert-or-delete-group/tablix-group-dialog.png)
-5. Choose `Product Category` field in the `Group by` drop-down list and  click on the `OK` button
-![Open group menu](/static/assets/on-premise/images/report-designer/report-items/tablix-insert-or-delete-group/assign-field-for-parent-group.png)
+![Drag and drop tablix report item into design area](/static/assets/on-premise/images/report-designer/report-items/matrix/drag-and-drop-matrix.png)
 
-### Add parent column group
+The matrix initially has empty default row group, column group and a data cell.
 
-1. Now, select second column first cell and right click. In the cell menu, click on the `Parent Group` under the `Column Group` category.
-![Matrix simple design](/static/assets/on-premise/images/report-designer/report-items/matrix/parent-column-group-menu.png)
-2. Now, the matrix design will look like below.
-![Matrix simple design](/static/assets/on-premise/images/report-designer/report-items/matrix/create-column-group.png)
-3. Once you click on the `Parent Group` option, a `Tablix Group` dialog will be opened to configure the grouping.
-![Open group menu](/static/assets/on-premise/images/report-designer/report-items/tablix-insert-or-delete-group/tablix-group-dialog.png)
-4. Choose `Order Year` field in the `Group by` drop-down list and  click on the `OK` button
-![Open group menu](/static/assets/on-premise/images/report-designer/report-items/matrix/choose-column-parent-group.png)
+![Drag and drop tablix report item into design area](/static/assets/on-premise/images/report-designer/report-items/matrix/initial-matrix-structure.png)
 
-### Delete rows and columns
+### Assign data
 
-1. Select the second row and right-click in the row gripper. Choose `Delete Rows` option.
-![Matrix simple design](/static/assets/on-premise/images/report-designer/report-items/matrix/delete-unused-row.png)
-2. Select the cells of last two column and right-click in the cell. Choose `Delete Columns` option.
-![Matrix simple design](/static/assets/on-premise/images/report-designer/report-items/matrix/delete-unused-column.png)
+Assign dataset to the `Dataset` property of matrix report item.
+![Drag and drop matrix report item into design area](/static/assets/on-premise/images/report-designer/report-items/matrix/assign-data.png)
 
-Now, the matrix design will look like below.
-![Matrix simple design](/static/assets/on-premise/images/report-designer/report-items/matrix/add-parent-group-output.png)
+Refer [Assign fields](/on-premise/report-designer/report-items/tablix/assign-data-to-tablix-data-region/) section and assign the `ProdCat`, `OrderYear` and `Sales` fields in  initial matrix design.
+The first field that we assign to the row group or column group will replace the initial empty default row group or column group. Now, I have assigned `ProdCat` field in row group, notice the `Row Grouping pane`.
 
-### Delete details group
+![Drag and drop tablix report item into design area](/static/assets/on-premise/images/report-designer/report-items/matrix/default-group-replace.png)
 
-1. To delete a `Details` group , click on the icon in the right corner of the `Details` group member field in the grouping panel.
-![Matrix simple design](/static/assets/on-premise/images/report-designer/report-items/matrix/delete-details-group-menu.png)
-2. Click on `Delete Group` option in the menu. Now, the `Delete Group` confirmation dialog will be launched.
-3. Choose `Delete group only` option and click on the `OK` button.
-![Matrix simple design](/static/assets/on-premise/images/report-designer/report-items/matrix/delete-group-confirmation.png)
+Similarly, assign `OrderYear` in column grouping pane and sales field in data cell.
 
-Now, the matrix design will look like below.
-
-![Matrix simple design](/static/assets/on-premise/images/report-designer/report-items/matrix/delete-details-group-output.png)
+![Drag and drop tablix report item into design area](/static/assets/on-premise/images/report-designer/report-items/matrix/assign-initial-fields.png)
 
 ### Add child row group
 
@@ -87,8 +59,8 @@ Now, the matrix design will look like below.
 2. From the context menu, click on `Child Group...` option under `Add Group` category.
 ![Matrix simple design](/static/assets/on-premise/images/report-designer/report-items/matrix/child-row-group.png)
 3. Once you click on the `Child Group` option, a `Tablix Group` dialog will be opened to configure the grouping.
-![Open group menu](/static/assets/on-premise/images/report-designer/report-items/tablix-insert-or-delete-group/tablix-group-dialog.png)
-4. Here, `Sub Category` field is chosen as child row group in tablix data region. Click on the `OK` button
+![Open group menu](/static/assets/on-premise/images/report-designer/report-items/matrix/tablix-group-dialog.png)
+4. Here, `SubCat` field is chosen as child row group in tablix data region. Click on the `OK` button
 ![Open group menu](/static/assets/on-premise/images/report-designer/report-items/matrix/select-child-row-group.png)
 
 Now, the matrix design will look like below.
@@ -102,7 +74,7 @@ Now, the matrix design will look like below.
 2. From the context menu, click on `Child Group...` option under `Add Group` category.
 ![Matrix simple design](/static/assets/on-premise/images/report-designer/report-items/matrix/choose-child-group-option.png)
 3. Once you click on the `Child Group` option, a `Tablix Group` dialog will be opened to configure the grouping.
-![Open group menu](/static/assets/on-premise/images/report-designer/report-items/tablix-insert-or-delete-group/tablix-group-dialog.png)
+![Open group menu](/static/assets/on-premise/images/report-designer/report-items/matrix/tablix-group-dialog.png)
 4. Here, `OrderQtr` field is chosen as child column group in tablix data region. Click on the `OK` button
 ![Open group menu](/static/assets/on-premise/images/report-designer/report-items/matrix/choose-child-group-field.png)
 
@@ -112,7 +84,7 @@ Now, the matrix design will look like below.
 
 ## Calculate a summary
 
-Now, a matrix report is created with row groups and column groups. To calculate the total sales amount for each product category, assign the `=Sum(Fields!Sales.Value)` expression to the last cell in third row of the matrix design as shown below.
+Now, a matrix report is created with row groups and column groups. To calculate the total sales amount for each product category, refer [Assign expression in cell](/on-premise/report-designer/report-items/tablix/assign-data-to-tablix-data-region/#assign-or-edit-expression-into-table-cell) section and assign the `=Sum(Fields!Sales.Value)` expression to the last cell in third row of the matrix design as shown below.
 
 ![Matrix simple design](/static/assets/on-premise/images/report-designer/report-items/matrix/calculate-fields.png)
 

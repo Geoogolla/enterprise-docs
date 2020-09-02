@@ -35,7 +35,7 @@ Follow the below steps to rename a column in data table.
 
 ## Exclude columns
 
-To remove or avoid the unwanted columns from the data design after retrieving the data from data source, the `Exclude` option can be used.
+To remove or avoid the unwanted columns from the query design after retrieving the data from data source, the `Exclude` option can be used.
 
 > Excluding the columns from data table will not affect the actual data in the data source.
 

@@ -10,7 +10,7 @@ The **Report Designer** is a web based reporting tool to create and edit the RDL
 
 ## Key features
 
-**Data sources** --- Supports commonly used data sources such as Microsoft SQL Server, SQL CE, Oracle, XML, OLEDB, ODBC, SASS, Web API, MySQL, and PostgreSQL.
+**Data sources** --- Supports commonly used data sources such as Microsoft SQL Server, Oracle, OLEDB, ODBC, Web API, OData, JSON, and XML.
 
 **Built-in query builder** --- Provides a convenient user interface that helps both technical and non-technical users to create and view relationships between tables.
 

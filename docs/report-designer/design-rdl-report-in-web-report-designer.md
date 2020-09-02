@@ -147,7 +147,7 @@ Once you are done with the report designing, to save a report refer [How to save
 
 ## Preview report
 
-1. To see the report preview, click on the **Preview** button in the top-right corner of the report header.
+1. To see the report preview, click on the **Preview** button in the report header.
 ![Preview icon in design view](/static/assets/on-premise/images/report-designer/report-creation/preview-icon.png)
 2. Now, the report preview can be visualized like below.
 ![Table report preview](/static/assets/on-premise/images/report-designer/report-creation/report-preview-page-1.png)

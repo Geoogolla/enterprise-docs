@@ -16,7 +16,8 @@ Bold Report Designer offers rich set of report items to present the data in comp
 * Indicator
 * Linear Gauge
 * Radial Gauge
-* Subreport.
+* Subreport
+* Map
 * Custom report items – barcode and QR code.
 
 ## See also
@@ -32,6 +33,8 @@ Bold Report Designer offers rich set of report items to present the data in comp
 [Tablix](/on-premise/report-designer/report-items/tablix/)
 
 [Chart](/on-premise/report-designer/report-items/chart/)
+
+[Map](/on-premise/report-designer/report-items/map/)
 
 [Data bar](/on-premise/report-designer/report-items/data-bar/)
 
