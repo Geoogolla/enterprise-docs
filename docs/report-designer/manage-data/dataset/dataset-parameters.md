@@ -14,7 +14,7 @@ Select a data in the `DATA` panel to which you want to add, edit or delete param
 
 ![Dataset panel](/static/assets/on-premise/images/report-designer/manage-data/dataset-parameters/dataset-list.png)
 
-> Refer [Create Data](/on-premise/report-designer/manage-data/dataset/create-an-embedded-dataset/#create-an-embedded-dataset) section and create a data in report designer.
+> Refer [Create Data](/report-designer/manage-data/dataset/create-an-embedded-dataset/#create-an-embedded-dataset) section and create a data in report designer.
 
 Click on the above highlighted icon, the context menu will open with list of options.
 

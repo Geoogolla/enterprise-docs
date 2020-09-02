@@ -38,4 +38,4 @@ Now, the respective `Details` group information will be deleted from the tablix 
 
 ## Edit group properties
 
-To edit a group properties in a tablix data region, refer [Tablix member properties](/on-premise/report-designer/report-items/tablix/grouping-panel/#group-member-properties) section.
+To edit a group properties in a tablix data region, refer [Tablix member properties](/report-designer/report-items/tablix/grouping-panel/#group-member-properties) section.

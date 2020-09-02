@@ -16,7 +16,7 @@ Sorting arrange the data in either ascending or descending order to present data
 
    ![choose-sort-fields](/static/assets/on-premise/images/report-designer/compose-report/sort-data/sort-to-choose-fields.png)
 
-2. Dataset fields are listed in the first drop-down list, choose the necessary field from the drop-down list or set an [Expression](/on-premise/report-designer/compose-report/sort-data/#set-expression).
+2. Dataset fields are listed in the first drop-down list, choose the necessary field from the drop-down list or set an [Expression](/report-designer/compose-report/sort-data/#set-expression).
 
     ![open-expression](/static/assets/on-premise/images/report-designer/compose-report/sort-data/expression-field.png)
 
@@ -41,7 +41,7 @@ Follow steps 1 - 4, to add sort expression.
 
     ![expression-icon](/static/assets/on-premise/images/report-designer/compose-report/sort-data/sort-expression-icon.png)
 
-2. `Expression` dialog will be open as shown below, Refer [Expression](/on-premise/report-designer/compose-report/expressions/) section for better understanding with the following sections.
+2. `Expression` dialog will be open as shown below, Refer [Expression](/report-designer/compose-report/expressions/) section for better understanding with the following sections.
 
    ![open-expression](/static/assets/on-premise/images/report-designer/compose-report/filter-data/expression-dialog.png)
 

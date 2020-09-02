@@ -5,7 +5,7 @@ description: This section describes the steps involved in binding a data to map 
 
 # Binding data
 
-To display analytical data on the map surface, first we need to link the analytical and shape data. The shape data is the map itself, whereas the analytical data is the data set we created. The analytical data provides meaning to the shape data. To bind analytical and shape data first must create both in the report. For shape data you can choose the build-in shapes provided under **Shapes** property, eg. World Map. Then for analytical data, embed data from external sources or SQL Server using [Create Data](/on-premise/report-designer/manage-data/dataset/create-an-embedded-dataset/) option.
+To display analytical data on the map surface, first we need to link the analytical and shape data. The shape data is the map itself, whereas the analytical data is the data set we created. The analytical data provides meaning to the shape data. To bind analytical and shape data first must create both in the report. For shape data you can choose the build-in shapes provided under **Shapes** property, eg. World Map. Then for analytical data, embed data from external sources or SQL Server using [Create Data](/report-designer/manage-data/dataset/create-an-embedded-dataset/) option.
 
 > Here, world countries population data is used for demonstration.
 

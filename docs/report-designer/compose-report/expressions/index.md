@@ -21,8 +21,8 @@ The supported expression types and functions details are listed in the following
 
 |References|Description|Example
 |----|-----|-----|
-|[Built-in-fields](/on-premise/report-designer/compose-report/expressions/using-built-in-fields/)|Built-in fields collection are the global variables that are used in a report to specify the report name, page number, execution time. It includes Globals and the User collections.|`=Globals!ExecutionTime`|
-|[Operators](/on-premise/report-designer/compose-report/expressions/using-operators/)| An operator is a symbol that represents to perform simple basic operation. It is used to combine references in an expression.|`=Globals!ExecutionTime+User!UserID`|
-|[Functions](/on-premise/report-designer/compose-report/expressions/using-built-in-functions/)|Functions in an expressions is used to perform some basic functions like datetime, math, aggregate, text functions, conversion functions.|`=Round(1.3*5)/5`|
-|[Parameters](/on-premise/report-designer/compose-report/expressions/using-report-parameters/)|Represents the collection of report parameters, each of which with a parameter value.|`Parameters!ReportParameter1.Value`|
-|[Dataset Fields](/on-premise/report-designer/compose-report/expressions/using-dataset-fields/)|Represents dataset fields collections in reports with dataset field value.|`Fields!EmployeeID.Value,"DataSet1"`|
+|[Built-in-fields](/report-designer/compose-report/expressions/using-built-in-fields/)|Built-in fields collection are the global variables that are used in a report to specify the report name, page number, execution time. It includes Globals and the User collections.|`=Globals!ExecutionTime`|
+|[Operators](/report-designer/compose-report/expressions/using-operators/)| An operator is a symbol that represents to perform simple basic operation. It is used to combine references in an expression.|`=Globals!ExecutionTime+User!UserID`|
+|[Functions](/report-designer/compose-report/expressions/using-built-in-functions/)|Functions in an expressions is used to perform some basic functions like datetime, math, aggregate, text functions, conversion functions.|`=Round(1.3*5)/5`|
+|[Parameters](/report-designer/compose-report/expressions/using-report-parameters/)|Represents the collection of report parameters, each of which with a parameter value.|`Parameters!ReportParameter1.Value`|
+|[Dataset Fields](/report-designer/compose-report/expressions/using-dataset-fields/)|Represents dataset fields collections in reports with dataset field value.|`Fields!EmployeeID.Value,"DataSet1"`|

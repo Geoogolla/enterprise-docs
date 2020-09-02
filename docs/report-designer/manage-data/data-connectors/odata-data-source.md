@@ -30,7 +30,7 @@ After clicking the data source, the `NEW DATASOURCE` configuration panel opens. 
 3. Choose one of the **Method** from the drop-down for the provided REST API. Options are *GET* and *POST*.
 4. If required by the REST API, provide key value pairs in **Headers**.
 5. Choose a **Data Format** from the drop-down based on the response of your provided REST API. Options are JSON and XML.
-6. Choose an **Authentication Type** supported by the data source. Options are `Basic http authentication` and `None`. Learn more about [Authentication Types](/on-premise/report-designer/manage-data/data-connectors/odata-data-source/#authentication-types).
+6. Choose an **Authentication Type** supported by the data source. Options are `Basic http authentication` and `None`. Learn more about [Authentication Types](/report-designer/manage-data/data-connectors/odata-data-source/#authentication-types).
 
 If you choose `GET` method type, the basic configuration looks something similar to below image,
 
@@ -62,7 +62,7 @@ Use *Basic Http authentication*, if your OData service requires username and pas
 
 ## Pass dynamic values
 
-You can pass dynamic values for URL, headers, and parameters using [Expressions](/on-premise/report-designer/compose-report/expressions/). To set an expression for required fields, click on the square icon provided for respective field. For example, follow the below steps to set expression for URL field.
+You can pass dynamic values for URL, headers, and parameters using [Expressions](/report-designer/compose-report/expressions/). To set an expression for required fields, click on the square icon provided for respective field. For example, follow the below steps to set expression for URL field.
 
 1. Click on the square icon in right corner of URL field to open expression menu,
 ![Expression option](/static/assets/on-premise/images/report-designer/manage-data/web-data-source/url-exp-option.png)
@@ -103,6 +103,6 @@ Similarly, you can set and reset expression for all the fields which supports ex
 
 ## See also
 
-[Formatting Columns](/on-premise/report-designer/transforming-data/formatting-columns/)
+[Formatting Columns](/report-designer/transforming-data/formatting-columns/)
 
-[Dataset Parameter](/on-premise/report-designer/transforming-data/link-a-query-parameter-with-a-report-parameter/)
+[Dataset Parameter](/report-designer/transforming-data/link-a-query-parameter-with-a-report-parameter/)

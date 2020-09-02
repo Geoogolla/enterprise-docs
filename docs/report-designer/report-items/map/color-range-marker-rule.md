@@ -25,4 +25,4 @@ On report processing these three color will be distributed on map marker icons b
 
 ## Use case
 
-Refer the [Design map using color range rule](/on-premise/report-designer/report-items/map/use-case/design-map-using-marker-color-range-rule/) section to design a U.S sales analysis report using color range rule in map report item.
+Refer the [Design map using color range rule](/report-designer/report-items/map/use-case/design-map-using-marker-color-range-rule/) section to design a U.S sales analysis report using color range rule in map report item.

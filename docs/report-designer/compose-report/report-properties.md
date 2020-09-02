@@ -18,25 +18,25 @@ The border style, color, width and background color properties are listed under 
 
 ### Border
 
-Refer [Border Properties](/on-premise/report-designer/compose-report/common-properties/#border-properties) section.
+Refer [Border Properties](/report-designer/compose-report/common-properties/#border-properties) section.
 
 ### Background color
 
-Refer [Background color](/on-premise/report-designer/compose-report/common-properties/#background-color) section.
+Refer [Background color](/report-designer/compose-report/common-properties/#background-color) section.
 
 ## Background Image
 
-Background image property can be used to display company logos, watermarks, or any other background image to the report. To set background image to the report refer [Background Image](/on-premise/report-designer/compose-report/background-image/) section.
+Background image property can be used to display company logos, watermarks, or any other background image to the report. To set background image to the report refer [Background Image](/report-designer/compose-report/background-image/) section.
 
 ## Code
 
-Code Module is used to embed a custom code or assemblies to a report. To embed a custom function or assembly into the report refer [Code Module](/on-premise/report-designer/compose-report/code-module/) section.
+Code Module is used to embed a custom code or assemblies to a report. To embed a custom function or assembly into the report refer [Code Module](/report-designer/compose-report/code-module/) section.
 
 ![Rectangle listed in item panel](/static/assets/on-premise/images/report-designer/report-items/properties-panel/custom-code-property.png)
 
 ## Page Units
 
-Page unit property is used to set the unit type for the entire report. By default, the report unit type is set to `Pixels`. Refer [Unit Switcher](/on-premise/report-designer/compose-report/unit-switcher/) section to switch the unit type of the report in Web Report Designer.
+Page unit property is used to set the unit type for the entire report. By default, the report unit type is set to `Pixels`. Refer [Unit Switcher](/report-designer/compose-report/unit-switcher/) section to switch the unit type of the report in Web Report Designer.
 
 ![Rectangle listed in item panel](/static/assets/on-premise/images/report-designer/report-items/properties-panel/page-unit-property.png)
 
@@ -80,6 +80,6 @@ Select the required language in the **Language** property dropdown.
 
 <span style="font-weight:bold">Custom Attributes</span>
 
-This property can be used to add custom properties at report level. To create and assign values for custom properties using properties panel refer [Custom Properties](/on-premise/report-designer/compose-report/common-properties/#custom-properties) section.
+This property can be used to add custom properties at report level. To create and assign values for custom properties using properties panel refer [Custom Properties](/report-designer/compose-report/common-properties/#custom-properties) section.
 
 ![Custom properties at report level](/static/assets/on-premise/images/report-designer/report-items/properties-panel/custom-properties-report-level.png)

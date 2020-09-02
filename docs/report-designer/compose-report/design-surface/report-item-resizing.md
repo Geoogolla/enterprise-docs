@@ -64,7 +64,7 @@ You can resize report item in design surface using the keyboard short-cut keys. 
 
 > `Ctrl + Shift + Arrow Keys` combination increase or decreases the value by `1` point, whereas `Shift + Arrow Keys` combination increases or decreases the value by 8 points.
 
-To know more about supported keyboard shortcut keys, refer [Design report using keyboard shortcuts](/on-premise/report-designer/design-report-using-keyboard-shortcuts/) section.
+To know more about supported keyboard shortcut keys, refer [Design report using keyboard shortcuts](/report-designer/design-report-using-keyboard-shortcuts/) section.
 
 ## Using touch resizer
 

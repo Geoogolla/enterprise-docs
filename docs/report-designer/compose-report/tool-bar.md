@@ -18,11 +18,11 @@ To create a new blank report, click on the `New` icon in the toolbar. Now, `New 
 
 ## Open
 
-Opens the existing report from device or server. Refer [Open report](/on-premise/report-designer/open-report-in-web-designer/) section to open a report.
+Opens the existing report from device or server. Refer [Open report](/report-designer/open-report-in-web-designer/) section to open a report.
 
 ## Save
 
-Saves the report to device or server. Refer [Save report](/on-premise/report-designer/save-report-in-web-designer/) section to save the report.
+Saves the report to device or server. Refer [Save report](/report-designer/save-report-in-web-designer/) section to save the report.
 
 ## Cut
 
@@ -58,19 +58,19 @@ Redo action reverses the last undo action done in a report.
 
 ## Layout ordering
 
-`Layout ordering` can be used to change the layout order of report items in design area surface. Refer [Layout Ordering](/on-premise/report-designer/compose-report/layout-ordering/) section to know about ordering modes.
+`Layout ordering` can be used to change the layout order of report items in design area surface. Refer [Layout Ordering](/report-designer/compose-report/layout-ordering/) section to know about ordering modes.
 
 ## Alignment
 
-[Alignment](/on-premise/report-designer/compose-report/design-surface/report-item-alignment/#align) has set of alignment options that enables you to align the selected report items in the designer surface.
+[Alignment](/report-designer/compose-report/design-surface/report-item-alignment/#align) has set of alignment options that enables you to align the selected report items in the designer surface.
 
 ## Distribute
 
-[Distribute](/on-premise/report-designer/compose-report/design-surface/report-item-alignment/#distribute) option can be used to place the selected report items on the design surface at equal intervals from each other.
+[Distribute](/report-designer/compose-report/design-surface/report-item-alignment/#distribute) option can be used to place the selected report items on the design surface at equal intervals from each other.
 
 ## Sizing
 
-[Sizing](/on-premise/report-designer/compose-report/design-surface/report-item-alignment/#sizing) can be used to equally size selected report items on the design surface.
+[Sizing](/report-designer/compose-report/design-surface/report-item-alignment/#sizing) can be used to equally size selected report items on the design surface.
 
 ## Align to grid
 
@@ -86,9 +86,9 @@ Snaps the selected report item to the closest gridline by resizing the report it
 
 ![View Menu](/static/assets/on-premise/images/report-designer/compose-report/toolbar/view-menu.png)
 
-**Header** : Enables/Disables header area in the report. Refer [Header](/on-premise/report-designer/compose-report/show-or-hide-header-footer-in-report/#show-or-hide-report-header) section to add and remove header in designer surface.
+**Header** : Enables/Disables header area in the report. Refer [Header](/report-designer/compose-report/show-or-hide-header-footer-in-report/#show-or-hide-report-header) section to add and remove header in designer surface.
 
-**Footer** : Enables/Disables footer area in the report. Refer [Footer](/on-premise/report-designer/compose-report/show-or-hide-header-footer-in-report/#show-or-hide-report-footer) section to add and remove footer in designer surface.
+**Footer** : Enables/Disables footer area in the report. Refer [Footer](/report-designer/compose-report/show-or-hide-header-footer-in-report/#show-or-hide-report-footer) section to add and remove footer in designer surface.
 
 **Grid Lines** : Gridlines are the pattern of lines drawn behind the report items. It provides a visual guidance while dragging or arranging the objects on the designer surface. Click on the `Grid Lines` option in the view menu to show or hide the gridlines in the report.
 
@@ -96,4 +96,4 @@ Snaps the selected report item to the closest gridline by resizing the report it
 
 ## Preview
 
-After designing a report, click on the `Preview` button to preview the report. Refer [Preview](/on-premise/report-designer/preview-report-in-web-designer/) section to preview the designed report.
+After designing a report, click on the `Preview` button to preview the report. Refer [Preview](/report-designer/preview-report-in-web-designer/) section to preview the designed report.

@@ -109,23 +109,23 @@ Once you are done with the report designing, click on the `Publish` option.
 
 ## See also
 
-[Design a Basic Table Report](/on-premise/report-designer/design-rdl-report-in-web-report-designer/)
+[Design a Basic Table Report](/report-designer/design-rdl-report-in-web-report-designer/)
 
-[Create an Embedded DataSource](/on-premise/report-designer/manage-data/datasource/create-an-embedded-data-source/)
+[Create an Embedded DataSource](/report-designer/manage-data/datasource/create-an-embedded-data-source/)
 
-[Create an Embedded DataSet](/on-premise/report-designer/manage-data/dataset/create-an-embedded-dataset/)
+[Create an Embedded DataSet](/report-designer/manage-data/dataset/create-an-embedded-dataset/)
 
-[Link a Shared DataSource into a Report](/on-premise/report-designer/manage-data/datasource/link-a-shared-data-source/)
+[Link a Shared DataSource into a Report](/report-designer/manage-data/datasource/link-a-shared-data-source/)
 
-[Link a Shared DataSet into a Report](/on-premise/report-designer/manage-data/dataset/link-a-shared-dataset/)
+[Link a Shared DataSet into a Report](/report-designer/manage-data/dataset/link-a-shared-dataset/)
 
-[Create a Duplicate Copy of DataSource in a Report](/on-premise/report-designer/manage-data/datasource/duplicate-a-data-source/)
+[Create a Duplicate Copy of DataSource in a Report](/report-designer/manage-data/datasource/duplicate-a-data-source/)
 
-[Create a Duplicate Copy of DataSet in a Report](/on-premise/report-designer/manage-data/dataset/duplicate-a-dataset/)
+[Create a Duplicate Copy of DataSet in a Report](/report-designer/manage-data/dataset/duplicate-a-dataset/)
 
-[Add a Report Parameter to a Report](/on-premise/report-designer/report-parameters/add/)
+[Add a Report Parameter to a Report](/report-designer/report-parameters/add/)
 
-[Embed an Image in a Report](/on-premise/report-designer/image-manager/add-image/)
+[Embed an Image in a Report](/report-designer/image-manager/add-image/)
 
 ## REST API Reference
 

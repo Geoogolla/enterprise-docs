@@ -29,7 +29,7 @@ To view and edit the selected text properties, focus inside the text area. Now, 
 
 ![Textbox item with properties view](/static/assets/on-premise/images/report-designer/report-items/textbox/selected-text-properties.png)
 
-Refer the [Properties panel](/on-premise/report-designer/compose-report/properties-panel/) section before proceeding with the below properties.
+Refer the [Properties panel](/report-designer/compose-report/properties-panel/) section before proceeding with the below properties.
 
 ### Common properties
 
@@ -94,7 +94,7 @@ Format property is used format an entire text box or specific text, numbers, exp
 
 ![Textbox item with properties view](/static/assets/on-premise/images/report-designer/report-items/textbox/format-button.png)
 
-To apply **Number**, **Currency**, **Date**, **Time**, **Scientific**, **Percentage** or **Custom** formats using format dialog follow the steps provided in [Format](/on-premise/report-designer/compose-report/format-data/#format) section.
+To apply **Number**, **Currency**, **Date**, **Time**, **Scientific**, **Percentage** or **Custom** formats using format dialog follow the steps provided in [Format](/report-designer/compose-report/format-data/#format) section.
 
 #### Link
 
@@ -102,7 +102,7 @@ You can specify a hyperlink inside the textbox content to link another report. S
 
 ![Border width](/static/assets/on-premise/images/report-designer/report-items/textbox/report-linking.png)
 
-To set the hyperlink to a selected text or over all textbox follow the steps provided in [Linking](/on-premise/report-designer/compose-report/link-data/#report-linking) section.
+To set the hyperlink to a selected text or over all textbox follow the steps provided in [Linking](/report-designer/compose-report/link-data/#report-linking) section.
 
 ### Textbox properties
 
@@ -136,19 +136,19 @@ The border style, color, width and background color properties are used to style
 
 <span style="font-weight:bold">Background color</span>
 
-Using the background color property you can color the textbox background. To set background color using properties panel refer [Background color](/on-premise/report-designer/compose-report/common-properties/#background-color) section.
+Using the background color property you can color the textbox background. To set background color using properties panel refer [Background color](/report-designer/compose-report/common-properties/#background-color) section.
 
 <span style="font-weight:bold">Border</span>
 
-Border properties are used to add or customize the border around a textbox item to visually separate items in the report design. To set border properties to the textbox item using properties panel refer [Border Properties](/on-premise/report-designer/compose-report/common-properties/#border-properties) section.
+Border properties are used to add or customize the border around a textbox item to visually separate items in the report design. To set border properties to the textbox item using properties panel refer [Border Properties](/report-designer/compose-report/common-properties/#border-properties) section.
 
 #### Position
 
-Position property is used to set the width, height, left and top position of the textbox in the report design. To handle these properties using properties panel refer [Position](/on-premise/report-designer/compose-report/common-properties/#position) section.
+Position property is used to set the width, height, left and top position of the textbox in the report design. To handle these properties using properties panel refer [Position](/report-designer/compose-report/common-properties/#position) section.
 
 #### Visibility
 
-Visibility property is used to conditionally show or hide the textbox report item on report preview or export action. To set visibility of textbox item using properties panel refer [Visibility](/on-premise/report-designer/compose-report/common-properties/#visibility) section.
+Visibility property is used to conditionally show or hide the textbox report item on report preview or export action. To set visibility of textbox item using properties panel refer [Visibility](/report-designer/compose-report/common-properties/#visibility) section.
 
 #### Miscellaneous
 
@@ -164,11 +164,11 @@ Enable this property to shrink the Textbox height vertically based on their cont
 
 <span style="font-weight:bold">Custom Attributes</span>
 
-This property can be used to set the values for textbox custom properties. To create and assign values for custom properties using properties panel refer [Custom Properties](/on-premise/report-designer/compose-report/common-properties/#custom-properties) section.
+This property can be used to set the values for textbox custom properties. To create and assign values for custom properties using properties panel refer [Custom Properties](/report-designer/compose-report/common-properties/#custom-properties) section.
 
 <span style="font-weight:bold">Tooltip</span>
 
-Tooltip property can be used to display informative text or value, when the user hovers over on the report item in report preview. To set tooltip for textbox report item using properties panel refer [Tooltip](/on-premise/report-designer/compose-report/common-properties/#tooltip) section.
+Tooltip property can be used to display informative text or value, when the user hovers over on the report item in report preview. To set tooltip for textbox report item using properties panel refer [Tooltip](/report-designer/compose-report/common-properties/#tooltip) section.
 
 #### Localization
 
@@ -206,7 +206,7 @@ Markup type property can be used to render the selected text as plain text or HT
 
 **Plain Text** - Displays the selected text as simple text and the HTML will be treated as literal text.
 
-**HTML** - Displays the selected text as HTML. If the expression value or values from dataset field contains a valid  HTML tags, these tags will be rendered as HTML. Refer [Add HTML in to a report](/on-premise/report-designer/report-items/textbox/add-html-in-to-a-report/) section to import HTML using textbox.
+**HTML** - Displays the selected text as HTML. If the expression value or values from dataset field contains a valid  HTML tags, these tags will be rendered as HTML. Refer [Add HTML in to a report](/report-designer/report-items/textbox/add-html-in-to-a-report/) section to import HTML using textbox.
 
 #### Paragraph Settings
 
@@ -232,16 +232,16 @@ Using this property you can add space before and after the paragraphs in the tex
 
 ## Set expression
 
-An expression can be set to few properties of the textbox report item to process the property values based on expressions. To set expressions to the textbox report item properties, refer [Set Expression](/on-premise/report-designer/compose-report/properties-panel/#set-expression) section.
+An expression can be set to few properties of the textbox report item to process the property values based on expressions. To set expressions to the textbox report item properties, refer [Set Expression](/report-designer/compose-report/properties-panel/#set-expression) section.
 
 ## Reset expression
 
-To `Reset` the expression applied to a property, refer [Reset Expression](/on-premise/report-designer/compose-report/properties-panel/#reset-expression) section.
+To `Reset` the expression applied to a property, refer [Reset Expression](/report-designer/compose-report/properties-panel/#reset-expression) section.
 
 ## Advanced properties
 
-Few properties of the textbox report contains nested properties. To open and handle nested properties, refer [Advanced Properties](/on-premise/report-designer/compose-report/properties-panel/#advanced-properties) section.
+Few properties of the textbox report contains nested properties. To open and handle nested properties, refer [Advanced Properties](/report-designer/compose-report/properties-panel/#advanced-properties) section.
 
 ## Design RDL report using textbox
 
-Refer [Design RDL report using textbox](/on-premise/report-designer/report-items/textbox/design-rdl-report-using-textbox/) section to learn how to position, style, format, link report, add hyperlink in a textbox.
+Refer [Design RDL report using textbox](/report-designer/report-items/textbox/design-rdl-report-using-textbox/) section to learn how to position, style, format, link report, add hyperlink in a textbox.

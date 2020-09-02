@@ -42,7 +42,7 @@ On report preview, each quarter sales of a year will be grouped along column.
 
 ![Open group menu](/static/assets/on-premise/images/report-designer/report-items/tablix-insert-or-delete-group/column-group-output.png)
 
-Similarly, you can add child and adjacent group in the column group. Refer [Insert or Delete Row Group](/on-premise/report-designer/report-items/tablix/insert-or-delete-a-row-group-ssrs/) section to add row groups.
+Similarly, you can add child and adjacent group in the column group. Refer [Insert or Delete Row Group](/report-designer/report-items/tablix/insert-or-delete-a-row-group-ssrs/) section to add row groups.
 
 ## Delete column group
 
@@ -62,4 +62,4 @@ Now, the respective group information will be deleted from the tablix data regio
 
 ## Edit group properties
 
-To edit a column group properties in a tablix data region, refer [Tablix member properties](/on-premise/report-designer/report-items/tablix/grouping-panel/#group-member-properties) section.
+To edit a column group properties in a tablix data region, refer [Tablix member properties](/report-designer/report-items/tablix/grouping-panel/#group-member-properties) section.

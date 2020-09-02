@@ -12,7 +12,7 @@ This section describes the steps to design RDL report using textbox.
 
 You can add textbox report item in header, footer and body area of the report.
 
-1. Refer [Add a textbox to the report](/on-premise/report-designer/report-items/textbox/) section and add a textbox in the report header, body and footer section.
+1. Refer [Add a textbox to the report](/report-designer/report-items/textbox/) section and add a textbox in the report header, body and footer section.
 
 2. In the below snap, the textbox is added in report header to display a title text, report body to display static fields, and in report footer to display a label for signature field in the report.
 ![Design report using textbox](/static/assets/on-premise/images/report-designer/report-items/textbox/enter-text-in-footer-textbox.png)
@@ -21,15 +21,15 @@ You can add textbox report item in header, footer and body area of the report.
 
 You can display dynamic values in the textbox using parameters and dataset fields. To achieve this requirement expressions are used. In the below steps, the report parameter is assigned in the textbox to display the dynamic value.
 
-1. Refer [Create Parameter](/on-premise/report-designer/report-parameters/add/#create-parameter) section and create a new report parameter
-2. Refer [Add a textbox to the report](/on-premise/report-designer/report-items/textbox/) section and add a textbox in the report.
+1. Refer [Create Parameter](/report-designer/report-parameters/add/#create-parameter) section and create a new report parameter
+2. Refer [Add a textbox to the report](/report-designer/report-items/textbox/) section and add a textbox in the report.
 3. Focus in the textbox and right click in the text area. The textbox context menu will appear as shown below.
 ![Design report using textbox](/static/assets/on-premise/images/report-designer/report-items/textbox/expression-menu.png)
 4. Select the `Expression` option in the menu list. Now, expression editor opens as shown below.
 ![Design report using textbox](/static/assets/on-premise/images/report-designer/report-items/textbox/expression-editor.png)
 5. You can choose/specify the required expression in the text area. Here, a `InvoiceID` parameter appended with `#` symbol is assigned as expression.
 ![Design report using textbox](/static/assets/on-premise/images/report-designer/report-items/textbox/set-parameter-value-as-expression.png)
-   > To learn more about handling expressions in report designer refer [Expressions](/on-premise/report-designer/compose-report/expressions/) section.
+   > To learn more about handling expressions in report designer refer [Expressions](/report-designer/compose-report/expressions/) section.
 6. The specified expression is displayed as `<<Exp>>` in the text area at respective cursor position.
    ![Design report using textbox](/static/assets/on-premise/images/report-designer/report-items/textbox/expression-created.png)
 
@@ -45,7 +45,7 @@ You can display dynamic values in the textbox using parameters and dataset field
 
 ## Associate a textbox with dataset
 
-Refer [Create Data](/on-premise/report-designer/manage-data/dataset/create-an-embedded-dataset/) section to create dataset in Web Report Designer.
+Refer [Create Data](/report-designer/manage-data/dataset/create-an-embedded-dataset/) section to create dataset in Web Report Designer.
 
 ### Drag and drop dataset field
 
@@ -58,11 +58,11 @@ Refer [Create Data](/on-premise/report-designer/manage-data/dataset/create-an-em
 
 ### Assign the field using expression editor
 
-You can also associate the dataset field in textbox using the expression editor. Refer [Dataset Fields in Expression](/on-premise/report-designer/compose-report/expressions/using-dataset-fields/) section.
+You can also associate the dataset field in textbox using the expression editor. Refer [Dataset Fields in Expression](/report-designer/compose-report/expressions/using-dataset-fields/) section.
 
 ## Associate a textbox with parameter
 
-Refer [Create Parameter](/on-premise/report-designer/report-parameters/add/#create-parameter) section to create report parameter in Web Report Designer.
+Refer [Create Parameter](/report-designer/report-parameters/add/#create-parameter) section to create report parameter in Web Report Designer.
 
 ### Drag and drop parameter field
 
@@ -75,7 +75,7 @@ Refer [Create Parameter](/on-premise/report-designer/report-parameters/add/#crea
 
 ### Assign the parameter using expression editor
 
-You can also associate parameter in textbox using the expression editor. Refer [Dataset Fields in Expression](/on-premise/report-designer/compose-report/expressions/using-report-parameters/) section.
+You can also associate parameter in textbox using the expression editor. Refer [Dataset Fields in Expression](/report-designer/compose-report/expressions/using-report-parameters/) section.
 
 ## Configure and Format textbox content
 
@@ -122,7 +122,7 @@ You can apply format for overall textbox value or to a selected text in a textbo
 ![Design report using textbox](/static/assets/on-premise/images/report-designer/report-items/textbox/format-dataset-field.png)
 2. In the properties pane, to set the format click on the below highlighted button under the `Basic Settings` category.
 ![Design report using textbox](/static/assets/on-premise/images/report-designer/report-items/textbox/format-dataset-field-button.png)
-3. Now, the format dialog will open. Refer [Format Data](/on-premise/report-designer/compose-report/format-data/) section to set different formats to the data. Here, the `Currency` format is applied to the `Unit Price` dataset field.
+3. Now, the format dialog will open. Refer [Format Data](/report-designer/compose-report/format-data/) section to set different formats to the data. Here, the `Currency` format is applied to the `Unit Price` dataset field.
 ![Design report using textbox](/static/assets/on-premise/images/report-designer/report-items/textbox/set-format-to-overall-textbox.png)
 4. Once you set format, the format will be shown in the properties panel like below,
 ![Design report using textbox](/static/assets/on-premise/images/report-designer/report-items/textbox/format-value-in-text-area.png)
@@ -135,7 +135,7 @@ You can apply format for overall textbox value or to a selected text in a textbo
 ![Design report using textbox](/static/assets/on-premise/images/report-designer/report-items/textbox/apply-format-for-selected-text.png)
 2. In the properties pane, to set the format click on the below highlighted button under the `Basic Settings` category.
 ![Design report using textbox](/static/assets/on-premise/images/report-designer/report-items/textbox/selected-text-format-button.png)
-3. Now, the format dialog will open. Refer [Format Data](/on-premise/report-designer/compose-report/format-data/) section to set different formats to the data. Here, the `Currency` format is applied to the `Unit Price` dataset field.
+3. Now, the format dialog will open. Refer [Format Data](/report-designer/compose-report/format-data/) section to set different formats to the data. Here, the `Currency` format is applied to the `Unit Price` dataset field.
 ![Design report using textbox](/static/assets/on-premise/images/report-designer/report-items/textbox/set-format-to-overall-textbox.png)
 4. Once you set format, the format will be shown in the properties panel like below,
 ![Design report using textbox](/static/assets/on-premise/images/report-designer/report-items/textbox/format-value-in-text-area.png)
@@ -152,7 +152,7 @@ You can link a report in the textbox, when you click on a specific text it will 
 ![Design report using textbox](/static/assets/on-premise/images/report-designer/report-items/textbox/select-a-textbox-to-link-report.png)
 2. In the properties view, enable the `Enable Link` option under `Link` category.
 ![Design report using textbox](/static/assets/on-premise/images/report-designer/report-items/textbox/enable-link-over-all-textbox.png)
-3. Refer [Report Linking](/on-premise/report-designer/compose-report/link-data/#report-linking) section and set the report path in the textbox.
+3. Refer [Report Linking](/report-designer/compose-report/link-data/#report-linking) section and set the report path in the textbox.
 ![Design report using textbox](/static/assets/on-premise/images/report-designer/report-items/textbox/set-report-path.png)
 4. On report preview, when you click anywhere within the specific textbox will display the `SalesOrderDetail` report in the report viewer.
 ![Design report using textbox](/static/assets/on-premise/images/report-designer/report-items/textbox/report-linking-overall-textbox-preview.png)
@@ -165,7 +165,7 @@ You can link a report in the textbox, when you click on a specific text it will 
 ![Design report using textbox](/static/assets/on-premise/images/report-designer/report-items/textbox/report-linking-selected-text.png)
 2. In the properties view, enable the `Enable Link` option under `Link` category.
 ![Design report using textbox](/static/assets/on-premise/images/report-designer/report-items/textbox/report-linking-selected-text-enable-link.png)
-3. Refer [Report Linking](/on-premise/report-designer/compose-report/link-data/#report-linking) section and set the report path in the textbox.
+3. Refer [Report Linking](/report-designer/compose-report/link-data/#report-linking) section and set the report path in the textbox.
 ![Design report using textbox](/static/assets/on-premise/images/report-designer/report-items/textbox/set-report-path.png)
 4. On report preview, when you click on the `here` text in the respective textbox will display the `SalesOrderDetail` report in the report viewer.
 ![Design report using textbox](/static/assets/on-premise/images/report-designer/report-items/textbox/report-linking-selected-text-preview.png)
@@ -182,7 +182,7 @@ You can define the events to take place when users click on the text box or cert
 ![Design report using textbox](/static/assets/on-premise/images/report-designer/report-items/textbox/add-hyper-link-select-textbox.png)
 2. In the properties view, enable the `Enable Link` option under `Link` category.
 ![Design report using textbox](/static/assets/on-premise/images/report-designer/report-items/textbox/enable-link-over-all-textbox.png)
-3. Refer [Hyperlink](/on-premise/report-designer/compose-report/link-data/#hyperlink) section and set the URL in the textbox.
+3. Refer [Hyperlink](/report-designer/compose-report/link-data/#hyperlink) section and set the URL in the textbox.
 ![Design report using textbox](/static/assets/on-premise/images/report-designer/report-items/textbox/set-report-url.png)
 4. On report preview, when you click anywhere within the specific textbox will display the `SalesOrderDetail` report in the report viewer on the new tab in browser.
 ![Design report using textbox](/static/assets/on-premise/images/report-designer/report-items/textbox/hyperlink-report-preview.png)
@@ -193,7 +193,7 @@ You can define the events to take place when users click on the text box or cert
 ![Design report using textbox](/static/assets/on-premise/images/report-designer/report-items/textbox/report-linking-selected-text.png)
 2. In the properties view, enable the `Enable Link` option under `Link` category.
 ![Design report using textbox](/static/assets/on-premise/images/report-designer/report-items/textbox/report-linking-selected-text-enable-link.png)
-3. Refer [Hyperlink](/on-premise/report-designer/compose-report/link-data/#hyperlink) section and set the URL in the textbox.
+3. Refer [Hyperlink](/report-designer/compose-report/link-data/#hyperlink) section and set the URL in the textbox.
 ![Design report using textbox](/static/assets/on-premise/images/report-designer/report-items/textbox/set-report-url.png)
 4. On report preview, when you click on the `here` text in the respective textbox will display the `SalesOrderDetail` report in the report viewer on the new tab in browser.
 ![Design report using textbox](/static/assets/on-premise/images/report-designer/report-items/textbox/hyperlink-report-preview.png)

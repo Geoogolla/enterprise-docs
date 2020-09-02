@@ -21,7 +21,7 @@ If you enable the `Enable Legend` checkbox, the map legend will be displayed in 
 
 ![Legend in map surface](/static/assets/on-premise/images/report-designer/report-items/map/legend/legend-in-map-surface.png)
 
-You can also enable or disable the legend based on dynamic values, by using the `Expressions`. Refer [Set Expression](/on-premise/report-designer/compose-report/properties-panel/#set-expression) and [Reset Expression](/on-premise/report-designer/compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
+You can also enable or disable the legend based on dynamic values, by using the `Expressions`. Refer [Set Expression](/report-designer/compose-report/properties-panel/#set-expression) and [Reset Expression](/report-designer/compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
 
 ## Customize legend
 
@@ -41,7 +41,7 @@ Now, the background color property will be applied to the legend area.
 
 ![Background color in design](/static/assets/on-premise/images/report-designer/report-items/map/legend/bg-color-in-design.png)
 
-You can also apply background color based on dynamic values, by using the `Expressions`. Refer [Set Expressions](/on-premise/report-designer/compose-report/properties-panel/#set-expression) and [Reset Expressions](/on-premise/report-designer/compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
+You can also apply background color based on dynamic values, by using the `Expressions`. Refer [Set Expressions](/report-designer/compose-report/properties-panel/#set-expression) and [Reset Expressions](/report-designer/compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
 
 ### Position
 
@@ -59,7 +59,7 @@ You can customize the title text for legend using this property. By default, the
 
 ![Legend-title-text](/static/assets/on-premise/images/report-designer/report-items/map/legend/title.png)
 
-You can also apply title text based on dynamic values, by using the `Expressions`. Refer [Set Expressions](/on-premise/report-designer/compose-report/properties-panel/#set-expression) and [Reset Expressions](/on-premise/report-designer/compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
+You can also apply title text based on dynamic values, by using the `Expressions`. Refer [Set Expressions](/report-designer/compose-report/properties-panel/#set-expression) and [Reset Expressions](/report-designer/compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
 
 #### Title font
 
@@ -71,7 +71,7 @@ Now, the title font properties will be displayed in the advanced options.
 
 ![Font properties](/static/assets/on-premise/images/report-designer/report-items/map/legend/font-properties.png)
 
-You can also apply font properties based on dynamic values, by using the `Expressions`. Refer [Set Expressions](/on-premise/report-designer/compose-report/properties-panel/#set-expression) and [Reset Expressions](/on-premise/report-designer/compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
+You can also apply font properties based on dynamic values, by using the `Expressions`. Refer [Set Expressions](/report-designer/compose-report/properties-panel/#set-expression) and [Reset Expressions](/report-designer/compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
 
 ![Dynamic font values](/static/assets/on-premise/images/report-designer/report-items/map/legend/font-expression.png)
 
