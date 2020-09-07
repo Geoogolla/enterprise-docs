@@ -10,6 +10,6 @@ Bold Report Designer supports to embed local or database images into the report 
 
 ## See also
 
-[Embed an image](/on-premise/report-designer/image-manager/add-image/)
+[Embed an image](/report-designer/image-manager/add-image/)
 
-[Delete embedded image](/on-premise/report-designer/image-manager/delete-image/)
+[Delete embedded image](/report-designer/image-manager/delete-image/)

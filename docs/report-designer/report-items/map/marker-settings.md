@@ -31,7 +31,7 @@ Now, the background color property will be applied to the map markers.
 
 ![Background color in design](/static/assets/on-premise/images/report-designer/report-items/map/marker-settings/bg-color-design.png)
 
-You can also apply background color based on dynamic values, by using the `Expressions`. Refer [Set Expressions](/on-premise/report-designer/compose-report/properties-panel/#set-expression) and [Reset Expressions](/on-premise/report-designer/compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
+You can also apply background color based on dynamic values, by using the `Expressions`. Refer [Set Expressions](/report-designer/compose-report/properties-panel/#set-expression) and [Reset Expressions](/report-designer/compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
 
 > When you apply any of the marker color rules, it will take precedence over basic marker settings.
 
@@ -41,7 +41,7 @@ Border property can be used to draw border around each marker icons in the map s
 
 ![Shape border in design](/static/assets/on-premise/images/report-designer/report-items/map/marker-settings/border-design.png)
 
-You can also set border properties based on dynamic values, by using the `Expressions`. Refer [Set Expression](/on-premise/report-designer/compose-report/properties-panel/#set-expression) and [Reset Expression](/on-premise/report-designer/compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
+You can also set border properties based on dynamic values, by using the `Expressions`. Refer [Set Expression](/report-designer/compose-report/properties-panel/#set-expression) and [Reset Expression](/report-designer/compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
 
 ![Shape border expression](/static/assets/on-premise/images/report-designer/report-items/map/marker-settings/expression-menu.png)
 
@@ -55,7 +55,7 @@ Select the required marker icon style in this property, it will be applied on ma
 
 ![Style design](/static/assets/on-premise/images/report-designer/report-items/map/marker-settings/style-design.png)
 
-You can also set marker properties based on dynamic values, by using the `Expressions`. Refer [Set Expression](/on-premise/report-designer/compose-report/properties-panel/#set-expression) and [Reset Expression](/on-premise/report-designer/compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
+You can also set marker properties based on dynamic values, by using the `Expressions`. Refer [Set Expression](/report-designer/compose-report/properties-panel/#set-expression) and [Reset Expression](/report-designer/compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
 
 ![Style expression](/static/assets/on-premise/images/report-designer/report-items/map/marker-settings/style-expression.png)
 
@@ -65,7 +65,7 @@ This property can be used to define the size for marker icons.
 
 ![Size](/static/assets/on-premise/images/report-designer/report-items/map/marker-settings/size.png)
 
-You can also set marker properties based on dynamic values, by using the `Expressions`. Refer [Set Expression](/on-premise/report-designer/compose-report/properties-panel/#set-expression) and [Reset Expression](/on-premise/report-designer/compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
+You can also set marker properties based on dynamic values, by using the `Expressions`. Refer [Set Expression](/report-designer/compose-report/properties-panel/#set-expression) and [Reset Expression](/report-designer/compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
 
 ![Size expression](/static/assets/on-premise/images/report-designer/report-items/map/marker-settings/style-expression.png)
 
@@ -73,6 +73,6 @@ You can also set marker properties based on dynamic values, by using the `Expres
 
 You can configure a tooltip for marker icons using the `ToolTip` property. It can be used to display information, such as descriptive text or data related to the specific marker shape. When you hover over the each marker icon in a rendered report, information will be shown in the tooltip.
 
-You can enter a static text or set an expression that evaluates to a value. Refer [Set Expressions](/on-premise/report-designer/compose-report/properties-panel/#set-expression) and [Reset Expressions](/on-premise/report-designer/compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
+You can enter a static text or set an expression that evaluates to a value. Refer [Set Expressions](/report-designer/compose-report/properties-panel/#set-expression) and [Reset Expressions](/report-designer/compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
 
 ![Set dynamic value for tooltip](/static/assets/on-premise/images/report-designer/report-items/map/marker-settings/tooltip.png)

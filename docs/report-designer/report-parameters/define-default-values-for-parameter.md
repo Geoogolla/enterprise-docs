@@ -8,7 +8,7 @@ keywords: report-parameter, add parameter, report-designer, ssrs report paramete
 
 A list of default values can be specified for a report parameter. If the parameters in the report have default value, the report runs automatically on report preview action.
 
-Refer [Create Parameter](/on-premise/report-designer/report-parameters/add/#create-parameter) section for better understanding with the following steps.
+Refer [Create Parameter](/report-designer/report-parameters/add/#create-parameter) section for better understanding with the following steps.
 
 ![Create new parameter](/static/assets/on-premise/images/report-designer/report-parameters/add-report-parameter/create-new-parameter.png)
 
@@ -50,7 +50,7 @@ On report preview, the report automatically runs and displays the first record o
 
 To remove the default values defined for the parameter follow the below steps:
 
-1. Refer [Edit Parameter](/on-premise/report-designer/report-parameters/edit/) section and open parameter properties.
+1. Refer [Edit Parameter](/report-designer/report-parameters/edit/) section and open parameter properties.
 2. Click on `Assign Value >>` to open parameter assign dialog.
 3. Under the `Default Values` tab, choose the `None` option.
 ![Remove default values](/static/assets/on-premise/images/report-designer/report-parameters/add-report-parameter/remove-default-values.png)

@@ -13,7 +13,7 @@ The following section describes the step by step process to create a cascading p
 
 ### Create the main dataset
 
-Create a new dataset by following the steps provided in [Create Data](/on-premise/report-designer/manage-data/dataset/create-an-embedded-dataset/#design-query-data) section before proceeding with below steps:
+Create a new dataset by following the steps provided in [Create Data](/report-designer/manage-data/dataset/create-an-embedded-dataset/#design-query-data) section before proceeding with below steps:
 
 1. In **Name** field, type the name of the dataset. For example, we have provided **SalesbyCategory** as dataset name.
 2. Click on the `switcher` in query designer toolbar, to switch to the query mode.
@@ -66,7 +66,7 @@ Once you save the dataset, an equivalent report parameters will be created under
 
 ### Create dataset for independent parameter
 
-1. Create a new dataset by following the steps provided in [Create Data](/on-premise/report-designer/manage-data/dataset/create-an-embedded-dataset/#design-query-data) section before proceeding with below steps.
+1. Create a new dataset by following the steps provided in [Create Data](/report-designer/manage-data/dataset/create-an-embedded-dataset/#design-query-data) section before proceeding with below steps.
 2. In **Name** field, type the name of the dataset. For example, we have chosen **CategoryValues** as dataset name.
 3. Paste the following query text in the query editor:
 
@@ -86,7 +86,7 @@ Once you save the dataset, an equivalent report parameters will be created under
 
 1. Click `Parameter` icon in the configuration panel to open a `PARAMETERS` panel.
 ![Parameter icon](/static/assets/on-premise/images/report-designer/report-parameters/create-cascading-parameter/parameter-icon.png)
-2. Edit the **Category** parameter. In name field, verify that the name is **Category**. Refer [Edit Report Parameter](/on-premise/report-designer/report-parameters/edit/) section.
+2. Edit the **Category** parameter. In name field, verify that the name is **Category**. Refer [Edit Report Parameter](/report-designer/report-parameters/edit/) section.
 3. Click `Assign Value >>` to open the `Parameter Assign` dialog.
 4. Select `Query Value` option under `Available Value` tab.
 5. Select the `CategoryValues` in dataset field, `Category` in value and label field.
@@ -97,7 +97,7 @@ Once you save the dataset, an equivalent report parameters will be created under
 
 Next, need to create dataset for dependent parameter and assign values to it. For example, we have chosen `@Subcategory` as dependent parameter.
 
-1. Create a new dataset by following the steps provided in [Create Data](/on-premise/report-designer/manage-data/dataset/create-an-embedded-dataset/#design-query-data) section before proceeding with below steps.
+1. Create a new dataset by following the steps provided in [Create Data](/report-designer/manage-data/dataset/create-an-embedded-dataset/#design-query-data) section before proceeding with below steps.
 2. In **Name** field, type the name of the dataset. For example, we have chosen **SubcategoryValues** as dataset name.
 3. Switch to the query editor mode and paste the following query text in the query editor:
 
@@ -133,7 +133,7 @@ Next, need to create dataset for dependent parameter and assign values to it. Fo
 1. Design a simple table report and assign the `SalesbyCategory` dataset to the table.
 ![Design table report](/static/assets/on-premise/images/report-designer/report-parameters/create-cascading-parameter/simple-table-report-design.png)
 
-   > Refer [Design a simple table report](/on-premise/report-designer/design-rdl-report-in-web-report-designer/#add-table-report-item) section to create a table report in Web Report Designer.
+   > Refer [Design a simple table report](/report-designer/design-rdl-report-in-web-report-designer/#add-table-report-item) section to create a table report in Web Report Designer.
 2. Click on the `Preview` button in the report header.
 3. Choose `Accessories` in the `Category` parameter drop-down, based on the `Accessories` category the values will be populated in the `SubCategory` drop-down.
 ![Choose value for Category parameter](/static/assets/on-premise/images/report-designer/report-parameters/create-cascading-parameter/sub-category-parameter-drop-down.png)

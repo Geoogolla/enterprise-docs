@@ -11,4 +11,4 @@ Choose the **Custom** option in type drop down, under `Marker Color Rule` catego
 
 ![Map palette types](/static/assets/on-premise/images/report-designer/report-items/map/marker-color-rule/custom-colors-field.png)
 
-This option can be used to define any number of colors sets based on your desired output. To define custom colors, refer [Custom colors](/on-premise/report-designer/report-items/map/define-custom-colors/) section.
+This option can be used to define any number of colors sets based on your desired output. To define custom colors, refer [Custom colors](/report-designer/report-items/map/define-custom-colors/) section.

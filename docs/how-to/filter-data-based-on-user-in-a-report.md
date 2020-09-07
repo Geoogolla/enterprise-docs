@@ -11,7 +11,7 @@ First we need to connect to the data, and present it in table format using table
 
 ## Connecting to Data
 
-Here to showcase the sales history, sample data is prepared by creating a temporary table using SQL query in the query designer. You can also [connect to your data](/on-premise/report-designer/manage-data/) from any of your server or local database.
+Here to showcase the sales history, sample data is prepared by creating a temporary table using SQL query in the query designer. You can also [connect to your data](/report-designer/manage-data/) from any of your server or local database.
 
 1. Click the `Data` icon in the configuration panel to launch a `Data` configuration pane.
 ![Report Designer page](/static/assets/on-premise/images/how-to/filter-data-based-on-user-in-a-report/data-pane.png)
@@ -100,7 +100,7 @@ The table report item is listed in the item panel under the Data Regions categor
 Drag and drop the table report item into the design area from the item panel.
 ![Add table to the design](/static/assets/on-premise/images/how-to/filter-data-based-on-user-in-a-report/add-table.png)
 
-Assign the required data fields in the table cell and format the report design as required using the properties listed in property panel. Refer [Simple Table Design](/on-premise/report-designer/report-items/tablix/design-ssrs-rdl-report-using-table/) section to learn the designing steps in detail.
+Assign the required data fields in the table cell and format the report design as required using the properties listed in property panel. Refer [Simple Table Design](/report-designer/report-items/tablix/design-ssrs-rdl-report-using-table/) section to learn the designing steps in detail.
 
 The below report design will display the customer name, purchase details and sales amount achieved by a salesperson when the report runs.
 ![Simple table design to view sales history](/static/assets/on-premise/images/how-to/filter-data-based-on-user-in-a-report/design-view.png)

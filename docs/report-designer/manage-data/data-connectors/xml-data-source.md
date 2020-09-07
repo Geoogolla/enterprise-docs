@@ -90,6 +90,6 @@ You can connect XML data using the following three options,
 
 ## See also
 
-[Formatting Columns](/on-premise/report-designer/transforming-data/formatting-columns/)
+[Formatting Columns](/report-designer/transforming-data/formatting-columns/)
 
-[Dataset Parameter](/on-premise/report-designer/transforming-data/link-a-query-parameter-with-a-report-parameter/)
+[Dataset Parameter](/report-designer/transforming-data/link-a-query-parameter-with-a-report-parameter/)

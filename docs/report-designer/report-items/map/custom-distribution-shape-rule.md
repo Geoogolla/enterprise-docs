@@ -22,7 +22,7 @@ Now, you will be taken to the **Map Bucket** panel.
 
 ## Buckets
 
-To define the data ranges explicitly in the `Buckets` property, refer [Custom Buckets](/on-premise/report-designer/report-items/map/define-custom-data-range/#add-bucket) section.
+To define the data ranges explicitly in the `Buckets` property, refer [Custom Buckets](/report-designer/report-items/map/define-custom-data-range/#add-bucket) section.
 
 ## Legend text
 
@@ -37,6 +37,6 @@ This property can be used to set format of content in a legend. To format the co
 |#TOVALUE|Showcases the actual value of the data field.|
 |#FROMVALUE {C0}|Showcases the values in currency format without decimal places.|
 
-You can also apply legend text based on dynamic values, by using the `Expressions`. Refer [Set Expressions](/on-premise/report-designer/compose-report/properties-panel/#set-expression) and [Reset Expressions](/on-premise/report-designer/compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
+You can also apply legend text based on dynamic values, by using the `Expressions`. Refer [Set Expressions](/report-designer/compose-report/properties-panel/#set-expression) and [Reset Expressions](/report-designer/compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
 
 > Legends automatically extend to show the legend title or legend text.
