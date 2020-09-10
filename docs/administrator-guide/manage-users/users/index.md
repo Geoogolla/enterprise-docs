@@ -73,7 +73,7 @@ If the user has not received the activation email within 2 days or missed to act
 
 ## Manage permissions
 
-Check the [Manage Permissions](/on-premise/manage-permissions/) section to learn how to manage permissions to an user.
+Check the [Manage Permissions](/administrator-guide/manage-permissions/) section to learn how to manage permissions to an user.
 
 ## Assign users to group
 
