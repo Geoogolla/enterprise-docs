@@ -114,7 +114,6 @@
 
     }
 },
-
 "Designer Guide":{
     "Report Designer": {
     "Report Creation": "design-rdl-report-in-web-report-designer.md",
@@ -352,7 +351,6 @@
     "Collaborations": "collaboration.md",
     "Notifications": "notifications.md"
 },
-    
 "Developer Guide":{
     "REST API": {
         "v1.0": "v1.0?html=true"
