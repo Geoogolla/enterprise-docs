@@ -110,23 +110,14 @@ Once you are done with the report designing, click on the `Publish` option.
 ## See also
 
 [Design a Basic Table Report](designer-guide/report-designer/design-rdl-report-in-web-report-designer/)
-
 [Create an Embedded DataSource](/designer-guide/report-designer/manage-data/datasource/create-an-embedded-data-source/)
-
 [Create an Embedded DataSet](/designer-guide/report-designer/manage-data/dataset/create-an-embedded-dataset/)
-
 [Link a Shared DataSource into a Report](/designer-guide/report-designer/manage-data/datasource/link-a-shared-data-source/)
-
 [Link a Shared DataSet into a Report](/designer-guide/report-designer/manage-data/dataset/link-a-shared-dataset/)
-
 [Create a Duplicate Copy of DataSource in a Report](/designer-guide/report-designer/manage-data/datasource/duplicate-a-data-source/)
-
 [Create a Duplicate Copy of DataSet in a Report](/designer-guide/report-designer/manage-data/dataset/duplicate-a-dataset/)
-
 [Add a Report Parameter to a Report](/designer-guide/report-designer/report-parameters/add/)
-
 [Embed an Image in a Report](/designer-guide/report-designer/image-manager/add-image/)
-
 ## REST API Reference
 
 The following table illustrates the list of available APIs related to Add reports in Bold Reports On-Premise.

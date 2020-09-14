@@ -70,7 +70,7 @@ On report preview, product names will be categorized based on the product type.
 
 ![Open group menu](/static/assets/on-premise/images/report-designer/report-items/tablix-insert-or-delete-group/child-row-group-output.png)
 
-> To add child group using group menu in grouping panel, refer [Add child group](/report-designer/report-items/tablix/grouping-panel/#add-child-group) section.
+> To add child group using group menu in grouping panel, refer [Add child group](/designer-guide/report-designer/report-items/tablix/grouping-panel/#add-child-group) section.
 
 ### Adjacent row group
 
@@ -86,7 +86,6 @@ To create multiple groupings in a tablix data region adjacent grouping can be us
 Now, a new row group will be created above or below the existing group in the tablix data region.
 
 > To add adjacent group using group menu in grouping panel, refer [Add adjacent group](/designer-guide/report-designer/report-items/tablix/grouping-panel/#add-adjacent-group) section.
-
 ## Delete row group
 
 Row group can be deleted either using the cell context menu or using the group menu provided in grouping panel.

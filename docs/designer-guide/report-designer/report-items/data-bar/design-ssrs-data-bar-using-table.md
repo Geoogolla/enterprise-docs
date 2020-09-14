@@ -23,13 +23,11 @@ GROUP BY DATEPART(yy, SOH.OrderDate), PC.Name, PS.Name, 'Q' + DATENAME(qq, SOH.O
 ```
 
 > Refer [Create Data](/designer-guide/report-designer/manage-data/dataset/create-an-embedded-dataset/#create-an-embedded-dataset) section and create dataset using the above query. `AdventuresWorks` database is used here.
-
 ## Add data bar report item
 
 1. Drag and drop table report item to the design area.
 ![Data bar item in item panel](/static/assets/on-premise/images/report-designer/report-items/data-bar/design/add-table.png)
-2. Assign [dataset](/designer-guide/report-designer/report-items/tablix/assign-data-to-tablix-data-region/#assign-data-from-properties-panel) to the table.
-![Assign dataset to table](/static/assets/on-premise/images/report-designer/report-items/data-bar/design/assign-data.png)
+2. Assign [dataset](/designer-guide/report-designer/report-items/tablix/assign-data-to-tablix-data-region/#assign-data-from-properties-panel) to the table.![Assign dataset to table](/static/assets/on-premise/images/report-designer/report-items/data-bar/design/assign-data.png)
 3. Design a simple table design with two columns like below.
 ![Table report design](/static/assets/on-premise/images/report-designer/report-items/data-bar/design/basic-table-design.png)
 4. Click on `Details group` in `Row Groups` pane, now the respective tablix member properties will be listed in the properties panel.
@@ -38,11 +36,10 @@ GROUP BY DATEPART(yy, SOH.OrderDate), PC.Name, PS.Name, 'Q' + DATENAME(qq, SOH.O
 ![Group dialog](/static/assets/on-premise/images/report-designer/report-items/data-bar/design/group-dialog.png)
 6. Click on `Add` button and select `SubCat` and click OK.
 ![Group data in table](/static/assets/on-premise/images/report-designer/report-items/data-bar/design/group-data.png)
-7. Now select the `Sales` text box and [assign the following expression](/designer-guide/report-designer/report-items/tablix/assign-data-to-tablix-data-region/#edit-expression-in-properties-panel) `=Sum(Fields!Sales.Value)` in the cell.
-![Sum sales value](/static/assets/on-premise/images/report-designer/report-items/data-bar/design/sum-sales-value.png)
+7. Now select the `Sales` text box and [assign the following expression](/designer-guide/report-designer/report-items/tablix/assign-data-to-tablix-data-region/#edit-expression-in-properties-panel) `=Sum(Fields!Sales.Value)` in the cell.![Sum sales value](/static/assets/on-premise/images/report-designer/report-items/data-bar/design/sum-sales-value.png)
 8. Format the numbers produced by the `Sales` field, using `Format` property. Set the `'$'#,0;('$'#,0)` as value format property field.
 ![Format textbox value](/static/assets/on-premise/images/report-designer/report-items/data-bar/design/format-sales-value.png)
-9. [Add a column](/report-designer/report-items/tablix/insert-or-delete-a-column-ssrs/#insert-a-column) to the right and name it as `Sales Indicator`.
+9. [Add a column](/designer-guide/report-designer/report-items/tablix/insert-or-delete-a-column-ssrs/#insert-a-column) to the right and name it as `Sales Indicator`.
 ![Add column in table](/static/assets/on-premise/images/report-designer/report-items/data-bar/design/add-column.png)
 10. Drag and drop the data bar report item into last cell of the table.
 ![Add data bar report item](/static/assets/on-premise/images/report-designer/report-items/data-bar/design/add-databar.png)
@@ -63,14 +60,12 @@ Now, the report design will look like below.
 1. Now, switch to the `PROPERTIES` tab in the properties panel.
 2. Choose the `Sales` series in the  `Choose Series` dropdown.
 ![Choose series in chart](/static/assets/on-premise/images/report-designer/report-items/data-bar/design/choose-series.png)
-3. Enable  [Data Label](/designer-guide/report-designer/report-items/chart/data-label/) property checkbox.
-![Chart data label](/static/assets/on-premise/images/report-designer/report-items/data-bar/design/enable-data-label.png)
+3. Enable  [Data Label](/designer-guide/report-designer/report-items/chart/data-label/) property checkbox.![Chart data label](/static/assets/on-premise/images/report-designer/report-items/data-bar/design/enable-data-label.png)
 4. Format the numbers produced by the `Data labels`, using `Format` property. Under the `Advanced Options`, set the `'$'#,0;('$'#,0)` as value format property field.
 ![Format datalabel value](/static/assets/on-premise/images/report-designer/report-items/data-bar/design/format-values.png)
 5. In the below design background color and font styles are changed in table cells to improvise the report design.
 ![Format table design](/static/assets/on-premise/images/report-designer/report-items/data-bar/design/format-report.png)
     > Refer the [Cell Properties](/designer-guide/report-designer/report-items/tablix/cell-properties/#cell-properties) to style the table cell.
-
 ## Report preview
 
 On report preview, the difference in sales between each product category will be displayed like below,

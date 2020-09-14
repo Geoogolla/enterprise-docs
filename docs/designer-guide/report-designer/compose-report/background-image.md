@@ -67,7 +67,6 @@ Open the `Body` properties in properties pane.
 ![Body properties](/static/assets/on-premise/images/report-designer/compose-report/background-image/body-properties.png)
 
 [Embed the required image](/designer-guide/report-designer/image-manager/add-image/) in the report.
-
 Set the `Source` type as `Embedded` and choose the embedded image in `Value` field. Then set the background repeat as required.
 
 ![Set Bacground for report body](/static/assets/on-premise/images/report-designer/compose-report/background-image/set-bg-image-in-body.png)

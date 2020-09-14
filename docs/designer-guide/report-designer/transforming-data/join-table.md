@@ -8,7 +8,6 @@ description: This section describes how to join tables in query designer, and th
 Joining of tables is required when the dataset query design demands for more than one table. The following sections describes the steps required to create and edit the relationships between tables.
 
 Refer [Create Data](/designer-guide/report-designer/manage-data/dataset/create-an-embedded-dataset/) section for better understanding with the following steps.
-
 ## Open query joiner dialog
 
 Click on the `Join` icon in the query designer toolbar to open `Query Joiner` dialog.
@@ -53,7 +52,6 @@ The joins are used to retrieve data from two or more data tables, based on a joi
 4. Full Outer.
 
 Refer [Supported join types](/designer-guide/report-designer/transforming-data/supported-join-types/) section to learn about the purpose of each join type.
-
 ![Join types](/static/assets/on-premise/images/report-designer/transforming-data/join-table/join-types.png)
 
 In the below snap, `inner join` is created between the `PurchaseOrderDetail` and `SalesOrderDetail` tables.

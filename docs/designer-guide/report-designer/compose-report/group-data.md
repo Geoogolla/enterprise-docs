@@ -17,7 +17,6 @@ Grouping can be used to organize and group data in data regions by a field value
    ![choose-group-fields](/static/assets/on-premise/images/report-designer/compose-report/group-data/group-to-choose-fields.png)
 
 2. Based on the dataset assigned to the data region, dataset fields will be listed in this drop-down or else click on the square icon to set an [Expression](/designer-guide/report-designer/compose-report/group-data/#set-expression).
-
     ![open-expression](/static/assets/on-premise/images/report-designer/compose-report/sort-data/expression-field.png)
 3. Click OK.
 4. To add multiple group expression, follow steps 1 - 3.
@@ -33,7 +32,6 @@ Follow steps 1 - 3, to add group expression.
     ![expression-icon](/static/assets/on-premise/images/report-designer/compose-report/group-data/group-expression-icon.png)
 
 2. `Expression` dialog will be open as shown below, Refer [Expression](/designer-guide/report-designer/compose-report/expressions/) section for better understanding with the following sections.
-
    ![open-expression](/static/assets/on-premise/images/report-designer/compose-report/group-data/expression-dialog.png)
 
 3. The icon will be indicated in `Black color`, if the expression is applied to the dataset field.

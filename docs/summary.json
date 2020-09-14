@@ -117,7 +117,7 @@
 
 "Designer Guide":{
     "Report Designer": {
-        "Report Creation": "design-rdl-report-in-web-report-designer.md",
+    "Report Creation": "design-rdl-report-in-web-report-designer.md",
         "Manage Data": {
             "Data Connectors": {
                 "SQL": "sql-data-source.md",
@@ -135,199 +135,193 @@
                 "Link a Shared DataSource": "link-a-shared-data-source.md",
                 "Edit a Shared DataSource": "modify-shared-data-source.md",
                 "Delete a DataSource": "delete-a-data-source.md",
-                "Duplicate a DataSource": "duplicate-a-data-source.md"
-            },
-            "DataSet": {
-                "Create an Embedded DataSet": "create-an-embedded-dataset.md",
-                "Edit an Embedded DataSet": "modify-an-embedded-dataset.md",
-                "Link a Shared DataSet": "link-a-shared-dataset.md",
-                "Edit a Shared DataSet": "modify-shared-dataset.md",
-                "Delete a DataSet": "delete-a-dataset.md",
-                "Duplicate a DataSet": "duplicate-a-dataset.md",
-                "DataSet Fields": "dataset-fields.md",
-                "DataSet Filters": "add-a-filter-to-a-dataset.md",
-                "DataSet Parameters":"dataset-parameters.md"
-            }
-        },            
-        "Transforming Data": {
-            "Joining Tables": "join-table.md",
-            "Join Types": "supported-join-types.md",
-            "Formatting Columns": "formatting-columns.md",
-            "Query Filter": "query-filter.md",
-            "DataSet Parameter": "link-a-query-parameter-with-a-report-parameter.md",
-            "Query Parameter":"define-query-parameters.md",
-            "Configuring Expression Columns": "configure-expression-columns.md",
-            "Supported Built-in Functions in Expression Designer": "supported-functions-in-query-expression.md"
-        },
-        "Report Parameters": {
-            "Add Report Parameter": "add.md",
-            "Edit Report Parameter": "edit.md",
-            "Delete Report Parameter": "delete.md",
-            "Define Available Values": "define-available-values-for-parameter.md",
-            "Define Default Values": "define-default-values-for-parameter.md",
-            "Create Multi Value Parameter": "create-multi-value-parameter.md",
-            "Create Cascading Parameter":"create-cascading-parameter.md",
-            "Parameters Layout":"parameters-layout"
-        },
-        "Image Manager": {
-            "Add an embedded image": "add-image.md",
-            "Delete an embedded image": "delete-image.md"
-        },
-        "Compose Report": {
-            "Toolbar":"tool-bar.md",
-            "Design Surface": {
-                "Report Item Resizing": "report-item-resizing.md",
-                "Report Item Selection": "report-item-selection.md",
-                "Report Item Alignment": "report-item-alignment.md",
-                "Context Menu":"context-menu.md"
-            },
-            "Properties Panel":"properties-panel.md",
-            "Report Properties":"report-properties.md",
-            "Header Body and Footer Properties":"header-body-and-footer-properties.md",
-            "Show or Hide Header and Footer":"show-or-hide-header-footer-in-report.md",
-            "Common Properties" : "common-properties.md",
-            "Report Item Multiselection":"report-item-multi-selection.md",
-            "Sort Data": "sort-data.md",
-            "Group Data": "group-data.md",
-            "Filter Data": "filter-data.md",
-            "Format Data": "format-data.md",
-            "Linking": "link-data.md",
-            "Background Image":"background-image.md",
-            "Drilldown Action": "create-ssrs-drill-down-report.md",
-            "Drillthrough Action": "create-ssrs-drill-through-report.md",
-            "Multiple Column Report": "create-multiple-column-report-ssrs.md",
-            "Interactive Sorting": "interactive-sorting.md",
-            "Unit Switcher": "unit-switcher.md",
-            "Layouting": "layout-ordering.md",
-            "Expressions": {
-                "Dataset Fields": "using-dataset-fields.md",
-                "Parameter": "using-report-parameters.md",
-                "Built-in Fields": "using-built-in-fields.md",
-                "Built-in Functions": "using-built-in-functions.md",
-                "Operators": "using-operators.md"                   
-            },
-            "Code Module": "code-module.md",
-            "Page Layout" : "page-layout.md",
-            "Report Variables": "report-variables"
-        },
-        "Report Items": {
-            "Line": "line.md",
-            "Rectangle": "rectangle.md",
-            "Image": "image.md",
-            "SubReport": {
-                "Design RDL Report using Subreport":"design-rdl-report-using-subreport.md"
-            },
-            "TextBox": {
-                "Design RDL Report using Textbox":"design-rdl-report-using-textbox.md",
-                "Add html in to a report" : "add-html-in-to-a-report.md"
-            },
-            "Tablix": {
-                "Grouping Panel": "grouping-panel.md",
-                "Tablix Member Properties":"member-properties.md",
-                "Assign Data" : "assign-data-to-tablix-data-region.md",
-                "Cell Properties" : "cell-properties.md",
-                "Cell Border": "cell-border.md",
-                "Resizing" : "resize-tablix-data-region.md",
-                "Insert or Delete a Row": "insert-or-delete-a-row-ssrs.md",
-                "Insert or Delete a Column": "insert-or-delete-a-column-ssrs.md",
-                "Tablix Group": "group.md",
-                "Insert or Delete a Row Group":"insert-or-delete-a-row-group-ssrs.md",
-                "Insert or Delete a Column Group":"insert-or-delete-a-column-group-ssrs.md",
-                "Insert or Delete a Details Group":"add-or-delete-a-details-group-ssrs.md",
-                "Merge Cells in Data Region": "merge-cells-in-tablix-data-region.md",
-                "Add Filters": "add-filters-to-tablix-data-region.md",
-                "Sort Data": "sort-data-in-tablix-data-region.md",
-                "Add Total": "add-total-in-tablix-data-region.md",
-                "Add Header and Footer": "add-group-header-and-footer-in-tablix-data-region.md",
-                "Nested Data Regions":"nested-data-region.md",
-                "Simple Table Design": "design-ssrs-rdl-report-using-table.md",
-                "Add Grouping and Totals": "add-grouping-and-totals-in-tablix-design.md",
-                "Conditional Formatting": "conditional-formatting-tablix-data-region.md",
-                "Repeat Headers on Each Page": "repeat-headers-on-each-page-in-ssrs.md"
-            },
-            "Matrix":{
-                "Create a Matrix Report":"design-ssrs-matrix-report.md"
-            },
-            "List":{
-                "Create a Mail Merge Report":"design-ssrs-rdl-report-using-list.md"
-            },
-            "Map":{
-                "Properties": "properties.md",
-                "Binding Data": "binding-data.md",
-                "Legend": "legend.md",
-                "Shape Settings": "shape-settings.md",
-                "Shape Color Rule": "shape-color-rule.md",
-                "Color Palette Shape Rule": "color-palette-shape-rule.md",
-                "Color Range Shape Rule":"color-range-shape-rule.md",
-                "Custom Colors Shape Rule":"custom-color-shape-rule.md",
-                "Equal Distribution Shape Rule":"equal-distribution-shape-rule.md",
-                "Equal Interval Shape Rule":"equal-interval-shape-rule.md",
-                "Optimal Distribution Shape Rule": "optimal-distribution-shape-rule.md",
-                "Custom Distribution Shape Rule": "custom-distribution-shape-rule.md",
-                "Define Custom Colors": "define-custom-colors.md",
-                "Define Custom Data Range": "define-custom-data-range.md",
-                "Marker Settings": "marker-settings.md",
-                "Marker Color Rule": "marker-color-rule.md",
-                "Color Palette Marker Rule": "color-palette-marker-rule.md",
-                "Color Range Marker Rule":"color-range-marker-rule.md",
-                "Custom Colors Marker Rule":"custom-color-marker-rule.md",
-                "Equal Distribution Marker Rule":"equal-distribution-marker-rule.md",
-                "Equal Interval Marker Rule":"equal-interval-marker-rule.md",
-                "Optimal Distribution Marker Rule": "optimal-distribution-marker-rule.md",
-                "Custom Distribution Marker Rule": "custom-distribution-marker-rule.md",
-                "Marker Rule": "marker-rule.md",
-                "Use Case": {
-                    "Custom Color Rule": "design-map-using-custom-rule.md",
-                    "Color Range Rule": "design-map-using-color-range-rule.md",
-                    "Color Palette Rule": "design-map-using-color-palette-rule.md",
-                    "Marker Rule": "design-map-using-marker-rule.md",
-                    "Marker Color Range Rule": "design-map-using-marker-color-range-rule.md"
+                "Duplicate a DataSource": "duplicate-a-data-source.md"},
+                "DataSet": {
+                    "Create an Embedded DataSet": "create-an-embedded-dataset.md",
+                    "Edit an Embedded DataSet": "modify-an-embedded-dataset.md",
+                    "Link a Shared DataSet": "link-a-shared-dataset.md",
+                    "Edit a Shared DataSet": "modify-shared-dataset.md",
+                    "Delete a DataSet": "delete-a-dataset.md",
+                    "Duplicate a DataSet": "duplicate-a-dataset.md",
+                    "DataSet Fields": "dataset-fields.md",
+                    "DataSet Filters": "add-a-filter-to-a-dataset.md",
+                    "DataSet Parameters":"dataset-parameters.md"
                 }
-            },
-            "Chart":{
-                "Column Chart" : "column-chart.md",
-                "Pie Chart" : "pie-chart.md",
-                "Bubble Chart" : "bubble-chart.md",
-                "Scatter Chart" : "scatter-chart.md",
-                "Line Chart" : "line-chart.md",
-                "Area Chart" : "area-chart.md",
-                "Radar Chart" : "radar-chart.md",
-                "Show Legend" : "legend.md",
-                "Show Marker" : "marker.md",
-                "Show Data Label": "data-label.md",
-                "Smart Label" : "smart-label.md",
-                "Axis" : "axis.md",
-                "Chart Types" : "types.md",
-                "Embedding Charts within a Tablix" : "nested-data-region.md",
-                "Filter Data": "add-filters-to-chart-data-region.md",
-                "Sort Data": "sort-data-in-chart-data-region.md"
-            },
-            "Indicator": "indicator.md",
-            "Gauge": {
-                "Linear Gauge": "linear-gauge.md",
-                "Radial Gauge": "radial-gauge.md"
-            },
-            "Data bar": {
-                "Design RDL Report using Data bar": "design-ssrs-data-bar-using-table.md"
-            },
-            "Sparkline": {
-                "Design RDL Report using Sparkline": "design-ssrs-sparkline-using-table.md"
-            },
-            "Barcode": {
-                "Create a Product Details Report": "design-ssrs-rdl-report-using-barcode.md",
-                "Supported Barcode Types": "supported-barcode-types.md"
-            }
+            },            
+            "Transforming Data": {
+                "Joining Tables": "join-table.md",
+                "Join Types": "supported-join-types.md",
+                "Formatting Columns": "formatting-columns.md",
+                "Query Filter": "query-filter.md",
+                "DataSet Parameter": "link-a-query-parameter-with-a-report-parameter.md",
+                "Query Parameter":"define-query-parameters.md",
+                "Configuring Expression Columns": "configure-expression-columns.md",
+                "Supported Built-in Functions in Expression Designer": "supported-functions-in-query-expression.md"},
+"Report Parameters": {
+                "Add Report Parameter": "add.md",
+                "Edit Report Parameter": "edit.md",
+                "Delete Report Parameter": "delete.md",
+                "Define Available Values": "define-available-values-for-parameter.md",
+                "Define Default Values": "define-default-values-for-parameter.md",
+                "Create Multi Value Parameter": "create-multi-value-parameter.md",
+                "Create Cascading Parameter":"create-cascading-parameter.md",
+                "Parameters Layout":"parameters-layout"
+},
+"Image Manager": {
+                "Add an embedded image": "add-image.md",
+                "Delete an embedded image": "delete-image.md"            },
+"Compose Report": {
+                "Toolbar":"tool-bar.md",
+                "Design Surface": {
+                    "Report Item Resizing": "report-item-resizing.md",
+                    "Report Item Selection": "report-item-selection.md",
+                    "Report Item Alignment": "report-item-alignment.md",
+                    "Context Menu":"context-menu.md"
+                },
+                "Properties Panel":"properties-panel.md",
+                "Report Properties":"report-properties.md",
+                "Header Body and Footer Properties":"header-body-and-footer-properties.md",
+                "Show or Hide Header and Footer":"show-or-hide-header-footer-in-report.md",
+                "Common Properties" : "common-properties.md",
+                "Report Item Multiselection":"report-item-multi-selection.md",
+                "Sort Data": "sort-data.md",
+                "Group Data": "group-data.md",
+                "Filter Data": "filter-data.md",
+                "Format Data": "format-data.md",
+                "Linking": "link-data.md",
+                "Background Image":"background-image.md",
+                "Drilldown Action": "create-ssrs-drill-down-report.md",
+                "Drillthrough Action": "create-ssrs-drill-through-report.md",
+                "Multiple Column Report": "create-multiple-column-report-ssrs.md",
+                "Interactive Sorting": "interactive-sorting.md",
+                "Unit Switcher": "unit-switcher.md",
+                "Layouting": "layout-ordering.md",
+                "Expressions": {
+                    "Dataset Fields": "using-dataset-fields.md",
+                    "Parameter": "using-report-parameters.md",
+                    "Built-in Fields": "using-built-in-fields.md",
+                    "Built-in Functions": "using-built-in-functions.md",
+                    "Operators": "using-operators.md"                   
+                },
+                "Code Module": "code-module.md",
+                "Page Layout" : "page-layout.md",
+                "Report Variables": "report-variables"            },
+"Report Items": {
+                "Line": "line.md",
+                "Rectangle": "rectangle.md",
+                "Image": "image.md",
+                "SubReport": {
+                    "Design RDL Report using Subreport":"design-rdl-report-using-subreport.md"
+                },
+                "TextBox": {
+                    "Design RDL Report using Textbox":"design-rdl-report-using-textbox.md",
+                    "Add html in to a report" : "add-html-in-to-a-report.md"
+                },
+                "Tablix": {
+                    "Grouping Panel": "grouping-panel.md",
+                    "Tablix Member Properties":"member-properties.md",
+                    "Assign Data" : "assign-data-to-tablix-data-region.md",
+                    "Cell Properties" : "cell-properties.md",
+                    "Cell Border": "cell-border.md",
+                    "Resizing" : "resize-tablix-data-region.md",
+                    "Insert or Delete a Row": "insert-or-delete-a-row-ssrs.md",
+                    "Insert or Delete a Column": "insert-or-delete-a-column-ssrs.md",
+                    "Tablix Group": "group.md",
+                    "Insert or Delete a Row Group":"insert-or-delete-a-row-group-ssrs.md",
+                    "Insert or Delete a Column Group":"insert-or-delete-a-column-group-ssrs.md",
+                    "Insert or Delete a Details Group":"add-or-delete-a-details-group-ssrs.md",
+                    "Merge Cells in Data Region": "merge-cells-in-tablix-data-region.md",
+                    "Add Filters": "add-filters-to-tablix-data-region.md",
+                    "Sort Data": "sort-data-in-tablix-data-region.md",
+                    "Add Total": "add-total-in-tablix-data-region.md",
+                    "Add Header and Footer": "add-group-header-and-footer-in-tablix-data-region.md",
+                    "Nested Data Regions":"nested-data-region.md",
+                    "Simple Table Design": "design-ssrs-rdl-report-using-table.md",
+                    "Add Grouping and Totals": "add-grouping-and-totals-in-tablix-design.md",
+                    "Conditional Formatting": "conditional-formatting-tablix-data-region.md",
+                    "Repeat Headers on Each Page": "repeat-headers-on-each-page-in-ssrs.md"
+                },
+                "Matrix":{
+                    "Create a Matrix Report":"design-ssrs-matrix-report.md"
+                },
+                "List":{
+                    "Create a Mail Merge Report":"design-ssrs-rdl-report-using-list.md"
+                },
+                "Map":{
+                    "Properties": "properties.md",
+                    "Binding Data": "binding-data.md",
+                    "Legend": "legend.md",
+                    "Shape Settings": "shape-settings.md",
+                    "Shape Color Rule": "shape-color-rule.md",
+                    "Color Palette Shape Rule": "color-palette-shape-rule.md",
+                    "Color Range Shape Rule":"color-range-shape-rule.md",
+                    "Custom Colors Shape Rule":"custom-color-shape-rule.md",
+                    "Equal Distribution Shape Rule":"equal-distribution-shape-rule.md",
+                    "Equal Interval Shape Rule":"equal-interval-shape-rule.md",
+                    "Optimal Distribution Shape Rule": "optimal-distribution-shape-rule.md",
+                    "Custom Distribution Shape Rule": "custom-distribution-shape-rule.md",
+                    "Define Custom Colors": "define-custom-colors.md",
+                    "Define Custom Data Range": "define-custom-data-range.md",
+                    "Marker Settings": "marker-settings.md",
+                    "Marker Color Rule": "marker-color-rule.md",
+                    "Color Palette Marker Rule": "color-palette-marker-rule.md",
+                    "Color Range Marker Rule":"color-range-marker-rule.md",
+                    "Custom Colors Marker Rule":"custom-color-marker-rule.md",
+                    "Equal Distribution Marker Rule":"equal-distribution-marker-rule.md",
+                    "Equal Interval Marker Rule":"equal-interval-marker-rule.md",
+                    "Optimal Distribution Marker Rule": "optimal-distribution-marker-rule.md",
+                    "Custom Distribution Marker Rule": "custom-distribution-marker-rule.md",
+                    "Marker Rule": "marker-rule.md",
+                    "Use Case": {
+                        "Custom Color Rule": "design-map-using-custom-rule.md",
+                        "Color Range Rule": "design-map-using-color-range-rule.md",
+                        "Color Palette Rule": "design-map-using-color-palette-rule.md",
+                        "Marker Rule": "design-map-using-marker-rule.md",
+                        "Marker Color Range Rule": "design-map-using-marker-color-range-rule.md"
+                    }
+                },
+                "Chart":{
+                    "Column Chart" : "column-chart.md",
+                    "Pie Chart" : "pie-chart.md",
+                    "Bubble Chart" : "bubble-chart.md",
+                    "Scatter Chart" : "scatter-chart.md",
+                    "Line Chart" : "line-chart.md",
+                    "Area Chart" : "area-chart.md",
+                    "Radar Chart" : "radar-chart.md",
+                    "Show Legend" : "legend.md",
+                    "Show Marker" : "marker.md",
+                    "Show Data Label": "data-label.md",
+                    "Smart Label" : "smart-label.md",
+                    "Axis" : "axis.md",
+                    "Chart Types" : "types.md",
+                    "Embedding Charts within a Tablix" : "nested-data-region.md",
+                    "Filter Data": "add-filters-to-chart-data-region.md",
+                    "Sort Data": "sort-data-in-chart-data-region.md"
+                },
+                "Indicator": "indicator.md",
+                "Gauge": {
+                    "Linear Gauge": "linear-gauge.md",
+                    "Radial Gauge": "radial-gauge.md"
+                },
+                "Data bar": {
+                    "Design RDL Report using Data bar": "design-ssrs-data-bar-using-table.md"
+                },
+                "Sparkline": {
+                    "Design RDL Report using Sparkline": "design-ssrs-sparkline-using-table.md"
+                },
+                "Barcode": {
+                    "Create a Product Details Report": "design-ssrs-rdl-report-using-barcode.md",
+                    "Supported Barcode Types": "supported-barcode-types.md"
+                }            },
+            "Open a report": "open-report-in-web-designer.md",
+            "Save a report": "save-report-in-web-designer.md",
+            "Preview a report": "preview-report-in-web-designer.md",
+            "Supported Items": "supported-unsupported-features.md",
+            "Keyboard Shortcuts": "design-report-using-keyboard-shortcuts.md",
+            "How To": {
+                "Configure Map Shapes": "configure-map-shapes.md",
+                "Upgrade or downgrade RDL schema version": "upgrade-or-downgrade-rdl-schema-version.md"            }
         },
-        "Open a report": "open-report-in-web-designer.md",
-        "Save a report": "save-report-in-web-designer.md",
-        "Preview a report": "preview-report-in-web-designer.md",
-        "Supported Items": "supported-unsupported-features.md",
-        "Keyboard Shortcuts": "design-report-using-keyboard-shortcuts.md",
-        "How To": {
-            "Configure Map Shapes": "configure-map-shapes.md",
-            "Upgrade or downgrade RDL schema version": "upgrade-or-downgrade-rdl-schema-version.md"
-        }
-    },
     "Manage Content": {
         "Reports": {
             "Create Report": "create-report.md",

@@ -20,7 +20,6 @@ The radial gauges are degrees of circular to represent key performance indicatio
 ## Properties
 
 Refer to the [Properties panel](/designer-guide/report-designer/compose-report/properties-panel/) section before proceeding with the following properties:
-
 ### Basic settings
 
 The border style, color, width, and background color properties are used to customize the appearance of a radial gauge in the report design. These properties are listed under the `Basic settings` category in the properties panel.
@@ -28,11 +27,9 @@ The border style, color, width, and background color properties are used to cust
 #### Border
 
 The border properties are used to add or customize the border around a radial gauge item to visually separate items in the report design. To set border properties to the radial gauge item using properties panel,  refer to the [Border Properties](/designer-guide/report-designer/compose-report/common-properties/#border-properties) section.
-
 #### Background color
 
 Using the background color property, you can customize background color of a radial gauge. To set the background color using properties panel, refer to the [Background color](/designer-guide/report-designer/compose-report/common-properties/#background-color) section.
-
 ### Data
 
 #### Dataset
@@ -42,7 +39,6 @@ This property is used to assign the dataset to a radial gauge report item. The a
 ![Data category](/static/assets/on-premise/images/report-designer/report-items/gauge/radial-gauge/dataset.png)
 
 > Refer to the [Create Data](/designer-guide/report-designer/manage-data/dataset/create-an-embedded-dataset/) section to add dataset to your report.
-
 #### Type
 
 This property is used to select the type of a radial gauge report item. You can select `Radial`, `Half Circle`, or `Auto` from the dropdown.
@@ -58,15 +54,12 @@ This property is used to select the type of a radial gauge report item. You can 
 #### Value
 
 This property is used to assign the `pointer value` of a radial gauge. You can also set the pointer value based on dynamic values using [expressions](/designer-guide/report-designer/compose-report/properties-panel/#set-expression).
-
 #### Range
 
 This property is used to assign `minimum` and `maximum` values of a radial gauge. You can also set the values for minimum and maximum properties based on dynamic values using [expressions](/designer-guide/report-designer/compose-report/properties-panel/#set-expression).
-
 #### Interval
 
 This property is used to assign `interval` value between the [scale labels](/designer-guide/report-designer/report-items/gauge/radial-gauge/#labels). You can also set the interval property value based on dynamic values using [expressions](/designer-guide/report-designer/compose-report/properties-panel/#set-expression).
-
 ### Pointer
 
 Using this property, the pointer placement, type, marker style, marker length, cap, width and color can be customized in the radial gauge design.
@@ -94,13 +87,11 @@ The following diagram represents the radial gauge with the `Marker` pointer type
 ##### Marker length
 
 This property is used to assign the `pointer marker length` value. You can also set the marker length property value based on dynamic values using [expressions](/designer-guide/report-designer/compose-report/properties-panel/#set-expression).
-
 ##### Enable cap
 
 To show or hide the pointer cap in radial gauge, toggle the `Enable Cap` checkbox, the pointer cap is supported only for pointer of type `Needle`.
 
 You can customize the Cap in the `Advanced Options` menu. To open and handle the nested properties of Pointer Cap, refer to the [Advanced Properties](/designer-guide/report-designer/compose-report/properties-panel/#advanced-properties) section.
-
 ![Pointer Cap](/static/assets/on-premise/images/report-designer/report-items/gauge/radial-gauge/pointer-cap.png)
 
 Using these properties, the pointer cap width, pointer cap color can be customized in the radial gauge design.
@@ -108,7 +99,6 @@ Using these properties, the pointer cap width, pointer cap color can be customiz
 #### Width
 
 This property is used to assign the `pointer width` value. You can also set the width property value based on dynamic values using [expressions](/designer-guide/report-designer/compose-report/properties-panel/#set-expression).
-
 #### Color
 
 Using the color property, you can customize the `pointer color` of a radial gauge.
@@ -118,11 +108,9 @@ Using the color property, you can customize the `pointer color` of a radial gaug
 #### Angle
 
 This property is used to set the values of start angle, sweep angle of the radial gauge. You can also set the start angle and sweep angle property value based on dynamic values using [expressions](/designer-guide/report-designer/compose-report/properties-panel/#set-expression).
-
 #### Width
 
 This property is used to assign the `scale width` value. You can also set the width property value based on dynamic values using [expressions](/designer-guide/report-designer/compose-report/properties-panel/#set-expression).
-
 #### Color
 
 Using the color property, you can customize the `scale color` of the radial gauge.
@@ -138,7 +126,6 @@ By clicking the `Reverse Direction` checkbox, you can reverse the scale directio
 To show or hide the scale labels in radial gauge, toggle the `Label` checkbox.
 
 You can customize the scale label in the `Advanced Options` menu. To open and handle the nested properties of labels, refer to the [Advanced Properties](/designer-guide/report-designer/compose-report/properties-panel/#advanced-properties) section.
-
 ![Scale Labels](/static/assets/on-premise/images/report-designer/report-items/gauge/radial-gauge/labels-advanced-options.png)
 
 Using these properties, the scale label font color, font family, font size, and font style can be customized in the radial gauge design.
@@ -158,7 +145,6 @@ Scale label placement can be `Inside`, `Outside`, or `Cross`. You can select an 
 #### Position
 
 This property is used to set the `PivotX` and `PivotY` of radial gauge. You can also set the pivot property value based on dynamic values using [expressions](/designer-guide/report-designer/compose-report/properties-panel/#set-expression).
-
 ### Tick mark
 
 This property is used to customize the major and minor ticks of the radial gauge.
@@ -168,7 +154,6 @@ This property is used to customize the major and minor ticks of the radial gauge
 To show or hide major and minor ticks in a scale, toggle the `Major Tick` and `Minor Tick` checkbox.
 
 You can customize major and minor ticks in the `Advanced Options` menu. To open and handle the nested properties of major and minor ticks, refer to the [Advanced Properties](/designer-guide/report-designer/compose-report/properties-panel/#advanced-properties) section.
-
 ![Major Tick](/static/assets/on-premise/images/report-designer/report-items/gauge/radial-gauge/major-tick.png)
 
 Using this property, you can customize  major and minor ticks interval, color, length and width.
@@ -194,11 +179,9 @@ Range placement can be `Inside`, `Outside`,  or `Cross`. You can select any opti
 #### Range
 
 This property is used to assign the range `start` and `end` values of the radial gauge. You can also set the start and end properties value based on dynamic values using [expressions](/designer-guide/report-designer/compose-report/properties-panel/#set-expression).
-
 #### Width
 
 This property is used to assign the range `start width` and `end width` values of the radial gauge. You can also set the start and end width properties value based on dynamic values using [expressions](/designer-guide/report-designer/compose-report/properties-panel/#set-expression).
-
 #### Color
 
 Using the color property, you can customize the `range color` of a radial gauge.
@@ -206,17 +189,14 @@ Using the color property, you can customize the `range color` of a radial gauge.
 ### Position
 
 The position property is used to set the width, height, left and top position of the radial gauge in the report design. To handle these properties using properties panel, refer to the [Position](/designer-guide/report-designer/compose-report/common-properties/#position) section.
-
 ### Visibility
 
 The visibility property is used to conditionally show or hide the radial gauge report item on report preview or export action. To set visibility of radial gauge item using properties panel, refer to the [Visibility](/designer-guide/report-designer/compose-report/common-properties/#visibility) section.
-
 ### Miscellaneous
 
 #### Custom attributes
 
 This property can be used to set the values for radial gauge custom properties. To assign values for custom properties using properties panel, refer to the [Custom Properties](/designer-guide/report-designer/compose-report/common-properties/#custom-properties) section.
-
 <span style="font-weight:bold">Tooltip</span>
 
 Tooltip property can be used to display informative text or value, when the user hovers over on the report item in report preview. To set tooltip for gauge report item using properties panel refer [Tooltip](/designer-guide/report-designer/compose-report/common-properties/#tooltip) section.

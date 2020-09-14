@@ -49,7 +49,6 @@ Similarly, you can insert other report items into the table cell. The following 
 The cell properties is properties of the report item placed in the respective cell. For example, if the cell contains the line report item, then the line report item properties will be displayed in the properties panel. To style a tablix cell, select the required cell and modify the respective report item properties in the properties panel.
 
 Refer the [Properties panel](/designer-guide/report-designer/compose-report/properties-panel/) section to set and edit properties report item properties.
-
 ## Delete an item from a cell
 
 To delete the item from the tablix cell, select cell and right click. Click on `Delete` option.

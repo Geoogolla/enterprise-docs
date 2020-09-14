@@ -22,7 +22,6 @@ Emp.Notes, Emp.HomePhone    FROM  Employees Emp INNER JOIN Employees Rep ON Rep.
 ```
 
 Refer [Create Data](/designer-guide/report-designer/manage-data/dataset/create-an-embedded-dataset/#create-an-embedded-dataset) section and create dataset using the above query. `Northwind` database is used here.
-
 ## Configure a list
 
 1. The list report item is listed in the item panel under the `Data Regions` category.
@@ -60,8 +59,7 @@ In list data regions, you can place the report items anywhere instead of being l
 ![Bind data to the textbox](/static/assets/on-premise/images/report-designer/report-items/list/assign-dataset-field-in-textbox.png)
 7. Similarly, assign `LastName` field and create another expression. Then, customize the text appearance using the textbox properties in properties panel.
 ![Bind data field to the textbox](/static/assets/on-premise/images/report-designer/report-items/list/assign-expression-in-textbox.png)
-   > Refer [Display dynamic text using expression](/designer-guide/report-designer/report-items/textbox/design-rdl-report-using-textbox/#display-dynamic-text-using-expression) section to assign expression in textbox report item.
-8. To display other employee details place other report items in the list item. In the below snap, the employee information are placed in the textboxes and the values are bound as expression to fetch dynamic data from the database.
+   > Refer [Display dynamic text using expression](/designer-guide/report-designer/report-items/textbox/design-rdl-report-using-textbox/#display-dynamic-text-using-expression) section to assign expression in textbox report item.8. To display other employee details place other report items in the list item. In the below snap, the employee information are placed in the textboxes and the values are bound as expression to fetch dynamic data from the database.
 ![Mail merge template](/static/assets/on-premise/images/report-designer/report-items/list/mail-merge-template.png)
 9. On report preview, each employee details will be displayed as list. To separate the each employee information you can drag and drop a line report item in the inside bottom position of the list cell.
 ![Mail merge template](/static/assets/on-premise/images/report-designer/report-items/list/add-line-report-item.png)
@@ -70,8 +68,7 @@ In list data regions, you can place the report items anywhere instead of being l
 
 1. Enable the  report `Header` to add a title to the report.
 ![Enable header tag](/static/assets/on-premise/images/report-designer/report-items/list/enable-header-tag.png)
-   > Refer [Show or hide header and footer](/designer-guide/report-designer/compose-report/show-or-hide-header-footer-in-report/) section to add or remove header/footer in the report.
-2. Now, add a rectangle report item in the report header area and a textbox within the rectangle.
+   > Refer [Show or hide header and footer](/designer-guide/report-designer/compose-report/show-or-hide-header-footer-in-report/) section to add or remove header/footer in the report.2. Now, add a rectangle report item in the report header area and a textbox within the rectangle.
 ![Add report items in header area](/static/assets/on-premise/images/report-designer/report-items/list/add-report-items-in-header-area.png)
 3. Set the report title text in the textbox and customize the appearance of the title using the textbox and rectangle properties in properties panel as required.
 ![Report title text](/static/assets/on-premise/images/report-designer/report-items/list/report-title-text.png)

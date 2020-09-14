@@ -20,7 +20,6 @@ Indicator report items are minimal representation of gauge used to visualize the
 ## Properties
 
 Refer to the [Properties panel](/designer-guide/report-designer/compose-report/properties-panel/) section before proceeding with the following properties.
-
 ### Basic settings
 
 The border style, color, width, and background color properties are used to style the indicator and customize its appearance in the report design. These properties are listed under the `Basic settings` category in the properties panel.
@@ -28,15 +27,12 @@ The border style, color, width, and background color properties are used to styl
 #### Border
 
 Border properties are used to add or customize the border around an indicator item to visually separate items in the report design. To set border properties to the indicator item using properties panel,  refer to the [Border Properties](/designer-guide/report-designer/compose-report/common-properties/#border-properties) section.
-
 #### Background color
 
 Using the background color property, you can customize the indicator background color. To set background color using properties panel, refer to the [Background color](/designer-guide/report-designer/compose-report/common-properties/#background-color) section.
-
 ### Position
 
 The position property is used to set the width, height, left and top position of the indicator in the report design. To handle these properties using properties panel, refer to the [Position](/designer-guide/report-designer/compose-report/common-properties/#position) section.
-
 ### Data
 
 #### Dataset
@@ -46,7 +42,6 @@ This property is used to assign the dataset to the indicator report item. The av
 ![Data category](/static/assets/on-premise/images/report-designer/report-items/indicator/dataset.png)
 
 > Refer to the [Create Data](/designer-guide/report-designer/manage-data/dataset/create-an-embedded-dataset/) section to add dataset to your report.
-
 ### Indicator value
 
 This property is used to assign value for indicator states. You can also set the indicator value based on dynamic values using expressions.
@@ -114,25 +109,20 @@ You can delete a state by clicking the `delete icon`.
 ### Visibility
 
 The visibility property is used to conditionally show or hide the indicator report item on report preview or export action. To set visibility of indicator item using properties panel, refer to the [Visibility](/designer-guide/report-designer/compose-report/common-properties/#visibility) section.
-
 ### Miscellaneous
 
 <span style="font-weight:bold">Custom Attributes</span>
 
 This property can be used to set the values for indicator custom properties. To create and assign values for custom properties using properties panel refer [Custom Properties](/designer-guide/report-designer/compose-report/common-properties/#custom-properties) section.
-
 <span style="font-weight:bold">Tooltip</span>
 
 Tooltip property can be used to display informative text or value, when the user hovers over on the report item in report preview. To set tooltip for indicator report item using properties panel refer [Tooltip](/designer-guide/report-designer/compose-report/common-properties/#tooltip) section.
-
 ## Set expression
 
 An expression can be set to few properties of the indicator report item to process the property values based on expressions. To set expressions to the indicator report item properties, refer to the [Set Expression](/designer-guide/report-designer/compose-report/properties-panel/#set-expression) section.
-
 ## Reset expression
 
 To `Reset` the expression applied to a property, refer to the [Reset Expression](/designer-guide/report-designer/compose-report/properties-panel/#reset-expression) section.
-
 ## Advanced properties
 
 A few properties of the indicator report contain nested properties. To open and handle the nested properties, refer to the [Advanced Properties](/designer-guide/report-designer/compose-report/properties-panel/#advanced-properties) section.

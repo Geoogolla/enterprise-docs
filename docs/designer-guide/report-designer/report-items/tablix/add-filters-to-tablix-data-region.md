@@ -14,8 +14,7 @@ Filters can be used to filter data in the tablix data region or a data region gr
 ![Filter dialog](/static/assets/on-premise/images/report-designer/report-items/add-filter-to-tablix-data-region/select-data-region.png)
 2. In the properties panel, click on the `Set Filters...` button. Now, the filter dialog will be opened like below.
 ![Filter dialog](/static/assets/on-premise/images/report-designer/report-items/tablix/filters-dialog.png)
-3. Refer [Filter Data](/designer-guide/report-designer/compose-report/filter-data/) section and create required filter expression in the filter dialog and click `OK`.
-![Filter dialog](/static/assets/on-premise/images/report-designer/report-items/add-filter-to-tablix-data-region/create-filter-expressions.png)
+3. Refer [Filter Data](/designer-guide/report-designer/compose-report/filter-data/) section and create required filter expression in the filter dialog and click `OK`.![Filter dialog](/static/assets/on-premise/images/report-designer/report-items/add-filter-to-tablix-data-region/create-filter-expressions.png)
 
 In the above image, three filter equations are created to filter the data in the data region based on `OrderYear`, `Product Category`, and `OrderQtr` data fields. In the below design, two different tablix data regions are designed using single dataset to display the quarter sales `Q1` and `Q2` against a year.
 
@@ -33,8 +32,7 @@ On report preview, using the `OrderYear` and `ProductCategory` report parameters
 ![Filter dialog](/static/assets/on-premise/images/report-designer/report-items/add-filter-to-tablix-data-region/open-member-properties.png)
 3. In the properties panel, click on the `Set Filters...` button. Now, the filter dialog will be opened like below.
 ![Filter dialog](/static/assets/on-premise/images/report-designer/report-items/tablix/filters-dialog.png)
-4. Refer [Filter Data](/designer-guide/report-designer/compose-report/filter-data/) section and create required filter expression in the filter dialog and click `OK`.
-![Filter dialog](/static/assets/on-premise/images/report-designer/report-items/add-filter-to-tablix-data-region/filter-equation-for-group.png)
+4. Refer [Filter Data](/designer-guide/report-designer/compose-report/filter-data/) section and create required filter expression in the filter dialog and click `OK`.![Filter dialog](/static/assets/on-premise/images/report-designer/report-items/add-filter-to-tablix-data-region/filter-equation-for-group.png)
 
 Before applying filter to the row group, on report preview the report displays sales of each quarters and its total.
 

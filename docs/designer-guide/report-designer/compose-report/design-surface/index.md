@@ -27,13 +27,8 @@ The Bold Report Designer comes with a WYSIWYG user interface that allows report 
 ## See also
 
 [Report item resizing](/designer-guide/report-designer/compose-report/design-surface/report-item-resizing/)
-
 [Report item selection](/designer-guide/report-designer/compose-report/design-surface/report-item-selection/)
-
 [Report item alignment](/designer-guide/report-designer/compose-report/design-surface/report-item-alignment/)
-
 [Distribute report items](/designer-guide/report-designer/compose-report/design-surface/report-item-alignment/#distribute)
-
 [Layout ordering](/designer-guide/report-designer/compose-report/layout-ordering/)
-
-[Context Menu](/designer-guide/report-designer/compose-report/design-surface/context-menu/)
+ Menu](/designer-guide/report-designer/compose-report/design-surface/context-menu/)

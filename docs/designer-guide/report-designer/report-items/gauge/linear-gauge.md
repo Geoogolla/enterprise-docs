@@ -20,7 +20,6 @@ Linear gauges are rectangular in shape and oriented horizontally or vertically. 
 ## Properties
 
 Refer to the [Properties panel](/designer-guide/report-designer/compose-report/properties-panel/) section before proceeding with the following properties:
-
 ### Basic settings
 
 The border style, color, width, and background color properties are used to customize the appearance of a linear gauge in the report design. These properties are listed under the `Basic settings` category in the properties panel.
@@ -28,11 +27,9 @@ The border style, color, width, and background color properties are used to cust
 #### Border
 
 Border properties are used to add or customize the border around an linear gauge item to visually separate items in the report design. To set border properties to a linear gauge item using properties panel,  refer to the [Border Properties](/designer-guide/report-designer/compose-report/common-properties/#border-properties) section.
-
 #### Background color
 
 Using the background color property, you can customize the background color of a linear gauge. To set the background color using properties panel, refer to the [Background color](/designer-guide/report-designer/compose-report/common-properties/#background-color) section.
-
 ### Data
 
 #### Dataset
@@ -42,7 +39,6 @@ This property is used to assign the dataset to a linear gauge report item. The a
 ![Data category](/static/assets/on-premise/images/report-designer/report-items/gauge/linear-gauge/dataset.png)
 
 > Refer to the [Create Data](/designer-guide/report-designer/manage-data/dataset/create-an-embedded-dataset/) section to add dataset to your report.
-
 #### Type
 
 This property is used to select the type of linear gauge report item. You can select `Horizontal`, `Vertical`, or `Auto` from the dropdown.
@@ -58,15 +54,12 @@ This property is used to select the type of linear gauge report item. You can se
 #### Value
 
 This property is used to assign the `pointer value` of a linear gauge. You can also set the pointer value based on dynamic values using [expressions](/designer-guide/report-designer/compose-report/properties-panel/#set-expression).
-
 #### Range
 
 This property is used to assign `minimum` and `maximum` values of a linear gauge. You can also set the value for minimum and maximum properties based on dynamic values using [expressions](/designer-guide/report-designer/compose-report/properties-panel/#set-expression).
-
 #### Interval
 
 This property is used to assign `interval` value between the [scale labels](/designer-guide/report-designer/report-items/gauge/linear-gauge/#labels). You can also set the interval property value based on dynamic values using [expressions](/designer-guide/report-designer/compose-report/properties-panel/#set-expression).
-
 ### Pointer
 
 Using this property, the pointer placement, type, marker style, marker length, width, and color can be customized in the linear gauge design.
@@ -94,11 +87,9 @@ The following diagram represents the linear gauge with the `Marker` pointer type
 ##### Marker length
 
 This property is used to assign the `pointer marker length` value. You can also set the marker length property value based on dynamic values using [expressions](/designer-guide/report-designer/compose-report/properties-panel/#set-expression).
-
 #### Width
 
 This property is used to assign the `pointer width` value. You can also set the width property value based on dynamic values using [expressions](/designer-guide/report-designer/compose-report/properties-panel/#set-expression).
-
 #### Color
 
 Using the color property, you can customize the `pointer color` of a linear gauge.
@@ -108,7 +99,6 @@ Using the color property, you can customize the `pointer color` of a linear gaug
 #### Width
 
 This property is used to assign the `scale width` value. You can also set the width property value based on dynamic values using [expressions](/designer-guide/report-designer/compose-report/properties-panel/#set-expression).
-
 #### Color
 
 Using the color property, you can customize the `scale color` of a linear gauge.
@@ -124,7 +114,6 @@ By clicking the `Reverse Direction` checkbox you can reverse the scale direction
 To show or hide the scale labels in a linear gauge, toggle the `Label` checkbox.
 
 You can customize the scale label in the `Advanced Options` menu. To open and handle the nested properties of labels, refer to the [Advanced Properties](/designer-guide/report-designer/compose-report/properties-panel/#advanced-properties) section.
-
 ![Scale Labels](/static/assets/on-premise/images/report-designer/report-items/gauge/linear-gauge/labels-advanced-options.png)
 
 Using these properties, the scale label font color, font family, font size, and font style can be customized in the linear gauge design.
@@ -146,7 +135,6 @@ This property is used to customize major and minor ticks of a linear gauge.
 To show or hide major and minor ticks in a scale, toggle the `Major Tick` and `Minor Tick` checkbox.
 
 You can customize major and minor ticks in the `Advanced Options` menu. To open and handle the nested properties of major and minor ticks, refer to the [Advanced Properties](/designer-guide/report-designer/compose-report/properties-panel/#advanced-properties) section.
-
 ![Major Tick](/static/assets/on-premise/images/report-designer/report-items/gauge/linear-gauge/major-tick.png)
 
 Using this property, you can customize the major and minor ticks interval, color, length, and width.
@@ -172,11 +160,9 @@ Range placement can be `Inside`, `Outside`, or `Cross`. You can select any optio
 #### Range
 
 This property is used to assign the range `start` and `end` values of the linear gauge. You can also set the start and end properties value based on dynamic values using [expressions](/designer-guide/report-designer/compose-report/properties-panel/#set-expression).
-
 #### Width
 
 This property is used to assign the range `start width` and `end width` values of the linear gauge. You can also set the start and end width properties value based on dynamic values using [expressions](/designer-guide/report-designer/compose-report/properties-panel/#set-expression).
-
 #### Color
 
 Using the color property, you can customize the `range color` of a linear gauge.
@@ -184,17 +170,14 @@ Using the color property, you can customize the `range color` of a linear gauge.
 ### Position
 
 The position property is used to set the width, height, left, and top positions of a linear gauge in the report design. To handle these properties using properties panel, refer to the [Position](/designer-guide/report-designer/compose-report/common-properties/#position) section.
-
 ### Visibility
 
 The visibility property is used to conditionally show or hide the linear gauge report item on report preview or export action. To set visibility of a linear gauge item using properties panel, refer to the [Visibility](/designer-guide/report-designer/compose-report/common-properties/#visibility) section.
-
 ### Miscellaneous
 
 #### Custom attributes
 
 This property can be used to set the values for linear gauge custom properties. To assign values for custom properties using properties panel, refer to the [Custom Properties](/designer-guide/report-designer/compose-report/common-properties/#custom-properties) section.
-
 <span style="font-weight:bold">Tooltip</span>
 
 Tooltip property can be used to display informative text or value, when the user hovers over on the report item in report preview. To set tooltip for gauge report item using properties panel refer [Tooltip](/designer-guide/report-designer/compose-report/common-properties/#tooltip) section.

@@ -46,7 +46,6 @@ Now the `Query Expressions` dialog will be launched like below.
 ![Query expresssion dialog](/static/assets/on-premise/images/report-designer/transforming-data/configuring-expression-columns/expressions-listed-in-list-view.png)
 
 > Refer [Supported Built-in functions](/designer-guide/report-designer/transforming-data/supported-functions-in-query-expression/) section to know more about supported built-in functions.
-
 ## Edit an expression column
 
 1. Select an expression column in left pane, which you want to update.

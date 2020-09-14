@@ -8,7 +8,6 @@ description: Create new dataset parameters or link a dataset parameter with a re
 A dataset parameters are created based on the query parameters provided in the dataset query and also, an equivalent report parameters are created for each query variable. The linking between a dataset parameter and a report parameter will take place automatically. But, if a report parameter is renamed then we need to perform the link action manually.
 
 Refer [Create Data](/designer-guide/report-designer/manage-data/dataset/create-an-embedded-dataset/) section for better understanding with the following sections. The below image showcases the initial view of query designer.
-
 ![Query joiner icon in enabled state](/static/assets/on-premise/images/report-designer/transforming-data/create-or-link-dataset-parameters/query-designer-initial-view.png)
 
 ## Open parameters dialog
@@ -46,8 +45,7 @@ The **Value** field in dataset parameter can contain an expression that evaluate
 ![Expression icon ](/static/assets/on-premise/images/report-designer/transforming-data/create-or-link-dataset-parameters/expression-icon-value-field.png)
 2. It will launch the expression dialog like below.
 ![Expression dialog](/static/assets/on-premise/images/report-designer/transforming-data/create-or-link-dataset-parameters/expression-dialog.png)
-3. Refer [Expression](/designer-guide/report-designer/compose-report/expressions/) section to know more about the handling expressions in Report Designer. Here, the `SalesOrderID` field is assigned as expression for `SalesOrderID` parameter.
-![Assign data field as expression](/static/assets/on-premise/images/report-designer/transforming-data/create-or-link-dataset-parameters/aasign-data-fields.png)
+3. Refer [Expression](/designer-guide/report-designer/compose-report/expressions/) section to know more about the handling expressions in Report Designer. Here, the `SalesOrderID` field is assigned as expression for `SalesOrderID` parameter.![Assign data field as expression](/static/assets/on-premise/images/report-designer/transforming-data/create-or-link-dataset-parameters/aasign-data-fields.png)
 4. The icon will be indicated in `Black color`, if the expression is applied to the value field.
 ![Expression indication](/static/assets/on-premise/images/report-designer/transforming-data/create-or-link-dataset-parameters/expression-set-indication.png)
 
@@ -96,9 +94,7 @@ The following procedure is applicable for below scenario's:
 ### Create query and report parameters
 
 Refer [Create report parameter](/designer-guide/report-designer/report-parameters/add/) section and create the required report parameters in your report.
-
 Refer [Create query parameter](/designer-guide/report-designer/transforming-data/define-query-parameters/) section and create the required query parameters.
-
 ### Steps to link parameters
 
 The following steps guides to link a query parameter with a report parameter.

@@ -21,7 +21,6 @@ Select CustomerID, CompanyName, Address, City, PostalCode, Country From Customer
 ## Create parameter
 
 To apply conditional formatting based on report parameter, create a parameter in your report. Refer [Create Parameter](/designer-guide/report-designer/report-parameters/add/#create-parameter) and [Define Available Value](/designer-guide/report-designer/report-parameters/define-available-values-for-parameter/#query-values) section to create and assign value to the parameter. In this section, the `FormattingRow` parameter is created and assigned `Country` data field as query value. Refer the below snaps for better understanding.
-
 ### New parameter creation
 
 ![Open group menu](/static/assets/on-premise/images/report-designer/report-items/tablix-conditional-formatting/parameter-creation-panel.png)
@@ -47,7 +46,6 @@ Design a simple table that contains following data from the fields in the datase
 ![Open group menu](/static/assets/on-premise/images/report-designer/report-items/tablix-conditional-formatting/initial-design.png)
 
 > Refer [Simple Table Design](/designer-guide/report-designer/report-items/tablix/design-ssrs-rdl-report-using-table/) section to create above table design.
-
 ## Formatting table
 
 To improve the tablix design apply background color, font style to the table header by following the below steps:
@@ -58,7 +56,6 @@ To improve the tablix design apply background color, font style to the table hea
 ![Open group menu](/static/assets/on-premise/images/report-designer/report-items/tablix-conditional-formatting/set-cell-properties-output.png)
 
 > Refer [Properties Panel](/designer-guide/report-designer/compose-report/properties-panel/) section to set or edit values in properties panel.
-
 ## Apply conditional formatting
 
 To highlight the table rows which has the `Country` value selected in parameter drop-down at runtime, follow the below steps:

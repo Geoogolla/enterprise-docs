@@ -33,7 +33,6 @@ GROUP BY DATEPART(yy, SOH.OrderDate), PC.Name, PS.Name, 'Q' + DATENAME(qq, SOH.O
 ```
 
 > Refer [Create Data](/designer-guide/report-designer/manage-data/dataset/create-an-embedded-dataset/#create-an-embedded-dataset) section and create dataset using the above query. `AdventuresWorks` database is used here.
-
 ## Assign data
 
 Data bar needs a minimum of 1 value element to showcase data. The measure or expression field that you would like to analyze can be dropped into `Y Values` section. The dimension that you would like to categorize the measure, can be dropped onto `Columns` section. If you would like to categorize based on a series, then the respective dimension can be dropped onto `Rows` section in addition.
@@ -71,7 +70,6 @@ To configure data into data bar follow the below steps:
 ## Properties
 
 Refer to the [Properties panel](/designer-guide/report-designer/compose-report/properties-panel/) section before proceeding with the following properties.
-
 ### General Settings
 
 ![Name property](/static/assets/on-premise/images/report-designer/report-items/data-bar/name-property.png)
@@ -101,13 +99,11 @@ You can add multiple series to the chart and the available series will be listed
 <span style="font-weight:bold">Show Marker</span>
 
 Data markers are used to provide information about the data point to the user. You can add a shape and label to adorn each data point. To set/reset marker properties, refer [Show Marker](/designer-guide/report-designer/report-items/chart/marker/) property.
-
 > The marker properties will be applied to the selected series in the  `Choose Series` drop-down.
 
 <span style="font-weight:bold">Show Data Label</span>
 
 Data label can be added to a chart series by using the `Show Data Label` property. The labels appear at the top of the data point, by default. To set/reset data label properties, refer [Show Data Label](/designer-guide/report-designer/report-items/chart/data-label/) property.
-
 ![Chart data label](/static/assets/on-premise/images/report-designer/report-items/data-bar/data-label-design.png)
 
 > The data label properties will be applied to the selected series in the  `Choose Series` drop-down.
@@ -115,7 +111,6 @@ Data label can be added to a chart series by using the `Show Data Label` propert
 <span style="font-weight:bold">Enable Smart Label</span>
 
 Smart labels manage overlapping of labels even when a large number of labels are placed in close vicinity. To set/reset smart label properties, refer [Enable Smart Label](/designer-guide/report-designer/report-items/chart/smart-label/) property.
-
 ![Chart smart label](/static/assets/on-premise/images/report-designer/report-items/data-bar/enable-smart-label.png)
 
 > To apply smart label properties, enable `Data Label` for chart data region.
@@ -133,7 +128,6 @@ In the below design, border color, width and style properties are applied to the
 > The series border properties will be applied to the selected series in the  `Choose Series` drop-down.
 
 You can also set properties based on dynamic values, by using the `Expressions`. Refer [Set Expression](/designer-guide/report-designer/compose-report/properties-panel/#set-expression) and [Reset Expression](/designer-guide/report-designer/compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
-
 ![Dynamic chart series border](/static/assets/on-premise/images/report-designer/report-items/chart/chart-series/border-expression-menu.png)
 
 <span style="font-weight:bold">Series Color</span>
@@ -145,11 +139,9 @@ Choose series in the `Choose Series` drop-down and choose color in `Series Color
 ![Chart series color](/static/assets/on-premise/images/report-designer/report-items/data-bar/series-color.png)
 
 You can also apply series color based on dynamic values, by using the `Expressions`. Refer [Set Expressions](/designer-guide/report-designer/compose-report/properties-panel/#set-expression) and [Reset Expressions](/designer-guide/report-designer/compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
-
 <span style="font-weight:bold">Link To</span>
 
 You can configure **Hyperlink** or a **Report path** in the chart series to create an interactive report. Refer [Linking](/designer-guide/report-designer/compose-report/link-data/) section to set or reset link property for chart series.
-
 ![Link To property](/static/assets/on-premise/images/report-designer/report-items/data-bar/link-to-property.png)
 
 ### Appearance
@@ -177,13 +169,11 @@ The page break property can be used to control the amount of information on each
 ### Position
 
 Position property is used to set the width, height, left and top position of the data bar in the report design. To handle these properties using properties panel refer [Position](/designer-guide/report-designer/compose-report/common-properties/#position) section.
-
 ![Chart postion](/static/assets/on-premise/images/report-designer/report-items/data-bar/position.png)
 
 ### Visibility
 
 The visibility property is used to conditionally show or hide the data bar report item on report preview or export action. To set visibility of data bar item using properties panel, refer to the [Visibility](/designer-guide/report-designer/compose-report/common-properties/#visibility) section.
-
 ![Chart visibility](/static/assets/on-premise/images/report-designer/report-items/data-bar/visibility.png)
 
 ### Miscellaneous
@@ -191,19 +181,15 @@ The visibility property is used to conditionally show or hide the data bar repor
 <span style="font-weight:bold">Custom Attributes</span>
 
 This property can be used to set the values for chart custom properties. To assign values for custom properties using properties panel refer [Custom Properties](/designer-guide/report-designer/compose-report/common-properties/#custom-properties) section.
-
 <span style="font-weight:bold">Tooltip</span>
 
 Tooltip property can be used to display informative text or value, when the user hovers over on the report item in report preview. To set tooltip for data bar report item using properties panel refer [Tooltip](/designer-guide/report-designer/compose-report/common-properties/#tooltip) section.
-
 ## Set expression
 
 An expression can be set to few properties of the data bar report item to process the property values based on expressions. To set expressions to the data bar report item properties, refer to the [Set Expression](/designer-guide/report-designer/compose-report/properties-panel/#set-expression) section.
-
 ## Reset expression
 
 To `Reset` the expression applied to a property, refer to the [Reset Expression](/designer-guide/report-designer/compose-report/properties-panel/#reset-expression) section.
-
 ## Advanced properties
 
 A few properties of the data bar report item contains nested properties. To open and handle the nested properties, refer to the [Advanced Properties](/designer-guide/report-designer/compose-report/properties-panel/#advanced-properties) section.

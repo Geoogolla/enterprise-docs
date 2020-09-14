@@ -32,13 +32,11 @@ FROM dbo.DimProduct as prod
 ```
 
 > Refer [Create Data](/designer-guide/report-designer/manage-data/dataset/create-an-embedded-dataset/#create-an-embedded-dataset) section and create dataset using the above query. `AdventureWorksDW2014` database is used here.
-
 ## Add sparkline report item
 
 1. Drag and drop table report item to the design area.
 ![Sparkline item in item panel](/static/assets/on-premise/images/report-designer/report-items/sparkline/design/add-table.png)
-2. Assign [dataset](/designer-guide/report-designer/report-items/tablix/assign-data-to-tablix-data-region/#assign-data-from-properties-panel) to the table.
-![Assign dataset to table](/static/assets/on-premise/images/report-designer/report-items/sparkline/design/assign-data.png)
+2. Assign [dataset](/designer-guide/report-designer/report-items/tablix/assign-data-to-tablix-data-region/#assign-data-from-properties-panel) to the table.![Assign dataset to table](/static/assets/on-premise/images/report-designer/report-items/sparkline/design/assign-data.png)
 3. Assign `EnglishProductSubcategoryName` field in the first cell as shown below.
 ![Assign value in table cell](/static/assets/on-premise/images/report-designer/report-items/sparkline/design/add-group-value.png)
 4. Click on `Details group` in `Row Groups` pane, now the respective tablix member properties will be listed in the properties panel.
@@ -49,7 +47,7 @@ FROM dbo.DimProduct as prod
 ![Group data in table ](/static/assets/on-premise/images/report-designer/report-items/sparkline/design/group-data.png)
 7. Assign `Sales` field in the second cell as shown below.
 ![Assign value in table cell](/static/assets/on-premise/images/report-designer/report-items/sparkline/design/assign-sales-field.png)
-8. Now select the `Sales` text box and [assign the following expression](/report-designer/report-items/tablix/assign-data-to-tablix-data-region/#edit-expression-in-properties-panel) `=Sum(Fields!SalesAmount.Value)` in the cell.
+8. Now select the `Sales` text box and [assign the following expression](/designer-guide/report-designer/report-items/tablix/assign-data-to-tablix-data-region/#edit-expression-in-properties-panel) `=Sum(Fields!SalesAmount.Value)` in the cell.
 ![Sum sales value](/static/assets/on-premise/images/report-designer/report-items/sparkline/design/sum-sales-value.png)
 9. Drag and drop the sparkline report item into last cell of the table as shown below.
 ![Add Sparkline item in table](/static/assets/on-premise/images/report-designer/report-items/sparkline/design/add-sparkline.png)
@@ -76,14 +74,12 @@ Now, the report design will look like below.
 1. Now, switch to the `PROPERTIES` tab in the properties panel.
 2. Choose the `Sales` series in the  `Choose Series` dropdown.
 ![Choose series in chart](/static/assets/on-premise/images/report-designer/report-items/sparkline/design/choose-series.png)
-3. Enable  [Data Label](/designer-guide/report-designer/report-items/chart/data-label/) property checkbox.
-![Chart data label](/static/assets/on-premise/images/report-designer/report-items/sparkline/design/enable-data-label.png)
+3. Enable  [Data Label](/designer-guide/report-designer/report-items/chart/data-label/) property checkbox.![Chart data label](/static/assets/on-premise/images/report-designer/report-items/sparkline/design/enable-data-label.png)
 4. Format the numbers produced by the `Data labels`, using `Format` property. Under the `Advanced Options`, set the `'$'#,0;('$'#,0)` as value format property field.
 ![Format datalabel value](/static/assets/on-premise/images/report-designer/report-items/sparkline/design/format-values.png)
 5. In the below design background color and font styles are changed in table cells to improvise the report design.
 ![Format table design](/static/assets/on-premise/images/report-designer/report-items/sparkline/design/format-report.png)
     > Refer the [Cell Properties](/designer-guide/report-designer/report-items/tablix/cell-properties/#cell-properties) to style the table cell.
-
 ## Report preview
 
 On report preview, the report is showing sales amount progress from start year to till end.

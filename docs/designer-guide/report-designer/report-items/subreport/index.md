@@ -15,8 +15,7 @@ Subreport is used to embed another report inside the body of a main report. It a
 `Basic Settings` category contains `Report` and `Set Parameters` properties.
 
 * `Report` property can be used to specify the report path of the subreport. Refer [Report Path](/designer-guide/report-designer/compose-report/link-data/#report-path) section to set report path to this property.
-
-* `Set Parameters` property can be used to pass parameters from the main report to the subreport. Refer [Set Parameters](/report-designer/compose-report/link-data/#set-parameters) section to set parameters to the subreport.
+* `Set Parameters` property can be used to pass parameters from the main report to the subreport. Refer [Set Parameters](/designer-guide/report-designer/compose-report/link-data/#set-parameters) section to set parameters to the subreport.
 
 ![subreport item basic settings](/static/assets/on-premise/images/report-designer/report-items/subreport/basic-settings.png)
 
@@ -28,7 +27,6 @@ Subreport is used to embed another report inside the body of a main report. It a
 #### Border
 
 Border properties are used to add or customize the border around a subreport item to visually separate items in the report design. To set border properties to the subreport item using properties panel refer [Border Properties](/designer-guide/report-designer/compose-report/common-properties/#border-properties) section.
-
 ### No Rows
 
 No Rows property is used to display static text when dataset results with a empty or zero rows.
@@ -85,7 +83,6 @@ Text decoration property sets the appearance of decorative lines on text.
 #### Format
 
 Format property is used to format the given text in the no rows message. Refer [Format](/designer-guide/report-designer/compose-report/format-data/#format) section to represent the text in **Numbers**, **Currency**, **Date**, **Time**, **Scientific**, **Percentage** and **Custom** formats.
-
 ![subreport item font size](/static/assets/on-premise/images/report-designer/report-items/subreport/subreport-norows-format.png)
 
 #### Message
@@ -127,13 +124,11 @@ Writing mode property represent the direction of the no rows message along `Hori
 ### Position
 
 Position property is used to set the width, height, left and top position of the subreport item in the report design. To handle these properties using properties panel refer [Position](/designer-guide/report-designer/compose-report/common-properties/#position) section.
-
 ![subreport item position](/static/assets/on-premise/images/report-designer/report-items/subreport/subreport-norows-position.png)
 
 ### Visibility
 
 Visibility property is used to conditionally show or hide the subreport report item on report preview or export action. To set visibility of subreport item using properties panel refer [Visibility](/designer-guide/report-designer/compose-report/common-properties/#visibility) section.
-
 ### Miscellaneous
 
 <span style="font-weight:bold">Keep together</span>
@@ -145,23 +140,18 @@ Keep together property is used to display the subreport item in a single page, o
 <span style="font-weight:bold">Custom Attributes</span>
 
 This property can be used to set the values for subreport custom properties. To create and assign values for custom properties using properties panel refer [Custom Properties](/designer-guide/report-designer/compose-report/common-properties/#custom-properties) section.
-
 <span style="font-weight:bold">Tooltip</span>
 
 Tooltip property can be used to display informative text or value, when the user hovers over on the report item in report preview. To set tooltip for sub-report item using properties panel refer [Tooltip](/designer-guide/report-designer/compose-report/common-properties/#tooltip) section.
-
 ## Set expression
 
 Properties panel allows you to specify expressions that can include two or more data fields and various functions. To set expressions for the report or report item properties refer [Set Expression](/designer-guide/report-designer/compose-report/properties-panel/#set-expression) section.
-
 ## Reset expression
 
 To `Reset` the property value and expression, refer [Reset Expression](/designer-guide/report-designer/compose-report/properties-panel/#reset-expression) section.
-
 ## Advanced properties
 
 Few properties of the subreport report contains nested properties. To open and handle nested properties, refer [Advanced Properties](/designer-guide/report-designer/compose-report/properties-panel/#advanced-properties) section.
-
 ## Design rdl report using subreport
 
 Refer [Design rdl report using subreport](/designer-guide/report-designer/report-items/subreport/design-rdl-report-using-subreport/) section to learn how to link report, set parameters, to customize the subreport properties.

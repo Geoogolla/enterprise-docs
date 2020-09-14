@@ -8,12 +8,10 @@ keywords: ejReportDesigner, reportdesigner, tablix, reportitem, bold reports, do
 
 To repeat the headers on every page of the report follow the below steps.
 
-1. Refer [Simple Table Design](/designer-guide/report-designer/report-items/tablix/design-ssrs-rdl-report-using-table/) section and create a table report as shown below.
-![Open group menu](/static/assets/on-premise/images/report-designer/report-items/tablix-repeat-headers/simple-table-design.png)
+1. Refer [Simple Table Design](/designer-guide/report-designer/report-items/tablix/design-ssrs-rdl-report-using-table/) section and create a table report as shown below.![Open group menu](/static/assets/on-premise/images/report-designer/report-items/tablix-repeat-headers/simple-table-design.png)
 2. Click on the surface of the table design to enable grouping panel.
 ![Open group menu](/static/assets/on-premise/images/report-designer/report-items/tablix-repeat-headers/enable-grouping-panel.png)
-3. Refer [Advanced Mode](/designer-guide/report-designer/report-items/tablix/grouping-panel/#advanced-mode) section to enable advanced mode in grouping panel.
-4. Once you click on the `Advanced Mode`, it will show the static columns in both row and column group. Now, select the static column presented in row group pane (Header Row Group)
+3. Refer [Advanced Mode](/designer-guide/report-designer/report-items/tablix/grouping-panel/#advanced-mode) section to enable advanced mode in grouping panel.4. Once you click on the `Advanced Mode`, it will show the static columns in both row and column group. Now, select the static column presented in row group pane (Header Row Group)
 ![Open group menu](/static/assets/on-premise/images/report-designer/report-items/tablix-repeat-headers/select-static-group.png)
 5. In the properties panel, enable `RepeatOnNewPage` property checkbox and set `KeepWithGroup` as `After`.
 ![Open group menu](/static/assets/on-premise/images/report-designer/report-items/tablix-repeat-headers/set-repeat-header-properties.png)

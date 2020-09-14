@@ -20,7 +20,6 @@ The rectangle report item is used to visually separate regions of the report or 
 ## Properties
 
 Refer the [Properties panel](/designer-guide/report-designer/compose-report/properties-panel/) section before proceeding with the below properties.
-
 ### Basic Settings
 
 The border style, color, width and background color properties are used to style the rectangle and customize its appearance in the report design. These properties are listed under the `Basic Settings` category in the properties panel.
@@ -30,11 +29,9 @@ The border style, color, width and background color properties are used to style
 #### Border
 
 Border properties are used to add or customize the border around a rectangle item to visually separate items in the report design. To set border properties to the rectangle item using properties panel refer [Border Properties](/designer-guide/report-designer/compose-report/common-properties/#border-properties) section.
-
 #### Background color
 
 Using the background color property you can color the rectangle background. To set background color using properties panel refer [Background color](/designer-guide/report-designer/compose-report/common-properties/#background-color) section.
-
 ### Page break
 
 The page break property is used to control the amount of information on each page when you preview the report. Follow the below steps to apply page break property for rectangle item.
@@ -49,11 +46,9 @@ The page break property is used to control the amount of information on each pag
 ### Position
 
 Position property is used to set the width, height, left and top position of the rectangle in the report design. To handle these properties using properties panel refer [Position](/designer-guide/report-designer/compose-report/common-properties/#position) section.
-
 ### Visibility
 
 Visibility property is used to conditionally show or hide the rectangle report item on report preview or export action. To set visibility of rectangle item using properties panel refer [Visibility](/designer-guide/report-designer/compose-report/common-properties/#visibility) section.
-
 ### Miscellaneous
 
 #### Keep together
@@ -73,19 +68,15 @@ The page name property is used to name the first worksheet of the Excel workbook
 <span style="font-weight:bold">Custom Attributes</span>
 
 This property can be used to set the values for rectangle custom properties. To create and assign values for custom properties using properties panel refer [Custom Properties](/designer-guide/report-designer/compose-report/common-properties/#custom-properties) section.
-
 <span style="font-weight:bold">Tooltip</span>
 
 Tooltip property can be used to display informative text or value, when the user hovers over on the report item in report preview. To set tooltip for rectangle report item using properties panel refer [Tooltip](/designer-guide/report-designer/compose-report/common-properties/#tooltip) section.
-
 ## Set expression
 
 An expression can be set to few properties of the rectangle report item to process the property values based on expressions. To set expressions to the rectangle report item properties, refer [Set Expression](/designer-guide/report-designer/compose-report/properties-panel/#set-expression) section.
-
 ## Reset expression
 
 To `Reset` the expression applied to a property, refer [Reset Expression](/designer-guide/report-designer/compose-report/properties-panel/#reset-expression) section.
-
 ## Advanced properties
 
 Few properties of the rectangle report contains nested properties. To open and handle nested properties, refer [Advanced Properties](/designer-guide/report-designer/compose-report/properties-panel/#advanced-properties) section.
