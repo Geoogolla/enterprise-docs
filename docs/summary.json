@@ -157,7 +157,7 @@
                 "Query Parameter":"define-query-parameters.md",
                 "Configuring Expression Columns": "configure-expression-columns.md",
                 "Supported Built-in Functions in Expression Designer": "supported-functions-in-query-expression.md"},
-"Report Parameters": {
+            "Report Parameters": {
                 "Add Report Parameter": "add.md",
                 "Edit Report Parameter": "edit.md",
                 "Delete Report Parameter": "delete.md",
@@ -166,11 +166,12 @@
                 "Create Multi Value Parameter": "create-multi-value-parameter.md",
                 "Create Cascading Parameter":"create-cascading-parameter.md",
                 "Parameters Layout":"parameters-layout"
-},
-"Image Manager": {
+            },
+            "Image Manager": {
                 "Add an embedded image": "add-image.md",
-                "Delete an embedded image": "delete-image.md"            },
-"Compose Report": {
+                "Delete an embedded image": "delete-image.md"  
+            },
+            "Compose Report": {
                 "Toolbar":"tool-bar.md",
                 "Design Surface": {
                     "Report Item Resizing": "report-item-resizing.md",
@@ -205,8 +206,9 @@
                 },
                 "Code Module": "code-module.md",
                 "Page Layout" : "page-layout.md",
-                "Report Variables": "report-variables"            },
-"Report Items": {
+                "Report Variables": "report-variables" 
+            },
+            "Report Items": {
                 "Line": "line.md",
                 "Rectangle": "rectangle.md",
                 "Image": "image.md",
