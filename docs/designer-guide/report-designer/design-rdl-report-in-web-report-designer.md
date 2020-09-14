@@ -157,10 +157,17 @@ Once you are done with the report designing, to save a report refer [How to save
 [Design a Basic Chart Report](/designer-guide/manage-content/reports/create-report/)
 
 [Create an Embedded DataSource](/designer-guide/report-designer/manage-data/datasource/create-an-embedded-data-source/)
+
 [Create an Embedded DataSet](/designer-guide/report-designer/manage-data/dataset/create-an-embedded-dataset/)
+
 [Link a Shared DataSource into a Report](/designer-guide/report-designer/manage-data/datasource/link-a-shared-data-source/)
+
 [Link a Shared DataSet into a Report](/designer-guide/report-designer/manage-data/dataset/link-a-shared-dataset/)
+
 [Create a Duplicate Copy of DataSource in a Report](/designer-guide/report-designer/manage-data/datasource/duplicate-a-data-source/)
+
 [Create a Duplicate Copy of DataSet in a Report](/designer-guide/report-designer/manage-data/dataset/duplicate-a-dataset/)
+
 [Add a Report Parameter to a Report](/designer-guide/report-designer/report-parameters/add/)
+
 [Embed an Image in a Report](/designer-guide/report-designer/image-manager/add-image/)

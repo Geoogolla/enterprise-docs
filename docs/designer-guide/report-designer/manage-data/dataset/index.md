@@ -19,8 +19,13 @@ Like shared data source, you can add a dataset that is published on a Report Ser
 ## See also
 
 [Create Embedded Dataset](/designer-guide/report-designer/manage-data/dataset/create-an-embedded-dataset/)
+
 [Link Shared Dataset](/designer-guide/report-designer/manage-data/dataset/link-a-shared-dataset/)
+
 [Edit Embedded Dataset](/designer-guide/report-designer/manage-data/dataset/modify-an-embedded-dataset/)
+
 [Edit Shared Dataset](/designer-guide/report-designer/manage-data/dataset/modify-shared-dataset/)
+
 [Delete Dataset](/designer-guide/report-designer/manage-data/dataset/delete-a-dataset/)
+
 [Duplicate Dataset](/designer-guide/report-designer/manage-data/dataset/duplicate-a-dataset/)
