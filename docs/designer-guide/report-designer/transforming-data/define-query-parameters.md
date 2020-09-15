@@ -14,7 +14,7 @@ Refer [Create Data](/designer-guide/report-designer/manage-data/dataset/create-a
 
 1. Drag and drop a table into design area and open the `Query Filters` dialog, in the query designer.
 ![Open query filter dialog](/static/assets/on-premise/images/report-designer/transforming-data/define-query-parameters/open-query-filter-dialog.png)
- > Refer [Query filters](/designer-guide/report-designer/transforming-data/query-filter/) section to learn more about query filters.
+   > Refer [Query filters](/designer-guide/report-designer/transforming-data/query-filter/) section to learn more about query filters.
 2. Click on the **Add** icon, to create a new filter.
 3. Choose any dataset field in the  first drop-down list.
 4. Choose any **Operator** in the second drop-down list.

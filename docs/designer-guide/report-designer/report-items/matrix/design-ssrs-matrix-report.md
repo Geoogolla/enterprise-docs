@@ -24,6 +24,7 @@ GROUP BY DATEPART(yy, SOH.OrderDate), PC.Name, PS.Name, 'Q' + DATENAME(qq, SOH.O
 ```
 
 > Refer [Create Data](/designer-guide/report-designer/manage-data/dataset/create-an-embedded-dataset/#create-an-embedded-dataset) section and create dataset using the above query. `AdventuresWorks` database is used here.
+
 ## Add matrix to the report
 
 The matrix report item is listed in the item panel under the `Data Regions` category.
@@ -43,7 +44,9 @@ Assign dataset to the `Dataset` property of matrix report item.
 ![Drag and drop matrix report item into design area](/static/assets/on-premise/images/report-designer/report-items/matrix/assign-data.png)
 
 Refer [Assign fields](/designer-guide/report-designer/report-items/tablix/assign-data-to-tablix-data-region/) section and assign the `ProdCat`, `OrderYear` and `Sales` fields in  initial matrix design.
+
 ### Delete details group
+
 ![Drag and drop tablix report item into design area](/static/assets/on-premise/images/report-designer/report-items/matrix/default-group-replace.png)
 
 Similarly, assign `OrderYear` in column grouping pane and sales field in data cell.
@@ -86,6 +89,7 @@ Now, a matrix report is created with row groups and column groups. To calculate 
 ![Matrix simple design](/static/assets/on-premise/images/report-designer/report-items/matrix/calculate-fields.png)
 
 > To set expression in matrix cell, refer [Assign or edit expression into table cell](/designer-guide/report-designer/report-items/tablix/assign-data-to-tablix-data-region/#assign-or-edit-expression-into-table-cell) section.
+
 ## Format data
 
 By default, the summary data for the `Sales` field displays a general number. To format the `Sales` field to display the number as currency, set the format for `Sales` field cell using the `Format` property.
@@ -109,6 +113,7 @@ In the below design background color and font styles are changed in matrix cells
 ![Matrix simple design](/static/assets/on-premise/images/report-designer/report-items/matrix/format-matrix-report.png)
 
 > Refer the [Cell Properties](/designer-guide/report-designer/report-items/tablix/cell-properties/#cell-properties) to style the matrix cell.
+
 ## Report preview
 
 On report preview, the yearly sales report of a company will be displayed like below,

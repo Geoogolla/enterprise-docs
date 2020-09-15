@@ -30,6 +30,7 @@ To view and edit the selected text properties, focus inside the text area. Now, 
 ![Textbox item with properties view](/static/assets/on-premise/images/report-designer/report-items/textbox/selected-text-properties.png)
 
 Refer the [Properties panel](/designer-guide/report-designer/compose-report/properties-panel/) section before proceeding with the below properties.
+
 ### Common properties
 
 The following are the common properties for textbox and selected text:
@@ -94,6 +95,7 @@ Format property is used format an entire text box or specific text, numbers, exp
 ![Textbox item with properties view](/static/assets/on-premise/images/report-designer/report-items/textbox/format-button.png)
 
 To apply **Number**, **Currency**, **Date**, **Time**, **Scientific**, **Percentage** or **Custom** formats using format dialog follow the steps provided in [Format](/designer-guide/report-designer/compose-report/format-data/#format) section.
+
 #### Link
 
 You can specify a hyperlink inside the textbox content to link another report. Select the `Enable  Link` checkbox, to enable the sub properties.
@@ -101,6 +103,7 @@ You can specify a hyperlink inside the textbox content to link another report. S
 ![Border width](/static/assets/on-premise/images/report-designer/report-items/textbox/report-linking.png)
 
 To set the hyperlink to a selected text or over all textbox follow the steps provided in [Linking](/designer-guide/report-designer/compose-report/link-data/#report-linking) section.
+
 ### Textbox properties
 
 The following properties are only specific to the over all textbox item:
@@ -141,9 +144,11 @@ Border properties are used to add or customize the border around a textbox item 
 #### Position
 
 Position property is used to set the width, height, left and top position of the textbox in the report design. To handle these properties using properties panel refer [Position](/designer-guide/report-designer/compose-report/common-properties/#position) section.
+
 #### Visibility
 
 Visibility property is used to conditionally show or hide the textbox report item on report preview or export action. To set visibility of textbox item using properties panel refer [Visibility](/designer-guide/report-designer/compose-report/common-properties/#visibility) section.
+
 #### Miscellaneous
 
 ![Visibility property](/static/assets/on-premise/images/report-designer/report-items/textbox/miscellenous-property.png)
@@ -162,6 +167,7 @@ This property can be used to set the values for textbox custom properties. To cr
 <span style="font-weight:bold">Tooltip</span>
 
 Tooltip property can be used to display informative text or value, when the user hovers over on the report item in report preview. To set tooltip for textbox report item using properties panel refer [Tooltip](/designer-guide/report-designer/compose-report/common-properties/#tooltip) section.
+
 #### Localization
 
 <span style="font-weight:bold">Direction</span>
@@ -199,6 +205,7 @@ Markup type property can be used to render the selected text as plain text or HT
 **Plain Text** - Displays the selected text as simple text and the HTML will be treated as literal text.
 
 **HTML** - Displays the selected text as HTML. If the expression value or values from dataset field contains a valid  HTML tags, these tags will be rendered as HTML. Refer [Add HTML in to a report](/designer-guide/report-designer/report-items/textbox/add-html-in-to-a-report/) section to import HTML using textbox.
+
 #### Paragraph Settings
 
 ![Textbox item with properties view](/static/assets/on-premise/images/report-designer/report-items/textbox/paragraph-settings.png)
@@ -224,12 +231,15 @@ Using this property you can add space before and after the paragraphs in the tex
 ## Set expression
 
 An expression can be set to few properties of the textbox report item to process the property values based on expressions. To set expressions to the textbox report item properties, refer [Set Expression](/designer-guide/report-designer/compose-report/properties-panel/#set-expression) section.
+
 ## Reset expression
 
 To `Reset` the expression applied to a property, refer [Reset Expression](/designer-guide/report-designer/compose-report/properties-panel/#reset-expression) section.
+
 ## Advanced properties
 
 Few properties of the textbox report contains nested properties. To open and handle nested properties, refer [Advanced Properties](/designer-guide/report-designer/compose-report/properties-panel/#advanced-properties) section.
+
 ## Design RDL report using textbox
 
 Refer [Design RDL report using textbox](/designer-guide/report-designer/report-items/textbox/design-rdl-report-using-textbox/) section to learn how to position, style, format, link report, add hyperlink in a textbox.

@@ -37,6 +37,7 @@ On report preview, the List repeats for each row in the datasource.
 ## Properties
 
 Refer the [Properties panel](/designer-guide/report-designer/compose-report/properties-panel/) section before proceeding with the below properties.
+
 ### Data
 
 ![Data category](/static/assets/on-premise/images/report-designer/report-items/tablix/data-category-property.png)
@@ -50,6 +51,7 @@ This property is used to assign the dataset to the list. The available datasets 
 ![Data category](/static/assets/on-premise/images/report-designer/report-items/tablix/dataset-drop-down-view.png)
 
 > Refer [Create Data](/designer-guide/report-designer/manage-data/dataset/create-an-embedded-dataset/) section to add dataset to your report.
+
 #### Filter
 
 Filters is used to filter the data in the list. To open the `Filter` dialog, click on the `Set Filters...` button. Now, the filter dialog will be opened like below.
@@ -57,6 +59,7 @@ Filters is used to filter the data in the list. To open the `Filter` dialog, cli
 ![Filter dialog](/static/assets/on-premise/images/report-designer/report-items/tablix/filters-dialog.png)
 
 Refer [Filter Data](/designer-guide/report-designer/compose-report/filter-data/) section to add/remove filters in the filter dialog.
+
 #### Sort
 
 To sort the numeric or string field in the list, sorting can be used. In list, the sorting can be applied to the whole data region or for each group, including the details group. To open the sort dialog, click on the `Set Sorts...` button. Now, the sort dialog will be opened like below.
@@ -64,6 +67,7 @@ To sort the numeric or string field in the list, sorting can be used. In list, t
 ![Sort dialog](/static/assets/on-premise/images/report-designer/report-items/tablix/sort-dialog.png)
 
 Refer [Sort Data](/designer-guide/report-designer/compose-report/sort-data/) section to add/remove sort expressions in the sort dialog.
+
 ### Appearance
 
 The border style, color, width and background color properties are used to style the list and customize its appearance in the report design. These properties are listed under the `Appearance` category in the properties panel.
@@ -71,15 +75,19 @@ The border style, color, width and background color properties are used to style
 #### Border
 
 Border properties are used to add or customize the border around a list item to visually separate it in the report design. To set border properties to the list item using properties panel refer [Border Properties](/designer-guide/report-designer/compose-report/common-properties/#border-properties) section.
+
 #### Background color
 
 Using the background color property you can color the list background. To set background color using properties panel refer [Background color](/designer-guide/report-designer/compose-report/common-properties/#background-color) section.
+
 ### Position
 
 Position property is used to set the width, height, left and top position of the list in the report design. To handle these properties using properties panel refer [Position](/designer-guide/report-designer/compose-report/common-properties/#position) section.
+
 ### Visibility
 
 Visibility property is used to conditionally show or hide the list report item on report preview or export action. To set visibility of tablix item using properties panel refer [Visibility](/designer-guide/report-designer/compose-report/common-properties/#visibility) section.
+
 ### Miscellaneous
 
 <span style="font-weight:bold">Custom Attributes</span>
@@ -88,15 +96,19 @@ This property can be used to set the values for list report item custom properti
 <span style="font-weight:bold">Tooltip</span>
 
 Tooltip property can be used to display informative text or value, when the user hovers over on the report item in report preview. To set tooltip for list report item using properties panel refer [Tooltip](/designer-guide/report-designer/compose-report/common-properties/#tooltip) section.
+
 ## Set expression
 
 An expression can be set to few properties of the list report item to process the property values based on expressions. To set expressions to the list report item properties, refer [Set Expression](/designer-guide/report-designer/compose-report/properties-panel/#set-expression) section.
+
 ## Reset expression
 
 To `Reset` the expression applied to a property, refer [Reset Expression](/designer-guide/report-designer/compose-report/properties-panel/#reset-expression) section.
+
 ## Advanced properties
 
 Few properties of the list report item contains nested properties. To open and handle nested properties, refer [Advanced Properties](/designer-guide/report-designer/compose-report/properties-panel/#advanced-properties) section.
+
 ## Design RDL report using list
 
 Refer [Design ssrs RDL report using list](/designer-guide/report-designer/report-items/list/design-ssrs-rdl-report-using-list/) section to learn how to design a simple list in your report.

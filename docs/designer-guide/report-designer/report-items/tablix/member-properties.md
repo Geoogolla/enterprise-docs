@@ -90,6 +90,7 @@ Filters can be used to filter the data in the tablix. In tablix data region, fil
 ![Filter dialog](/static/assets/on-premise/images/report-designer/report-items/tablix/filters-dialog.png)
 
 To create a filter expression for the respective group member, refer the steps provided in [Filter Data](/designer-guide/report-designer/compose-report/filter-data/) section.
+
 #### Sorts
 
 To sort the numeric or string field in the tablix, sorting can be used. In tablix, the sorting can be applied to the whole data region or for each group, including the details group. Select a group in the grouping panel, click on the `Set Sorts...` button. Now, the sort dialog will be opened like below.
@@ -97,6 +98,7 @@ To sort the numeric or string field in the tablix, sorting can be used. In tabli
 ![Sort dialog](/static/assets/on-premise/images/report-designer/report-items/tablix/sort-dialog.png)
 
 To create a sort expression for the respective group member, refer the steps provided in [Sort Data](/designer-guide/report-designer/compose-report/sort-data/) section.
+
 ### Miscellaneous
 
 ![Open group member properties](/static/assets/on-premise/images/report-designer/report-items/tablix/group-member-miscelleneous.png)

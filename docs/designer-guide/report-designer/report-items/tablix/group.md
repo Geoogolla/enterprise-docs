@@ -32,6 +32,7 @@ After creating groups, the group properties such as [filters](/designer-guide/re
 ![Open group member properties](/static/assets/on-premise/images/report-designer/report-items/tablix/open-group-member-properties.png)
 
 Refer [Group properties](/designer-guide/report-designer/report-items/tablix/member-properties/#group-member-properties) section and modify the group properties.
+
 ## Group scope
 
 You can create a nested group or adjacent groups in the data regions. The scope of group is defined by the hierarchy in which the groups are created in the data regions. To easily understand the scope of the groups in the selected tablix data region,

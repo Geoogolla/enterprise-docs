@@ -95,6 +95,7 @@ The following procedure is applicable for below scenario's:
 
 Refer [Create report parameter](/designer-guide/report-designer/report-parameters/add/) section and create the required report parameters in your report.
 Refer [Create query parameter](/designer-guide/report-designer/transforming-data/define-query-parameters/) section and create the required query parameters.
+
 ### Steps to link parameters
 
 The following steps guides to link a query parameter with a report parameter.

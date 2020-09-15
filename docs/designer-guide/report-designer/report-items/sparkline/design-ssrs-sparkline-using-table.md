@@ -32,6 +32,7 @@ FROM dbo.DimProduct as prod
 ```
 
 > Refer [Create Data](/designer-guide/report-designer/manage-data/dataset/create-an-embedded-dataset/#create-an-embedded-dataset) section and create dataset using the above query. `AdventureWorksDW2014` database is used here.
+
 ## Add sparkline report item
 
 1. Drag and drop table report item to the design area.
@@ -80,6 +81,7 @@ Now, the report design will look like below.
 5. In the below design background color and font styles are changed in table cells to improvise the report design.
 ![Format table design](/static/assets/on-premise/images/report-designer/report-items/sparkline/design/format-report.png)
     > Refer the [Cell Properties](/designer-guide/report-designer/report-items/tablix/cell-properties/#cell-properties) to style the table cell.
+
 ## Report preview
 
 On report preview, the report is showing sales amount progress from start year to till end.

@@ -22,6 +22,7 @@ Emp.Notes, Emp.HomePhone    FROM  Employees Emp INNER JOIN Employees Rep ON Rep.
 ```
 
 Refer [Create Data](/designer-guide/report-designer/manage-data/dataset/create-an-embedded-dataset/#create-an-embedded-dataset) section and create dataset using the above query. `Northwind` database is used here.
+
 ## Configure a list
 
 1. The list report item is listed in the item panel under the `Data Regions` category.

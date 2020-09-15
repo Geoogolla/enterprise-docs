@@ -11,21 +11,25 @@ keywords: reports, ejreports, reportdesigner, report designer, web designer, bol
 The Report Designer toolbar contains a set of icons or buttons that allows you to perform common report designing operations.
 
 Refer [Toolbar](/designer-guide/report-designer/compose-report/tool-bar/) section to handle the options in toolbar.
+
 ## Properties panel
 
 The properties pane significantly simplifies report setup and styling. Allows customizing the appearance of report items and editing their property values. Users can specify static values or expressions as values in the report item properties.
 
 Refer [Properties panel](/designer-guide/report-designer/compose-report/properties-panel/) section to set and style report items.
+
 ## Multi select report item properties
 
 You can edit common properties of multiple report items at once. Tablix item have styling options, such as apply formatting by selecting specific cells, rows, or columns.
 
 Refer [Report item multiselection](/designer-guide/report-designer/compose-report/report-item-multi-selection/) section to edit properties of multiple report items.
+
 ## Filtering
 
 Provides support to add filters to an embedded data set or shared data set, data regions, and data region groups, including detail groups.
 
 Refer [Filter data](/designer-guide/report-designer/compose-report/filter-data/) section to add or remove filters in report.
+
 ## Sorting
 
 Supports adding sort expressions to chart category and series groups and pivot table groups. It controls the order in which data is displayed in a data region item of the report (either as ascending or descending).

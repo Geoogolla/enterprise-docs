@@ -27,6 +27,7 @@ Subreport is used to embed another report inside the body of a main report. It a
 #### Border
 
 Border properties are used to add or customize the border around a subreport item to visually separate items in the report design. To set border properties to the subreport item using properties panel refer [Border Properties](/designer-guide/report-designer/compose-report/common-properties/#border-properties) section.
+
 ### No Rows
 
 No Rows property is used to display static text when dataset results with a empty or zero rows.
@@ -129,6 +130,7 @@ Position property is used to set the width, height, left and top position of the
 ### Visibility
 
 Visibility property is used to conditionally show or hide the subreport report item on report preview or export action. To set visibility of subreport item using properties panel refer [Visibility](/designer-guide/report-designer/compose-report/common-properties/#visibility) section.
+
 ### Miscellaneous
 
 <span style="font-weight:bold">Keep together</span>
@@ -143,15 +145,19 @@ This property can be used to set the values for subreport custom properties. To 
 <span style="font-weight:bold">Tooltip</span>
 
 Tooltip property can be used to display informative text or value, when the user hovers over on the report item in report preview. To set tooltip for sub-report item using properties panel refer [Tooltip](/designer-guide/report-designer/compose-report/common-properties/#tooltip) section.
+
 ## Set expression
 
 Properties panel allows you to specify expressions that can include two or more data fields and various functions. To set expressions for the report or report item properties refer [Set Expression](/designer-guide/report-designer/compose-report/properties-panel/#set-expression) section.
+
 ## Reset expression
 
 To `Reset` the property value and expression, refer [Reset Expression](/designer-guide/report-designer/compose-report/properties-panel/#reset-expression) section.
+
 ## Advanced properties
 
 Few properties of the subreport report contains nested properties. To open and handle nested properties, refer [Advanced Properties](/designer-guide/report-designer/compose-report/properties-panel/#advanced-properties) section.
+
 ## Design rdl report using subreport
 
 Refer [Design rdl report using subreport](/designer-guide/report-designer/report-items/subreport/design-rdl-report-using-subreport/) section to learn how to link report, set parameters, to customize the subreport properties.

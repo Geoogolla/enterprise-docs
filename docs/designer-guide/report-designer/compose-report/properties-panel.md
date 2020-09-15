@@ -20,6 +20,7 @@ Now, the properties panel will be displayed like below.
 > By default, the properties panel will display the `Report` properties.
 
 Refer [Report properties](/designer-guide/report-designer/compose-report/report-properties/) section to set and edit the report properties.
+
 ### Header properties
 
 To open the `Header` properties, focus the mouse pointer on the header area of the report.
@@ -28,6 +29,7 @@ To open the `Header` properties, focus the mouse pointer on the header area of t
 
 Refer [Header properties](/designer-guide/report-designer/compose-report/report-properties/) section to set and edit the report header properties.
 > Refer [Show or hide header](/designer-guide/report-designer/compose-report/show-or-hide-header-footer-in-report/#show-or-hide-report-header) section to show or hide header in the report.
+
 ### Body properties
 
 To open the `Body` properties, focus the mouse pointer on the body area of the report.
@@ -35,6 +37,7 @@ To open the `Body` properties, focus the mouse pointer on the body area of the r
 ![Open body properties](/static/assets/on-premise/images/report-designer/report-items/properties-panel/open-body-properties.png)
 
 Refer [Body properties](/designer-guide/report-designer/compose-report/report-properties/) section to set and edit the report body properties.
+
 ### Footer properties
 
 To open the `Footer` properties, focus the mouse pointer on the footer area of the report.
@@ -43,6 +46,7 @@ To open the `Footer` properties, focus the mouse pointer on the footer area of t
 
 Refer [Footer properties](/designer-guide/report-designer/compose-report/report-properties/) section to set and edit the report footer properties.
 > Refer [Show or hide footer](/designer-guide/report-designer/compose-report/show-or-hide-header-footer-in-report/#show-or-hide-report-footer) section to show or hide footer in the report.
+
 ### Report item properties
 
 To open any of the report item properties, select a report item in the design area. Now, the respective report item properties will be listed in the properties panel. In the below snap, a line report item is selected in the design area and the line properties are listed in the properties panel.
@@ -52,6 +56,7 @@ To open any of the report item properties, select a report item in the design ar
 ## Common properties
 
 Some of the common properties like name, border, background etc are applicable for most of the report items and report layout, such properties are described under [Common properties](/designer-guide/report-designer/compose-report/common-properties/) section.
+
 ## Set expression
 
 1. Click on the square icon at the right corner of the respective property.

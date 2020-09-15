@@ -24,6 +24,7 @@ GROUP BY DATEPART(yy, SOH.OrderDate), PC.Name, PS.Name, 'Q' + DATENAME(qq, SOH.O
 ```
 
 > Refer [Create Data](/designer-guide/report-designer/manage-data/dataset/create-an-embedded-dataset/#create-an-embedded-dataset) section and create dataset using the above query. `AdventuresWorks` database is used here.
+
 ## Add interactive sorting
 
 Design a [simple table report](/designer-guide/report-designer/design-rdl-report-in-web-report-designer/#add-table-report-item) as shown below.

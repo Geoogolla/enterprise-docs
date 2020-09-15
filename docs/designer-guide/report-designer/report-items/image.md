@@ -65,6 +65,7 @@ Linking is used to create interactive report using **Hyperlink** and **Report Li
 #### Border
 
 Border properties are used to add or customize the border around an image report item to visually separate items in the report design. To set border properties to the image report item using properties panel refer [Border Properties](/designer-guide/report-designer/compose-report/common-properties/#border-properties) section.
+
 ### Size
 
 Sizing property allow us to format the size of the images displayed in the design area. It includes four options to adjust the image display, choose the required size in the `Sizing` drop-down list.
@@ -100,6 +101,7 @@ Position property is used to set the width, height, left and top position of the
 ### Visibility
 
 Visibility property is used to conditionally show or hide the image report item on report preview or export action. To set visibility of image item using properties panel refer [Visibility](/designer-guide/report-designer/compose-report/common-properties/#visibility) section.
+
 ### Miscellaneous
 
 <span style="font-weight:bold">Custom Attributes</span>

@@ -70,6 +70,7 @@ Design a subreport to display the employee details.
 Here we have designed a simple subreport using image, textbox and table reportitem as shown below.
 ![subreport item with properties view](/static/assets/on-premise/images/report-designer/report-items/subreport/create-a-subreport.png)
 >Note: Refer [Image](/report-designer/report-items/image/), [Line](/designer-guide/report-designer/report-items/line/), [Table](/designer-guide/report-designer/report-items/tablix/design-ssrs-rdl-report-using-table/) section to design the above subreport.
+
 ### Assign fields
 
 * To display employee `DOB`, we have used this `=First(Fields!BirthDate.Value,"EmployeePersonalDetails")` expression in the textbox reportitem.

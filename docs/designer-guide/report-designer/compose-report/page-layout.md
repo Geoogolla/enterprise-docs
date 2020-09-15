@@ -52,6 +52,7 @@ The [paper size](/designer-guide/report-designer/compose-report/report-propertie
 ## Margin
 
 [Margins](/designer-guide/report-designer/compose-report/report-properties/#margin) are applied from the edge of the physical page dimensions inward to the specified margin setting. The report item will be clipped if it extends into the margin area, so that the overlapping area is not rendered. The margin will be set to zero, if the specified margin sizes causes the horizontal or vertical width of the page to equal zero. Margins are applied only when you render and print reports in hard page break rendering layout.
+
 ## Avoid the extra blank pages in print and print preview
 
 The extra blank page is created when the width of report is greater the page width. So, to avoid the extra blank pages set the report body width lesser than or equal to the page width.

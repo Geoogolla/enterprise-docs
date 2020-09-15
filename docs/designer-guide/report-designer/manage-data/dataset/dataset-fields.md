@@ -9,6 +9,7 @@ keywords: calculated fields, calculated fields ssrs, report-designer, ssrs calcu
 Fields options can be used to create a new field when a required information is not directly available in the retrieved dataset. It will also allows you to change the column names of the existing fields in the dataset.
 
 Refer [Create Data](/designer-guide/report-designer/manage-data/dataset/create-an-embedded-dataset/#create-an-embedded-dataset) section and create a data in report designer.
+
 ## Create calculated field
 
 1. Select a data in the `DATA` panel to which you want to add fields.

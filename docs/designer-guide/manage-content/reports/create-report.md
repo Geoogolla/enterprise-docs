@@ -118,6 +118,7 @@ Once you are done with the report designing, click on the `Publish` option.
 [Create a Duplicate Copy of DataSet in a Report](/designer-guide/report-designer/manage-data/dataset/duplicate-a-dataset/)
 [Add a Report Parameter to a Report](/designer-guide/report-designer/report-parameters/add/)
 [Embed an Image in a Report](/designer-guide/report-designer/image-manager/add-image/)
+
 ## REST API Reference
 
 The following table illustrates the list of available APIs related to Add reports in Bold Reports On-Premise.

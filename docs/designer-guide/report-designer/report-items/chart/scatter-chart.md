@@ -36,6 +36,7 @@ GROUP BY DATEPART(yy, SOH.OrderDate), PC.Name, PS.Name, 'Q' + DATENAME(qq, SOH.O
 ```
 
 > Refer [Create Data](/designer-guide/report-designer/manage-data/dataset/create-an-embedded-dataset/#create-an-embedded-dataset) section and create dataset using the above query. `AdventuresWorks` database is used here.
+
 ## Assign data
 
 Scatter Chart needs a minimum of 1 value element and 1 column element to showcase. The measure or expression field that you would like to analyze can be dropped into `Y Values` section. The dimension that you would like to categorize the measure, can be dropped onto `Columns` section. If you would like to categorize based on a series, then the respective dimension can be dropped onto `Rows` section in addition.
@@ -222,6 +223,7 @@ Category axis displays the text labels instead of numbers. To use the categorica
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/category-axis.png)
 
 To set/reset axis properties, refer [Axis Properties](/designer-guide/report-designer/report-items/chart/axis/) property.
+
 ### Value Axis
 
 Numeric axis uses numerical scale and displays numbers as labels. To use the categorical axis, toggle the `Enable Axis` checkbox under `Value Axis` category in the chart properties.
@@ -229,6 +231,7 @@ Numeric axis uses numerical scale and displays numbers as labels. To use the cat
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/value-axis.png)
 
 To set/reset axis properties, refer [Axis Properties](/designer-guide/report-designer/report-items/chart/axis/) property.
+
 ### Grid line
 
 The Grid line properties can be set to category and value axis.
@@ -273,6 +276,7 @@ This property can be used to set the values for chart custom properties. To assi
 <span style="font-weight:bold">Tooltip</span>
 
 Tooltip property can be used to display informative text or value, when the user hovers over on the report item in report preview. To set tooltip for chart item using properties panel refer [Tooltip](/designer-guide/report-designer/compose-report/common-properties/#tooltip) section.
+
 ## Preview report
 
 1. To see the report preview, click on the **Preview** button in the top-right corner of the report header.

@@ -86,6 +86,7 @@ To create multiple groupings in a tablix data region adjacent grouping can be us
 Now, a new row group will be created above or below the existing group in the tablix data region.
 
 > To add adjacent group using group menu in grouping panel, refer [Add adjacent group](/designer-guide/report-designer/report-items/tablix/grouping-panel/#add-adjacent-group) section.
+
 ## Delete row group
 
 Row group can be deleted either using the cell context menu or using the group menu provided in grouping panel.

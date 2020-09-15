@@ -24,6 +24,7 @@ GROUP BY DATEPART(yy, SOH.OrderDate), PC.Name, PS.Name, 'Q' + DATENAME(qq, SOH.O
 ```
 
 > Refer [Create Data](/designer-guide/report-designer/manage-data/dataset/create-an-embedded-dataset/#create-an-embedded-dataset) section and create dataset using the above query. `AdventuresWorks` database is used here.
+
 ## Add drilldown action to a table group
 
 Design a [simple table report](/designer-guide/report-designer/report-items/tablix/insert-or-delete-a-row-group-ssrs/#insert-a-row-group) with a parent group and child group as shown below.

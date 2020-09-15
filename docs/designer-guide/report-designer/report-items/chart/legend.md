@@ -19,6 +19,7 @@ If you enable the `Show Legend` checkbox, the chart legend will be displayed in 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/show-legend/chart-legend-indication.png)
 
 You can also enable or disable the legend based on dynamic values, by using the `Expressions`. Refer [Set Expression](/designer-guide/report-designer/compose-report/properties-panel/#set-expression) and [Reset Expression](/designer-guide/report-designer/compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
+
 ## Format legend
 
 You can customize the legend appearance through the properties provided in the `Advanced` menu of show legend property. Click on the square icon in the right side of the `Show Legend` checkbox and click on `Advanced` option in the menu.
@@ -57,6 +58,7 @@ Now, the background color property will be applied to the legend area.
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/show-legend/set-background-property.png)
 
 You can also apply background color based on dynamic values, by using the `Expressions`. Refer [Set Expressions](/designer-guide/report-designer/compose-report/properties-panel/#set-expression) and [Reset Expressions](/designer-guide/report-designer/compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
+
 ### Font
 
 The font family, font size, and font color properties can be used to customize the legend text.
@@ -86,6 +88,7 @@ Now, the provided title text will be updated in the chart legend area.
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/show-legend/set-title-text.png)
 
 You can also apply title text based on dynamic values, by using the `Expressions`. Refer [Set Expressions](/designer-guide/report-designer/compose-report/properties-panel/#set-expression) and [Reset Expressions](/designer-guide/report-designer/compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
+
 ### Legend position
 
 You can place the legend in different position inside the chart area. This property can be used to position the legend inside the chart area. Supported positioning patterns are listed in the `Legend Position` drop-down.

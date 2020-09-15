@@ -20,6 +20,7 @@ Products ON [Order Details].ProductID = Products.ProductID
 ```
 
 Refer [Create Data](/designer-guide/report-designer/manage-data/dataset/create-an-embedded-dataset/#create-an-embedded-dataset) section and create dataset using the above query. `Northwind` database is used here.
+
 ## Add a table to the report
 
 1. Drag and drop the table report item into the design area from the item panel.

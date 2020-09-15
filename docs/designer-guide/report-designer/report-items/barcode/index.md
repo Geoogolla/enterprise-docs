@@ -106,6 +106,7 @@ The `Text Visibility` property can be used to show/hide the label text of the ba
 ![Barcode item with properties view](/static/assets/on-premise/images/report-designer/report-items/barcode/2D-label-hidden.png)
 
 Supported barcode types and their valid input values are listed in the [Supported Barcode Types](/designer-guide/report-designer/report-items/barcode/supported-barcode-types/) section.
+
 ## General properties
 
 ### Name
@@ -119,6 +120,7 @@ The border style, color, width and background color properties are used to style
 #### Border
 
 Border properties are used to add or customize the border around a barcode item to visually separate it in the report design. To set border properties to the tablix item using properties panel refer [Border Properties](/designer-guide/report-designer/compose-report/common-properties/#border-properties) section.
+
 #### Background color
 
 Using the background color property you can color the barcode background. To set background color using properties panel refer [Background color](/designer-guide/report-designer/compose-report/common-properties/#background-color) section.
@@ -127,18 +129,23 @@ Using the background color property you can color the barcode background. To set
 ### Position
 
 Position property is used to set the width, height, left and top position of the barcode in the report design. To handle these properties using properties panel refer [Position](/designer-guide/report-designer/compose-report/common-properties/#position) section.
+
 ### Visibility
 
 Visibility property is used to conditionally show or hide the barcode report item on report preview or export action. To set visibility of barcode item using properties panel refer [Visibility](/designer-guide/report-designer/compose-report/common-properties/#visibility) section.
+
 ### Tooltip
 
 Tooltip property can be used to display informative text or value, when the user hovers over on the report item in report preview. To set tooltip for barcode item using properties panel refer [Tooltip](/designer-guide/report-designer/compose-report/common-properties/#tooltip) section.
+
 ## Set expression
 
 An expression can be set to few properties of the tablix report item to process the property values based on expressions. To set expressions to the tablix report item properties, refer [Set Expression](/designer-guide/report-designer/compose-report/properties-panel/#set-expression) section.
+
 ## Reset expression
 
 To `Reset` the expression applied to a property, refer [Reset Expression](/designer-guide/report-designer/compose-report/properties-panel/#reset-expression) section.
+
 ## Advanced properties
 
 Few properties of the tablix report items contains nested properties. To open and handle nested properties, refer [Advanced Properties](/designer-guide/report-designer/compose-report/properties-panel/#advanced-properties) section.

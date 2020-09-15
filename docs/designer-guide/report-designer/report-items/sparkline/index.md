@@ -33,6 +33,7 @@ GROUP BY DATEPART(yy, SOH.OrderDate), PC.Name, PS.Name, 'Q' + DATENAME(qq, SOH.O
 ```
 
 > Refer [Create Data](/designer-guide/report-designer/manage-data/dataset/create-an-embedded-dataset/#create-an-embedded-dataset) section and create dataset using the above query. `AdventuresWorks` database is used here.
+
 ## Assign data
 
 Sparkline needs a minimum of 1 value element to showcase data. The measure or expression field that you would like to analyze can be dropped into `Y Values` section. The dimension that you would like to categorize the measure, can be dropped onto `Columns` section. If you would like to categorize based on a series, then the respective dimension can be dropped onto `Rows` section in addition.
@@ -70,6 +71,7 @@ To configure data into sparkline follow the below steps:
 ## Properties
 
 Refer to the [Properties panel](/designer-guide/report-designer/compose-report/properties-panel/) section before proceeding with the following properties.
+
 ### General Settings
 
 ![Name property](/static/assets/on-premise/images/report-designer/report-items/sparkline/name-property.png)
@@ -184,12 +186,15 @@ This property can be used to set the values for chart custom properties. To crea
 <span style="font-weight:bold">Tooltip</span>
 
 Tooltip property can be used to display informative text or value, when the user hovers over on the report item in report preview. To set tooltip for sparkline report item using properties panel refer [Tooltip](/designer-guide/report-designer/compose-report/common-properties/#tooltip) section.
+
 ## Set expression
 
 An expression can be set to few properties of the sparkline report item to process the property values based on expressions. To set expressions to the sparkline report item properties, refer to the [Set Expression](/designer-guide/report-designer/compose-report/properties-panel/#set-expression) section.
+
 ## Reset expression
 
 To `Reset` the expression applied to a property, refer to the [Reset Expression](/designer-guide/report-designer/compose-report/properties-panel/#reset-expression) section.
+
 ## Advanced properties
 
 A few properties of the sparkline report item contains nested properties. To open and handle the nested properties, refer to the [Advanced Properties](/designer-guide/report-designer/compose-report/properties-panel/#advanced-properties) section.

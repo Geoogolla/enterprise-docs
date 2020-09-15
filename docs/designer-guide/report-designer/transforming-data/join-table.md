@@ -8,6 +8,7 @@ description: This section describes how to join tables in query designer, and th
 Joining of tables is required when the dataset query design demands for more than one table. The following sections describes the steps required to create and edit the relationships between tables.
 
 Refer [Create Data](/designer-guide/report-designer/manage-data/dataset/create-an-embedded-dataset/) section for better understanding with the following steps.
+
 ## Open query joiner dialog
 
 Click on the `Join` icon in the query designer toolbar to open `Query Joiner` dialog.

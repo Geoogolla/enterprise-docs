@@ -24,6 +24,7 @@ GROUP BY DATEPART(yy, SOH.OrderDate), PC.Name, PS.Name, 'Q' + DATENAME(qq, SOH.O
 ```
 
 > Refer [Create Data](/designer-guide/report-designer/manage-data/dataset/create-an-embedded-dataset/#create-an-embedded-dataset) section and create dataset using the above query. `AdventuresWorks` database is used here.
+
 ## Add matrix to the report
 
 The matrix report item is listed in the item panel under the `Data Regions` category.
@@ -88,6 +89,7 @@ In the below design background color and font styles are changed in matrix cells
 ![Matrix simple design](/static/assets/on-premise/images/report-designer/report-items/chart/nested-data-region/format-matrix-report.png)
 
 > Refer the [Cell Properties](/designer-guide/report-designer/report-items/tablix/cell-properties/#cell-properties) to style the matrix cell.
+
 ## Format chart
 
 Select the chart in the table cell. Now, the chart properties will be listed in the properties panel.

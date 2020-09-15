@@ -97,6 +97,7 @@ Click on the required static tablix member in the `Row Groups` or `Column Groups
 ![Open static member properties](/static/assets/on-premise/images/report-designer/report-items/tablix/open-static-member-properties.png)
 
 To set and edit the properties of static tablix member, refer [Static member properties](/designer-guide/report-designer/report-items/tablix/member-properties/#static-member-properties) section.
+
 ### Group member properties
 
 Click on the required group tablix member in the `Row Groups` or `Column Groups` pane, now the respective tablix member properties will be listed in the properties panel.
@@ -104,6 +105,7 @@ Click on the required group tablix member in the `Row Groups` or `Column Groups`
 ![Open group member properties](/static/assets/on-premise/images/report-designer/report-items/tablix/open-group-member-properties.png)
 
 To set and edit the properties of group tablix member, refer [Group member properties](/designer-guide/report-designer/report-items/tablix/member-properties/#group-member-properties) section.
+
 ## Add groups or total
 
 You can add groups or totals to the tablix data region using the grouping panel. To open the group menu click on the icon in the right corner of the row or column group member.

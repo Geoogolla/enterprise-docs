@@ -24,6 +24,7 @@ GROUP BY DATEPART(yy, SOH.OrderDate), PC.Name, PS.Name, 'Q' + DATENAME(qq, SOH.O
 ```
 
 > Refer [Create Data](/designer-guide/report-designer/manage-data/dataset/create-an-embedded-dataset/#create-an-embedded-dataset) section and create dataset using the above query. `AdventuresWorks` database is used here.
+
 ## Design drill through report
 
 Design the drill through report, before configuring the drill through action in the main report. Refer the [Data bar report](/designer-guide/report-designer/report-items/data-bar/design-ssrs-data-bar-using-table/) section and the report design will look like below.
@@ -45,6 +46,7 @@ Assign a `Product Category` parameter as expression in the value field and click
 ![Add filter](/static/assets/on-premise/images/report-designer/compose-report/create-ssrs-drill-through-report/assign-parameter.png)
 
 > Refer [Dataset Filters](/designer-guide/report-designer/manage-data/dataset/add-a-filter-to-a-dataset/) section to apply filters at dataset level.
+
 ## Add drill through action to a chart
 
 Now, design a main report and link the drill through report using `Link` property. Here, we are going to configure the drill through action for chart series.

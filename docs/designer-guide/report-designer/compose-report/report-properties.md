@@ -19,12 +19,15 @@ The border style, color, width and background color properties are listed under 
 ### Border
 
 Refer [Border Properties](/designer-guide/report-designer/compose-report/common-properties/#border-properties) section.
+
 ### Background color
 
 Refer [Background color](/designer-guide/report-designer/compose-report/common-properties/#background-color) section.
+
 ## Background Image
 
 Background image property can be used to display company logos, watermarks, or any other background image to the report. To set background image to the report refer [Background Image](/designer-guide/report-designer/compose-report/background-image/) section.
+
 ## Code
 
 Code Module is used to embed a custom code or assemblies to a report. To embed a custom function or assembly into the report refer [Code Module](/designer-guide/report-designer/compose-report/code-module/) section.

@@ -43,6 +43,7 @@ You can display dynamic values in the textbox using parameters and dataset field
 ## Associate a textbox with dataset
 
 Refer [Create Data](/designer-guide/report-designer/manage-data/dataset/create-an-embedded-dataset/) section to create dataset in Web Report Designer.
+
 ### Drag and drop dataset field
 
 1. Open the `DATA` panel and expand the required dataset fields
@@ -55,9 +56,11 @@ Refer [Create Data](/designer-guide/report-designer/manage-data/dataset/create-a
 ### Assign the field using expression editor
 
 You can also associate the dataset field in textbox using the expression editor. Refer [Dataset Fields in Expression](/designer-guide/report-designer/compose-report/expressions/using-dataset-fields/) section.
+
 ## Associate a textbox with parameter
 
 Refer [Create Parameter](/designer-guide/report-designer/report-parameters/add/#create-parameter) section to create report parameter in Web Report Designer.
+
 ### Drag and drop parameter field
 
 1. Open the `PARAMETERS` panel, the available parameters in the report will be listed in the panel.
@@ -70,6 +73,7 @@ Refer [Create Parameter](/designer-guide/report-designer/report-parameters/add/#
 ### Assign the parameter using expression editor
 
 You can also associate parameter in textbox using the expression editor. Refer [Dataset Fields in Expression](/designer-guide/report-designer/compose-report/expressions/using-report-parameters/) section.
+
 ## Configure and Format textbox content
 
 You can configure the textbox in below ways:

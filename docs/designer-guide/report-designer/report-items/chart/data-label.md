@@ -19,6 +19,7 @@ If you enable the `Show Data Label` checkbox, the label will displayed in the re
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/show-data-label/data-label-indication.png)
 
 You can also enable or disable the data label based on dynamic values, by using the `Expressions`. Refer [Set Expression](/designer-guide/report-designer/compose-report/properties-panel/#set-expression) and [Reset Expression](/designer-guide/report-designer/compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
+
 ## Format data label
 
 You can customize the data label appearance through the properties provided in the `Advanced` menu of show data label property. Click on the square icon in the right side of the `Show Data Label` checkbox and click on `Advanced` option in the menu.
@@ -57,6 +58,7 @@ Now, the background color property will be applied to the data label.
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/show-data-label/set-background-property.png)
 
 You can also apply background color based on dynamic values, by using the `Expressions`. Refer [Set Expressions](/designer-guide/report-designer/compose-report/properties-panel/#set-expression) and [Reset Expressions](/designer-guide/report-designer/compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
+
 ### Font
 
 The font family, font size, and font color properties can be used to customize the labels.
@@ -106,6 +108,7 @@ For Pyramid and Funnel Chart,
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/show-data-label/set-userdefined-text.png)
 
 You can also set position property based on dynamic values, by using the `Expressions`. Refer [Set Expression](/designer-guide/report-designer/compose-report/properties-panel/#set-expression) and [Reset Expression](/designer-guide/report-designer/compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
+
 ### Label Rotation
 
 Labels can be rotated by using the `Lable Rotation` property.
@@ -117,6 +120,7 @@ Increase or decrease the value in the `Label Rotation` property field to set the
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/show-data-label/lable-rotation-design.png)
 
 You can also set label rotation property based on dynamic values, by using the `Expressions`. Refer [Set Expression](/designer-guide/report-designer/compose-report/properties-panel/#set-expression) and [Reset Expression](/designer-guide/report-designer/compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
+
 ### Format
 
 Format property is used format data label values. To open the format dialog click on the icon highlighted in the below snap or you can type the format directly in the textbox.
@@ -126,6 +130,7 @@ Format property is used format data label values. To open the format dialog clic
 To apply **Number**, **Currency**, **Date**, **Time**, **Scientific**, **Percentage** or **Custom** formats using format dialog follow the steps provided in [Format](/designer-guide/report-designer/compose-report/format-data/#format) section.
 
 You can also set format property based on dynamic values, by using the `Expressions`. Refer [Set Expression](/designer-guide/report-designer/compose-report/properties-panel/#set-expression) and [Reset Expression](/designer-guide/report-designer/compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
+
 ### Label
 
 You can use case-sensitive, chart-specific keywords to represent an item that exists in the chart. The following is a list of chart keywords.

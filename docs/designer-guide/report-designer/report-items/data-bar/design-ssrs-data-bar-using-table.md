@@ -23,6 +23,7 @@ GROUP BY DATEPART(yy, SOH.OrderDate), PC.Name, PS.Name, 'Q' + DATENAME(qq, SOH.O
 ```
 
 > Refer [Create Data](/designer-guide/report-designer/manage-data/dataset/create-an-embedded-dataset/#create-an-embedded-dataset) section and create dataset using the above query. `AdventuresWorks` database is used here.
+
 ## Add data bar report item
 
 1. Drag and drop table report item to the design area.
@@ -66,6 +67,7 @@ Now, the report design will look like below.
 5. In the below design background color and font styles are changed in table cells to improvise the report design.
 ![Format table design](/static/assets/on-premise/images/report-designer/report-items/data-bar/design/format-report.png)
     > Refer the [Cell Properties](/designer-guide/report-designer/report-items/tablix/cell-properties/#cell-properties) to style the table cell.
+
 ## Report preview
 
 On report preview, the difference in sales between each product category will be displayed like below,

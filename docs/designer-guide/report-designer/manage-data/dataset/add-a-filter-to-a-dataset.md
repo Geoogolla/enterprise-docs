@@ -11,6 +11,7 @@ This section guides you to add a filter at dataset level in Bold Report Designer
 ## Create Data
 
 Refer [Create Data](/designer-guide/report-designer/manage-data/dataset/create-an-embedded-dataset/#create-an-embedded-dataset) section to create a data in report designer.
+
 ## Apply filters at dataset level
 
 1. Select a data in the `DATA` panel to which you want to apply filter.
@@ -23,12 +24,15 @@ Refer [Create Data](/designer-guide/report-designer/manage-data/dataset/create-a
 ### Add filters
 
 Refer [Add filters](/designer-guide/report-designer/compose-report/filter-data/#add-filters) section to create filter equation.
+
 ### Set expression
 
 Refer [Set expression](/designer-guide/report-designer/compose-report/filter-data/#set-expression) section to set expression in filter equation.
+
 ### Remove filter
 
 Refer [Remove filter](/designer-guide/report-designer/compose-report/filter-data/#remove-filters) section to delete a filter equation.
+
 ## Example
 
 We can filter the `ProductID` field values at dataset level like below.
