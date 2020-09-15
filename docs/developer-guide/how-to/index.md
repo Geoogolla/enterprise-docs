@@ -1,7 +1,7 @@
 ---
 layout: post
-title: How to queries for Bold Reports | Bold Reports
-description: This section explains to get the answer for the frequently asked how to queries in Bold Reports Enterprise Reporting
+title: How to queries for Bold Reports On Premise Edition.
+description: This section explains to get the answer for the frequently asked how to queries in Bold Reports On Premise Edition.
 platform: report-platform
 documentation: ug
 ---

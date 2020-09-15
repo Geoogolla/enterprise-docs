@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Installation and Deployment of BoldReportsEnterpriseEdition
+title: Installation and Deployment of BoldReports On-Premise
 description: Learn how to install and deploy Bold Reports Enterprise Edition and how to host the Bold Reports Enterprise in IIS or IIS Express in your machine. 
 platform: report-platform
 documentation: ug

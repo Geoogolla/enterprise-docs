@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Upgrade steps for Bold Report On Premise Edition
-description: Explains about how to upgrade the Bold Report On-Premise Edition version from 1.x to the latest versions.
+title: Upgrade steps for Bold Report On Premise Edition.
+description: Explains about how to upgrade the Bold Report On-Premise Edition from old versions to the latest versions.
 platform: report-platform
 documentation: ug
 ---
