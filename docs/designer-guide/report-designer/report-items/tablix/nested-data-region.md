@@ -81,7 +81,8 @@ The data bind to the nested data regions, based on the position of the nested da
    > By adding a group expression, details group is changed as a parent group organized by sales order Id's.
 7. Resize the List data region to the required size and drag and drop a textbox report item in the list report item.
 ![Assign data to the list](/static/assets/on-premise/images/report-designer/report-items/tablix-nested-data-regions/add-textboxes-inside-list-report-item.png)
-8. Refer [Create Expression in Textbox](/designer-guide/report-designer/report-items/textbox/design-rdl-report-using-textbox/#display-dynamic-text-using-expression) and assign the `="Sales Order: " & Fields!SalesOrderID.Value` expressions in the textbox.9. Drag and drop a `Table` report item into List.
+8. Refer [Create Expression in Textbox](/designer-guide/report-designer/report-items/textbox/design-rdl-report-using-textbox/#display-dynamic-text-using-expression) and assign the `="Sales Order: " & Fields!SalesOrderID.Value` expressions in the textbox.
+9. Drag and drop a `Table` report item into List.
 ![Assign data to the list](/static/assets/on-premise/images/report-designer/report-items/tablix-nested-data-regions/add-table-in-list-report-item.png)
 10. Refer [Assign data fields](/designer-guide/report-designer/report-items/tablix/assign-data-to-tablix-data-region/#assign-fields-using-data-assign-menu) section and assign the `ProductNumber`, `OrderQty`, `LineTotal` data fields to the table.![Assign data to the list](/static/assets/on-premise/images/report-designer/report-items/tablix-nested-data-regions/assign-data-fields-in-table.png)
 11. Refer [Set header text](/designer-guide/report-designer/report-items/tablix/design-ssrs-rdl-report-using-table/#set-header-text) section and set header text to the table header row.![Assign data to the list](/static/assets/on-premise/images/report-designer/report-items/tablix-nested-data-regions/set-table-header-row-text.png)

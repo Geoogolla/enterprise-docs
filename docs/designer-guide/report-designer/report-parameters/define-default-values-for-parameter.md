@@ -49,7 +49,8 @@ On report preview, the report automatically runs and displays the first record o
 
 To remove the default values defined for the parameter follow the below steps:
 
-1. Refer [Edit Parameter](/designer-guide/report-designer/report-parameters/edit/) section and open parameter properties.2. Click on `Assign Value >>` to open parameter assign dialog.
+1. Refer [Edit Parameter](/designer-guide/report-designer/report-parameters/edit/) section and open parameter properties.
+2. Click on `Assign Value >>` to open parameter assign dialog.
 3. Under the `Default Values` tab, choose the `None` option.
 ![Remove default values](/static/assets/on-premise/images/report-designer/report-parameters/add-report-parameter/remove-default-values.png)
 4. Click `OK`and save the parameter.

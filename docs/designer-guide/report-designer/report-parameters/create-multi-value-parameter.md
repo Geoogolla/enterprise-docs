@@ -33,7 +33,8 @@ Using the `ProductID` parameter, we can filter the `ProductID` field values at r
 ![Open table properties](/static/assets/on-premise/images/report-designer/report-parameters/add-report-parameter/properties-icon-to-open-table-properties.png)
 3. In `Table` properties, click on `Set Filters...` button.
 ![Table set filters button](/static/assets/on-premise/images/report-designer/report-parameters/add-report-parameter/table-set-filters-button.png)
-4. Refer [Set filters](/designer-guide/report-designer/compose-report/filter-data/) section to create new filter expression.5. Choose the `In` operator and assign the `ProductID` parameter in the **Value** field. Save the filter.
+4. Refer [Set filters](/designer-guide/report-designer/compose-report/filter-data/) section to create new filter expression.
+5. Choose the `In` operator and assign the `ProductID` parameter in the **Value** field. Save the filter.
 ![Open expression menu in filter dialog](/static/assets/on-premise/images/report-designer/report-parameters/add-report-parameter/add-filter-condition.png)
 6. Click on the `Preview` button in the report header. Select the required values in drop-down list.
 ![Select multiple values to filter the records](/static/assets/on-premise/images/report-designer/report-parameters/add-report-parameter/select-multiple-value-in-parameter.png)

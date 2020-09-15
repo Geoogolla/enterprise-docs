@@ -21,7 +21,8 @@ You can add textbox report item in header, footer and body area of the report.
 You can display dynamic values in the textbox using parameters and dataset fields. To achieve this requirement expressions are used. In the below steps, the report parameter is assigned in the textbox to display the dynamic value.
 
 1. Refer [Create Parameter](/designer-guide/report-designer/report-parameters/add/#create-parameter) section and create a new report parameter
-2. Refer [Add a textbox to the report](/designer-guide/report-designer/report-items/textbox/) section and add a textbox in the report.3. Focus in the textbox and right click in the text area. The textbox context menu will appear as shown below.
+2. Refer [Add a textbox to the report](/designer-guide/report-designer/report-items/textbox/) section and add a textbox in the report.
+3. Focus in the textbox and right click in the text area. The textbox context menu will appear as shown below.
 ![Design report using textbox](/static/assets/on-premise/images/report-designer/report-items/textbox/expression-menu.png)
 4. Select the `Expression` option in the menu list. Now, expression editor opens as shown below.
 ![Design report using textbox](/static/assets/on-premise/images/report-designer/report-items/textbox/expression-editor.png)

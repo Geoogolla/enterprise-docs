@@ -35,5 +35,6 @@ We can filter the `ProductID` field values at dataset level like below.
 
 1. Create a filter equation as in the below snap, and click `OK`.
 ![Filter equation for product id field](/static/assets/on-premise/images/report-designer/manage-data/dataset/filter-product-id-field.png)
-2. Now, assign the dataset to the `Table` report item. Refer [Design a basic table report](/designer-guide/report-designer/design-rdl-report-in-web-report-designer/) section.3. Preview the report. Observe the below snap, it displays the records for `ProductID` value **712** based on the filter equation.
+2. Now, assign the dataset to the `Table` report item. Refer [Design a basic table report](/designer-guide/report-designer/design-rdl-report-in-web-report-designer/) section.
+3. Preview the report. Observe the below snap, it displays the records for `ProductID` value **712** based on the filter equation.
 ![Preview output for dataset filters](/static/assets/on-premise/images/report-designer/manage-data/dataset/dataset-filter-preview.png)

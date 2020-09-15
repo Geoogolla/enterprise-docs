@@ -36,7 +36,8 @@ Follow steps 1 - 5, to create calculated field.
 ![expression-icon-shown](/static/assets/on-premise/images/report-designer/manage-data/add-dataset-field/expression-menu.png)
 2. `Expression Builder` will be open as shown below.
 ![open-expression-dialog](/static/assets/on-premise/images/report-designer/manage-data/add-dataset-field/expression-builder.png)
-   > To learn more about handling expressions in report designer refer [Expressions](/designer-guide/report-designer/compose-report/expressions/) section.3. Provide the required expression and click on `OK` button.
+   > To learn more about handling expressions in report designer refer [Expressions](/designer-guide/report-designer/compose-report/expressions/) section.
+3. Provide the required expression and click on `OK` button.
 ![open-expression-dialog](/static/assets/on-premise/images/report-designer/manage-data/add-dataset-field/set-expression.png)
 4. The icon will be indicated in `Black color`, if the expression is applied to the dataset field.
 ![set-expression](/static/assets/on-premise/images/report-designer/manage-data/add-dataset-field/set-expression-indication.png)
