@@ -1,62 +1,23 @@
 {
-    "customNames": [
-        "oauth",
-        "2.0",
-        "openid",
-        "sso",
-        "iframe",
-        "faq",
-        "datasource",
-        "barcode",
-        "gauge",
-        "sparkline",
-        "subreport",
-        "tablix",
-        "textbox",
-        "api",
-        "kerberos",
-        "cognito",
-        "auth0",
-        "okta",
-        "onelogin",
-        "365",
-        "rebranding",
-        "ums",
-        "app",
-        "iis",
-        "os",
-        "syncfusion",
-        "programmatically",
-        "url",
-        "gmail",
-        "smtp",
-        "dsn",
-        "mysql",
-        "v1",
-        "vm",
-        "v2",
-        "datasources",
-        "csv",
-        "ssrs",
-        "rdl",
-        "html",
-        "oauth-2.0",
-        "openid-connect",
-        "rest-api-reference",
-		"sql",
-		"json",
-        "xml",
-        "odata",
-        "odbc",
-        "oledb"
-    ],
-    "homePage": {
-        "name": "OverView",
-        "fileName": "overview"
-    },
     "branch": "development",
     "siteVersion": "2.3.26",
     "umsVersion": "2.3.26",
     "reportserviceurl": "https://demos.boldreports.com/services/",
-    "githubserviceloc": "https://github.com/boldreports/demo-services/"
+    "githubserviceloc": "https://github.com/boldreports/demo-services/",
+    "additionalInfo": {
+        "header": "Enterprise",
+        "homePage": {
+            "name": "Overview",
+            "fileName": "overview"
+        },
+        "url": {
+            "demo": "https://on-premise-demo.boldreports.com/",
+            "download": "https://www.boldreports.com/account/downloads/enterprise",
+            "pdf": "https://s3.amazonaws.com/files2.syncfusion.com/report.pdf"
+        },
+        "pdf": {
+            "tocLevel": 1,
+            "date": "September 2,2020"
+        }
+    }
 }
