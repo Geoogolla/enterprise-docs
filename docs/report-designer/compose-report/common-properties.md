@@ -80,7 +80,7 @@ The background color property can be used to set the background color of the rep
 
 > This property is not applicable for `Line` report item.
 
-You can assign expressions to set the background property based on dynamic values. Refer [Set Expressions](./../../compose-report/properties-panel/#set-expression) and [Reset Expressions](/on-premise/report-designer/compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
+You can assign expressions to set the background property based on dynamic values. Refer [Set Expressions](./../../compose-report/properties-panel/#set-expression) and [Reset Expressions](./../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
 
 ![Background expression property](/static/assets/on-premise/images/report-designer/report-items/properties-panel/back-ground-color-expression-menu.png)
 
@@ -94,7 +94,7 @@ Enable or disable the visibility property to show or hide the report items on re
 
 * Disable the checkbox to hide the report item.
 
- You can also set the visibility of report items based on dynamic values using expressions. Refer [Set Expressions](./../../compose-report/properties-panel/#set-expression) and [Reset Expressions](/on-premise/report-designer/compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
+ You can also set the visibility of report items based on dynamic values using expressions. Refer [Set Expressions](./../../compose-report/properties-panel/#set-expression) and [Reset Expressions](./../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
 
 ![Visiblity expression property](/static/assets/on-premise/images/report-designer/report-items/properties-panel/visibility-expression-property.png)
 
@@ -134,7 +134,7 @@ To configure tooltip for a report item, select the report item in design area. I
 
 ![Set value for tooltip](/static/assets/on-premise/images/report-designer/report-items/properties-panel/set-tooltip.png)
 
-You can also set the tooltip of report items based on dynamic values using expressions. Refer [Set Expressions](./../../compose-report/properties-panel/#set-expression) and [Reset Expressions](/on-premise/report-designer/compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
+You can also set the tooltip of report items based on dynamic values using expressions. Refer [Set Expressions](./../../compose-report/properties-panel/#set-expression) and [Reset Expressions](./../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
 
 ![Set dynamic value for tooltip](/static/assets/on-premise/images/report-designer/report-items/properties-panel/tooltip-expression.png)
 
