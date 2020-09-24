@@ -18,7 +18,7 @@ If you enable the `Show Data Label` checkbox, the label will displayed in the re
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/show-data-label/data-label-indication.png)
 
-You can also enable or disable the data label based on dynamic values, by using the `Expressions`. Refer [Set Expression](/report-designer/compose-report/properties-panel/#set-expression) and [Reset Expression](/report-designer/compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
+You can also enable or disable the data label based on dynamic values, by using the `Expressions`. Refer [Set Expression](./../../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
 
 ## Format data label
 
@@ -44,7 +44,7 @@ Also, set of border properties will get enabled in the  `Advanced Options` categ
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/show-data-label/data-label-border.png)
 
-Using the border color and width property, you can customize the border for the data label. You can also set border properties based on dynamic values, by using the `Expressions`. Refer [Set Expression](/report-designer/compose-report/properties-panel/#set-expression) and [Reset Expression](/report-designer/compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
+Using the border color and width property, you can customize the border for the data label. You can also set border properties based on dynamic values, by using the `Expressions`. Refer [Set Expression](./../../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/show-data-label/expression-menu.png)
 
@@ -58,7 +58,7 @@ Now, the background color property will be applied to the data label.
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/show-data-label/set-background-property.png)
 
-You can also apply background color based on dynamic values, by using the `Expressions`. Refer [Set Expressions](/report-designer/compose-report/properties-panel/#set-expression) and [Reset Expressions](/report-designer/compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
+You can also apply background color based on dynamic values, by using the `Expressions`. Refer [Set Expressions](./../../../compose-report/properties-panel/#set-expression) and [Reset Expressions](./../../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
 
 ### Font
 
@@ -66,7 +66,7 @@ The font family, font size, and font color properties can be used to customize t
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/show-data-label/font-property.png)
 
-You can also apply font properties based on dynamic values, by using the `Expressions`. Refer [Set Expressions](/report-designer/compose-report/properties-panel/#set-expression) and [Reset Expressions](/report-designer/compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
+You can also apply font properties based on dynamic values, by using the `Expressions`. Refer [Set Expressions](./../../../compose-report/properties-panel/#set-expression) and [Reset Expressions](./../../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/show-data-label/font-property-expression.png)
 
@@ -76,7 +76,7 @@ The font style and weight properties can be used to set the style and weight for
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/show-data-label/font-style.png)
 
-You can also apply font style and weight properties based on dynamic values, by using the `Expressions`. Refer [Set Expressions](/report-designer/compose-report/properties-panel/#set-expression) and [Reset Expressions](/report-designer/compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
+You can also apply font style and weight properties based on dynamic values, by using the `Expressions`. Refer [Set Expressions](./../../../compose-report/properties-panel/#set-expression) and [Reset Expressions](./../../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/show-data-label/font-style-expression.png)
 
@@ -110,7 +110,7 @@ For Pyramid and Funnel Chart,
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/show-data-label/set-userdefined-text.png)
 
-You can also set position property based on dynamic values, by using the `Expressions`. Refer [Set Expression](/report-designer/compose-report/properties-panel/#set-expression) and [Reset Expression](/report-designer/compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
+You can also set position property based on dynamic values, by using the `Expressions`. Refer [Set Expression](./../../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
 
 ### Label Rotation
 
@@ -122,7 +122,7 @@ Increase or decrease the value in the `Label Rotation` property field to set the
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/show-data-label/lable-rotation-design.png)
 
-You can also set label rotation property based on dynamic values, by using the `Expressions`. Refer [Set Expression](/report-designer/compose-report/properties-panel/#set-expression) and [Reset Expression](/report-designer/compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
+You can also set label rotation property based on dynamic values, by using the `Expressions`. Refer [Set Expression](./../../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
 
 ### Format
 
@@ -130,9 +130,9 @@ Format property is used format data label values. To open the format dialog clic
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/show-data-label/format-property.png)
 
-To apply **Number**, **Currency**, **Date**, **Time**, **Scientific**, **Percentage** or **Custom** formats using format dialog follow the steps provided in [Format](/report-designer/compose-report/format-data/#format) section.
+To apply **Number**, **Currency**, **Date**, **Time**, **Scientific**, **Percentage** or **Custom** formats using format dialog follow the steps provided in [Format](./../../../compose-report/format-data/#format) section.
 
-You can also set format property based on dynamic values, by using the `Expressions`. Refer [Set Expression](/report-designer/compose-report/properties-panel/#set-expression) and [Reset Expression](/report-designer/compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
+You can also set format property based on dynamic values, by using the `Expressions`. Refer [Set Expression](./../../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
 
 ### Label
 
@@ -158,7 +158,7 @@ These keywords are listed in the `Label` property drop-down,
 
 For example, if you want to show the values in the data labels as percentages, you can use choose a keyword `#PERCENT` in the drop-down.
 
-You can also set label property based on dynamic values, by using the `Expressions`. Refer [Set Expression](/report-designer/compose-report/properties-panel/#set-expression) and [Reset Expression](/report-designer/compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
+You can also set label property based on dynamic values, by using the `Expressions`. Refer [Set Expression](./../../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
 
 > If `Use Value as Label` checkbox is enabled, `Label` property will have no effect in the data label.
 
@@ -170,4 +170,4 @@ Toggle this checkbox to display actual values of series in the data label on rep
 
 > If this checkbox is enabled, `Label` property will have no effect in the data label.
 
-You can enable or disable this property based on dynamic values, by using the `Expressions`. Refer [Set Expression](/report-designer/compose-report/properties-panel/#set-expression) and [Reset Expression](/report-designer/compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
+You can enable or disable this property based on dynamic values, by using the `Expressions`. Refer [Set Expression](./../../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.

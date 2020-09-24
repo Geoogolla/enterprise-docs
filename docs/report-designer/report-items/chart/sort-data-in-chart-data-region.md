@@ -18,7 +18,7 @@ You can control the order in which data appears in a chart data region by repres
 ![Filter dialog](/static/assets/on-premise/images/report-designer/report-items/chart/add-filter-to-chart-data-region/filter-data-menu.png)
 4. Now, click on the `Sorts...` option in the menu. Now, the sort dialog will be opened like below.
 ![Filter dialog](/static/assets/on-premise/images/report-designer/report-items/chart/sort-data-in-chart-data-region/sort-dialog.png)
-5. Refer [Sort Data](/report-designer/compose-report/sort-data/) section to and create required sort expression in the sort dialog and click on the `OK` button.
+5. Refer [Sort Data](./../../../compose-report/sort-data/) section to and create required sort expression in the sort dialog and click on the `OK` button.
 ![Filter dialog](/static/assets/on-premise/images/report-designer/report-items/chart/sort-data-in-chart-data-region/new-sort-expression.png)
 
 A sort expression is created to sort `ProductCategory` fields in descending order (i.e Z-A ). On report preview, the `ProductCategory` field values will be sorted in Z-A alphabetical order.

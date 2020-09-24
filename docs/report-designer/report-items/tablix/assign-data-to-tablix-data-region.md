@@ -20,7 +20,7 @@ There are two ways to assign the dataset to the tablix:
 1. Select any cell in the tablix data region. Click on the `Data assign` menu icon to open data assign menu. If the report has no dataset, then the data assign menu will have following options.
 ![Data category](/static/assets/on-premise/images/report-designer/report-items/tablix/data-assign-menu-without-dataset.png)
 
-   > Click on the `Add Datasource` option in the menu and add dataset using the steps provided in [Create Data](/report-designer/manage-data/dataset/create-an-embedded-dataset/) section.
+   > Click on the `Add Datasource` option in the menu and add dataset using the steps provided in [Create Data](./../../../manage-data/dataset/create-an-embedded-dataset/) section.
 2. By default, the menu displays the fields of the first dataset in the report.
 ![Data category](/static/assets/on-premise/images/report-designer/report-items/tablix/open-menu-to-choose-dataset.png)
 3. The available datasets in the report will be listed in the first dropdown. To assign different dataset, choose desired dataset in the dropdown.
@@ -68,7 +68,7 @@ There are a few different ways to assign the fields into a tablix cell:
 1. Select a cell in the tablix, now the respective textbox properties will be listed in the properties panel.
 ![Sort dialog](/static/assets/on-premise/images/report-designer/report-items/tablix/selected-cell-properties.png)
 2. In the `Content` property, type the value or set the data field using the expression editor.
-   > Refer [Set expression](/report-designer/compose-report/properties-panel/#set-expression) section to open expression menu and to set expression.
+   > Refer [Set expression](./../../../compose-report/properties-panel/#set-expression) section to open expression menu and to set expression.
 3. Here, the `=Fields!Sales.Value` expression is entered in the content property field to assign `Sales` data field into the respective cell.
 ![Sort dialog](/static/assets/on-premise/images/report-designer/report-items/tablix/enter-field-value-in-content-property.png)
 4. Now, the `Sales` field will be denoted in the respective cell like below.
@@ -88,7 +88,7 @@ There are two ways to assign or edit the expression into a tablix cell:
 2. Click the `Add Expression` option in the data assign menu. Now, the `Expression` builder will be launched like below.
 ![Add Expression option in data assign menu](/static/assets/on-premise/images/report-designer/report-items/tablix/expression-builder-for-add-expression-menu.png)
 
-   > To learn more about handling expressions in report designer refer [Expressions](/report-designer/compose-report/expressions/) section.
+   > To learn more about handling expressions in report designer refer [Expressions](./../../../compose-report/expressions/) section.
 3. You can specify dataset fields, parameters or any other built-in functions and click on the `OK` button.
 4. The label denoted in the table cell varies based on the assigned values in table cell. The following snap depicts the label text variations.
 ![Label text variation](/static/assets/on-premise/images/report-designer/report-items/tablix/text-representation-in-cell.png)

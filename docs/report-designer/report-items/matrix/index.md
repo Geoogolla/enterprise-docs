@@ -12,7 +12,7 @@ Matrix can be used to display summarized data. It allows to group and summarize 
 
 ## Properties
 
-Refer the [Tablix Properties](/report-designer/report-items/tablix/) section to set and edit properties value for matrix report item.
+Refer the [Tablix Properties](./../../report-items/tablix/) section to set and edit properties value for matrix report item.
 
 ## Add matrix to the report
 

@@ -56,7 +56,7 @@ There are a few different ways to assign the fields into a table:
 1. Select a cell in the table, now the respective textbox properties will be listed in the properties panel.
 ![Sort dialog](/static/assets/on-premise/images/report-designer/report-items/tablix/selected-cell-properties.png)
 2. In the `Content` property, type the value or set the data field using the expression editor.
-   > Refer [Set expression](/report-designer/compose-report/properties-panel/#set-expression) section to open expression menu and to set expression.
+   > Refer [Set expression](./../../../compose-report/properties-panel/#set-expression) section to open expression menu and to set expression.
 3. Here, the `=Fields!Sales.Value` expression is entered in the content property field to assign `Sales` data field into the respective cell.
 ![Sort dialog](/static/assets/on-premise/images/report-designer/report-items/tablix/enter-field-value-in-content-property.png)
 4. Now, the `Sales` field will be denoted in the respective cell like below.

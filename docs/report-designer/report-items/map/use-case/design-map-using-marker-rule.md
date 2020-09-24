@@ -49,11 +49,11 @@ In the Properties panel, under the **Basic Settings** category, set the `USA` in
 
 ![Basic map rendering](/static/assets/on-premise/images/report-designer/report-items/map/marker-rule-use-case/assign-data.png)
 
-Then click on the edit icon for the [Binding Data](/report-designer/report-items/map/binding-data/) property under **Basic Settings**.
+Then click on the edit icon for the [Binding Data](./../../../../report-items/map/binding-data/) property under **Basic Settings**.
 
 ![Edit icon](/static/assets/on-premise/images/report-designer/report-items/map/marker-rule-use-case/binding-data-edit-icon.png)
 
-Refer [Binding Data](/report-designer/report-items/map/binding-data/) section and match analytical and shape data. Choose **name** in the **Field Name** drop-down and choose the **=Fields!Country.Value** expression in **Binding Expression**.
+Refer [Binding Data](./../../../../report-items/map/binding-data/) section and match analytical and shape data. Choose **name** in the **Field Name** drop-down and choose the **=Fields!Country.Value** expression in **Binding Expression**.
 
 ![Edit icon](/static/assets/on-premise/images/report-designer/report-items/map/marker-rule-use-case/match-field.png)
 
@@ -71,28 +71,28 @@ Under the **Appearance** category, set the border width and color properties as 
 
 ### Title
 
-Under the [Title](/report-designer/report-items/map/properties/#title) category, set the title text, position, and font properties for the map title. First, enable the Enable Title check box. Then, set the title as `= "Mineral Production Plants of " & Fields!CompanyName.Value` and position as `center`.
+Under the [Title](./../../../../report-items/map/properties/#title) category, set the title text, position, and font properties for the map title. First, enable the Enable Title check box. Then, set the title as `= "Mineral Production Plants of " & Fields!CompanyName.Value` and position as `center`.
 
 ![Title text](/static/assets/on-premise/images/report-designer/report-items/map/marker-rule-use-case/title.png)
 
 ### Shape settings
 
-Under the [Shape Settings](/report-designer/report-items/map/shape-settings/), set the background color as `#ffffff`, border color as `#676767`, width as `0.672px` and tooltip as `=Fields!State.Value`.
+Under the [Shape Settings](./../../../../report-items/map/shape-settings/), set the background color as `#ffffff`, border color as `#676767`, width as `0.672px` and tooltip as `=Fields!State.Value`.
 
 ![Shape settings](/static/assets/on-premise/images/report-designer/report-items/map/marker-rule-use-case/shape-settings.png)
 
 ## Define marker rule
 
-Under [Marker Settings](/report-designer/report-items/map/marker-settings/) category enable the **Enable Marker** checkbox. Set the marker size as `12.333`, tooltip as `=Fields!Resource.Value` expression and let other values to default.
+Under [Marker Settings](./../../../../report-items/map/marker-settings/) category enable the **Enable Marker** checkbox. Set the marker size as `12.333`, tooltip as `=Fields!Resource.Value` expression and let other values to default.
 
 ![Marker settings](/static/assets/on-premise/images/report-designer/report-items/map/marker-rule-use-case/marker-settings.png)
 
 ### Marker rule
 
-Under [Marker rule](/report-designer/report-items/map/marker-rule/) category, enable the **Enable Marker Rule** check box.
+Under [Marker rule](./../../../../report-items/map/marker-rule/) category, enable the **Enable Marker Rule** check box.
 
 * Choose `Resource` field in **Data Value**.
-* Refer [Marker property](/report-designer/report-items/map/marker-rule/#markers) section and define custom marker style. Here, totally seven styles are defined to achieve the data in map surface.
+* Refer [Marker property](./../../../../report-items/map/marker-rule/#markers) section and define custom marker style. Here, totally seven styles are defined to achieve the data in map surface.
 ![Marker settings](/static/assets/on-premise/images/report-designer/report-items/map/marker-rule-use-case/marker-style-set.png)
 * Set **Bucket Count** as seven.
 
@@ -104,7 +104,7 @@ The marker rule configuration should be as below,
 
 In above marker style configuration, we have defined seven marker styles. In which, we defined `Diamond` multiple times. So, in preview two items will denote `Diamond` shape. To differentiate these items, we can apply marker color rule.
 
-Under [Marker color rule](/report-designer/report-items/map/marker-color-rule/) category, enable the **Enable Color Rule** check box.
+Under [Marker color rule](./../../../../report-items/map/marker-color-rule/) category, enable the **Enable Color Rule** check box.
 
 * Choose the `Resource` in **Data Value**.
 * Choose `Type` as `Color Palette`.

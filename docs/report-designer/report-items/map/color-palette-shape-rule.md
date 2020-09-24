@@ -19,4 +19,4 @@ On report processing based on the selected palette and distribution type, the ma
 
 ## Use case
 
-Refer the [Design map using color palette rule](/report-designer/report-items/map/use-case/design-map-using-color-palette-rule/) section to design a simple election results analysis report using color palette rule in map report item.
+Refer the [Design map using color palette rule](./../../../report-items/map/use-case/design-map-using-color-palette-rule/) section to design a simple election results analysis report using color palette rule in map report item.

@@ -18,7 +18,7 @@ If you enable the `Enable Axis` checkbox, the chart axis will be displayed in th
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/chart-axis/axes-types.png)
 
-You can also enable or disable the chart axis based on dynamic values, by using the `Expressions`. Refer [Set Expression](/report-designer/compose-report/properties-panel/#set-expression) and [Reset Expression](/report-designer/compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
+You can also enable or disable the chart axis based on dynamic values, by using the `Expressions`. Refer [Set Expression](./../../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
 
 ## Axis Title
 
@@ -40,7 +40,7 @@ Now, the font properties will listed in the `Advanced Options` menu,
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/chart-axis/title-advanced-properties.png)
 
-You can also set the chart axis title text based on dynamic values, by using the `Expressions`. Refer [Set Expression](/report-designer/compose-report/properties-panel/#set-expression) and [Reset Expression](/report-designer/compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
+You can also set the chart axis title text based on dynamic values, by using the `Expressions`. Refer [Set Expression](./../../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
 
 ## Line Style
 
@@ -82,11 +82,11 @@ Label format property can be used to handle different formatting options like di
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/chart-axis/label-format.png)
 
-Refer [Format Data](/report-designer/compose-report/format-data/) section to set different formats to the axis label. Here, the `Currency` format is applied to the `Sales` values in Value axis.
+Refer [Format Data](./../../../compose-report/format-data/) section to set different formats to the axis label. Here, the `Currency` format is applied to the `Sales` values in Value axis.
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/chart-axis/label-format-design.png)
 
-You can also set the label format based on dynamic values, by using the `Expressions`. Refer [Set Expression](/report-designer/compose-report/properties-panel/#set-expression) and [Reset Expression](/report-designer/compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
+You can also set the label format based on dynamic values, by using the `Expressions`. Refer [Set Expression](./../../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
 
 ## Label Font
 
@@ -94,7 +94,7 @@ The font family, font size, and font color properties can be used to customize t
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/chart-axis/label-font.png)
 
-You can also apply font properties based on dynamic values, by using the `Expressions`. Refer [Set Expressions](/report-designer/compose-report/properties-panel/#set-expression) and [Reset Expressions](/report-designer/compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
+You can also apply font properties based on dynamic values, by using the `Expressions`. Refer [Set Expressions](./../../../compose-report/properties-panel/#set-expression) and [Reset Expressions](./../../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/chart-axis/label-font-design.png)
 
@@ -140,7 +140,7 @@ Click on `Advanced...` option, now the properties will be listed in the `Advance
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/chart-axis/minor-tick-advanced-properties.png)
 
-You can also enable or disable ticks based on dynamic values, by using the `Expressions`. Refer [Set Expressions](/report-designer/compose-report/properties-panel/#set-expression) and [Reset Expressions](/report-designer/compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
+You can also enable or disable ticks based on dynamic values, by using the `Expressions`. Refer [Set Expressions](./../../../compose-report/properties-panel/#set-expression) and [Reset Expressions](./../../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
 
 ### Tick Position
 
@@ -152,6 +152,6 @@ By default, ticks will be positioned outside of the chart axis, in the below sna
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/chart-axis/tick-position-design.png)
 
-You can also apply tick position based on dynamic values, by using the `Expressions`. Refer [Set Expressions](/report-designer/compose-report/properties-panel/#set-expression) and [Reset Expressions](/report-designer/compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
+You can also apply tick position based on dynamic values, by using the `Expressions`. Refer [Set Expressions](./../../../compose-report/properties-panel/#set-expression) and [Reset Expressions](./../../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
 
 > Axis properties are not applicable for `Proportion` chart types.

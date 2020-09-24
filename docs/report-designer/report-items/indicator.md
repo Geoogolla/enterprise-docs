@@ -19,7 +19,7 @@ Indicator report items are minimal representation of gauge used to visualize the
 
 ## Properties
 
-Refer to the [Properties panel](/report-designer/compose-report/properties-panel/) section before proceeding with the following properties.
+Refer to the [Properties panel](./../../compose-report/properties-panel/) section before proceeding with the following properties.
 
 ### Basic settings
 
@@ -27,15 +27,15 @@ The border style, color, width, and background color properties are used to styl
 
 #### Border
 
-Border properties are used to add or customize the border around an indicator item to visually separate items in the report design. To set border properties to the indicator item using properties panel,  refer to the [Border Properties](/report-designer/compose-report/common-properties/#border-properties) section.
+Border properties are used to add or customize the border around an indicator item to visually separate items in the report design. To set border properties to the indicator item using properties panel,  refer to the [Border Properties](./../../compose-report/common-properties/#border-properties) section.
 
 #### Background color
 
-Using the background color property, you can customize the indicator background color. To set background color using properties panel, refer to the [Background color](/report-designer/compose-report/common-properties/#background-color) section.
+Using the background color property, you can customize the indicator background color. To set background color using properties panel, refer to the [Background color](./../../compose-report/common-properties/#background-color) section.
 
 ### Position
 
-The position property is used to set the width, height, left and top position of the indicator in the report design. To handle these properties using properties panel, refer to the [Position](/report-designer/compose-report/common-properties/#position) section.
+The position property is used to set the width, height, left and top position of the indicator in the report design. To handle these properties using properties panel, refer to the [Position](./../../compose-report/common-properties/#position) section.
 
 ### Data
 
@@ -45,7 +45,7 @@ This property is used to assign the dataset to the indicator report item. The av
 
 ![Data category](/static/assets/on-premise/images/report-designer/report-items/indicator/dataset.png)
 
-> Refer to the [Create Data](/report-designer/manage-data/dataset/create-an-embedded-dataset/) section to add dataset to your report.
+> Refer to the [Create Data](./../../manage-data/dataset/create-an-embedded-dataset/) section to add dataset to your report.
 
 ### Indicator value
 
@@ -113,26 +113,26 @@ You can delete a state by clicking the `delete icon`.
 
 ### Visibility
 
-The visibility property is used to conditionally show or hide the indicator report item on report preview or export action. To set visibility of indicator item using properties panel, refer to the [Visibility](/report-designer/compose-report/common-properties/#visibility) section.
+The visibility property is used to conditionally show or hide the indicator report item on report preview or export action. To set visibility of indicator item using properties panel, refer to the [Visibility](./../../compose-report/common-properties/#visibility) section.
 
 ### Miscellaneous
 
 <span style="font-weight:bold">Custom Attributes</span>
 
-This property can be used to set the values for indicator custom properties. To create and assign values for custom properties using properties panel refer [Custom Properties](/report-designer/compose-report/common-properties/#custom-properties) section.
+This property can be used to set the values for indicator custom properties. To create and assign values for custom properties using properties panel refer [Custom Properties](./../../compose-report/common-properties/#custom-properties) section.
 
 <span style="font-weight:bold">Tooltip</span>
 
-Tooltip property can be used to display informative text or value, when the user hovers over on the report item in report preview. To set tooltip for indicator report item using properties panel refer [Tooltip](/report-designer/compose-report/common-properties/#tooltip) section.
+Tooltip property can be used to display informative text or value, when the user hovers over on the report item in report preview. To set tooltip for indicator report item using properties panel refer [Tooltip](./../../compose-report/common-properties/#tooltip) section.
 
 ## Set expression
 
-An expression can be set to few properties of the indicator report item to process the property values based on expressions. To set expressions to the indicator report item properties, refer to the [Set Expression](/report-designer/compose-report/properties-panel/#set-expression) section.
+An expression can be set to few properties of the indicator report item to process the property values based on expressions. To set expressions to the indicator report item properties, refer to the [Set Expression](./../../compose-report/properties-panel/#set-expression) section.
 
 ## Reset expression
 
-To `Reset` the expression applied to a property, refer to the [Reset Expression](/report-designer/compose-report/properties-panel/#reset-expression) section.
+To `Reset` the expression applied to a property, refer to the [Reset Expression](./../../compose-report/properties-panel/#reset-expression) section.
 
 ## Advanced properties
 
-A few properties of the indicator report contain nested properties. To open and handle the nested properties, refer to the [Advanced Properties](/report-designer/compose-report/properties-panel/#advanced-properties) section.
+A few properties of the indicator report contain nested properties. To open and handle the nested properties, refer to the [Advanced Properties](./../../compose-report/properties-panel/#advanced-properties) section.

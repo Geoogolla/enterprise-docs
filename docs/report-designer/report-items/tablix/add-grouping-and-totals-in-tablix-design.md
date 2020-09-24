@@ -23,11 +23,11 @@ WHERE (SOH.OrderDate BETWEEN '1/1/2002' AND '12/31/2003')
 GROUP BY DATEPART(yy, SOH.OrderDate), PC.Name, PS.Name, 'Q' + DATENAME(qq, SOH.OrderDate), PS.ProductSubcategoryID
 ```
 
-> Refer [Create Data](/report-designer/manage-data/dataset/create-an-embedded-dataset/#create-an-embedded-dataset) section and create dataset using the above query. `AdventuresWorks` database is used here.
+> Refer [Create Data](./../../../manage-data/dataset/create-an-embedded-dataset/#create-an-embedded-dataset) section and create dataset using the above query. `AdventuresWorks` database is used here.
 
 ## Simple table design
 
-Create a simple table report design by following the steps provided in [Table Design](/report-designer/report-items/tablix/design-ssrs-rdl-report-using-table/) section.
+Create a simple table report design by following the steps provided in [Table Design](./../../../report-items/tablix/design-ssrs-rdl-report-using-table/) section.
 
 ![Tablix listed in item panel](/static/assets/on-premise/images/report-designer/report-items/tablix-add-grouping-and-totals/initial-design.png)
 

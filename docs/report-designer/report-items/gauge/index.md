@@ -16,6 +16,6 @@ There are two types of gauges, namely `Linear` and `Radial`. These are listed in
 
 ## See Also
 
-* [**Linear Gauge**](/report-designer/report-items/gauge/linear-gauge/)
+* [**Linear Gauge**](./../../report-items/gauge/linear-gauge/)
 
-* [**Radial Gauge**](/report-designer/report-items/gauge/radial-gauge/)
+* [**Radial Gauge**](./../../report-items/gauge/radial-gauge/)
