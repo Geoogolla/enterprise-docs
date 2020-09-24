@@ -16,7 +16,7 @@ To manage overlapping of labels on report preview, toggle the `Enable Smart Labe
 
 If you enable the `Enable Smart Label` checkbox, the label properties will be applied to the data label in respective series of chart.
 
-You can also enable or disable the smart label based on dynamic values, by using the `Expressions`. Refer [Set Expression](/report-designer/compose-report/properties-panel/#set-expression) and [Reset Expression](/report-designer/compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
+You can also enable or disable the smart label based on dynamic values, by using the `Expressions`. Refer [Set Expression](./../../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
 
 ## Format smart label
 

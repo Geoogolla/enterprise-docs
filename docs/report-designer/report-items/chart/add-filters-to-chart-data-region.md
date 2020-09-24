@@ -18,7 +18,7 @@ Filters can be used to filter data in the chart data region to include or exclud
 ![Filter dialog](/static/assets/on-premise/images/report-designer/report-items/chart/add-filter-to-chart-data-region/filter-data-menu.png)
 4. Now, click on the `Filters...` option in the menu. Now, the filter dialog will be opened like below.
 ![Filter dialog](/static/assets/on-premise/images/report-designer/report-items/chart/add-filter-to-chart-data-region/filters-dialog.png)
-5. Refer [Filter Data](/report-designer/compose-report/filter-data/) section and create required filter expression in the filter dialog and click `OK`.
+5. Refer [Filter Data](./../../../compose-report/filter-data/) section and create required filter expression in the filter dialog and click `OK`.
 ![Filter dialog](/static/assets/on-premise/images/report-designer/report-items/chart/add-filter-to-chart-data-region/create-filter-expressions.png)
 
 In the above image, the filter equation is created to filter the data in the data region based on `Product Category` data field.

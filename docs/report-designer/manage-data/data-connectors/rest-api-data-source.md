@@ -25,7 +25,7 @@ To configure the web data source, follow the below steps:
 1. Enter a valid REST API endpoint in the URL text box to perform GET action.
 2. Choose *GET* in **Method** drop-down.
 3. Choose a **Data Format** from the drop-down based on the response of your provided REST API. Options are JSON and XML.
-4. Choose an **Authentication Type** supported by the data source. Options are `Basic http authentication` and `None`. Learn more about [Authentication Types](/report-designer/manage-data/data-connectors/rest-api-data-source/#authentication-types).
+4. Choose an **Authentication Type** supported by the data source. Options are `Basic http authentication` and `None`. Learn more about [Authentication Types](./../../../manage-data/data-connectors/rest-api-data-source/#authentication-types).
 
 Now, the basic connection details looks something similar to below image,
 
@@ -52,7 +52,7 @@ Click `Finish` to save the data source with a relevant name to proceed with desi
 1. Enter a valid REST API endpoint in the URL text box to perform POST action.
 2. Choose *POST* in **Method** drop-down.
 3. Choose a **Data Format** from the drop-down based on the response of your provided REST API. Options are JSON and XML.
-4. Choose an **Authentication Type** supported by the data source. Options are `Basic http authentication` and `None`. Learn more about [Authentication Types](/report-designer/manage-data/data-connectors/rest-api-data-source/#authentication-types).
+4. Choose an **Authentication Type** supported by the data source. Options are `Basic http authentication` and `None`. Learn more about [Authentication Types](./../../../manage-data/data-connectors/rest-api-data-source/#authentication-types).
 
 Now, the connection details looks something similar to below image,
 
@@ -254,6 +254,6 @@ Use *Basic Http authentication*, if your data source requires username and passw
 
 ## See also
 
-[Formatting Columns](/report-designer/transforming-data/formatting-columns/)
+[Formatting Columns](./../../../transforming-data/formatting-columns/)
 
-[Dataset Parameter](/report-designer/transforming-data/link-a-query-parameter-with-a-report-parameter/)
+[Dataset Parameter](./../../../transforming-data/link-a-query-parameter-with-a-report-parameter/)

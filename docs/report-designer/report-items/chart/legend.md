@@ -18,7 +18,7 @@ If you enable the `Show Legend` checkbox, the chart legend will be displayed in 
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/show-legend/chart-legend-indication.png)
 
-You can also enable or disable the legend based on dynamic values, by using the `Expressions`. Refer [Set Expression](/report-designer/compose-report/properties-panel/#set-expression) and [Reset Expression](/report-designer/compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
+You can also enable or disable the legend based on dynamic values, by using the `Expressions`. Refer [Set Expression](./../../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
 
 ## Format legend
 
@@ -44,7 +44,7 @@ Also, set of border properties will get enabled in the  `Advanced Options` categ
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/show-legend/legend-border.png)
 
-Using the border color and width property, you can customize the border for the legend area. You can also set border properties based on dynamic values, by using the `Expressions`. Refer [Set Expression](/report-designer/compose-report/properties-panel/#set-expression) and [Reset Expression](/report-designer/compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
+Using the border color and width property, you can customize the border for the legend area. You can also set border properties based on dynamic values, by using the `Expressions`. Refer [Set Expression](./../../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/show-legend/expression-menu.png)
 
@@ -58,7 +58,7 @@ Now, the background color property will be applied to the legend area.
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/show-legend/set-background-property.png)
 
-You can also apply background color based on dynamic values, by using the `Expressions`. Refer [Set Expressions](/report-designer/compose-report/properties-panel/#set-expression) and [Reset Expressions](/report-designer/compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
+You can also apply background color based on dynamic values, by using the `Expressions`. Refer [Set Expressions](./../../../compose-report/properties-panel/#set-expression) and [Reset Expressions](./../../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
 
 ### Font
 
@@ -66,7 +66,7 @@ The font family, font size, and font color properties can be used to customize t
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/show-legend/font-property.png)
 
-You can also apply font properties based on dynamic values, by using the `Expressions`. Refer [Set Expressions](/report-designer/compose-report/properties-panel/#set-expression) and [Reset Expressions](/report-designer/compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
+You can also apply font properties based on dynamic values, by using the `Expressions`. Refer [Set Expressions](./../../../compose-report/properties-panel/#set-expression) and [Reset Expressions](./../../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/show-legend/font-property-expression.png)
 
@@ -76,7 +76,7 @@ The font style and weight properties can be used to set the style and weight for
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/show-legend/font-style.png)
 
-You can also apply font style and weight properties based on dynamic values, by using the `Expressions`. Refer [Set Expressions](/report-designer/compose-report/properties-panel/#set-expression) and [Reset Expressions](/report-designer/compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
+You can also apply font style and weight properties based on dynamic values, by using the `Expressions`. Refer [Set Expressions](./../../../compose-report/properties-panel/#set-expression) and [Reset Expressions](./../../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/show-legend/font-style-expression.png)
 
@@ -90,7 +90,7 @@ Now, the provided title text will be updated in the chart legend area.
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/show-legend/set-title-text.png)
 
-You can also apply title text based on dynamic values, by using the `Expressions`. Refer [Set Expressions](/report-designer/compose-report/properties-panel/#set-expression) and [Reset Expressions](/report-designer/compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
+You can also apply title text based on dynamic values, by using the `Expressions`. Refer [Set Expressions](./../../../compose-report/properties-panel/#set-expression) and [Reset Expressions](./../../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
 
 ### Legend position
 

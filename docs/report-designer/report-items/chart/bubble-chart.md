@@ -35,7 +35,7 @@ WHERE (SOH.OrderDate BETWEEN '1/1/2002' AND '12/31/2003')
 GROUP BY DATEPART(yy, SOH.OrderDate), PC.Name, PS.Name, 'Q' + DATENAME(qq, SOH.OrderDate), PS.ProductSubcategoryID
 ```
 
-> Refer [Create Data](/report-designer/manage-data/dataset/create-an-embedded-dataset/#create-an-embedded-dataset) section and create dataset using the above query. `AdventuresWorks` database is used here.
+> Refer [Create Data](./../../../manage-data/dataset/create-an-embedded-dataset/#create-an-embedded-dataset) section and create dataset using the above query. `AdventuresWorks` database is used here.
 
 ## Assign data
 
@@ -130,7 +130,7 @@ Name property can be used to provide an unique name to the chart item in the rep
 
 <span style="font-weight:bold">Show Legend</span>
 
-A Legend is a text used to describe the data plotted. This allows you to toggle the visibility of legend in chart and also you can customize the legend text appearance. To set/reset legend properties, refer [Show Legend](/report-designer/report-items/chart/legend/) property.
+A Legend is a text used to describe the data plotted. This allows you to toggle the visibility of legend in chart and also you can customize the legend text appearance. To set/reset legend properties, refer [Show Legend](./../../../report-items/chart/legend/) property.
 
 <span style="font-weight:bold">Choose Series</span>
 
@@ -154,15 +154,15 @@ Now, both series will be listed in the properties panel.
 
 <span style="font-weight:bold">Show Marker</span>
 
-Data markers are used to provide information about the data point to the user. You can add a shape and label to adorn each data point. To set/reset marker properties, refer [Show Marker](/report-designer/report-items/chart/marker/) property. The marker properties will be applied to the selected series in the  `Choose Series` drop-down.
+Data markers are used to provide information about the data point to the user. You can add a shape and label to adorn each data point. To set/reset marker properties, refer [Show Marker](./../../../report-items/chart/marker/) property. The marker properties will be applied to the selected series in the  `Choose Series` drop-down.
 
 <span style="font-weight:bold">Show Data Label</span>
 
-Data label can be added to a chart series by using the `Show Data Label` property. The labels appear at the top of the data point, by default. To set/reset data label properties, refer [Show Data Label](/report-designer/report-items/chart/data-label/) property. The data label properties will be applied to the selected series in the  `Choose Series` drop-down.
+Data label can be added to a chart series by using the `Show Data Label` property. The labels appear at the top of the data point, by default. To set/reset data label properties, refer [Show Data Label](./../../../report-items/chart/data-label/) property. The data label properties will be applied to the selected series in the  `Choose Series` drop-down.
 
 <span style="font-weight:bold">Enable Smart Label</span>
 
-Smart labels manage overlapping of labels even when a large number of labels are placed in close vicinity. To set/reset data label properties, refer [Enable Smart Label](/report-designer/report-items/chart/smart-label/) property.
+Smart labels manage overlapping of labels even when a large number of labels are placed in close vicinity. To set/reset data label properties, refer [Enable Smart Label](./../../../report-items/chart/smart-label/) property.
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/smart-label/enable-smart-label.png)
 
@@ -180,7 +180,7 @@ In the below design, border color, width and style properties are applied to the
 
 > The series border properties will be applied to the selected series in the  `Choose Series` drop-down.
 
-You can also set properties based on dynamic values, by using the `Expressions`. Refer [Set Expression](/report-designer/compose-report/properties-panel/#set-expression) and [Reset Expression](/report-designer/compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
+You can also set properties based on dynamic values, by using the `Expressions`. Refer [Set Expression](./../../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/chart-series/border-expression-menu.png)
 
@@ -206,11 +206,11 @@ Now, the selected color will be applied to the `Price1` series in the chart desi
 
 > The series color properties will be applied to the selected series in the  `Choose Series` drop-down.
 
-You can also apply series color based on dynamic values, by using the `Expressions`. Refer [Set Expressions](/report-designer/compose-report/properties-panel/#set-expression) and [Reset Expressions](/report-designer/compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
+You can also apply series color based on dynamic values, by using the `Expressions`. Refer [Set Expressions](./../../../compose-report/properties-panel/#set-expression) and [Reset Expressions](./../../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
 
 <span style="font-weight:bold">Link To</span>
 
-You can configure **Hyperlink** or a **Report path** in the chart series to create an interactive report. Refer [Linking](/report-designer/compose-report/link-data/) section to set or reset link property for chart series.
+You can configure **Hyperlink** or a **Report path** in the chart series to create an interactive report. Refer [Linking](./../../../compose-report/link-data/) section to set or reset link property for chart series.
 
 ![Link To property](/static/assets/on-premise/images/report-designer/report-items/sparkline/link-to-property.png)
 
@@ -250,7 +250,7 @@ Category axis displays the text labels instead of numbers. To use the categorica
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/category-axis.png)
 
-To set/reset axis properties, refer [Axis Properties](/report-designer/report-items/chart/axis/) property.
+To set/reset axis properties, refer [Axis Properties](./../../../report-items/chart/axis/) property.
 
 ### Value Axis
 
@@ -258,7 +258,7 @@ Numeric axis uses numerical scale and displays numbers as labels. To use the cat
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/value-axis.png)
 
-To set/reset axis properties, refer [Axis Properties](/report-designer/report-items/chart/axis/) property.
+To set/reset axis properties, refer [Axis Properties](./../../../report-items/chart/axis/) property.
 
 ### Grid line
 
@@ -300,11 +300,11 @@ The page break property can be used to control the amount of information on each
 
 <span style="font-weight:bold">Custom Attributes</span>
 
-This property can be used to set the values for chart custom properties. To create and assign values for custom properties using properties panel refer [Custom Properties](/report-designer/compose-report/common-properties/#custom-properties) section.
+This property can be used to set the values for chart custom properties. To create and assign values for custom properties using properties panel refer [Custom Properties](./../../../compose-report/common-properties/#custom-properties) section.
 
 <span style="font-weight:bold">Tooltip</span>
 
-Tooltip property can be used to display informative text or value, when the user hovers over on the report item in report preview. To set tooltip for chart item using properties panel refer [Tooltip](/report-designer/compose-report/common-properties/#tooltip) section.
+Tooltip property can be used to display informative text or value, when the user hovers over on the report item in report preview. To set tooltip for chart item using properties panel refer [Tooltip](./../../../compose-report/common-properties/#tooltip) section.
 
 ## Preview report
 

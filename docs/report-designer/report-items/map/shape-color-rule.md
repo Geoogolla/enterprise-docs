@@ -13,16 +13,16 @@ The shape color rule properties can be used to define color filling rules for ma
 
 It has three rules to apply colors on map shapes,
 
-* [Color palette](/report-designer/report-items/map/color-palette-shape-rule/)
-* [Color ranges](/report-designer/report-items/map/color-range-shape-rule/)
-* [Custom colors](/report-designer/report-items/map/custom-color-shape-rule/)
+* [Color palette](./../../../report-items/map/color-palette-shape-rule/)
+* [Color ranges](./../../../report-items/map/color-range-shape-rule/)
+* [Custom colors](./../../../report-items/map/custom-color-shape-rule/)
 
 Similarly, it has four distribution types to distribute colors on map shapes,
 
-* [Equal](/report-designer/report-items/map/equal-distribution-shape-rule/)
-* [Equal interval](/report-designer/report-items/map/equal-interval-shape-rule/)
-* [Optimal](/report-designer/report-items/map/optimal-distribution-shape-rule/)
-* [Custom](/report-designer/report-items/map/custom-distribution-shape-rule/)
+* [Equal](./../../../report-items/map/equal-distribution-shape-rule/)
+* [Equal interval](./../../../report-items/map/equal-interval-shape-rule/)
+* [Optimal](./../../../report-items/map/optimal-distribution-shape-rule/)
+* [Custom](./../../../report-items/map/custom-distribution-shape-rule/)
 
 ## Define shapes color rule
 
@@ -42,7 +42,7 @@ The data value field will list the available shape data fields and analytical da
 
 ![Map data value](/static/assets/on-premise/images/report-designer/report-items/map/shape-color-rule/data-value.png)
 
-For example, to display population of each country on a map, you have to choose sum of population data field as data value. You can also set data value based on dynamic values, by using the `Expressions`. Refer [Set Expressions](/report-designer/compose-report/properties-panel/#set-expression) and [Reset Expressions](/report-designer/compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
+For example, to display population of each country on a map, you have to choose sum of population data field as data value. You can also set data value based on dynamic values, by using the `Expressions`. Refer [Set Expressions](./../../../compose-report/properties-panel/#set-expression) and [Reset Expressions](./../../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
 
 ![Map data value](/static/assets/on-premise/images/report-designer/report-items/map/shape-color-rule/data-value-expression.png)
 
@@ -54,9 +54,9 @@ As explained earlier, the map shape color rule has three types of color rules: C
 
 Refer following sections to learn about each shape color rule,
 
-* [Color palette](/report-designer/report-items/map/color-palette-shape-rule/)
-* [Color ranges](/report-designer/report-items/map/color-range-shape-rule/)
-* [Custom colors](/report-designer/report-items/map/custom-color-shape-rule/)
+* [Color palette](./../../../report-items/map/color-palette-shape-rule/)
+* [Color ranges](./../../../report-items/map/color-range-shape-rule/)
+* [Custom colors](./../../../report-items/map/custom-color-shape-rule/)
 
 ### Distribution type
 
@@ -70,9 +70,9 @@ These options are listed in the **Distribution Type** drop-down,
 
 Refer the following sections to design map using each distribution type,
 
-* [Equal](/report-designer/report-items/map/equal-distribution-shape-rule/)
-* [Equal interval](/report-designer/report-items/map/equal-interval-shape-rule/)
-* [Optimal](/report-designer/report-items/map/optimal-distribution-shape-rule/)
-* [Custom](/report-designer/report-items/map/custom-distribution-shape-rule/)
+* [Equal](./../../../report-items/map/equal-distribution-shape-rule/)
+* [Equal interval](./../../../report-items/map/equal-interval-shape-rule/)
+* [Optimal](./../../../report-items/map/optimal-distribution-shape-rule/)
+* [Custom](./../../../report-items/map/custom-distribution-shape-rule/)
 
 On report preview, based on the selected distribution type the analytical data will be split into ranges and the specified color rules will be applied to the map shapes.

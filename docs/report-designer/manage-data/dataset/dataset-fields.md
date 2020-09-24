@@ -8,7 +8,7 @@ keywords: calculated fields, calculated fields ssrs, report-designer, ssrs calcu
 
 Fields options can be used to create a new field when a required information is not directly available in the retrieved dataset. It will also allows you to change the column names of the existing fields in the dataset.
 
-Refer [Create Data](/report-designer/manage-data/dataset/create-an-embedded-dataset/#create-an-embedded-dataset) section and create a data in report designer.
+Refer [Create Data](./../../../manage-data/dataset/create-an-embedded-dataset/#create-an-embedded-dataset) section and create a data in report designer.
 
 ## Create calculated field
 
@@ -22,7 +22,7 @@ Refer [Create Data](/report-designer/manage-data/dataset/create-an-embedded-data
 ![Add calculated field](/static/assets/on-premise/images/report-designer/manage-data/add-dataset-field/type-of-fields-in-menu.png)
 5. In the `Field Name` text box, type the unique name for the field.
 ![Calculated field name](/static/assets/on-premise/images/report-designer/manage-data/add-dataset-field/calculated-field-name.png)
-6. In the `Field Source` text box, enter the static value directly or set an [Expression](/report-designer/compose-report/filter-data/#set-expression) for the field. Here, `=Month(Fields!OrderYear.Value)` expression is assigned to the `OrderMonth` field.
+6. In the `Field Source` text box, enter the static value directly or set an [Expression](./../../../compose-report/filter-data/#set-expression) for the field. Here, `=Month(Fields!OrderYear.Value)` expression is assigned to the `OrderMonth` field.
 ![Set value for calculated fields](/static/assets/on-premise/images/report-designer/manage-data/add-dataset-field/set-value-for-calculated-field.png)
 7. Now, click on the `OK` button and the newly added field will be listed under the respective dataset.
 ![Field updated under dataset](/static/assets/on-premise/images/report-designer/manage-data/add-dataset-field/add-field-list-view.png)
@@ -37,7 +37,7 @@ Follow steps 1 - 5, to create calculated field.
 ![expression-icon-shown](/static/assets/on-premise/images/report-designer/manage-data/add-dataset-field/expression-menu.png)
 2. `Expression Builder` will be open as shown below.
 ![open-expression-dialog](/static/assets/on-premise/images/report-designer/manage-data/add-dataset-field/expression-builder.png)
-   > To learn more about handling expressions in report designer refer [Expressions](/report-designer/compose-report/expressions/) section.
+   > To learn more about handling expressions in report designer refer [Expressions](./../../../compose-report/expressions/) section.
 3. Provide the required expression and click on `OK` button.
 ![open-expression-dialog](/static/assets/on-premise/images/report-designer/manage-data/add-dataset-field/set-expression.png)
 4. The icon will be indicated in `Black color`, if the expression is applied to the dataset field.

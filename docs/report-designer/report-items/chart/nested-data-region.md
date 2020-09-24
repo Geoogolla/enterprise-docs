@@ -23,7 +23,7 @@ WHERE (SOH.OrderDate BETWEEN '1/1/2002' AND '12/31/2003')
 GROUP BY DATEPART(yy, SOH.OrderDate), PC.Name, PS.Name, 'Q' + DATENAME(qq, SOH.OrderDate), PS.ProductSubcategoryID
 ```
 
-> Refer [Create Data](/report-designer/manage-data/dataset/create-an-embedded-dataset/#create-an-embedded-dataset) section and create dataset using the above query. `AdventuresWorks` database is used here.
+> Refer [Create Data](./../../../manage-data/dataset/create-an-embedded-dataset/#create-an-embedded-dataset) section and create dataset using the above query. `AdventuresWorks` database is used here.
 
 ## Add matrix to the report
 
@@ -43,7 +43,7 @@ The matrix initially has empty default row group, column group and a data cell.
 Assign dataset to the `Dataset` property of matrix report item.
 ![Drag and drop matrix report item into design area](/static/assets/on-premise/images/report-designer/report-items/chart/nested-data-region/assign-data.png)
 
-Refer [Assign fields](/report-designer/report-items/tablix/assign-data-to-tablix-data-region/) section and assign the `ProdCat` and `OrderYear` fields in  initial matrix design.
+Refer [Assign fields](./../../../report-items/tablix/assign-data-to-tablix-data-region/) section and assign the `ProdCat` and `OrderYear` fields in  initial matrix design.
 
 The first field that we assign to the row group or column group will replace the initial empty default row group or column group. Now, I have assigned `ProdCat` field in row group, notice the `Row Grouping pane`.
 
@@ -89,7 +89,7 @@ In the below design background color and font styles are changed in matrix cells
 
 ![Matrix simple design](/static/assets/on-premise/images/report-designer/report-items/chart/nested-data-region/format-matrix-report.png)
 
-> Refer the [Cell Properties](/report-designer/report-items/tablix/cell-properties/#cell-properties) to style the matrix cell.
+> Refer the [Cell Properties](./../../../report-items/tablix/cell-properties/#cell-properties) to style the matrix cell.
 
 ## Format chart
 
@@ -111,7 +111,7 @@ Now, set the data label text value as `#AXISLABEL` in the `Label` property.
 
 ![Matrix simple design](/static/assets/on-premise/images/report-designer/report-items/chart/nested-data-region/data-label-value.png)
 
-Refer [Show Data Label](/report-designer/report-items/chart/data-label/) section to customize data label in chart.
+Refer [Show Data Label](./../../../report-items/chart/data-label/) section to customize data label in chart.
 
 To set label position for pie chart, set `PieLabelStyle=Outside` as value in `UserDefined` property.
 

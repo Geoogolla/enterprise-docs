@@ -10,26 +10,26 @@ A report must have a data source and dataset to include data. Bold Report Design
 
 ## See also
 
-[Create Embedded Datasource](/report-designer/manage-data/datasource/create-an-embedded-data-source/)
+[Create Embedded Datasource](./../manage-data/datasource/create-an-embedded-data-source/)
 
-[Link Shared Datasource](/report-designer/manage-data/datasource/link-a-shared-data-source/)
+[Link Shared Datasource](./../manage-data/datasource/link-a-shared-data-source/)
 
-[Edit Embedded Datasource](/report-designer/manage-data/datasource/modify-an-embedded-data-source/)
+[Edit Embedded Datasource](./../manage-data/datasource/modify-an-embedded-data-source/)
 
-[Edit Shared Datasource](/report-designer/manage-data/datasource/modify-shared-data-source/)
+[Edit Shared Datasource](./../manage-data/datasource/modify-shared-data-source/)
 
-[Delete Datasource](/report-designer/manage-data/datasource/delete-a-data-source/)
+[Delete Datasource](./../manage-data/datasource/delete-a-data-source/)
 
-[Duplicate Datasource](/report-designer/manage-data/datasource/duplicate-a-data-source/)
+[Duplicate Datasource](./../manage-data/datasource/duplicate-a-data-source/)
 
-[Create Embedded Dataset](/report-designer/manage-data/dataset/create-an-embedded-dataset/)
+[Create Embedded Dataset](./../manage-data/dataset/create-an-embedded-dataset/)
 
-[Link Shared Dataset](/report-designer/manage-data/dataset/link-a-shared-dataset/)
+[Link Shared Dataset](./../manage-data/dataset/link-a-shared-dataset/)
 
-[Edit Embedded Dataset](/report-designer/manage-data/dataset/modify-an-embedded-dataset/)
+[Edit Embedded Dataset](./../manage-data/dataset/modify-an-embedded-dataset/)
 
-[Edit Shared Dataset](/report-designer/manage-data/dataset/modify-shared-dataset/)
+[Edit Shared Dataset](./../manage-data/dataset/modify-shared-dataset/)
 
-[Delete Dataset](/report-designer/manage-data/dataset/delete-a-dataset/)
+[Delete Dataset](./../manage-data/dataset/delete-a-dataset/)
 
-[Duplicate Dataset](/report-designer/manage-data/dataset/duplicate-a-dataset/)
+[Duplicate Dataset](./../manage-data/dataset/duplicate-a-dataset/)

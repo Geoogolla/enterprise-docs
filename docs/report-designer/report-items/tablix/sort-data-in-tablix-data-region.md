@@ -14,7 +14,7 @@ In a tablix data region, set the sort expression for the data region or for each
 ![Filter dialog](/static/assets/on-premise/images/report-designer/report-items/add-filter-to-tablix-data-region/select-data-region.png)
 2. In the properties panel, click on the `Set Sorts...` button. Now, the sort dialog will be opened like below.
 ![Sort dialog](/static/assets/on-premise/images/report-designer/report-items/tablix/sort-dialog.png)
-3. Refer [Sort Data](/report-designer/compose-report/sort-data/) section to and create required sort expression in the sort dialog and click on the `OK` button.
+3. Refer [Sort Data](./../../../compose-report/sort-data/) section to and create required sort expression in the sort dialog and click on the `OK` button.
 ![Filter dialog](/static/assets/on-premise/images/report-designer/report-items/sort-data-in-tablix-data-region/new-sort-expression.png)
 
 A sort expression is created to sort `ProductCategory` fields in descending order (i.e Z-A ). On report preview, the `ProductCategory` field values will be sorted in Z-A alphabetical order. Respective column is highlighted in the below snap.
@@ -29,5 +29,5 @@ A sort expression is created to sort `ProductCategory` fields in descending orde
 ![Filter dialog](/static/assets/on-premise/images/report-designer/report-items/add-filter-to-tablix-data-region/open-member-properties.png)
 3. In the properties panel, click on the `Set Sorts...` button. Now, the sort dialog will be opened like below.
 ![Sort dialog](/static/assets/on-premise/images/report-designer/report-items/tablix/sort-dialog.png)
-4. Refer [Sort Data](/report-designer/compose-report/sort-data/) section to and create required sort expression in the sort dialog and click on the `OK` button.
+4. Refer [Sort Data](./../../../compose-report/sort-data/) section to and create required sort expression in the sort dialog and click on the `OK` button.
 ![Filter dialog](/static/assets/on-premise/images/report-designer/report-items/sort-data-in-tablix-data-region/new-sort-expression.png)

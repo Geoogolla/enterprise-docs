@@ -33,7 +33,7 @@ Reports exported using PDF will have a consistent page size and well suitable fo
 
 Number of pages within a report and how report items are arranged on these pages is termed as pagination. Pagination varies based on the rendering layout used to view and export the report. Reports exported by using the data and soft page page-break layouts are typically not affected by pagination. But, hard page-break have the most impact on report layout and physical page size.
 
-To control pagination, specify the page-related properties which are provided in [Report Properties](/report-designer/compose-report/report-properties/). Each rendering layout supports page properties in different manner, therefore same report will paginate differently depending on the rendering layout used.
+To control pagination, specify the page-related properties which are provided in [Report Properties](./../../compose-report/report-properties/). Each rendering layout supports page properties in different manner, therefore same report will paginate differently depending on the rendering layout used.
 
 * `Hard page-break` rendering layout is page-oriented format. Therefore, you can set page properties to control the page breaks in reports when viewed in PDF.
 
@@ -43,7 +43,7 @@ To control pagination, specify the page-related properties which are provided in
 
 ## Paper size
 
-The [paper size](/report-designer/compose-report/report-properties/#paper-size) that you specify for the report in the Report Properties will define the pagination for the report while rendering and printing report in the print layout.
+The [paper size](./../../compose-report/report-properties/#paper-size) that you specify for the report in the Report Properties will define the pagination for the report while rendering and printing report in the print layout.
 
 * Reports exported using hard page break rendering layout inserts page break both horizontally and vertically based on the paper size.
   > Page break is inserted in horizontal direction when the report body grows outside of the page in right side direction and in vertical direction when the report body grows outside of the page in bottom direction.
@@ -53,7 +53,7 @@ The [paper size](/report-designer/compose-report/report-properties/#paper-size) 
 
 ## Margin
 
-[Margins](/report-designer/compose-report/report-properties/#margin) are applied from the edge of the physical page dimensions inward to the specified margin setting. The report item will be clipped if it extends into the margin area, so that the overlapping area is not rendered. The margin will be set to zero, if the specified margin sizes causes the horizontal or vertical width of the page to equal zero. Margins are applied only when you render and print reports in hard page break rendering layout.
+[Margins](./../../compose-report/report-properties/#margin) are applied from the edge of the physical page dimensions inward to the specified margin setting. The report item will be clipped if it extends into the margin area, so that the overlapping area is not rendered. The margin will be set to zero, if the specified margin sizes causes the horizontal or vertical width of the page to equal zero. Margins are applied only when you render and print reports in hard page break rendering layout.
 
 ## Avoid the extra blank pages in print and print preview
 

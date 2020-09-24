@@ -33,7 +33,7 @@ This option can be used to define any number of marker style sets based on your 
 ![Set marker style](/static/assets/on-premise/images/report-designer/report-items/map/marker-rule/set-style.png)
 5. Click on the **Update**.
 
-You can also set marker style based on dynamic values, by using the `Expressions`. Refer [Set Expressions](/report-designer/compose-report/properties-panel/#set-expression) and [Reset Expressions](/report-designer/compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel. Click on the square icon in the right side of the each field to open expression menu,
+You can also set marker style based on dynamic values, by using the `Expressions`. Refer [Set Expressions](./../../../compose-report/properties-panel/#set-expression) and [Reset Expressions](./../../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel. Click on the square icon in the right side of the each field to open expression menu,
 
 ![Expression menu](/static/assets/on-premise/images/report-designer/report-items/map/marker-rule/expression-menu.png)
 
@@ -53,7 +53,7 @@ The data value field will list the available shape data fields and analytical da
 
 ![Map data value](/static/assets/on-premise/images/report-designer/report-items/map/marker-rule/data-value.png)
 
-For example, to vary the marker styles based on population of each country, you have to choose sum of population data field as data value. You can also set data value based on dynamic values, by using the `Expressions`. Refer [Set Expressions](/report-designer/compose-report/properties-panel/#set-expression) and [Reset Expressions](/report-designer/compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
+For example, to vary the marker styles based on population of each country, you have to choose sum of population data field as data value. You can also set data value based on dynamic values, by using the `Expressions`. Refer [Set Expressions](./../../../compose-report/properties-panel/#set-expression) and [Reset Expressions](./../../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
 
 ![Map data value](/static/assets/on-premise/images/report-designer/report-items/map/marker-rule/data-value-expression.png)
 
@@ -84,8 +84,8 @@ For example, to display population of each country on a map, you can set minimum
 
 ![Bucket count](/static/assets/on-premise/images/report-designer/report-items/map/marker-rule/bucket-count.png)
 
-You can also set bucket based on dynamic values, by using the `Expressions`. Refer [Set Expressions](/report-designer/compose-report/properties-panel/#set-expression) and [Reset Expressions](/report-designer/compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
+You can also set bucket based on dynamic values, by using the `Expressions`. Refer [Set Expressions](./../../../compose-report/properties-panel/#set-expression) and [Reset Expressions](./../../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
 
-For optimal, equal interval and equal distribution the data ranges are split using algorithm when processing the report. You can also define the data ranges explicitly using the `Custom distribution` type. Refer [Custom distribution](/report-designer/report-items/map/custom-distribution-range/) section.
+For optimal, equal interval and equal distribution the data ranges are split using algorithm when processing the report. You can also define the data ranges explicitly using the `Custom distribution` type. Refer [Custom distribution](./../../../report-items/map/custom-distribution-range/) section.
 
-You can also apply distribution type based on dynamic values, by using the `Expressions`. Refer [Set Expressions](/report-designer/compose-report/properties-panel/#set-expression) and [Reset Expressions](/report-designer/compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
+You can also apply distribution type based on dynamic values, by using the `Expressions`. Refer [Set Expressions](./../../../compose-report/properties-panel/#set-expression) and [Reset Expressions](./../../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
