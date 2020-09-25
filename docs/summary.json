@@ -1,59 +1,10 @@
 {
+    "Administrator Guide":{
     "Getting Started": "getting-started.md",
-    "Installation and Deployment": {
-        "On-premises": {
-            "Installation and Deployment": "installation-and-deployment.md",
-            "Upgrade from classic platform": {
-                "Upgrade v1.x to latest": "upgrade-bold-reports-from-v1.x-to-latest.md",
-                "Migrate Data to Bold Reports Multi-Tenant": "data-migration.md"
-            },
-            "Upgrade v2.x to latest": "upgrade-bold-reports-from-v2.x-to-latest.md"
-        },
-        "Azure": {
-            "Create Bold Reports Azure App Service": "create-app-service.md",
-            "Upgrade Bold Reports Azure App Service from v1.x to latest": "upgrade-v1.x.md",
-            "Upgrade Syncfusion Report Server Azure App Service from v4.x to latest": "migrate-syncfusion-report-server-app-service.md"
-        }
-    },
+    "Installation and Deployment": "installation-and-deployment.md",
+    "Azure App Service Installation": "create-app-service.md",
     "Application Startup": "application-startup.md",
-    "Settings": {
-        "Active Directory": "active-directory.md",
-        "Azure Active Directory": "azure-active-directory.md",
-        "Email": "email-settings.md",
-        "Database Settings": "database-settings.md",
-        "Report Settings": "report-settings.md",
-        "Oauth2.0": "oauth-settings.md",
-        "OpenID Connect": "open-id-connect-settings.md",
-        "Synchronization Schedule": {
-            "Active Directory Synchronization Schedule": "active-directory-synchronization-schedule.md",
-            "Azure Active Directory Synchronization Schedule": "azure-active-directory-synchronization-schedule.md",
-            "Database Synchronization Schedule": "database-synchronization-schedule.md"
-        }
-    },
-    "Manage Content": {
-        "Reports": {
-            "Create Report": "create-report.md",
-            "Edit Report": "edit-report.md",
-            "Upload Report": "upload-report.md",
-            "Update Report": "update-report.md",
-            "Favorite Reports": "favorite-report.md",
-            "Move Copy and Clone Reports ": "move-copy-and-clone-reports.md",
-            "Sharing Reports": "share-report.md",
-            "Public Reports": "public-report.md",
-            "Delete Reports": "delete-report.md",
-            "Version History": "version-history-of-report.md",
-            "Download Report": "download-report.md",
-            "Manage Report Views": "manage-report-views.md"
-        },
-        "Manage DataSources": "data-sources-management.md",
-        "Manage DataSet": "dataset-management.md"
-    },
-    "Manage Schedule": {
-        "Manage Reports Schedule": "manage-reports-schedule.md",
-        "Schedule Report Settings": "schedule-report-settings.md",
-        "Custom Schedule Report Settings": "custom-schedule-report-settings.md"
-    },
-    "Manage Users and Groups": {
+    "Manage Users": {
         "Users": {
             "Manage Users": "manage-users.md",
             "Import Users": {
@@ -81,10 +32,7 @@
         },
         "Account Activation": "account-activation.md"
     },
-    "Permissions": "manage-permissions.md",
-    "Manage Categories": "manage-categories.md",
-    "Collaborations": "collaboration.md",
-    "Notifications": "notifications.md",
+    "Manage Permissions": "manage-permissions.md",
     "Authentication": {
         "Single Sign On": {
             "OAuth 2.0": {
@@ -101,40 +49,86 @@
             "Office 365": "office-365.md"
         }
     },
-    "Embed in Application": {
-        "Iframe": {
-            "Embed Code": "embed-code-of-report.md"
-        },
-        "View Report through Report Viewer": "view-report-through-report-viewer.md",
-        "Integrating Report Designer": "integrating-report-designer.md"
+    "Manage App Settings": {
+        "Active Directory": "active-directory.md",
+        "Azure Active Directory": "azure-active-directory.md",
+        "Email": "email-settings.md",
+        "Database Settings": "database-settings.md",
+        "Report Settings": "report-settings.md",
+        "Oauth2.0": "oauth-settings.md",
+        "OpenID Connect": "open-id-connect-settings.md",
+        "Synchronization Schedule": {
+            "Active Directory Synchronization Schedule": "active-directory-synchronization-schedule.md",
+            "Azure Active Directory Synchronization Schedule": "azure-active-directory-synchronization-schedule.md",
+            "Database Synchronization Schedule": "database-synchronization-schedule.md"
+        }
     },
-    "Tenant Management": {
+    "Manage Tenants": {
         "Create Site": "create-site.md"
     },
-    "Localization": "localization.md",
-    "User Profile": "user-profile.md",
     "Rebranding": "custom-rebranding.md",
+    "Localization": "localization.md",
+    "Upgrade":{
+        "On-premises": {
+           "Upgrade from classic platform": {
+            "Upgrade v1.x to latest": "upgrade-bold-reports-from-v1.x-to-latest.md",
+            "Migrate Data to Bold Reports Multi-Tenant": "data-migration.md"
+           },
+           "Upgrade v2.x to latest": "upgrade-bold-reports-from-v2.x-to-latest.md"
+        },
+        "Azure": {
+          "Upgrade Bold Reports Azure App Service from v1.x to latest": "upgrade-v1.x.md",
+          "Upgrade Bold Reports Azure App Service from v2.x to latest": "upgrade-app-service.md",
+          "Upgrade Syncfusion Report Server Azure App Service from v4.x to latest": "migrate-syncfusion-report-server-app-service.md"
+        }
+    },
+    "How To": {
+        "Change BoldReports URL in BoldReportsOnPremiseEdition": "change-bold-reports-url-in-bold-reports-on-premise-edition.md",
+        "Change BoldReports URL when BoldReportsOn-Premise site fails": "change-bold-reports-url-when-bold-reports-on-premise-site-fails.md",
+        "Setup the staging and production environment for BoldReportsOn-PremiseEdition": "setup-the-staging-and-production-environment-for-bold-reports-on-premise-edition.md",
+        "Set up Azure Active Directory": "set-up-azure-active-directory.md",
+        "Configure Gmail SMTP Server in Email Settings": "configure-gmail-smtp-server-in-email-settings.md",
+        "Add parameters with Report link": "report-link-with-filter-parameters.md",
+        "Filter Data Based on User in a Report": "filter-data-based-on-user-in-a-report.md",
+        "Export report from Bold Reports Report Server ": "export-report-from-bold-reports-server.md",
+        "Apply patches to Bold Reports Multi-tenant Azure App Service": "apply-patches-to-bold-reports-azure-app-service.md",
+        "Switch the installed Bold Reports Report Server IIS Express application to IIS": "switch-the-installed-bold-reports-report-server-iis-express-application-to-iis.md"
+    },
+    "FAQ": {
+        "Where can i find the error and debug log files?": "where-can-i-find-the-error-and-debug-log-files.md",
+        "What are the features need to be enabled in IIS to run the Bold Reports application in Windows Client OS": "features-needed-to-enable-in-iis-to-run-bold-reports-in-win-client-os.md",
+        "What are the features need to be enabled in IIS to run Bold Reports application in Windows Server OS": "features-needed-to-enable-in-iis-to-run-bold-reports-in-win-server-os.md",
+        "Is Bold Reports have a centralized report authoring system?": "centralized-report-authoring-system.md",
+        "Will Syncfusion charge for Bold Reports Azure App Service": "will-syncfusion-charge-for-the-bold-reports-azure-app-service.md",
+        "Where can i find the error and debug log files of Bold Reports Azure App Service": "where-can-i-find-the-error-and-debug-log-files-of-bold-reports-azure-app-service.md",
+        "Why should you migrate to Bold Reports from Syncfusion Report Platform": "why-should-you-migrate-to-bold-reports-from-syncfusion-report-platform.md",
+        "Is it possible to migrate Syncfusion Report Platform Report Server to Bold Reports Report Server": "is-it-possible-to-migrate-syncfusion-report-platform-report-server-to-bold-reports-report-server.md",
+        "Where should I replace the Bold Reports license key in Bold Reports Azure App Service": "where-should-i-replace-the-bold-reports-license-key-in-bold-reports-azure-app-service.md",
+        "Where does the data resides in Bold Reports": "where-does-the-data-resides-in-bold-reports.md",
+        "Does Report Server store reports execution data to server database": "does-report-server-store-reports-execution-data-to-server-database.md"
+    }
+},
+"Designer Guide":{
     "Report Designer": {
-            "Report Creation": "design-rdl-report-in-web-report-designer.md",
-            "Manage Data": {
-                "Data Connectors": {
-                    "SQL": "sql-data-source.md",
-                    "Rest API": "rest-api-data-source.md",
-                    "JSON": "json-data-source.md",
-                    "XML": "xml-data-source.md",
-                    "OData":"odata-data-source.md",
-                    "Oracle":"oracle-data-source.md",
-                    "OLEDB":"oledb-data-source.md",
-                    "ODBC":"odbc-data-source.md"
-                },
-                "DataSource": {
-                    "Create an Embedded DataSource": "create-an-embedded-data-source.md",
-                    "Edit an Embedded DataSource": "modify-an-embedded-data-source.md",
-                    "Link a Shared DataSource": "link-a-shared-data-source.md",
-                    "Edit a Shared DataSource": "modify-shared-data-source.md",
-                    "Delete a DataSource": "delete-a-data-source.md",
-                    "Duplicate a DataSource": "duplicate-a-data-source.md"
-                },
+    "Report Creation": "design-rdl-report-in-web-report-designer.md",
+        "Manage Data": {
+            "Data Connectors": {
+                "SQL": "sql-data-source.md",
+                "Rest API": "rest-api-data-source.md",
+                "JSON": "json-data-source.md",
+                "XML": "xml-data-source.md",
+                "OData":"odata-data-source.md",
+                "Oracle":"oracle-data-source.md",
+                "OLEDB":"oledb-data-source.md",
+                "ODBC":"odbc-data-source.md"
+            },
+            "DataSource": {
+                "Create an Embedded DataSource": "create-an-embedded-data-source.md",
+                "Edit an Embedded DataSource": "modify-an-embedded-data-source.md",
+                "Link a Shared DataSource": "link-a-shared-data-source.md",
+                "Edit a Shared DataSource": "modify-shared-data-source.md",
+                "Delete a DataSource": "delete-a-data-source.md",
+                "Duplicate a DataSource": "duplicate-a-data-source.md"},
                 "DataSet": {
                     "Create an Embedded DataSet": "create-an-embedded-dataset.md",
                     "Edit an Embedded DataSet": "modify-an-embedded-dataset.md",
@@ -155,8 +149,7 @@
                 "DataSet Parameter": "link-a-query-parameter-with-a-report-parameter.md",
                 "Query Parameter":"define-query-parameters.md",
                 "Configuring Expression Columns": "configure-expression-columns.md",
-                "Supported Built-in Functions in Expression Designer": "supported-functions-in-query-expression.md"
-            },
+                "Supported Built-in Functions in Expression Designer": "supported-functions-in-query-expression.md"},
             "Report Parameters": {
                 "Add Report Parameter": "add.md",
                 "Edit Report Parameter": "edit.md",
@@ -169,7 +162,7 @@
             },
             "Image Manager": {
                 "Add an embedded image": "add-image.md",
-                "Delete an embedded image": "delete-image.md"
+                "Delete an embedded image": "delete-image.md"  
             },
             "Compose Report": {
                 "Toolbar":"tool-bar.md",
@@ -206,7 +199,7 @@
                 },
                 "Code Module": "code-module.md",
                 "Page Layout" : "page-layout.md",
-                "Report Variables": "report-variables"
+                "Report Variables": "report-variables" 
             },
             "Report Items": {
                 "Line": "line.md",
@@ -314,8 +307,7 @@
                 "Barcode": {
                     "Create a Product Details Report": "design-ssrs-rdl-report-using-barcode.md",
                     "Supported Barcode Types": "supported-barcode-types.md"
-                }
-            },
+                }            },
             "Open a report": "open-report-in-web-designer.md",
             "Save a report": "save-report-in-web-designer.md",
             "Preview a report": "preview-report-in-web-designer.md",
@@ -323,37 +315,51 @@
             "Keyboard Shortcuts": "design-report-using-keyboard-shortcuts.md",
             "How To": {
                 "Configure Map Shapes": "configure-map-shapes.md",
-                "Upgrade or downgrade RDL schema version": "upgrade-or-downgrade-rdl-schema-version.md"
-            }
+                "Upgrade or downgrade RDL schema version": "upgrade-or-downgrade-rdl-schema-version.md"            }
         },
-    "How To": {
-        "Change BoldReports URL in BoldReportsOnPremiseEdition": "change-bold-reports-url-in-bold-reports-on-premise-edition.md",
-        "Change BoldReports URL when BoldReportsOn-Premise site fails": "change-bold-reports-url-when-bold-reports-on-premise-site-fails.md",
-        "Setup the staging and production environment for BoldReportsOn-PremiseEdition": "setup-the-staging-and-production-environment-for-bold-reports-on-premise-edition.md",
-        "Set up Azure Active Directory": "set-up-azure-active-directory.md",
-        "Configure Gmail SMTP Server in Email Settings": "configure-gmail-smtp-server-in-email-settings.md",
-        "Add parameters with Report link": "report-link-with-filter-parameters.md",
-        "Filter Data Based on User in a Report": "filter-data-based-on-user-in-a-report.md",
-        "Export report from Bold Reports Report Server ": "export-report-from-bold-reports-server.md",
-        "Generate access token for Bold Reports Report Server user": "generate-access-token-for-bold-reports-server-user.md",
-        "Get list of items from Bold Reports Report Server": "get-list-of-items-from-bold-reports-server.md",
-        "Apply patches to Bold Reports Multi-tenant Azure App Service": "apply-patches-to-bold-reports-azure-app-service.md",
-        "Switch the installed Bold Reports Report Server IIS Express application to IIS": "switch-the-installed-bold-reports-report-server-iis-express-application-to-iis.md"
+    "Manage Content": {
+        "Reports": {
+            "Create Report": "create-report.md",
+            "Edit Report": "edit-report.md",
+            "Upload Report": "upload-report.md",
+            "Update Report": "update-report.md",
+            "Favorite Reports": "favorite-report.md",
+            "Move Copy and Clone Reports ": "move-copy-and-clone-reports.md",
+            "Sharing Reports": "share-report.md",
+            "Public Reports": "public-report.md",
+            "Delete Reports": "delete-report.md",
+            "Version History": "version-history-of-report.md",
+            "Download Report": "download-report.md",
+            "Manage Report Views": "manage-report-views.md"
+        },
+        "DataSources": "data-sources-management.md",
+        "DataSet": "dataset-management.md"
     },
-    "FAQ": {
-        "Where can i find the error and debug log files?": "where-can-i-find-the-error-and-debug-log-files.md",
-        "What are the features need to be enabled in IIS to run the Bold Reports application in Windows Client OS": "features-needed-to-enable-in-iis-to-run-bold-reports-in-win-client-os.md",
-        "What are the features need to be enabled in IIS to run Bold Reports application in Windows Server OS": "features-needed-to-enable-in-iis-to-run-bold-reports-in-win-server-os.md",
-        "Is Bold Reports have a centralized report authoring system?": "centralized-report-authoring-system.md",
-        "Will Syncfusion charge for Bold Reports Azure App Service": "will-syncfusion-charge-for-the-bold-reports-azure-app-service.md",
-        "Where can i find the error and debug log files of Bold Reports Azure App Service": "where-can-i-find-the-error-and-debug-log-files-of-bold-reports-azure-app-service.md",
-        "Why should you migrate to Bold Reports from Syncfusion Report Platform": "why-should-you-migrate-to-bold-reports-from-syncfusion-report-platform.md",
-        "Is it possible to migrate Syncfusion Report Platform Report Server to Bold Reports Report Server": "is-it-possible-to-migrate-syncfusion-report-platform-report-server-to-bold-reports-report-server.md",
-        "Where should I replace the Bold Reports license key in Bold Reports Azure App Service": "where-should-i-replace-the-bold-reports-license-key-in-bold-reports-azure-app-service.md",
-        "Where does the data resides in Bold Reports": "where-does-the-data-resides-in-bold-reports.md",
-        "Does Report Server store reports execution data to server database": "does-report-server-store-reports-execution-data-to-server-database.md"
+    "Manage Schedule": {
+        "Manage Reports Schedule": "manage-reports-schedule.md",
+        "Schedule Report Settings": "schedule-report-settings.md",
+        "Custom Schedule Report Settings": "custom-schedule-report-settings.md"
     },
-    "REST API Reference": {
+    "Manage Categories": "manage-categories.md",
+    "User Profile": "user-profile.md",
+    "Collaborations": "collaboration.md",
+    "Notifications": "notifications.md"
+},
+"Developer Guide":{
+    "REST API": {
         "v1.0": "v1.0?html=true"
+    },
+    "Embed in Application": {
+        "Iframe": {
+            "Embed Code": "embed-code-of-report.md",
+            "Embed Secret key": "embed-secret-key.md"
+        },
+        "View Report through Report Viewer": "view-report-through-report-viewer.md",
+        "Integrating Report Designer": "integrating-report-designer.md"
+    },
+    "How to":{
+        "Generate access token for Bold Reports Report Server user": "generate-access-token-for-bold-reports-server-user.md",
+        "Get list of items from Bold Reports Report Server": "get-list-of-items-from-bold-reports-server.md"
     }
+}
 }
