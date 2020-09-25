@@ -143,7 +143,7 @@ Now, the table design will look like below.
 
 ## Save report
 
-Once you are done with the report designing, to save a report refer [How to save report](/designer-guide/report-designer/save-report-in-web-designer/) section.
+Once you are done with the report designing, to save a report refer [How to save report](./../save-report-in-web-designer/) section.
 
 ## Preview report
 
@@ -154,20 +154,20 @@ Once you are done with the report designing, to save a report refer [How to save
 
 ## See also
 
-[Design a Basic Chart Report](/designer-guide/manage-content/reports/create-report/)
+[Design a Basic Chart Report](./../../../manage-content/reports/create-report/)
 
-[Create an Embedded DataSource](/designer-guide/report-designer/manage-data/datasource/create-an-embedded-data-source/)
+[Create an Embedded DataSource](./../manage-data/datasource/create-an-embedded-data-source/)
 
-[Create an Embedded DataSet](/designer-guide/report-designer/manage-data/dataset/create-an-embedded-dataset/)
+[Create an Embedded DataSet](./../manage-data/dataset/create-an-embedded-dataset/)
 
-[Link a Shared DataSource into a Report](/designer-guide/report-designer/manage-data/datasource/link-a-shared-data-source/)
+[Link a Shared DataSource into a Report](./../manage-data/datasource/link-a-shared-data-source/)
 
-[Link a Shared DataSet into a Report](/designer-guide/report-designer/manage-data/dataset/link-a-shared-dataset/)
+[Link a Shared DataSet into a Report](./../manage-data/dataset/link-a-shared-dataset/)
 
-[Create a Duplicate Copy of DataSource in a Report](/designer-guide/report-designer/manage-data/datasource/duplicate-a-data-source/)
+[Create a Duplicate Copy of DataSource in a Report](./../manage-data/datasource/duplicate-a-data-source/)
 
-[Create a Duplicate Copy of DataSet in a Report](/designer-guide/report-designer/manage-data/dataset/duplicate-a-dataset/)
+[Create a Duplicate Copy of DataSet in a Report](./../manage-data/dataset/duplicate-a-dataset/)
 
-[Add a Report Parameter to a Report](/designer-guide/report-designer/report-parameters/add/)
+[Add a Report Parameter to a Report](./../report-parameters/add/)
 
-[Embed an Image in a Report](/designer-guide/report-designer/image-manager/add-image/)
+[Embed an Image in a Report](./../image-manager/add-image/)

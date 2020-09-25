@@ -29,12 +29,11 @@ Image reportitem is used to display images in a report and it can be loaded from
 
 * **External**
 
-    External image source can be used to display the dynamic image in the report, by specifying a URL to the image or set an [Expression](/designer-guide/report-designer/compose-report/link-data/#set-expression) that evaluates to the URL. To add an external image in a report, specify a valid URL in the value property text field.
-    ![image reportitem external type](/static/assets/on-premise/images/report-designer/report-items/image/image-external-type.png)
+    External image source can be used to display the dynamic image in the report, by specifying a URL to the image or set an [Expression](./../../compose-report/link-data/#set-expression) that evaluates to the URL. To add an external image in a report, specify a valid URL in the value property text field.    ![image reportitem external type](/static/assets/on-premise/images/report-designer/report-items/image/image-external-type.png)
 
 * **Embedded**
 
-    Embedded option is used to display the embedded image that are available in the report. To embed an image in a report, refer [Image Manager](/designer-guide/report-designer/image-manager/add-image/#add-an-embedded-image) section.
+    Embedded option is used to display the embedded image that are available in the report. To embed an image in a report, refer [Image Manager](./../../image-manager/add-image/#add-an-embedded-image) section.
     ![image reportitem basic setting](/static/assets/on-premise/images/report-designer/report-items/image/image-basic-settings.png)
 
 * **Database**
@@ -43,8 +42,7 @@ Image reportitem is used to display images in a report and it can be loaded from
 
     * **Value**
 
-        The available dataset fields in the report will be listed in the value field drop-down. Choose a dataset field that is bounds to a database field that contains an image or set an [Expression](/designer-guide/report-designer/compose-report/link-data/#set-expression) that evaluates to the image value.
-        ![image reportitem value](/static/assets/on-premise/images/report-designer/report-items/image/image-database-value.png)
+        The available dataset fields in the report will be listed in the value field drop-down. Choose a dataset field that is bounds to a database field that contains an image or set an [Expression](./../../compose-report/link-data/#set-expression) that evaluates to the image value.        ![image reportitem value](/static/assets/on-premise/images/report-designer/report-items/image/image-database-value.png)
 
     * **MIME Type**
 
@@ -54,8 +52,7 @@ Image reportitem is used to display images in a report and it can be loaded from
 
 ### Link
 
-Linking is used to create interactive report using **Hyperlink** and **Report Linking** action. Refer [Linking](/designer-guide/report-designer/compose-report/link-data/) section to know more about linking. Select the `Enable  Link` checkbox, to enable the sub properties.
-![show-link-action](/static/assets/on-premise/images/report-designer/report-items/image/enable-link-action.png)
+Linking is used to create interactive report using **Hyperlink** and **Report Linking** action. Refer [Linking](./../../compose-report/link-data/) section to know more about linking. Select the `Enable  Link` checkbox, to enable the sub properties.![show-link-action](/static/assets/on-premise/images/report-designer/report-items/image/enable-link-action.png)
 
 ### Appearance
 
@@ -64,7 +61,7 @@ Linking is used to create interactive report using **Hyperlink** and **Report Li
 
 #### Border
 
-Border properties are used to add or customize the border around an image report item to visually separate items in the report design. To set border properties to the image report item using properties panel refer [Border Properties](/designer-guide/report-designer/compose-report/common-properties/#border-properties) section.
+Border properties are used to add or customize the border around an image report item to visually separate items in the report design. To set border properties to the image report item using properties panel refer [Border Properties](./../../compose-report/common-properties/#border-properties) section.
 
 ### Size
 
@@ -95,18 +92,16 @@ Clip option is used to display an image from the top left corner of the picture 
 
 ### Position
 
-Position property is used to set the width, height, left and top position of the image item in the report design. To handle these properties using properties panel refer [Position](/designer-guide/report-designer/compose-report/common-properties/#position) section.
-![subreport item position](/static/assets/on-premise/images/report-designer/report-items/subreport/subreport-norows-position.png)
+Position property is used to set the width, height, left and top position of the image item in the report design. To handle these properties using properties panel refer [Position](./../../compose-report/common-properties/#position) section.![subreport item position](/static/assets/on-premise/images/report-designer/report-items/subreport/subreport-norows-position.png)
 
 ### Visibility
 
-Visibility property is used to conditionally show or hide the image report item on report preview or export action. To set visibility of image item using properties panel refer [Visibility](/designer-guide/report-designer/compose-report/common-properties/#visibility) section.
+Visibility property is used to conditionally show or hide the image report item on report preview or export action. To set visibility of image item using properties panel refer [Visibility](./../../compose-report/common-properties/#visibility) section.
 
 ### Miscellaneous
 
 <span style="font-weight:bold">Custom Attributes</span>
 
-This property can be used to set the values for image report item custom properties. To assign values for custom properties using properties panel refer [Custom Properties](/designer-guide/report-designer/compose-report/common-properties/#custom-properties) section.
-<span style="font-weight:bold">Tooltip</span>
+This property can be used to set the values for image report item custom properties. To assign values for custom properties using properties panel refer [Custom Properties](./../../compose-report/common-properties/#custom-properties) section.<span style="font-weight:bold">Tooltip</span>
 
-Tooltip property can be used to display informative text or value, when the user hovers over on the report item in report preview. To set tooltip for image report item using properties panel refer [Tooltip](/designer-guide/report-designer/compose-report/common-properties/#tooltip) section.
+Tooltip property can be used to display informative text or value, when the user hovers over on the report item in report preview. To set tooltip for image report item using properties panel refer [Tooltip](./../../compose-report/common-properties/#tooltip) section.

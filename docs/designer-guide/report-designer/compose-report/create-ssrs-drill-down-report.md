@@ -23,12 +23,11 @@ WHERE (SOH.OrderDate BETWEEN '1/1/2002' AND '12/31/2003')
 GROUP BY DATEPART(yy, SOH.OrderDate), PC.Name, PS.Name, 'Q' + DATENAME(qq, SOH.OrderDate), PS.ProductSubcategoryID
 ```
 
-> Refer [Create Data](/designer-guide/report-designer/manage-data/dataset/create-an-embedded-dataset/#create-an-embedded-dataset) section and create dataset using the above query. `AdventuresWorks` database is used here.
+> Refer [Create Data](./../../manage-data/dataset/create-an-embedded-dataset/#create-an-embedded-dataset) section and create dataset using the above query. `AdventuresWorks` database is used here.
 
 ## Add drilldown action to a table group
 
-Design a [simple table report](/designer-guide/report-designer/report-items/tablix/insert-or-delete-a-row-group-ssrs/#insert-a-row-group) with a parent group and child group as shown below.
-![Table design](/static/assets/on-premise/images/report-designer/compose-report/create-ssrs-drill-down-report/table-final-design.png)
+Design a [simple table report](./../../report-items/tablix/insert-or-delete-a-row-group-ssrs/#insert-a-row-group) with a parent group and child group as shown below.![Table design](/static/assets/on-premise/images/report-designer/compose-report/create-ssrs-drill-down-report/table-final-design.png)
 
 Select `SubCat` field in the grouping panel, now the group properties will be loaded in the properties panel.
 

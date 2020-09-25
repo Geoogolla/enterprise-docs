@@ -34,4 +34,4 @@ Add the entry of your file name and display name as shown below and save the fil
 3. The newly added shape data entry will be listed in the **Shapes** property drop-down under **Basic Settings** category.
 ![Shapes property](/static/assets/on-premise/images/report-designer/how-to/configure-map-shapes/shapes-property.png)
 
-Refer [Design a rdl report using map](/designer-guide/report-designer/report-items/map/use-case/design-map-using-custom-rule/) section to visualize shape data and analytical data using map report item.
+Refer [Design a rdl report using map](./../../report-items/map/use-case/design-map-using-custom-rule/) section to visualize shape data and analytical data using map report item.

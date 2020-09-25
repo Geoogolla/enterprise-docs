@@ -10,25 +10,22 @@ This section describes the steps to create SSRS RDL report to compare two differ
 
 ## Create a main report
 
-1. Below is the dataset query used for the main report. Refer [Create Data](/designer-guide/report-designer/manage-data/dataset/create-an-embedded-dataset/) section and create dataset using the below query.
-      ```sql
+1. Below is the dataset query used for the main report. Refer [Create Data](./../../../manage-data/dataset/create-an-embedded-dataset/) section and create dataset using the below query.      ```sql
       SELECT
       Employees.EmployeeID,
       Employees.FirstName
       FROM
       Employees
-      ```
-
-      ![create a dataset](/static/assets/on-premise/images/report-designer/report-items/subreport/main-report-dataset.png)
-2. To compare the employee details, create two parameters named `Employee1` and `Employee2` in the main report and assign the required dataset field value to the parameters as shown in the following snaps. Refer [Parameter](/designer-guide/report-designer/report-parameters/add/#create-parameter) and [Assign Value](/designer-guide/report-designer/report-parameters/define-available-values-for-parameter/#query-values) section to create and assign value to the parameters.![Create a parameter](/static/assets/on-premise/images/report-designer/report-items/subreport/main-report-parameter.png)
-![Assign parameter values](/static/assets/on-premise/images/report-designer/report-items/subreport/assign-parameter-values.png)
+      ```"
+![create a dataset](/static/assets/on-premise/images/report-designer/report-items/subreport/main-report-dataset.png)
+2. To compare the employee details, create two parameters named `Employee1` and `Employee2` in the main report and assign the required dataset field value to the parameters as shown in the following snaps. Refer [Parameter](./../../../report-parameters/add/#create-parameter) and [Assign Value](./../../../report-parameters/define-available-values-for-parameter/#query-values) section to create and assign value to the parameters.
+![Create a parameter](/static/assets/on-premise/images/report-designer/report-items/subreport/main-report-parameter.png)![Assign parameter values](/static/assets/on-premise/images/report-designer/report-items/subreport/assign-parameter-values.png)
 3. Using textbox and line report items, design a simple report as shown below.
 ![create a main report](/static/assets/on-premise/images/report-designer/report-items/subreport/main-report-textbox.png)
-
-      > Note: Refer [Textbox](/designer-guide/report-designer/report-items/textbox/), [Line](/designer-guide/report-designer/report-items/line/) section to design the above report design.
-4. Drag and drop subreport item listed in the item panel under the `Sub Reports` category.
+> Note: Refer [Textbox](./../../../report-items/textbox/), [Line](./../../../report-items/line/) section to design the above report design.
+1. Drag and drop subreport item listed in the item panel under the `Sub Reports` category.
 ![Subreport listed in item panel](/static/assets/on-premise/images/report-designer/report-items/subreport/subreportitem-itempanel.png)
-5. To compare the employee details,  drag and drop two subreport items side by side in the design area.
+2. To compare the employee details,  drag and drop two subreport items side by side in the design area.
 ![Drag and drop subreportitem into design area](/static/assets/on-premise/images/report-designer/report-items/subreport/subreportitem-designarea.png)
 
 ## Create a subreport
@@ -37,15 +34,14 @@ Design a subreport to display the employee details.
 
 ### Create dataset
 
-1. Below is the dataset query used in this report to fetch the employee personal details that is bound to the `Employees` table of `Northwind` database. Refer [Create Data](/designer-guide/report-designer/manage-data/dataset/create-an-embedded-dataset/#create-an-embedded-dataset) section and create dataset using the below query.
-      ```sql
+1. Below is the dataset query used in this report to fetch the employee personal details that is bound to the `Employees` table of `Northwind` database. Refer [Create Data](./../../../manage-data/dataset/create-an-embedded-dataset/#create-an-embedded-dataset) section and create dataset using the below query.      ```sql
       SELECT Employees.EmployeeID,Employees.LastName,Employees.FirstName,Employees.Title,Employees.TitleOfCourtesy ,(DATENAME(WEEKDAY,Employees.BirthDate)+', '+ DATENAME (DAY,Employees.BirthDate)+' '+DATENAME(MONTH,Employees.BirthDate)+' '+DATENAME(YEAR,Employees.BirthDate)) as BirthDate
       ,(DATENAME(WEEKDAY,Employees.HireDate)+', '+DATENAME(DAY,Employees.HireDate)+' '+DATENAME(MONTH,Employees.HireDate)+' '+DATENAME(YEAR,Employees.HireDate))as HireDate
       ,Employees.HomePhone ,Employees.City,Employees.Region,Employees.PostalCode,Employees.Country ,SUM(o.Quantity * o.UnitPrice)  As TotalGain FROM
       Employees,[Order Details] as O,[Orders] as Ord  WHERE o.OrderID  = ord.OrderID and Employees.EmployeeID = ord.EmployeeID and Employees.EmployeeID = @SalesPersonID
       group by  Employees.EmployeeID ,Employees.LastName,Employees.FirstName,Employees.Title,Employees.TitleOfCourtesy,BirthDate,HireDate,Employees.City,Employees.HomePhone,Employees.Region
       ,Employees.PostalCode,Employees.Country
-      ```
+      ```"
 
 2. To present respective employee sales order details information in the tabular format, create a dataset using below query and bind data to the table report item.
 
@@ -69,7 +65,7 @@ Design a subreport to display the employee details.
 
 Here we have designed a simple subreport using image, textbox and table reportitem as shown below.
 ![subreport item with properties view](/static/assets/on-premise/images/report-designer/report-items/subreport/create-a-subreport.png)
->Note: Refer [Image](/report-designer/report-items/image/), [Line](/designer-guide/report-designer/report-items/line/), [Table](/designer-guide/report-designer/report-items/tablix/design-ssrs-rdl-report-using-table/) section to design the above subreport.
+>Note: Refer [Image](./../../../report-items/image/), [Line](./../../../report-items/line/), [Table](./../../../report-items/tablix/design-ssrs-rdl-report-using-table/) section to design the above subreport.
 
 ### Assign fields
 

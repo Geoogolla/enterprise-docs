@@ -89,6 +89,6 @@ You can connect JSON data using the following three options,
 
 ## See also
 
-[Formatting Columns](/designer-guide/report-designer/transforming-data/formatting-columns/)
+[Formatting Columns](./../../../transforming-data/formatting-columns/)
 
-[Dataset Parameter](/designer-guide/report-designer/transforming-data/link-a-query-parameter-with-a-report-parameter/)
+[Dataset Parameter](./../../../transforming-data/link-a-query-parameter-with-a-report-parameter/)

@@ -10,7 +10,7 @@ This section guides you to add a filter at dataset level in Bold Report Designer
 
 ## Create Data
 
-Refer [Create Data](/designer-guide/report-designer/manage-data/dataset/create-an-embedded-dataset/#create-an-embedded-dataset) section to create a data in report designer.
+Refer [Create Data](./../../../manage-data/dataset/create-an-embedded-dataset/#create-an-embedded-dataset) section to create a data in report designer.
 
 ## Apply filters at dataset level
 
@@ -23,15 +23,15 @@ Refer [Create Data](/designer-guide/report-designer/manage-data/dataset/create-a
 
 ### Add filters
 
-Refer [Add filters](/designer-guide/report-designer/compose-report/filter-data/#add-filters) section to create filter equation.
+Refer [Add filters](./../../../compose-report/filter-data/#add-filters) section to create filter equation.
 
 ### Set expression
 
-Refer [Set expression](/designer-guide/report-designer/compose-report/filter-data/#set-expression) section to set expression in filter equation.
+Refer [Set expression](./../../../compose-report/filter-data/#set-expression) section to set expression in filter equation.
 
 ### Remove filter
 
-Refer [Remove filter](/designer-guide/report-designer/compose-report/filter-data/#remove-filters) section to delete a filter equation.
+Refer [Remove filter](./../../../compose-report/filter-data/#remove-filters) section to delete a filter equation.
 
 ## Example
 
@@ -39,6 +39,6 @@ We can filter the `ProductID` field values at dataset level like below.
 
 1. Create a filter equation as in the below snap, and click `OK`.
 ![Filter equation for product id field](/static/assets/on-premise/images/report-designer/manage-data/dataset/filter-product-id-field.png)
-2. Now, assign the dataset to the `Table` report item. Refer [Design a basic table report](/designer-guide/report-designer/design-rdl-report-in-web-report-designer/) section.
+2. Now, assign the dataset to the `Table` report item. Refer [Design a basic table report](./../../../design-rdl-report-in-web-report-designer/) section.
 3. Preview the report. Observe the below snap, it displays the records for `ProductID` value **712** based on the filter equation.
 ![Preview output for dataset filters](/static/assets/on-premise/images/report-designer/manage-data/dataset/dataset-filter-preview.png)

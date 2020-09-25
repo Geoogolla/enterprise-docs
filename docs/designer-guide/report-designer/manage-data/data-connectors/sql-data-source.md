@@ -26,7 +26,7 @@ When you create a new data, the `NEW DATASOURCE` panel will show up with basic o
 
 1. Specify the data source name without special characters, in **Name** field.
 2. In **Server Name** field, you need to select existing server in the local network from the drop-down list or specify the specific remote server name like `myserver.domain.com`.
-3. In [Authentication Type](/designer-guide/report-designer/manage-data/data-connectors/sql-data-source/#authentication-types-for-basic-connection) field, choose **Windows** or **SQL Server** authentication.
+3. In [Authentication Type](./../../../manage-data/data-connectors/sql-data-source/#authentication-types-for-basic-connection) field, choose **Windows** or **SQL Server** authentication.
 4. Choose or enter an existing valid database. e.g. AdventureWorks.
 ![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/basic-options.png)
 5. Click on the `Connect` to connect the Bold Reports with Microsoft SQL server database.
@@ -125,8 +125,7 @@ The Bold Reports allows you to use stored procedures defined in the SQL server d
 
 > NOTE: Bold Reports supports stored procedure only for Microsoft SQL Server.
 
-Connect to the SQL Server database with [Basic Options](/designer-guide/report-designer/manage-data/data-connectors/sql-data-source/#create-microsoft-sql-server-data-source-with-basic-options) or [Advanced Options](/report-designer/manage-data/data-connectors/sql-data-source/#create-microsoft-sql-server-data-source-with-advanced-options).
-
+Connect to the SQL Server database with [Basic Options](./../../../manage-data/data-connectors/sql-data-source/#create-microsoft-sql-server-data-source-with-basic-options) or [Advanced Options](./../../../manage-data/data-connectors/sql-data-source/#create-microsoft-sql-server-data-source-with-advanced-options).
 After connect action, you will get into the query design view with the available stored procedure that is displayed on the left pane of tree view. The available parameters can also be displayed while expanding the procedure.
 
 ![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/stored-procedure.png)
@@ -145,7 +144,7 @@ Save the data source by clicking the `Finish` button.
 
 You can connect to data source of certain data connections through the custom SQL query. This feature allows you to define the data source with manually written queries instead of manually dragged tables for data connection type such as Microsoft SQL connections.
 
-Connect to the SQL Server database with [Basic Options](/designer-guide/report-designer/manage-data/data-connectors/sql-data-source/#create-microsoft-sql-server-data-source-with-basic-options) or [Advanced Options](/report-designer/manage-data/data-connectors/sql-data-source/#create-microsoft-sql-server-data-source-with-advanced-options). After connect action, you will get into the query design view.
+Connect to the SQL Server database with [Basic Options](./../../../manage-data/data-connectors/sql-data-source/#create-microsoft-sql-server-data-source-with-basic-options) or [Advanced Options](./../../../manage-data/data-connectors/sql-data-source/#create-microsoft-sql-server-data-source-with-advanced-options). After connect action, you will get into the query design view.
 
 ### Switch to code view
 
@@ -183,14 +182,14 @@ Then, I tried to enable the `Code Swither` to view the query, this query shows t
 
 ## See also
 
-[Formatting Columns](/designer-guide/report-designer/transforming-data/formatting-columns/)
+[Formatting Columns](./../../../transforming-data/formatting-columns/)
 
-[Join Tables](/designer-guide/report-designer/transforming-data/join-table/)
+[Join Tables](./../../../transforming-data/join-table/)
 
-[Query Filter](/designer-guide/report-designer/transforming-data/query-filter/)
+[Query Filter](./../../../transforming-data/query-filter/)
 
-[Dataset Parameter](/designer-guide/report-designer/transforming-data/link-a-query-parameter-with-a-report-parameter/)
+[Dataset Parameter](./../../../transforming-data/link-a-query-parameter-with-a-report-parameter/)
 
-[Query Parameter](/designer-guide/report-designer/transforming-data/define-query-parameters/)
+[Query Parameter](./../../../transforming-data/define-query-parameters/)
 
-[Query Expression](/designer-guide/report-designer/transforming-data/configure-expression-columns/)
+[Query Expression](./../../../transforming-data/configure-expression-columns/)

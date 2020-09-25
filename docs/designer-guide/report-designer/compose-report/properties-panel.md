@@ -19,7 +19,7 @@ Now, the properties panel will be displayed like below.
 
 > By default, the properties panel will display the `Report` properties.
 
-Refer [Report properties](/designer-guide/report-designer/compose-report/report-properties/) section to set and edit the report properties.
+Refer [Report properties](./../../compose-report/report-properties/) section to set and edit the report properties.
 
 ### Header properties
 
@@ -27,8 +27,8 @@ To open the `Header` properties, focus the mouse pointer on the header area of t
 
 ![Open header properties](/static/assets/on-premise/images/report-designer/report-items/properties-panel/header-properties.png)
 
-Refer [Header properties](/designer-guide/report-designer/compose-report/report-properties/) section to set and edit the report header properties.
-> Refer [Show or hide header](/designer-guide/report-designer/compose-report/show-or-hide-header-footer-in-report/#show-or-hide-report-header) section to show or hide header in the report.
+Refer [Header properties](./../../compose-report/report-properties/) section to set and edit the report header properties.
+> Refer [Show or hide header](./../../compose-report/show-or-hide-header-footer-in-report/#show-or-hide-report-header) section to show or hide header in the report.
 
 ### Body properties
 
@@ -36,7 +36,7 @@ To open the `Body` properties, focus the mouse pointer on the body area of the r
 
 ![Open body properties](/static/assets/on-premise/images/report-designer/report-items/properties-panel/open-body-properties.png)
 
-Refer [Body properties](/designer-guide/report-designer/compose-report/report-properties/) section to set and edit the report body properties.
+Refer [Body properties](./../../compose-report/report-properties/) section to set and edit the report body properties.
 
 ### Footer properties
 
@@ -44,8 +44,8 @@ To open the `Footer` properties, focus the mouse pointer on the footer area of t
 
 ![Open footer properties](/static/assets/on-premise/images/report-designer/report-items/properties-panel/open-footer-properties.png)
 
-Refer [Footer properties](/designer-guide/report-designer/compose-report/report-properties/) section to set and edit the report footer properties.
-> Refer [Show or hide footer](/designer-guide/report-designer/compose-report/show-or-hide-header-footer-in-report/#show-or-hide-report-footer) section to show or hide footer in the report.
+Refer [Footer properties](./../../compose-report/report-properties/) section to set and edit the report footer properties.
+> Refer [Show or hide footer](./../../compose-report/show-or-hide-header-footer-in-report/#show-or-hide-report-footer) section to show or hide footer in the report.
 
 ### Report item properties
 
@@ -55,7 +55,7 @@ To open any of the report item properties, select a report item in the design ar
 
 ## Common properties
 
-Some of the common properties like name, border, background etc are applicable for most of the report items and report layout, such properties are described under [Common properties](/designer-guide/report-designer/compose-report/common-properties/) section.
+Some of the common properties like name, border, background etc are applicable for most of the report items and report layout, such properties are described under [Common properties](./../../compose-report/common-properties/) section.
 
 ## Set expression
 
@@ -64,7 +64,7 @@ Some of the common properties like name, border, background etc are applicable f
 2. Click on `Expression` menu to open the expression builder.
 ![Rectangle listed in item panel](/static/assets/on-premise/images/report-designer/report-items/properties-panel/expression-dialog.png)
 
-   > To learn more about handling expressions in report designer refer [Expressions](/designer-guide/report-designer/compose-report/expressions/) section.
+   > To learn more about handling expressions in report designer refer [Expressions](./../../compose-report/expressions/) section.
 3. The square icon will be indicated in `Black color`, if the expression is applied to the specific property.
 ![Rectangle listed in item panel](/static/assets/on-premise/images/report-designer/report-items/properties-panel/set-expression-indication.png)
 

@@ -29,8 +29,7 @@ If you know the minimum and maximum values in analytical data, you can split it 
 
 ![Add field](/static/assets/on-premise/images/report-designer/report-items/map/custom-distribution-range/multiple-data-range.png)
 
-You can also define start and end values based on dynamic values, by using the `Expressions`. Refer [Set Expressions](/designer-guide/report-designer/compose-report/properties-panel/#set-expression) and [Reset Expressions](/designer-guide/report-designer/compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel. Click on the square icon in the right side of the each field to open expression menu,
-
+You can also define start and end values based on dynamic values, by using the `Expressions`. Refer [Set Expressions](./../../../compose-report/properties-panel/#set-expression) and [Reset Expressions](./../../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel. Click on the square icon in the right side of the each field to open expression menu,
 ![Expression menu](/static/assets/on-premise/images/report-designer/report-items/map/custom-distribution-range/expression-menu.png)
 
 ## Delete bucket

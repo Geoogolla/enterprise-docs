@@ -7,14 +7,13 @@ description: Define query parameters in dataset query designer on dataset create
 
 In query designer, the query parameter can be created in both design and query mode. The following sections describes the steps to create query parameters in design and query mode.
 
-Refer [Create Data](/designer-guide/report-designer/manage-data/dataset/create-an-embedded-dataset/) section for better understanding with the following sections. The below image showcases the initial view of query designer.
-![Query joiner icon in enabled state](/static/assets/on-premise/images/report-designer/transforming-data/define-query-parameters/query-designer-initial-view.png)
+Refer [Create Data](./../../manage-data/dataset/create-an-embedded-dataset/) section for better understanding with the following sections. The below image showcases the initial view of query designer.![Query joiner icon in enabled state](/static/assets/on-premise/images/report-designer/transforming-data/define-query-parameters/query-designer-initial-view.png)
 
 ## Create query parameter in design mode
 
 1. Drag and drop a table into design area and open the `Query Filters` dialog, in the query designer.
 ![Open query filter dialog](/static/assets/on-premise/images/report-designer/transforming-data/define-query-parameters/open-query-filter-dialog.png)
-   > Refer [Query filters](/designer-guide/report-designer/transforming-data/query-filter/) section to learn more about query filters.
+   > Refer [Query filters](./../../transforming-data/query-filter/) section to learn more about query filters.
 2. Click on the **Add** icon, to create a new filter.
 3. Choose any dataset field in the  first drop-down list.
 4. Choose any **Operator** in the second drop-down list.

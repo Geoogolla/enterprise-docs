@@ -11,16 +11,15 @@ The marker color rule properties can be used to define color filling rules for m
 
 It has three rules to fill colors on map marker icons,
 
-* [Color palette](/designer-guide/report-designer/report-items/map/color-palette-marker-rule/)
-* [Color ranges](/designer-guide/report-designer/report-items/map/color-range-marker-rule/)
-* [Custom colors](/designer-guide/report-designer/report-items/map/custom-color-marker-rule/)
-
+* [Color palette](./../../../report-items/map/color-palette-marker-rule/)
+* [Color ranges](./../../../report-items/map/color-range-marker-rule/)
+* [Custom colors](./../../../report-items/map/custom-color-marker-rule/)
 Similarly, it has four distribution types to distribute colors on map marker icons,
 
-* [Equal](/designer-guide/report-designer/report-items/map/equal-distribution-marker-rule/)
-* [Equal interval](/designer-guide/report-designer/report-items/map/equal-interval-marker-rule/)
-* [Optimal](/designer-guide/report-designer/report-items/map/optimal-distribution-marker-rule/)
-* [Custom](/designer-guide/report-designer/report-items/map/custom-distribution-marker-rule/)
+* [Equal](./../../../report-items/map/equal-distribution-marker-rule/)
+* [Equal interval](./../../../report-items/map/equal-interval-marker-rule/)
+* [Optimal](./../../../report-items/map/optimal-distribution-marker-rule/)
+* [Custom](./../../../report-items/map/custom-distribution-marker-rule/)
 
 ## Define marker color rule
 
@@ -40,8 +39,7 @@ The data value field will list the available shape data fields and analytical da
 
 ![Map data value](/static/assets/on-premise/images/report-designer/report-items/map/marker-color-rule/data-value.png)
 
-For example, to vary the marker colors based on population of each country, you have to choose sum of population data field as data value. You can also set data value based on dynamic values, by using the `Expressions`. Refer [Set Expressions](/designer-guide/report-designer/compose-report/properties-panel/#set-expression) and [Reset Expressions](/designer-guide/report-designer/compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
-
+For example, to vary the marker colors based on population of each country, you have to choose sum of population data field as data value. You can also set data value based on dynamic values, by using the `Expressions`. Refer [Set Expressions](./../../../compose-report/properties-panel/#set-expression) and [Reset Expressions](./../../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
 ![Map data value](/static/assets/on-premise/images/report-designer/report-items/map/marker-color-rule/data-value-expression.png)
 
 ### Type
@@ -52,9 +50,9 @@ As explained earlier, the map marker color rule has three types of color rules: 
 
 Refer following sections to learn about each marker color rule,
 
-* [Color palette](/designer-guide/report-designer/report-items/map/color-palette-marker-rule/)
-* [Color ranges](/designer-guide/report-designer/report-items/map/color-range-marker-rule/)
-* [Custom colors](/designer-guide/report-designer/report-items/map/custom-color-marker-rule/)
+* [Color palette](./../../../report-items/map/color-palette-marker-rule/)
+* [Color ranges](./../../../report-items/map/color-range-marker-rule/)
+* [Custom colors](./../../../report-items/map/custom-color-marker-rule/)
 
 ### Distribution type
 
@@ -68,9 +66,8 @@ These options are listed in the **Distribution Type** drop-down,
 
 Refer the following sections to design map marker using each distribution type,
 
-* [Equal](/designer-guide/report-designer/report-items/map/equal-distribution-marker-rule/)
-* [Equal interval](/designer-guide/report-designer/report-items/map/equal-interval-marker-rule/)
-* [Optimal](/designer-guide/report-designer/report-items/map/optimal-distribution-marker-rule/)
-* [Custom](/designer-guide/report-designer/report-items/map/custom-distribution-marker-rule/)
-
+* [Equal](./../../../report-items/map/equal-distribution-marker-rule/)
+* [Equal interval](./../../../report-items/map/equal-interval-marker-rule/)
+* [Optimal](./../../../report-items/map/optimal-distribution-marker-rule/)
+* [Custom](./../../../report-items/map/custom-distribution-marker-rule/)
 On report preview, based on the selected distribution type the analytical data will be split into ranges and the specified color rules will be applied to the marker icons.

@@ -44,7 +44,7 @@ Using the `ProductID` parameter, we can filter the `ProductID` field values at r
 ![Open tablix member properties](/static/assets/on-premise/images/report-designer/report-parameters/add-report-parameter/tablix-member-properties.png)
 3. In `Tablix Member` properties, click on `Set Filters...` button.
 ![Open filter dialog](/static/assets/on-premise/images/report-designer/report-parameters/add-report-parameter/tablix-member-set-filters.png)
-4. Refer [Set filters](/report-designer/compose-report/filter-data/) section to create new filter expression.
+4. Refer [Set filters](./../../compose-report/filter-data/) section to create new filter expression.
 ![Create filter](/static/assets/on-premise/images/report-designer/report-parameters/add-report-parameter/create-product-id-filter.png)
 5. Choose the `Equal` operator and assign the `ProductID` parameter in the **Value** field. Save the filter.
 ![Save filter](/static/assets/on-premise/images/report-designer/report-parameters/add-report-parameter/save-filter-equation.png)

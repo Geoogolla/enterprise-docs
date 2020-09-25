@@ -23,7 +23,7 @@ WHERE (SOH.OrderDate BETWEEN '1/1/2002' AND '12/31/2003')
 GROUP BY DATEPART(yy, SOH.OrderDate), PC.Name, PS.Name, 'Q' + DATENAME(qq, SOH.OrderDate), PS.ProductSubcategoryID
 ```
 
-> Refer [Create Data](/designer-guide/report-designer/manage-data/dataset/create-an-embedded-dataset/#create-an-embedded-dataset) section and create dataset using the above query. `AdventuresWorks` database is used here.
+> Refer [Create Data](./../../../manage-data/dataset/create-an-embedded-dataset/#create-an-embedded-dataset) section and create dataset using the above query. `AdventuresWorks` database is used here.
 
 ## Add matrix to the report
 
@@ -43,7 +43,8 @@ The matrix initially has empty default row group, column group and a data cell.
 Assign dataset to the `Dataset` property of matrix report item.
 ![Drag and drop matrix report item into design area](/static/assets/on-premise/images/report-designer/report-items/matrix/assign-data.png)
 
-Refer [Assign fields](/designer-guide/report-designer/report-items/tablix/assign-data-to-tablix-data-region/) section and assign the `ProdCat`, `OrderYear` and `Sales` fields in  initial matrix design.
+Refer [Assign fields](./../../../report-items/tablix/assign-data-to-tablix-data-region/) section and assign the `ProdCat`, `OrderYear` and `Sales` fields in  initial matrix design.
+The first field that we assign to the row group or column group will replace the initial empty default row group or column group. Now, I have assigned `ProdCat` field in row group, notice the `Row Grouping pane`.
 
 ### Delete details group
 
@@ -85,10 +86,10 @@ Now, the matrix design will look like below.
 
 ## Calculate a summary
 
-Now, a matrix report is created with row groups and column groups. To calculate the total sales amount for each product category, refer [Assign expression in cell](/designer-guide/report-designer/report-items/tablix/assign-data-to-tablix-data-region/#assign-or-edit-expression-into-table-cell) section and assign the `=Sum(Fields!Sales.Value)` expression to the last cell in third row of the matrix design as shown below.
+Now, a matrix report is created with row groups and column groups. To calculate the total sales amount for each product category, refer [Assign expression in cell](./../../../report-items/tablix/assign-data-to-tablix-data-region/#assign-or-edit-expression-into-table-cell) section and assign the `=Sum(Fields!Sales.Value)` expression to the last cell in third row of the matrix design as shown below.
 ![Matrix simple design](/static/assets/on-premise/images/report-designer/report-items/matrix/calculate-fields.png)
 
-> To set expression in matrix cell, refer [Assign or edit expression into table cell](/designer-guide/report-designer/report-items/tablix/assign-data-to-tablix-data-region/#assign-or-edit-expression-into-table-cell) section.
+> To set expression in matrix cell, refer [Assign or edit expression into table cell](./../../../report-items/tablix/assign-data-to-tablix-data-region/#assign-or-edit-expression-into-table-cell) section.
 
 ## Format data
 
@@ -98,12 +99,12 @@ By default, the summary data for the `Sales` field displays a general number. To
 
 ## Change width or height
 
-The matrix report item expands horizontally as well as vertically. You can resize rows and columns to display the data without wrapping. To resize rows and column in matrix data region, refer [Resize tablix data region](/designer-guide/report-designer/report-items/tablix/resize-tablix-data-region/). Here, the width of columns in matrix design is resized to minimum required width as shown below.
+The matrix report item expands horizontally as well as vertically. You can resize rows and columns to display the data without wrapping. To resize rows and column in matrix data region, refer [Resize tablix data region](./../../../report-items/tablix/resize-tablix-data-region/). Here, the width of columns in matrix design is resized to minimum required width as shown below.
 ![Matrix simple design](/static/assets/on-premise/images/report-designer/report-items/matrix/resize-output.png)
 
 ## Merge matrix cells
 
-After adding row and column groups, corner cells are created in the matrix design. You can use the corner cell to display any label content or data. The number of corner cell in a matrix design is based on the number of row and column groups in the matrix. In the above matrix design, it has four cells in its corner area. The cells are arranged in two rows and two columns. The four cells are not used in this report and it can be merged as one. To merge the corner cells, refer [Merge cells in corner area](/designer-guide/report-designer/report-items/tablix/merge-cells-in-tablix-data-region/#corner-area)
+After adding row and column groups, corner cells are created in the matrix design. You can use the corner cell to display any label content or data. The number of corner cell in a matrix design is based on the number of row and column groups in the matrix. In the above matrix design, it has four cells in its corner area. The cells are arranged in two rows and two columns. The four cells are not used in this report and it can be merged as one. To merge the corner cells, refer [Merge cells in corner area](./../../../report-items/tablix/merge-cells-in-tablix-data-region/#corner-area)
 ![Matrix simple design](/static/assets/on-premise/images/report-designer/report-items/matrix/merge-corner-cell.png)
 
 ## Format matrix design
@@ -112,7 +113,7 @@ In the below design background color and font styles are changed in matrix cells
 
 ![Matrix simple design](/static/assets/on-premise/images/report-designer/report-items/matrix/format-matrix-report.png)
 
-> Refer the [Cell Properties](/designer-guide/report-designer/report-items/tablix/cell-properties/#cell-properties) to style the matrix cell.
+> Refer the [Cell Properties](./../../../report-items/tablix/cell-properties/#cell-properties) to style the matrix cell.
 
 ## Report preview
 

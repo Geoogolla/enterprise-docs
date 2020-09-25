@@ -25,4 +25,4 @@ On report processing these three color will be distributed on map surface based 
 
 ## Use case
 
-Refer the [Design map using color range rule](/designer-guide/report-designer/report-items/map/use-case/design-map-using-color-range-rule/) section to design a world population analysis report using color range rule in map report item.
+Refer the [Design map using color range rule](./../../../report-items/map/use-case/design-map-using-color-range-rule/) section to design a world population analysis report using color range rule in map report item.

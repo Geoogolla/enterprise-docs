@@ -54,8 +54,7 @@ Repeat on new page property can be used to display the static row or column head
 
 ![Open static member properties](/static/assets/on-premise/images/report-designer/report-items/tablix/visibility-property.png)
 
-**Visibility** - Visibility property is used to conditionally show or hide the row or column when the report is initially run. To set visibility of static row or column using properties panel refer [Visibility](/designer-guide/report-designer/compose-report/common-properties/#visibility) section.
-**Toggle** - The toggle settings property can be used to allow the user interactively expand or collapse the report items or row and columns associated with the group to drill down to further detail within the same report. Some common reasons to use the toggle visibility feature are as follows:
+**Visibility** - Visibility property is used to conditionally show or hide the row or column when the report is initially run. To set visibility of static row or column using properties panel refer [Visibility](./../../../compose-report/common-properties/#visibility) section.**Toggle** - The toggle settings property can be used to allow the user interactively expand or collapse the report items or row and columns associated with the group to drill down to further detail within the same report. Some common reasons to use the toggle visibility feature are as follows:
 
 * To hide columns or rows with details in table and matrix report items
 
@@ -89,7 +88,7 @@ Filters can be used to filter the data in the tablix. In tablix data region, fil
 
 ![Filter dialog](/static/assets/on-premise/images/report-designer/report-items/tablix/filters-dialog.png)
 
-To create a filter expression for the respective group member, refer the steps provided in [Filter Data](/designer-guide/report-designer/compose-report/filter-data/) section.
+To create a filter expression for the respective group member, refer the steps provided in [Filter Data](./../../../compose-report/filter-data/) section.
 
 #### Sorts
 
@@ -97,7 +96,7 @@ To sort the numeric or string field in the tablix, sorting can be used. In tabli
 
 ![Sort dialog](/static/assets/on-premise/images/report-designer/report-items/tablix/sort-dialog.png)
 
-To create a sort expression for the respective group member, refer the steps provided in [Sort Data](/designer-guide/report-designer/compose-report/sort-data/) section.
+To create a sort expression for the respective group member, refer the steps provided in [Sort Data](./../../../compose-report/sort-data/) section.
 
 ### Miscellaneous
 
@@ -134,8 +133,7 @@ The page break property is used to control the amount of information on each pag
 
 ![Open static member properties](/static/assets/on-premise/images/report-designer/report-items/tablix/visibility-property.png)
 
-**Visibility** - Visibility property is used to conditionally show or hide the row or column groups when the report is initially run. To set visibility of dynamic row or column members using properties panel refer [Visibility](/designer-guide/report-designer/compose-report/common-properties/#visibility) section.
-**Toggle** - The toggle settings property can be used to allow the user interactively expand or collapse the report items or row and columns associated with the group to drill down to further detail within the same report. Some common reasons to use the toggle visibility feature are as follows:
+**Visibility** - Visibility property is used to conditionally show or hide the row or column groups when the report is initially run. To set visibility of dynamic row or column members using properties panel refer [Visibility](./../../../compose-report/common-properties/#visibility) section.**Toggle** - The toggle settings property can be used to allow the user interactively expand or collapse the report items or row and columns associated with the group to drill down to further detail within the same report. Some common reasons to use the toggle visibility feature are as follows:
 
 * To hide columns or rows with details in table and matrix report items
 

@@ -18,12 +18,12 @@ Users can add cascading parameters to the report to allow one parameter that lim
 
 ## See also
 
-[Add report parameter](/designer-guide/report-designer/report-parameters/add/)
+[Add report parameter](./../report-parameters/add/)
 
-[Edit report parameter](/designer-guide/report-designer/report-parameters/edit/)
+[Edit report parameter](./../report-parameters/edit/)
 
-[Delete report parameter](/designer-guide/report-designer/report-parameters/delete/)
+[Delete report parameter](./../report-parameters/delete/)
 
-[Cascading parameter](/designer-guide/report-designer/report-parameters/create-cascading-parameter/)
+[Cascading parameter](./../report-parameters/create-cascading-parameter/)
 
-[Multi-value parameter](/designer-guide/report-designer/report-parameters/create-multi-value-parameter/)
+[Multi-value parameter](./../report-parameters/create-multi-value-parameter/)

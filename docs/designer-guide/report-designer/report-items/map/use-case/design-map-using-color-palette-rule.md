@@ -49,11 +49,10 @@ In the Properties panel, under the **Basic Settings** category, set `USA` in `Sh
 
 ![Basic map rendering](/static/assets/on-premise/images/report-designer/report-items/map/color-palette-use-case/assign-data.png)
 
-Then click on the edit icon for the [Binding Data](/designer-guide/report-designer/report-items/map/binding-data/) property under **Basic Settings**.
-
+Then click on the edit icon for the [Binding Data](./../../../../report-items/map/binding-data/) property under **Basic Settings**.
 ![Edit icon](/static/assets/on-premise/images/report-designer/report-items/map/color-palette-use-case/binding-data-edit-icon.png)
 
-Refer [Binding Data](/report-designer/report-items/map/binding-data/) section and match analytical and shape data. Choose **name** in the **Field Name** drop-down and choose the **=Fields!State.Value** expression in **Binding Expression**.
+Refer [Binding Data](./../../../../report-items/map/binding-data/) section and match analytical and shape data. Choose **name** in the **Field Name** drop-down and choose the **=Fields!State.Value** expression in **Binding Expression**.
 
 ![Edit icon](/static/assets/on-premise/images/report-designer/report-items/map/color-palette-use-case/match-field.png)
 
@@ -79,26 +78,22 @@ Under the **Appearance** category, set the border width and color properties as 
 
 ### Title
 
-Under the [Title](/designer-guide/report-designer/report-items/map/properties/#title) category, set the title text, position, and font properties for the map title. First, enable the **Enable Title** check box. Then, add the title and position.
-
+Under the [Title](./../../../../report-items/map/properties/#title) category, set the title text, position, and font properties for the map title. First, enable the **Enable Title** check box. Then, add the title and position.
 ![Title text](/static/assets/on-premise/images/report-designer/report-items/map/color-palette-use-case/title.png)
 
 ### Legend
 
-Under the [Legend](/designer-guide/report-designer/report-items/map/properties/#legend) category, enable the **Enable Legend** check box. Set the background color as **White**, position **BottomCenter**, remove title text and set the legend mode as **Default**.
-
+Under the [Legend](./../../../../report-items/map/properties/#legend) category, enable the **Enable Legend** check box. Set the background color as **White**, position **BottomCenter**, remove title text and set the legend mode as **Default**.
 ![Legend](/static/assets/on-premise/images/report-designer/report-items/map/color-palette-use-case/legend.png)
 
 ### Shape settings
 
-Under the [Shape Settings](/designer-guide/report-designer/report-items/map/shape-settings/), set the border color as `#676767` and width as `0.667px`, label text as `=Fields!State.Value` and tooltip as `="Electors : " & Fields!Electors.Value` expression.
-
+Under the [Shape Settings](./../../../../report-items/map/shape-settings/), set the border color as `#676767` and width as `0.667px`, label text as `=Fields!State.Value` and tooltip as `="Electors : " & Fields!Electors.Value` expression.
 ![Shape settings](/static/assets/on-premise/images/report-designer/report-items/map/color-palette-use-case/shape-settings.png)
 
 ### Shape color rule
 
-Under [Shape color rule](/designer-guide/report-designer/report-items/map/shape-color-rule/) category, enable the **Enable Color Rule** check box.
-
+Under [Shape color rule](./../../../../report-items/map/shape-color-rule/) category, enable the **Enable Color Rule** check box.
 * Choose the `Candidate` name in Data Value.
 * Choose **Color Palette** as the Type.
 * Choose **Optimal** for **Distribution type**. This type adjusts the size of data intervals so as to limit the grouping blunder and in this manner the map looks increasingly adjusted and the outcomes appear to be progressively right, with only a couple of shapes in the highest class as one would anticipate.

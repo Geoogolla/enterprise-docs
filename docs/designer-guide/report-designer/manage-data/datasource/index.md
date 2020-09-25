@@ -22,14 +22,14 @@ Provides support to add any additional data providers to connect to your own dat
 
 ## See also
 
-[Create Embedded Datasource](/designer-guide/report-designer/manage-data/datasource/create-an-embedded-data-source/)
+[Create Embedded Datasource](./../../manage-data/datasource/create-an-embedded-data-source/)
 
-[Link Shared Datasource](/designer-guide/report-designer/manage-data/datasource/link-a-shared-data-source/)
+[Link Shared Datasource](./../../manage-data/datasource/link-a-shared-data-source/)
 
-[Edit Embedded Datasource](/designer-guide/report-designer/manage-data/datasource/modify-an-embedded-data-source/)
+[Edit Embedded Datasource](./../../manage-data/datasource/modify-an-embedded-data-source/)
 
-[Edit Shared Datasource](/designer-guide/report-designer/manage-data/datasource/modify-shared-data-source/)
+[Edit Shared Datasource](./../../manage-data/datasource/modify-shared-data-source/)
 
-[Delete Datasource](/designer-guide/report-designer/manage-data/datasource/delete-a-data-source/)
+[Delete Datasource](./../../manage-data/datasource/delete-a-data-source/)
 
-[Duplicate Datasource](/designer-guide/report-designer/manage-data/datasource/duplicate-a-data-source/)
+[Duplicate Datasource](./../../manage-data/datasource/duplicate-a-data-source/)

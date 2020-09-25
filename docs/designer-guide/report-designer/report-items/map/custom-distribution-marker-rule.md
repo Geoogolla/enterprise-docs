@@ -22,6 +22,5 @@ Now, you will be taken to the **Map Bucket** panel.
 
 ## Buckets
 
-To define the data ranges explicitly in the `Buckets` property, refer [Custom Buckets](/designer-guide/report-designer/report-items/map/define-custom-data-range/#add-bucket) section.
-
+To define the data ranges explicitly in the `Buckets` property, refer [Custom Buckets](./../../../report-items/map/define-custom-data-range/#add-bucket) section.
 On report preview, based on specified data ranges, fill color will be applied on marker icons in the map surface.

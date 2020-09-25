@@ -19,7 +19,7 @@ Products ON [Order Details].ProductID = Products.ProductID
 
 ```
 
-Refer [Create Data](/designer-guide/report-designer/manage-data/dataset/create-an-embedded-dataset/#create-an-embedded-dataset) section and create dataset using the above query. `Northwind` database is used here.
+Refer [Create Data](./../../../manage-data/dataset/create-an-embedded-dataset/#create-an-embedded-dataset) section and create dataset using the above query. `Northwind` database is used here.
 
 ## Add a table to the report
 
@@ -73,14 +73,13 @@ Using the position and appearance properties, you can customize the barcode repo
 
 1. Select the first row, set the background and font properties in the properties panel.
 ![Drag and drop tablix report item into design area](/static/assets/on-premise/images/report-designer/report-items/barcode/customize-text-design.png)
-2. [Resize](/designer-guide/report-designer/report-items/tablix/resize-tablix-data-region/) the table to the required size for better report design.
-![Drag and drop tablix report item into design area](/static/assets/on-premise/images/report-designer/report-items/barcode/table-final-design.png)
+2. [Resize](./../../../report-items/tablix/resize-tablix-data-region/) the table to the required size for better report design.![Drag and drop tablix report item into design area](/static/assets/on-premise/images/report-designer/report-items/barcode/table-final-design.png)
 
 ## Report header
 
 1. Enable the  report `Header` to add a title to the report.
 ![Enable header tag](/static/assets/on-premise/images/report-designer/report-items/barcode/enable-report-header.png)
-   > Refer [Show or hide header and footer](/designer-guide/report-designer/compose-report/show-or-hide-header-footer-in-report/) section to add or remove header/footer in the report.
+   > Refer [Show or hide header and footer](./../../../compose-report/show-or-hide-header-footer-in-report/) section to add or remove header/footer in the report.
 2. Now, add a rectangle report item in the report header area and a textbox within the rectangle.
 ![Add report items in header area](/static/assets/on-premise/images/report-designer/report-items/barcode/add-report-items-in-header-area.png)
 3. Set the report title text in the textbox and customize the appearance of the title using the textbox and rectangle properties in properties panel as required.

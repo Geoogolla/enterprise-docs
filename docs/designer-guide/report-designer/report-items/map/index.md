@@ -38,4 +38,4 @@ Configure data and format the map to visualize the analytical data with a geogra
 
 ## Design RDL report using map
 
-Refer [Design ssrs RDL report using map](/designer-guide/report-designer/report-items/map/use-case/design-map-using-custom-rule/) section to learn how to design a simple map in your report.
+Refer [Design ssrs RDL report using map](./../../report-items/map/use-case/design-map-using-custom-rule/) section to learn how to design a simple map in your report.

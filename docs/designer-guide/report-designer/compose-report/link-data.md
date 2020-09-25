@@ -64,8 +64,7 @@ Follow steps 1 - 4, to add parameters.
 
      ![menu-in-expression](/static/assets/on-premise/images/report-designer/compose-report/link-data/expression-menu.png)
 
-2. `Expression` dialog will be open as shown below, Refer [Expression](/designer-guide/report-designer/compose-report/expressions/) section for better understanding with the following sections.
-    ![shown-expression-dialog](/static/assets/on-premise/images/report-designer/compose-report/link-data/expression-dialog.png)
+2. `Expression` dialog will be open as shown below, Refer [Expression](./../../compose-report/expressions/) section for better understanding with the following sections.    ![shown-expression-dialog](/static/assets/on-premise/images/report-designer/compose-report/link-data/expression-dialog.png)
 
 3. The icon will be indicated in `Black color`, if the expression is applied to the parameter.
 
@@ -95,7 +94,6 @@ Hyperlink is used to link to a webpages in a report. Follow the below steps to a
 
    ![enable-url-in-link](/static/assets/on-premise/images/report-designer/compose-report/link-data/enable-link-url.png)
 
-2. In **URL** option, enter URL or set an [Expression](/designer-guide/report-designer/compose-report/link-data/#set-expression) that evaluates to the URL as shown below.
-   ![provide-the-url](/static/assets/on-premise/images/report-designer/compose-report/link-data/enable-link-url-save.png)
+2. In **URL** option, enter URL or set an [Expression](./../../compose-report/link-data/#set-expression) that evaluates to the URL as shown below.   ![provide-the-url](/static/assets/on-premise/images/report-designer/compose-report/link-data/enable-link-url-save.png)
 
 3. To view the link, click **Preview** and click on the report item, it will navigate to the given **URL** link.

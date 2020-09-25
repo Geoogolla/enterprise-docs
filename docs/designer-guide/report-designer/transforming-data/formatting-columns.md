@@ -8,8 +8,7 @@ keywords: format columns,dataset table, report-designer, ssrs filters, ssrs, rep
 
 When designing the data in query designer, the columns in the data table can be organized based on your dataset design requirements.
 
-Refer [Create Data](/designer-guide/report-designer/manage-data/dataset/create-an-embedded-dataset/) section for better understanding with the following sections. The below image showcases the initial view of query designer.
-![Query Designer initial state](/static/assets/on-premise/images/report-designer/transforming-data/formatting-columns/query-designer-initial-view.png)
+Refer [Create Data](./../../manage-data/dataset/create-an-embedded-dataset/) section for better understanding with the following sections. The below image showcases the initial view of query designer.![Query Designer initial state](/static/assets/on-premise/images/report-designer/transforming-data/formatting-columns/query-designer-initial-view.png)
 
 ## Rename a column
 

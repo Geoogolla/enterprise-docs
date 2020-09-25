@@ -35,7 +35,7 @@ WHERE (SOH.OrderDate BETWEEN '1/1/2002' AND '12/31/2003')
 GROUP BY DATEPART(yy, SOH.OrderDate), PC.Name, PS.Name, 'Q' + DATENAME(qq, SOH.OrderDate), PS.ProductSubcategoryID
 ```
 
-> Refer [Create Data](/designer-guide/report-designer/manage-data/dataset/create-an-embedded-dataset/#create-an-embedded-dataset) section and create dataset using the above query. `AdventuresWorks` database is used here.
+> Refer [Create Data](./../../../manage-data/dataset/create-an-embedded-dataset/#create-an-embedded-dataset) section and create dataset using the above query. `AdventuresWorks` database is used here.
 
 ## Assign data
 
@@ -106,8 +106,7 @@ Supported chart types will be listed in the `Chart Type` property dropdown, you 
 
 <span style="font-weight:bold">Show Legend</span>
 
-A Legend is a text used to describe the data plotted. This allows you to toggle the visibility of legend in chart and also you can customize the legend text appearance. To set/reset legend properties, refer [Show Legend](/designer-guide/report-designer/report-items/chart/legend/) property.
-<span style="font-weight:bold">Choose Series</span>
+A Legend is a text used to describe the data plotted. This allows you to toggle the visibility of legend in chart and also you can customize the legend text appearance. To set/reset legend properties, refer [Show Legend](./../../../report-items/chart/legend/) property.<span style="font-weight:bold">Choose Series</span>
 
 You can add multiple series to the chart and the available series will be listed in the `Choose Series` drop-down. To customize the series appearance choose the required series name in the drop-down.
 
@@ -129,14 +128,11 @@ Now, both series will be listed in the properties panel.
 
 <span style="font-weight:bold">Show Marker</span>
 
-Data markers are used to provide information about the data point to the user. You can add a shape and label to adorn each data point. To set/reset marker properties, refer [Show Marker](/designer-guide/report-designer/report-items/chart/marker/) property. The marker properties will be applied to the selected series in the  `Choose Series` drop-down.
-<span style="font-weight:bold">Show Data Label</span>
+Data markers are used to provide information about the data point to the user. You can add a shape and label to adorn each data point. To set/reset marker properties, refer [Show Marker](./../../../report-items/chart/marker/) property. The marker properties will be applied to the selected series in the  `Choose Series` drop-down.<span style="font-weight:bold">Show Data Label</span>
 
-Data label can be added to a chart series by using the `Show Data Label` property. The labels appear at the top of the data point, by default. To set/reset data label properties, refer [Show Data Label](/designer-guide/report-designer/report-items/chart/data-label/) property. The data label properties will be applied to the selected series in the  `Choose Series` drop-down.
-<span style="font-weight:bold">Enable Smart Label</span>
+Data label can be added to a chart series by using the `Show Data Label` property. The labels appear at the top of the data point, by default. To set/reset data label properties, refer [Show Data Label](./../../../report-items/chart/data-label/) property. The data label properties will be applied to the selected series in the  `Choose Series` drop-down.<span style="font-weight:bold">Enable Smart Label</span>
 
-Smart labels manage overlapping of labels even when a large number of labels are placed in close vicinity. To set/reset data label properties, refer [Enable Smart Label](/designer-guide/report-designer/report-items/chart/smart-label/) property.
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/smart-label/enable-smart-label.png)
+Smart labels manage overlapping of labels even when a large number of labels are placed in close vicinity. To set/reset data label properties, refer [Enable Smart Label](./../../../report-items/chart/smart-label/) property.![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/smart-label/enable-smart-label.png)
 
 > To apply smart label properties, enable `Data Label` for chart data region.
 
@@ -152,8 +148,7 @@ In the below design, border color, width and style properties are applied to the
 
 > The series border properties will be applied to the selected series in the  `Choose Series` drop-down.
 
-You can also set properties based on dynamic values, by using the `Expressions`. Refer [Set Expression](/designer-guide/report-designer/compose-report/properties-panel/#set-expression) and [Reset Expression](/designer-guide/report-designer/compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/chart-series/border-expression-menu.png)
+You can also set properties based on dynamic values, by using the `Expressions`. Refer [Set Expression](./../../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/chart-series/border-expression-menu.png)
 
 <span style="font-weight:bold">Series Color</span>
 
@@ -177,11 +172,9 @@ Now, the selected color will be applied to the `OrderYear` series in the chart d
 
 > The series color properties will be applied to the selected series in the  `Choose Series` drop-down.
 
-You can also apply series color based on dynamic values, by using the `Expressions`. Refer [Set Expressions](/designer-guide/report-designer/compose-report/properties-panel/#set-expression) and [Reset Expressions](/designer-guide/report-designer/compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
-<span style="font-weight:bold">Link To</span>
+You can also apply series color based on dynamic values, by using the `Expressions`. Refer [Set Expressions](./../../../compose-report/properties-panel/#set-expression) and [Reset Expressions](./../../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.<span style="font-weight:bold">Link To</span>
 
-You can configure **Hyperlink** or a **Report path** in the chart series to create an interactive report. Refer [Linking](/designer-guide/report-designer/compose-report/link-data/) section to set or reset link property for chart series.
-![Link To property](/static/assets/on-premise/images/report-designer/report-items/sparkline/link-to-property.png)
+You can configure **Hyperlink** or a **Report path** in the chart series to create an interactive report. Refer [Linking](./../../../compose-report/link-data/) section to set or reset link property for chart series.![Link To property](/static/assets/on-premise/images/report-designer/report-items/sparkline/link-to-property.png)
 
 ### Appearance
 
@@ -223,10 +216,9 @@ The page break property can be used to control the amount of information on each
 
 <span style="font-weight:bold">Custom Attributes</span>
 
-This property can be used to set the values for chart custom properties. To assign values for custom properties using properties panel refer [Custom Properties](/designer-guide/report-designer/compose-report/common-properties/#custom-properties) section.
-<span style="font-weight:bold">Tooltip</span>
+This property can be used to set the values for chart custom properties. To assign values for custom properties using properties panel refer [Custom Properties](./../../../compose-report/common-properties/#custom-properties) section.<span style="font-weight:bold">Tooltip</span>
 
-Tooltip property can be used to display informative text or value, when the user hovers over on the report item in report preview. To set tooltip for chart item using properties panel refer [Tooltip](/designer-guide/report-designer/compose-report/common-properties/#tooltip) section.
+Tooltip property can be used to display informative text or value, when the user hovers over on the report item in report preview. To set tooltip for chart item using properties panel refer [Tooltip](./../../../compose-report/common-properties/#tooltip) section.
 
 ## Preview report
 

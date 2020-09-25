@@ -8,8 +8,7 @@ keywords: report-parameter, add parameter, report-designer, ssrs report paramete
 
 An available values can be specified for a report parameter to allow the user to select only valid values on report preview action. The available values defined for the parameter will be listed in the drop-down list when previewing the report.
 
-Refer [Create Parameter](/designer-guide/report-designer/report-parameters/add/#create-parameter) section for better understanding with the following steps.
-![Create new parameter](/static/assets/on-premise/images/report-designer/report-parameters/add-report-parameter/create-new-parameter.png)
+Refer [Create Parameter](./../../report-parameters/add/#create-parameter) section for better understanding with the following steps.![Create new parameter](/static/assets/on-premise/images/report-designer/report-parameters/add-report-parameter/create-new-parameter.png)
 
 Click on `Assign Value >>` to open parameter assign dialog.
 ![Parameter assign values dialog](/static/assets/on-premise/images/report-designer/report-parameters/add-report-parameter/parameter-assign-values-dialog.png)
@@ -52,7 +51,7 @@ On report preview, the `ProductID` parameter will list the values of `ProductID`
 
 To remove the available values defined for the parameter follow the below steps:
 
-1. Refer [Edit Parameter](/designer-guide/report-designer/report-parameters/edit/) section and open parameter properties.
+1. Refer [Edit Parameter](./../../report-parameters/edit/) section and open parameter properties.
 2. Click on `Assign Value >>` to open parameter assign dialog.
 3. Under the `Available Values` tab, choose the `None` option.
 ![Remove available values](/static/assets/on-premise/images/report-designer/report-parameters/add-report-parameter/remove-available-values.png)
@@ -68,7 +67,8 @@ Using the `ProductID` parameter, we can filter the `ProductID` field values at r
 ![Open tablix member properties](/static/assets/on-premise/images/report-designer/report-parameters/add-report-parameter/tablix-member-properties.png)
 3. In `Tablix Member` properties, click on `Set Filters...` button.
 ![Open filter dialog](/static/assets/on-premise/images/report-designer/report-parameters/add-report-parameter/tablix-member-set-filters.png)
-4. Refer [Set filters](/designer-guide/report-designer/compose-report/filter-data/) section to create new filter expression.![Create filter](/static/assets/on-premise/images/report-designer/report-parameters/add-report-parameter/create-product-id-filter.png)
+4. Refer [Set filters](./../../compose-report/filter-data/) section to create new filter expression.
+![Create filter](/static/assets/on-premise/images/report-designer/report-parameters/add-report-parameter/create-product-id-filter.png)
 5. Choose the `Equal` operator and assign the `ProductID` parameter in the **Value** field. Save the filter.
 ![Save filter](/static/assets/on-premise/images/report-designer/report-parameters/add-report-parameter/save-filter-equation.png)
 6. Preview the report, now the following view will be displayed.

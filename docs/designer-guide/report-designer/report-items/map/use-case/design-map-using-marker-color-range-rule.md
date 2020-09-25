@@ -30,7 +30,7 @@ WHERE
 CountryRegionName = 'United States'
 ```
 
-> Refer [Create Data](/designer-guide/report-designer/manage-data/dataset/create-an-embedded-dataset/#create-an-embedded-dataset) section and create dataset using the above query. `AdventuresWorks2012` database is used here.
+> Refer [Create Data](./../../../../manage-data/dataset/create-an-embedded-dataset/#create-an-embedded-dataset) section and create dataset using the above query. `AdventuresWorks2012` database is used here.
 
 ## Add map to the report design
 
@@ -54,12 +54,10 @@ In the Properties panel, under the **Basic Settings** category, set the `USA` in
 
 ![Basic map rendering](/static/assets/on-premise/images/report-designer/report-items/map/marker-color-range-use-case/assign-data.png)
 
-Then click on the edit icon for the [Binding Data](/designer-guide/report-designer/report-items/map/binding-data/) property under **Basic Settings**.
-
+Then click on the edit icon for the [Binding Data](./../../../../report-items/map/binding-data/) property under **Basic Settings**.
 ![Edit icon](/static/assets/on-premise/images/report-designer/report-items/map/marker-color-range-use-case/binding-data-edit-icon.png)
 
-Refer [Binding Data](/designer-guide/report-designer/report-items/map/binding-data/) section and match analytical and shape data. Choose `iso_3166_2` in the **Field Name** drop-down and choose the **=Fields!StateCode.Value** expression in **Binding Expression**.
-
+Refer [Binding Data](./../../../../report-items/map/binding-data/) section and match analytical and shape data. Choose `iso_3166_2` in the **Field Name** drop-down and choose the **=Fields!StateCode.Value** expression in **Binding Expression**.
 ![Edit icon](/static/assets/on-premise/images/report-designer/report-items/map/marker-color-range-use-case/match-field.png)
 
 Click on the Update.
@@ -76,14 +74,12 @@ Under the **Appearance** category, set the border width and color properties as 
 
 ### Title
 
-Under the [Title](/designer-guide/report-designer/report-items/map/properties/#title) category, set the title text, position, and font properties for the map title. First, enable the Enable Title check box. Then, add the title and position.
-
+Under the [Title](./../../../../report-items/map/properties/#title) category, set the title text, position, and font properties for the map title. First, enable the Enable Title check box. Then, add the title and position.
 ![Title text](/static/assets/on-premise/images/report-designer/report-items/map/marker-color-range-use-case/title.png)
 
 ### Shape settings
 
-Under the [Shape Settings](/designer-guide/report-designer/report-items/map/shape-settings/), set the background color as `#8bd3e1`, border color as `#676767`, border width as `0.667px`, and tooltip as `=Fields!StateCode.Value & " : "&Fields!City.Value`.
-
+Under the [Shape Settings](./../../../../report-items/map/shape-settings/), set the background color as `#8bd3e1`, border color as `#676767`, border width as `0.667px`, and tooltip as `=Fields!StateCode.Value & " : "&Fields!City.Value`.
 ![Shape settings](/static/assets/on-premise/images/report-designer/report-items/map/marker-color-range-use-case/shape-settings.png)
 
 The map design will look like below,
@@ -92,12 +88,10 @@ The map design will look like below,
 
 ## Define marker color rule
 
-Under [Marker Settings](/designer-guide/report-designer/report-items/map/marker-settings/) category enable the **Enable Marker** checkbox. Set the background color as `#ffffff`, border color as `#000000` and width as `1.333px`,marker style as `Diamond`, marker size as `14.333` and tooltip as `=Fields!FirstName.Value + " " + Fields!LastName.Value + " - " + FormatCurrency(Fields!SalesLastYear.Value)` expression.
-
+Under [Marker Settings](./../../../../report-items/map/marker-settings/) category enable the **Enable Marker** checkbox. Set the background color as `#ffffff`, border color as `#000000` and width as `1.333px`,marker style as `Diamond`, marker size as `14.333` and tooltip as `=Fields!FirstName.Value + " " + Fields!LastName.Value + " - " + FormatCurrency(Fields!SalesLastYear.Value)` expression.
 ![Marker settings](/static/assets/on-premise/images/report-designer/report-items/map/marker-color-range-use-case/marker-settings.png)
 
-Under [Marker color rule](/designer-guide/report-designer/report-items/map/marker-color-rule/) category, enable the **Enable Color Rule** check box.
-
+Under [Marker color rule](./../../../../report-items/map/marker-color-rule/) category, enable the **Enable Color Rule** check box.
 * Choose the Sum(SalesLastYear) in **Data Value**.
 * Choose `Type` as `Color Range`.
 * Set the start, middle, and end colors as **#008000**, **#ffff00**, **#ff0000**, respectively. The start color applies to the low end of the data range and the end color applies to data at the high end of the data range.

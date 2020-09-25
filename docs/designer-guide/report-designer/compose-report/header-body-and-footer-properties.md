@@ -10,7 +10,7 @@ keywords: ejReportDesigner, reportdesigner, line, reportitem, border
 
 Report header and footer section allows to place the report items at the top and bottom of the report body. You can place images, text boxes, and lines, rectangles and expressions in header and footer section of the report. For example, you can place the Report Title, Company Logo, Company Address, Report Generated Time, Page Numbers etc in the headers and footers section.
 
-> Note: You cannot place data regions in the header and footer section of the report design. By default, reports have report footer, but not report header. Refer [show or hide header and footer](/designer-guide/report-designer/compose-report/show-or-hide-header-footer-in-report/) section to add or remove header and footer in a report.
+> Note: You cannot place data regions in the header and footer section of the report design. By default, reports have report footer, but not report header. Refer [show or hide header and footer](./../../compose-report/show-or-hide-header-footer-in-report/) section to add or remove header and footer in a report.
 
 ## Report Body
 
@@ -22,7 +22,7 @@ Following are the general properties of report header, body and footer area.
 
 ### Border
 
-Border properties can be used to add or customize the border around header, body, or footer section in the report design. To set border properties to the report sections using properties panel, refer [Border Properties](/designer-guide/report-designer/compose-report/common-properties/#border-properties) section.
+Border properties can be used to add or customize the border around header, body, or footer section in the report design. To set border properties to the report sections using properties panel, refer [Border Properties](./../../compose-report/common-properties/#border-properties) section.
 
 ### Background color
 
@@ -32,7 +32,7 @@ The background color property can be used to set the background color of the hea
 
 ### Background Image
 
-Background image property can be used to display company logos, watermarks, or any other background image to the report sections such as the page header, footer and body. To set background image to the report sections refer [Background Image](/designer-guide/report-designer/compose-report/background-image/) section.
+Background image property can be used to display company logos, watermarks, or any other background image to the report sections such as the page header, footer and body. To set background image to the report sections refer [Background Image](./../../compose-report/background-image/) section.
 
 ## Header and Footer properties
 

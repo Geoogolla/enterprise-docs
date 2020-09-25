@@ -38,7 +38,7 @@ Code Module is used to add a custom code or custom assemblies to a report. Code 
 4. Click on the **OK** button.
 5. Use the following expression, to call the custom code function in the report.
     ![Call custom code function](/static/assets/on-premise/images/report-designer/compose-report/code-module/custom-code-expression.png)
-Refer [Expression](/designer-guide/report-designer/compose-report/expressions/) section to learn more about handling expressions.
+Refer [Expression](./../../compose-report/expressions/) section to learn more about handling expressions.
 6. To view the color changes based on the price range in a report, click `Preview`.
 ![Preview custom code](/static/assets/on-premise/images/report-designer/compose-report/code-module/custom-code-preview.png)
 
@@ -83,7 +83,7 @@ To embed a custom assemblies in a report, create a simple visual studio class li
 4. Use the following expression to call the embedded custom code function in the report.
 
     ![Call the method using expression](/static/assets/on-premise/images/report-designer/compose-report/code-module/custom-assembly-expression.png)
-Refer [Expression](/designer-guide/report-designer/compose-report/expressions/) section to learn more about handling expressions.
+Refer [Expression](./../../compose-report/expressions/) section to learn more about handling expressions.
 
 5. To view the color changes based on the price range in a report, click `Preview`.
     ![Preview the record](/static/assets/on-premise/images/report-designer/compose-report/code-module/custom-code-preview.png)

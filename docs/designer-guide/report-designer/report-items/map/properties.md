@@ -5,7 +5,7 @@ description: This section describes about each properties in map report item and
 
 # Properties
 
-Refer the [Properties panel](/designer-guide/report-designer/compose-report/properties-panel/) section before proceeding with the below properties.
+Refer the [Properties panel](./../../../compose-report/properties-panel/) section before proceeding with the below properties.
 
 ## Basic Settings
 
@@ -17,7 +17,7 @@ A map layer can display either a build-in or custom shape data. The `Shapes` pro
 
 ![Map shapes](/static/assets/on-premise/images/report-designer/report-items/map/over-view/shapes.png)
 
-To import custom shape files into Report Designer, refer [Import shape files](/designer-guide/report-designer/how-to/configure-map-shapes/) section. Choose the required shape data from the drop-down to render the respective map in design area.
+To import custom shape files into Report Designer, refer [Import shape files](./../../../how-to/configure-map-shapes/) section. Choose the required shape data from the drop-down to render the respective map in design area.
 
 ### Dataset
 
@@ -27,11 +27,11 @@ This property is used to assign the dataset to the map. The available datasets i
 
 ![Data category](/static/assets/on-premise/images/report-designer/report-items/map/over-view/data-set.png)
 
-> Refer [Create Data](/designer-guide/report-designer/manage-data/dataset/create-an-embedded-dataset/) section to add dataset to your report.
+> Refer [Create Data](./../../../manage-data/dataset/create-an-embedded-dataset/) section to add dataset to your report.
 
 ### Binding data
 
-To display analytical data on the map surface, first we need to link the analytical and shape data. The shape data is the map itself, whereas the analytical data is the data set we created. The analytical data provides meaning to the shape data. To bind analytical and shape data, refer to the [Binding Data](/designer-guide/report-designer/report-items/map/binding-data/) section.
+To display analytical data on the map surface, first we need to link the analytical and shape data. The shape data is the map itself, whereas the analytical data is the data set we created. The analytical data provides meaning to the shape data. To bind analytical and shape data, refer to the [Binding Data](./../../../report-items/map/binding-data/) section.
 
 ### Filter
 
@@ -39,7 +39,7 @@ Filters is used to filter the data in the map. To open the `Filter` dialog, clic
 
 ![Filter Dialog](/static/assets/on-premise/images/report-designer/report-items/map/over-view/filters.png)
 
-Refer [Filter Data](/designer-guide/report-designer/compose-report/filter-data/) section to add/remove filters in the filter dialog.
+Refer [Filter Data](./../../../compose-report/filter-data/) section to add/remove filters in the filter dialog.
 
 ### Groups
 
@@ -47,7 +47,7 @@ You can group the map elements with analytical data using this option. To open t
 
 ![Grouping Dialog](/static/assets/on-premise/images/report-designer/report-items/map/over-view/grouping.png)
 
-Modify the group `Name` or add a group expression in the group dialog and click `OK`. Refer [Group Data](/designer-guide/report-designer/compose-report/group-data/) section to add/remove groups in the grouping dialog.
+Modify the group `Name` or add a group expression in the group dialog and click `OK`. Refer [Group Data](./../../../compose-report/group-data/) section to add/remove groups in the grouping dialog.
 
 ## Appearance
 
@@ -57,11 +57,11 @@ The border style, color, width, background color, and projection type properties
 
 ### Border
 
-Border properties are used to add or customize the border around a map item to visually separate it in the report design. To set border properties to the map item using properties panel refer [Border Properties](/designer-guide/report-designer/compose-report/common-properties/#border-properties) section.
+Border properties are used to add or customize the border around a map item to visually separate it in the report design. To set border properties to the map item using properties panel refer [Border Properties](./../../../compose-report/common-properties/#border-properties) section.
 
 ### Background color
 
-Using the background color property you can color the map background. To set background color using properties panel refer [Background color](/designer-guide/report-designer/compose-report/common-properties/#background-color) section.
+Using the background color property you can color the map background. To set background color using properties panel refer [Background color](./../../../compose-report/common-properties/#background-color) section.
 
 ### Projection type
 
@@ -79,7 +79,7 @@ You can customize the title text for map using this property. By default, the te
 
 ![Map title text](/static/assets/on-premise/images/report-designer/report-items/map/over-view/title-in-design.png)
 
-You can also apply title text based on dynamic values, by using the `Expressions`. Refer [Set Expressions](/designer-guide/report-designer/compose-report/properties-panel/#set-expression) and [Reset Expressions](/designer-guide/report-designer/compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
+You can also apply title text based on dynamic values, by using the `Expressions`. Refer [Set Expressions](./../../../compose-report/properties-panel/#set-expression) and [Reset Expressions](/on-premise/report-designer/compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
 
 ### Title font
 
@@ -91,8 +91,7 @@ Now, the title font properties will be displayed in the advanced options.
 
 ![Font properties](/static/assets/on-premise/images/report-designer/report-items/map/over-view/title-advanced-options.png)
 
-You can also apply font properties based on dynamic values, by using the `Expressions`. Refer [Set Expressions](/designer-guide/report-designer/compose-report/properties-panel/#set-expression) and [Reset Expressions](/designer-guide/report-designer/compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
-
+You can also apply font properties based on dynamic values, by using the `Expressions`. Refer [Set Expressions](./../../../compose-report/properties-panel/#set-expression) and [Reset Expressions](/on-premise/report-designer/compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
 ![Dynamic font values](/static/assets/on-premise/images/report-designer/report-items/map/over-view/title-font-expression.png)
 
 ### Position
@@ -103,8 +102,7 @@ The title position can be customized using the `Position` property.
 
 ## Legend
 
-A Legend is a text used to describe the data plotted. This property allows you to toggle the visibility of legend in map and to customize the legend text appearance. To set/reset legend properties, refer [Map Legend](/designer-guide/report-designer/report-items/map/legend/) section.
-
+A Legend is a text used to describe the data plotted. This property allows you to toggle the visibility of legend in map and to customize the legend text appearance. To set/reset legend properties, refer [Map Legend](./../../../report-items/map/legend/) section.
 ![Map Legend](/static/assets/on-premise/images/report-designer/report-items/map/over-view/legend.png)
 
 ## Spatial
@@ -133,32 +131,27 @@ Edit the required properties and click on the `Save`.
 
 ## Shape settings
 
-Each region in a map surface is called a map shape. We can set a label, tooltip, border, and background color for it. To set/reset shape properties, refer [Map Shape Settings](/designer-guide/report-designer/report-items/map/shape-settings/) section.
-
+Each region in a map surface is called a map shape. We can set a label, tooltip, border, and background color for it. To set/reset shape properties, refer [Map Shape Settings](./../../../report-items/map/shape-settings/) section.
 ![Map Shape Settings](/static/assets/on-premise/images/report-designer/report-items/map/over-view/shape-settings.png)
 
 ## Shape color rule
 
-The shape color rule properties can be used to define color options for each shape on the map surface. To set/reset shape color rule for map, refer [Shape Color Rule](/designer-guide/report-designer/report-items/map/shape-color-rule/) section.
-
+The shape color rule properties can be used to define color options for each shape on the map surface. To set/reset shape color rule for map, refer [Shape Color Rule](./../../../report-items/map/shape-color-rule/) section.
 ![Map Shape Color Rule](/static/assets/on-premise/images/report-designer/report-items/map/over-view/shape-color-rule.png)
 
 ## Marker settings
 
-A marker identifies a location on a map. By default, a marker uses a standard icons. We can set background color, border, style, size and tooltip for it. To set/reset marker properties refer [Map Marker Settings](/designer-guide/report-designer/report-items/map/marker-settings/).
-
+A marker identifies a location on a map. By default, a marker uses a standard icons. We can set background color, border, style, size and tooltip for it. To set/reset marker properties refer [Map Marker Settings](./../../../report-items/map/marker-settings/).
 ![Map Marker Settings](/static/assets/on-premise/images/report-designer/report-items/map/over-view/marker-settings.png)
 
 ## Marker color rule
 
-The marker color rule properties can be used to define color options for each marker on the map surface. To set/reset marker color rule for map, refer [Marker Color Rule](/designer-guide/report-designer/report-items/map/marker-color-rule/) section.
-
+The marker color rule properties can be used to define color options for each marker on the map surface. To set/reset marker color rule for map, refer [Marker Color Rule](./../../../report-items/map/marker-color-rule/) section.
 ![Marker Color Rule](/static/assets/on-premise/images/report-designer/report-items/map/over-view/marker-color-rule.png)
 
 ## Marker rule
 
-The marker rule properties can be used to define marker styles for each marker on the map surface. To set/reset marker color rule for map, refer [Marker Rule](/designer-guide/report-designer/report-items/map/marker-rule/) section.
-
+The marker rule properties can be used to define marker styles for each marker on the map surface. To set/reset marker color rule for map, refer [Marker Rule](./../../../report-items/map/marker-rule/) section.
 ![Marker Rule](/static/assets/on-premise/images/report-designer/report-items/map/over-view/marker-rule.png)
 
 ## Page break
@@ -187,14 +180,13 @@ The page name property is used to name the first worksheet of the Excel workbook
 
 ## Position
 
-Position property is used to set the width, height, left and top position of the map in the report design. To handle these properties using properties panel refer [Position](/designer-guide/report-designer/compose-report/common-properties/#position) section.
+Position property is used to set the width, height, left and top position of the map in the report design. To handle these properties using properties panel refer [Position](./../../../compose-report/common-properties/#position) section.
 
 ## Visibility
 
 ![Map Visibility](/static/assets/on-premise/images/report-designer/report-items/map/over-view/visibility.png)
 
-**Visibility** - Visibility property is used to conditionally show or hide the map report item on report preview or export action. To set visibility of map item using properties panel refer [Visibility](/designer-guide/report-designer/compose-report/common-properties/#visibility) section.
-
+**Visibility** - Visibility property is used to conditionally show or hide the map report item on report preview or export action. To set visibility of map item using properties panel refer [Visibility](./../../../compose-report/common-properties/#visibility) section.
 **Toggle** - The toggle settings property can be used to interactively toggle the map report item visibility by another report item.
 
 ![Toggle Map Visibility](/static/assets/on-premise/images/report-designer/report-items/map/over-view/toggle-item.png)
@@ -203,20 +195,19 @@ Position property is used to set the width, height, left and top position of the
 
 <span style="font-weight:bold">Custom Attributes</span>
 
-This property can be used to set the values for map custom properties. To create and assign values for custom properties using properties panel refer [Custom Properties](/designer-guide/report-designer/compose-report/common-properties/#custom-properties) section.
-
+This property can be used to set the values for map custom properties. To create and assign values for custom properties using properties panel refer [Custom Properties](./../../../compose-report/common-properties/#custom-properties) section.
 <span style="font-weight:bold">Tooltip</span>
 
-Tooltip property can be used to display informative text or value, when the user hovers over on the report item in report preview. To set tooltip for table report item using properties panel refer [Tooltip](/designer-guide/report-designer/compose-report/common-properties/#tooltip) section.
+Tooltip property can be used to display informative text or value, when the user hovers over on the report item in report preview. To set tooltip for table report item using properties panel refer [Tooltip](./../../../compose-report/common-properties/#tooltip) section.
 
 ## Set expression
 
-An expression can be set to few properties of the map report item to process the property values based on expressions. To set expressions to the map report item properties, refer [Set Expression](/designer-guide/report-designer/compose-report/properties-panel/#set-expression) section.
+An expression can be set to few properties of the map report item to process the property values based on expressions. To set expressions to the map report item properties, refer [Set Expression](./../../../compose-report/properties-panel/#set-expression) section.
 
 ## Reset expression
 
-To `Reset` the expression applied to a property, refer [Reset Expression](/designer-guide/report-designer/compose-report/properties-panel/#reset-expression) section.
+To `Reset` the expression applied to a property, refer [Reset Expression](./../../../compose-report/properties-panel/#reset-expression) section.
 
 ## Advanced properties
 
-Few properties of the map report items contains nested properties. To open and handle nested properties, refer [Advanced Properties](/designer-guide/report-designer/compose-report/properties-panel/#advanced-properties) section.
+Few properties of the map report items contains nested properties. To open and handle nested properties, refer [Advanced Properties](./../../../compose-report/properties-panel/#advanced-properties) section.

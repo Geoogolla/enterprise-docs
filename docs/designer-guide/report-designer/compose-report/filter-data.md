@@ -16,8 +16,7 @@ Filters are used to filter the dataset field by passing the specific dataset fie
 
    ![add-field-filters](/static/assets/on-premise/images/report-designer/compose-report/filter-data/filters-add.png)
 
-2. Dataset fields are listed in the first drop-down list, choose the necessary field from the drop-down list or set an [Expression](/designer-guide/report-designer/compose-report/filter-data/#set-expression).
-   ![add-expression](/static/assets/on-premise/images/report-designer/compose-report/filter-data/expression-field.png)
+2. Dataset fields are listed in the first drop-down list, choose the necessary field from the drop-down list or set an [Expression](./../../compose-report/filter-data/#set-expression).   ![add-expression](/static/assets/on-premise/images/report-designer/compose-report/filter-data/expression-field.png)
 
 3. **Operator** types are listed in the second drop-down list.
 
@@ -27,7 +26,7 @@ Filters are used to filter the dataset field by passing the specific dataset fie
 
    ![operator-between](/static/assets/on-premise/images/report-designer/compose-report/filter-data/between-operator.png)
 
-4. In the **Value**, enter the  value directly or set an [Expression](/designer-guide/report-designer/compose-report/filter-data/#set-expression).
+4. In the **Value**, enter the  value directly or set an [Expression](./../../compose-report/filter-data/#set-expression).
 5. To add multiple filters, follow steps 1 - 4.
 
    ![add-with-multiple-filter](/static/assets/on-premise/images/report-designer/compose-report/filter-data/multiple-filters.png)
@@ -42,8 +41,7 @@ Follow steps 1 - 4, to add filters.
 
    ![expression-icon-shown](/static/assets/on-premise/images/report-designer/compose-report/filter-data/expression-icon.png)
 
-2. `Expression` dialog will be open as shown below, Refer [Expression](/designer-guide/report-designer/compose-report/expressions/) section for better understanding with the following sections.
-   ![open-expression-dialog](/static/assets/on-premise/images/report-designer/compose-report/filter-data/expression-dialog.png)
+2. `Expression` dialog will be open as shown below, Refer [Expression](./../../compose-report/expressions/) section for better understanding with the following sections.   ![open-expression-dialog](/static/assets/on-premise/images/report-designer/compose-report/filter-data/expression-dialog.png)
 
 3. The icon will be indicated in `Black color`, if the expression is applied to the dataset field.
 

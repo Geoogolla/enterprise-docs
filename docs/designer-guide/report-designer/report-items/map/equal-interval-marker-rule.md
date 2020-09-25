@@ -13,7 +13,7 @@ Once you set value for `Data Value` property, the properties required to configu
 
 Choose `Equal Interval` in `Distribution Type` dropdown.
 
-You can also set distribution type based on dynamic values, by using the `Expressions`. Refer [Set Expressions](/designer-guide/report-designer/compose-report/properties-panel/#set-expression) and [Reset Expressions](/designer-guide/report-designer/compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
+You can also set distribution type based on dynamic values, by using the `Expressions`. Refer [Set Expressions](./../../../compose-report/properties-panel/#set-expression) and [Reset Expressions](./../../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
 
 ## Start and end value
 
@@ -29,4 +29,4 @@ Based on specified bucket count, splits the data ranges. For example, if you spe
 
 ![Bucket count](/static/assets/on-premise/images/report-designer/report-items/map/marker-color-rule/equal-interval-bucket-count.png)
 
-You can also set bucket based on dynamic values, by using the `Expressions`. Refer [Set Expressions](/designer-guide/report-designer/compose-report/properties-panel/#set-expression) and [Reset Expressions](/designer-guide/report-designer/compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
+You can also set bucket based on dynamic values, by using the `Expressions`. Refer [Set Expressions](./../../../compose-report/properties-panel/#set-expression) and [Reset Expressions](./../../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.

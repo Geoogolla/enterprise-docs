@@ -8,8 +8,7 @@ keywords: multi value report parameter, report parameter, report-designer, param
 
 Multi Value Parameter is used to dynamically filter the report data based on more than one value. This section describes the steps required to create a multi value report parameter in Bold Report Designer.
 
-Refer [Create Parameter](/designer-guide/report-designer/report-parameters/add/#create-parameter) section for better understanding with the following steps.
-![Create new parameter](/static/assets/on-premise/images/report-designer/report-parameters/add-report-parameter/create-new-parameter.png)
+Refer [Create Parameter](./../../report-parameters/add/#create-parameter) section for better understanding with the following steps.![Create new parameter](/static/assets/on-premise/images/report-designer/report-parameters/add-report-parameter/create-new-parameter.png)
 
 1. Select **Allow multiple values**, to create a multi-value parameter.
    > A multi-value parameter cannot include `null` values.
@@ -33,7 +32,7 @@ Using the `ProductID` parameter, we can filter the `ProductID` field values at r
 ![Open table properties](/static/assets/on-premise/images/report-designer/report-parameters/add-report-parameter/properties-icon-to-open-table-properties.png)
 3. In `Table` properties, click on `Set Filters...` button.
 ![Table set filters button](/static/assets/on-premise/images/report-designer/report-parameters/add-report-parameter/table-set-filters-button.png)
-4. Refer [Set filters](/designer-guide/report-designer/compose-report/filter-data/) section to create new filter expression.
+4. Refer [Set filters](./../../compose-report/filter-data/) section to create new filter expression.
 5. Choose the `In` operator and assign the `ProductID` parameter in the **Value** field. Save the filter.
 ![Open expression menu in filter dialog](/static/assets/on-premise/images/report-designer/report-parameters/add-report-parameter/add-filter-condition.png)
 6. Click on the `Preview` button in the report header. Select the required values in drop-down list.

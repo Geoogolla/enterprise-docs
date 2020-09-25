@@ -19,8 +19,7 @@ This option can be used to define any number of colors sets based on your desire
 ![Set color](/static/assets/on-premise/images/report-designer/report-items/map/custom-colors/set-color.png)
 6. Click on the **Update**.
 
-You can also set color based on dynamic values, by using the `Expressions`. Refer [Set Expressions](/designer-guide/report-designer/compose-report/properties-panel/#set-expression) and [Reset Expressions](/designer-guide/report-designer/compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel. Click on the square icon in the right side of the each field to open expression menu,
-
+You can also set color based on dynamic values, by using the `Expressions`. Refer [Set Expressions](./../../../compose-report/properties-panel/#set-expression) and [Reset Expressions](./../../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel. Click on the square icon in the right side of the each field to open expression menu,
 ![Expression menu](/static/assets/on-premise/images/report-designer/report-items/map/custom-colors/expression-menu.png)
 
 Repeat the above steps to create multiple colors sets or edit existing color sets. For example, I have added seven colors in custom colors panel and it will be distributed on the map surface based on the distribution type and data range.

@@ -23,12 +23,11 @@ WHERE (SOH.OrderDate BETWEEN '1/1/2002' AND '12/31/2003')
 GROUP BY DATEPART(yy, SOH.OrderDate), PC.Name, PS.Name, 'Q' + DATENAME(qq, SOH.OrderDate), PS.ProductSubcategoryID
 ```
 
-> Refer [Create Data](/designer-guide/report-designer/manage-data/dataset/create-an-embedded-dataset/#create-an-embedded-dataset) section and create dataset using the above query. `AdventuresWorks` database is used here.
+> Refer [Create Data](./../../manage-data/dataset/create-an-embedded-dataset/#create-an-embedded-dataset) section and create dataset using the above query. `AdventuresWorks` database is used here.
 
 ## Add interactive sorting
 
-Design a [simple table report](/designer-guide/report-designer/design-rdl-report-in-web-report-designer/#add-table-report-item) as shown below.
-![Table design](/static/assets/on-premise/images/report-designer/compose-report/interactive-sorting/table-design.png)
+Design a [simple table report](./../../design-rdl-report-in-web-report-designer/#add-table-report-item) as shown below.![Table design](/static/assets/on-premise/images/report-designer/compose-report/interactive-sorting/table-design.png)
 
 Select the column header textbox of the column to which you want to enable interactive sorting. Here, lets add interactive sorting on the `Product Category` column.
 
