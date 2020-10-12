@@ -8,14 +8,14 @@ keywords: reports, ejreports, reportdesigner, report designer, web designer, bol
 
 You can transform the data as required after it is retrieved from data source with following features:
 
-[Join tables](/designer-guide/report-designer/transforming-data/join-table/)
+[Join tables](./../transforming-data/join-table/)
 
-[Formatting columns](/designer-guide/report-designer/transforming-data/formatting-columns/)
+[Formatting columns](./../transforming-data/formatting-columns/)
 
-[Query filter](/designer-guide/report-designer/transforming-data/query-filter/)
+[Query filter](./../transforming-data/query-filter/)
 
-[Data set parameter](/designer-guide/report-designer/transforming-data/link-a-query-parameter-with-a-report-parameter/)
+[Data set parameter](./../transforming-data/link-a-query-parameter-with-a-report-parameter/)
 
-[Query parameter](/designer-guide/report-designer/transforming-data/define-query-parameters/)
+[Query parameter](./../transforming-data/define-query-parameters/)
 
-[Configure expression columns](/designer-guide/report-designer/transforming-data/configure-expression-columns/)
+[Configure expression columns](./../transforming-data/configure-expression-columns/)
