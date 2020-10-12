@@ -22,30 +22,30 @@ Bold Report Designer offers rich set of report items to present the data in comp
 
 ## See also
 
-[Textbox](/designer-guide/report-designer/report-items/textbox/)
+[Textbox](./../report-items/textbox/)
 
-[Line](/designer-guide/report-designer/report-items/line/)
+[Line](./../report-items/line/)
 
-[Image](/designer-guide/report-designer/report-items/image/)
+[Image](./../report-items/image/)
 
-[Rectangle](/designer-guide/report-designer/report-items/rectangle/)
+[Rectangle](./../report-items/rectangle/)
 
-[Tablix](/designer-guide/report-designer/report-items/tablix/)
+[Tablix](./../report-items/tablix/)
 
-[Chart](/designer-guide/report-designer/report-items/chart/)
+[Chart](./../report-items/chart/)
 
-[Map](/designer-guide/report-designer/report-items/map/)
+[Map](./../report-items/map/)
 
-[Data bar](/designer-guide/report-designer/report-items/data-bar/)
+[Data bar](./../report-items/data-bar/)
 
-[Sparkline](/designer-guide/report-designer/report-items/sparkline/)
+[Sparkline](./../report-items/sparkline/)
 
-[Indicator](/designer-guide/report-designer/report-items/indicator/)
+[Indicator](./../report-items/indicator/)
 
-[Linear Gauge](/designer-guide/report-designer/report-items/gauge/linear-gauge/)
+[Linear Gauge](./../report-items/gauge/linear-gauge/)
 
-[Radial Gauge](/designer-guide/report-designer/report-items/gauge/radial-gauge/)
+[Radial Gauge](./../report-items/gauge/radial-gauge/)
 
-[SubReport](/designer-guide/report-designer/report-items/subreport/)
+[SubReport](./../report-items/subreport/)
 
-[Barcode](/designer-guide/report-designer/report-items/barcode/)
+[Barcode](./../report-items/barcode/)
