@@ -12,8 +12,7 @@
         },
         "url": {
             "demo": "https://on-premise-demo.boldreports.com/",
-            "download": "https://www.boldreports.com/account/downloads/enterprise",
-            "pdf": "https://s3.amazonaws.com/files2.syncfusion.com/report.pdf"
+            "download": "https://www.boldreports.com/account/downloads/enterprise"
         },
         "pdf": {
             "tocLevel": 1,

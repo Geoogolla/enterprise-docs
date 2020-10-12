@@ -47,3 +47,4 @@ xml
 odata
 odbc
 oledb
+postgresql

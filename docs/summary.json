@@ -120,7 +120,8 @@
                 "OData":"odata-data-source.md",
                 "Oracle":"oracle-data-source.md",
                 "OLEDB":"oledb-data-source.md",
-                "ODBC":"odbc-data-source.md"
+                "ODBC":"odbc-data-source.md",
+                "PostgreSQL":"postgresql-data-source.md"
             },
             "DataSource": {
                 "Create an Embedded DataSource": "create-an-embedded-data-source.md",
