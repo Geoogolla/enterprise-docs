@@ -10,8 +10,6 @@ keywords: reports, ejreports, reportdesigner, report designer, web designer, bol
 
 The Report Designer toolbar contains a set of icons or buttons that allows you to perform common report designing operations.
 
-Refer [Toolbar](./../compose-report/tool-bar/) section to handle the options in toolbar.
-
 ## Properties panel
 
 The properties pane significantly simplifies report setup and styling. Allows customizing the appearance of report items and editing their property values. Users can specify static values or expressions as values in the report item properties.

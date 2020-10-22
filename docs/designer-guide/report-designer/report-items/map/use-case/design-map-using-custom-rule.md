@@ -87,9 +87,9 @@ Under the [Shape Settings](./../../../../report-items/map/shape-settings/), set 
 
 Under [Shape color rule](./../../../../report-items/map/shape-color-rule/) category, enable the **Enable Color Rule** check box.
 * Choose the Sum(GDP) in **Data Value**.
-* Choose **Custom** as the Type. Refer [Custom colors](./../../../../report-items/map/custom-colors/) section and set the color codes following colors in the custom colors panel: **#cfedfb**, **#aadee8**, **#9cd2ed**, **#70bdff**, and **#4d739e**.![Shape settings](/static/assets/on-premise/images/report-designer/report-items/map/color-rule-use-case/custom-colors.png)
+* Choose **Custom** as the Type. Refer [Custom colors](./../../../../report-items/map/custom-color-shape-rule/) section and set the color codes following colors in the custom colors panel: **#cfedfb**, **#aadee8**, **#9cd2ed**, **#70bdff**, and **#4d739e**.![Shape settings](/static/assets/on-premise/images/report-designer/report-items/map/color-rule-use-case/custom-colors.png)
 * Choose **Custom** for **Distribution** type. Indicate your own number of data ranges to decide the distribution of values.
-* Refer [Custom distribution](./../../../../report-items/map/custom-distribution-range/) section and define custom range as follows:![Shape settings](/static/assets/on-premise/images/report-designer/report-items/map/color-rule-use-case/custom-distribution.png)
+* Refer [Custom distribution](./../../../../report-items/map/custom-color-shape-rule/) section and define custom range as follows:![Shape settings](/static/assets/on-premise/images/report-designer/report-items/map/color-rule-use-case/custom-distribution.png)
 
 The shape color rule configuration should be as below,
 
