@@ -66,9 +66,9 @@ Bold Report Server (Single Tenant)
 
 * After taken the backup, uninstall the current Syncfusion / Bold Report Server.
 
-* Install the latest Bold Reports Server as fresh installation by following this [link](/administrator-guide/installation-and-deployment/)
+* Install the latest Bold Reports Server as fresh installation by following this [link](./../../../../installation-and-deployment/)
 
-* Configure the application using SQL Database by following this [link](/administrator-guide/application-startup/) and while configuring the admin details you must use the admin email-id of Syncfusion Reports Server / Bold Reports Server (Single Tenant).
+* Configure the application using SQL Database by following this [link](./../../../../application-startup/) and while configuring the admin details you must use the admin email-id of Syncfusion Reports Server / Bold Reports Server (Single Tenant).
 
 * Once configuration is done, you can migrate your old data to this application.
 

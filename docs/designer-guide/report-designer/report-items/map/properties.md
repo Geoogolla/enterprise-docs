@@ -79,7 +79,7 @@ You can customize the title text for map using this property. By default, the te
 
 ![Map title text](/static/assets/on-premise/images/report-designer/report-items/map/over-view/title-in-design.png)
 
-You can also apply title text based on dynamic values, by using the `Expressions`. Refer [Set Expressions](./../../../compose-report/properties-panel/#set-expression) and [Reset Expressions](/on-premise/report-designer/compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
+You can also apply title text based on dynamic values, by using the `Expressions`. Refer [Set Expressions](./../../../compose-report/properties-panel/#set-expression) and [Reset Expressions](./../../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
 
 ### Title font
 
@@ -91,7 +91,7 @@ Now, the title font properties will be displayed in the advanced options.
 
 ![Font properties](/static/assets/on-premise/images/report-designer/report-items/map/over-view/title-advanced-options.png)
 
-You can also apply font properties based on dynamic values, by using the `Expressions`. Refer [Set Expressions](./../../../compose-report/properties-panel/#set-expression) and [Reset Expressions](/on-premise/report-designer/compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
+You can also apply font properties based on dynamic values, by using the `Expressions`. Refer [Set Expressions](./../../../compose-report/properties-panel/#set-expression) and [Reset Expressions](./../../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
 ![Dynamic font values](/static/assets/on-premise/images/report-designer/report-items/map/over-view/title-font-expression.png)
 
 ### Position

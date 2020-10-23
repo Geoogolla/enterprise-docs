@@ -22,13 +22,13 @@ Bold Reports On-Premise Edition can be hosted in an IIS express and IIS. To run 
 
 5. On `Features`, enable the following .NET Framework features and click `Next`.
 
-   > You should use Microsoft .NET Framework 4.5 or higher version. Learn more [here](/administrator-guide/getting-started/#prerequisites).
+   > You should use Microsoft .NET Framework 4.5 or higher version. Learn more [here](./../../getting-started/#prerequisites).
 
    ![Roles and Features](/static/assets/on-premise/images/faq/roles-features.png)
 
 6. On the `Web Server Role (IIS)` dialog box, click Next.
 
-7. On the `Select role services` dialog box and verify that the required web server component listed [here](/administrator-guide/faq/features-needed-to-enable-in-iis-to-run-bold-reports-in-win-server-os/#required-web-server-components) are enabled. Click `Next`.
+7. On the `Select role services` dialog box and verify that the required web server component listed [here](./../features-needed-to-enable-in-iis-to-run-bold-reports-in-win-server-os/#required-web-server-components) are enabled. Click `Next`.
 
    ![Roles Services](/static/assets/on-premise/images/faq/role-services.png)
 

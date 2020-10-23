@@ -11,8 +11,8 @@ documentation: ug
 This section explains how to synchronize the imported Active Directory users details with the Active Directory.
 
 > Before synchronizing the Active Directory users, follow the given steps:
-> 1. Configure the [Active Directory Settings](/administrator-guide/manage-app-settings/active-directory/).
-> 2. [Import Active Directory Users](/administrator-guide/manage-users/users/import-users/import-active-directory-users/) to the Bold Reports On-Premise.
+> 1. Configure the [Active Directory Settings](./../../../../manage-app-settings/active-directory/).
+> 2. [Import Active Directory Users](./../../import-users/import-active-directory-users/) to the Bold Reports On-Premise.
 
 Navigate to the user synchronization page from users page by clicking `Active Directory Synchronization` button as shown in the following image.
 ![Active Directory Synchronization button selection](/static/assets/on-premise/images/manage-users-and-groups/users/synchronize-active-directory-users/active-directory-synchronize-option.png)

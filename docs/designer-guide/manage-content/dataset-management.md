@@ -32,7 +32,7 @@ We can create dataset by following ways.
 * Click `Dataset` from left side panel of the Report Server and click `Create my first Dataset` button there is no dataset in listing page or else click  `Create Dataset` button.
    ![Create a dataset menu option listing](/static/assets/on-premise/images/manage-content/manage-data-sets/create-dataset-option-listing.png)
 
-* To create dataset, we have use datasource either newly created or else existing datasource. Refer this link for [creating dataset](/designer-guide/manage-content/data-sources-management/#add-or-create-data-sources)
+* To create dataset, we have use datasource either newly created or else existing datasource. Refer this link for [creating dataset](./../data-sources-management/#add-or-create-data-sources)
 
     > `Read Write Delete` permission for that `Specific Dataset` will be added for the user who created the dataset.
 

@@ -10,7 +10,7 @@ documentation: ug
 
 Bold Report Server provides built-in restful API to integrate Bold Reporting Tools Report Designer into other applications. For this, set the `serviceAuthorizationToken` and `serviceUrl` property for Report Designer.
 
-   `serviceAuthorizationToken` - Pass the access token of the user. Get access token using the Bold Reports Server [Authentication API](/on-premise/rest-api-reference/v1.0/#operation/Authentication).
+   `serviceAuthorizationToken` - Pass the access token of the user. Get access token using the Bold Reports Server [Authentication API](./../../rest-api/v1.0/#operation/Authentication).
 
    `serviceUrl` -  Bold Reports On-Premise built-in service URL.
 

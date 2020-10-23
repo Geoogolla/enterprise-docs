@@ -8,7 +8,7 @@ documentation: ug
 
 # Where does the data resides in Bold Reports
 
-Bold Reports data will be maintained the following details in the database, which was provided for configuring the [Bold Reports application](/administrator-guide/application-startup/).
+Bold Reports data will be maintained the following details in the database, which was provided for configuring the [Bold Reports application](./../../application-startup/).
 
 * Information of reports
 * Information of shared data sources
@@ -27,4 +27,4 @@ For `Azure Blob Storage` type, reports, datasets, and data source will be mainta
 
 ## See also
 
-[Does Report Server store reports execution data to server database](/administrator-guide/faq/does-report-server-store-reports-execution-data-to-server-database/)
+[Does Report Server store reports execution data to server database](./../does-report-server-store-reports-execution-data-to-server-database/)

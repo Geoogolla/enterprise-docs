@@ -11,8 +11,8 @@ documentation: ug
 This section explains how to synchronize the imported Active Directory groups and its users with the Active Directory.
 
 > Before synchronizing the Active Directory groups, follow the given steps:
-> * Configure the [Active Directory Settings](/administrator-guide/manage-app-settings/active-directory/).
-> * [Import Active Directory Groups](/administrator-guide/manage-users/groups/import-groups/import-active-directory-groups/) to the Bold Reports On-Premise.
+> * Configure the [Active Directory Settings](./../../../../manage-app-settings/active-directory/).
+> * [Import Active Directory Groups](./../../import-groups/import-active-directory-groups/) to the Bold Reports On-Premise.
 
 Navigate to the user synchronization page from users page by clicking the `Active Directory Synchronization` button as shown in the following image.
 ![Active Directory synchronization button selection](/static/assets/on-premise/images/manage-users-and-groups/groups/synchronize-active-directory-groups/active-directory-synchronization.png)

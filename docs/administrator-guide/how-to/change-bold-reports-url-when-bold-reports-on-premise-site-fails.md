@@ -27,4 +27,4 @@ The following steps to change the Bold Reports URL:
 3. Delete the site by clicking the "Delete" option from site listing page.
 ![Delete option in site](/static/assets/on-premise/images/how-to/delete-option-in-site.png)
 
-4. Create a new site by following this [link](/administrator-guide/manage-tenants/create-site/)
+4. Create a new site by following this [link](./../../manage-tenants/create-site/)

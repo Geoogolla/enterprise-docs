@@ -9,7 +9,7 @@ documentation: ug
 
 This section explains how to search and import users from Azure Active Directory into the Bold Reports On-Premise.
 
-> Azure Active Directory connection has to be configured in the [Azure Active Directory Settings](/administrator-guide/manage-app-settings/azure-active-directory/) in the `General` page for importing users.
+> Azure Active Directory connection has to be configured in the [Azure Active Directory Settings](./../../../../manage-app-settings/azure-active-directory/) in the `General` page for importing users.
 
 Users belonging to the `System Administrator` group only can import Azure Active Directory users into the Bold Reports.
 

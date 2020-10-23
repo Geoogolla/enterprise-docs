@@ -12,14 +12,14 @@ The Bold Reports On-Premise supports importing Azure Active Directory users and 
 
 The Report Server supports the following functionalities from the Azure Active Directory:
 
-* [Setup Azure Active Directory](/administrator-guide/manage-app-settings/azure-active-directory/) settings with the  Bold Reports On-Premise.
+* [Setup Azure Active Directory](./../../../manage-app-settings/azure-active-directory/) settings with the  Bold Reports On-Premise.
 
-* [Import users](/administrator-guide/manage-users/users/import-users/import-azure-active-directory-users/) from the Azure Active Directory.
+* [Import users](./../../../manage-users/users/import-users/import-azure-active-directory-users/) from the Azure Active Directory.
 
-* [Import groups](/administrator-guide/manage-users/groups/import-groups/import-azure-active-directory-groups/) from the Active Directory.
+* [Import groups](./../../../manage-users/groups/import-groups/import-azure-active-directory-groups/) from the Active Directory.
 
-* [Synchronize user details](/administrator-guide/manage-users/users/synchronize/synchronize-azure-active-directory-users/) with the Azure Active Directory.
+* [Synchronize user details](./../../../manage-users/users/synchronize/synchronize-azure-active-directory-users/) with the Azure Active Directory.
 
-* [Synchronize group details and its users](/administrator-guide/manage-users/groups/synchronize/synchronize-azure-active-directory-groups/) with the Azure Active Directory.
+* [Synchronize group details and its users](./../../../manage-users/groups/synchronize/synchronize-azure-active-directory-groups/) with the Azure Active Directory.
 
-* [Schedule the synchronization of user and groups](/administrator-guide/manage-app-settings/synchronization-schedule/azure-active-directory-synchronization-schedule/) between the Bold Reports On-Premise and the Azure Active Directory.
+* [Schedule the synchronization of user and groups](./../../../manage-app-settings/synchronization-schedule/azure-active-directory-synchronization-schedule/) between the Bold Reports On-Premise and the Azure Active Directory.

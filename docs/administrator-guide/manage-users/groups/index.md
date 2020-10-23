@@ -56,4 +56,4 @@ Users can also be removed from the group if the user no longer needs the permiss
 
 ## Manage permissions
 
-Check the [Manage Permissions](/administrator-guide/manage-permissions/) section to learn how to manage permissions to a group.
+Check the [Manage Permissions](./../../../administrator-guide/manage-permissions/) section to learn how to manage permissions to a group.
