@@ -73,7 +73,7 @@ Run the web application, it will show the login window or report based on the ty
 
 If you want to embed the report without user authentication, then make the report public and embed it. The public report will be rendered automatically without credentials. You cannot enable the comments panel for public report embedding.
 
->Embedding the public report will not work when public report setting is disabled. Learn more about the report settings [here](/on-premise/settings/report-settings/).
+>Embedding the public report will not work when public report setting is disabled. Learn more about the report settings [here](./../../../../administrator-guide/manage-app-settings/report-settings/).
 
 ### Private embedding
 

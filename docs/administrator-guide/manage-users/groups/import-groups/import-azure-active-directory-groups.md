@@ -10,7 +10,7 @@ documentation: ug
 
 This section explain on how to search and import groups from Azure Active Directory into the Bold Reports On-Premise.
 
-> Azure Active Directory connection has to be configured in the [Azure Active Directory Settings](/administrator-guide/manage-app-settings/azure-active-directory/) in the `General` page for importing groups.
+> Azure Active Directory connection has to be configured in the [Azure Active Directory Settings](./../../../../manage-app-settings/azure-active-directory/) in the `General` page for importing groups.
 
 Users belonging to the `System Administrator` group only can import Azure Active Directory groups into the Bold Reports On-Premise.
 

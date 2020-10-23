@@ -9,28 +9,28 @@ documentation: ug
 
 Reports can be added, updated, downloaded, deleted and shared to other users, based on the user permission. You can learn more details about the reports from the following sections:
 
-* [Create Report](/designer-guide/manage-content/reports/create-report/)
+* [Create Report](./../reports/create-report/)
 
-* [Edit Report](/designer-guide/manage-content/reports/edit-report/)
+* [Edit Report](./../reports/edit-report/)
 
-* [Upload Report](/designer-guide/manage-content/reports/upload-report/)
+* [Upload Report](./../reports/upload-report/)
 
-* [Update Report](/designer-guide/manage-content/reports/update-report/)
+* [Update Report](./../reports/update-report/)
 
-* [Favorite Report](/designer-guide/manage-content/reports/favorite-report/)
+* [Favorite Report](./../reports/favorite-report/)
 
-* [Move, Copy, Clone Report](/designer-guide/manage-content/reports/move-copy-and-clone-reports/)
+* [Move, Copy, Clone Report](./../reports/move-copy-and-clone-reports/)
 
-* [Sharing Report](/designer-guide/manage-content/reports/share-report/)
+* [Sharing Report](./../reports/share-report/)
 
-* [Public Report](/designer-guide/manage-content/reports/public-report/)
+* [Public Report](./../reports/public-report/)
 
-* [Delete Report](/designer-guide/manage-content/reports/delete-report/)
+* [Delete Report](./../reports/delete-report/)
 
-* [Version History](/designer-guide/manage-content/reports/version-history-of-report/)
+* [Version History](./../reports/version-history-of-report/)
 
-* [Download Report](/designer-guide/manage-content/reports/download-report/)
+* [Download Report](./../reports/download-report/)
 
-* [Version History](/designer-guide/manage-content/reports/version-history-of-report/)
+* [Version History](./../reports/version-history-of-report/)
 
-* [Report Views](/designer-guide/manage-content/reports/manage-report-views/)
+* [Report Views](./../reports/manage-report-views/)

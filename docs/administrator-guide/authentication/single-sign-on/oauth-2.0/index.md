@@ -128,10 +128,10 @@ The previous mentioned similar steps are applicable to configure the OAuth 2.0 i
 
 Following are the list of few OAuth 2.0 providers and that explains how to connect with the Bold Reports application.
 
-* [Amazon Cognito](/administrator-guide/authentication/single-sign-on/oauth-2.0/amazon-cognito/)
-* [Auth0](/administrator-guide/authentication/single-sign-on/oauth-2.0/auth0/)
-* [Okta](/administrator-guide/authentication/single-sign-on/oauth-2.0/okta/)
-* [OneLogin](/administrator-guide/authentication/single-sign-on/oauth-2.0/onelogin/)
+* [Amazon Cognito](./../oauth-2.0/amazon-cognito/)
+* [Auth0](./../oauth-2.0/auth0/)
+* [Okta](./../oauth-2.0/okta/)
+* [OneLogin](./../oauth-2.0/onelogin/)
 
 The OAuth 2.0 is provided in both the Bold Reports sites and User Management Server. OAuth 2.0 can be handled for each sites individually in the settings page by disabling the option as in the following screenshot.
 ![Oauth Group Setting](/static/assets/on-premise/images/authentication/single-sign-on/oauth/enableoauth.png)

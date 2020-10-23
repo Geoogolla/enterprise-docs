@@ -12,8 +12,8 @@ Yes, it is possible to migrate from Syncfusion Report Platform Report Server to 
 
 ## See also
 
-[Migrating Syncfusion Report Server v4.x or Bold Reports v1.x to Bold Reports v2.x](/administrator-guide/upgrade/on-premises/upgrade-from-classic-platform/data-migration/)
+[Migrating Syncfusion Report Server v4.x or Bold Reports v1.x to Bold Reports v2.x](./../../upgrade/on-premises/upgrade-from-classic-platform/data-migration/)
 
-[Migrating Syncfusion Report Server Azure App Service v4.x to Bold Reports Azure App Service v2.x](/administrator-guide/upgrade/azure/migrate-syncfusion-report-server-app-service/)
+[Migrating Syncfusion Report Server Azure App Service v4.x to Bold Reports Azure App Service v2.x](./../../upgrade/azure/migrate-syncfusion-report-server-app-service/)
 
-[Migrating Bold Reports Azure App Service v1.x to Bold Reports Azure App Service v2.x](/administrator-guide/upgrade/azure/upgrade-v1.x/)
+[Migrating Bold Reports Azure App Service v1.x to Bold Reports Azure App Service v2.x](./../../upgrade/azure/upgrade-v1.x/)

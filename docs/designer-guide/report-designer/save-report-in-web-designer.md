@@ -23,4 +23,4 @@ Click `Yes` to replace the report or `No` to edit the report name in the name fi
 
 > If you are editing a report from server, the `Publish` option will directly replace the report into `server`.
 
-Refer the [Download report](./../../../manage-content/reports/download-report/) section to download the published report from server.
+Refer the [Download report](./../../../designer-guide/manage-content/reports/download-report/) section to download the published report from server.

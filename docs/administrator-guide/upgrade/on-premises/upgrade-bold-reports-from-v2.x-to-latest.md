@@ -78,4 +78,4 @@ After installation process is completed, you can launch the application by click
 
 ![Installation LaunchApplication](/static/assets/on-premise/images/getting-started/upgrade-launch-app.png)
 
-> Data Migration is not required for upgrading Bold Reports Server from v2.x to latest version. Learn more details [here](/administrator-guide/faq/is-data-migration-required-for-bold-reports-report-server-v2.x-upgrade/).
+> Data Migration is not required for upgrading Bold Reports Server from v2.x to latest version.

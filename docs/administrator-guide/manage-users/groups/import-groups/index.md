@@ -10,6 +10,6 @@ documentation: ug
 
 You can import Active directory, Azure active directory groups to the Bold Reports Report Server. Learn more details from the following sections:
 
-* [Import groups from Active Directory](/administrator-guide/manage-users/groups/import-groups/import-active-directory-groups/)
+* [Import groups from Active Directory](./../import-groups/import-active-directory-groups/)
 
-* [Import groups from Azure Active Directory](/administrator-guide/manage-users/groups/import-groups/import-azure-active-directory-groups/)
+* [Import groups from Azure Active Directory](./../import-groups/import-azure-active-directory-groups/)

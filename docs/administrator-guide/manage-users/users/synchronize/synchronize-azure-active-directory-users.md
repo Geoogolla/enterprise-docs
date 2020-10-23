@@ -11,8 +11,8 @@ documentation: ug
 This section explains how to synchronize the imported Azure Active Directory users details with the Azure Active Directory.
 
 > Before synchronizing the Azure Active Directory users, follow the given steps:
-1. Configure [Azure Active Directory Settings](/administrator-guide/manage-app-settings/azure-active-directory/).
-2. Import users from the Azure Active Directory to the Bold Reports by referring the following link [Active Directory User Import](/administrator-guide/manage-users/users/import-users/import-azure-active-directory-users/).
+1. Configure [Azure Active Directory Settings](./../../../../manage-app-settings/azure-active-directory/).
+2. Import users from the Azure Active Directory to the Bold Reports by referring the following link [Active Directory User Import](./../../import-users/import-azure-active-directory-users/).
 
 You can navigate to the user synchronization page from users page as shown in the below figure.
 

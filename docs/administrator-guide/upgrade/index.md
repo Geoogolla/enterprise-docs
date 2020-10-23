@@ -12,6 +12,6 @@ Classic platform Report Server can be upgraded to Bold Reports Enterprise Report
 
 You can learn more details about upgrading classic platform Report Server to Bold Reports from the following sections:
 
-[Upgrade Syncfusion Report Server v4.x to Bold Reports](/administrator-guide/upgrade/on-premises/upgrade-from-classic-platform/data-migration/)
+[Upgrade Syncfusion Report Server v4.x to Bold Reports](./../../administrator-guide/upgrade/on-premises/upgrade-from-classic-platform/data-migration/)
 
-[Upgrade Bold Reports v1.x to latest](/administrator-guide/upgrade/on-premises/upgrade-from-classic-platform/upgrade-bold-reports-from-v1.x-to-latest/)
+[Upgrade Bold Reports v1.x to latest](./../../administrator-guide/upgrade/on-premises/upgrade-from-classic-platform/upgrade-bold-reports-from-v1.x-to-latest/)

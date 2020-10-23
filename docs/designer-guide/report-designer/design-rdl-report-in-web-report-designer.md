@@ -143,7 +143,7 @@ Now, the table design will look like below.
 
 ## Save report
 
-Once you are done with the report designing, to save a report refer [How to save report](./../save-report-in-web-designer/) section.
+Once you are done with the report designing, to save a report refer **How to save report** section.
 
 ## Preview report
 
@@ -154,7 +154,7 @@ Once you are done with the report designing, to save a report refer [How to save
 
 ## See also
 
-[Design a Basic Chart Report](./../../../manage-content/reports/create-report/)
+[Design a Basic Chart Report](./../report-items/chart/)
 
 [Create an Embedded DataSource](./../manage-data/datasource/create-an-embedded-data-source/)
 

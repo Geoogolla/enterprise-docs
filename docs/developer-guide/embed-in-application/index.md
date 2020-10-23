@@ -12,21 +12,21 @@ Bold Reports Report Server is designed with an option of integrating the reporti
 
 Bold Reports Report server is designed to manage the Report Server functionalities from the application with the help of built-in REST API. You can refer more about this from the [REST API reference](https://help.boldreports.com/developer-guide/rest-api/v1.0/) and the following articles,
 
-1. [Authorization Token](/developer-guide/how-to/generate-access-token-for-bold-reports-server-user/).
-2. [Get list of Reports from Report server](/developer-guide/how-to/get-list-of-items-from-bold-reports-server/)
-3. [Export report from Report Server](/administrator-guide/how-to/export-report-from-bold-reports-server/)
+1. [Authorization Token](./../../developer-guide/how-to/generate-access-token-for-bold-reports-server-user/).
+2. [Get list of Reports from Report server](./../../developer-guide/how-to/get-list-of-items-from-bold-reports-server/)
+3. [Export report from Report Server](./../../administrator-guide/how-to/export-report-from-bold-reports-server/)
 
 ## Reporting Components
 
 Embedded Reporting Tools available with Bold Reports to integrating the Reporting Viewing and Editing functionalities into your application. The component provides the capabilities to the viewer and edits the report with Report Server along with the built-in Report Service. You can refer more about this from the following sections,
 
-* [View report through Report Viewer](/developer-guide/embed-in-application/view-report-through-report-viewer/)
-* [Integrating Report Designer](/developer-guide/embed-in-application/integrating-report-designer/)
+* [View report through Report Viewer](./../embed-in-application/view-report-through-report-viewer/)
+* [Integrating Report Designer](./../embed-in-application/integrating-report-designer/)
 
 ## Embed URL
 
 URL access is another option for integrating report viewing into your applications. You have to generate the embedded URL from embedded code and that can be used with the iFrame to embed report view functionalities with your application. You can refer more about this from the following sections,
 
-[Get Embed Code of Report](/developer-guide/embed-in-application/iframe/embed-code-of-report/)
+[Get Embed Code of Report](./../embed-in-application/iframe/embed-code-of-report/)
 
-[Embed report using embed secret key](/developer-guide/embed-in-application/iframe/embed-secret-key/)
+[Embed report using embed secret key](./../embed-in-application/iframe/embed-secret-key/)

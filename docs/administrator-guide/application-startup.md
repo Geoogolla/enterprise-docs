@@ -131,4 +131,4 @@ Bold Reports Report Server stores the following information only to the server d
 * Permissions settings associated for report, data source, data set, categories, and schedules
 * Report Server configurations
 
-> The reports, dataset, and data source, which are added to the Bold Reports Report Server will be maintained in some location based on storage type you have chosen while configuring the Bold Reports Server application. You can refer more details from this [link](/administrator-guide/faq/where-does-the-data-resides-in-bold-reports/).
+> The reports, dataset, and data source, which are added to the Bold Reports Report Server will be maintained in some location based on storage type you have chosen while configuring the Bold Reports Server application. You can refer more details from this [link](./../faq/where-does-the-data-resides-in-bold-reports/).

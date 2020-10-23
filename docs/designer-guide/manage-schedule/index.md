@@ -12,8 +12,8 @@ Schedule is a process of sending scheduled report to the users by email on the s
 
 You can learn more details about schedule from the following sections:
 
-* [Manage Report Schedules](/designer-guide/manage-schedule/manage-reports-schedule/)
+* [Manage Report Schedules](./../manage-schedule/manage-reports-schedule/)
 
-* [Schedule Settings](/designer-guide/manage-schedule/schedule-report-settings/)
+* [Schedule Settings](./../manage-schedule/schedule-report-settings/)
 
-* [Custom Schedule Report Settings](/designer-guide/manage-schedule/custom-schedule-report-settings/)
+* [Custom Schedule Report Settings](./../manage-schedule/custom-schedule-report-settings/)

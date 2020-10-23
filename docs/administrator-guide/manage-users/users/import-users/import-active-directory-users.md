@@ -10,7 +10,7 @@ documentation: ug
 
 Users belonging to the System Administrator group can import Active Directory users to the Report Sever.
 
-> Active Directory connection must be configured in the [Active Directory Settings](/administrator-guide/manage-app-settings/active-directory/) for importing users.
+> Active Directory connection must be configured in the [Active Directory Settings](./../../../../manage-app-settings/active-directory/) for importing users.
 
 This section explains how to search and import users from Active Directory into the Bold Reports On-Premise.
 

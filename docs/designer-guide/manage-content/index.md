@@ -9,8 +9,8 @@ documentation: ug
 
 Resources are the items stored on the Bold Reports Report Server. You can learn more details about the resources such as reports, datasets and data sources on the Bold Reports Report Server from the following sections:
 
-* [Manage Reports](/designer-guide/manage-content/reports/)
+* [Manage Reports](./../../designer-guide/manage-content/reports/)
 
-* [Manage Datasets](/designer-guide/manage-content/data-sources-management/)
+* [Manage Datasets](./../../designer-guide/manage-content/data-sources-management/)
 
-* [Manage Data sources](/designer-guide/manage-content/dataset-management/)
+* [Manage Data sources](./../../designer-guide/manage-content/dataset-management/)

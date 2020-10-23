@@ -13,8 +13,8 @@ And also, you can upgrade Bold Reports Azure App Service to the latest version.
 
 You can refer the below documentation for creating and upgrading your Azure App Service.
 
-[Upgrade Bold Reports Azure App Service from v1.x to latest](/administrator-guide/upgrade/azure/upgrade-v1.x/)
+[Upgrade Bold Reports Azure App Service from v1.x to latest](./../azure/upgrade-v1.x/)
 
-[Upgrade Bold Reports Azure App Service from v2.x to latest](/administrator-guide/upgrade/azure/upgrade-app-service/)
+[Upgrade Bold Reports Azure App Service from v2.x to latest](./../azure/upgrade-app-service/)
 
-[Upgrade Syncfusion Report Server Azure App Service from v4.x to latest](/administrator-guide/upgrade/azure/migrate-syncfusion-report-server-app-service/)
+[Upgrade Syncfusion Report Server Azure App Service from v4.x to latest](./../azure/migrate-syncfusion-report-server-app-service/)

@@ -49,4 +49,4 @@ Follow the steps below to make the Reports accessible to anonymous users.
 ![Click on makepublic icon](/static/assets/on-premise/images/settings/makepublic.png)
 3. Click on `Make public` in the confirmation dialog box,then Reports will be marked as public.
 
-> Click [here](/administrator-guide/manage-content/reports/public-report/) for more details about public reports.
+> Click [here](./../../../designer-guide/manage-content/reports/public-report/) for more details about public reports.

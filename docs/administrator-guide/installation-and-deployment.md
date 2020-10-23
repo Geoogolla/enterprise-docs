@@ -14,7 +14,7 @@ This section explains on how to install and deploy the Bold Reports Enterprise R
 
 This topic details the steps required to install the Bold Reports Enterprise Reporting.
 
-To learn about the system requirements needed to deploy the Bold Reports Enterprise Reporting in your business environment, see [System Requirements](/administrator-guide/getting-started/#prerequisites).
+To learn about the system requirements needed to deploy the Bold Reports Enterprise Reporting in your business environment, see [System Requirements](./../getting-started/#prerequisites).
 
 Run the Bold Reports Enterprise Reporting Installer and sign-in with your registered e-mail address to unlock the setup.
 
@@ -58,7 +58,7 @@ Click on `yes`, it will have common login for `BoldBI` and `BoldReportsEnterpris
 
 Click on `No`, it will not have common login for `BoldBI` and `BoldReportsEnterprise Reporting Edition` products. In IIS, it will deploy two sites `BoldBIOnPremiseEdition` and `BoldReportsEnterprise Reporting Edition`.
 
->Bold Reports Azure App Service can be deployed in Azure by following the [link](/administrator-guide/create-app-service/).
+>Bold Reports Azure App Service can be deployed in Azure by following the [link](./../create-app-service/).
 
 ## How to change the binding in the Bold Reports Enterprise Reporting
 
@@ -87,9 +87,9 @@ I>By default, Bold Reports will be deployed on `C:\Bold Reports`
 
 6. Now Bold Reports site can be browsed using the new binding.
 
-> * To Configure the Bold Reports Enterprise Reporting Edition by using newly added bindings in IIS, refer this [link](/administrator-guide/how-to/change-bold-reports-url-in-bold-reports-on-premise-edition/)
-> * Bold Reports Enterprise Reporting Edition configuration completed by using newly added bindings in IIS but unable to launch `BoldReportsEnterprise Reporting` site, refer this [link](/administrator-guide/how-to/change-bold-reports-url-when-bold-reports-on-premise-site-fails/) to solve the problem and configure BoldReports site.
+> * To Configure the Bold Reports Enterprise Reporting Edition by using newly added bindings in IIS, refer this [link](./../how-to/change-bold-reports-url-in-bold-reports-on-premise-edition/)
+> * Bold Reports Enterprise Reporting Edition configuration completed by using newly added bindings in IIS but unable to launch `BoldReportsEnterprise Reporting` site, refer this [link](./../how-to/change-bold-reports-url-when-bold-reports-on-premise-site-fails/) to solve the problem and configure BoldReports site.
 
 ## See Also
 
-* [**Application Startup**](/administrator-guide/application-startup/)
+* [**Application Startup**](./../application-startup/)

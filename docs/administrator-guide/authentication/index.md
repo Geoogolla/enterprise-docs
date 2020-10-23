@@ -10,4 +10,4 @@ documentation: ug
 
 You can configure Single Sign-On(SSO) in Bold Reports by using Authentication Settings. You can refer more details from the following sections.
 
-[Single Sign-On](/administrator-guide/authentication/single-sign-on/)
+[Single Sign-On](./../authentication/single-sign-on/)
