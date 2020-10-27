@@ -1410,6 +1410,66 @@
         }
       }
     },
+    "/api/site/{tenant-name}/v2.0/report/{reportId}/copy": {
+      "post": {
+        "tags": [
+          "Items"
+        ],
+        "summary":"Copy report",
+        "description":"Users who have access to the report, can copy the report by providing respective report details in the request body.",
+        "operationId":"Items_CopyReport",
+        "parameters": [
+          {
+            "type": "string",
+            "name": "reportId",
+            "in": "path",
+            "required": true,
+            "format": "guid",
+            "x-nullable": false
+          },
+          {
+            "name": "apiCopyReport",
+            "in": "body",
+            "required": true,
+            "description": "Details of the report passed will be copied",
+            "schema": {
+            "$ref": "#/definitions/ApiCopyReport"
+            },
+            "x-nullable": false
+          }        
+        ],
+        "responses": {
+          "200": {
+            "x-nullable": false,
+            "description": "Report has been copied successfully",
+            "schema": {
+              "$ref": "#/definitions/ApiCopyReportResponse"
+            }
+          },
+          "400": {
+            "description": "The content of the request body is missing or incomplete"
+          },
+          "401": {
+            "description": "Access denied"
+          },
+          "403":{
+            "description": "Do not have permission to set report will be copied as public"
+          },
+          "404": {
+            "description": "Item detail not found"
+          },
+          "406": {
+            "description": "The content of the request body is invalid"
+          },          
+          "409":{
+            "description": "Report will be copied name already exists"
+          },
+          "417": {
+            "description": "Failed to copy report"
+          }         
+        }
+      }
+    },
     "/api/site/{tenant-name}/v1.0/permissions/users/{id}": {
       "get": {
         "tags": [
@@ -4327,6 +4387,73 @@
           "type": "string",
           "description": "Returns the exported report in an array of bytes.",
           "format": "byte"
+        }
+      }
+    }, 
+    "ApiCopyReport": {
+      "type": "object",
+      "required": [
+        "CategoryId",
+        "Name"
+      ],
+      "properties": {
+        "CategoryId": {
+          "type": "string",
+          "description": "Category ID.",
+          "format": "guid"
+        },
+        "Name": {
+          "type": "string",
+          "description": "Report name"
+        },
+        "Description":{
+          "type":"string",
+          "description":"Report description"
+        },
+        "IsPublic": {
+          "type": "boolean",
+          "description": "Specify true to set the item as a public."
+        },
+        "IsCopyDatasource":{
+          "type":"boolean",
+          "description":"Copy the datasource of the report based on this value"
+        },
+        "IsCopyDataset":{
+          "type":"boolean",
+          "description":"Copy the dataset of the report based on this value"
+        }
+      }
+    },
+    "ApiCopyReportResponse": {
+      "type": "object",
+      "required": [
+        "ApiStatus",
+        "Status",
+        "PublishedItemId",
+        "Version"
+      ],
+      "properties": {
+        "ApiStatus": {
+          "type": "boolean",
+          "description": "Returns the status of the API."
+        },
+        "Status": {
+          "type": "boolean",
+          "description": "Returns status of the API request."
+        },
+        "PublishedItemId":{
+          "type":"string",
+          "description":"Returns the published report item id",
+          "format":"guid"
+        },
+        "Version":{
+          "type":"integer",
+          "description":"Returns the version number of the report",
+          "format":"int32"
+        },
+        "StatusMessage": {
+          "type": "string",
+          "description": "Returns the status message from the API."
         }
       }
     },

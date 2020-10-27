@@ -20,7 +20,7 @@ By using the `DeployIIS` utility, you can switch the installed Bold Reports Repo
 3. It will host the application in IIS and now you can open the Bold Reports Report Server from IIS by clicking the browse.
    ![Bold Reports site in IIS](/static/assets/on-premise/images/how-to/bold-reports-in-iis.png)
 
-4. If Bold Reports Report Server [application](/administrator-guide/application-startup/) was configured already, then follow these steps to update the new binding in Bold Reports Report Server else ignore the following steps:
+4. If Bold Reports Report Server [application](./../../application-startup/) was configured already, then follow these steps to update the new binding in Bold Reports Report Server else ignore the following steps:
 
    a. Now, navigate to the site settings page of the UMS application using the old IIS Express binding URL and update the new binding information as shown in the following image.
 

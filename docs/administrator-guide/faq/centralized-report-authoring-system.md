@@ -11,4 +11,4 @@ Centralized report authoring explains how to use the report with authors and mul
 ## Is Bold Reports have a centralized report authoring system
 
 Yes, Bold Reports having On-Premise and Cloud version Report Server to have the reports in centralized report authoring.
-We can refer more details of this from [Bold Report Cloud](/cloud/overview/#key-features) and [Bold Reports On-Premise](/administrator-guide/overview/#key-features).
+We can refer more details of this from Bold Report Cloud and [Bold Reports On-Premise](./../../../#key-features).

@@ -20,4 +20,4 @@ The following steps to change the Bold Reports URL:
    * Update the **`InternalAppDataServiceUrl`**, and **`InternalAppIdpUrl`** values in the config file from below location.
    **`{Deployed Location}`**\Report Server\Configuration\Config.xml
    ![RS Config File](/static/assets/on-premise/images/getting-started/rs-config.png)
-2. Restart the site in IIS and browse the site. Configure the Bold Reports On-Premise Edition startup by referring this [link](/administrator-guide/application-startup/)
+2. Restart the site in IIS and browse the site. Configure the Bold Reports On-Premise Edition startup by referring this [link](./../../application-startup/)

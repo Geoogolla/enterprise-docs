@@ -10,13 +10,13 @@ documentation: ug
 
 Bold Report Server provides build-in Restful API to embed Report Server reports using the Bold Reporting Tools Report Viewer. For this, set the `serviceAuthorizationToken`,`reportServiceUrl`, and `reportPath` property for Report Viewer.
 
-   `serviceAuthorizationToken` - Pass the access token of the user. Get access token using the Bold Reports Server [Authorization token API](/on-premise/rest-api-reference/v1.0/#operation/Authentication).
+   `serviceAuthorizationToken` - Pass the access token of the user. Get access token using the Bold Reports Server [Authorization token API](./../../rest-api/v1.0/#operation/Authentication).
 
    `reportServiceUrl` -  Bold Reports On-Premise built-in service URL.
 
    `reportPath` -  Path of report, which is added on server.**{/category name}/{report name}**
 
-   > You can also load the report using the Guid instead of report location. Set the Guid of the report in `reportPath` as like as `reportPath: ‘91f24bf1-e537-4488-b19f-b37f77481d00’`. You can use Bold Report Server [Get Items API](/on-premise/rest-api-reference/v1.0/#operation/Items_GetItems) and find the Guid of the report.
+   > You can also load the report using the Guid instead of report location. Set the Guid of the report in `reportPath` as like as `reportPath: ‘91f24bf1-e537-4488-b19f-b37f77481d00’`. You can use Bold Report Server [Get Items API](./../../rest-api/v1.0/#operation/Items_GetItems) and find the Guid of the report.
 
 You can get more details of embedding with Bold Reporting Tools respective platforms as follows.
 

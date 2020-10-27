@@ -8,7 +8,7 @@ documentation: ug
 
 # Does Report Server store reports execution data to the server database
 
-Bold Reports Report Server stores the following information only to the server database. It does not store the reports execution data to the server database.  
+Bold Reports Report Server stores the following information only to the server database. It does not store the reports execution data to the server database .  
 
 * Information of reports
 * Information of shared data sources
@@ -20,4 +20,4 @@ Bold Reports Report Server stores the following information only to the server d
 
 ## See also
 
-[Where does the data resides in Bold Reports](/administrator-guide/faq/where-does-the-data-resides-in-bold-reports/)
+[Where does the data resides in Bold Reports](./../where-does-the-data-resides-in-bold-reports/)

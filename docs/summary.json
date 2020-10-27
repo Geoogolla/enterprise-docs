@@ -362,5 +362,6 @@
         "Generate access token for Bold Reports Report Server user": "generate-access-token-for-bold-reports-server-user.md",
         "Get list of items from Bold Reports Report Server": "get-list-of-items-from-bold-reports-server.md"
     }
-}
+},
+"Licensing": "licensing.md"
 }

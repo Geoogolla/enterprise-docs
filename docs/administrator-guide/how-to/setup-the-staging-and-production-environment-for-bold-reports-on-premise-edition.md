@@ -12,9 +12,9 @@ This section explains how to set up Bold Reports On-Premise Edition in staging a
 
 ## Prepare a staging environment
 
-* Install Bold Reports On-Premise build by following the [Installation link](/administrator-guide/installation-and-deployment/).
+* Install Bold Reports On-Premise build by following the [Installation link](./../../installation-and-deployment/).
 
-* After the installation completed, configure the Bold Reports On-Premise Edition by following the [application startup link](/administrator-guide/application-startup/).
+* After the installation completed, configure the Bold Reports On-Premise Edition by following the [application startup link](./../../application-startup/).
    > Configure the Bold Reports with `Microsoft SQL Server` credentials and that should be accessible for other machines.
    >`PostgreSQL` database support is provided on Bold Reports latest version `2.2.23`.
 
@@ -142,4 +142,4 @@ Report Service application is necessary for rendering or designing the report in
    Example: Extracted location on production machine is `D:\Bold Reports`, then refer the Report Server Report Service folder path `D:\Bold Reports\Report Server\Report Service`.
 
 >After completing all steps, browse the hosted Bold Reports site.
->You can map a new domain for Bold Reports by referring the following [link](/administrator-guide/installation-and-deployment/#how-to-change-the-binding-in-the-bold-reports-on-premise)
+>You can map a new domain for Bold Reports by referring the following [link](./../../installation-and-deployment/#how-to-change-the-binding-in-the-bold-reports-enterprise-reporting)

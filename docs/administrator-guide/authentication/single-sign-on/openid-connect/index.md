@@ -81,9 +81,9 @@ The previous mentioned similar steps are applicable to configure the OpenID Conn
 
 Following are the list of few OpenID Connect providers and that explains how to connect with the Bold Reports application.
 
-* [Auth0](/administrator-guide/authentication/single-sign-on/openid-connect/auth0/)
-* [Okta](/administrator-guide/authentication/single-sign-on/openid-connect/okta/)
-* [OneLogin](/administrator-guide/authentication/single-sign-on/openid-connect/onelogin/)
+* [Auth0](./../openid-connect/auth0/)
+* [Okta](./../openid-connect/okta/)
+* [OneLogin](./../openid-connect/onelogin/)
 
 The OpenID Connect is provided in both the Bold Reports sites and User Management Server. OpenID Connect can be handled for each sites individually in the settings page by disabling the option as in the following screenshot.
 

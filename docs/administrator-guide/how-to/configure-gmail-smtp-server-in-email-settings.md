@@ -18,7 +18,7 @@ This section explains about how to configure the Gmail SMTP Server in Email Sett
    2. Navigate to this [link](https://myaccount.google.com/lesssecureapps) and enable the access.
    3. The changes will not takes place as immediately. Hence, let we wait for an few minutes to update the settings by google.
 
-* We have to save below Gmail SMTP Server details in the [email settings](/administrator-guide/manage-app-settings/email-settings/) of Bold Reports On-Premise.
+* We have to save below Gmail SMTP Server details in the [email settings](./../../manage-app-settings/email-settings/) of Bold Reports On-Premise.
 
     **SMTP Server** - `smtp.gmail.com`
 

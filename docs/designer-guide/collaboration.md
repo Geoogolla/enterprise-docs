@@ -10,7 +10,7 @@ documentation: ug
 
 The users can write comments on a report to share with other users who has access to the report. It is useful for tracking events and providing insights into those events. Also, users can add links to other reports or any other external websites.
 
-When a comment is added to a report, users who have enabled notifications in their profile will be notified through email and system notifications. For more details, refer to [Notifications](/designer-guide/notifications/).
+When a comment is added to a report, users who have enabled notifications in their profile will be notified through email and system notifications. For more details, refer to [Notifications](./../notifications/).
 
 This section explains how to collaborate with other users in the Bold Reports On-Premise by commenting on reports.
 

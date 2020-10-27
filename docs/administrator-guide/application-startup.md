@@ -1,14 +1,14 @@
 ---
 layout: post
-title: Application Startup for the Bold Reports On-Premise Edition
-description: Learn how to set up the  Bold Reports On-Premise by configuring storage options and registering a new user.
+title: Application Startup for the Bold Reports Enterprise Edition
+description: Learn how to set up the  Bold Reports Enterprise by configuring storage options and registering a new user.
 platform: report-platform
 documentation: ug
 ---
 
 # Application Startup
 
-This topic describes how to startup the  Bold Reports On-Premise Application.
+This topic describes how to startup the  Bold Reports Enterprise Application.
 
 Application startup screen helps you to configure storage options and admin account setup.
 
@@ -79,6 +79,12 @@ By default, `System Administrator` group have permission to do the below
 The new user account created is assigned to this group by default.
 ![Bold Reports Server](/static/assets/on-premise/images/getting-started/starting-bold-reports-server.png)
 
+## Site Configuration for Bold Reports Sites
+
+User can select the preferred Site Name and Site Identifier for the initial site.
+
+![Site Name](/static/assets/on-premise/images/getting-started/site-name.png)
+
 ## Database Configuration for Bold Reports Server
 
 This configuration stores the reports, users and their access permissions in SQL Server Database or PostgreSQL Server Database.
@@ -111,7 +117,7 @@ You can connect to the existing PostgreSQL Server instance with the below option
 
 User can select the preferred storage type File Storage or Blob Storage to store the report,datasource and dataset in BoldReports Server.
 
-![Storage Type](/static/assets/on-premise/images/getting-started/storage-type.png)
+![Storage Type](/static/assets/on-premise/images/getting-started/site-storage-type.png)
 
 Once the process completed, you can able to
 * Manage sites – where you can manage permissions for the sites you have created.
@@ -131,4 +137,4 @@ Bold Reports Report Server stores the following information only to the server d
 * Permissions settings associated for report, data source, data set, categories, and schedules
 * Report Server configurations
 
-> The reports, dataset, and data source, which are added to the Bold Reports Report Server will be maintained in some location based on storage type you have chosen while configuring the Bold Reports Server application. You can refer more details from this [link](/administrator-guide/faq/where-does-the-data-resides-in-bold-reports/).
+> The reports, dataset, and data source, which are added to the Bold Reports Report Server will be maintained in some location based on storage type you have chosen while configuring the Bold Reports Server application. You can refer more details from this [link](./../faq/where-does-the-data-resides-in-bold-reports/).

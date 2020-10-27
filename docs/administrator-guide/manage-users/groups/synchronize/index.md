@@ -10,6 +10,6 @@ documentation: ug
 
 You can synchronize Active directory, Azure active directory groups to the Bold Reports Report Server. Learn more details from the following sections:
 
-* [Synchronize Active Directory groups](/administrator-guide/manage-users/groups/synchronize/synchronize-active-directory-groups/)
+* [Synchronize Active Directory groups](./../synchronize/synchronize-active-directory-groups/)
 
-* [Synchronize Azure Active Directory groups](/administrator-guide/manage-users/groups/synchronize/synchronize-azure-active-directory-groups/)
+* [Synchronize Azure Active Directory groups](./../synchronize/synchronize-azure-active-directory-groups/)

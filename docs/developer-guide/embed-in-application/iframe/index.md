@@ -10,6 +10,6 @@ Embed code of report explains how to embed Bold Reports Server reports into othe
 
 ## See also
 
-[Get Embed Code of Report](/on-premise/embed-in-application/iframe/embed-code-of-report/)
+[Get Embed Code of Report](./../iframe/embed-code-of-report/)
 
-[Embed report using embed secret key](/developer-guide/embed-in-application/iframe/embed-secret-key/)
+[Embed report using embed secret key](./../iframe/embed-secret-key/)

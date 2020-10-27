@@ -14,6 +14,6 @@ Group is a collection of users who has access to Bold Reports Report Server repo
 
 You can learn more details about users and groups from the following sections:
 
-* [Users](/administrator-guide/manage-users/users/)
+* [Users](./../manage-users/users/)
 
-* [Groups](/administrator-guide/manage-users/groups/)
+* [Groups](./../manage-users/groups/)

@@ -11,8 +11,8 @@ documentation: ug
 This section explains how to synchronize the imported Azure Active Directory group and its users with the Azure Active Directory.
 
 > Before synchronizing the Azure Active Directory groups, follow the given steps:
-1. Configure [Azure Active Directory Settings](/administrator-guide/manage-app-settings/azure-active-directory/)
-2. Import groups from the Azure Active Directory to the Bold Reports On-Premise by referring the following link [Active Directory Group Import](/administrator-guide/manage-users/groups/import-groups/import-azure-active-directory-groups/).
+1. Configure [Azure Active Directory Settings](./../../../../manage-app-settings/azure-active-directory/)
+2. Import groups from the Azure Active Directory to the Bold Reports On-Premise by referring the following link [Active Directory Group Import](./../../import-groups/import-azure-active-directory-groups/).
 
 You can navigate to the group synchronization page from groups page as shown in the below figure.
 

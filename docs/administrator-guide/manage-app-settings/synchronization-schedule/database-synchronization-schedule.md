@@ -10,9 +10,9 @@ documentation: ug
 
 This section explains how to schedule the synchronization of users from Existing Database with the users in the Bold Reports On-Premise.
 
-> Please configure [Database Settings](/administrator-guide/manage-app-settings/database-settings/), before you schedule synchronization of Existing Database users.
+> Please configure [Database Settings](./../../database-settings/), before you schedule synchronization of Existing Database users.
 
-To synchronize existing database users, you should import users from database to Bold Reports On-Premise by referring the following link [Import Database Users](/administrator-guide/manage-users/users/import-users/import-users-from-database/).
+To synchronize existing database users, you should import users from database to Bold Reports On-Premise by referring the following link [Import Database Users](./../../../manage-users/users/import-users/import-users-from-database/).
 
 ![Imported Database Users Synchronization Schedule](/static/assets/on-premise/images/settings/import-database-user-schedule-synchronization.png)
 
@@ -20,7 +20,7 @@ Users from the Existing Database can be synchronized on schedule to get the late
 
 Please find more details on the synchronization of users from Existing Database with Report Server in the below links.
 
-[Synchronize Imported Database Users](/administrator-guide/manage-users/users/synchronize/synchronize-existing-database-users/)
+[Synchronize Imported Database Users](./../../../manage-users/users/synchronize/synchronize-existing-database-users/)
 
 ## Email Notifications
 

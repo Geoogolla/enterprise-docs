@@ -22,4 +22,4 @@ The Identity Provider (IDP) application is a core application of multi-tenant so
 
 > IDP and first Reports tenant can share the same database, but you cannot share same database between the two tenant applications.
 
-You can add a tenant by following this [link](/administrator-guide/manage-tenants/create-site/)
+You can add a tenant by following this [link](./../manage-tenants/create-site/)

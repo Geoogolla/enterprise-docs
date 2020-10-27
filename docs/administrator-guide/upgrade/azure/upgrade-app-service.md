@@ -61,4 +61,4 @@ Follow below steps to upgrade Bold Reports Azure App Service.
 18. Now, we have completed the Bold Reports upgrade process. Launch the Bold Reports by clicking the `browse` option or type in the Bold Reports URL in the browser.
     ![Browse option](/static/assets/on-premise/images/installation-and-deployment/upgrade/azure-app-service/browse-option.png)
 
-> Data Migration is not required for upgrading Bold Reports Azure App Service from v2.x to latest version. Learn more details [here](/on-premise/faq/is-data-migration-required-for-bold-reports-report-server-v2.x-upgrade/).
+> Data Migration is not required for upgrading Bold Reports Azure App Service from v2.x to latest version

@@ -14,7 +14,7 @@ This section explains how to upgrade the Syncfusion Report Server Azure App Serv
 
 ## Create a Bold Reports Azure App Service
 
-* Create the Bold Reports Report Server Azure App Service by following this [link](/administrator-guide/create-app-service/) and also configure the application using the database by following this [link](/administrator-guide/create-app-service/#configure-a-new-bold-reports).
+* Create the Bold Reports Report Server Azure App Service by following this [link](./../../../create-app-service/) and also configure the application using the database by following this [link](./../../../create-app-service/#configure-a-new-bold-reports).
 
 ## File storage resources for migration
 
@@ -36,7 +36,7 @@ This section explains how to upgrade the Syncfusion Report Server Azure App Serv
 6. Connect your `Bold Reports (Multi-tenant)` Azure app by FileZilla, and then drag the `Privatekeys.dat` file to the local machine under the folder `IDP/App_Data/Configuration/`.
 ![Key file](/static/assets/on-premise/images/installation-and-deployment/azure-deployment/app-service-using-arm-template/key-file.png)
 
-7. Run the [data migration utility](/on-premise/installation-and-deployment/azure/deploy-bold-reports-azure-app-service-using-arm-template/#steps-to-run-the-data-migration-utility).
+7. Run the [data migration utility](./../../on-premises/upgrade-from-classic-platform/data-migration/#steps-to-run-the-data-migration-utility).
 
 ## Azure Blob Storage resources for migration
 
@@ -62,7 +62,7 @@ This section explains how to upgrade the Syncfusion Report Server Azure App Serv
 8. Download the config.xml file to the folder `Report Server/App_Data/Configuration`.
 ![Download Config](/static/assets/on-premise/images/installation-and-deployment/azure-deployment/app-service-using-arm-template/download-config-file.png)
 
-9. Run the [data migration utility](/on-premise/installation-and-deployment/azure/deploy-bold-reports-azure-app-service-using-arm-template/#steps-to-run-the-data-migration-utility).
+9. Run the [data migration utility](./../../on-premises/upgrade-from-classic-platform/data-migration/#steps-to-run-the-data-migration-utility).
 
 ## Data migration with migration utility
 

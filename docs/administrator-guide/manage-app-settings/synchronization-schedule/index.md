@@ -10,8 +10,8 @@ documentation: ug
 
 Synchronization schedule is the process the synchronizing users to the Report Server on schedule basis. You can Synchronize the Azure Active Directory, Windows Active Directory, Database users to the Report Server by Synchronization schedule. You can refer more details from the following sections:
 
-* [Windows Active Directory Synchronization Schedule](/administrator-guide/manage-app-settings/synchronization-schedule/active-directory-synchronization-schedule/)
+* [Windows Active Directory Synchronization Schedule](./../synchronization-schedule/active-directory-synchronization-schedule/)
 
-* [Azure Active Directory Synchronization schedule](/administrator-guide/manage-app-settings/synchronization-schedule/azure-active-directory-synchronization-schedule/)
+* [Azure Active Directory Synchronization schedule](./../synchronization-schedule/azure-active-directory-synchronization-schedule/)
 
-* [Database Synchronization schedule](/administrator-guide/manage-app-settings/synchronization-schedule/database-synchronization-schedule/)
+* [Database Synchronization schedule](./../synchronization-schedule/database-synchronization-schedule/)
