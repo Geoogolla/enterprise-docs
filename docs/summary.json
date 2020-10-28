@@ -83,14 +83,20 @@
         }
     },
     "How To": {
+        "Map a domain name to Bold Reports site before startup": "map-a-domain-name-to-bold-reports-site-before-startup.md",
+        "How to resolve unavailable error when deploying on Bold Reports site":"resolve-unavailable-error-when-site-fails-incase-of-domain-name-change.md",
         "Change BoldReports URL in BoldReportsOnPremiseEdition": "change-bold-reports-url-in-bold-reports-on-premise-edition.md",
         "Change BoldReports URL when BoldReportsOn-Premise site fails": "change-bold-reports-url-when-bold-reports-on-premise-site-fails.md",
         "Setup the staging and production environment for BoldReportsOn-PremiseEdition": "setup-the-staging-and-production-environment-for-bold-reports-on-premise-edition.md",
         "Set up Azure Active Directory": "set-up-azure-active-directory.md",
         "Configure Gmail SMTP Server in Email Settings": "configure-gmail-smtp-server-in-email-settings.md",
+        "Get list of items from Bold Reports Report Server": "get-list-of-items-from-bold-reports-server.md",
         "Add parameters with Report link": "report-link-with-filter-parameters.md",
         "Filter Data Based on User in a Report": "filter-data-based-on-user-in-a-report.md",
         "Export report from Bold Reports Report Server ": "export-report-from-bold-reports-server.md",
+        "Upgrade the Bold Reports On-Premise Edition new version on production server": "upgrade-the-bold-reports-on-premise-edition-new-version-on-production-server.md",
+        "Migrate SSRS reports to the Bold Reports Report Server":"migrate-ssrs-reports-to-the-bold-reports-report-server.md",
+        "How to apply the patches to Bold Reports Enterprise Reporting":"apply-patches-to-bold-reports.md",        
         "Apply patches to Bold Reports Multi-tenant Azure App Service": "apply-patches-to-bold-reports-azure-app-service.md",
         "Switch the installed Bold Reports Report Server IIS Express application to IIS": "switch-the-installed-bold-reports-report-server-iis-express-application-to-iis.md"
     },
@@ -360,6 +366,7 @@
     },
     "How to":{
         "Generate access token for Bold Reports Report Server user": "generate-access-token-for-bold-reports-server-user.md",
+        "How to generate the authorization token by using Embed Secret Key API":"generate-authorization-token-for-user-by-using-embed-secret-key-api.md",
         "Get list of items from Bold Reports Report Server": "get-list-of-items-from-bold-reports-server.md"
     }
 },
