@@ -1431,7 +1431,7 @@
             "name": "apiCopyReport",
             "in": "body",
             "required": true,
-            "description": "Details of the report passed will be copied",
+            "description": "Details of the report passed will be copied.",
             "schema": {
             "$ref": "#/definitions/ApiCopyReport"
             },
