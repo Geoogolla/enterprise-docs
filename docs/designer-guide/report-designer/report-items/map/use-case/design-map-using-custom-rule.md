@@ -70,26 +70,26 @@ Under the **Appearance** category, set the border width and color properties as 
 
 ### Title
 
-Under the [Title](./../../../../report-items/map/properties/#title) category, set the title text, position, and font properties for the map title. First, enable the Enable Title check box. Then, add the title and position.
+Under the [Title](./../../properties/#title) category, set the title text, position, and font properties for the map title. First, enable the Enable Title check box. Then, add the title and position.
 ![Title text](/static/assets/on-premise/images/report-designer/report-items/map/color-rule-use-case/title.png)
 
 ### Legend
 
-Under the [Legend](./../../../../report-items/map/properties/#legend) category, enable the **Enable Legend** check box. Set the background color as **White**, position **BottomCenter**, legend mode as **Interactive**, and set the `=Fields!IndicatorName.Value` as [expression](./../../../../compose-report/expressions/) for **Title**.
+Under the [Legend](./../../properties/#legend) category, enable the **Enable Legend** check box. Set the background color as **White**, position **BottomCenter**, legend mode as **Interactive**, and set the `=Fields!IndicatorName.Value` as [expression](./../../../../compose-report/expressions/) for **Title**.
 ![Legend](/static/assets/on-premise/images/report-designer/report-items/map/color-rule-use-case/legend.png)
 
 ### Shape settings
 
-Under the [Shape Settings](./../../../../report-items/map/shape-settings/), set the border color as `#81808c` and width as `0.667px` and tooltip as `= Fields!Country.Value + " : "+ Round(Fields!GDP.Value, 3)` expression.
+Under the [Shape Settings](./../../shape-settings/), set the border color as `#81808c` and width as `0.667px` and tooltip as `= Fields!Country.Value + " : "+ Round(Fields!GDP.Value, 3)` expression.
 ![Shape settings](/static/assets/on-premise/images/report-designer/report-items/map/color-rule-use-case/shape-settings.png)
 
 ### Shape color rule
 
-Under [Shape color rule](./../../../../report-items/map/shape-color-rule/) category, enable the **Enable Color Rule** check box.
+Under [Shape color rule](./../../shape-color-rule/) category, enable the **Enable Color Rule** check box.
 * Choose the Sum(GDP) in **Data Value**.
-* Choose **Custom** as the Type. Refer [Custom colors](./../../../../report-items/map/custom-color-shape-rule/) section and set the color codes following colors in the custom colors panel: **#cfedfb**, **#aadee8**, **#9cd2ed**, **#70bdff**, and **#4d739e**.![Shape settings](/static/assets/on-premise/images/report-designer/report-items/map/color-rule-use-case/custom-colors.png)
+* Choose **Custom** as the Type. Refer [Custom colors](./../../custom-color-shape-rule/) section and set the color codes following colors in the custom colors panel: **#cfedfb**, **#aadee8**, **#9cd2ed**, **#70bdff**, and **#4d739e**.![Shape settings](/static/assets/on-premise/images/report-designer/report-items/map/color-rule-use-case/custom-colors.png)
 * Choose **Custom** for **Distribution** type. Indicate your own number of data ranges to decide the distribution of values.
-* Refer [Custom distribution](./../../../../report-items/map/custom-color-shape-rule/) section and define custom range as follows:![Shape settings](/static/assets/on-premise/images/report-designer/report-items/map/color-rule-use-case/custom-distribution.png)
+* Refer [Custom distribution](./../../custom-color-shape-rule/) section and define custom range as follows:![Shape settings](/static/assets/on-premise/images/report-designer/report-items/map/color-rule-use-case/custom-distribution.png)
 
 The shape color rule configuration should be as below,
 
