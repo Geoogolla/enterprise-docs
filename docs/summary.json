@@ -90,7 +90,6 @@
         "Setup the staging and production environment for BoldReportsOn-PremiseEdition": "setup-the-staging-and-production-environment-for-bold-reports-on-premise-edition.md",
         "Set up Azure Active Directory": "set-up-azure-active-directory.md",
         "Configure Gmail SMTP Server in Email Settings": "configure-gmail-smtp-server-in-email-settings.md",
-        "Get list of items from Bold Reports Report Server": "get-list-of-items-from-bold-reports-server.md",
         "Add parameters with Report link": "report-link-with-filter-parameters.md",
         "Filter Data Based on User in a Report": "filter-data-based-on-user-in-a-report.md",
         "Export report from Bold Reports Report Server ": "export-report-from-bold-reports-server.md",
@@ -353,9 +352,7 @@
     "Notifications": "notifications.md"
 },
 "Developer Guide":{
-    "REST API": {
-        "v1.0": "v1.0?html=true"
-    },
+    
     "Embed in Application": {
         "Iframe": {
             "Embed Code": "embed-code-of-report.md",
@@ -365,10 +362,14 @@
         "Integrating Report Designer": "integrating-report-designer.md"
     },
     "How to":{
+        "Get list of items from Bold Reports Report Server": "get-list-of-items-from-bold-reports-server.md",
         "Generate access token for Bold Reports Report Server user": "generate-access-token-for-bold-reports-server-user.md",
-        "How to generate the authorization token by using Embed Secret Key API":"generate-authorization-token-for-user-by-using-embed-secret-key-api.md",
-        "Get list of items from Bold Reports Report Server": "get-list-of-items-from-bold-reports-server.md"
+        "How to generate the authorization token by using Embed Secret Key API":"generate-authorization-token-for-user-by-using-embed-secret-key-api.md"
     }
 },
-"Licensing": "licensing.md"
+"Licensing": "licensing.md",
+"REST API Reference": {
+    "v1.0": "v1.0?html=true",
+    "v2.0": "v2.0?html=true"
+}
 }

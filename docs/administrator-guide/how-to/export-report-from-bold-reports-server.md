@@ -6,7 +6,7 @@ keywords: report-platform
 
 # How to export the report from Bold Reports Report Server
 
-You can export the report into any format(Excel, PDF, HMTL, PPT CSV, and Word) from Bold Reports Server by using the [Export Report API](https://help.boldreports.com/developer-guide/rest-api/v1.0/#operation/Items_ExportReport).
+You can export the report into any format(Excel, PDF, HMTL, PPT CSV, and Word) from Bold Reports Server by using the <a href="../../../rest-api-reference/v1.0/#operation/Items_ExportReport" target="_blank">Export Report API</a>.
 
 >User must have `Read` permission for the reports.
 
@@ -18,7 +18,7 @@ Pass the following parameters in request body.
 
    `Export Type` - Export Type(PDF, Excel, Html, PPT, Word, and CSV).
 
->Access token must be passed in authorization header. To get access token, use the [Authentication API](https://help.boldreports.com/developer-guide/rest-api/v1.0/#tag/Authentication).
+>Access token must be passed in authorization header. To get access token, use the <a href="../../../rest-api-reference/v1.0/#operation/Authentication" target="_blank">Authentication API</a>
 
 Here is a sample C# code to illustrate the approach.
 

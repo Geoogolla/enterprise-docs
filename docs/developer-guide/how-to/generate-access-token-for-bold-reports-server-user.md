@@ -6,7 +6,7 @@ keywords: report-platform
 
 # How to generate the access token for Bold Reports Report Server user
 
-You can generate the access token for the user in Bold Reports by using the [Authentication API](https://help.boldreports.com/on-premise/rest-api-reference/v1.0/#tag/Authentication). For this, pass the following parameters in request body.
+You can generate the access token for the user in Bold Reports by using the <a href="../../../rest-api-reference/v1.0/#operation/Authentication" target="_blank">Authentication API</a> For this, pass the following parameters in request body.
 
    `username` - Email address of the user.
 

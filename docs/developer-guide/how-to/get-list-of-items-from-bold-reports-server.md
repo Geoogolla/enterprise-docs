@@ -1,12 +1,12 @@
 ---
-title: List of Items using the API | Bold Reports On-Premise
-description: This documentation explains about how to get list of items(Category, Reports, Dataset, Datasource, and Schedules) using the API in the Bold Reports On-Premise Edition.
+title: List of Items using the API in Bold Reports On-Premise
+description: This documentation explains about how to get list of items using the API in the Bold Reports On-Premise Edition.
 keywords: report-platform
 ---
 
 # How to get the list of items from Bold Reports Report Server
 
-You can get the list of items(Category, Reports, Dataset, Data source, and Schedule) from Bold Reports by using the [Get Items API](https://help.boldreports.com/on-premise/rest-api-reference/v1.0/#operation/Items_GetItems).
+You can get the list of items(Category, Reports, Dataset, Data source, and Schedule) from Bold Reports by using the <a href="../../../rest-api-reference/v1.0/#operation/Items_GetItems" target="_blank">Get Items API</a>.
 
 For this, pass the following parameters in query parameters.
 
@@ -14,7 +14,7 @@ For this, pass the following parameters in query parameters.
 
    `serverPath` - Category Path.
 
->Access token must be passed in authorization header. To get access token, use the [Authentication API](https://help.boldreports.com/on-premise/rest-api-reference/v1.0/#tag/Authentication).
+>Access token must be passed in authorization header. To get access token, use the <a href="../../../rest-api-reference/v1.0/#operation/Authentication" target="_blank">Authentication API</a> or [Embed Secret Key API](../../../developer-guide/how-to/generate-authorization-token-for-user-by-using-embed-secret-key-api/).
 
 Here is a sample C# code to illustrate the approach.
 
