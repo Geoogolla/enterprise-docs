@@ -38,7 +38,7 @@ The `Join` icon will get **enabled** once the second table found dropped in tabl
 * **Right Table** - The `Right Table` drop-down list illustrates the list of table dropped in design area. By default, the table which you have dropped recently will be selected in this field.
 ![Right table drop-down](/static/assets/on-premise/images/report-designer/transforming-data/join-table/right-table-list.png)
 
-In the below snap, the new relationship is initiated between `PurchaseOrderDetail` and `SalesOrderDetail` tables.
+In the below snap, the new relationship is initiated between `SalesOrderHeader` and `SalesOrderDetail` tables.
 
 ![Choose tables](/static/assets/on-premise/images/report-designer/transforming-data/join-table/new-table-relation.png)
 
@@ -54,7 +54,7 @@ The joins are used to retrieve data from two or more data tables, based on a joi
 
 Refer [Supported join types](./../../transforming-data/supported-join-types/) section to learn about the purpose of each join type.![Join types](/static/assets/on-premise/images/report-designer/transforming-data/join-table/join-types.png)
 
-In the below snap, `inner join` is created between the `PurchaseOrderDetail` and `SalesOrderDetail` tables.
+In the below snap, `inner join` is created between the `SalesOrderHeader` and `SalesOrderDetail` tables.
 
 ![Choose inner join type](/static/assets/on-premise/images/report-designer/transforming-data/join-table/create-inner-join-between-tables.png)
 
@@ -66,7 +66,7 @@ In the below snap, `inner join` is created between the `PurchaseOrderDetail` and
 * **Right field** - The available columns of the table selected in the **Right Table** drop-down list will be listed here.
 ![Right field columns](/static/assets/on-premise/images/report-designer/transforming-data/join-table/right-field-column-list.png)
 
-In the below snap, the join field is created for `ProductID` column in both tables.
+In the below snap, the join field is created for `SalesOrderID` column in both tables.
 
 ![Choose field name](/static/assets/on-premise/images/report-designer/transforming-data/join-table/join-fields-of-the-table.png)
 
@@ -76,7 +76,7 @@ To compare the values of the two columns (one from each table) between tables, a
 
 ![Supported operators](/static/assets/on-premise/images/report-designer/transforming-data/join-table/list-of-supported-operators.png)
 
-In the below snap, the `Equal` operator is applied between `ProductID` column of both tables.
+In the below snap, the `Equal` operator is applied between `SalesOrderID` column of both tables.
 
 ![Choose operator](/static/assets/on-premise/images/report-designer/transforming-data/join-table/equal-operator.png)
 
