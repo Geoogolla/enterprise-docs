@@ -33,7 +33,7 @@ There are two ways to assign the dataset to the tablix:
 1. Select the tablix report item in design area, now the respective tablix properties will be listed in the properties panel.
 ![Tablix item with properties view](/static/assets/on-premise/images/report-designer/report-items/tablix/table-item-with-properties-view.png)
 2. The available datasets in the report will be listed in the `Dataset` property dropdown. You can choose the desired dataset from the drop-down.
-![Data category](/static/assets/on-premise/images/report-designer/report-items/tablix/assign-desired-dataset-using-dropdown-in-panel.png)
+![Data category](/static/assets/on-premise/images/report-designer/report-items/tablix/assign-dataset-in-properties-panel.png)
 3. Now, the fields of selected dataset will be listed in the data assign menu like below.
 ![Data category](/static/assets/on-premise/images/report-designer/report-items/tablix/fields-listed-in-data-assign-menu.png)
 

@@ -48,7 +48,7 @@ By default, grouping panel will be displayed in `Default Mode`, to enable advanc
 
 Then, click on the `Advanced` menu item. Now, all groups including static and dynamic tablix members will be listed in `Row Groups` and `Column Groups` pane in hierarchical view like below.
 
-![Advanced mode members view](/static/assets/on-premise/images/report-designer/report-items/tablix/grouping-panel-with-static-and-dynamic-tablix-members-view.png)
+![Advanced mode members view](/static/assets/on-premise/images/report-designer/report-items/tablix/static-and-dynamic-tablix-members-view.png)
 
 Once you enable the advanced mode, a tick mark will be indicated in the `Advanced` menu like below.
 

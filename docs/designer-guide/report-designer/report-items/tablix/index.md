@@ -105,17 +105,17 @@ Using the background color property you can color the tablix background. To set 
 
 Page break property can be used to control the amount of information on each page when you preview the report. Follow the below steps to apply page break property for tablix report item.
 
-![Tablix keep together](/static/assets/on-premise/images/report-designer/report-items/tablix/keep-together.png)
+![Tablix keep together](/static/assets/on-premise/images/report-designer/report-items/tablix/page-break.png)
 
 #### Break location
 
 The Break Location property specifies where the page break should occur. Choose the required `Break Location` type in the drop-down.
-![Break location](/static/assets/on-premise/images/report-designer/report-items/rectangle/break-location-types.png)
+![Break location](/static/assets/on-premise/images/report-designer/report-items/tablix/break-location-types.png)
 
 #### Page number reset
 
 To restart the page numbering on each page, enable `Page Number Reset` property checkbox.
-![Reset page number](/static/assets/on-premise/images/report-designer/report-items/rectangle/page-break-property.png)
+![Reset page number](/static/assets/on-premise/images/report-designer/report-items/tablix/page-number-reset.png)
 
 #### Keep together
 

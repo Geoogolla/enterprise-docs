@@ -34,6 +34,7 @@ On report preview, using the `OrderYear` and `ProductCategory` report parameters
 ![Filter dialog](/static/assets/on-premise/images/report-designer/report-items/tablix/filters-dialog.png)
 4. Refer [Filter Data](./../../../compose-report/filter-data/) section and create required filter expression in the filter dialog and click `OK`.
 ![Filter dialog](/static/assets/on-premise/images/report-designer/report-items/add-filter-to-tablix-data-region/filter-equation-for-group.png)
+
 Before applying filter to the row group, on report preview the report displays sales of each quarters and its total.
 
 ![Filter dialog](/static/assets/on-premise/images/report-designer/report-items/add-filter-to-tablix-data-region/before-applying-filter-report-preview.png)
