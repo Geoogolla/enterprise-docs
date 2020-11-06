@@ -136,7 +136,9 @@ The border style, color, width and background color properties are used to style
 
 <span style="font-weight:bold">Background color</span>
 
-Using the background color property you can color the textbox background. To set background color using properties panel refer [Background color](./../../compose-report/common-properties/#background-color) section.<span style="font-weight:bold">Border</span>
+Using the background color property you can color the textbox background. To set background color using properties panel refer [Background color](./../../compose-report/common-properties/#background-color) section.
+
+<span style="font-weight:bold">Border</span>
 
 Border properties are used to add or customize the border around a textbox item to visually separate items in the report design. To set border properties to the textbox item using properties panel refer [Border Properties](./../../compose-report/common-properties/#border-properties) section.
 
@@ -162,7 +164,9 @@ Enable this property to shrink the Textbox height vertically based on their cont
 
 <span style="font-weight:bold">Custom Attributes</span>
 
-This property can be used to set the values for textbox custom properties. To create and assign values for custom properties using properties panel refer [Custom Properties](./../../compose-report/common-properties/#custom-properties) section.<span style="font-weight:bold">Tooltip</span>
+This property can be used to set the values for textbox custom properties. To create and assign values for custom properties using properties panel refer [Custom Properties](./../../compose-report/common-properties/#custom-properties) section.
+
+<span style="font-weight:bold">Tooltip</span>
 
 Tooltip property can be used to display informative text or value, when the user hovers over on the report item in report preview. To set tooltip for textbox report item using properties panel refer [Tooltip](./../../compose-report/common-properties/#tooltip) section.
 

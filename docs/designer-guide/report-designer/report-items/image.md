@@ -102,6 +102,8 @@ Visibility property is used to conditionally show or hide the image report item 
 
 <span style="font-weight:bold">Custom Attributes</span>
 
-This property can be used to set the values for image report item custom properties. To assign values for custom properties using properties panel refer [Custom Properties](./../../compose-report/common-properties/#custom-properties) section.<span style="font-weight:bold">Tooltip</span>
+This property can be used to set the values for image report item custom properties. To assign values for custom properties using properties panel refer [Custom Properties](./../../compose-report/common-properties/#custom-properties) section.
+
+<span style="font-weight:bold">Tooltip</span>
 
 Tooltip property can be used to display informative text or value, when the user hovers over on the report item in report preview. To set tooltip for image report item using properties panel refer [Tooltip](./../../compose-report/common-properties/#tooltip) section.

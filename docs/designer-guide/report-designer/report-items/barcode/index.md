@@ -54,7 +54,9 @@ In the expression builder, create expression using built-in-functions or data fi
 
 ![Barcode item with properties view](/static/assets/on-premise/images/report-designer/report-items/barcode/1D-expression-demo.png)
 
-Now, the expression value will encoded in the barcode at run-time. Refer [Set Expression](./../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.<span style="font-weight:bold">Text Visibility</span>
+Now, the expression value will encoded in the barcode at run-time. Refer [Set Expression](./../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
+
+<span style="font-weight:bold">Text Visibility</span>
 
 The `Text Visibility` property can be used to show/hide the label text of the barcode. The label shows a value of the barcode. In the below snaps, the `Code39` barcode with and without label text is displayed.
 
@@ -95,7 +97,9 @@ In the expression builder, create expression using built-in-functions or data fi
 
 ![Barcode item with properties view](/static/assets/on-premise/images/report-designer/report-items/barcode/1D-expression-demo.png)
 
-Now, the expression value will encoded in the barcode at run-time. Refer [Set Expression](./../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.<span style="font-weight:bold">Text Visibility</span>
+Now, the expression value will encoded in the barcode at run-time. Refer [Set Expression](./../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
+
+<span style="font-weight:bold">Text Visibility</span>
 
 The `Text Visibility` property can be used to show/hide the label text of the barcode. The label shows a value of the barcode. In the below snaps, the `QR` barcode with and without label text is displayed.
 
