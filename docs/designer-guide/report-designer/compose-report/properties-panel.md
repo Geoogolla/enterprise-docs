@@ -89,12 +89,12 @@ Specific properties contain nested properties, which are listed under the `Advan
 
 ## Dependent properties
 
-There are specific properties in a report items, which will be enabled in the properties view based on the value of some other property. For example when you drag and drop the rectangle item into design area, the `Page Break` property will be listed in the properties view like below.
+There are specific properties in a report items, which will be enabled in the properties view based on the value of some other property. For example when you drag and drop the chart item into design area, the `Title` property will be listed in the properties view like below.
 
 ![Rectangle listed in item panel](/static/assets/on-premise/images/report-designer/report-items/properties-panel/rectangle-page-break-property-initial-view.png)
 
-If the `Enable Page Break` property is set to true, the dependent page break properties will be listed in the properties view like below.
+If the `Show Chart Title` property is set to true, the dependent title properties will be listed in the properties view like below.
 
 ![Rectangle listed in item panel](/static/assets/on-premise/images/report-designer/report-items/properties-panel/enable-page-break-property.png)
 
-Again, if the `Enable Page Break` property is set to false, the dependent page break properties will be hidden from the properties view.
+Again, if the `Show Chart Title` property is set to false, the dependent title properties will be hidden from the properties view.

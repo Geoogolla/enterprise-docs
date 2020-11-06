@@ -75,3 +75,5 @@ Now, the report design will look like below.
 On report preview, the difference in sales between each product category will be displayed like below,
 
 ![Data bar RDL report preview](/static/assets/on-premise/images/report-designer/report-items/data-bar/design/report-preview.png)
+
+> Download the above report design from the [link](https://github.com/boldreports/resources/tree/master/docs/data-bar/design-ssrs-data-bar-using-table.rdl)
