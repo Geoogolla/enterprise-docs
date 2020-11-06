@@ -138,3 +138,5 @@ Next, need to create dataset for dependent parameter and assign values to it. Fo
 ![Choose value for Category parameter](/static/assets/on-premise/images/report-designer/report-parameters/create-cascading-parameter/sub-category-parameter-drop-down.png)
 4. Choose `Bike Racks` in the `Subcategory` dropdown and click on `View Report` button.
 ![Final report preview](/static/assets/on-premise/images/report-designer/report-parameters/create-cascading-parameter/report-preview-final-view.png)
+
+> Download the above report design from [link](https://github.com/boldreports/resources/tree/master/docs/report-parameters/create-cascading-parameter.rdl).

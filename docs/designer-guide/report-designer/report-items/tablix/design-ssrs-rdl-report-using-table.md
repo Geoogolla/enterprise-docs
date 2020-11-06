@@ -106,3 +106,5 @@ To improve the report readability, we can resize the table row height and column
 A simple table design will look like below.
 
 ![Adjust row height of the table](/static/assets/on-premise/images/report-designer/report-items/tablix/simple-table-design.png)
+
+> Download the above report design from [link](https://github.com/boldreports/resources/tree/master/docs/tablix/design-ssrs-rdl-report-using-table.rdl).

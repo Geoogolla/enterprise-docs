@@ -116,4 +116,4 @@ You can preview the report at design time using the built-in Bold Reports Viewer
 
 ![Report preview](/static/assets/on-premise/images/report-designer/report-items/map/color-palette-use-case/preview.png)
 
-> Download the above report design from [link](https://www.syncfusion.com/downloads/support/directtrac/general/ze/ElectionResultByRegion-1678056232).
+> Download the above report design from [link](https://github.com/boldreports/resources/tree/master/docs/map/design-map-using-color-palette-rule.rdl).

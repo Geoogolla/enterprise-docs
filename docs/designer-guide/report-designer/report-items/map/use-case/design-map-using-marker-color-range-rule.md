@@ -120,4 +120,4 @@ Hover on each marker filled with colors to see the details like sales person nam
 
 ![Report preview](/static/assets/on-premise/images/report-designer/report-items/map/marker-color-range-use-case/preview.png)
 
-> Download the above report design from [link](https://www.syncfusion.com/downloads/support/directtrac/general/ze/Marker-Color-Range-1097075334).
+> Download the above report design from [link](https://github.com/boldreports/resources/tree/master/docs/map/design-map-using-marker-color-range-rule.rdl).

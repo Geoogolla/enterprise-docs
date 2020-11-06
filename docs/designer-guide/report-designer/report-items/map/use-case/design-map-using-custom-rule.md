@@ -109,4 +109,4 @@ You can preview the report at design time using the built-in Bold Reports Viewer
 
 ![Report preview](/static/assets/on-premise/images/report-designer/report-items/map/color-rule-use-case/preview.png)
 
-> Download the above report design from [link](https://www.syncfusion.com/downloads/support/directtrac/general/ze/Annual-GDP-Analysis1871290786).
+> Download the above report design from [link](https://github.com/boldreports/resources/tree/master/docs/map/design-map-using-custom-rule.rdl).

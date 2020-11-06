@@ -84,6 +84,8 @@ Here we have designed a simple subreport using image, textbox and table reportit
 * To display employee image in the report, assigned the `=First(Fields!Photo.Value, "EmployeeImages")` expression to the image report item value property.
 ![subreport item with properties view](/static/assets/on-premise/images/report-designer/report-items/subreport/assign-value-to-image-report-item.png)
 
+> Download the above report design from [link](https://github.com/boldreports/resources/tree/master/docs/subreport/side-by-side.rdl).
+
 ## Link sub report into main report
 
 Once you drag and drop the subreport item into design area, respective item properties will be listed in the properties panel.
@@ -125,3 +127,5 @@ Now, the report path and parameters are set for both subreport item in the repor
 Preview the report and choose the required employee name in the `Left Side Employee` and `Right Side Employee` parameter drop-down and click on view report. On report preview, the comparison report for two employees will be shown based on the values selected in the parameter drop-down.
 
 ![Preview the highlighted parameter](/static/assets/on-premise/images/report-designer/report-items/subreport/preview-highlighted-parameter.png)
+
+> Download the above report design from [link](https://github.com/boldreports/resources/tree/master/docs/subreport/main-report.rdl).
