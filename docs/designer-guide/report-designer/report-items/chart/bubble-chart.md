@@ -307,3 +307,5 @@ The final report design looks like below.
 ![Preview icon in design view](/static/assets/on-premise/images/report-designer/report-items/chart/bubble-chart/preview-icon.png)
 2. Now, the report preview can be visualized like below.
 ![Chart report preview](/static/assets/on-premise/images/report-designer/report-items/chart/bubble-chart/report-preview-page.png)
+
+> Download the above report design from [link](https://github.com/boldreports/resources/tree/master/docs/report-designer/chart/bubble.rdl).

@@ -76,4 +76,4 @@ On report preview, select the country in the parameter drop-down and click on th
 
 ![Open group menu](/static/assets/on-premise/images/report-designer/report-items/tablix-conditional-formatting/conditional-fomatting-output.png)
 
-> Download the above report design from [link](https://github.com/boldreports/resources/tree/master/docs/tablix/conditional-formatting-tablix-data-region.rdl).
+> Download the above report design from [link](https://github.com/boldreports/resources/tree/master/docs/report-designer/tablix/conditional-formatting-tablix-data-region.rdl).

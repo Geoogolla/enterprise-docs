@@ -269,3 +269,5 @@ Tooltip property can be used to display informative text or value, when the user
 ![Preview icon in design view](/static/assets/on-premise/images/report-designer/report-items/chart/line-chart/preview-icon.png)
 2. Now, the report preview can be visualized like below.
 ![Chart report preview](/static/assets/on-premise/images/report-designer/report-items/chart/line-chart/report-preview-page.png)
+
+> Download the above report design from [link](https://github.com/boldreports/resources/tree/master/docs/report-designer/chart/line.rdl).

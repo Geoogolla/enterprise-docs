@@ -88,4 +88,4 @@ Refer [Expression](./../../compose-report/expressions/) section to learn more ab
 5. To view the color changes based on the price range in a report, click `Preview`.
     ![Preview the record](/static/assets/on-premise/images/report-designer/compose-report/code-module/custom-code-preview.png)
 
-> Download the above report design from [link](https://github.com/boldreports/resources/tree/master/docs/compose-report/code-module.rdl)
+> Download the above report design from [link](https://github.com/boldreports/resources/tree/master/docs/report-designer/compose-report/code-module.rdl)

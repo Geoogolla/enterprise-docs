@@ -53,4 +53,4 @@ Using the `ProductID` parameter, we can filter the `ProductID` field values at r
 7. Enter the valid `ProductID` in the textbox and click on `View Report`.
 ![Filter product id values](/static/assets/on-premise/images/report-designer/report-parameters/add-report-parameter/filter-product-id-values.png)
 
-> Download the above report design from [link](https://github.com/boldreports/resources/tree/master/docs/report-parameters/filter-table-data-based-on-report-parameter.rdl).
+> Download the above report design from [link](https://github.com/boldreports/resources/tree/master/docs/report-designer/report-parameters/filter-table-data-based-on-report-parameter.rdl).

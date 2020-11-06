@@ -92,4 +92,4 @@ A simple sales order details report is designed using list and table data region
 
 ![Assign data to the list](/static/assets/on-premise/images/report-designer/report-items/tablix-nested-data-regions/final-design.png)
 
-> Download the above report design from [link](https://github.com/boldreports/resources/tree/master/docs/tablix/nested-data-region.rdl).
+> Download the above report design from [link](https://github.com/boldreports/resources/tree/master/docs/report-designer/tablix/nested-data-region.rdl).

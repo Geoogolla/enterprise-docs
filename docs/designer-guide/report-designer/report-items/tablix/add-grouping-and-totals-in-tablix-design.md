@@ -132,4 +132,4 @@ Navigate to the last page of the report in preview. The grand total details will
 
 ![Open group menu](/static/assets/on-premise/images/report-designer/report-items/tablix-add-grouping-and-totals/grand-total-design.png)
 
-> Download the above report design from [link](https://github.com/boldreports/resources/tree/master/docs/tablix/add-grouping-and-totals-in-tablix-design.rdl).
+> Download the above report design from [link](https://github.com/boldreports/resources/tree/master/docs/report-designer/tablix/add-grouping-and-totals-in-tablix-design.rdl).

@@ -91,4 +91,4 @@ To see the sub-category product and their sales value, expand the group by click
 
 ![Hide group visibility on preview](/static/assets/on-premise/images/report-designer/compose-report/create-ssrs-drill-down-report/preview-for-drill-down-with-single-group.png)
 
-> Download the above report design from [link](https://github.com/boldreports/resources/tree/master/docs/compose-report/create-ssrs-drill-down-report.rdl)
+> Download the above report design from [link](https://github.com/boldreports/resources/tree/master/docs/report-designer/compose-report/create-ssrs-drill-down-report.rdl)
