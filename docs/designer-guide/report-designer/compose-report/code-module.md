@@ -19,7 +19,7 @@ Code Module is used to add a custom code or custom assemblies to a report. Code 
 3. In the code tab, type the code snippet as shown below. The following code example demonstrates the custom function that return the color string, based on the given value range.
 
     ```basic
-    Public Function GetColor(ByVal TotalSales As Integer) As String
+    Public Function GetColor(ByVal TotalSales As Decimal) As String
         Dim ColorName As String
         If TotalSales > 0 And TotalSales < 1000 Then
             ColorName = "Yellow"
