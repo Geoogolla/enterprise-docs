@@ -7,7 +7,8 @@ description: Create new dataset parameters or link a dataset parameter with a re
 
 A dataset parameters are created based on the query parameters provided in the dataset query and also, an equivalent report parameters are created for each query variable. The linking between a dataset parameter and a report parameter will take place automatically. But, if a report parameter is renamed then we need to perform the link action manually.
 
-Refer [Create Data](./../../manage-data/dataset/create-an-embedded-dataset/) section for better understanding with the following sections. The below image showcases the initial view of query designer.![Query joiner icon in enabled state](/static/assets/on-premise/images/report-designer/transforming-data/create-or-link-dataset-parameters/query-designer-initial-view.png)
+Refer [Create Data](./../../manage-data/dataset/create-an-embedded-dataset/) section for better understanding with the following sections. The below image showcases the initial view of query designer.
+![Query joiner icon in enabled state](/static/assets/on-premise/images/report-designer/transforming-data/create-or-link-dataset-parameters/query-designer-initial-view.png)
 
 ## Open parameters dialog
 
@@ -45,7 +46,8 @@ The **Value** field in dataset parameter can contain an expression that evaluate
 2. It will launch the expression dialog like below.
 ![Expression dialog](/static/assets/on-premise/images/report-designer/transforming-data/create-or-link-dataset-parameters/expression-dialog.png)
 3. Refer [Expression](./../../compose-report/expressions/) section to know more about the handling expressions in Report Designer. Here, the `SalesOrderID` field is assigned as expression for `SalesOrderID` parameter.
-![Assign data field as expression](/static/assets/on-premise/images/report-designer/transforming-data/create-or-link-dataset-parameters/aasign-data-fields.png)4. The icon will be indicated in `Black color`, if the expression is applied to the value field.
+![Assign data field as expression](/static/assets/on-premise/images/report-designer/transforming-data/create-or-link-dataset-parameters/aasign-data-fields.png)
+4. The icon will be indicated in `Black color`, if the expression is applied to the value field.
 ![Expression indication](/static/assets/on-premise/images/report-designer/transforming-data/create-or-link-dataset-parameters/expression-set-indication.png)
 
 ### Reset Expression
@@ -93,7 +95,9 @@ The following procedure is applicable for below scenario's:
 ### Create query and report parameters
 
 Refer [Create report parameter](./../../report-parameters/add/) section and create the required report parameters in your report.
-Refer [Create query parameter](./../../transforming-data/define-query-parameters/) section and create the required query parameters.### Steps to link parameters
+Refer [Create query parameter](./../../transforming-data/define-query-parameters/) section and create the required query parameters.
+
+### Steps to link parameters
 
 The following steps guides to link a query parameter with a report parameter.
 
@@ -104,5 +108,5 @@ The following steps guides to link a query parameter with a report parameter.
 ![Query joiner icon in enabled state](/static/assets/on-premise/images/report-designer/transforming-data/create-or-link-dataset-parameters/value-field-drop-down.png)
 4. Click on the `OK` button to save the parameter linking state.
 
-In the below snap, `ProductID` report parameter is linked with a `ProductID` query parameter.
+In the below snap, `SalesOrderID` report parameter is linked with a `SalesOrderID` query parameter.
 ![Query joiner icon in enabled state](/static/assets/on-premise/images/report-designer/transforming-data/create-or-link-dataset-parameters/link-paramter-name.png)

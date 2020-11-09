@@ -87,6 +87,9 @@ The data bind to the nested data regions, based on the position of the nested da
 ![Assign data to the list](/static/assets/on-premise/images/report-designer/report-items/tablix-nested-data-regions/assign-data-fields-in-table.png)
 11. Refer [Set header text](./../../../report-items/tablix/design-ssrs-rdl-report-using-table/#set-header-text) section and set header text to the table header row.
 ![Assign data to the list](/static/assets/on-premise/images/report-designer/report-items/tablix-nested-data-regions/set-table-header-row-text.png)
+
 A simple sales order details report is designed using list and table data regions to group the data based on `SalesOrderID`.
 
 ![Assign data to the list](/static/assets/on-premise/images/report-designer/report-items/tablix-nested-data-regions/final-design.png)
+
+> Download the above report design from [link](https://github.com/boldreports/resources/tree/master/docs/report-designer/tablix/nested-data-region.rdl).

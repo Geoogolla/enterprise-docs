@@ -23,3 +23,5 @@ Now, preview the report and the header rows will now show up on every page.
 ![Open group menu](/static/assets/on-premise/images/report-designer/report-items/tablix-repeat-headers/report-preview-first-page.png)
 
 ![Open group menu](/static/assets/on-premise/images/report-designer/report-items/tablix-repeat-headers/report-preview-last-page.png)
+
+> Download the above report design from [link](https://github.com/boldreports/resources/tree/master/docs/report-designer/tablix/repeat-headers-on-each-page-in-ssrs.rdl).

@@ -39,3 +39,5 @@ Using the `ProductID` parameter, we can filter the `ProductID` field values at r
 ![Select multiple values to filter the records](/static/assets/on-premise/images/report-designer/report-parameters/add-report-parameter/select-multiple-value-in-parameter.png)
 7. Click on the `View Report` button.
  ![Multi value parameter preview](/static/assets/on-premise/images/report-designer/report-parameters/add-report-parameter/multi-value-parameter-preview-output.png)
+
+> Download the above report design from [link](https://github.com/boldreports/resources/tree/master/docs/report-designer/report-parameters/create-multi-value-parameter.rdl).

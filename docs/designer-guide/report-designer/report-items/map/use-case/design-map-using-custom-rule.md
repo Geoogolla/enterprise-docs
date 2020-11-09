@@ -85,11 +85,11 @@ Under the [Shape Settings](./../../shape-settings/), set the border color as `#8
 
 ### Shape color rule
 
-Under [Shape color rule](./../../shape-color-rule/) category, enable the **Enable Color Rule** check box.
+Under [Shape color rule](./../../../../report-items/map/shape-color-rule/) category, enable the **Enable Color Rule** check box.
 * Choose the Sum(GDP) in **Data Value**.
-* Choose **Custom** as the Type. Refer [Custom colors](./../../custom-color-shape-rule/) section and set the color codes following colors in the custom colors panel: **#cfedfb**, **#aadee8**, **#9cd2ed**, **#70bdff**, and **#4d739e**.![Shape settings](/static/assets/on-premise/images/report-designer/report-items/map/color-rule-use-case/custom-colors.png)
+* Choose **Custom** as the Type. Refer [Custom colors](./../../../../report-items/map/custom-color-shape-rule/) section and set the color codes following colors in the custom colors panel: **#cfedfb**, **#aadee8**, **#9cd2ed**, **#70bdff**, and **#4d739e**.![Shape settings](/static/assets/on-premise/images/report-designer/report-items/map/color-rule-use-case/custom-colors.png)
 * Choose **Custom** for **Distribution** type. Indicate your own number of data ranges to decide the distribution of values.
-* Refer [Custom distribution](./../../custom-color-shape-rule/) section and define custom range as follows:![Shape settings](/static/assets/on-premise/images/report-designer/report-items/map/color-rule-use-case/custom-distribution.png)
+* Refer [Custom distribution](./../../../../report-items/map/custom-color-shape-rule/) section and define custom range as follows:![Shape settings](/static/assets/on-premise/images/report-designer/report-items/map/color-rule-use-case/custom-distribution.png)
 
 The shape color rule configuration should be as below,
 
@@ -109,4 +109,4 @@ You can preview the report at design time using the built-in Bold Reports Viewer
 
 ![Report preview](/static/assets/on-premise/images/report-designer/report-items/map/color-rule-use-case/preview.png)
 
-> Download the above report design from [link](https://www.syncfusion.com/downloads/support/directtrac/general/ze/Annual-GDP-Analysis1871290786).
+> Download the above report design from [link](https://github.com/boldreports/resources/tree/master/docs/report-designer/map/design-map-using-custom-rule.rdl).

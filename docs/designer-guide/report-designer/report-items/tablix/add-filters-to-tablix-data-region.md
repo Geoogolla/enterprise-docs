@@ -24,6 +24,8 @@ On report preview, using the `OrderYear` and `ProductCategory` report parameters
 
 ![Filter dialog](/static/assets/on-premise/images/report-designer/report-items/add-filter-to-tablix-data-region/report-preview.png)
 
+> Download the above report design from [link](https://github.com/boldreports/resources/tree/master/docs/report-designer/tablix/add-filters-to-tablix-data-region.rdl).
+
 ## Set filter on a tablix group
 
 1. Click on the surface of the tablix data region to open grouping panel.
@@ -34,6 +36,7 @@ On report preview, using the `OrderYear` and `ProductCategory` report parameters
 ![Filter dialog](/static/assets/on-premise/images/report-designer/report-items/tablix/filters-dialog.png)
 4. Refer [Filter Data](./../../../compose-report/filter-data/) section and create required filter expression in the filter dialog and click `OK`.
 ![Filter dialog](/static/assets/on-premise/images/report-designer/report-items/add-filter-to-tablix-data-region/filter-equation-for-group.png)
+
 Before applying filter to the row group, on report preview the report displays sales of each quarters and its total.
 
 ![Filter dialog](/static/assets/on-premise/images/report-designer/report-items/add-filter-to-tablix-data-region/before-applying-filter-report-preview.png)
@@ -43,3 +46,5 @@ After applying filters for the respective row group, the total sales of `Q1` and
 ![Filter dialog](/static/assets/on-premise/images/report-designer/report-items/add-filter-to-tablix-data-region/after-applying-filter-report-preview.png)
 
 Here, the filter is applied on a row group group for demonstration. Similarly, you can apply filters on column groups and detail groups.
+
+> Download the above report design from [link](https://github.com/boldreports/resources/tree/master/docs/report-designer/tablix/set-filter-on-a-tablix-group.rdl).

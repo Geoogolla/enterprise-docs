@@ -19,7 +19,7 @@ Code Module is used to add a custom code or custom assemblies to a report. Code 
 3. In the code tab, type the code snippet as shown below. The following code example demonstrates the custom function that return the color string, based on the given value range.
 
     ```basic
-    Public Function GetColor(ByVal TotalSales As Integer) As String
+    Public Function GetColor(ByVal TotalSales As Decimal) As String
         Dim ColorName As String
         If TotalSales > 0 And TotalSales < 1000 Then
             ColorName = "Yellow"
@@ -87,3 +87,5 @@ Refer [Expression](./../../compose-report/expressions/) section to learn more ab
 
 5. To view the color changes based on the price range in a report, click `Preview`.
     ![Preview the record](/static/assets/on-premise/images/report-designer/compose-report/code-module/custom-code-preview.png)
+
+> Download the above report design from [link](https://github.com/boldreports/resources/tree/master/docs/report-designer/compose-report/code-module.rdl)

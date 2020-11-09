@@ -71,3 +71,5 @@ Edit the header cell and set the `= "Sales Report of " & Fields!ProdCat.Value & 
 On report preview, the header and footer will be added for each group as shown below.
 
 ![Open group menu](/static/assets/on-premise/images/report-designer/report-items/tablix-add-header-and-footer/header-and-footer-with-value.png)
+
+> Download the above report design from [link](https://github.com/boldreports/resources/tree/master/docs/report-designer/tablix/add-group-header-and-footer-in-tablix-data-region.rdl).

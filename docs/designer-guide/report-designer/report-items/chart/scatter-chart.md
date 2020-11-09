@@ -106,7 +106,9 @@ Supported chart types will be listed in the `Chart Type` property dropdown, you 
 
 <span style="font-weight:bold">Show Legend</span>
 
-A Legend is a text used to describe the data plotted. This allows you to toggle the visibility of legend in chart and also you can customize the legend text appearance. To set/reset legend properties, refer [Show Legend](./../../../report-items/chart/legend/) property.<span style="font-weight:bold">Choose Series</span>
+A Legend is a text used to describe the data plotted. This allows you to toggle the visibility of legend in chart and also you can customize the legend text appearance. To set/reset legend properties, refer [Show Legend](./../../../report-items/chart/legend/) property.
+
+<span style="font-weight:bold">Choose Series</span>
 
 You can add multiple series to the chart and the available series will be listed in the `Choose Series` drop-down. To customize the series appearance choose the required series name in the drop-down.
 
@@ -153,7 +155,9 @@ In the below design, border color, width and style properties are applied to the
 
 > The series border properties will be applied to the selected series in the  `Choose Series` drop-down.
 
-You can also set properties based on dynamic values, by using the `Expressions`. Refer [Set Expression](./../../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/chart-series/border-expression-menu.png)
+You can also set properties based on dynamic values, by using the `Expressions`. Refer [Set Expression](./../../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
+
+![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/chart-series/border-expression-menu.png)
 
 <span style="font-weight:bold">Series Color</span>
 
@@ -171,7 +175,7 @@ Then, choose second series in the `Choose Series` drop-down and choose color in 
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/scatter-chart/series-color-second-series.png)
 
-Now, the selected color will be applied to the `Price1` series in the chart design.
+Now, the selected color will be applied to the second series in the chart design.
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/scatter-chart/second-series-color-design.png)
 
@@ -179,7 +183,7 @@ You can also apply series color based on dynamic values, by using the `Expressio
 
 <span style="font-weight:bold">Link To</span>
 
-You can configure **Hyperlink** or a **Report path** in the chart series to create an interactive report. Refer [Linking](./../../../compose-report/link-data/) section to set or reset link property for chart series.![Link To property](/static/assets/on-premise/images/report-designer/report-items/sparkline/link-to-property.png)
+You can configure **Hyperlink** or a **Report path** in the chart series to create an interactive report. Refer [Linking](./../../../compose-report/link-data/) section to set or reset link property for chart series.![Link To property](/static/assets/on-premise/images/report-designer/report-items/chart/link-to-property.png)
 
 ### Appearance
 
@@ -265,13 +269,17 @@ The page break property can be used to control the amount of information on each
 
 <span style="font-weight:bold">Custom Attributes</span>
 
-This property can be used to set the values for chart custom properties. To assign values for custom properties using properties panel refer [Custom Properties](./../../../compose-report/common-properties/#custom-properties) section.<span style="font-weight:bold">Tooltip</span>
+This property can be used to set the values for chart custom properties. To assign values for custom properties using properties panel refer [Custom Properties](./../../../compose-report/common-properties/#custom-properties) section.
+
+<span style="font-weight:bold">Tooltip</span>
 
 Tooltip property can be used to display informative text or value, when the user hovers over on the report item in report preview. To set tooltip for chart item using properties panel refer [Tooltip](./../../../compose-report/common-properties/#tooltip) section.
 
 ## Preview report
 
-1. To see the report preview, click on the **Preview** button in the top-right corner of the report header.
+1. The final design will look like below.
 ![Preview icon in design view](/static/assets/on-premise/images/report-designer/report-items/chart/scatter-chart/preview-icon.png)
 2. Now, the report preview can be visualized like below.
 ![Chart report preview](/static/assets/on-premise/images/report-designer/report-items/chart/scatter-chart/report-preview-page.png)
+
+> Download the above report design from [link](https://github.com/boldreports/resources/tree/master/docs/report-designer/chart/scatter.rdl).

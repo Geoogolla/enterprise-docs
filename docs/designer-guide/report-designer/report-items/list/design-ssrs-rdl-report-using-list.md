@@ -87,3 +87,5 @@ A final design of Mail Merge Report will look like below.
 On report preview, the mail merge report will be displayed like below,
 
 ![Mail merge report preview](/static/assets/on-premise/images/report-designer/report-items/list/report-preview.png)
+
+> Download the above report design from the [link](https://github.com/boldreports/resources/tree/master/docs/report-designer/list/design-ssrs-rdl-report-using-list.rdl)

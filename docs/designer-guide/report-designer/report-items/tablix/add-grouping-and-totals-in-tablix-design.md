@@ -27,7 +27,9 @@ GROUP BY DATEPART(yy, SOH.OrderDate), PC.Name, PS.Name, 'Q' + DATENAME(qq, SOH.O
 
 ## Simple table design
 
-Create a simple table report design by following the steps provided in [Table Design](./../../../report-items/tablix/design-ssrs-rdl-report-using-table/) section.![Tablix listed in item panel](/static/assets/on-premise/images/report-designer/report-items/tablix-add-grouping-and-totals/initial-design.png)
+Create a simple table report design by following the steps provided in [Table Design](./../../../report-items/tablix/design-ssrs-rdl-report-using-table/) section.
+
+![Tablix listed in item panel](/static/assets/on-premise/images/report-designer/report-items/tablix-add-grouping-and-totals/initial-design.png)
 
 ## Add group data
 
@@ -129,3 +131,5 @@ On report preview, the total yearly sales of each product, product category and 
 Navigate to the last page of the report in preview. The grand total details will be displayed at the end of the report like below.
 
 ![Open group menu](/static/assets/on-premise/images/report-designer/report-items/tablix-add-grouping-and-totals/grand-total-design.png)
+
+> Download the above report design from [link](https://github.com/boldreports/resources/tree/master/docs/report-designer/tablix/add-grouping-and-totals-in-tablix-design.rdl).

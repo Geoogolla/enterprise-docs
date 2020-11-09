@@ -16,9 +16,12 @@ In a tablix data region, set the sort expression for the data region or for each
 ![Sort dialog](/static/assets/on-premise/images/report-designer/report-items/tablix/sort-dialog.png)
 3. Refer [Sort Data](./../../../compose-report/sort-data/) section to and create required sort expression in the sort dialog and click on the `OK` button.
 ![Filter dialog](/static/assets/on-premise/images/report-designer/report-items/sort-data-in-tablix-data-region/new-sort-expression.png)
+
 A sort expression is created to sort `ProductCategory` fields in descending order (i.e Z-A ). On report preview, the `ProductCategory` field values will be sorted in Z-A alphabetical order. Respective column is highlighted in the below snap.
 
 ![Filter dialog](/static/assets/on-premise/images/report-designer/report-items/sort-data-in-tablix-data-region/sorting-report-preview.png)
+
+> Download the above report design from [link](https://github.com/boldreports/resources/tree/master/docs/report-designer/tablix/sort-data-in-tablix-data-region.rdl).
 
 ## Set sort expression on a tablix group
 
@@ -30,3 +33,5 @@ A sort expression is created to sort `ProductCategory` fields in descending orde
 ![Sort dialog](/static/assets/on-premise/images/report-designer/report-items/tablix/sort-dialog.png)
 4. Refer [Sort Data](./../../../compose-report/sort-data/) section to and create required sort expression in the sort dialog and click on the `OK` button.
 ![Filter dialog](/static/assets/on-premise/images/report-designer/report-items/sort-data-in-tablix-data-region/new-sort-expression.png)
+
+> Download the above report design from [link](https://github.com/boldreports/resources/tree/master/docs/report-designer/tablix/set-sort-expression-on-a-tablix-group.rdl).

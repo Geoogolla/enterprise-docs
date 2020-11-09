@@ -39,11 +39,9 @@ Using the background color property you can color the rectangle background. To s
 
 The page break property is used to control the amount of information on each page when you preview the report. Follow the below steps to apply page break property for rectangle item.
 
-1. Enable the `Enable Page Break` property checkbox.
-![Page break property](/static/assets/on-premise/images/report-designer/report-items/rectangle/enable-page-break.png)
-2. Choose any `Break Location` type in the drop-down.
+1. Choose any `Break Location` type in the drop-down.
 ![Break location](/static/assets/on-premise/images/report-designer/report-items/rectangle/break-location-types.png)
-3. To reset page number on each page, enable `Page Number Reset` property checkbox.
+2. To reset page number on each page, enable `Page Number Reset` property checkbox.
 ![Reset page number](/static/assets/on-premise/images/report-designer/report-items/rectangle/page-break-property.png)
 
 ### Position

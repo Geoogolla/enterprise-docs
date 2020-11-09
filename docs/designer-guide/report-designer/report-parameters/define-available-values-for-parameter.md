@@ -76,4 +76,4 @@ Using the `ProductID` parameter, we can filter the `ProductID` field values at r
 7. The manually created values will be listed in the drop-down. Choose any value from the drop-down list.
 ![Textbox parameter type](/static/assets/on-premise/images/report-designer/report-parameters/add-report-parameter/drop-down-values-list-specify-option.png)
 8. Click on `View Report`.
-![Filter product id values](/static/assets/on-premise/images/report-designer/report-parameters/add-report-parameter/preview-of-drop-down-list-parameters-using-specify-option.png)
+![Filter product id values](/static/assets/on-premise/images/report-designer/report-parameters/add-report-parameter/preview-of-parameters-using-specify-option.png)

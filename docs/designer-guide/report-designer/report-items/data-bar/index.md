@@ -136,7 +136,9 @@ Choose series in the `Choose Series` drop-down and choose color in `Series Color
 
 ![Chart series color](/static/assets/on-premise/images/report-designer/report-items/data-bar/series-color.png)
 
-You can also apply series color based on dynamic values, by using the `Expressions`. Refer [Set Expressions](./../../compose-report/properties-panel/#set-expression) and [Reset Expressions](./../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.<span style="font-weight:bold">Link To</span>
+You can also apply series color based on dynamic values, by using the `Expressions`. Refer [Set Expressions](./../../compose-report/properties-panel/#set-expression) and [Reset Expressions](./../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
+
+<span style="font-weight:bold">Link To</span>
 
 You can configure **Hyperlink** or a **Report path** in the chart series to create an interactive report. Refer [Linking](./../../compose-report/link-data/) section to set or reset link property for chart series.![Link To property](/static/assets/on-premise/images/report-designer/report-items/data-bar/link-to-property.png)
 
@@ -174,7 +176,9 @@ The visibility property is used to conditionally show or hide the data bar repor
 
 <span style="font-weight:bold">Custom Attributes</span>
 
-This property can be used to set the values for chart custom properties. To assign values for custom properties using properties panel refer [Custom Properties](./../../compose-report/common-properties/#custom-properties) section.<span style="font-weight:bold">Tooltip</span>
+This property can be used to set the values for chart custom properties. To assign values for custom properties using properties panel refer [Custom Properties](./../../compose-report/common-properties/#custom-properties) section.
+
+<span style="font-weight:bold">Tooltip</span>
 
 Tooltip property can be used to display informative text or value, when the user hovers over on the report item in report preview. To set tooltip for data bar report item using properties panel refer [Tooltip](./../../compose-report/common-properties/#tooltip) section.
 

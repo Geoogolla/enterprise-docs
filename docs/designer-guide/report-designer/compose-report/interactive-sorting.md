@@ -55,3 +55,5 @@ On report preview, interactive sorting button will be enabled in the respective 
 ![Preview design](/static/assets/on-premise/images/report-designer/compose-report/interactive-sorting/preview-design.png)
 
 Click on the arrow icon to sort the column dynamically in ascending or descending order.
+
+> Download the above report design from the [link](https://github.com/boldreports/resources/tree/master/docs/report-designer/compose-report/interactive-sorting.rdl)

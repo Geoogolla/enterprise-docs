@@ -34,7 +34,7 @@ To add a first column group in the basic tablix structure follow the below steps
 4. Here, `OrderQtr` field is chosen as parent group in tablix data region. Click on the `OK` button.
 ![Open group menu](/static/assets/on-premise/images/report-designer/report-items/tablix-insert-or-delete-group/assign-field-for-column-parent-group.png)
 
-Now, a new row will be added to the above the target cell in tablix data region and a new group member will be added in the `Column Groups` pane in grouping panel hierarchical view.
+Now, a new row will be added in tablix data region and a new group member will be added in the `Column Groups` pane in grouping panel hierarchical view.
 
 ![Open group menu](/static/assets/on-premise/images/report-designer/report-items/tablix-insert-or-delete-group/add-parent-group-in-column-group.png)
 
@@ -43,6 +43,8 @@ On report preview, each quarter sales of a year will be grouped along column.
 ![Open group menu](/static/assets/on-premise/images/report-designer/report-items/tablix-insert-or-delete-group/column-group-output.png)
 
 Similarly, you can add child and adjacent group in the column group. Refer [Insert or Delete Row Group](./../../../report-items/tablix/insert-or-delete-a-row-group-ssrs/) section to add row groups.
+
+> Download the above report design from [link](https://github.com/boldreports/resources/tree/master/docs/report-designer/tablix/insert-or-delete-a-column-group-ssrs.rdl).
 
 ## Delete column group
 
