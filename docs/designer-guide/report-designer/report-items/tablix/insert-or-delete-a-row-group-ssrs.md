@@ -70,7 +70,7 @@ On report preview, product names will be categorized based on the product type.
 
 ![Open group menu](/static/assets/on-premise/images/report-designer/report-items/tablix-insert-or-delete-group/child-row-group-output.png)
 
-> To add child group using group menu in grouping panel, refer [Add child group](./../../../report-items/tablix/grouping-panel/#add-child-group) section. Download the above report design from [link](https://github.com/boldreports/resources/tree/master/docs/report-designer/tablix/insert-or-delete-a-row-group.rdl).
+> To add child group using group menu in grouping panel, refer [Add child group](./../../../report-items/tablix/grouping-panel/#add-child-group) section. Download the above report design from [link](https://github.com/boldreports/resources/tree/master/docs/report-designer/tablix/insert-or-delete-a-row-group-ssrs.rdl).
 
 ### Adjacent row group
 

@@ -44,7 +44,7 @@ On report preview, each quarter sales of a year will be grouped along column.
 
 Similarly, you can add child and adjacent group in the column group. Refer [Insert or Delete Row Group](./../../../report-items/tablix/insert-or-delete-a-row-group-ssrs/) section to add row groups.
 
-> Download the above report design from [link](https://github.com/boldreports/resources/tree/master/docs/report-designer/tablix/insert-or-delete-a-column-group.rdl).
+> Download the above report design from [link](https://github.com/boldreports/resources/tree/master/docs/report-designer/tablix/insert-or-delete-a-column-group-ssrs.rdl).
 
 ## Delete column group
 

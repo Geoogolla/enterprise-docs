@@ -36,4 +36,4 @@ In export actions such as HTML, Excel, Word, and CSV, a multi-column layout is d
 
 ![Multi column report](/static/assets/on-premise/images/report-designer/compose-report/multi-column/multi-column-report.png)
 
-> Download the above report design from [link](https://github.com/boldreports/resources/tree/master/docs/report-designer/compose-report/create-multiple-column-report.rdl)
+> Download the above report design from [link](https://github.com/boldreports/resources/tree/master/docs/report-designer/compose-report/create-multiple-column-report-ssrs.rdl)

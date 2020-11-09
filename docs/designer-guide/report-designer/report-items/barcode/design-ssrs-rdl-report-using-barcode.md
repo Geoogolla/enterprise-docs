@@ -97,4 +97,4 @@ On report preview, the product details report will be displayed like below,
 
 ![Product Details report preview](/static/assets/on-premise/images/report-designer/report-items/barcode/report-preview.png)
 
-> Download the above report design from the [link](https://github.com/boldreports/resources/tree/master/docs/report-designer/barcode/design-report-using-barcode.rdl)
+> Download the above report design from the [link](https://github.com/boldreports/resources/tree/master/docs/report-designer/barcode/design-ssrs-rdl-report-using-barcode.rdl)

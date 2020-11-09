@@ -89,4 +89,4 @@ On report preview, the report is showing sales amount progress from start year t
 
 ![Sparkline RDL report preview](/static/assets/on-premise/images/report-designer/report-items/sparkline/design/report-preview.png)
 
-> Download the above report design from the [link](https://github.com/boldreports/resources/tree/master/docs/report-designer/sparkline/design-sparkline-using-table.rdl)
+> Download the above report design from the [link](https://github.com/boldreports/resources/tree/master/docs/report-designer/sparkline/design-ssrs-sparkline-using-table.rdl)

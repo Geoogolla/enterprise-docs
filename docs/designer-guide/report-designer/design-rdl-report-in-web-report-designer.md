@@ -152,7 +152,7 @@ Once you are done with the report designing, to save a report refer **How to sav
 2. Now, the report preview can be visualized like below.
 ![Table report preview](/static/assets/on-premise/images/report-designer/report-creation/report-preview-page-1.png)
 
-> Download the above report design from [link](https://github.com/boldreports/resources/tree/master/docs/report-designer/design-report-in-web-report-designer.rdl)
+> Download the above report design from [link](https://github.com/boldreports/resources/tree/master/docs/report-designer/design-rdl-report-in-web-report-designer.rdl)
 
 ## See also
 
