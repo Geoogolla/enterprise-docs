@@ -132,3 +132,5 @@ Resize the tablix data region to the required size in the design area. Now, the 
 To see the report preview, click on the **Preview** button in the top-right corner of the report header.
 
 ![Matrix simple design](/static/assets/on-premise/images/report-designer/report-items/chart/nested-data-region/final-design-preview.png)
+
+> Download the above report design from [link](https://github.com/boldreports/resources/tree/master/docs/report-designer/chart/nested-data-region.rdl).

@@ -120,3 +120,5 @@ In the below design background color and font styles are changed in matrix cells
 On report preview, the yearly sales report of a company will be displayed like below,
 
 ![Matrix simple design](/static/assets/on-premise/images/report-designer/report-items/matrix/matrix-design-preview.png)
+
+> Download the above report design from [link](https://github.com/boldreports/resources/tree/master/docs/report-designer/matrix/design-ssrs-matrix-report.rdl).
