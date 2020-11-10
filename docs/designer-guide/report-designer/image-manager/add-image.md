@@ -44,4 +44,4 @@ Image manager allows to add an embedded image to the report, the embedded image 
 
     ![add-image-to-header-footer](/static/assets/on-premise/images/report-designer/imagemanager/image-in-header-footer.png)
 
-> Download the above report design from [link](https://github.com/boldreports/resources/tree/master/docs/report-designer/image/add-image.rdl).
+> Download the above report design from [link](https://github.com/boldreports/resources/tree/master/docs/report-designer/image-manager/add-image.rdl).
