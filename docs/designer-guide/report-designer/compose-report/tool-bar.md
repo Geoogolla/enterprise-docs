@@ -10,20 +10,6 @@ The Report Designer toolbar contains a set of icons or buttons that allows you t
 
 ![toolbar items](/static/assets/on-premise/images/report-designer/compose-report/toolbar/toolbar-menu.png)
 
-## New
-
-To create a new blank report, click on the `New` icon in the toolbar. Now, `New Report` dialog will open as shown in below snap. In `File Name` field, specify the report name and click on the `Create` button.
-
-![New report dialog](/static/assets/on-premise/images/report-designer/compose-report/toolbar/new-report.png)
-
-## Open
-
-Opens the existing report from device or server. Refer [Open report](./../../open-report-in-web-designer/) section to open a report.
-
-## Save
-
-Saves the report to device or server. Refer [Save report](./../../save-report-in-web-designer/) section to save the report.
-
 ## Cut
 
 `Cut` action removes the currently selected report item and it can be pasted any where in the designer surface.
