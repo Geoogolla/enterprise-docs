@@ -24,3 +24,5 @@ A sort expression is created to sort `ProductCategory` fields in descending orde
 ![Filter dialog](/static/assets/on-premise/images/report-designer/report-items/chart/sort-data-in-chart-data-region/sort-data-preview.png)
 
 Similarly, you can set sort expression on a `chart series group`.
+
+> Download the above report design from the [link](https://github.com/boldreports/resources/tree/master/docs/report-designer/chart/sort-data-in-chart-data-region.rdl)

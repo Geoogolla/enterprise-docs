@@ -43,3 +43,5 @@ Invalid HTML markup tags and cascading style sheet attributes will be ignored an
   <li><p>padding, padding-bottom, padding-top, padding-right, padding-left</p></li>
   <li><p>font-weight</p></li>
 </ul>
+
+Download the above report design from the [link](https://github.com/boldreports/resources/tree/master/docs/report-designer/textbox/add-html-in-to-a-report.rdl)
