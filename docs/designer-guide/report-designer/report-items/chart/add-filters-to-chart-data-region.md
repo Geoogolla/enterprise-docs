@@ -27,3 +27,5 @@ On report preview, using the `OrderYear` and `ProductCategory` report parameters
 ![Filter dialog](/static/assets/on-premise/images/report-designer/report-items/chart/add-filter-to-chart-data-region/report-preview.png)
 
 Similarly, you can set filters on a `chart series group`.
+
+> Download the above report design from the [link](https://github.com/boldreports/resources/tree/master/docs/report-designer/chart/add-filters-to-chart-data-region.rdl)
