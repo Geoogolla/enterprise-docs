@@ -68,15 +68,16 @@ Snaps the selected report item to the closest gridline by resizing the report it
 
 ## View
 
-`View` menu contains options to show or hide `Header`, `Footer`, `Grid Lines`, `Snap To Shape` in the report design.
+`View` menu contains options to show or hide `Header`, `Footer`, `Grid Lines`, `Snap To Shape`, `Full Screen` in the report design.
 
 ![View Menu](/static/assets/on-premise/images/report-designer/compose-report/toolbar/view-menu.png)
 
 **Header** : Enables/Disables header area in the report. Refer [Header](./../../compose-report/show-or-hide-header-footer-in-report/#show-or-hide-report-header) section to add and remove header in designer surface.
-**Footer** : Enables/Disables footer area in the report. Refer [Footer](./../../compose-report/show-or-hide-header-footer-in-report/#show-or-hide-report-footer) section to add and remove footer in designer surface.**Grid Lines** : Gridlines are the pattern of lines drawn behind the report items. It provides a visual guidance while dragging or arranging the objects on the designer surface. Click on the `Grid Lines` option in the view menu to show or hide the gridlines in the report.
+
+**Footer** : Enables/Disables footer area in the report. Refer [Footer](./../../compose-report/show-or-hide-header-footer-in-report/#show-or-hide-report-footer) section to add and remove footer in designer surface.
+
+**Grid Lines** : Gridlines are the pattern of lines drawn behind the report items. It provides a visual guidance while dragging or arranging the objects on the designer surface. Click on the `Grid Lines` option in the view menu to show or hide the gridlines in the report.
 
 **Snap To Shape** : When you drag a report item in design surface, snapping guidelines will indicate the alignment position to easily align with closest report item. Click on the `Snap To Shape` option in the view menu to enable or disable the snapping guidelines in the report design.
 
-## Preview
-
-After designing a report, click on the `Preview` button to preview the report. Refer [Preview](./../../preview-report-in-web-designer/) section to preview the designed report.
+**Full Screen** : The standalone reportdesigner can expand to fill your entire screen with its Full Screen feature.
