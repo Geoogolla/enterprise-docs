@@ -8,7 +8,7 @@ documentation: ug
 
 # Import Active Directory Groups
 
-The users belonging to the System Administrator group can import Active Directory groups to the Report Sever.
+The users belonging to the System Administrator group can import Active Directory groups to the Report Server.
 
 > Active Directory connection must be configured in the [Active Directory Settings](./../../../../manage-app-settings/active-directory/) for importing groups.
 

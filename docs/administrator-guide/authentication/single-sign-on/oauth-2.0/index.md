@@ -135,3 +135,21 @@ Following are the list of few OAuth 2.0 providers and that explains how to conne
 
 The OAuth 2.0 is provided in both the Bold Reports sites and User Management Server. OAuth 2.0 can be handled for each sites individually in the settings page by disabling the option as in the following screenshot.
 ![Oauth Group Setting](/static/assets/on-premise/images/authentication/single-sign-on/oauth/enableoauth.png)
+
+## Set OAuth 2.0 as Default Authentication
+
+OAuth 2.0 can be set as default authentication when [OAuth 2.0](#steps-to-configure-oauth-20-in-bold-reports) settings is enabled and saved. Follow the below steps.
+1. In settings page, click on Authentication tab and select General.
+2. Enable the option **Enable Default Authentication** and select the **OAuth 2.0** in default authentication provider as in the following screenshot.
+![Oauth Default Setting](/static/assets/on-premise/images/authentication/single-sign-on/oauth/oauth-default-authentication.png)
+
+### Disabling OAuth 2.0 Settings
+
+When OAuth 2.0 is set as default authentication and try to disable the [OAuth 2.0 settings](#steps-to-configure-oauth-20-in-bold-reports) will display below pop-up. Proceeding by clicking `Yes` will disable the [OAuth 2.0 default authentication](#set-oauth-20-as-default-authentication).
+
+![Oauth Default Setting Popup](/static/assets/on-premise/images/authentication/single-sign-on/oauth/oauth-default-authentication-popup.png)
+
+### Bypassing OAuth 2.0 Authentication
+
+Use the below custom login URL to login as normal user that is not from OAuth, when [OAuth 2.0 default authentication](#set-oauth-20-as-default-authentication) is enabled.
+>**`{Bold Reports URL}/reporting/site/{tenant-name}/login?use_default_authentication=false`**
