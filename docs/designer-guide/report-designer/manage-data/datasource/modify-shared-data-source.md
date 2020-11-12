@@ -9,14 +9,16 @@ This section guides you to modify an shared data source connection in Bold Repor
 
 1. Select a data source in the `DATASOURCES` panel that you want to edit.
 
-   ![Data source item menu icon](/static/assets/on-premise/images/report-designer/manage-data/datasource/data-source-item-menu-icon.png)
+   <img style="width:540px" src="/assets/on-premise/images/report-designer/manage-data/datasource/data-source-item-menu-icon.png" alt="Data source item menu icon">
 
 2. Click on the above highlighted icon to open the `Edit` context menu of the selected data source.
 
-   ![Data panel context menu](/static/assets/on-premise/images/report-designer/manage-data/datasource/data-panel-context-menu.png)
+   <img style="width:540px" src="/assets/on-premise/images/report-designer/manage-data/datasource/data-panel-context-menu.png" alt="Data panel context menu">
+
 
 3. Choose `Edit` option from the context menu, to open `Edit Connection` panel.
 
-   ![Edit connection panel](/static/assets/on-premise/images/report-designer/manage-data/datasource/edit-shared-data-source-panel.png)
+   <img style="width:540px" src="/assets/on-premise/images/report-designer/manage-data/datasource/edit-shared-data-source-panel.png" alt="Edit connection panel">
+
 
 4. After modifying the fields, click on `Save` button.
