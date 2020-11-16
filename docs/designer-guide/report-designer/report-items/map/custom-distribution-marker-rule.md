@@ -9,16 +9,16 @@ Indicate your own number of data ranges to decide the distribution of values.
 
 Once you select the data value, the properties required to configure distribution type will start displaying under marker color rule category,
 
-![Map distribution types](/static/assets/on-premise/images/report-designer/report-items/map/marker-color-rule/distribution-properties.png)
+<img style="width:540px" src="/assets/on-premise/images/report-designer/report-items/map/marker-color-rule/distribution-properties.png" alt="Map distribution types">
 
 Choose `Custom` in `Distribution Type` dropdown.
 Now an option called **Buckets** will start displaying, click on the edit icon.
 
-![Edit icon](/static/assets/on-premise/images/report-designer/report-items/map/custom-distribution-range/edit-icon.png)
+<img style="width:540px" src="/assets/on-premise/images/report-designer/report-items/map/custom-distribution-range/edit-icon.png" alt="Edit icon">
 
 Now, you will be taken to the **Map Bucket** panel.
 
-![Edit icon](/static/assets/on-premise/images/report-designer/report-items/map/custom-distribution-range/mapbucket-panel.png)
+<img style="width:540px" src="/assets/on-premise/images/report-designer/report-items/map/custom-distribution-range/mapbucket-panel.png" alt="Edit icon">
 
 ## Buckets
 

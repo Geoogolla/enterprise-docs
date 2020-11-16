@@ -9,14 +9,14 @@ This section guides you to modify an shared data connection in Bold Report Desig
 
 1. Select a data in the `DATA` panel that you want to edit.
 
-   ![Data item menu icon](/static/assets/on-premise/images/report-designer/manage-data/dataset/data-item-menu-icon.png)
+   <img style="width:540px" src="/assets/on-premise/images/report-designer/manage-data/dataset/data-item-menu-icon.png" alt="Data item menu icon">
 
 2. Click on the above highlighted icon to open the `Edit` context menu of the selected data.
 
-   ![Data panel context menu](/static/assets/on-premise/images/report-designer/manage-data/dataset/data-panel-context-menu.png)
+   <img style="width:540px" src="/assets/on-premise/images/report-designer/manage-data/dataset/data-panel-context-menu.png" alt="Data panel context menu">
 
 3. Choose `Edit` option from the context menu. Now, the below view will be displayed to handle your modification.
 
-   ![Query designer edit view](/static/assets/on-premise/images/report-designer/manage-data/dataset/edit-shared-data-panel.png)
+   <img style="width:540px" src="/assets/on-premise/images/report-designer/manage-data/dataset/edit-shared-data-panel.png" alt="Query designer edit view">
 
 4. After modifying the fields, click on `Save` button.

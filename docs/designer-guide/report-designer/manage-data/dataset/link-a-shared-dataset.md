@@ -9,22 +9,22 @@ You can create a shared dataset in the report server and it can be linked with t
 
 1. Click the `Data` icon in the configuration panel to launch a `Data` configuration.
 
-   ![Data icon configuration panel](/static/assets/on-premise/images/report-designer/manage-data/dataset/data-icon-configuration-panel.png)
+   <img style="width:375px" src="/assets/on-premise/images/report-designer/manage-data/dataset/data-icon-configuration-panel.png" alt="Data icon configuration panel">
 
 2. Click on `SHARED DATA` button in `Data` panel.
 
-   ![Click on shared data button](/static/assets/on-premise/images/report-designer/manage-data/dataset/shared-data-button.png)
+   <img style="width:540px" src="/assets/on-premise/images/report-designer/manage-data/dataset/shared-data-button.png" alt="Click on shared data button">
 
 3. After clicking  on the `SHARED DATA`, the new dataset wizard will be shown as below:
 
-   ![Click on new dataset button](/static/assets/on-premise/images/report-designer/manage-data/dataset/new-dataset-button.png)
+   <img style="width:540px" src="/assets/on-premise/images/report-designer/manage-data/dataset/new-dataset-button.png" alt="Click on new dataset button">
 
 4. In **Name** field, specify the dataset name without special characters.
 
 5. In **Shared DataSet** field, you can select existing shared datasets in the server from the drop-down list.
-      ![Shared data fields panel](/static/assets/on-premise/images/report-designer/manage-data/dataset/shared-data-fields.png)
+      <img style="width:540px" src="/assets/on-premise/images/report-designer/manage-data/dataset/shared-data-fields.png" alt="Shared data fields panel">
 6. Click on the `Save` button. Now, a new shared dataset will be added in the report like below.
 
-   ![Data list view](/static/assets/on-premise/images/report-designer/manage-data/dataset/data-list-view.png)
+   <img style="width:540px" src="/assets/on-premise/images/report-designer/manage-data/dataset/data-list-view.png" alt="Data list view">
 
    > Note: You can link multiple shared dataset into the report.
