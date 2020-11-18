@@ -100,7 +100,7 @@ Visibility property is used to conditionally show or hide the image report item 
 
 ### Miscellaneous
 
-<span style="font-weight:bold">Custom Attributes</span>
+<span style="font-weight:bold">Custom attributes</span>
 
 This property can be used to set the values for image report item custom properties. To assign values for custom properties using properties panel refer [Custom Properties](./../../compose-report/common-properties/#custom-properties) section.
 

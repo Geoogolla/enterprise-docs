@@ -321,7 +321,9 @@
             "Keyboard Shortcuts": "design-report-using-keyboard-shortcuts.md",
             "How To": {
                 "Configure Map Shapes": "configure-map-shapes.md",
-                "Upgrade or downgrade RDL schema version": "upgrade-or-downgrade-rdl-schema-version.md"            }
+                "Upgrade or downgrade RDL schema version": "upgrade-or-downgrade-rdl-schema-version.md",
+                "How to get distinct values in parameter drop down": "get-distinct-values-in-ssrs-parameter-drop-down.md"
+            }
         },
     "Manage Content": {
         "Reports": {

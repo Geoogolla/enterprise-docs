@@ -135,7 +135,7 @@ Keep together property is used to display the subreport item in a single page, o
 
 ![subreport item keep together](/static/assets/on-premise/images/report-designer/report-items/subreport/subreport-keep-together.png)
 
-<span style="font-weight:bold">Custom Attributes</span>
+<span style="font-weight:bold">Custom attributes</span>
 
 This property can be used to set the values for subreport custom properties. To create and assign values for custom properties using properties panel refer [Custom Properties](./../../compose-report/common-properties/#custom-properties) section.
 

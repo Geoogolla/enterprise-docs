@@ -155,11 +155,19 @@ Visibility property is used to conditionally show or hide the tablix report item
 
 ### Miscellaneous
 
-<span style="font-weight:bold">Custom Attributes</span>
+#### Page name
+
+The page name property is used to name the first worksheet of the Excel workbook, when exporting the report to excel format.
+
+![Page name property](/static/assets/on-premise/images/report-designer/report-items/tablix/page-name.png)
+
+You can set the static or dynamic text as page name. To set and reset dynamic text, refer [Set Expression](./../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../compose-report/properties-panel/#reset-expression) section.
+
+#### Custom attributes
 
 This property can be used to set the values for tablix custom properties. To create and assign values for custom properties using properties panel refer [Custom Properties](./../../compose-report/common-properties/#custom-properties) section.
 
-<span style="font-weight:bold">Tooltip</span>
+#### Tooltip
 
 Tooltip property can be used to display informative text or value, when the user hovers over on the report item in report preview. To set tooltip for table report item using properties panel refer [Tooltip](./../../compose-report/common-properties/#tooltip) section.
 

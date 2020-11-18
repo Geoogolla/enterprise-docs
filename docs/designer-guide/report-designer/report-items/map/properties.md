@@ -172,12 +172,6 @@ To restart the page numbering on each page, enable `Page Number Reset` property 
 
 ![Reset page number](/static/assets/on-premise/images/report-designer/report-items/map/over-view/page-number-reset.png)
 
-### Page name
-
-The page name property is used to name the first worksheet of the Excel workbook, when exporting the report to excel format.
-
-![Reset page number](/static/assets/on-premise/images/report-designer/report-items/map/over-view/page-name.png)
-
 ## Position
 
 Position property is used to set the width, height, left and top position of the map in the report design. To handle these properties using properties panel refer [Position](./../../../compose-report/common-properties/#position) section.
@@ -193,10 +187,19 @@ Position property is used to set the width, height, left and top position of the
 
 ## Miscellaneous
 
-<span style="font-weight:bold">Custom Attributes</span>
+### Page name
+
+The page name property is used to name the first worksheet of the Excel workbook, when exporting the report to excel format.
+
+![Page name property](/static/assets/on-premise/images/report-designer/report-items/map/over-view/page-name.png)
+
+You can set the static or dynamic text as page name. To set and reset dynamic text, refer [Set Expression](./../../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../../compose-report/properties-panel/#reset-expression) section.
+
+### Custom attributes
 
 This property can be used to set the values for map custom properties. To create and assign values for custom properties using properties panel refer [Custom Properties](./../../../compose-report/common-properties/#custom-properties) section.
-<span style="font-weight:bold">Tooltip</span>
+
+### Tooltip
 
 Tooltip property can be used to display informative text or value, when the user hovers over on the report item in report preview. To set tooltip for table report item using properties panel refer [Tooltip](./../../../compose-report/common-properties/#tooltip) section.
 

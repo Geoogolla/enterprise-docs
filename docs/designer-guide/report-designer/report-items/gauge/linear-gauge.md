@@ -187,6 +187,14 @@ The visibility property is used to conditionally show or hide the linear gauge r
 
 ### Miscellaneous
 
+#### Page name
+
+The page name property is used to name the first worksheet of the Excel workbook, when exporting the report to excel format.
+
+![Page name property](/static/assets/on-premise/images/report-designer/report-items/gauge/page-name.png)
+
+You can set the static or dynamic text as page name. To set and reset dynamic text, refer [Set Expression](./../../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../../compose-report/properties-panel/#reset-expression) section.
+
 #### Custom attributes
 
 This property can be used to set the values for linear gauge custom properties. To assign values for custom properties using properties panel, refer to the [Custom Properties](./../../../compose-report/common-properties/#custom-properties) section.
