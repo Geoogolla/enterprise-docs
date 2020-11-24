@@ -66,6 +66,7 @@
     "Manage Tenants": {
         "Create Site": "create-site.md"
     },
+    "User Profile": "user-profile.md",
     "Rebranding": "custom-rebranding.md",
     "Localization": "localization.md",
     "Upgrade":{
@@ -349,7 +350,6 @@
         "Custom Schedule Report Settings": "custom-schedule-report-settings.md"
     },
     "Manage Categories": "manage-categories.md",
-    "User Profile": "user-profile.md",
     "Collaborations": "collaboration.md",
     "Notifications": "notifications.md"
 },
