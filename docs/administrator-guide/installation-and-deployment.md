@@ -87,8 +87,8 @@ I>By default, Bold Reports will be deployed on `C:\Bold Reports`
 
 6. Now Bold Reports site can be browsed using the new binding.
 
-> * To Configure the Bold Reports Enterprise Reporting Edition by using newly added bindings in IIS, refer this [link](./../how-to/change-bold-reports-url-in-bold-reports-on-premise-edition/)
-> * Bold Reports Enterprise Reporting Edition configuration completed by using newly added bindings in IIS but unable to launch `BoldReportsEnterprise Reporting` site, refer this [link](./../how-to/change-bold-reports-url-when-bold-reports-on-premise-site-fails/) to solve the problem and configure BoldReports site.
+> * To Configure the Bold Reports Enterprise Reporting Edition by using newly added bindings in IIS, refer this [link](./../how-to/map-a-domain-name-to-bold-reports-site-before-startup/)
+> * Bold Reports Enterprise Reporting Edition configuration completed by using newly added bindings in IIS but unable to launch `BoldReportsEnterprise Reporting` site, refer this [link](./../how-to/resolve-unavailable-error-when-site-fails-incase-of-domain-name-change/) to solve the problem and configure BoldReports site.
 
 ## See Also
 

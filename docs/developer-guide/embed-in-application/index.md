@@ -14,7 +14,7 @@ Bold Reports Report server is designed to manage the Report Server functionaliti
 
 1. [Authorization Token](./../../developer-guide/how-to/generate-access-token-for-bold-reports-server-user/).
 2. [Get list of Reports from Report server](../../developer-guide/how-to/get-list-of-items-from-bold-reports-server/)
-3. [Export report from Report Server](./../../administrator-guide/how-to/export-report-from-bold-reports-server/)
+3. [Export report from Report Server](./../../developer-guide/how-to/export-report-from-bold-reports-server/)
 
 ## Reporting Components
 
