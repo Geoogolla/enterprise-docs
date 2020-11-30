@@ -13,3 +13,7 @@ This section helps to get the answer for the frequently asked how to queries in 
 * [How to generate the access token for Bold Reports Report Server user?](./../how-to/generate-access-token-for-bold-reports-server-user/)
 
 * [How to get the list of items from Bold Reports Report Server?](../../developer-guide/how-to/get-list-of-items-from-bold-reports-server/)
+
+* [How to filter data based on user in a report?](./../how-to/filter-data-based-on-user-in-a-report/)
+
+* [How to export the report from Bold Reports Report Server?](./../how-to/export-report-from-bold-reports-server/)

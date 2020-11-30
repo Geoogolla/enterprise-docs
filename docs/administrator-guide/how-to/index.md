@@ -10,9 +10,9 @@ documentation: ug
 
 This section helps to get the answer for the frequently asked how to queries in Bold Reports Enterprise Reporting.
 
-* [How to map a domain name for Bold Report On-Premise Edition before startup?](./../how-to/change-bold-reports-url-in-bold-reports-on-premise-edition/)
+* [How to map a domain name for Bold Report On-Premise Edition before startup?](./../how-to/map-a-domain-name-to-bold-reports-site-before-startup/)
 
-* [How to resolve unavailable error with Bold Reports On-Premises Edition when it is occurred in reason of domain name change?](./../how-to/change-bold-reports-url-when-bold-reports-on-premise-site-fails/)
+* [How to resolve unavailable error with Bold Reports On-Premises Edition when it is occurred in reason of domain name change?](./../how-to/resolve-unavailable-error-when-site-fails-incase-of-domain-name-change/)
 
 * [How to setup the staging and production environment for Bold Reports On-Premise Edition?](./../how-to/setup-the-staging-and-production-environment-for-bold-reports-on-premise-edition/)
 
@@ -21,10 +21,6 @@ This section helps to get the answer for the frequently asked how to queries in 
 * [How to add parameters with report link?](./../how-to/report-link-with-filter-parameters/)
 
 * [How to configure Gmail SMTP Server in Email Settings?](./../how-to/configure-gmail-smtp-server-in-email-settings/)
-
-* [How to filter data based on user in a report?](./../how-to/filter-data-based-on-user-in-a-report/)
-
-* [How to export the report from Bold Reports Report Server?](./../how-to/export-report-from-bold-reports-server/)
 
 * [How to apply the patches to Bold Reports Multi-tenant Azure App Service?](./../how-to/apply-patches-to-bold-reports-azure-app-service/)
 
