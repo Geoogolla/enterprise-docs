@@ -10,14 +10,14 @@ This section guides you to delete an embedded data from the report in Bold Repor
 
 1. Select a data in the `DATA` panel that you want to delete.
 
-   <img style="width:540px" src="/assets/on-premise/images/report-designer/manage-data/dataset/data-item-menu-icon.png" alt="Data item menu icon">
+   ![Data item menu icon](/static/assets/on-premise/images/report-designer/manage-data/dataset/data-item-menu-icon.png#width=540px)
 
 2. Click the above highlighted icon to open the delete context menu for the selected data.
 
-   <img style="width:540px" src="/assets/on-premise/images/report-designer/manage-data/dataset/data-panel-context-menu.png" alt="Data panel context menu">
+   ![Data panel context menu](/static/assets/on-premise/images/report-designer/manage-data/dataset/data-panel-context-menu.png#width=540px)
 
 3. Choose `Delete` from the context menu, it will launch the confirmation dialog like below.
 
-   <img style="width:410px" src="/assets/on-premise/images/report-designer/manage-data/dataset/delete-data-confirmation.png" alt="Delete data confirmation">
+   ![Delete data confirmation](/static/assets/on-premise/images/report-designer/manage-data/dataset/delete-data-confirmation.png#width=410px)
 
 4. Click on the `Yes` button to remove the data from the report data list.

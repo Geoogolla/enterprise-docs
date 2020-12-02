@@ -12,6 +12,6 @@ keywords: ejReportDesigner, reportdesigner, delete, image, remove
 
 2. Click on the above highlighted `Delete` icon, it will launch the confirmation dialog like below.
 
-   <img style="width:530px" src="/assets/on-premise/images/report-designer/imagemanager/delete-image-alert.png" alt="delete-alert-dialog">
+   ![delete-alert-dialog](/static/assets/on-premise/images/report-designer/imagemanager/delete-image-alert.png#width=530px)
 
 3. Click on the `Yes` button to remove an image from the report.

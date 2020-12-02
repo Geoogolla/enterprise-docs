@@ -10,14 +10,14 @@ This section guides you to delete an embedded data source from the report in Bol
 
 1. Select a data source in the `DATASOURCES` panel that you want to delete.
 
-   <img style="width:540px" src="/assets/on-premise/images/report-designer/manage-data/datasource/data-source-item-menu-icon.png" alt="Data source item menu icon">
+   ![Data source item menu icon](/static/assets/on-premise/images/report-designer/manage-data/datasource/data-source-item-menu-icon.png#width=540px)
 
 2. Click the above highlighted icon to open the delete context menu for the selected data source.
 
-   <img style="width:540px" src="/assets/on-premise/images/report-designer/manage-data/datasource/data-panel-context-menu.png" alt="Data panel context menu">
+   ![Data panel context menu](/static/assets/on-premise/images/report-designer/manage-data/datasource/data-panel-context-menu.png#width=540px)
 
 3. Choose `Delete` from the context menu, it will launch the confirmation dialog like below.
 
-   <img style="width:540px" src="/assets/on-premise/images/report-designer/manage-data/datasource/delete-data-source-confirmation.png" alt="Delete data source confirmation">
+   ![Delete data source confirmation](/static/assets/on-premise/images/report-designer/manage-data/datasource/delete-data-source-confirmation.png#width=540px)
 
 4. Click on the `Yes` button to remove the datasource from the report.

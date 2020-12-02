@@ -9,10 +9,10 @@ keywords: copy data, clone datasource, report-designer, ssrs, reporting
 This section guides you to duplicate an existing data source connection in Bold Report Designer. It can be done through the following procedure:
 
 1. Select the data source that you need to duplicate in the `DATASOURCES` panel.
-   <img style="width:540px" src="/assets/on-premise/images/report-designer/manage-data/datasource/data-source-item-menu-icon.png" alt="Data source item menu icon">
+   ![Data source item menu icon](/static/assets/on-premise/images/report-designer/manage-data/datasource/data-source-item-menu-icon.png#width=540px)
 2. Click the above highlighted icon to open the context menu.
-   <img style="width:540px" src="/assets/on-premise/images/report-designer/manage-data/datasource/data-panel-context-menu.png" alt="Data panel context menu">
+   ![Data panel context menu](/static/assets/on-premise/images/report-designer/manage-data/datasource/data-panel-context-menu.png#width=540px)
 3. Choose `Clone` option from the context menu, to duplicate the selected data source.
-   <img style="width:540px" src="/assets/on-premise/images/report-designer/manage-data/datasource/clone-data-source-option.png" alt="Image represents the duplicate datasource icon">
+   ![Image represents the duplicate datasource icon](/static/assets/on-premise/images/report-designer/manage-data/datasource/clone-data-source-option.png#width=540px)
 4. Now a duplicated data source will be created like below.
-   <img style="width:540px" src="/assets/on-premise/images/report-designer/manage-data/datasource/duplicate-data-source-represenation.png" alt="Image represents the datasource is duplicated">
+   ![Image represents the datasource is duplicated](/static/assets/on-premise/images/report-designer/manage-data/datasource/duplicate-data-source-represenation.png#width=540px)
