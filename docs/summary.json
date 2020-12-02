@@ -66,6 +66,7 @@
     "Manage Tenants": {
         "Create Site": "create-site.md"
     },
+    "User Profile": "user-profile.md",
     "Rebranding": "custom-rebranding.md",
     "Localization": "localization.md",
     "Upgrade":{
@@ -85,14 +86,10 @@
     "How To": {
         "Map a domain name to Bold Reports site before startup": "map-a-domain-name-to-bold-reports-site-before-startup.md",
         "How to resolve unavailable error when deploying on Bold Reports site":"resolve-unavailable-error-when-site-fails-incase-of-domain-name-change.md",
-        "Change BoldReports URL in BoldReportsOnPremiseEdition": "change-bold-reports-url-in-bold-reports-on-premise-edition.md",
-        "Change BoldReports URL when BoldReportsOn-Premise site fails": "change-bold-reports-url-when-bold-reports-on-premise-site-fails.md",
         "Setup the staging and production environment for BoldReportsOn-PremiseEdition": "setup-the-staging-and-production-environment-for-bold-reports-on-premise-edition.md",
         "Set up Azure Active Directory": "set-up-azure-active-directory.md",
         "Configure Gmail SMTP Server in Email Settings": "configure-gmail-smtp-server-in-email-settings.md",
         "Add parameters with Report link": "report-link-with-filter-parameters.md",
-        "Filter Data Based on User in a Report": "filter-data-based-on-user-in-a-report.md",
-        "Export report from Bold Reports Report Server ": "export-report-from-bold-reports-server.md",
         "Upgrade the Bold Reports On-Premise Edition new version on production server": "upgrade-the-bold-reports-on-premise-edition-new-version-on-production-server.md",
         "Migrate SSRS reports to the Bold Reports Report Server":"migrate-ssrs-reports-to-the-bold-reports-report-server.md",
         "How to apply the patches to Bold Reports Enterprise Reporting":"apply-patches-to-bold-reports.md",        
@@ -321,7 +318,9 @@
             "Keyboard Shortcuts": "design-report-using-keyboard-shortcuts.md",
             "How To": {
                 "Configure Map Shapes": "configure-map-shapes.md",
-                "Upgrade or downgrade RDL schema version": "upgrade-or-downgrade-rdl-schema-version.md"            }
+                "Upgrade or downgrade RDL schema version": "upgrade-or-downgrade-rdl-schema-version.md",
+                "How to get distinct values in parameter drop down": "get-distinct-values-in-ssrs-parameter-drop-down.md"
+            }
         },
     "Manage Content": {
         "Reports": {
@@ -331,6 +330,7 @@
             "Update Report": "update-report.md",
             "Favorite Reports": "favorite-report.md",
             "Move Copy and Clone Reports ": "move-copy-and-clone-reports.md",
+            "Caching Report": "caching-report.md",
             "Sharing Reports": "share-report.md",
             "Public Reports": "public-report.md",
             "Delete Reports": "delete-report.md",
@@ -347,7 +347,6 @@
         "Custom Schedule Report Settings": "custom-schedule-report-settings.md"
     },
     "Manage Categories": "manage-categories.md",
-    "User Profile": "user-profile.md",
     "Collaborations": "collaboration.md",
     "Notifications": "notifications.md"
 },
@@ -362,6 +361,8 @@
         "Integrating Report Designer": "integrating-report-designer.md"
     },
     "How to":{
+        "Filter Data Based on User in a Report": "filter-data-based-on-user-in-a-report.md",
+        "Export report from Bold Reports Report Server ": "export-report-from-bold-reports-server.md",
         "Get list of items from Bold Reports Report Server": "get-list-of-items-from-bold-reports-server.md",
         "Generate access token for Bold Reports Report Server user": "generate-access-token-for-bold-reports-server-user.md",
         "How to generate the authorization token by using Embed Secret Key API":"generate-authorization-token-for-user-by-using-embed-secret-key-api.md"

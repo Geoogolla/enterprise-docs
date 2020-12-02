@@ -74,6 +74,6 @@ Select the required language in the **Language** property dropdown.
 
 ## Miscellaneous
 
-<span style="font-weight:bold">Custom Attributes</span>
+<span style="font-weight:bold">Custom attributes</span>
 
 This property can be used to add custom properties at report level. To create and assign values for custom properties using properties panel refer [Custom Properties](./../../compose-report/common-properties/#custom-properties) section.![Custom properties at report level](/static/assets/on-premise/images/report-designer/report-items/properties-panel/custom-properties-report-level.png)

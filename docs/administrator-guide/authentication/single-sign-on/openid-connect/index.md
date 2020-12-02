@@ -88,3 +88,21 @@ Following are the list of few OpenID Connect providers and that explains how to 
 The OpenID Connect is provided in both the Bold Reports sites and User Management Server. OpenID Connect can be handled for each sites individually in the settings page by disabling the option as in the following screenshot.
 
 ![OpenId Global Authentication Control](/static/assets/on-premise/images/authentication/single-sign-on/openid-connect/openid-global-authentication-control.png)
+
+## Set OpenID Connect as Default Authentication
+
+OpenID Connect can be set as default authentication when [OpenID Connect](#steps-to-configure-openid-connect-in-bold-reports) settings is enabled and saved. Follow the below steps.
+1. In settings page, click on Authentication tab and select General.
+2. Enable the option **Enable Default Authentication** and select the **OpenID Connect** in default authentication provider as in the following screenshot.
+![OpenId Default Setting](/static/assets/on-premise/images/authentication/single-sign-on/openid-connect/openid-default-authentication.png)
+
+### Disabling OpenID Connect Settings
+
+When OpenID Connect is set as default authentication and try to disable the [OpenID Connect settings](#steps-to-configure-openid-connect-in-bold-reports) will display below pop-up. Proceeding by clicking `Yes` will disable the [OpenID Connect default authentication](#set-openid-connect-as-default-authentication).
+
+![OpenId Default Setting Popup](/static/assets/on-premise/images/authentication/single-sign-on/openid-connect/openid-default-authentication-popup.png)
+
+### Bypassing OpenID Connect Authentication
+
+Use the below custom login URL to login as normal user that is not from OAuth, when [OpenID Connect default authentication](#set-openid-connect-as-default-authentication) is enabled.
+>**`{Bold Reports URL}/reporting/site/{tenant-name}/login?use_default_authentication=false`**

@@ -263,15 +263,22 @@ The page break property can be used to control the amount of information on each
 ![Break location](/static/assets/on-premise/images/report-designer/report-items/rectangle/break-location-types.png)
 2. To restart the page numbering on each page, enable `Page Number Reset` property checkbox.
 ![Reset page number](/static/assets/on-premise/images/report-designer/report-items/rectangle/page-break-property.png)
-3. The PageName property specifies a page id for the new page that the page break causes. You can specify a static text or dynamic expression to this property.
 
 ### Miscellaneous
 
-<span style="font-weight:bold">Custom Attributes</span>
+#### Page name
+
+The page name property is used to name the first worksheet of the Excel workbook, when exporting the report to excel format.
+
+![Page name property](/static/assets/on-premise/images/report-designer/report-items/chart/page-name.png)
+
+You can set the static or dynamic text as page name. To set and reset dynamic text, refer [Set Expression](./../../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../../compose-report/properties-panel/#reset-expression) section.
+
+#### Custom attributes
 
 This property can be used to set the values for chart custom properties. To assign values for custom properties using properties panel refer [Custom Properties](./../../../compose-report/common-properties/#custom-properties) section.
 
-<span style="font-weight:bold">Tooltip</span>
+#### Tooltip
 
 Tooltip property can be used to display informative text or value, when the user hovers over on the report item in report preview. To set tooltip for chart item using properties panel refer [Tooltip](./../../../compose-report/common-properties/#tooltip) section.
 

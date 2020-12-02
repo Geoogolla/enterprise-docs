@@ -48,6 +48,6 @@ Enable/Disable the visibility property to show and hide the line reportitem, whe
 
 ### Miscellaneous
 
-<span style="font-weight:bold">Custom Attributes</span>
+<span style="font-weight:bold">Custom attributes</span>
 
 This property can be used to set the values for line report item custom properties. To create and assign values for custom properties using properties panel refer [Custom Properties](./../../compose-report/common-properties/#custom-properties) section.
