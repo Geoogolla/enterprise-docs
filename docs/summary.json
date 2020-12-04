@@ -131,7 +131,8 @@
                 "Link a Shared DataSource": "link-a-shared-data-source.md",
                 "Edit a Shared DataSource": "modify-shared-data-source.md",
                 "Delete a DataSource": "delete-a-data-source.md",
-                "Duplicate a DataSource": "duplicate-a-data-source.md"},
+                "Duplicate a DataSource": "duplicate-a-data-source.md",
+				"Reorder a DataSource": "reorder-data-source.md"},
                 "DataSet": {
                     "Create an Embedded DataSet": "create-an-embedded-dataset.md",
                     "Edit an Embedded DataSet": "modify-an-embedded-dataset.md",
@@ -139,6 +140,7 @@
                     "Edit a Shared DataSet": "modify-shared-dataset.md",
                     "Delete a DataSet": "delete-a-dataset.md",
                     "Duplicate a DataSet": "duplicate-a-dataset.md",
+					"Reorder a DataSet": "reorder-a-dataset.md",
                     "DataSet Fields": "dataset-fields.md",
                     "DataSet Filters": "add-a-filter-to-a-dataset.md",
                     "DataSet Parameters":"dataset-parameters.md"
@@ -294,7 +296,8 @@
                     "Chart Types" : "types.md",
                     "Embedding Charts within a Tablix" : "nested-data-region.md",
                     "Filter Data": "add-filters-to-chart-data-region.md",
-                    "Sort Data": "sort-data-in-chart-data-region.md"
+                    "Sort Data": "sort-data-in-chart-data-region.md",
+					"Color palette": "color-palette.md"
                 },
                 "Indicator": "indicator.md",
                 "Gauge": {
