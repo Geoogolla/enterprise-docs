@@ -66,7 +66,10 @@ You can assign a custom name for the static row or column using the `Name` field
 
 <span style="font-weight:bold">Output</span>
 
-On exporting the report, the visibility of the static row or column can be controlled using the `Output` property. The **Auto** or **Output** options in the dropdown enables the row or column to be exported. Choosing **NoOutput** will not export the row or column.
+On exporting the report, the visibility of the static row or column can be controlled using the `Output` property. Choosing the following options for the `Output` property will perform the respective operations:
+
+* **Auto** or **Output** - Exports the row or column
+* **NoOutput** - Does not export the row or column
 
 ![Data element output property](/static/assets/on-premise/images/report-designer/report-items/tablix/output-property.png)
 
@@ -154,7 +157,10 @@ You can assign a custom name for the dynamic row or column using the `Name` fiel
 
 <span style="font-weight:bold">Output</span>
 
-On exporting the report, the visibility of the dynamic row or column can be controlled using the `Output` property. The **Auto** or **Output** options in the dropdown enables the row or column to be exported. Choosing **NoOutput** will not export the row or column.
+On exporting the report, the visibility of the dynamic row or column can be controlled using the `Output` property. Choosing the following options for the `Output` property will perform the respective operations:
+
+* **Auto** or **Output** - Exports the row or column
+* **NoOutput** - Does not export the row or column
 
 ![Data element output property](/static/assets/on-premise/images/report-designer/report-items/tablix/output-property.png)
 

@@ -162,13 +162,16 @@ You can assign a custom name for the textbox element using the `Name` field. The
 
 <span style="font-weight:bold">Output</span>
 
-On exporting the report, the visibility of the textbox can be controlled using the `Output` property. The **Auto** or **Output** options in the dropdown enables the textbox report item to be exported. Choosing **NoOutput** will not export the textbox report item.
+On exporting the report, the visibility of the textbox can be controlled using the `Output` property. Choosing the following options for the `Output` property will perform the respective operations:
+
+* **Auto** or **Output** - Exports the textbox report item
+* **NoOutput** - Does not export the textbox report item
 
 ![Data element output property](/static/assets/on-premise/images/report-designer/report-items/textbox/output-property.png)
 
 <span style="font-weight:bold">Style</span>
 
-The `Style` property can be used to set the export type of the textbox report item. Choosing **Auto** or **Element** style will export the textbox as an element. The **Attribute** style will export the textbox as an attribute.
+The `Style` property can be used to set the export type of the textbox report item. Choosing **Auto** or **Element** style will export the textbox as an XML element. The **Attribute** style will export the textbox as an XML attribute.
 
 ![Data element style property](/static/assets/on-premise/images/report-designer/report-items/textbox/style-property.png)
 

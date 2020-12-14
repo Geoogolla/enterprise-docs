@@ -194,13 +194,11 @@ The border style, color, width and background color properties can be used to st
 
 ### Chart Area
 
-You can customize the chart series color using the `Color Palatte` property.
+You can customize the chart series color using the [Color Palette](./../../../report-items/chart/color-palette/) property.
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/pie-chart/color-palatte.png)
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/pie-chart/color-palatte-design.png)
-
-Refer [Color Palette](./../../../report-items/chart/color-palette/) section to define custom colors for the chart.
 
 ### Title
 
@@ -237,7 +235,10 @@ You can assign a custom name for the chart element using the `Name` field. The c
 
 <span style="font-weight:bold">Output</span>
 
-On exporting the report, the visibility of the chart can be controlled using the `Output` property. The **Auto** or **Output** options in the dropdown enables the chart report item to be exported. Choosing **NoOutput** will not export the chart report item.
+On exporting the report, the visibility of the chart can be controlled using the `Output` property. Choosing the following options for the `Output` property will perform the respective operations:
+
+* **Auto** or **Output** - Exports the chart report item
+* **NoOutput** - Does not export the chart report item
 
 ![Data element output property](/static/assets/on-premise/images/report-designer/report-items/tablix/output-property.png)
 
