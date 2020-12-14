@@ -365,3 +365,6 @@ NoOutput
 databar
 ContentsOnly
 DataMatrix
+csv
+xlsx
+xls
