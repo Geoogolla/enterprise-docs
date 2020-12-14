@@ -123,6 +123,26 @@ Writing mode property represent the direction of the no rows message along `Hori
 
 Position property is used to set the width, height, left and top position of the subreport item in the report design. To handle these properties using properties panel refer [Position](./../../compose-report/common-properties/#position) section.![subreport item position](/static/assets/on-premise/images/report-designer/report-items/subreport/subreport-norows-position.png)
 
+### Data Element
+
+Data element can be used to control visibility of a report item when exporting the report in XML format. The Data element properties are listed in the properties panel, under the `Data Element` category.
+
+![Data element properties](/static/assets/on-premise/images/report-designer/report-items/tablix/data-element-properties.png)
+
+<span style="font-weight:bold">Name</span>
+
+You can assign a custom name for the subreport element using the `Name` field. The subreport will be exported with the provided name.
+
+![Data element name property](/static/assets/on-premise/images/report-designer/report-items/tablix/name-property.png)
+
+> Note: The name cannot contain spaces, and it must begin with a letter followed by letters, numbers, or the underscore character (_).
+
+<span style="font-weight:bold">Output</span>
+
+On exporting the report, the visibility of the subreport can be controlled using the `Output` property. The **Auto** or **Output** options in the dropdown enables the subreport report item to be exported. Choosing **NoOutput** will not export the subreport report item.
+
+![Data element output property](/static/assets/on-premise/images/report-designer/report-items/tablix/output-property.png)
+
 ### Visibility
 
 Visibility property is used to conditionally show or hide the subreport report item on report preview or export action. To set visibility of subreport item using properties panel refer [Visibility](./../../compose-report/common-properties/#visibility) section.

@@ -357,3 +357,11 @@ https
 eg
 Http
 Northwind
+RenderFormat.IsInteractive
+RenderFormat.Name
+RSReportServer
+IsInteractive
+NoOutput
+databar
+ContentsOnly
+DataMatrix

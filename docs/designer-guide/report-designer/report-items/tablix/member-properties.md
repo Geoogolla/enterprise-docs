@@ -50,6 +50,26 @@ Repeat on new page property can be used to display the static row or column head
 
 ![Open static member properties](/static/assets/on-premise/images/report-designer/report-items/tablix/repeat-on-new-page.png)
 
+#### Data Element
+
+Data element can be used to control visibility of a static row or column when exporting the report in XML format. The Data element properties are listed in the properties panel, under the `Data Element` category.
+
+![Data element properties](/static/assets/on-premise/images/report-designer/report-items/tablix/data-element-properties.png)
+
+<span style="font-weight:bold">Name</span>
+
+You can assign a custom name for the static row or column using the `Name` field. The row or column will be exported with the provided name.
+
+![Data element name property](/static/assets/on-premise/images/report-designer/report-items/tablix/name-property.png)
+
+> Note: The name cannot contain spaces, and it must begin with a letter followed by letters, numbers, or the underscore character (_).
+
+<span style="font-weight:bold">Output</span>
+
+On exporting the report, the visibility of the static row or column can be controlled using the `Output` property. The **Auto** or **Output** options in the dropdown enables the row or column to be exported. Choosing **NoOutput** will not export the row or column.
+
+![Data element output property](/static/assets/on-premise/images/report-designer/report-items/tablix/output-property.png)
+
 #### Visibility
 
 ![Open static member properties](/static/assets/on-premise/images/report-designer/report-items/tablix/visibility-property.png)
@@ -117,6 +137,26 @@ Fixed data property is used to keep the row or column group headers visible when
 Keep together property can be used to display the entire tablix member and any nested members in a single page, on report preview or export action. Enable the checkbox to keep the content in single page or it will span across multiple pages.
 
 ![Open static member properties](/static/assets/on-premise/images/report-designer/report-items/tablix/enable-keep-together.png)
+
+#### Data Element
+
+Data element can be used to control visibility of dynamic row or column when exporting the report in XML format. The Data element properties are listed in the properties panel, under the `Data Element` category.
+
+![Data element properties](/static/assets/on-premise/images/report-designer/report-items/tablix/data-element-properties.png)
+
+<span style="font-weight:bold">Name</span>
+
+You can assign a custom name for the dynamic row or column using the `Name` field. The row or column will be exported with the provided name.
+
+![Data element name property](/static/assets/on-premise/images/report-designer/report-items/tablix/name-property.png)
+
+> Note: The name cannot contain spaces, and it must begin with a letter followed by letters, numbers, or the underscore character (_).
+
+<span style="font-weight:bold">Output</span>
+
+On exporting the report, the visibility of the dynamic row or column can be controlled using the `Output` property. The **Auto** or **Output** options in the dropdown enables the row or column to be exported. Choosing **NoOutput** will not export the row or column.
+
+![Data element output property](/static/assets/on-premise/images/report-designer/report-items/tablix/output-property.png)
 
 ### Page break
 

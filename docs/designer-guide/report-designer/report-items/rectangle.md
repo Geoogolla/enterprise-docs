@@ -48,6 +48,26 @@ The page break property is used to control the amount of information on each pag
 
 Position property is used to set the width, height, left and top position of the rectangle in the report design. To handle these properties using properties panel refer [Position](./../../compose-report/common-properties/#position) section.
 
+### Data Element
+
+Data element can be used to control visibility of a report item when exporting the report in XML format. The Data element properties are listed in the properties panel, under the `Data Element` category.
+
+![Data element properties](/static/assets/on-premise/images/report-designer/report-items/rectangle/data-element-properties.png)
+
+<span style="font-weight:bold">Name</span>
+
+You can assign a custom name for the rectangle element using the `Name` field. The rectangle will be exported with the provided name.
+
+![Data element name property](/static/assets/on-premise/images/report-designer/report-items/rectangle/name-property.png)
+
+> Note: The name cannot contain spaces, and it must begin with a letter followed by letters, numbers, or the underscore character (_).
+
+<span style="font-weight:bold">Output</span>
+
+On exporting the report, the visibility of the rectangle can be controlled using the `Output` property. The **Auto** or **Output** options in the dropdown enables the rectangle and its contents to be exported. Choosing **NoOutput** will not export the rectangle report item. **ContentsOnly** option does not export the rectangle report item, only the contents of it are exported.
+
+![Data element output property](/static/assets/on-premise/images/report-designer/report-items/rectangle/output-property.png)
+
 ### Visibility
 
 Visibility property is used to conditionally show or hide the rectangle report item on report preview or export action. To set visibility of rectangle item using properties panel refer [Visibility](./../../compose-report/common-properties/#visibility) section.

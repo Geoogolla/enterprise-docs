@@ -132,7 +132,7 @@
                 "Edit a Shared DataSource": "modify-shared-data-source.md",
                 "Delete a DataSource": "delete-a-data-source.md",
                 "Duplicate a DataSource": "duplicate-a-data-source.md",
-				"Reorder a DataSource": "reorder-data-source.md"},
+				"Reordering DataSources": "reorder-data-source.md"},
                 "DataSet": {
                     "Create an Embedded DataSet": "create-an-embedded-dataset.md",
                     "Edit an Embedded DataSet": "modify-an-embedded-dataset.md",
@@ -140,7 +140,7 @@
                     "Edit a Shared DataSet": "modify-shared-dataset.md",
                     "Delete a DataSet": "delete-a-dataset.md",
                     "Duplicate a DataSet": "duplicate-a-dataset.md",
-					"Reorder a DataSet": "reorder-a-dataset.md",
+					"Reordering DataSets": "reorder-a-dataset.md",
                     "DataSet Fields": "dataset-fields.md",
                     "DataSet Filters": "add-a-filter-to-a-dataset.md",
                     "DataSet Parameters":"dataset-parameters.md"
@@ -159,6 +159,7 @@
                 "Add Report Parameter": "add.md",
                 "Edit Report Parameter": "edit.md",
                 "Delete Report Parameter": "delete.md",
+				"Reordering Parameters":"reorder-parameters.md",
                 "Define Available Values": "define-available-values-for-parameter.md",
                 "Define Default Values": "define-default-values-for-parameter.md",
                 "Create Multi Value Parameter": "create-multi-value-parameter.md",
@@ -292,12 +293,12 @@
                     "Show Marker" : "marker.md",
                     "Show Data Label": "data-label.md",
                     "Smart Label" : "smart-label.md",
+					"Color Palette": "color-palette.md",
                     "Axis" : "axis.md",
                     "Chart Types" : "types.md",
                     "Embedding Charts within a Tablix" : "nested-data-region.md",
                     "Filter Data": "add-filters-to-chart-data-region.md",
-                    "Sort Data": "sort-data-in-chart-data-region.md",
-					"Color palette": "color-palette.md"
+                    "Sort Data": "sort-data-in-chart-data-region.md"
                 },
                 "Indicator": "indicator.md",
                 "Gauge": {

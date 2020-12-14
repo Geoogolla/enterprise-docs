@@ -111,6 +111,26 @@ You can delete a state by clicking the `delete icon`.
 
 ![Deleting indicator states](/static/assets/on-premise/images/report-designer/report-items/indicator/states-delete.png)
 
+### Data Element
+
+Data element can be used to control visibility of a report item when exporting the report in XML format. The Data element properties are listed in the properties panel, under the `Data Element` category.
+
+![Data element properties](/static/assets/on-premise/images/report-designer/report-items/tablix/data-element-properties.png)
+
+<span style="font-weight:bold">Name</span>
+
+You can assign a custom name for the indicator element using the `Name` field. The indicator will be exported with the provided name.
+
+![Data element name property](/static/assets/on-premise/images/report-designer/report-items/tablix/name-property.png)
+
+> Note: The name cannot contain spaces, and it must begin with a letter followed by letters, numbers, or the underscore character (_).
+
+<span style="font-weight:bold">Output</span>
+
+On exporting the report, the visibility of the indicator can be controlled using the `Output` property. The **Auto** or **Output** options in the dropdown enables the indicator report item to be exported. Choosing **NoOutput** will not export the indicator report item.
+
+![Data element output property](/static/assets/on-premise/images/report-designer/report-items/tablix/output-property.png)
+
 ### Visibility
 
 The visibility property is used to conditionally show or hide the indicator report item on report preview or export action. To set visibility of indicator item using properties panel, refer to the [Visibility](./../../compose-report/common-properties/#visibility) section.

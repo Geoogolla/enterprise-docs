@@ -181,6 +181,26 @@ Using the color property, you can customize the `range color` of a linear gauge.
 
 The position property is used to set the width, height, left, and top positions of a linear gauge in the report design. To handle these properties using properties panel, refer to the [Position](./../../../compose-report/common-properties/#position) section.
 
+### Data Element
+
+Data element can be used to control visibility of a report item when exporting the report in XML format. The Data element properties are listed in the properties panel, under the `Data Element` category.
+
+![Data element properties](/static/assets/on-premise/images/report-designer/report-items/tablix/data-element-properties.png)
+
+<span style="font-weight:bold">Name</span>
+
+You can assign a custom name for the linear gauge element using the `Name` field. The linear gauge will be exported with the provided name.
+
+![Data element name property](/static/assets/on-premise/images/report-designer/report-items/tablix/name-property.png)
+
+> Note: The name cannot contain spaces, and it must begin with a letter followed by letters, numbers, or the underscore character (_).
+
+<span style="font-weight:bold">Output</span>
+
+On exporting the report, the visibility of the linear gauge can be controlled using the `Output` property. The **Auto** or **Output** options in the dropdown enables the linear gauge report item to be exported. Choosing **NoOutput** will not export the linear gauge report item.
+
+![Data element output property](/static/assets/on-premise/images/report-designer/report-items/tablix/output-property.png)
+
 ### Visibility
 
 The visibility property is used to conditionally show or hide the linear gauge report item on report preview or export action. To set visibility of a linear gauge item using properties panel, refer to the [Visibility](./../../../compose-report/common-properties/#visibility) section.

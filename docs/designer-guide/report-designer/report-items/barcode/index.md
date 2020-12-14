@@ -79,7 +79,7 @@ Two-dimensional (2D) barcodes are used for coding large amounts of information i
 
 ### Properties
 
-Properties required to generate QR barcode item are listed under the `Basic Settings` category in the properties panel.
+Properties required to generate 2D barcode item are listed under the `Basic Settings` category in the properties panel.
 
 ![Barcode item with properties view](/static/assets/on-premise/images/report-designer/report-items/barcode/2D-basic-settings.png)
 
@@ -95,7 +95,7 @@ To change the type of existing 2D barcode in the report, select the specific bar
 
 <span style="font-weight:bold">Text</span>
 
-`Text` property can be used to specify the value to be encoded in the QR barcode.
+`Text` property can be used to specify the value to be encoded in the 2D barcode.
 
 ![Barcode item with properties view](/static/assets/on-premise/images/report-designer/report-items/barcode/2D-text-property.png)
 
@@ -116,6 +116,8 @@ The `Text Visibility` property can be used to show/hide the label text of the ba
 ![Barcode item with properties view](/static/assets/on-premise/images/report-designer/report-items/barcode/2D-label-visible.png)
 
 ![Barcode item with properties view](/static/assets/on-premise/images/report-designer/report-items/barcode/2D-label-hidden.png)
+
+> Note: The `Text Visibility` property is only supported for QR Barcode.
 
 Supported barcode types and their valid input values are listed in the [Supported Barcode Types](./../../report-items/barcode/supported-barcode-types/) section.
 

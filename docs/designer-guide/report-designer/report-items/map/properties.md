@@ -176,6 +176,26 @@ To restart the page numbering on each page, enable `Page Number Reset` property 
 
 Position property is used to set the width, height, left and top position of the map in the report design. To handle these properties using properties panel refer [Position](./../../../compose-report/common-properties/#position) section.
 
+## Data Element
+
+Data element can be used to control visibility of a report item when exporting the report in XML format. The Data element properties are listed in the properties panel, under the `Data Element` category.
+
+![Data element properties](/static/assets/on-premise/images/report-designer/report-items/tablix/data-element-properties.png)
+
+<span style="font-weight:bold">Name</span>
+
+You can assign a custom name for the map element using the `Name` field. The map will be exported with the provided name.
+
+![Data element name property](/static/assets/on-premise/images/report-designer/report-items/tablix/name-property.png)
+
+> Note: The name cannot contain spaces, and it must begin with a letter followed by letters, numbers, or the underscore character (_).
+
+<span style="font-weight:bold">Output</span>
+
+On exporting the report, the visibility of the map can be controlled using the `Output` property. The **Auto** or **Output** options in the dropdown enables the map report item to be exported. Choosing **NoOutput** will not export the map report item.
+
+![Data element output property](/static/assets/on-premise/images/report-designer/report-items/tablix/output-property.png)
+
 ## Visibility
 
 ![Map Visibility](/static/assets/on-premise/images/report-designer/report-items/map/over-view/visibility.png)
