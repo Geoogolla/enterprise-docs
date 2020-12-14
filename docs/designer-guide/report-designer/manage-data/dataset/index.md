@@ -30,4 +30,4 @@ Like shared data source, you can add a dataset that is published on a Report Ser
 
 [Duplicate Dataset](./../../manage-data/dataset/duplicate-a-dataset/)
 
-[Reordering Datasets](./../../manage-data/datasource/reorder-a-dataset/)
+[Reordering Datasets](./../../manage-data/dataset/reorder-a-dataset/)
