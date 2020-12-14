@@ -88,6 +88,14 @@ Integer
 </td>
 </tr>
 <tr>
+<td><code class="language-text" style="word-break: break-word;">RenderFormat</code></td>
+<td>
+RenderFormat
+</td>
+<td>Information about the current rendering request.
+</td>
+</tr>
+<tr>
 <td><code class="language-text" style="word-break: break-word;">RenderFormat.Name</code></td>
 <td>
 String
