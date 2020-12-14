@@ -24,6 +24,8 @@ Users can add cascading parameters to the report to allow one parameter that lim
 
 [Delete report parameter](./../report-parameters/delete/)
 
+[Reordering parameters](./../../manage-data/datasource/reorder-parameters/)
+
 [Cascading parameter](./../report-parameters/create-cascading-parameter/)
 
 [Multi-value parameter](./../report-parameters/create-multi-value-parameter/)
