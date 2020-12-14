@@ -203,7 +203,7 @@ These properties are listed under `Chart Area` category.
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/chart-area.png)
 
-To customize the color of the chart or to define custom colors refer [Color Palette](./../../../report-items/chart/color-palette/) section.
+Use [Color Palette](./../../../report-items/chart/color-palette/) property to customize the color of the chart.
 
 ### Title
 
@@ -282,7 +282,10 @@ You can assign a custom name for the chart element using the `Name` field. The c
 
 <span style="font-weight:bold">Output</span>
 
-On exporting the report, the visibility of the chart can be controlled using the `Output` property. The **Auto** or **Output** options in the dropdown enables the chart report item to be exported. Choosing **NoOutput** will not export the chart report item.
+On exporting the report, the visibility of the chart can be controlled using the `Output` property. Choosing the following options for the `Output` property will perform the respective operations:
+
+* **Auto** or **Output** - Exports the chart report item
+* **NoOutput** - Does not export the chart report item
 
 ![Data element output property](/static/assets/on-premise/images/report-designer/report-items/tablix/output-property.png)
 

@@ -165,7 +165,10 @@ You can assign a custom name for the tablix element using the `Name` field. The 
 
 <span style="font-weight:bold">Output</span>
 
-On exporting the report, the visibility of the tablix can be controlled using the `Output` property. The **Auto** or **Output** options in the dropdown enables the tablix report item to be exported. Choosing **NoOutput** will not export the tablix report item.
+On exporting the report, the visibility of the tablix can be controlled using the `Output` property. Choosing the following options for the `Output` property will perform the respective operations:
+
+* **Auto** or **Output** - Exports the tablix report item
+* **NoOutput** - Does not export the tablix report item
 
 ![Data element output property](/static/assets/on-premise/images/report-designer/report-items/tablix/output-property.png)
 

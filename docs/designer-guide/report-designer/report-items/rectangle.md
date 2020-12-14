@@ -64,7 +64,11 @@ You can assign a custom name for the rectangle element using the `Name` field. T
 
 <span style="font-weight:bold">Output</span>
 
-On exporting the report, the visibility of the rectangle can be controlled using the `Output` property. The **Auto** or **Output** options in the dropdown enables the rectangle and its contents to be exported. Choosing **NoOutput** will not export the rectangle report item. **ContentsOnly** option does not export the rectangle report item, only the contents of it are exported.
+On exporting the report, the visibility of the rectangle can be controlled using the `Output` property. Choosing the following options for the `Output` property will perform the respective operations:
+
+* **Auto** or **Output** - Exports the rectangle and its contents
+* **NoOutput** - Does not export the rectangle report item
+* **ContentsOnly** - Does not export the rectangle report item, only the contents of it are exported
 
 ![Data element output property](/static/assets/on-premise/images/report-designer/report-items/rectangle/output-property.png)
 

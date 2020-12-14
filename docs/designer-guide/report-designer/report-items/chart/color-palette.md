@@ -4,9 +4,9 @@ description: This section describes how to customize the color aplette in Chart 
 keywords: ejReportDesigner, reportdesigner, tablix, reportitem, bold reports, documentation, help, ej, user guide, demo, samples, bold reports, bold reporting
 ---
 
-# Chart color palette
+# Chart Color Palette
 
-Color palette property can be used to customize the chart series color. You can change the color palette for a chart series by choosing from a predefined set of color palettes or defining a custom palette. The **Color Palette** property is listed under the Chart Area category in the chart properties panel.
+Color palette property can be used to customize the chart series color. You can change the color palette for a chart series by choosing from a predefined set of color palettes or defining a custom palette. The **Color Palette** property is listed under the `Chart Area` category in the chart properties panel.
 
 ![Color Palette property](/static/assets/on-premise/images/report-designer/report-items/chart/color-palette/color-palette-property.png)
 

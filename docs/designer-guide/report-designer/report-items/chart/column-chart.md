@@ -130,11 +130,11 @@ Now, both series will be listed in the properties panel.
 
 <span style="font-weight:bold">Show Marker</span>
 
-Data markers are used to provide information about the data point to the user. You can add a shape and label to adorn each data point. To set/reset marker properties, refer [Show Marker](./../../../report-items/chart/marker/) property.> The marker properties will be applied to the selected series in the  `Choose Series` drop-down.
+Data markers are used to provide information about the data point to the user. You can add a shape and label to adorn each data point. To set/reset marker properties, refer [Show Marker](./../../../report-items/chart/marker/) property. The marker properties will be applied to the selected series in the  `Choose Series` drop-down.
 
 <span style="font-weight:bold">Show Data Label</span>
 
-Data label can be added to a chart series by using the `Show Data Label` property. The labels appear at the top of the data point, by default. To set/reset data label properties, refer [Show Data Label](./../../../report-items/chart/data-label/) property.> The data label properties will be applied to the selected series in the  `Choose Series` drop-down.
+Data label can be added to a chart series by using the `Show Data Label` property. The labels appear at the top of the data point, by default. To set/reset data label properties, refer [Show Data Label](./../../../report-items/chart/data-label/) property. The data label properties will be applied to the selected series in the  `Choose Series` drop-down.
 
 <span style="font-weight:bold">Enable Smart Label</span>
 
@@ -207,7 +207,7 @@ These properties are listed under `Chart Area` category.
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/column-chart/chart-area-design.png)
 
-To customize the color of the chart or to define custom colors refer [Color Palette](./../../../report-items/chart/color-palette/) section.
+Use [Color Palette](./../../../report-items/chart/color-palette/) property to customize the color of the chart.
 
 ### Title
 
@@ -286,7 +286,10 @@ You can assign a custom name for the chart element using the `Name` field. The c
 
 <span style="font-weight:bold">Output</span>
 
-On exporting the report, the visibility of the chart can be controlled using the `Output` property. The **Auto** or **Output** options in the dropdown enables the chart report item to be exported. Choosing **NoOutput** will not export the chart report item.
+On exporting the report, the visibility of the chart can be controlled using the `Output` property. Choosing the following options for the `Output` property will perform the respective operations:
+
+* **Auto** or **Output** - Exports the chart report item
+* **NoOutput** - Does not export the chart report item
 
 ![Data element output property](/static/assets/on-premise/images/report-designer/report-items/tablix/output-property.png)
 

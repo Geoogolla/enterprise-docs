@@ -27,8 +27,8 @@ All ASCII characters</td><td>
 <tr>
 <td>
 <a href="https://en.wikipedia.org/wiki/PDF417">PDF417</a></td><td>
-<a href="https://en.wikipedia.org/wiki/Code_page_437">CP437</a></td><td>
-1850 alphanumeric characters, 2710 digits or 1108 bytes</td></tr>
+[0-9]; [A-Z]; [a-z]; Mixed; Punctuation; Byte</td><td>
+variable</td></tr>
 <tr>
 <td>
 <a href="https://en.wikipedia.org/wiki/Code_39">Code 39</a></td><td>
