@@ -8,3 +8,5 @@ description: This page explains the most frequently asked how to queries for the
 This section helps to get the answer for the frequently asked how to queries in Bold Reports Designer.
 
 * [Configure map shapes](./../how-to/configure-map-shapes/)
+
+* [How to upgrade or downgrade reports using Bold Reports Designer](./../how-to/upgrade-or-downgrade-rdl-schema-version/)

@@ -12,45 +12,45 @@ This section guides you to create an embedded dataset in Bold Report Designer.
 
 1. Click the `Data` icon in the configuration panel to launch a `Data` configuration.
 
-   ![Data icon configuration panel](/static/assets/on-premise/images/report-designer/manage-data/dataset/data-icon-configuration-panel.png)
+   ![Data icon configuration panel](/static/assets/on-premise/images/report-designer/manage-data/dataset/data-icon-configuration-panel.png#width=412px)
 
 2. Click on the `New Data` button in `Data` panel.
 
-   ![New data button](/static/assets/on-premise/images/report-designer/manage-data/dataset/new-data-button.png)
+   ![New data button](/static/assets/on-premise/images/report-designer/manage-data/dataset/new-data-button.png#width=540px)
 
 3. In the connection type panel, click the data source type that you want to connect. Here, `SQL` connection type is used to demonstrate.
 
-   ![Connection types panel](/static/assets/on-premise/images/report-designer/manage-data/dataset/connection-types-panel.png)
+   ![Connection types panel](/static/assets/on-premise/images/report-designer/manage-data/dataset/connection-types-panel.png#width=540px)
 
 4. In the new data source configuration panel, fill the server name and related details.
 
-   ![New data source connection panel](/static/assets/on-premise/images/report-designer/manage-data/dataset/new-data-source-connection-panel.png)
+   ![New data source connection panel](/static/assets/on-premise/images/report-designer/manage-data/dataset/new-data-source-connection-panel.png#width=540px)
 
 5. Click on the `Connect` button, now the following view will be displayed.
 
-   ![Query designer full view](/static/assets/on-premise/images/report-designer/manage-data/dataset/query-designer-full-view.png)
+   ![Query designer full view](/static/assets/on-premise/images/report-designer/manage-data/dataset/query-designer-full-view.png#width=540px)
 
 6. You can edit the name of the `Data` in the **Name** field that is available in toolbar pane.
 
-   ![Edit dataset name](/static/assets/on-premise/images/report-designer/manage-data/dataset/edit-dataset-name.png)
+   ![Edit dataset name](/static/assets/on-premise/images/report-designer/manage-data/dataset/edit-dataset-name.png#width=540px)
 
 7. You can drag the tables and views associated with the connected database from left pane. Dragged table or view from the left pane can be dropped into the center pane labeled with `Drag and Drop tables here` like below.
 
-   ![Drag and drop query table to design area](/static/assets/on-premise/images/report-designer/manage-data/dataset/drag-drop-table-in-query-designer.png)
+   ![Drag and drop query table to design area](/static/assets/on-premise/images/report-designer/manage-data/dataset/drag-drop-table-in-query-designer.png#width=540px)
 
    After you drop the item into the center pane, it displays like below:
 
-   ![Query designer with query table](/static/assets/on-premise/images/report-designer/manage-data/dataset/drag-drop-table-in-query-designer-output.png)
+   ![Query designer with query table](/static/assets/on-premise/images/report-designer/manage-data/dataset/drag-drop-table-in-query-designer-output.png#width=540px)
 
 8. To search the table or view from the data collection, you can use the `Search` field in the left pane of the query designer.
 
-   ![Query designer table search pane](/static/assets/on-premise/images/report-designer/manage-data/dataset/query-designer-table-search-pane.png)
+   ![Query designer table search pane](/static/assets/on-premise/images/report-designer/manage-data/dataset/query-designer-table-search-pane.png#width=235px)
 
 ## Save Data
 
 1. Click on the `Finish` button in the tools pane.
-![Finish data button](/static/assets/on-premise/images/report-designer/manage-data/dataset/finish-data-connection.png)
+![Finish data button](/static/assets/on-premise/images/report-designer/manage-data/dataset/finish-data-connection.png#width=540px)
 2. Your dataset should now be listed in the `Data` panel like below.
-![Data list view](/static/assets/on-premise/images/report-designer/manage-data/dataset/data-list-view.png)
+![Data list view](/static/assets/on-premise/images/report-designer/manage-data/dataset/data-list-view.png#width=540px)
 3. Expand the icon to view the data fields.
-![Data fields list](/static/assets/on-premise/images/report-designer/manage-data/dataset/data-fields-list.png)
+![Data fields list](/static/assets/on-premise/images/report-designer/manage-data/dataset/data-fields-list.png#width=540px)
