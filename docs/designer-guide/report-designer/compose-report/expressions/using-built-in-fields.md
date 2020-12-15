@@ -95,6 +95,22 @@ RenderFormat
 <td>Information about the current rendering request.
 </td>
 </tr>
+<tr>
+<td><code class="language-text" style="word-break: break-word;">RenderFormat.Name</code></td>
+<td>
+String
+</td>
+<td>The name of the renderer as registered in the RSReportServer configuration file.
+</td>
+</tr>
+<tr>
+<td><code class="language-text" style="word-break: break-word;">RenderFormat.IsInteractive</code></td>
+<td>
+Boolean
+</td>
+<td>Whether the current rendering request uses an interactive rendering format.
+</td>
+</tr>
 </table>
 
 ## User Collection

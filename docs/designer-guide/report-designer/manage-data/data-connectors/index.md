@@ -22,3 +22,7 @@ The Bold Reports Designer supports the Microsoft SQL Server, Oracle, OLEDB, ODBC
 * [OLEDB](./../../manage-data/data-connectors/oledb-data-source/)
 
 * [ODBC](./../../manage-data/data-connectors/odbc-data-source/)
+
+* [Excel](./../../manage-data/data-connectors/excel-data-source/)
+
+* [CSV](./../../manage-data/data-connectors/csv-data-source/)

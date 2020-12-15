@@ -21,6 +21,16 @@ The following table contains the supported types and associated valid characters
 variable</td></tr>
 <tr>
 <td>
+<a href="https://en.wikipedia.org/wiki/Data_Matrix">DataMatrix</a></td><td>
+All ASCII characters</td><td>
+</td></tr>
+<tr>
+<td>
+<a href="https://en.wikipedia.org/wiki/PDF417">PDF417</a></td><td>
+[0-9]; [A-Z]; [a-z]; Mixed; Punctuation; Byte</td><td>
+variable</td></tr>
+<tr>
+<td>
 <a href="https://en.wikipedia.org/wiki/Code_39">Code 39</a></td><td>
 [0-9]; [A-Z]; [- . $ / + % SPACE]</td><td>
 variable</td></tr>

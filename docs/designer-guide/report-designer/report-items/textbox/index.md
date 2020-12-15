@@ -146,6 +146,35 @@ Border properties are used to add or customize the border around a textbox item 
 
 Position property is used to set the width, height, left and top position of the textbox in the report design. To handle these properties using properties panel refer [Position](./../../compose-report/common-properties/#position) section.
 
+#### Data Element
+
+Data element can be used to control visibility of a report item when exporting the report in XML format. The Data element properties are listed in the properties panel, under the `Data Element` category.
+
+![Data element properties](/static/assets/on-premise/images/report-designer/report-items/textbox/data-element-properties.png)
+
+<span style="font-weight:bold">Name</span>
+
+You can assign a custom name for the textbox element using the `Name` field. The textbox will be exported with the provided name.
+
+![Data element name property](/static/assets/on-premise/images/report-designer/report-items/textbox/name-property.png)
+
+> Note: The name cannot contain spaces, and it must begin with a letter followed by letters, numbers, or the underscore character (_).
+
+<span style="font-weight:bold">Output</span>
+
+On exporting the report, the visibility of the textbox can be controlled using the `Output` property. Choosing the following options for the `Output` property will perform the respective operations:
+
+* **Auto** or **Output** - Exports the textbox report item
+* **NoOutput** - Does not export the textbox report item
+
+![Data element output property](/static/assets/on-premise/images/report-designer/report-items/textbox/output-property.png)
+
+<span style="font-weight:bold">Style</span>
+
+The `Style` property can be used to set the export type of the textbox report item. Choosing **Auto** or **Element** style will export the textbox as an XML element. The **Attribute** style will export the textbox as an XML attribute.
+
+![Data element style property](/static/assets/on-premise/images/report-designer/report-items/textbox/style-property.png)
+
 #### Visibility
 
 Visibility property is used to conditionally show or hide the textbox report item on report preview or export action. To set visibility of textbox item using properties panel refer [Visibility](./../../compose-report/common-properties/#visibility) section.

@@ -50,11 +50,36 @@ Repeat on new page property can be used to display the static row or column head
 
 ![Open static member properties](/static/assets/on-premise/images/report-designer/report-items/tablix/repeat-on-new-page.png)
 
+#### Data Element
+
+Data element can be used to control visibility of a static row or column when exporting the report in XML format. The Data element properties are listed in the properties panel, under the `Data Element` category.
+
+![Data element properties](/static/assets/on-premise/images/report-designer/report-items/tablix/data-element-properties.png)
+
+<span style="font-weight:bold">Name</span>
+
+You can assign a custom name for the static row or column using the `Name` field. The row or column will be exported with the provided name.
+
+![Data element name property](/static/assets/on-premise/images/report-designer/report-items/tablix/name-property.png)
+
+> Note: The name cannot contain spaces, and it must begin with a letter followed by letters, numbers, or the underscore character (_).
+
+<span style="font-weight:bold">Output</span>
+
+On exporting the report, the visibility of the static row or column can be controlled using the `Output` property. Choosing the following options for the `Output` property will perform the respective operations:
+
+* **Auto** or **Output** - Exports the row or column
+* **NoOutput** - Does not export the row or column
+
+![Data element output property](/static/assets/on-premise/images/report-designer/report-items/tablix/output-property.png)
+
 #### Visibility
 
 ![Open static member properties](/static/assets/on-premise/images/report-designer/report-items/tablix/visibility-property.png)
 
-**Visibility** - Visibility property is used to conditionally show or hide the row or column when the report is initially run. To set visibility of static row or column using properties panel refer [Visibility](./../../../compose-report/common-properties/#visibility) section.**Toggle** - The toggle settings property can be used to allow the user interactively expand or collapse the report items or row and columns associated with the group to drill down to further detail within the same report. Some common reasons to use the toggle visibility feature are as follows:
+**Visibility** - Visibility property is used to conditionally show or hide the row or column when the report is initially run. To set visibility of static row or column using properties panel refer [Visibility](./../../../compose-report/common-properties/#visibility) section.
+
+**Toggle** - The toggle settings property can be used to allow the user interactively expand or collapse the report items or row and columns associated with the group to drill down to further detail within the same report. Some common reasons to use the toggle visibility feature are as follows:
 
 * To hide columns or rows with details in table and matrix report items
 
@@ -118,6 +143,29 @@ Keep together property can be used to display the entire tablix member and any n
 
 ![Open static member properties](/static/assets/on-premise/images/report-designer/report-items/tablix/enable-keep-together.png)
 
+#### Data Element
+
+Data element can be used to control visibility of dynamic row or column when exporting the report in XML format. The Data element properties are listed in the properties panel, under the `Data Element` category.
+
+![Data element properties](/static/assets/on-premise/images/report-designer/report-items/tablix/data-element-properties.png)
+
+<span style="font-weight:bold">Name</span>
+
+You can assign a custom name for the dynamic row or column using the `Name` field. The row or column will be exported with the provided name.
+
+![Data element name property](/static/assets/on-premise/images/report-designer/report-items/tablix/name-property.png)
+
+> Note: The name cannot contain spaces, and it must begin with a letter followed by letters, numbers, or the underscore character (_).
+
+<span style="font-weight:bold">Output</span>
+
+On exporting the report, the visibility of the dynamic row or column can be controlled using the `Output` property. Choosing the following options for the `Output` property will perform the respective operations:
+
+* **Auto** or **Output** - Exports the row or column
+* **NoOutput** - Does not export the row or column
+
+![Data element output property](/static/assets/on-premise/images/report-designer/report-items/tablix/output-property.png)
+
 ### Page break
 
 The page break property is used to control the amount of information on each page when you preview the report. Follow the below steps to apply page break property for dynamic member.
@@ -131,7 +179,9 @@ Choose any `Break Location` type in the drop-down.
 
 ![Open static member properties](/static/assets/on-premise/images/report-designer/report-items/tablix/visibility-property.png)
 
-**Visibility** - Visibility property is used to conditionally show or hide the row or column groups when the report is initially run. To set visibility of dynamic row or column members using properties panel refer [Visibility](./../../../compose-report/common-properties/#visibility) section.**Toggle** - The toggle settings property can be used to allow the user interactively expand or collapse the report items or row and columns associated with the group to drill down to further detail within the same report. Some common reasons to use the toggle visibility feature are as follows:
+**Visibility** - Visibility property is used to conditionally show or hide the row or column groups when the report is initially run. To set visibility of dynamic row or column members using properties panel refer [Visibility](./../../../compose-report/common-properties/#visibility) section.
+
+**Toggle** - The toggle settings property can be used to allow the user interactively expand or collapse the report items or row and columns associated with the group to drill down to further detail within the same report. Some common reasons to use the toggle visibility feature are as follows:
 
 * To hide columns or rows with details in table and matrix report items
 

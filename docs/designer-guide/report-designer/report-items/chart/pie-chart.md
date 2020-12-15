@@ -194,7 +194,7 @@ The border style, color, width and background color properties can be used to st
 
 ### Chart Area
 
-You can customize the chart series color using the `Color Palatte` property.
+You can customize the chart series color using the [Color Palette](./../../../report-items/chart/color-palette/) property.
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/pie-chart/color-palatte.png)
 
@@ -218,6 +218,29 @@ The page break property can be used to control the amount of information on each
 ![Break location](/static/assets/on-premise/images/report-designer/report-items/rectangle/break-location-types.png)
 2. To restart the page numbering on each page, enable `Page Number Reset` property checkbox.
 ![Reset page number](/static/assets/on-premise/images/report-designer/report-items/rectangle/page-break-property.png)
+
+### Data Element
+
+Data element can be used to control visibility of a report item when exporting the report in XML format. The Data element properties are listed in the properties panel, under the `Data Element` category.
+
+![Data element properties](/static/assets/on-premise/images/report-designer/report-items/tablix/data-element-properties.png)
+
+<span style="font-weight:bold">Name</span>
+
+You can assign a custom name for the chart element using the `Name` field. The chart report item will be exported with the provided name.
+
+![Data element name property](/static/assets/on-premise/images/report-designer/report-items/tablix/name-property.png)
+
+> Note: The name cannot contain spaces, and it must begin with a letter followed by letters, numbers, or the underscore character (_).
+
+<span style="font-weight:bold">Output</span>
+
+On exporting the report, the visibility of the chart can be controlled using the `Output` property. Choosing the following options for the `Output` property will perform the respective operations:
+
+* **Auto** or **Output** - Exports the chart report item
+* **NoOutput** - Does not export the chart report item
+
+![Data element output property](/static/assets/on-premise/images/report-designer/report-items/tablix/output-property.png)
 
 ### Miscellaneous
 

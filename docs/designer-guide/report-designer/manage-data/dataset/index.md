@@ -29,3 +29,5 @@ Like shared data source, you can add a dataset that is published on a Report Ser
 [Delete Dataset](./../../manage-data/dataset/delete-a-dataset/)
 
 [Duplicate Dataset](./../../manage-data/dataset/duplicate-a-dataset/)
+
+[Reordering Datasets](./../../manage-data/dataset/reorder-a-dataset/)

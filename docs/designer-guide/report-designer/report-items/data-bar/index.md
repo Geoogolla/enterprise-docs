@@ -167,6 +167,29 @@ The page break property can be used to control the amount of information on each
 
 Position property is used to set the width, height, left and top position of the data bar in the report design. To handle these properties using properties panel refer [Position](./../../compose-report/common-properties/#position) section.![Chart postion](/static/assets/on-premise/images/report-designer/report-items/data-bar/position.png)
 
+### Data Element
+
+Data element can be used to control visibility of a report item when exporting the report in XML format. The Data element properties are listed in the properties panel, under the `Data Element` category.
+
+![Data element properties](/static/assets/on-premise/images/report-designer/report-items/tablix/data-element-properties.png)
+
+<span style="font-weight:bold">Name</span>
+
+You can assign a custom name for the databar element using the `Name` field. The databar will be exported with the provided name.
+
+![Data element name property](/static/assets/on-premise/images/report-designer/report-items/tablix/name-property.png)
+
+> Note: The name cannot contain spaces, and it must begin with a letter followed by letters, numbers, or the underscore character (_).
+
+<span style="font-weight:bold">Output</span>
+
+On exporting the report, the visibility of the databar can be controlled using the `Output` property. Choosing the following options for the `Output` property will perform the respective operations:
+
+* **Auto** or **Output** - Exports the data bar report item
+* **NoOutput** - Does not export the data bar report item
+
+![Data element output property](/static/assets/on-premise/images/report-designer/report-items/tablix/output-property.png)
+
 ### Visibility
 
 The visibility property is used to conditionally show or hide the data bar report item on report preview or export action. To set visibility of data bar item using properties panel, refer to the [Visibility](./../../compose-report/common-properties/#visibility) section.![Chart visibility](/static/assets/on-premise/images/report-designer/report-items/data-bar/visibility.png)

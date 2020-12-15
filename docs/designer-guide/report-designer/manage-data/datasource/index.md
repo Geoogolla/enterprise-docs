@@ -33,3 +33,5 @@ Provides support to add any additional data providers to connect to your own dat
 [Delete Datasource](./../../manage-data/datasource/delete-a-data-source/)
 
 [Duplicate Datasource](./../../manage-data/datasource/duplicate-a-data-source/)
+
+[Reordering DataSources](./../../manage-data/datasource/reorder-data-source/)

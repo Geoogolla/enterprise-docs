@@ -79,13 +79,23 @@ Two-dimensional (2D) barcodes are used for coding large amounts of information i
 
 ### Properties
 
-Properties required to generate QR barcode item are listed under the `Basic Settings` category in the properties panel.
+Properties required to generate 2D barcode item are listed under the `Basic Settings` category in the properties panel.
 
 ![Barcode item with properties view](/static/assets/on-premise/images/report-designer/report-items/barcode/2D-basic-settings.png)
 
+<span style="font-weight:bold">Symbology Type</span>
+
+The list of supported 2D barcode symbologies are provided in the `Symbology Type` drop-down list.
+
+![Barcode item with properties view](/static/assets/on-premise/images/report-designer/report-items/barcode/2D-symbology-types.png)
+
+To change the type of existing 2D barcode in the report, select the specific barcode item and choose the symbology type in the drop-down. Now, the respective 2D barcode type will be rendered in the report design.
+
+![Barcode item with properties view](/static/assets/on-premise/images/report-designer/report-items/barcode/2D-symbology-design.png)
+
 <span style="font-weight:bold">Text</span>
 
-`Text` property can be used to specify the value to be encoded in the QR barcode.
+`Text` property can be used to specify the value to be encoded in the 2D barcode.
 
 ![Barcode item with properties view](/static/assets/on-premise/images/report-designer/report-items/barcode/2D-text-property.png)
 
@@ -106,6 +116,8 @@ The `Text Visibility` property can be used to show/hide the label text of the ba
 ![Barcode item with properties view](/static/assets/on-premise/images/report-designer/report-items/barcode/2D-label-visible.png)
 
 ![Barcode item with properties view](/static/assets/on-premise/images/report-designer/report-items/barcode/2D-label-hidden.png)
+
+> Note: The `Text Visibility` property is only supported for QR Barcode.
 
 Supported barcode types and their valid input values are listed in the [Supported Barcode Types](./../../report-items/barcode/supported-barcode-types/) section.
 
