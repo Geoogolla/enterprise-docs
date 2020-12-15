@@ -77,7 +77,9 @@ On exporting the report, the visibility of the static row or column can be contr
 
 ![Open static member properties](/static/assets/on-premise/images/report-designer/report-items/tablix/visibility-property.png)
 
-**Visibility** - Visibility property is used to conditionally show or hide the row or column when the report is initially run. To set visibility of static row or column using properties panel refer [Visibility](./../../../compose-report/common-properties/#visibility) section.**Toggle** - The toggle settings property can be used to allow the user interactively expand or collapse the report items or row and columns associated with the group to drill down to further detail within the same report. Some common reasons to use the toggle visibility feature are as follows:
+**Visibility** - Visibility property is used to conditionally show or hide the row or column when the report is initially run. To set visibility of static row or column using properties panel refer [Visibility](./../../../compose-report/common-properties/#visibility) section.
+
+**Toggle** - The toggle settings property can be used to allow the user interactively expand or collapse the report items or row and columns associated with the group to drill down to further detail within the same report. Some common reasons to use the toggle visibility feature are as follows:
 
 * To hide columns or rows with details in table and matrix report items
 
@@ -177,7 +179,9 @@ Choose any `Break Location` type in the drop-down.
 
 ![Open static member properties](/static/assets/on-premise/images/report-designer/report-items/tablix/visibility-property.png)
 
-**Visibility** - Visibility property is used to conditionally show or hide the row or column groups when the report is initially run. To set visibility of dynamic row or column members using properties panel refer [Visibility](./../../../compose-report/common-properties/#visibility) section.**Toggle** - The toggle settings property can be used to allow the user interactively expand or collapse the report items or row and columns associated with the group to drill down to further detail within the same report. Some common reasons to use the toggle visibility feature are as follows:
+**Visibility** - Visibility property is used to conditionally show or hide the row or column groups when the report is initially run. To set visibility of dynamic row or column members using properties panel refer [Visibility](./../../../compose-report/common-properties/#visibility) section.
+
+**Toggle** - The toggle settings property can be used to allow the user interactively expand or collapse the report items or row and columns associated with the group to drill down to further detail within the same report. Some common reasons to use the toggle visibility feature are as follows:
 
 * To hide columns or rows with details in table and matrix report items
 

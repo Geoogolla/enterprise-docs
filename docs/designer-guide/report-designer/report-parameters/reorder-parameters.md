@@ -1,5 +1,5 @@
 ---
-title: Reorder a parameters in Bold Report Designer | SSRS
+title: Reorder report parameters in Bold Report Designer | SSRS
 description: This section describes you on how reorder an existing parameter from the list of parameters in Bold Report Designer.
 keywords: reorder parameter, reorder parameters, report-designer, ssrs, reporting
 ---
