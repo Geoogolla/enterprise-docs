@@ -371,7 +371,9 @@
         "Export report from Bold Reports Report Server ": "export-report-from-bold-reports-server.md",
         "Get list of items from Bold Reports Report Server": "get-list-of-items-from-bold-reports-server.md",
         "Generate access token for Bold Reports Report Server user": "generate-access-token-for-bold-reports-server-user.md",
-        "How to generate the authorization token by using Embed Secret Key API":"generate-authorization-token-for-user-by-using-embed-secret-key-api.md"
+        "How to generate the authorization token by using Embed Secret Key API":"generate-authorization-token-for-user-by-using-embed-secret-key-api.md",
+        "How to export the Report using API":"export-the-report-using-api.md",
+        "How to generate the access token using API":"generate-access-token-for-bold-reports-server-using-api.md"
     }
 },
 "Licensing": "licensing.md",
