@@ -57,6 +57,8 @@ Now, the report design will look like below.
 
 ![Basic design of sparkline report](/static/assets/on-premise/images/report-designer/report-items/sparkline/design/intial-design.png)
 
+> Cannot insert a sparkline into a detail cell. Detail members can only contain the static inner members.
+
 ## Assign data
 
 1. Select the cell containing sparkline report item and switch to `DATA` tab in properties panel.
