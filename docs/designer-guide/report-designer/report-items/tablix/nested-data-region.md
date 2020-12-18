@@ -56,6 +56,8 @@ The data bind to the nested data regions, based on the position of the nested da
 
 * Tablix body - The data bind to the nested data regions in the tablix body area, after the filter and sort expressions for the dataset, the outer Tablix, and the row and column groups are applied.
 
+> Cannot insert a multi-value item into a detail cell. Detail members can only contain the static inner members.
+
 ## Design a simple report with nested data region
 
 1. To present data in the data regions, create a dataset and bind data to the data region. In this designing section, the following dataset query is used for dataset creation.

@@ -50,6 +50,8 @@ Now, the report design will look like below.
 
 ![Basic design of data bar report](/static/assets/on-premise/images/report-designer/report-items/data-bar/design/intial-design.png)
 
+> Cannot insert a data bar into a detail cell. Detail members can only contain the static inner members.
+
 ## Assign data
 
 1. Select the cell containing data bar report item and switch to `DATA` tab in properties panel.

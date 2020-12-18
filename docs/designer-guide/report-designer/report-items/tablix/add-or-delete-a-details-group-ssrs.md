@@ -19,7 +19,7 @@ The Details group can be used to display the detailed data in the tablix data re
 4. Select `Show detail data` and click on the `OK` button.
 ![Open group menu](/static/assets/on-premise/images/report-designer/report-items/tablix-add-or-delete-details-group-ssrs/enable-show-detail-data.png)
 
-> A details group is added as a child group in the Grouping panel, so you cannot add child group to the details group further.
+> Cannot insert a multi-value item into a detail cell. Detail members can only contain the static inner members.
 
 ## Delete details group
 
@@ -35,6 +35,8 @@ Details group can be deleted either using the cell context menu or using the gro
 * Choose the  `Delete group only` option to delete the group alone.
 
 Now, the respective `Details` group information will be deleted from the tablix data region.
+
+> A details group is added as a child group in the Grouping panel, so you cannot add child group to the details group further.
 
 ## Edit group properties
 
