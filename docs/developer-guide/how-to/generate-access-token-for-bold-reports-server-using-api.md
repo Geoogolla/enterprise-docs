@@ -4,7 +4,7 @@ description: This documentation explains about how to generate the access token 
 keywords: report-platform
 ---
 
-# How to generate the access token using API
+# How to generate the access token using API from postman
 
 You can generate the access token for the user in Bold Reports by using the API For this, pass the following parameters in request body.
 

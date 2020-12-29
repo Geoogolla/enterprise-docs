@@ -4,7 +4,7 @@ description: This documentation explains about how to export the Report using AP
 keywords: report-platform
 ---
 
-# How to export the Report using API
+# How to export the Report using API from postman
 
 Users who have read access for reports can export the reports by providing the report details and export type (Microsoft Excel, PDF, HTML, PPT, CSV and Word) in the request body. The response will be in an array of bytes.
 
