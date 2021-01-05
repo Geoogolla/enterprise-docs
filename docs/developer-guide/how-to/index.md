@@ -21,3 +21,5 @@ This section helps to get the answer for the frequently asked how to queries in 
 * [How to export the Report using API?](./../how-to/export-the-report-using-api/)
 
 * [How to generate the access token using API?](./../how-to/generate-access-token-for-bold-reports-server-using-api/)
+
+* [How to export the Report with filter parameter using API from the postman?](./../how-to/export-the-report-with-filter-parameter-using-api/)
