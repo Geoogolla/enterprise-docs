@@ -67,4 +67,11 @@ The following table lists the supported data sources for establishing a connecti
 | OLE DB                | Yes       |
 | Oracle                | Yes       |
 | XML                   | Yes       |
+| Web API               | Yes       |
+| OData                 | Yes       |
+| JSON                  | Yes       |
+| PostgreSQL            | Yes       |
+| MySQL                 | Yes       |
+| Excel                 | Yes       |
+| CSV                   | Yes       |
 | Extension Data Source | Yes       |
