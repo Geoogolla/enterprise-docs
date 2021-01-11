@@ -125,7 +125,8 @@
                 "ODBC":"odbc-data-source.md",
                 "PostgreSQL":"postgresql-data-source.md",
                 "Excel":"excel-data-source.md",
-                "CSV":"csv-data-source.md"
+                "CSV":"csv-data-source.md",
+                "MySQL":"mysql-data-source.md"
             },
             "DataSource": {
                 "Create an Embedded DataSource": "create-an-embedded-data-source.md",
