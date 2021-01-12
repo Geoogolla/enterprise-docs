@@ -368,3 +368,5 @@ DataMatrix
 csv
 xlsx
 xls
+MariaDB
+MemSQL

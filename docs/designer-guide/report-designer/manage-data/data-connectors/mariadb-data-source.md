@@ -13,7 +13,7 @@ The Bold Reports Designer supports connecting MariaDB database using SQL Query.
    ![Data icon configuration panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/data-configuration-panel.png)
 2. In the `DATA` configuration panel, click on the `NEW DATA` button.
    ![New Data Panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/new-data-button.png)
-3. In the connection type panel, choose the `MemSQL` data source type.
+3. In the connection type panel, choose the `MariaDB` data source type.
    ![Connection types panel](/static/assets/on-premise/images/report-designer/manage-data/mariadb-data-source/connection-types.png)
 
 ## Connection properties

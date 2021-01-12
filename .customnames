@@ -49,3 +49,5 @@ odbc
 oledb
 postgresql
 incase
+mariadb
+memsql
