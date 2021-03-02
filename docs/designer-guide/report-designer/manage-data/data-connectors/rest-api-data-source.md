@@ -233,7 +233,7 @@ The above action will post the information into specified REST API URL and take 
 **Syntax 2** :  To use the Parameters, Data fields, or Variables along with Json object, follow the below syntax.
 
    ```json
-   ="{'ItemType':'Dataset','ReportReferences':['" & Parameters!ReportParameter1.Value & "']}"
+   ="{'ItemType':'Dataset','ReportReferences':['"&Parameters!ReportParameter1.Value&"']}"
    ```
 
    ![Enter expression](/static/assets/on-premise/images/report-designer/manage-data/web-data-source/syntax-raw-2.png)
