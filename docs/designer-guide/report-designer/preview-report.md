@@ -1,6 +1,6 @@
 ---
-title: Preview the report | Enterprise | Bold Reports Designer
-description: This section describes on how to preview the report after designing using in-built Bold Report Viewer in Bold Reports
+title: Preview the report, after designing in Web Report Designer
+description: This section describes on how to preview the report after designing using in-built Report Viewer Bold Report Designer
 keywords: preview RDL report, web designer, report server
 ---
 

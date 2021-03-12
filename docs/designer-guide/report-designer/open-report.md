@@ -1,6 +1,6 @@
 ---
-title: Open Report | Enterprise | Bold Reports Designer
-description: This section describe on how to open an upload new report and an existing report in the Bold Reports Designer with enterprise server server.
+title: Open Report with Bold Report Designer | Bold Reports
+description: This section describe on how to open an upload new report and an existing report in the Bold Report Designer with on-premise server.
 ---
 
 # Open report
@@ -19,7 +19,7 @@ The respective report will be opened with Report Designer in new tab.
 
 ## Upload a report
 
-To edit a report which is available in local machine, first upload that report in on-premise server. Then, we can edit the report using [edit option](./../open-report-in-web-designer/#edit-an-existing-report).
+To edit a report which is available in local machine, first upload that report in on-premise server. Then, we can edit the report using [edit option](./../open-report/#edit-an-existing-report).
 
 1. Click on the `[+]` icon from the left side panel and click on the `Upload Report` option.
     ![Upload button](/static/assets/on-premise/images/report-designer/open-report/upload-report-new.png)
