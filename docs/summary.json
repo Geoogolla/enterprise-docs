@@ -115,18 +115,20 @@
     "Report Creation": "design-rdl-report-in-web-report-designer.md",
         "Manage Data": {
             "Data Connectors": {
-                "SQL": "sql-data-source.md",
-                "Rest API": "rest-api-data-source.md",
-                "JSON": "json-data-source.md",
-                "XML": "xml-data-source.md",
-                "OData":"odata-data-source.md",
-                "Oracle":"oracle-data-source.md",
-                "OLEDB":"oledb-data-source.md",
-                "ODBC":"odbc-data-source.md",
-                "PostgreSQL":"postgresql-data-source.md",
-                "Excel":"excel-data-source.md",
                 "CSV":"csv-data-source.md",
-                "MySQL":"mysql-data-source.md"
+                "Excel":"excel-data-source.md",
+                "JSON": "json-data-source.md",
+                "MariaDB":"mariadb-data-source.md",
+                "MemSQL":"memsql-data-source.md",
+                "MySQL":"mysql-data-source.md",
+                "ODBC":"odbc-data-source.md",
+                "OData":"odata-data-source.md",
+                "OLEDB":"oledb-data-source.md",
+                "Oracle":"oracle-data-source.md",
+                "PostgreSQL":"postgresql-data-source.md",
+                "Rest API": "rest-api-data-source.md",
+                "SQL": "sql-data-source.md",
+                "XML": "xml-data-source.md"
             },
             "DataSource": {
                 "Create an Embedded DataSource": "create-an-embedded-data-source.md",

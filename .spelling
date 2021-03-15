@@ -375,3 +375,5 @@ LookupSet
 TerritoryGroupID.Value
 TerritoryID.Value
 StoreName.value
+MariaDB
+MemSQL
