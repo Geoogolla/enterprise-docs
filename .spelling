@@ -368,5 +368,12 @@ DataMatrix
 csv
 xlsx
 xls
+SaleProdId.Value
+ProductID.Value
+Name.Value
+LookupSet
+TerritoryGroupID.Value
+TerritoryID.Value
+StoreName.value
 MariaDB
 MemSQL

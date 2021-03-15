@@ -319,10 +319,11 @@
                 "Barcode": {
                     "Create a Product Details Report": "design-ssrs-rdl-report-using-barcode.md",
                     "Supported Barcode Types": "supported-barcode-types.md"
-                }            },
-            "Open a report": "open-report-in-web-designer.md",
-            "Save a report": "save-report-in-web-designer.md",
-            "Preview a report": "preview-report-in-web-designer.md",
+                }
+            },
+ 			"Open a report": "open-report.md",
+            "Publish a report": "publish-report.md",
+            "Preview a report": "preview-report.md",
             "Supported Items": "supported-unsupported-features.md",
             "Keyboard Shortcuts": "design-report-using-keyboard-shortcuts.md",
             "How To": {

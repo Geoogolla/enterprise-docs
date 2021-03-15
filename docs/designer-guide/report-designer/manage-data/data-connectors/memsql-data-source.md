@@ -1,6 +1,6 @@
 ---
 title: Connect to MemSQL Data Source | Bold Reports Designer
-description: Learn how to connect MemSQL database and feed data to your RDL reports using Bold Reports Designer. 
+description: Learn how to connect MemSQL database and feed data to your paginated RDL reports using Bold Reports Designer.
 ---
 
 # Connect to MemSQL data source
