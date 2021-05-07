@@ -24,7 +24,7 @@ You can check the license agreement of Bold BI Enterprise edition by clicking th
 
 ## Hosting type
 
-You have been provided Bold BI Enterprise Edition to be hosted in the IIS web-server type.
+You have been provided Bold Reports Enterprise Edition to be hosted in the IIS web-server type.
 
 ## IIS
 
