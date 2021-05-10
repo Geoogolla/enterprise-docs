@@ -61,14 +61,14 @@ documentation: ug
 
 **IMPORTANT**: If you have any existing applications running in that Linux machine using Nginx, set “-n” value to false and configure the [Nginx manually](#manually-configure-nginx). Example for new installation,
 
-> sudo bash install-boldreports.sh -i new -u www-data -h <http://linux.example.com/> -n true
+> sudo bash install-boldreports.sh -i new -u www-data -h http://linux.example.com -n true
 
 Once the installation completed, open the host URL in the browser and continue the application startup.
 
 ## Manually Configure Nginx
 
 To configure Nginx as a reverse proxy to forward requests to the Bold Reports app, modify /etc/nginx/sites-available/default. Open it in a text editor, and add the following code.
-
+<div>
 <p>
        #server {
        #listen 80;
@@ -190,6 +190,7 @@ To configure Nginx as a reverse proxy to forward requests to the Bold Reports ap
     }
 }
 </p>
+</div>
 
 Once the Nginx configuration is established, run the `sudo nginx -t` to verify the syntax of the configuration files. If the configuration file test is successful, force the Nginx to pick up the changes by running the `sudo nginx -s` reload.
 
