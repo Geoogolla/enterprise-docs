@@ -70,7 +70,6 @@ Once the installation completed, open the host URL in the browser and continue t
 To configure Nginx as a reverse proxy to forward requests to the Bold Reports app, modify /etc/nginx/sites-available/default. Open it in a text editor, and add the following code.
 
 <p>
-
        #server {
        #listen 80;
        #server_name example.com;
@@ -190,7 +189,6 @@ To configure Nginx as a reverse proxy to forward requests to the Bold Reports ap
         proxy_set_header   X-Forwarded-Proto $scheme;
     }
 }
-
 </p>
 
 Once the Nginx configuration is established, run the `sudo nginx -t` to verify the syntax of the configuration files. If the configuration file test is successful, force the Nginx to pick up the changes by running the `sudo nginx -s` reload.
