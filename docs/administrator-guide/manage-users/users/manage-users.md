@@ -25,7 +25,7 @@ The `Add User` dialog will be shown as like in the image below.
 
 ![Add User](/static/assets/on-premise/images/manage-users-and-groups/users/add-user.png)
 
-Fill the form with Email address, First name and Last name and click on `Add`.
+Fill the form with Email address,User name, First name and Last name and click on `Add`.
 
 > **NOTE** : An email address is mandatory only in `Email required` mode.
 
@@ -112,7 +112,7 @@ User profile details can be edited from the users edit page as shown in the belo
 
 ![Edit User](/static/assets/on-premise/images/manage-users-and-groups/users/edit-user.png)
 
-First Name, Last Name, Phone number and the login password for the user can be edited by the user belonging to the 'System Administrator' group.
+User Name, First Name, Last Name, Phone number and the login password for the user can be edited by the user belonging to the 'System Administrator' group.
 
 ## Delete users
 
