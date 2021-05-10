@@ -106,9 +106,6 @@ Follow the below steps to add users using the CSV template
 
 ![CSV Display](/static/assets/on-premise/images/manage-users-and-groups/users/manage-user/success-template.png)
 
-
-
-
 ## Edit users
 
 User profile details can be edited from the users edit page as shown in the below image.
@@ -164,7 +161,6 @@ Click the Name of the user to change the password. Click on the update button on
 ![User Name](/static/assets/on-premise/images/manage-users-and-groups/users/manage-user/user-sites-edit-name.png)
 
 ![User Pwd](/static/assets/on-premise/images/manage-users-and-groups/users/manage-user/user-sites-pwd.png)
-
 
 ## Manage permissions
 
