@@ -61,7 +61,7 @@ documentation: ug
 
 **IMPORTANT**: If you have any existing applications running in that Linux machine using Nginx, set “-n” value to false and configure the [Nginx manually](#manually-configure-nginx). Example for new installation,
 
-> sudo bash install-boldreports.sh -i new -u www-data -h `http://linux.example.com` -n true
+> sudo bash install-boldreports.sh -i new -u www-data -h <http://linux.example.com/> -n true
 
 Once the installation completed, open the host URL in the browser and continue the application startup.
 
