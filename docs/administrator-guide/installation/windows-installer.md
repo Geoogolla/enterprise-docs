@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Installation  of BoldReports On-Premise in Bold Reports.
+title: Set up To Install Bold Report in Windows for the Bold.
 description: Learn how to install  Bold Reports Enterprise Edition and how to host the Bold Reports Enterprise in IIS or IIS Express in your machine. 
 platform: report-platform
 documentation: ug
@@ -54,9 +54,9 @@ After the installation process is completed, you can launch the application by c
 
 ![Launch](/static/assets/on-premise/images/installation/launch.png)
 
-If you did not install the client libraries during this installation, then after installed the Bold BI setup, you can install it using ClientLibrary.msi setup. The following steps to install the client libraries.
+If you did not install the client libraries during this installation, then after installed the Bold Reports setup, you can install it using ClientLibrary.msi setup. The following steps to install the client libraries.
 
-1. Go to the location C:\Program Files (x86)\Bold BI Enterprise Edition\Client Library. And double click the setup file named ClientLibrary.msi.
+1. Go to the location C:\Program Files (x86)\Bold Reports Enterprise Edition\Client Library. And double click the setup file named ClientLibrary.msi.
 
 ![Location](/static/assets/on-premise/images/installation/location.png)
 

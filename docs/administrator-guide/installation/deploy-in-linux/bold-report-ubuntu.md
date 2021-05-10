@@ -63,9 +63,7 @@ export OPENSSL_CONF=/etc/ssl/
 
 **IMPORTANT**: If you have any existing applications running in that Linux machine using Nginx, set “-n” value to false and configure the [Nginx manually](#manually-configure-nginx). Example for new installation,
 
-<div class="newone">
-<p>sudo bash install-boldreports.sh -i new -u www-data -h http://linux.example.com -n true</p>
-</div>
+> sudo bash install-boldreports.sh -i new -u www-data -h http://linux.example.com -n true
 
 Once the installation completed, open the host URL in the browser and continue the application startup.
 
@@ -207,17 +205,17 @@ If you have an SSL certificate for your domain and need to configure the site wi
 
 ![Ssl Config](/static/assets/on-premise/images/installation/ssl-config.png)
 
-1. Comment the following marked line in the Nginx config file.
+2. Comment the following marked line in the Nginx config file.
 
 ![Config Mark](/static/assets/on-premise/images/installation/ssl-config-mark.png)
 
-1. Replace the `example.com` with your domain name.
+3. Replace the `example.com` with your domain name.
 
-2. Define the path of the SSL certificate: `ssl_certificate /etc/ssl/domain.crt`.
+4. Define the path of the SSL certificate: `ssl_certificate /etc/ssl/domain.crt`.
 
-3. Specify the directory where the SSL certificate key is located: `ssl_certificate_key /etc/ssl/domain.key`.
+5. Specify the directory where the SSL certificate key is located: `ssl_certificate_key /etc/ssl/domain.key`.
 
-4. Save and run the sudo `nginx -t` to verify the syntax of the configuration file. If the configuration file test is successful, force the Nginx to pick up the changes by running the `sudo nginx -s` reload.
+6. Save and run the sudo `nginx -t` to verify the syntax of the configuration file. If the configuration file test is successful, force the Nginx to pick up the changes by running the `sudo nginx -s` reload.
 
 >**NOTE**: If you are configuring the application with SSL, you need to update the URLs in the product.
 >json with `HTTPS` located in the `/var/www/bold-services/application/app_data/configuration`.
