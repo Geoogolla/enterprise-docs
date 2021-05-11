@@ -14,4 +14,4 @@ Bold Reports Can Install in Following Services.
 1. [Window Installer](./windows-installer/)
 2. [Deploy in Azure App Service](./azure-app-service/)
 3. [Deploy in Linux](./deploy-in-linux/)
-4. [Deploy in Docker](./deploy-in-docker/)
+
