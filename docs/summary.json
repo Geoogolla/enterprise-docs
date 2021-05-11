@@ -8,8 +8,7 @@
             "Prerequisites":"prerequisites.md",
             "Bold Reports on Ubuntu":"bold-report-ubuntu.md",
             "Install optional libraries":"install-opt-library.md"
-        },
-        "Deploy in Docker":"deploy-in-docker.md"
+        }
     },
 
     "Application Startup": "application-startup.md",
