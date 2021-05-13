@@ -35,6 +35,12 @@ Border properties are used to add or customize the border around a rectangle ite
 
 Using the background color property you can color the rectangle background. To set background color using properties panel refer [Background color](./../../compose-report/common-properties/#background-color) section.
 
+### Background Image
+
+Background image property can be used to display company logos, watermarks, or any other background image to the rectangle. To set background image to the report refer [Background Image](./../../compose-report/background-image/) section.
+
+![Background image](/static/assets/on-premise/images/report-designer/report-items/rectangle/background-image.png)
+
 ### Page break
 
 The page break property is used to control the amount of information on each page when you preview the report. Follow the below steps to apply page break property for rectangle item.
