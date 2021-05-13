@@ -191,6 +191,12 @@ You can also apply series color based on dynamic values, by using the `Expressio
 
 You can configure **Hyperlink** or a **Report path** in the chart series to create an interactive report. Refer [Linking](./../../../compose-report/link-data/) section to set or reset link property for chart series.![Link To property](/static/assets/on-premise/images/report-designer/report-items/chart/link-to-property.png)
 
+<span style="font-weight:bold">Custom Attributes</span>
+
+This property can be used to set the values for chart series custom properties. To assign values for series custom properties using properties panel refer [Custom Properties](./../../../compose-report/common-properties/#custom-properties) section.
+
+![Series Custom properties](/static/assets/on-premise/images/report-designer/report-items/chart/custom-attributes.png)
+
 ### Appearance
 
 The border style, color, width and background color properties can be used to style the chart and customize its appearance in the report design. These properties are listed under the `Appearance` category in the properties panel.
