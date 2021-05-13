@@ -8,6 +8,8 @@ documentation: ug
 
 # Application Startup
 
+> NOTE: If you have already installed Bold BI in your machine, please go to the [this section](./../application-startup/#activate-bold-reports-license) to activate your Bold Reports account.
+
 This topic describes how to startup the  Bold Reports Enterprise Application.
 
 Application startup screen helps you to configure storage options and admin account setup.
@@ -138,3 +140,41 @@ Bold Reports Report Server stores the following information only to the server d
 * Report Server configurations
 
 > The reports, dataset, and data source, which are added to the Bold Reports Report Server will be maintained in some location based on storage type you have chosen while configuring the Bold Reports Server application. You can refer more details from this [link](./../faq/where-does-the-data-resides-in-bold-reports/).
+
+## Activate Bold Reports license
+
+You can activate your account either by using your login credentials or by offline unlock key.
+
+Open the Manage License Page - `{domain}/ums/administration/license-settings`
+
+Then, choose the Enterprise Reporting tab.
+
+![Enterprise Reporting tab](/static/assets/on-premise/images/getting-started/manage-license-page.png)
+
+### Activate Bold Reports license using the login credential
+
+You can sign in with your registered email address to activate your subscription.
+
+![Account activate using login](/static/assets/on-premise/images/getting-started/activate-boldreports-account.png)
+
+If you are having multiple Bold Reports licenses, then you will be getting this screen and select the corresponding license to activate the Bold Reports. Otherwise, your Bold Reports license will be automatically activated.
+
+![Choose Bold Reports License](/static/assets/on-premise/images/getting-started/choose-the-license.png) 
+
+### Upload unlock key
+
+> **NOTE:** Offline unlock key available for selected customers only. Please [contact us](https://www.boldreports.com/contact) to get access to the offline unlock key.
+
+![Unlock Key option](/static/assets/on-premise/images/getting-started/upload-unlock-key-option.png) 
+
+Once the unlock key is uploaded, proceed to the `Upload License` button for activating the Bold Reports License.
+
+![Updated Bold Reports License](/static/assets/on-premise/images/getting-started/update-license.png)
+
+### Create site
+
+Please refer to this [Create Site](./../administrator-guide/manage-tenant/create-new-site/) document to create a new Bold Reports site.
+
+## See Also
+
+* [**Create another site in multi-tenant application**](./../manage-tenant/create-new-site/)
