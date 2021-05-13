@@ -1,18 +1,18 @@
 ---
 layout: post
-title:  Resetting User Password – Admin Utility for v2.4 | Bold BI Docs
-description: Learn how to use the command line interface to reset the password of any user in Bold BI Embedded of v2.4 or earlier using their email address.
-platform: bold-bi
+title:  Resetting User Password – Admin Utility for v2.4 | Bold Reports Docs
+description: Learn how to use the command line interface to reset the password of any user in Bold Reports Enterprise of v2.4 or earlier using their email address.
+platform: report-platform
 documentation: ug
 ---
 
-# Reset Password for Bold BI version 2.4 or older
+# Reset Password for Bold Reports version 2.4 or older
 
 You can reset the current password of any user using their email address with this command. Please follow these steps:
    
 1. Open the command prompt and change the directory to the admin utility location. 
 ~~~
-cd C:\Bold BI\Utilities\AdminUtils
+cd C:\Bold Reports\Utilities\AdminUtils
 ~~~
 ![command](/static/assets/on-premise/images/tenant-management/admin-utility/displaycmd.png)
  
