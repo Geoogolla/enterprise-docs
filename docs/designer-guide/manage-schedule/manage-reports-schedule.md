@@ -14,7 +14,7 @@ This section explains on how to add, edit, delete schedules, manage report sched
 
 Schedules page displays the schedules that are accessible by the user depending on the user’s permission will be shown in the schedules page.
 
-![Manage Schedules](/static/assets/on-premise/images/manage-schedule/manage-report-schedules/add-schedule-1.png)
+![Manage Schedules](/static/assets/on-premise/images/manage-schedule/manage-report-schedules/manage-schedules.png)
 
 ## Add schedule
 
@@ -24,16 +24,10 @@ Schedules can be created only if the user has `Create All Schedules` permission.
 2. Add schedule from context menu of the respective reports.
 3. Add schedule from schedule listing page.
 
-### Add schedule from `+` button menu
+### Add schedule from Create button menu
 
 * Click on the `+` button in the left side menu and choose `Schedule` under `Create` to add a Schedule.
 ![Create Schedule](/static/assets/on-premise/images/manage-schedule/manage-report-schedules/create-schedule1.png)
-
-* Select the required category from `Category` dropdown. After selecting the category, corresponding reports under that selected category will be displayed in the `report` dropdown,
-![Create Schedule](/static/assets/on-premise/images/manage-schedule/manage-report-schedules/select-category.png)
-
-* Select the required report from the dropdown.
-![Create Schedule](/static/assets/on-premise/images/manage-schedule/manage-report-schedules/select-report.png)
 
 ### Add schedule from context menu of the respective reports
 
@@ -50,6 +44,14 @@ Schedules can be created only if the user has `Create All Schedules` permission.
 * Click `Schedules` from left side panel of the Report Server and click `Create Schedule` button.
 ![Create Schedule from schedule page](/static/assets/on-premise/images/manage-schedule/manage-report-schedules/add-schedule-from-schedule-page.png)
 
+* Select the required category from `Category` dropdown. After selecting the category, corresponding reports under that selected category will be displayed in the `report` dropdown,
+![Create Schedule](/static/assets/on-premise/images/manage-schedule/manage-report-schedules/select-category.png)
+
+* Select the required report from the dropdown.
+![Create Schedule](/static/assets/on-premise/images/manage-schedule/manage-report-schedules/select-report.png)
+
+## Configure Report parameters
+
 * Parameters available for the report will be shown in scheduler dialog.
 ![Set Parameter](/static/assets/on-premise/images/manage-schedule/manage-report-schedules/set-parameter.png)
 
@@ -58,11 +60,14 @@ Schedules can be created only if the user has `Create All Schedules` permission.
 
 > To modify the parameter values, you should enable the `Set parameters` option in the schedule dialog box.
 
-* Select the recurrence type, recurrence, start and end dates, export formats and the users to which the exported reports has to be emailed in the `Add Schedule' dialog box.
+## Configure Recurrence Intervals
+
+* Select the recurrence type, recurrence, start and end dates in the `Add Schedule' dialog box.
 * Reports can be scheduled hourly, daily, weekly, monthly and yearly
-* Reports can be exported in PDF, Word, Excel, HTML, PPT and CSV formats
 * Application time zone will be shown below the date picker. Start time of the schedule will be converted to client time zone and shown in the right side for user’s convenience.
 ![Add Schedule 1](/static/assets/on-premise/images/manage-schedule/manage-report-schedules/add-schedule-1.png)
+
+## Compress file to export
 
 * You can compress the exporting reports as a zip file by selecting the **Enable File Compression** option in the schedule dialog box. This is not mandatory and you can decompress it at any time by simply unchecking that option.
 ![File Compression](/static/assets/on-premise/images/manage-schedule/manage-report-schedules/file-compression.png)
@@ -121,14 +126,14 @@ Schedules can be created only if the user has `Create All Schedules` permission.
 </tr>
 </table>
 
-## Mail template customization
+## Customize Mail template
 
 * Mail template define the text which is sent via email to the report server user.
 * Initially the default template will displayed in the mail template and if the custom password is enable the user can add the password hint in the mail template if necessary
 * And also you can customize the email template with your preference.
 ![Customize Email Template](/static/assets/on-premise/images/manage-schedule/manage-report-schedules/customize-email-template.png)
 
-## Mail template predefined variables
+### Mail template predefined variables
 
 By selecting the variable the scheduled user variable is assigned directly from the server to the mail template
 * {Full Name}: Full name of the recipient
@@ -140,8 +145,21 @@ By selecting the variable the scheduled user variable is assigned directly from 
 * {Export Format}: Export file format which is chosen the schedule
 * {Organization Name}: [Organization name](./../../../administrator-guide/custom-rebranding/#organization-name) is retrieved from the site setting
 
+## Configure the export types
+
+* Reports can be exported in PDF, Word, Excel, HTML, PPT and CSV formats
+
+### Email attachment
+
 * Exported reports can be sent to individual users or groups by checking **Email attachment** option.
+
+* Also the exported reports can be sent to external recipients by providing the `Email Id`.
+
 ![Email Attachment Checkbox](/static/assets/on-premise/images/manage-schedule/manage-report-schedules/email-attachment-checkbox.png)
+
+> **Note:** Email attachment is selected as default.
+
+### Save as file
 
 * We can also save exported reports into any location by checking **Save as file** option.
 ![Save As Checkbox](/static/assets/on-premise/images/manage-schedule/manage-report-schedules/save-as-checkbox.png)
