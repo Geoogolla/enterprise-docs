@@ -199,6 +199,7 @@
                 "Drillthrough Action": "create-ssrs-drill-through-report.md",
                 "Multiple Column Report": "create-multiple-column-report-ssrs.md",
                 "Interactive Sorting": "interactive-sorting.md",
+                "Document Map":"document-map.md",
                 "Unit Switcher": "unit-switcher.md",
                 "Layouting": "layout-ordering.md",
                 "Expressions": {
