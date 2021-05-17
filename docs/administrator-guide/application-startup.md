@@ -8,7 +8,7 @@ documentation: ug
 
 # Application Startup
 
-This topic describes how to startup the  Bold Reports Enterprise Application.
+This topic describes how to startup the  Bold Reports Enterprise Application
 
 Application startup screen helps you to configure storage options and admin account setup.
 
