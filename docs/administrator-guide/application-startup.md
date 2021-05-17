@@ -8,19 +8,74 @@ documentation: ug
 
 # Application Startup
 
-This topic describes how to startup the  Bold Reports Enterprise Application
+> NOTE: If you have already installed Bold BI in your machine, please go to the [this section](./../application-startup/#activate-bold-reports-license) to activate your Bold Reports account.
+
+This topic describes how to startup the  Bold Reports Enterprise Application.
+
+You can activate your account either by using your login credentials or by offline unlock key.
+
+## Activate the account using login credentials
+
+You can sign in with your registered email address to activate your subscription.
+
+![Activate the account page](/static/assets/on-premise/images/getting-started/application-startup-login.png) 
+
+### Select Login option
+
+From the login window, choose your account type and proceed to login.
+
+* Bold Reports Login Credentials
+* Azure AD
+* Syncfusion Login Credentials
+
+![Application startup login form](/static/assets/on-premise/images/getting-started/login-option.png)
+
+### Select license
+
+If you are having multiple Bold Reports licenses, then you will be getting this screen and select the corresponding license to proceed with application startup. Otherwise, you will be automatically redirected to the application startup screen.
+
+![Select Portal License](/static/assets/on-premise/images/getting-started/choose-the-plan.png)
+
+## Offline Installation
+
+> **NOTE:** Offline unlock key available for selected customers only. [Please contact us](https://www.boldreports.com/contact) to get access to offline unlock key.
+
+![Activate the account with Unlock key option](/static/assets/on-premise/images/getting-started/application-startup-login-license.png)
+
+If you are installing the Bold Reports in firewall restricted environments, you can use offline unlock key to activate the account. Please download your offline unlock key [here](https://www.boldreports.com/account/downloads/embedded).
+
+![Unlock key file page](/static/assets/on-premise/images/getting-started/offline-setup-page.png)
+
+Once the unlock key is uploaded, proceed to the next screen for configuring the application.
+
+![Select Unlcok key file ](/static/assets/on-premise/images/getting-started/offline-setup.png)
+
+### Possible errors cases and their solution:
+
+| Cases      | Solution                                            |
+|-------------------  |-----------------------------------------------------------  |
+| Invalid File Type | Please ensure to upload the valid unlock key file (lic) downloaded from [here](https://www.boldreports.com/account/downloads/embedded).    
+|  unlock key Expired    | Your unlock key date was expired. Please download the new unlock key file from [here](https://www.boldreports.com/account/downloads/embedded).   |
+
+> **NOTE:** If you are facing any other issues, please contact us from [here](https://www.boldreports.com/contact).
+
+## No Trial / New Account Request
+
+If you do not have an account for Bold Reports, you can request a new trial from this [link](https://www.boldreports.com/pricing).
+
+![Activate the account with No Trail option](/static/assets/on-premise/images/getting-started/application-startup-sign-up.png)
+
+## Application Startup for Bold Reports Enterprise
 
 Application startup screen helps you to configure storage options and admin account setup.
 
 Application startup holds the storage options configuration for below application,
 1. Bold Reports Sites - Manages user identities and sites
 2. Bold Reports Server- Manages reports, data sources, dataset, schedules and the user permissions.
-Click `Proceed to Setup`.
-![Proceed to Setup](/static/assets/on-premise/images/getting-started/proceed-to-setup.png)
 
 ## Database Configuration for Bold Reports Sites
 
-This configuration stores the user identities and sites details in SQL Server Database or PostgreSQL.
+This configuration stores the user identities and sites details in SQL Server Database or PostgreSQL or MySQL.
 
 You can connect to the existing SQL Server instance with the below options.
 
@@ -35,6 +90,13 @@ You can also connect to the existing PostgreSQL Server instance with the below o
 * Use an existing database.
 
 ![PostgreSQL Server](/static/assets/on-premise/images/getting-started/application-startup-postgreSQL-server.png)
+
+You can connect to the existing MySQL Server instance with the below options.
+
+* Create new database.
+* Use an existing database.
+
+![MySQL Server](/static/assets/on-premise/images/getting-started/application-startup-MySQL-server.png)
 
 > The credentials that is given to connect to the SQL Server or PostgreSQL Server instance must have permissions to
 > * Create Database
@@ -87,7 +149,7 @@ User can select the preferred Site Name and Site Identifier for the initial site
 
 ## Database Configuration for Bold Reports Server
 
-This configuration stores the reports, users and their access permissions in SQL Server Database or PostgreSQL Server Database.
+This configuration stores the reports, users and their access permissions in SQL Server Database or PostgreSQL Server Database or MySQL Database.
 
 You can connect to the existing SQL Server instance with the below options.
 
@@ -102,6 +164,13 @@ You can connect to the existing PostgreSQL Server instance with the below option
 * Use an existing database.
 
 ![PostgreSQL Server Site](/static/assets/on-premise/images/getting-started/application-startup-site-registration-postgreSQL-server.png)
+
+You can connect to the existing MySQL Server instance with the below options.
+
+* Create new database.
+* Use an existing database.
+
+![MySQL Server Site](/static/assets/on-premise/images/getting-started/application-startup-site-registration-MySQL-server.png)
 
 > The credentials that is given to connect to the SQL Server instance must have permissions to
 > * Create Database
@@ -138,3 +207,41 @@ Bold Reports Report Server stores the following information only to the server d
 * Report Server configurations
 
 > The reports, dataset, and data source, which are added to the Bold Reports Report Server will be maintained in some location based on storage type you have chosen while configuring the Bold Reports Server application. You can refer more details from this [link](./../faq/where-does-the-data-resides-in-bold-reports/).
+
+## Activate Bold Reports license
+
+You can activate your account either by using your login credentials or by offline unlock key.
+
+Open the Manage License Page - `{domain}/ums/administration/license-settings`
+
+Then, choose the Enterprise Reporting tab.
+
+![Enterprise Reporting tab](/static/assets/on-premise/images/getting-started/manage-license-page.png)
+
+### Activate Bold Reports license using the login credential
+
+You can sign in with your registered email address to activate your subscription.
+
+![Account activate using login](/static/assets/on-premise/images/getting-started/activate-boldreports-account.png)
+
+If you are having multiple Bold Reports licenses, then you will be getting this screen and select the corresponding license to activate the Bold Reports. Otherwise, your Bold Reports license will be automatically activated.
+
+![Choose Bold Reports License](/static/assets/on-premise/images/getting-started/choose-the-license.png) 
+
+### Upload unlock key
+
+> **NOTE:** Offline unlock key available for selected customers only. Please [contact us](https://www.boldreports.com/contact) to get access to the offline unlock key.
+
+![Unlock Key option](/static/assets/on-premise/images/getting-started/upload-unlock-key-option.png) 
+
+Once the unlock key is uploaded, proceed to the `Upload License` button for activating the Bold Reports License.
+
+![Updated Bold Reports License](/static/assets/on-premise/images/getting-started/update-license.png)
+
+### Create site
+
+Please refer to this [Create Site](./../administrator-guide/manage-tenant/create-new-site/) document to create a new Bold Reports site.
+
+## See Also
+
+* [**Create another site in multi-tenant application**](./../manage-tenant/create-new-site/)

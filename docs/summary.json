@@ -32,6 +32,14 @@
         },
         "Account Activation": "account-activation.md"
     },
+    "Admin Utility": {
+        "Reset Password": "reset-password",
+        "Reset Application Database": "reset-application-database",
+        "v2.4 or older": {
+          "Reset Password for Bold Reports version 2.4 or older": "reset-password",
+          "Reset Application Database for Bold Reports version 2.4 or older": "reset-application-database"
+        }
+    },  
     "Manage Permissions": "manage-permissions.md",
     "Authentication": {
         "Single Sign On": {
