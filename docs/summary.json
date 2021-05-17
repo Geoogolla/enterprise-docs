@@ -72,7 +72,13 @@
         }
     },
     "Manage Tenants": {
-        "Create Site": "create-site.md"
+        "Create Site": "create-site.md",
+        "Site Administration": {
+            "Rebranding": "rebranding",
+            "Email Settings": "email-settings",
+            "Manage License": "manage-license"
+          },    
+        "Manage Admin Access": "manage-admin-access.md"
     },
     "User Profile": "user-profile.md",
     "Rebranding": "custom-rebranding.md",

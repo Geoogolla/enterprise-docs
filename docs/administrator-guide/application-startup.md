@@ -34,7 +34,7 @@ From the login window, choose your account type and proceed to login.
 
 If you are having multiple Bold Reports licenses, then you will be getting this screen and select the corresponding license to proceed with application startup. Otherwise, you will be automatically redirected to the application startup screen.
 
-![Select Portal License](/static/assets/on-premise/images/getting-started/choose-the-plan.png)
+![Select Portal License](/static/assets/on-premise/images/getting-started/portal-option-available.png)
 
 ## Offline Installation
 
