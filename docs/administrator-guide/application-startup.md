@@ -240,7 +240,7 @@ Once the unlock key is uploaded, proceed to the `Upload License` button for acti
 
 ### Create site
 
-Please refer to this [Create Site](./../manage-tenants/create-site/) document to create a new Bold Reports site.
+Please refer to this [Create Site](./../manage-tenants/create-site/) document to create a new Bold Reports site. 
 
 ## See Also
 
