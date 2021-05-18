@@ -152,6 +152,12 @@ You can set the static or dynamic text as page name. To set and reset dynamic te
 
 This property can be used to set the values for indicator custom properties. To create and assign values for custom properties using properties panel refer [Custom Properties](./../../compose-report/common-properties/#custom-properties) section.
 
+#### Document Map
+
+A document map is a navigational feature that displays a separate side pane with set of navigational links in hierarchical structure when you view a report. A user can click the content in the list, to navigate to the report page that displays that item. Refer [Document Map](./../../compose-report/document-map/) section to configure document map in the report design.
+
+You can set the static or dynamic text as value for document map property. To set and reset dynamic text, refer [Set Expression](./../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../compose-report/properties-panel/#reset-expression) section.
+
 #### Tooltip
 
 Tooltip property can be used to display informative text or value, when the user hovers over on the report item in report preview. To set tooltip for indicator report item using properties panel refer [Tooltip](./../../compose-report/common-properties/#tooltip) section.
