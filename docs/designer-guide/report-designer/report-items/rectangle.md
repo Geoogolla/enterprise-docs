@@ -106,6 +106,12 @@ This property can be used to set the values for rectangle custom properties. To 
 
 Tooltip property can be used to display informative text or value, when the user hovers over on the report item in report preview. To set tooltip for rectangle report item using properties panel refer [Tooltip](./../../compose-report/common-properties/#tooltip) section.
 
+#### Document Map
+
+A document map is a navigational feature that displays a separate side pane with set of navigational links in hierarchical structure when you view a report. A user can click the content in the list, to navigate to the report page that displays that item. Refer [Document Map](./../../compose-report/document-map/) section to configure document map in the report design.
+
+You can set the static or dynamic text as value for document map property. To set and reset dynamic text, refer [Set Expression](./../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../compose-report/properties-panel/#reset-expression) section.
+
 ## Set expression
 
 An expression can be set to few properties of the rectangle report item to process the property values based on expressions. To set expressions to the rectangle report item properties, refer [Set Expression](./../../compose-report/properties-panel/#set-expression) section.
