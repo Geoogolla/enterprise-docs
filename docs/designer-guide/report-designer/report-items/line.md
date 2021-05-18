@@ -48,6 +48,12 @@ Enable/Disable the visibility property to show and hide the line reportitem, whe
 
 ### Miscellaneous
 
-<span style="font-weight:bold">Custom attributes</span>
+#### Document Map
+
+A document map is a navigational feature that displays a separate side pane with set of navigational links in hierarchical structure when you view a report. A user can click the content in the list, to navigate to the report page that displays that item. Refer [Document Map](./../../compose-report/document-map/) section to configure document map in the report design.
+
+You can set the static or dynamic text as value for document map property. To set and reset dynamic text, refer [Set Expression](./../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../compose-report/properties-panel/#reset-expression) section.
+
+#### Custom attributes
 
 This property can be used to set the values for line report item custom properties. To create and assign values for custom properties using properties panel refer [Custom Properties](./../../compose-report/common-properties/#custom-properties) section.
