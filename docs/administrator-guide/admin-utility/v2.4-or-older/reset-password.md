@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Resetting User Password – Admin Utility for v2.4 | Bold Reports Docs
+title:  Reset User Password – Admin Utility for v2.4 | Bold Reports
 description: Learn how to use the command line interface to reset the password of any user in Bold Reports Enterprise of v2.4 or earlier using their email address.
 platform: report-platform
 documentation: ug

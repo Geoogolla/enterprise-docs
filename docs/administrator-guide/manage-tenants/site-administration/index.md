@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Admin Privileges in User Management Server | Bold Reports Docs
+title:  Admin Privileges in User Management Server | Bold Reports
 description: Learn the admin privileges such as, configuring email settings, custom rebranding and license update in the user management server.
 platform: report-platform
 documentation: ug

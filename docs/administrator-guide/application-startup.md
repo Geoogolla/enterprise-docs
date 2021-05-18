@@ -34,7 +34,7 @@ From the login window, choose your account type and proceed to login.
 
 If you are having multiple Bold Reports licenses, then you will be getting this screen and select the corresponding license to proceed with application startup. Otherwise, you will be automatically redirected to the application startup screen.
 
-![Select Portal License](/static/assets/on-premise/images/getting-started/portal-option-available.png)
+![Select Portal License](/static/assets/on-premise/images/getting-started/check-license-option.png)
 
 ## Offline Installation
 
@@ -226,7 +226,7 @@ You can sign in with your registered email address to activate your subscription
 
 If you are having multiple Bold Reports licenses, then you will be getting this screen and select the corresponding license to activate the Bold Reports. Otherwise, your Bold Reports license will be automatically activated.
 
-![Choose Bold Reports License](/static/assets/on-premise/images/getting-started/choose-the-license.png) 
+![Choose Bold Reports License](/static/assets/on-premise/images/getting-started/check-license-option.png) 
 
 ### Upload unlock key
 
@@ -236,7 +236,7 @@ If you are having multiple Bold Reports licenses, then you will be getting this 
 
 Once the unlock key is uploaded, proceed to the `Upload License` button for activating the Bold Reports License.
 
-![Updated Bold Reports License](/static/assets/on-premise/images/getting-started/update-license.png)
+![Updated Bold Reports License](/static/assets/on-premise/images/getting-started/update-license-key.png)
 
 ### Create site
 

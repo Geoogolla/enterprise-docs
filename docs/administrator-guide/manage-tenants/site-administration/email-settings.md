@@ -1,6 +1,6 @@
 ---
 layout: post
-title: SMTP Email Settings – User Management Server | Bold Reports Docs
+title: SMTP Email Settings – User Management Server | Bold Reports
 description: Learn how to configure the SMTP settings user management server to send emails for account activation, forgot or reset password.
 platform: report-platform
 documentation: ug

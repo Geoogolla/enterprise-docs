@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Reset Application Database – Utility for v2.4 | Bold Reports Docs
+title:  Reset Application Database – Utility for v2.4 | Bold Reports
 description: Learn how to reset the application database of Bold Reports server application of v2.4 or earlier through the command line interface.
 platform: Report-platform
 documentation: ug

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Overview - Admin utility for v2.4 or earlier | Bold Reports Docs
+title: Overview - Admin utility for v2.4 or earlier | Bold Reports
 description: This section explains overview of the admin utility, list of available commands, and how to use those commands in the admin utility of v2.4 or earlier. 
 platform: report-platform
 documentation: ug

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: White label User Management Server Interface | Bold Reports Docs
+title: White label User Management Server Interface | Bold Reports
 description: Learn how to white label / rebrand user management server interface by changing organization name, logo, fav icon, email logo, and date time display formats.
 platform: report-platform
 documentation: ug

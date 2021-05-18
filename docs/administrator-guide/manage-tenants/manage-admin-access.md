@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Assigning Admin Role to Users in User Management Server – Bold Reports
+title: Assigning Admin Role to Users in UMS – Bold Reports
 description: Learn how to add or remove admin role to the users in the User Management Server of Bold Reports deployed in your servers.
 platform: report-platform
 documentation: ug
