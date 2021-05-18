@@ -216,7 +216,7 @@ Open the Manage License Page - `{domain}/ums/administration/license-settings`
 
 Then, choose the Enterprise Reporting tab.
 
-![Enterprise Reporting tab](/static/assets/on-premise/images/getting-started/manage-license-page.png)
+![Enterprise Reporting tab](/static/assets/on-premise/images/getting-started/manage-license-page-reports-tab.png)
 
 ### Activate Bold Reports license using the login credential
 
