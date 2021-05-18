@@ -1,6 +1,6 @@
 ---
 title: Create a Document Map | Report Designer | Bold Reports
-description: TLearn how to configure a document map to provide a set of navigational links to report items in a rendered report with Bold Report Designer
+description: Learn how to configure a document map to provide a set of navigational links to report items in a rendered report with Bold Report Designer
 ---
 
 # Document Map
