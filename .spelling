@@ -377,3 +377,12 @@ TerritoryID.Value
 StoreName.value
 MariaDB
 MemSQL
+adminutils
+servername
+hostname
+databasename
+iswindowsauthentication
+sslenabled
+AdminUtils
+lic
+rebranded
