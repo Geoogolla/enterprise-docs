@@ -44,10 +44,14 @@ This section explains how to create the Bold Reports Report Server into Azure cl
 
     * **Storage account type**: This is optional, if you have chosen file storage in storage type and mandatory for Blob storage. Learn more about storage account types from [here](https://docs.microsoft.com/en-us/azure/storage/storage-introduction#replication-for-durability-and-high-availability).
 
+   > **Note:** Web App name and Storage account name should be in lowercase only.
+
 9. Select the agreement check box and click **Purchase** to deploy the Bold Reports On-Premise Web App.
 ![Fill app service details](/static/assets/on-premise/images/installation-and-deployment/azure-deployment/app-service-using-arm-template/custom-template-details-form.png)
 
    Now, Bold Reports Multi-tenant App Service(Web App) deployment get started.
+
+   > **Note:** Deployment process will take around 15 minutes to complete.
 
    The App Service plan for the Web App is created, which will be in `Basic – B1` by default. Learn more about App Service plans from [here](https://docs.microsoft.com/en-us/azure/app-service/azure-web-sites-web-hosting-plans-in-depth-overview). Bold Reports On-Premise Web App does not support free or shared App Service plans.
 
