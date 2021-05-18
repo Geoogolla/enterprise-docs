@@ -62,3 +62,5 @@ The document map is expected for use in the Report Viewer. The document map rend
 * In PDF export, the document maps are expressed through PDF bookmarks.
 
 * Power point, XML, and CSV export format ignores the document map settings.
+
+> Download the above report design from [link](https://github.com/boldreports/resources/tree/master/docs/report-designer/document-map/Document-Map.rdl).
