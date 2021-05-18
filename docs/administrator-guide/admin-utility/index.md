@@ -10,7 +10,7 @@ documentation: ug
 
 This section explains about how to use the admin utility and list of command available in the admin utility.
 
- >**NOTE:** If you installed the Bold Reports version 3.3 or older, then Check [this section](./../admin-utility/v3.3-or-older/).
+ >**NOTE:** If you installed the Bold Reports version 3.3 or older, then Check [this section](./../admin-utility/v2.4-or-older/).
 
 ## How to use this utility
 

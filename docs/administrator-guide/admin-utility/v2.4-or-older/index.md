@@ -31,5 +31,5 @@ cd C:\Bold Reports\Utilities\AdminUtils
 ## Available commands
 
 Please find the list of commands available in admin utility currently.  
-* [**Reset Password**](./../v3.3-or-older/reset-password/)
-* [**Update Application Database**](./../v3.3-or-older/reset-application-database/)
+* [**Reset Password**](./../v2.4-or-older/reset-password/)
+* [**Update Application Database**](./../v2.4-or-older/reset-application-database/)

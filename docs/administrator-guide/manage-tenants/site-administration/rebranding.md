@@ -41,7 +41,7 @@ Date format of the User Management Server can be changed. User Management Server
 Time format of the Bold Reports site can be changed. User Management Server will have `12 hour` as the default time format.
 
 ## Language
-An option to localize the User Management Server to any culture. Please click [here](./../../../administrator-guide/localization/) to learn how to add a new localization or edit the existing localization in the User Management Server.
+An option to localize the User Management Server to any culture. Please click [here](./../../administrator-guide/localization/) to learn how to add a new localization or edit the existing localization in the User Management Server.
 
 ## Powered by Syncfusion
 Option to show or hide `Powered by Syncfusion` in the footer of the User Management Server. By default, this will be shown.

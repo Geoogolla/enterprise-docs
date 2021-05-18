@@ -240,8 +240,8 @@ Once the unlock key is uploaded, proceed to the `Upload License` button for acti
 
 ### Create site
 
-Please refer to this [Create Site](./../administrator-guide/manage-tenant/create-new-site/) document to create a new Bold Reports site.
+Please refer to this [Create Site](./../manage-tenant/create-site/) document to create a new Bold Reports site.
 
 ## See Also
 
-* [**Create another site in multi-tenant application**](./../manage-tenant/create-new-site/)
+* [**Create another site in multi-tenant application**](./../manage-tenant/create-site/)
