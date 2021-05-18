@@ -86,7 +86,7 @@
     "How To": {
         "Map a domain name to Bold Reports site before startup": "map-a-domain-name-to-bold-reports-site-before-startup.md",
         "How to resolve unavailable error when deploying on Bold Reports site":"resolve-unavailable-error-when-site-fails-incase-of-domain-name-change.md",
-        "Setup the staging and production environment for BoldReportsOn-PremiseEdition": "setup-the-staging-and-production-environment-for-bold-reports-on-premise-edition.md",
+        "Setup the development staging and production environment for BoldReportsOn-PremiseEdition": "setup-the-development-staging-and-production-environment-for-bold-reports-on-premise-edition.md",
         "Set up Azure Active Directory": "set-up-azure-active-directory.md",
         "Configure Gmail SMTP Server in Email Settings": "configure-gmail-smtp-server-in-email-settings.md",
         "Add parameters with Report link": "report-link-with-filter-parameters.md",
