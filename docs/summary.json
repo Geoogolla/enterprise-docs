@@ -10,8 +10,12 @@
             "Install optional libraries":"install-opt-library.md"
         }
     },
+    "Application Startup": {
+        "SQL Server": "sql-configuration",
+        "PostgreSQL": "postgresql-configuration.md",
+        "MySQL": "mysql-configuration.md"
+    },
 
-    "Application Startup": "application-startup.md",
     "Manage Users": {
         "Users": {
             "Manage Users": "manage-users.md",
@@ -95,6 +99,7 @@
         "Map a domain name to Bold Reports site before startup": "map-a-domain-name-to-bold-reports-site-before-startup.md",
         "How to resolve unavailable error when deploying on Bold Reports site":"resolve-unavailable-error-when-site-fails-incase-of-domain-name-change.md",
         "Setup the development staging and production environment for BoldReportsOn-PremiseEdition": "setup-the-development-staging-and-production-environment-for-bold-reports-on-premise-edition.md",
+        "Create DSN for MySQL": "create-dsn-for-mysql",
         "Set up Azure Active Directory": "set-up-azure-active-directory.md",
         "Configure Gmail SMTP Server in Email Settings": "configure-gmail-smtp-server-in-email-settings.md",
         "Add parameters with Report link": "report-link-with-filter-parameters.md",
@@ -102,7 +107,8 @@
         "Migrate SSRS reports to the Bold Reports Report Server":"migrate-ssrs-reports-to-the-bold-reports-report-server.md",
         "How to apply the patches to Bold Reports Enterprise Reporting":"apply-patches-to-bold-reports.md",        
         "Apply patches to Bold Reports Multi-tenant Azure App Service": "apply-patches-to-bold-reports-azure-app-service.md",
-        "Switch the installed Bold Reports Report Server IIS Express application to IIS": "switch-the-installed-bold-reports-report-server-iis-express-application-to-iis.md"
+        "Switch the installed Bold Reports Report Server IIS Express application to IIS": "switch-the-installed-bold-reports-report-server-iis-express-application-to-iis.md",
+        "How to apply the patches to Bold Reports to support common login with latest BI":"apply-patches-to-bold-reports-to-support-common-login-with-latest-bi.md"
     },
     "FAQ": {
         "Where can i find the error and debug log files?": "where-can-i-find-the-error-and-debug-log-files.md",
