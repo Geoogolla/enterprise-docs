@@ -8,14 +8,14 @@ documentation: ug
 
 # Email Settings in User Management Server
 
-This section explains how to configure the [SMTP](https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol) details in the User Management Server to send emails. 
+This section explains how to configure the [SMTP](https://en.wikipedia.org/wiki/Simple_Mail_Transfer_Protocol) details in the User Management Server to send emails.
 
 SMTP Email Settings are required to perform the following operations:
 
 **Account Activation** --- Sends user account activation email.
-   
+
 **Forgot Password** --- Sends request links to reset the password when the user has forgotten the password.
-	
+
 **Reset Password** --- Sends links to reset the password.
 
 The following SMTP details are required to send email from the User Management Server.
@@ -58,6 +58,6 @@ Support two types of Authentications:
     <td>Enable SSL</td>
     <td>If enabled, SSL will be used to connect with your SMTP server. Else, the connection will be made with TLS connection.</td>
 </tr>
-</table>	
-	
+</table>
+
 ![Email Settings page](/static/assets/on-premise/images/tenant-management/site-management/email-settings-page.png)

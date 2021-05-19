@@ -18,7 +18,7 @@ You can activate your account either by using your login credentials or by offli
 
 You can sign in with your registered email address to activate your subscription.
 
-![Activate the account page](/static/assets/on-premise/images/getting-started/application-startup-login.png) 
+![Activate the account page](/static/assets/on-premise/images/getting-started/application-startup-login.png)
 
 ### Select Login option
 
@@ -50,11 +50,11 @@ Once the unlock key is uploaded, proceed to the next screen for configuring the 
 
 ![Select Unlcok key file ](/static/assets/on-premise/images/getting-started/offline-setup.png)
 
-### Possible errors cases and their solution:
+### Possible errors cases and their solution
 
 | Cases      | Solution                                            |
 |-------------------  |-----------------------------------------------------------  |
-| Invalid File Type | Please ensure to upload the valid unlock key file (lic) downloaded from [here](https://www.boldreports.com/account/downloads/embedded).    
+| Invalid File Type | Please ensure to upload the valid unlock key file (lic) downloaded from [here](https://www.boldreports.com/account/downloads/embedded).
 |  unlock key Expired    | Your unlock key date was expired. Please download the new unlock key file from [here](https://www.boldreports.com/account/downloads/embedded).   |
 
 > **NOTE:** If you are facing any other issues, please contact us from [here](https://www.boldreports.com/contact).
@@ -226,13 +226,13 @@ You can sign in with your registered email address to activate your subscription
 
 If you are having multiple Bold Reports licenses, then you will be getting this screen and select the corresponding license to activate the Bold Reports. Otherwise, your Bold Reports license will be automatically activated.
 
-![Choose Bold Reports License](/static/assets/on-premise/images/getting-started/check-license-option.png) 
+![Choose Bold Reports License](/static/assets/on-premise/images/getting-started/check-license-option.png)
 
 ### Upload unlock key
 
 > **NOTE:** Offline unlock key available for selected customers only. Please [contact us](https://www.boldreports.com/contact) to get access to the offline unlock key.
 
-![Unlock Key option](/static/assets/on-premise/images/getting-started/upload-unlock-key-option.png) 
+![Unlock Key option](/static/assets/on-premise/images/getting-started/upload-unlock-key-option.png)
 
 Once the unlock key is uploaded, proceed to the `Upload License` button for activating the Bold Reports License.
 
@@ -240,7 +240,7 @@ Once the unlock key is uploaded, proceed to the `Upload License` button for acti
 
 ### Create site
 
-Please refer to this [Create Site](./../manage-tenants/create-site/) document to create a new Bold Reports site. 
+Please refer to this [Create Site](./../manage-tenants/create-site/) document to create a new Bold Reports site.
 
 ## See Also
 
