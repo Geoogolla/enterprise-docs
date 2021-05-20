@@ -11,15 +11,19 @@ documentation: ug
 You can reset the database of the Bold Reports application using this command. Follow these steps:
 
 1. Open the command prompt and change the directory to the admin utility location.
+
    ```sh
    cd C:\Bold Reports\Utilities\AdminUtils
    ```
+
    ![command](/static/assets/on-premise/images/tenant-management/admin-utility/displaycmd.png)
 
 2. After changing the directory, run the following command to reset the database.
+
    ```sh
    AdminUtils.exe dbconfig -servername "localhost" -databasename "BoldReportsMasterDatabase" -u "Admin" -p "Admin@12345" -iswindowsauthentication false -sslenabled false
    ```
+
    > **IMPORTANT:**  command details:  
 servername – SQL server hostname/IP  
 databasename – SQL database name  

@@ -23,9 +23,11 @@ This section explains how to use the admin utility and list of command available
    ![cmd-window](/static/assets/on-premise/images/tenant-management/admin-utility/cmdpmpt.png)
 
 3. Change the command prompt directory to the admin utility location. For more information, Please refer the following command.
+
    ```sh
    cd C:\Bold Reports\Utilities\AdminUtils
    ```
+
    ![utils-cmd](/static/assets/on-premise/images/tenant-management/admin-utility/displaycmd.png)
 
 ## Available commands
