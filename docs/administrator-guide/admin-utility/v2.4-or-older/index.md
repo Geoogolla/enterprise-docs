@@ -14,19 +14,19 @@ This section explains how to use the admin utility and list of command available
 
 1. Switch the admin utility location to `{Deployed Location}`\Utilities\AdminUtils.
 
-![folder](/static/assets/on-premise/images/tenant-management/admin-utility/folder.png)
+   ![folder](/static/assets/on-premise/images/tenant-management/admin-utility/folder.png)
 
-> **NOTE:** By default, Bold Reports will be deployed on `C:\Bold Reports`.
+   > **NOTE:** By default, Bold Reports will be deployed on `C:\Bold Reports`.
 
 2. Open the command prompt.
 
-![cmd-window](/static/assets/on-premise/images/tenant-management/admin-utility/cmdpmpt.png)
+   ![cmd-window](/static/assets/on-premise/images/tenant-management/admin-utility/cmdpmpt.png)
 
 3. Change the command prompt directory to the admin utility location. For more information, Please refer the following command.
-
-       cd C:\Bold Reports\Utilities\AdminUtils
-
-![utils-cmd](/static/assets/on-premise/images/tenant-management/admin-utility/displaycmd.png)
+   ```sh
+   cd C:\Bold Reports\Utilities\AdminUtils
+   ```
+   ![utils-cmd](/static/assets/on-premise/images/tenant-management/admin-utility/displaycmd.png)
 
 ## Available commands
 

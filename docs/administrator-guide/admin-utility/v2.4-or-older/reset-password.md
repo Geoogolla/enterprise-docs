@@ -11,15 +11,15 @@ documentation: ug
 You can reset the current password of any user using their email address with this command. Please follow these steps:
 
 1. Open the command prompt and change the directory to the admin utility location.
-
-       cd C:\Bold Reports\Utilities\AdminUtils
-
-![command](/static/assets/on-premise/images/tenant-management/admin-utility/displaycmd.png)
+   ```sh
+   cd C:\Bold Reports\Utilities\AdminUtils
+   ```
+   ![command](/static/assets/on-premise/images/tenant-management/admin-utility/displaycmd.png)
 
 2. After changing the directory, please run the following command to reset the password.
-
-       AdminUtils.exe reset -u 'user email here' -p 'new password here'
-
-![reset-command](/static/assets/on-premise/images/tenant-management/admin-utility/resetcmd.png)
+   ```sh
+   AdminUtils.exe reset -u 'user email here' -p 'new password here'
+   ```
+   ![reset-command](/static/assets/on-premise/images/tenant-management/admin-utility/resetcmd.png)
 
 3. Once, the password has been successfully reset, the user can login with the new password.
