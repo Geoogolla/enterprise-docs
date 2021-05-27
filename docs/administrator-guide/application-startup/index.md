@@ -8,7 +8,7 @@ documentation: ug
 
 # Application Startup
 
-This topic describes how to startup the  Bold Reports Enterprise Application.
+This topic describes how to startup the Bold Reports Enterprise Application.
 
 Application startup screen helps you to configure storage options and admin account setup.
 
@@ -18,9 +18,15 @@ Application startup holds the storage options configuration for below applicatio
 Click `Proceed to Setup`.
 ![Proceed to Setup](/static/assets/on-premise/images/getting-started/proceed-to-setup.png)
 
-## Database Configuration for Bold Reports Sites
+## Storage Options
 
-This configuration stores the user identities and sites details in SQL Server Database or PostgreSQL.
+* SQL server, Azure SQL
+* PostgreSQL
+* MySQL
+
+## Database Configuration for Bold ID
+
+This configuration stores the user identities and sites details in the database. You can use anyone of the following database to configure the Bold ID.
 
 You can connect to the existing SQL Server instance with the below options.
 
@@ -29,14 +35,19 @@ You can connect to the existing SQL Server instance with the below options.
 
 ![SQL Server](/static/assets/on-premise/images/getting-started/application-startup-step1.png)
 
-You can also connect to the existing PostgreSQL Server instance with the below options.
+### Create New Database
 
-* Create new database.
-* Use an existing database.
+[Database Configuration for Bold ID in SQL Server](./sql-configuration/#sql-server-database-configuration-for-bold-id)
 
-![PostgreSQL Server](/static/assets/on-premise/images/getting-started/application-startup-postgreSQL-server.png)
+[Database Configuration for Bold ID in PostgreSQL](./postgresql-configuration/#postgresql-database-configuration-for-bold-id)
 
-> The credentials that is given to connect to the SQL Server or PostgreSQL Server instance must have permissions to
+[Database Configuration for Bold ID in MySQL](./mysql-configuration/#mysql-database-configuration-for-bold-id).
+
+### Existing Database
+
+Existing database can be used to configure the database to store the user identities and report details.
+
+> The credentials that is given to connect to database Server instance must have permissions to
 > * Create Database
 > * Create Table
 > * Insert
@@ -46,7 +57,7 @@ You can also connect to the existing PostgreSQL Server instance with the below o
 > * Drop Table
 > * Drop Database
 
-## Storage Type
+## Storage Type for Bold ID
 
 User can select the preferred storage type File Storage or Blob Storage to store the resource in BoldReports Sites
 
@@ -87,7 +98,7 @@ User can select the preferred Site Name and Site Identifier for the initial site
 
 ## Database Configuration for Bold Reports Server
 
-This configuration stores the reports, users and their access permissions in SQL Server Database or PostgreSQL Server Database.
+This configuration stores the reports, users and their access permissions in the database. You can use anyone of the following database to configure the Bold Reports Server.
 
 You can connect to the existing SQL Server instance with the below options.
 
@@ -96,12 +107,17 @@ You can connect to the existing SQL Server instance with the below options.
 
   ![SQL Server Site](/static/assets/on-premise/images/getting-started/application-startup-site-registration.png)
 
-You can connect to the existing PostgreSQL Server instance with the below options.
+### Create New Database
 
-* Create new database.
-* Use an existing database.
+[Database Configuration for Bold Reports Server in SQL Server](./sql-configuration/#sql-server-database-configuration-for-bold-reports-server-sites)
 
-![PostgreSQL Server Site](/static/assets/on-premise/images/getting-started/application-startup-site-registration-postgreSQL-server.png)
+[Database Configuration for Bold Reports Server in PostgreSQL](./postgresql-configuration/#postgresql-database-configuration-for-bold-reports-server-sites)
+
+[Database Configuration for Bold Reports Server in MySQL](./mysql-configuration/#mysql-database-configuration-for-bold-reports-server-sites).
+
+### Existing Database
+
+Existing database can be used to configure database to store the reports, users and their access permissions.
 
 > The credentials that is given to connect to the SQL Server instance must have permissions to
 > * Create Database
@@ -113,7 +129,7 @@ You can connect to the existing PostgreSQL Server instance with the below option
 > * Drop Table
 > * Drop Database
 
-## Storage Type
+## Storage Type for Bold Reports Server
 
 User can select the preferred storage type File Storage or Blob Storage to store the report,datasource and dataset in BoldReports Server.
 
