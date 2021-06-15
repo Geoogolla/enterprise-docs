@@ -28,7 +28,7 @@ Admin can download log files from Get diagnostic logs in UMS.
 
  You can get the log file manually from the following location for Bold Reports version 3.1.31 or later.
 
-> By default, the Bold Reports is deployed in `C:\Bold Reports`.
+> By default, the Bold Reports is deployed in `C:\BoldServices`.
 
 | Hosted Environment    | Log location                                                  |
 |------------------     |------------------------------------------------------------   |
