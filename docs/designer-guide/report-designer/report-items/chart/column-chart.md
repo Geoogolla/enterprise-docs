@@ -1,7 +1,6 @@
 ---
 title: Configuring and Formatting Column Chart | Web ReportDesigner
 description: Adding HTML5 JavaScript Column Chart control into report and formatting with the Bold Report Designer
-keywords: ejReportDesigner, reportdesigner, tablix, reportitem, documentation, help, ej, user guide, demo, samples, bold reports, bold reporting
 ---
 
 # Column Chart
@@ -86,112 +85,27 @@ To format column chart follow the below steps:
 
 You can see the list of properties available for the widget with default value.
 
-### General Settings
-
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/name-property.png)
-
-<span style="font-weight:bold">Name</span>
+### Name
 
 Name property can be used to provide an unique name to the chart item in the report.
+
+![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/name-property.png)
 
 ### Basic Settings
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/basic-settings.png)
 
-> Note: The properties under basic setting will be enabled in the chart properties panel, after assigning the data to the chart.
-
-<span style="font-weight:bold">Chart Type</span>
-
-Supported chart types will be listed in the `Chart Type` property dropdown, you can switch to the required chart type based on the data.
-
-<span style="font-weight:bold">Show Legend</span>
+#### Show Legend
 
 A Legend is a text used to describe the data plotted. This allows you to toggle the visibility of legend in chart and also you can customize the legend text appearance. To set/reset legend properties, refer [Show Legend](./../../../report-items/chart/legend/) property.
 
-<span style="font-weight:bold">Choose Series</span>
+#### Choose Series
 
 You can add multiple series to the chart and the available series will be listed in the `Choose Series` drop-down. To customize the series appearance choose the required series name in the drop-down.
 
-In the below snap, the chart has single series.
+![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/series/multi-series-list-in-drop-down.png)
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/chart-series/chart-with-single-series.png)
-
-So, only one series is listed in the drop-down,
-
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/chart-series/single-series-list-in-drop-down.png)
-
-If the chart has multiple series as below,
-
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/chart-series/chart-with-multiple-series.png)
-
-Now, both series will be listed in the properties panel.
-
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/chart-series/multi-series-list-in-drop-down.png)
-
-<span style="font-weight:bold">Show Marker</span>
-
-Data markers are used to provide information about the data point to the user. You can add a shape and label to adorn each data point. To set/reset marker properties, refer [Show Marker](./../../../report-items/chart/marker/) property. The marker properties will be applied to the selected series in the  `Choose Series` drop-down.
-
-<span style="font-weight:bold">Show Data Label</span>
-
-Data label can be added to a chart series by using the `Show Data Label` property. The labels appear at the top of the data point, by default. To set/reset data label properties, refer [Show Data Label](./../../../report-items/chart/data-label/) property. The data label properties will be applied to the selected series in the  `Choose Series` drop-down.
-
-<span style="font-weight:bold">Enable Smart Label</span>
-
-Smart labels manage overlapping of labels even when a large number of labels are placed in close vicinity. To set/reset data label properties, refer [Enable Smart Label](./../../../report-items/chart/smart-label/) property.
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/smart-label/enable-smart-label.png)
-
-> To apply smart label properties, enable `Data Label` for chart data region.
-
-<span style="font-weight:bold">Series Border</span>
-
-Series border properties can be used to customize the chart series border in the design.
-
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/chart-series/series-border.png)
-
-In the below design, border color, width and style properties are applied to the chart series.
-
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/chart-series/border-design.png)
-
-> The series border properties will be applied to the selected series in the  `Choose Series` drop-down.
-
-You can also set properties based on dynamic values, by using the `Expressions`. Refer [Set Expression](./../../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/chart-series/border-expression-menu.png)
-
-<span style="font-weight:bold">Series Color</span>
-
-Series Color property can be used to customize the series colors in the chart area. If the chart has multiple series, you can differentiate the series using this property.
-
-Choose first series in the `Choose Series` drop-down and choose color in `Series Color` property palette.
-
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/chart-series/series-color-first-series.png)
-
-Now, the selected color will be applied to the `Sales1` series in the chart design.
-
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/chart-series/first-series-color-design.png)
-
-Then, choose second series in the `Choose Series` drop-down and choose color in `Series Color` property palette.
-
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/chart-series/series-color-second-series.png)
-
-Now, the selected color will be applied to the `Price1` series in the chart design.
-
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/chart-series/second-series-color-design.png)
-
-> The series color properties will be applied to the selected series in the  `Choose Series` drop-down.
-
-You can also apply series color based on dynamic values, by using the `Expressions`. Refer [Set Expressions](./../../../compose-report/properties-panel/#set-expression) and [Reset Expressions](./../../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
-
-<span style="font-weight:bold">Link To</span>
-
-You can configure **Hyperlink** or a **Report path** in the chart series to create an interactive report. Refer [Linking](./../../../compose-report/link-data/) section to set or reset link property for chart series.
-![Link To property](/static/assets/on-premise/images/report-designer/report-items/chart/link-to-property.png)
-
-<span style="font-weight:bold">Custom Attributes</span>
-
-This property can be used to set the values for chart series custom properties. To assign values for series custom properties using properties panel refer [Custom Properties](./../../../compose-report/common-properties/#custom-properties) section.
-
-![Series Custom properties](/static/assets/on-premise/images/report-designer/report-items/chart/custom-attributes.png)
+Refer [Series](./../../../report-items/chart/series/) section, to customize each series using the properties panel.
 
 ### Appearance
 
@@ -247,7 +161,7 @@ The Grid line properties can be set to category and value axis.
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/grid-line.png)
 
-<span style="font-weight:bold">Category Axis</span>
+#### Category Axis
 
 To show the grid line for category axis, enable the `Category Axis` checkbox.
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/column-chart/category-axis-grid-line.png)
@@ -257,7 +171,7 @@ You can also enable the `Minor Grid Lines` and customize the major and minor gri
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/column-chart/category-axis-minor-grid-lines.png)
 
-<span style="font-weight:bold">Value Axis</span>
+#### Value Axis
 
 To show the grid line for value axis, enable the `Value Axis` checkbox.
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/column-chart/value-axis-grid-line.png)
@@ -282,7 +196,7 @@ Data element can be used to control visibility of a report item when exporting t
 
 ![Data element properties](/static/assets/on-premise/images/report-designer/report-items/tablix/data-element-properties.png)
 
-<span style="font-weight:bold">Name</span>
+#### Name
 
 You can assign a custom name for the chart element using the `Name` field. The chart report item will be exported with the provided name.
 
@@ -290,7 +204,7 @@ You can assign a custom name for the chart element using the `Name` field. The c
 
 > Note: The name cannot contain spaces, and it must begin with a letter followed by letters, numbers, or the underscore character (_).
 
-<span style="font-weight:bold">Output</span>
+#### Output
 
 On exporting the report, the visibility of the chart can be controlled using the `Output` property. Choosing the following options for the `Output` property will perform the respective operations:
 
