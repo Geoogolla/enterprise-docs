@@ -147,7 +147,7 @@ By selecting the variable the scheduled user variable is assigned directly from 
 
 ## Configure the export types
 
-* Reports can be exported in PDF, Word, Excel, HTML, PPT and CSV formats
+* Reports can be exported in PDF, Word, Excel, HTML, PPT, CSV and XML formats
 
 ### Email attachment
 
