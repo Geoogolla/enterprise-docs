@@ -137,6 +137,14 @@ To show/hide the chart title, toggle the `Show Chart Title` checkbox.
 
 Using these properties the font color, font text, font style, border, background and position of the title can be customized in the chart design.
 
+### No Data
+
+No Data property is used to display static text when dataset results with a empty or zero rows at run time.
+
+![Chart No data message](/static/assets/on-premise/images/report-designer/report-items/chart/no-data/no-data.png)
+
+To set/reset no data message properties, refer [No Data Message](./../../../report-items/chart/no-data-message/) property section.
+
 ### Category Axis
 
 Category axis displays the text labels instead of numbers. To use the categorical axis, toggle the `Enable Axis` checkbox under `Category Axis` category in the chart properties.

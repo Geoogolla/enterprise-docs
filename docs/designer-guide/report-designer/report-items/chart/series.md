@@ -37,11 +37,11 @@ Now, the respective series properties will be displayed in secondary panel.
 
 ### Chart Type
 
-Supported chart types will be listed in the `Chart Type` property dropdown. You can switch a series to required chart type based on your data presentation. 
+Supported chart types will be listed in the `Chart Type` property dropdown. You can switch a series to required chart type based on your data presentation.
 
 ![Choose series](/static/assets/on-premise/images/report-designer/report-items/chart/series/properties.png)
 
-For example, the chart has two series. Both in series are column chart type.
+For example, the chart has two series. Both series are of column chart type.
 
 ![Same series type](/static/assets/on-premise/images/report-designer/report-items/chart/series/same-series-type.png)
 
@@ -64,6 +64,7 @@ In the below design, border color, width and style properties are applied to the
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/series/border-design.png)
 
 You can also set properties based on dynamic values, by using the `Expressions`. Refer [Set Expression](./../../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
+
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/series/border-expression-menu.png)
 
 ### Series Color
@@ -82,7 +83,7 @@ You can also apply series color based on dynamic values, by using the `Expressio
 
 Smart labels manage overlapping of labels even when a large number of labels are placed in close vicinity. To set/reset data label properties, refer [Enable Smart Label](./../../../report-items/chart/smart-label/) property.
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/smart-label/enable-smart-label.png)
+![Enable smart label](/static/assets/on-premise/images/report-designer/report-items/chart/series/enable-smart-label.png)
 
 > To apply smart label properties, enable `Data Label` for chart data region.
 
@@ -100,11 +101,15 @@ You can configure **Hyperlink** or a **Report path** in the chart series to crea
 
 Data markers are used to provide information about the data point to the user. You can add a shape and label to adorn each data point. To set/reset marker properties, refer [Marker](./../../../report-items/chart/marker/) property section.
 
+![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/series/marker.png)
+
 ## Data Label Settings
 
 ### Show Data Label
 
 Data label can be added to a chart series by using the `Show Data Label` property. The labels appear at the top of the data point, by default. To set/reset data label properties, refer [Data Label](./../../../report-items/chart/data-label/) property section.
+
+![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/series/data-label.png)
 
 ## Miscellaneous
 
