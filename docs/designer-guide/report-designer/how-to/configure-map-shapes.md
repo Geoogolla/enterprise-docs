@@ -9,7 +9,7 @@ In on-premise server, we can configure the custom shape data to visualize it on 
 
 ## Place custom shape data file in installed location
 
-In on-premise application, build-in shape data files are located at 
+In on-premise application, build-in shape data files are located at,
 
 <span style="font-weight:bold">Version below 3.1</span>
 
