@@ -412,7 +412,8 @@ ClientLibrary.msi.
 BoldReports_EnterpriseReporting-Linux
 proxy_set_header
 www
-
-
+ReportInfo
+Timestamp
+Embedded
 
 
