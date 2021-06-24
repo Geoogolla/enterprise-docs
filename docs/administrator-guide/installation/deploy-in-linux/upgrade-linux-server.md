@@ -22,9 +22,9 @@ This section explains how to upgrade Bold Reports Linux package from any version
    sudo unzip {Bold Reports Linux package zip file}
    ```
 
-4. Change the directory to BoldReports_EnterpriseReporting-Linux by running the following command.
+4. Change the directory to `BoldReports_EnterpriseReporting-Linux` by running the following command.
 
-   ```connsole
+   ```console
    cd BoldReports_EnterpriseReporting-Linux
    ```
 
@@ -46,7 +46,7 @@ Example for upgrading the installation,
   sudo bash install-boldreports.sh -i upgrade -u www-data -h http://linux.example.com
   ```
 
-* Refer to this link and install the optional client libraries, after the installation completed.
+* Refer to this [link](../install-opt-library/) and install the optional client libraries, after the installation completed.
 
 * Now, you can open the host URL in the browser and use the latest features of Bold Reports.
 
