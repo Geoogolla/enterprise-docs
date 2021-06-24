@@ -53,6 +53,8 @@ Now, you can see respective series is changed to line type in chart surface.
 
 ![Multi series type](/static/assets/on-premise/images/report-designer/report-items/chart/series/multi-series-type.png)
 
+Refer [Chart switcher](./../../../report-items/chart/switch-chart-type/) section, to customize each series using the properties panel.
+
 ### Series Border
 
 Series border properties can be used to customize the chart series border in the design.
