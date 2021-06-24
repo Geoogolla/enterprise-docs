@@ -96,12 +96,6 @@ Name property can be used to provide an unique name to the chart item in the rep
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/basic-settings.png)
 
-> Note: The properties under basic setting will be enabled in the chart properties panel, after assigning the data to the chart.
-
-#### Chart Type
-
-Supported chart types will be listed in the `Chart Type` property dropdown, you can switch to the required chart type based on the data.
-
 #### Show Legend
 
 A Legend is a text used to describe the data plotted. This allows you to toggle the visibility of legend in chart and also you can customize the legend text appearance. To set/reset legend properties, refer [Show Legend](./../../../report-items/chart/legend/) property.

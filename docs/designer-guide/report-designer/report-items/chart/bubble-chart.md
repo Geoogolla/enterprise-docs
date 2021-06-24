@@ -46,16 +46,20 @@ To configure data into bubble chart follow the below steps:
 To bind data to a chart report item placed in the design area, focus on that report item.
 
 Click `Properties` icon in the configuration panel, the property pane opens. Now, switch to `DATA` tab.
+
    ![Chart properties pane](/static/assets/on-premise/images/report-designer/report-items/chart/bubble-chart/chart-properties-pane.png)
 
 The available data in the report will be listed in the drop-down, choose a data in the drop-down list.
+
 ![Choose the dataset for chart](/static/assets/on-premise/images/report-designer/report-items/chart/data-assign-drop-down.png)
 
 The numeric columns and numeric expressions are listed under the `Measures` section; other type of columns and dimension expressions are listed under the `Dimensions` section.
+
    ![Measures and dimensions](/static/assets/on-premise/images/report-designer/report-items/chart/bubble-chart/measures-dimensions-category.png)
 
 **Drag and Drop Measure Element**:
    Select and drag the numeric column (measure element) or the numeric expression column from the `Measure` section and drop it in the `Y Values` section.
+
    ![Add a Y-value field](/static/assets/on-premise/images/report-designer/report-items/chart/bubble-chart/add-y-values-field.png)
 
 You can add multiple numeric columns in the `Y-value` section.
@@ -64,8 +68,11 @@ You can add multiple numeric columns in the `Y-value` section.
 
 **Aggregate Options**:
    Click the `Settings` icon (highlighted below) to open the aggregation type drop-down list.
+
    ![Aggregate settings icon](/static/assets/on-premise/images/report-designer/report-items/chart/aggregation-settings-icon.png)
+
    You can set the aggregation type by which you can compute the selected column.
+
    ![Aggregate menu list](/static/assets/on-premise/images/report-designer/report-items/chart/bubble-chart/aggregation-settings-menu.png)
 
 **Expression field** :
@@ -91,6 +98,7 @@ Now, the label in `Y-Value` section for the respective field will be displayed w
 
 **Grouping**:
    You can group the added column element with another column, by adding the respective dimension element into Row(s) section.
+
    ![Achieve grouping by row values](/static/assets/on-premise/images/report-designer/report-items/chart/bubble-chart/add-field-to-rows-section.png)
 
 Now, the chart design will look like below.
@@ -99,6 +107,7 @@ Now, the chart design will look like below.
 
 **Size**:
 The Bubble size can be defined by adding a value into the Size section
+
 ![Achieve grouping by row values](/static/assets/on-premise/images/report-designer/report-items/chart/bubble-chart/add-field-to-xvalue-section.png)
 
 ## Format bubble chart

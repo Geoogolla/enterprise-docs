@@ -17,7 +17,7 @@ Drag and drop column chart from the item panel into design area.
 
 Now, the column chart will be rendered in the design area and the chart properties will be listed in properties panel.
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/initial-view-of-column-chart.png)
+![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/column-chart/initial-view-of-column-chart.png)
 
 ## Create data
 
@@ -81,7 +81,7 @@ To format column chart follow the below steps:
 1. Drag and drop the column chart into design area and resize it to required size.
 2. Configure the data to the column chart.
 3. Focus on the column chart and click `Properties` icon in the configuration panel, the property pane opens.
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/open-chart-properties.png)
+![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/column-chart/open-chart-properties.png)
 
 You can see the list of properties available for the widget with default value.
 
@@ -113,7 +113,7 @@ The border style, color, width and background color properties can be used to st
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/appearance-property.png)
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/appearance-design.png)
+![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/column-chart/appearance-design.png)
 
 ### Chart Area
 

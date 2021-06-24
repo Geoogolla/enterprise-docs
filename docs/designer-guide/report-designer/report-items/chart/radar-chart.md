@@ -16,7 +16,7 @@ Drag and drop column chart from the item panel into design area.
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/radar-chart/drag-chart-from-item-panel.png)
 
-Now, the line chart will be rendered in the design area and the chart properties will be listed in properties panel.
+Now, the radar chart will be rendered in the design area and the chart properties will be listed in properties panel.
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/radar-chart/initial-view-of-column-chart.png)
 
@@ -71,17 +71,15 @@ To configure data into column chart follow the steps:
    Now, the report item design will look like below.
    ![Preview of row value grouping ](/static/assets/on-premise/images/report-designer/report-items/chart/radar-chart/row-field-design-preview.png)
 
-> Follow the above steps to assign data for other chart categories such as bar, line, area, radar and polar.
+## Format radar chart
 
-## Format line chart
+You can format the radar chart for better illustration of the view that you require, through the settings available in `Properties` tab.
 
-You can format the line chart for better illustration of the view that you require, through the settings available in `Properties` tab.
+To format radar chart follow the below steps:
 
-To format line chart follow the below steps:
-
-1. Drag and drop the line chart into design area and resize it to required size.
-2. Configure the data to the line chart.
-3. Focus on the line chart and click `Properties` icon in the configuration panel, the property pane opens.
+1. Drag and drop the radar chart into design area and resize it to required size.
+2. Configure the data to the radar chart.
+3. Focus on the radar chart and click `Properties` icon in the configuration panel, the property pane opens.
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/radar-chart/open-chart-properties.png)
 
 You can see the list of properties available for the widget with default value.
