@@ -90,7 +90,7 @@ No Rows property is used to display static text when dataset results with a empt
 
 ![Tablix No rows message](/static/assets/on-premise/images/report-designer/report-items/tablix/no-rows/no-rows.png)
 
-To set/reset no data message properties, refer [No Data Rows](../tablix/no-rows-message/) property section.
+To set/reset no data message properties, refer [No Rows](../tablix/no-rows-message/) property section.
 
 ### Data Element
 

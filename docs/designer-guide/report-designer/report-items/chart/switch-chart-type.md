@@ -57,7 +57,7 @@ For example, now choose `Bar` chart type for second series.
 
 ![Unsupported chart type](/static/assets/on-premise/images/report-designer/report-items/chart/switch-chart-type/unsupported-type.png)
 
-Now, a confirmation dialog will be displayed like below.
+A confirmation dialog will be displayed like below.
 
 ![Confirmation alert](/static/assets/on-premise/images/report-designer/report-items/chart/switch-chart-type/confirmation.png)
 

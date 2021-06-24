@@ -298,7 +298,7 @@
                     "Area Chart" : "area-chart.md",
                     "Radar Chart" : "radar-chart.md",
                     "Series": "series.md",
-                    "Switch Series Type": "switch-chart-type.md",
+                    "Switch Chart Type": "switch-chart-type.md",
                     "Show Legend" : "legend.md",
                     "Show Marker" : "marker.md",
                     "Show Data Label": "data-label.md",
