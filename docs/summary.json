@@ -7,7 +7,8 @@
         "Deploy in Linux":{
             "Prerequisites":"prerequisites.md",
             "Bold Reports on Ubuntu":"bold-report-ubuntu.md",
-            "Install optional libraries":"install-opt-library.md"
+            "Install optional libraries":"install-opt-library.md",
+            "Upgrading Bold Reports Linux package to the Latest Version":"upgrade-linux-server.md"
         }
     },
     "Application Startup": {
