@@ -149,6 +149,14 @@ Repeat column property can be used to show the column header on every single pag
 
 Position property is used to set the width, height, left and top position of the tablix in the report design. To handle these properties using properties panel refer [Position](./../../compose-report/common-properties/#position) section.
 
+### No Rows
+
+No Rows property is used to display static text when dataset results with a empty or zero rows at run time.
+
+![Tablix No rows message](/static/assets/on-premise/images/report-designer/report-items/tablix/no-rows/no-rows.png)
+
+To set/reset no data message properties, refer [No Rows](./no-rows-message/) property section.
+
 ### Data Element
 
 Data element can be used to control visibility of a report item when exporting the report in XML format. The Data element properties are listed in the properties panel, under the `Data Element` category.
