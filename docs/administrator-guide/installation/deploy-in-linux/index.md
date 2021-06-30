@@ -16,3 +16,5 @@ This document explains setting up a Bold Reports application on an Linux server.
 2. [Bold Reports on Ubuntu](./bold-report-ubuntu/)
 
 3. [Install optional libraries](./install-opt-library/)
+
+4. [Upgrading Bold Reports Linux package to the Latest Version](./upgrade-linux-server/)
