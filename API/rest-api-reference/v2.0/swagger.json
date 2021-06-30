@@ -82,7 +82,7 @@
         }
       }
     },
-    "/api/site/{tenant-name}/v1.0/groups/{id}/users": {
+    "/api/site/{tenant-name}/v2.0/groups/{id}/users": {
       "post": {
         "tags": [
           "Groups"
