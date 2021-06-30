@@ -1,8 +1,14 @@
 {
     "Administrator Guide":{
     "Getting Started": "getting-started.md",
-    "Installation and Deployment": "installation-and-deployment.md",
-    "Azure App Service Installation": "create-app-service.md",
+    "Installation": {
+        "Windows Installer":"windows-installer.md",
+        "Deploy in Azure App Service":"azure-app-service.md",
+        "Deploy in Linux":{
+            "Prerequisites":"prerequisites.md",
+            "Bold Reports on Ubuntu":"bold-report-ubuntu.md",
+            "Install optional libraries":"install-opt-library.md"
+        },
     "Application Startup": "application-startup.md",
     "Manage Users": {
         "Users": {
