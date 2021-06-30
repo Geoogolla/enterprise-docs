@@ -261,7 +261,8 @@
                     "Simple Table Design": "design-ssrs-rdl-report-using-table.md",
                     "Add Grouping and Totals": "add-grouping-and-totals-in-tablix-design.md",
                     "Conditional Formatting": "conditional-formatting-tablix-data-region.md",
-                    "Repeat Headers on Each Page": "repeat-headers-on-each-page-in-ssrs.md"
+                    "Repeat Headers on Each Page": "repeat-headers-on-each-page-in-ssrs.md",
+                    "No Rows Message": "no-rows-message.md"
                 },
                 "Matrix":{
                     "Create a Matrix Report":"design-ssrs-matrix-report.md"
@@ -310,6 +311,8 @@
                     "Line Chart" : "line-chart.md",
                     "Area Chart" : "area-chart.md",
                     "Radar Chart" : "radar-chart.md",
+                    "Series": "series.md",
+                    "Switch Chart Type": "switch-chart-type.md",
                     "Show Legend" : "legend.md",
                     "Show Marker" : "marker.md",
                     "Show Data Label": "data-label.md",
@@ -319,7 +322,8 @@
                     "Chart Types" : "types.md",
                     "Embedding Charts within a Tablix" : "nested-data-region.md",
                     "Filter Data": "add-filters-to-chart-data-region.md",
-                    "Sort Data": "sort-data-in-chart-data-region.md"
+                    "Sort Data": "sort-data-in-chart-data-region.md",
+                    "No Data Message": "no-data-message.md"
                 },
                 "Indicator": "indicator.md",
                 "Gauge": {
