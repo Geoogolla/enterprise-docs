@@ -413,7 +413,9 @@ BoldReports_EnterpriseReporting-Linux
 proxy_set_header
 www
 AutoFit
-
-
+ReportInfo
+Timestamp
+Embedded
+embedded
 
 

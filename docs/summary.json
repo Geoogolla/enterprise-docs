@@ -7,7 +7,8 @@
         "Deploy in Linux":{
             "Prerequisites":"prerequisites.md",
             "Bold Reports on Ubuntu":"bold-report-ubuntu.md",
-            "Install optional libraries":"install-opt-library.md"
+            "Install optional libraries":"install-opt-library.md",
+            "Upgrading Bold Reports Linux package to the Latest Version":"upgrade-linux-server.md"
         }
     },
     "Application Startup": {
@@ -357,17 +358,20 @@
         "Reports": {
             "Create Report": "create-report.md",
             "Edit Report": "edit-report.md",
+            "Report Info": "report-info.md",
             "Upload Report": "upload-report.md",
             "Update Report": "update-report.md",
             "Favorite Reports": "favorite-report.md",
             "Move Copy and Clone Reports ": "move-copy-and-clone-reports.md",
             "Caching Report": "caching-report.md",
             "Sharing Reports": "share-report.md",
+            "Publish Reports": "publish-reports.md",
             "Public Reports": "public-report.md",
             "Delete Reports": "delete-report.md",
             "Version History": "version-history-of-report.md",
             "Download Report": "download-report.md",
-            "Manage Report Views": "manage-report-views.md"
+            "Manage Report Views": "manage-report-views.md",
+            "Export report": "export-report.md"
         },
         "DataSources": "data-sources-management.md",
         "DataSet": "dataset-management.md"

@@ -50,6 +50,9 @@ Schedules can be created only if the user has `Create All Schedules` permission.
 * Select the required report from the dropdown.
 ![Create Schedule](/static/assets/on-premise/images/manage-schedule/manage-report-schedules/select-report.png)
 
+* Select the export name from the dropdown of Schedule Name,Report Name,Timestamp.
+![Create Schedule](/static/assets/on-premise/images/manage-schedule/manage-report-schedules/select-export-name.png)
+
 ## Configure Report parameters
 
 * Parameters available for the report will be shown in scheduler dialog.
@@ -143,6 +146,7 @@ By selecting the variable the scheduled user variable is assigned directly from 
 * {Report Name}: Scheduled report name
 * {Report Link}: Link to the scheduled report
 * {Export Format}: Export file format which is chosen the schedule
+* {Date}: Date represents when the schedule triggered
 * {Organization Name}: [Organization name](./../../../administrator-guide/custom-rebranding/#organization-name) is retrieved from the site setting
 
 ## Configure the export types
