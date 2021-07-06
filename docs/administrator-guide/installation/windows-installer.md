@@ -81,47 +81,41 @@ Click on `No`, it will not have common login for `BoldBI` and `BoldReportsEnterp
 
 ### Mapping the custom domain after the installation
 
-Please follow below steps to change the application binding information
+Please follow the below steps to update the Custom domain after the installation
 
-1. Add new binding to Bold Reports Enterprise Reporting edition on IIS as shown in the image below.
- **`Example: 192.168.1.3`**
-![IIS Binding](/static/assets/on-premise/images/getting-started/add-binding.png)  
-    >Don’t remove existing bindings.
+1. Add Custom domain to Bold Reports Enterprise Reporting edition on IIS as shown in the image below.
+![IIS Binding](/static/assets/on-premise/images/getting-started/add-binding.png)
 
-2. Navigate to sites page in tenant management application,
-   **`http://{your-current-domain}/ums/sites`**
+2. Navigate to sites page in tenant management application **`{your-current-domain}/ums/sites`** and Click on deployed site and go to settings page.
    ![Site listing page](/static/assets/on-premise/images/getting-started/site-listing-page.png)
-3. Click on deployed site and go to settings page.
    ![Site Setting page](/static/assets/on-premise/images/getting-started/site-setting-page.png)
-4. And update the new binding information in Site URL as shown below and save the settings,
-   **`http://localhost:{port-no}/reporting/site/site1/administration`**
+
+3. And update the new Custom domain information in Site URL as shown below and save the settings,
    ![Site Setting Site URL](/static/assets/on-premise/images/getting-started/site-setting-site-url.png)
-5. Repeat the step 2 to 4 for all deployed sites.
 
-6. Now navigate to the site settings page of the UMS application using below old binding and update the new binding information as shown in image below.
-**`http://localhost:{port-no}/ums/administration`**  
+4. Repeat the step 2 to 3 for all deployed sites.
+
+5. Navigate to the site settings page of the UMS application and update the new Custom domain information as shown in image below.
 ![UMS Site Setting](/static/assets/on-premise/images/getting-started/ums-site-settings.png)
-7. Now, you can access sites using newly mapped domain.
 
-#### Mapping the custom domain before startup the application
+6. Now, you can access sites using newly mapped domain.
+
+#### Mapping the custom domain before startup Bold Reports Enterprise Reporting application
 
 Please follow below steps to change the application binding information
 
-1. Add new binding to Bold Reports Enterprise Reporting edition on IIS as shown in the image below.
- **`Example: 192.168.1.3`**
-![IIS Binding](/static/assets/on-premise/images/getting-started/add-binding.png)  
-    >Remove existing bindings.
+1. Stop the Bold Reports Enterprise Reporting site in IIS.
 
-2. Stop the site in IIS.
+2. Add Custom domain to Bold Reports Enterprise Reporting edition on IIS as shown in the image below.
+![IIS Binding](/static/assets/on-premise/images/getting-started/add-binding.png)
 
-3. Update the new binding values in below product files in deployed location. By default, Bold Reports will be deployed on `C:\BoldServices`
-   * Update the new binding value in product file in below location  
-     **`{Deployed Location}`**\app_data\configuration\product.json
+3. Update the Custom domain value in below **product.json** file in deployed location. By default, Bold Reports will be deployed on `C:\BoldServices`
+   * Update the Custom domain value in **product.json** file in below location
+
+       **`{Deployed Location}`**\app_data\configuration\product.json
      ![Product JSON File](/static/assets/on-premise/images/getting-started/product-json.png)
 
-4. Start the site in IIS and search the custom domain site in browser, `Example : http://localhost:{your-domain}}`.
-
-5. Now Bold Reports site can be Start up the application using the new binding.
+4. Start the site in IIS and browse the site using the custom domain. Now, the Bold Reports Enterprise Reporting startup page is loaded on the browser.![Startup Page](/static/assets/on-premise/images/getting-started/startup-page.png)
 
 ## See Also
 
