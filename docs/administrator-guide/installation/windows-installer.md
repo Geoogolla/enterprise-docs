@@ -81,21 +81,21 @@ Click on `No`, it will not have common login for `BoldBI` and `BoldReportsEnterp
 
 ### Mapping the custom domain after the installation
 
-Please follow the below steps to update the Custom domain after the installation
+Please follow the below steps to update the custom domain after the installation
 
-1. Add Custom domain to Bold Reports Enterprise Reporting edition on IIS as shown in the image below.
+1. Add custom domain to Bold Reports Enterprise Reporting edition on IIS as shown in the image below.
 ![IIS Binding](/static/assets/on-premise/images/getting-started/add-binding.png)
 
-2. Navigate to sites page in tenant management application **`{your-current-domain}/ums/sites`** and Click on deployed site and go to settings page.
+2. Navigate to sites page in tenant management application **`{your-current-domain}/ums/sites`** and click on deployed site and go to settings page.
    ![Site listing page](/static/assets/on-premise/images/getting-started/site-listing-page.png)
    ![Site Setting page](/static/assets/on-premise/images/getting-started/site-setting-page.png)
 
-3. And update the new Custom domain information in Site URL as shown below and save the settings,
+3. Update the new custom domain information in site URL as shown below and save the settings,
    ![Site Setting Site URL](/static/assets/on-premise/images/getting-started/site-setting-site-url.png)
 
 4. Repeat the step 2 to 3 for all deployed sites.
 
-5. Navigate to the site settings page of the UMS application and update the new Custom domain information as shown in image below.
+5. Navigate to the site settings page of the UMS application and update the new custom domain information as shown in image below.
 ![UMS Site Setting](/static/assets/on-premise/images/getting-started/ums-site-settings.png)
 
 6. Now, you can access sites using newly mapped domain.
@@ -106,16 +106,16 @@ Please follow below steps to change the application binding information
 
 1. Stop the Bold Reports Enterprise Reporting site in IIS.
 
-2. Add Custom domain to Bold Reports Enterprise Reporting edition on IIS as shown in the image below.
+2. Add custom domain to Bold Reports Enterprise Reporting edition on IIS as shown in the image below.
 ![IIS Binding](/static/assets/on-premise/images/getting-started/add-binding.png)
 
-3. Update the Custom domain value in below **product.json** file in deployed location. By default, Bold Reports will be deployed on `C:\BoldServices`
-   * Update the Custom domain value in **product.json** file in below location
+3. Update the custom domain value in below **product.json** file in deployed location. By default, Bold Reports will be deployed on `C:\BoldServices`
+   * Update the custom domain value in **product.json** file in below location
 
        **`{Deployed Location}`**\app_data\configuration\product.json
      ![Product JSON File](/static/assets/on-premise/images/getting-started/product-json.png)
 
-4. Start the site in IIS and browse the site using the custom domain. Now, the Bold Reports Enterprise Reporting startup page is loaded on the browser.![Startup Page](/static/assets/on-premise/images/getting-started/startup-page.png)
+4. Start the site in IIS and browse the site using the custom domain. Now, the Bold Reports Enterprise Reporting startup page will be loaded on the browser.![Startup Page](/static/assets/on-premise/images/getting-started/startup-page.png)
 
 ## See Also
 
