@@ -3,7 +3,7 @@
     "Getting Started": "getting-started.md",
     "Installation": {
         "Windows Installer":"windows-installer.md",
-        "Azure App service":{
+        "Azure App Service":{
             "Client libraries":"client-libraries.md",
             "Upgrade":"upgrade.md"
         },
