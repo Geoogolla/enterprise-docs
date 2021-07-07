@@ -3,8 +3,7 @@
     "Getting Started": "getting-started.md",
     "Installation": {
         "Windows Installer":"windows-installer.md",
-        "Deploy in Azure App service":{
-            "Using ARM template":"using-arm-template.md",
+        "Azure App service":{
             "Client libraries":"client-libraries.md",
             "Upgrade":"upgrade.md"
         },

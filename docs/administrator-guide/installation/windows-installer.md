@@ -75,7 +75,7 @@ Click on `yes`, it will have common login for `BoldBI` and `BoldReportsEnterpris
 
 Click on `No`, it will not have common login for `BoldBI` and `BoldReportsEnterprise Reporting Edition` products. In IIS, it will deploy two sites `BoldBIOnPremiseEdition` and `BoldReportsEnterprise Reporting Edition`.
 
->Bold Reports Azure App Service can be deployed in Azure by following the [link](../deploy-in-azure-app-service/using-arm-template/).
+>Bold Reports Azure App Service can be deployed in Azure by following the [link](../azure-app-service/).
 
 ## How to change the binding in the Bold Reports Enterprise Reporting
 

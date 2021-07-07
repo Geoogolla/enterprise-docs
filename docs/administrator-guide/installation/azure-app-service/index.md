@@ -88,14 +88,14 @@ Configure the Bold Reports Multi-tenant Azure App Service by following these ste
 1. Click the `Proceed to Setup`.
    ![Proceed to Setup](/static/assets/on-premise/images/installation-and-deployment/azure-deployment/app-service-using-arm-template/proceed-to-setup-button.png)
 
-2. Provide your [Database details](../../../application-startup/#database-configuration-for-bold-reports-server) to maintain your user identities and Bold Reports tenants and click `Next`.
+2. Provide your [Database details](../../application-startup/#database-configuration-for-bold-reports-server) to maintain your user identities and Bold Reports tenants and click `Next`.
    ![IDP Database Configuration](/static/assets/on-premise/images/installation-and-deployment/azure-deployment/app-service-using-arm-template/idp-database-configuration.png)
 
-3. Provide the [user details](../../../application-startup/#new-user---system-administrator) and this user will be an admin for Bold Reports, and then click `Next`.
+3. Provide the [user details](../../application-startup/#new-user---system-administrator) and this user will be an admin for Bold Reports, and then click `Next`.
    ![Admin Details](/static/assets/on-premise/images/installation-and-deployment/azure-deployment/app-service-using-arm-template/admin-details.png)
    >If you wish to migrate your Syncfusion Report Server Azure app service(`v4.x`) data or Bold Reports Azure app service version(`v1.x`) data to Bold Reports Multi-tenant Azure App Service, while configuring the admin details you must use the admin email id of Syncfusion Reports Server or Bold Reports Server (Single Tenant).
 
-4. Provide your [Database details](../../../application-startup/#database-configuration-for-bold-reports-server) to maintain your reports, users, and their access permissions, and then click `Next`.
+4. Provide your [Database details](../../application-startup/#database-configuration-for-bold-reports-server) to maintain your reports, users, and their access permissions, and then click `Next`.
    ![Report Server Database Configuration](/static/assets/on-premise/images/installation-and-deployment/azure-deployment/app-service-using-arm-template/report-server-database-configuration.png)
 
 5. Click the check box to fetch the pre-configured blob details at the deployment time to maintain your physical files of reports, datasets, data sources etc, and then click `Next`.
