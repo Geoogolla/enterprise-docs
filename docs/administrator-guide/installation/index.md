@@ -12,5 +12,5 @@ documentation: ug
 Bold Reports Can Install in Following Services.
 
 1. [Window Installer](./windows-installer/)
-2. [Deploy in Azure App Service](./azure-app-service/)
+2. [Deploy in Azure App Service](./deploy-in-azure-app-service/)
 3. [Deploy in Linux](./deploy-in-linux/)
