@@ -11,7 +11,7 @@ documentation: ug
 > If you already having Report Server Azure App Service with Syncfusion Report Platform Report Server or Bold Reports v1.x Report Server, then refer to the Syncfusion Report Server migration or upgrade v1.x for your startup.
 
 This section explains how to create the Bold Reports Report Server into Azure cloud as App Service using the ARM template by following these steps:
-65
+
 1. Log in to [Azure portal](https://portal.azure.com/).
 
 2. Click **Create resource** from the top menu.
