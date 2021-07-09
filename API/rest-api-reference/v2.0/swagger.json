@@ -144,7 +144,67 @@
         "StatusMessage": {
           "type": "string",
           "description": "Returns the status message from the API."
-        }     
+        },
+        "DataSetMappingInfo": {
+              "type": "array",
+              "description":"Returns the Dataset Mapping informations",
+              "items": {
+                "$ref": "#/definitions/ApiDatasetMapping"
+              }          
+        },
+        "DataSourceMappingInfo": {
+          "type": "array",
+          "description":"Returns the Datasource Mapping informations",
+          "items": {
+            "$ref": "#/definitions/ApiDatasourceMapping"
+          }
+        }
+      }
+    },
+    "ApiDatasetMapping": {
+      "type": "object",
+      "description": "Returns the datsets mapping information like shareddataset Id, Shareddataset name and name of the datasource",
+      "required": [
+        "SharedDataSetId",
+        "SharedDataSetName",
+        "Name"
+      ],
+      "properties": {
+        "SharedDataSetId": {
+          "type": "string",
+          "description": "Returns the shared datasetId of the reports"
+        },
+        "SharedDataSetName": {
+          "type": "string",
+          "description": "Returns the shared datasets Name of the reports"
+        },
+        "Name": {
+          "type": "string",
+          "description": "Returns the name of the Datasets."
+        }
+      }
+    },
+    "ApiDatasourceMapping": {
+      "type": "object",
+      "description": "Returns the datsource mapping information like shareddatasource Id, Shareddatasource name the name of the datasource",
+      "required": [
+        "SharedDataSourceId",
+        "SharedDataSourceName",
+        "Name"
+      ],
+      "properties": {
+        "SharedDataSourceId": {
+          "type": "string",
+          "description": "Returns the shared datasourceId of the reports"
+        },
+        "SharedDataSourceName": {
+          "type": "string",
+          "description": "Returns the shared datasource Name of the reports"
+        },
+        "Name": {
+          "type": "string",
+          "description": "Returns the name of the Datasource."
+        }
       }
     }
   },   
