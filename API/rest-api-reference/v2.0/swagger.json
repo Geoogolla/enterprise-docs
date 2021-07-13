@@ -180,7 +180,7 @@
         },
         "Name": {
           "type": "string",
-          "description": "Returns the name of the dataset."
+          "description": "Returns the name of the dataset"
         }
       }
     },
@@ -203,7 +203,7 @@
         },
         "Name": {
           "type": "string",
-          "description": "Returns the name of the datasource."
+          "description": "Returns the name of the datasource"
         }
       }
     }
