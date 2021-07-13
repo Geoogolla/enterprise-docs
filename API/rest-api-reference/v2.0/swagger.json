@@ -147,14 +147,14 @@
         },
         "DataSetMappingInfo": {
               "type": "array",
-              "description":"Returns the dataset mapping informations",
+              "description":"Returns the mapping information of dataset",
               "items": {
                 "$ref": "#/definitions/ApiDatasetMapping"
               }          
         },
         "DataSourceMappingInfo": {
           "type": "array",
-          "description":"Returns the datasource mapping informations",
+          "description":"Returns the mapping information of datasource",
           "items": {
             "$ref": "#/definitions/ApiDatasourceMapping"
           }
@@ -163,7 +163,7 @@
     },
     "ApiDatasetMapping": {
       "type": "object",
-      "description": "Returns the dataset mapping informations like shared dataset id, shared dataset name and name of the dataset",
+      "description": "Returns the dataset mapping information like shared dataset id, shared dataset name and name of the dataset",
       "required": [
         "SharedDataSetId",
         "SharedDataSetName",
@@ -186,7 +186,7 @@
     },
     "ApiDatasourceMapping": {
       "type": "object",
-      "description": "Returns the datasource mapping informations like shared datasource id, shared datasource name and name of the datasource",
+      "description": "Returns the datasource mapping information like shared datasource id, shared datasource name and name of the datasource",
       "required": [
         "SharedDataSourceId",
         "SharedDataSourceName",
