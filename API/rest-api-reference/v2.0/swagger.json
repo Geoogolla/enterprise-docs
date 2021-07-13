@@ -147,14 +147,14 @@
         },
         "DataSetMappingInfo": {
               "type": "array",
-              "description":"Returns the Dataset Mapping informations",
+              "description":"Returns the dataset mapping informations",
               "items": {
                 "$ref": "#/definitions/ApiDatasetMapping"
               }          
         },
         "DataSourceMappingInfo": {
           "type": "array",
-          "description":"Returns the Datasource Mapping informations",
+          "description":"Returns the datasource mapping informations",
           "items": {
             "$ref": "#/definitions/ApiDatasourceMapping"
           }
@@ -163,7 +163,7 @@
     },
     "ApiDatasetMapping": {
       "type": "object",
-      "description": "Returns the datsets mapping information like shareddataset Id, Shareddataset name and name of the datasource",
+      "description": "Returns the dataset mapping informations like shared dataset id, shared dataset name and name of the dataset",
       "required": [
         "SharedDataSetId",
         "SharedDataSetName",
@@ -172,21 +172,21 @@
       "properties": {
         "SharedDataSetId": {
           "type": "string",
-          "description": "Returns the shared datasetId of the reports"
+          "description": "Returns the shared dataset id of the report"
         },
         "SharedDataSetName": {
           "type": "string",
-          "description": "Returns the shared datasets Name of the reports"
+          "description": "Returns the shared dataset name of the report"
         },
         "Name": {
           "type": "string",
-          "description": "Returns the name of the Datasets."
+          "description": "Returns the name of the dataset."
         }
       }
     },
     "ApiDatasourceMapping": {
       "type": "object",
-      "description": "Returns the datsource mapping information like shareddatasource Id, Shareddatasource name the name of the datasource",
+      "description": "Returns the datasource mapping informations like shared datasource id, shared datasource name and name of the datasource",
       "required": [
         "SharedDataSourceId",
         "SharedDataSourceName",
@@ -195,15 +195,15 @@
       "properties": {
         "SharedDataSourceId": {
           "type": "string",
-          "description": "Returns the shared datasourceId of the reports"
+          "description": "Returns the shared datasource id of the report"
         },
         "SharedDataSourceName": {
           "type": "string",
-          "description": "Returns the shared datasource Name of the reports"
+          "description": "Returns the shared datasource name of the report"
         },
         "Name": {
           "type": "string",
-          "description": "Returns the name of the Datasource."
+          "description": "Returns the name of the datasource."
         }
       }
     }
