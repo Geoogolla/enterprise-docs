@@ -116,7 +116,8 @@
         "Where should I replace the Bold Reports license key in Bold Reports Azure App Service": "where-should-i-replace-the-bold-reports-license-key-in-bold-reports-azure-app-service.md",
         "Where does the data resides in Bold Reports": "where-does-the-data-resides-in-bold-reports.md",
         "Does Report Server store reports execution data to server database": "does-report-server-store-reports-execution-data-to-server-database.md",
-        "How many server deployments supported in a single license?":"how-many-server-deployments-supported-in-a-single-license.md"
+        "How many server deployments supported in a single license?":"how-many-server-deployments-supported-in-a-single-license.md",
+        "How to install PhantomJS manually?":"how-to-install-phantomjs-manually.md"
     }
 },
 "Designer Guide":{
