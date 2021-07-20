@@ -54,13 +54,13 @@ documentation: ug
      sudo bash install-boldreports.sh -i {new} -u {user} -h {host URL} -n {true or false}
      ```
 
-* **i** : Installation type - Specifies either it is a new or upgrade installation.
+     * **i** : Installation type - Specifies either it is a new or upgrade installation.
 
-* **u** : Specify the user or group that manages the service.
+     * **u** : Specify the user or group that manages the service.
 
-* **h** : Domain or IP address of the machine with http protocol.
+     * **h** : Domain or IP address of the machine with http protocol.
 
-* **n** : Setting this to “true” will automatically configure the Bold Reports with Nginx front-end server.
+     * **n** : Setting this to “true” will automatically configure the Bold Reports with Nginx front-end server.
 
 **IMPORTANT**: If you have any existing applications running in that Linux machine using Nginx, set “-n” value to false and configure the [Nginx manually](#manually-configure-nginx). Example for new installation,
 
