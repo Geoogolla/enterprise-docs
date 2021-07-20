@@ -157,7 +157,7 @@ By selecting the variable the scheduled user variable is assigned directly from 
 
 * Exported reports can be sent to individual users or groups by checking **Email attachment** option.
 
-* Also the exported reports can be sent to external recipients by providing the `Email Id`.
+* Also the exported reports can be sent to external recipients by providing the `Email Id` and you can add multiple external recipients at a time, separate an email by a comma(,). For example [recipient1@gmail.com,recipients2@gmail.com].
 
 ![Email Attachment Checkbox](/static/assets/on-premise/images/manage-schedule/manage-report-schedules/email-attachment-checkbox.png)
 
@@ -170,9 +170,27 @@ By selecting the variable the scheduled user variable is assigned directly from 
 
 * To save the exported report, **Export Path** and **Max reports count** has to be filled.
 
-   **Export Path** - Location to save the exported report. By default, the location will be **C:\Syncfusion\Report Server\ReportServer.Web\App_Data**.
+  **Export Path** - Location to save the exported report. By default, the folder path will be **\Export** and the default root path location will be **C:\BoldServices\app_data\reporting\Jobs**.
+       * You need a required folder path, simply edit the default folder path location and set the required path location in the Export path.
+       * You need a required root path, it must be updated in [Shedule Report Setting](./../../../designer-guide/manage-schedule/schedule-report-settings/#save-as-file) Export path.
 
    **Max reports count** - Maximum exported reports count to be save in that location.
+
+   **Overwrite the Existing file** - when you enable this option, it will overwrite the existing file which is present on the exported folder location.
+
+   **Notify Recipients** - When you enable this option, it will notify the recipients.
+
+* For saving the exported file on network location, we have to provide path in UNC format as like below,`\\172.34.203.23\test\Export`
+
+    **Root directory path**: `\\172.34.203.23\test`
+
+    **Relative path**: `\Export`
+
+    * Root directory path can be provided on [Shedule Report Settings](./../../../designer-guide/manage-schedule/schedule-report-settings/#save-as-file) while relative path can be provided on creating the schedules.
+
+    * If the folder test not exist, test folder will be created automatically while running the schedules.
+
+    > **Write** permission for that required root directory path folder.
 
 * When clicking the **Schedule**, the report will be scheduled in the selected recurrence.
 
