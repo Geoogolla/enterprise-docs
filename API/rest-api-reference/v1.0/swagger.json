@@ -1352,7 +1352,7 @@
           "Items"
         ],
         "summary": "Export report with filters",
-        "description": "Users who have read access for reports can export the reports by providing the report ID and export type (Microsoft Excel, PDF, HTML, PPT, CSV, Micorosft Word and XML) in the request URL and filter parameters in the request body. The response will be in an array of bytes.",
+        "description": "Users who have read access for reports can export the reports by providing the report ID and export type (Microsoft Excel, PDF, HTML, PPT, CSV, XML and Micorosft Word) in the request URL and filter parameters in the request body. The response will be in an array of bytes.",
         "operationId": "Items_ExportReportWithFilters",
         "parameters": [
           {
