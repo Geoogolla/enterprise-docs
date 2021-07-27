@@ -1303,7 +1303,7 @@
           "Items"
         ],
         "summary": "Export report",
-        "description": "Users who have read access for reports can export the reports by providing the report details and export type (Microsoft Excel, PDF, HTML, PPT, CSV and Micorosft Word) in the request body. The response will be in an array of bytes.",
+        "description": "Users who have read access for reports can export the reports by providing the report details and export type (Microsoft Excel, PDF, HTML, PPT, CSV , XML and Micorosft Word) in the request body. The response will be in an array of bytes.",
         "operationId": "Items_ExportReport",
         "parameters": [
           {
@@ -1352,7 +1352,7 @@
           "Items"
         ],
         "summary": "Export report with filters",
-        "description": "Users who have read access for reports can export the reports by providing the report ID and export type (Microsoft Excel, PDF, HTML, PPT, CSV and Micorosft Word) in the request URL and filter parameters in the request body. The response will be in an array of bytes.",
+        "description": "Users who have read access for reports can export the reports by providing the report ID and export type (Microsoft Excel, PDF, HTML, PPT, CSV, XML and Micorosft Word) in the request URL and filter parameters in the request body. The response will be in an array of bytes.",
         "operationId": "Items_ExportReportWithFilters",
         "parameters": [
           {
@@ -1369,7 +1369,7 @@
             "in": "path",
             "required": true,
             "x-nullable": false,
-            "description": "Export type. Valid values: `\"Excel\"` `\"Html\"` `\"Pdf\"` `\"Word\"` `\"PPT\"` `\"CSV\"`"
+            "description": "Export type. Valid values: `\"Excel\"` `\"Html\"` `\"Pdf\"` `\"Word\"` `\"PPT\"` `\"CSV\"` `\"XML\"`"
           },
           {
             "name": "parameters",
@@ -3230,7 +3230,7 @@
         },
         "ExportType": {
           "type": "string",
-          "description": "Specifies the export type to schedule the report. Valid values: `Excel` `Html` `Pdf` `Word` `PPT` `CSV`."
+          "description": "Specifies the export type to schedule the report. Valid values: `Excel` `Html` `Pdf` `Word` `PPT` `CSV` `XML`."
         },
         "StartTime": {
           "type": "string",
@@ -3578,7 +3578,7 @@
         },
         "ExportType": {
           "type": "string",
-          "description": "Specifies the export type to schedule the report. Valid values: `Excel` `Html` `Pdf` `Word` `PPT` `CSV`."
+          "description": "Specifies the export type to schedule the report. Valid values: `Excel` `Html` `Pdf` `Word` `PPT` `CSV` `XML`."
         },
         "Description": {
           "type": "string",
@@ -4360,7 +4360,7 @@
         },
         "ExportType": {
           "type": "string",
-          "description": "Export type. Valid values: `\"Excel\"` `\"Html\"` `\"Pdf\"` `\"Word\"` `\"PPT\"` `\"CSV\"`"
+          "description": "Export type. Valid values: `\"Excel\"` `\"Html\"` `\"Pdf\"` `\"Word\"` `\"PPT\"` `\"CSV\"` `\"XML\"`"
         }
       }
     },
