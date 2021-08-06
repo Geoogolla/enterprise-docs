@@ -7,6 +7,8 @@ description: The Bold Reports Designer allows you to connect your reports to dif
 
 The Bold Reports Designer supports the Microsoft SQL Server, Oracle, OLEDB, ODBC, Web API, OData, JSON, and XML data connectors such that the structured data can be in any specific format to consider for processing. Refer the following sections for step by step procedure on how to connect with respective data connector in Bold Designer reports.
 
+* [Azure SQL](./../../manage-data/data-connectors/azure-sql-data-warehouse/)
+
 * [CSV](./../../manage-data/data-connectors/csv-data-source/)
 
 * [Excel](./../../manage-data/data-connectors/excel-data-source/)
