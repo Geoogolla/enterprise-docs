@@ -125,6 +125,7 @@
     "Report Creation": "design-rdl-report-in-web-report-designer.md",
         "Manage Data": {
             "Data Connectors": {
+                "Azure SQL":"azure-sql-data-warehouse.md",
                 "CSV":"csv-data-source.md",
                 "Excel":"excel-data-source.md",
                 "JSON": "json-data-source.md",
@@ -137,7 +138,7 @@
                 "Oracle":"oracle-data-source.md",
                 "PostgreSQL":"postgresql-data-source.md",
                 "Rest API": "rest-api-data-source.md",
-                "SQL": "sql-data-source.md",
+                "Microsoft SQL": "sql-data-source.md",
                 "XML": "xml-data-source.md"
             },
             "DataSource": {
