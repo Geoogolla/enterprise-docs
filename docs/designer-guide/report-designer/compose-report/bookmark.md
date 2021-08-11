@@ -5,7 +5,7 @@ description: Learn how to add bookmarks to a report to provide a customized inte
 
 # Bookmark
 
-Bookmark links allows the users to navigate to different parts of a SSRS report. You can add bookmarks to each textbox, image, table or chart or to the unique group values displayed in a tablix which can direct the users to specified locations in the report. The value of bookmark property can be your own strings or an expression.
+Bookmark links allows the users to navigate to different parts of the RDL report. You can add bookmarks to each textbox, image, table or chart or to the unique group values displayed in a tablix which can direct the users to specified locations in the report. The value of bookmark property can be your own strings or an expression.
 
 ## Configure bookmark
 
@@ -79,7 +79,7 @@ Then insert a table report item.
 
 ![Add table](/static/assets/on-premise/images/report-designer/compose-report/book-mark/add-table.png)
 
-Assign dataset fields as shown in below image.
+Assign dataset fields and apply formatting as shown in below image.
 
 ![Table design](/static/assets/on-premise/images/report-designer/compose-report/book-mark/table-design.png)
 
@@ -99,13 +99,21 @@ Add a column in table report item.
 
 Now, we are going to add images in table and configure book mark to it. When clicking on the image, it will navigate to the first page of the report.
 
-Insert an image in first and last cell of the column.
+Insert an image in first cell of the column.
 
 ![Table design](/static/assets/on-premise/images/report-designer/compose-report/book-mark/add-image.png)
 
 Select each image and configure the bookmark property value. Choose the `HomePage` bookmark label under `Link` property.
 
 ![Table design](/static/assets/on-premise/images/report-designer/compose-report/book-mark/configure-bookmark-for-image.png)
+
+Set the border as `None` for the first column cell.
+
+![Table design](/static/assets/on-premise/images/report-designer/compose-report/book-mark/set-border.png)
+
+To repeat header row for each group, enable `Report on New Page` and set `Keep With Group` as `After` for first static field.
+
+![Table design](/static/assets/on-premise/images/report-designer/compose-report/book-mark/repeat-header.png)
 
 ## Preview
 
