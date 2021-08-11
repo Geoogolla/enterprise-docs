@@ -30,7 +30,7 @@ You can get more details of embedding with Bold Reporting Tools respective platf
 
   [Javascript](https://help.boldreports.com/javascript/report-viewer/reportserver-report/)
 
-  [React](https://help.boldreports.com/react/report-viewer/reportserver-report/)
+  [React](https://help.boldreports.com/embedded-reporting/react-reporting/report-viewer/reportserver-report/)
 
   [UWP](https://help.boldreports.com/uwp/report-viewer/reportserver-report/)
 
