@@ -93,7 +93,7 @@ Smart labels manage overlapping of labels even when a large number of labels are
 
 ### Link To
 
-You can configure **Hyperlink** or a **Report path** in the chart series to create an interactive report. Refer [Linking](./../../../compose-report/link-data/) section to set or reset link property for chart series.
+You can configure **Hyperlink**, **Bookmark** or a **Report path** in the chart series to create an interactive report. Refer [Linking](./../../../compose-report/link-data/) section to set or reset link property for chart series.
 
 ![Link To property](/static/assets/on-premise/images/report-designer/report-items/chart/link-to-property.png)
 

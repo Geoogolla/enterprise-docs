@@ -83,17 +83,6 @@ The background color property will be applied to the no data message container w
 
 You can also apply background color based on dynamic values, by using the `Expressions`. Refer [Set Expressions](./../../../compose-report/properties-panel/#set-expression) and [Reset Expressions](./../../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
 
-### Text Decoration
-
-Text decoration property sets the appearance of decorative lines on text.
-
-* **None** - Produces no text decoration.
-* **Underline** - Each line of text is underlined.
-* **Overline** - Each line of text has a line above it.
-* **Line-through** - Each line of text has a line through the middle.
-
-![Text decoration](/static/assets/on-premise/images/report-designer/report-items/chart/no-data/text-decoration.png)
-
 ### Position
 
 You can place the no data message container in different position inside the chart area. This property can be used to position the message container inside the chart area. Supported positioning patterns are listed in the `Position` drop-down.

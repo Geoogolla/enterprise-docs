@@ -27,7 +27,9 @@ GROUP BY DATEPART(yy, SOH.OrderDate), PC.Name, PS.Name, 'Q' + DATENAME(qq, SOH.O
 
 ## Design drill through report
 
-Design the drill through report, before configuring the drill through action in the main report. Refer the [Data bar report](./../../report-items/data-bar/design-ssrs-data-bar-using-table/) section and the report design will look like below.![Drill through report](/static/assets/on-premise/images/report-designer/compose-report/create-ssrs-drill-through-report/databar-report-design.png)
+Design the drill through report, before configuring the drill through action in the main report. Refer the [Data bar report](./../../report-items/data-bar/design-ssrs-data-bar-using-table/) section and the report design will look like below.
+
+![Drill through report](/static/assets/on-premise/images/report-designer/compose-report/create-ssrs-drill-through-report/databar-report-design.png)
 
 Now, define a [basic parameter](./../../report-parameters/add/#create-parameter) and name it as `Product Category`.![Basic parameter](/static/assets/on-premise/images/report-designer/compose-report/create-ssrs-drill-through-report/basic-parameter.png)
 
