@@ -100,7 +100,7 @@ The **Name** property can be used to provide an unique name to the chart item in
 
 #### Show Legend
 
-A Legend is a text used to describe the data plotted. This allows you to toggle the visibility of legend in chart and also you can customize the legend text appearance. To set/reset legend properties, refer [Show Legend](./../../../report-items/chart/legend/) property.
+A Legend is a text used to describe the data plotted. This allows you to toggle the visibility of legend in chart and also customize the legend text appearance. To set/reset legend properties, refer to the [Show Legend](./../../../report-items/chart/legend/) property.
 
 #### Choose Series
 
