@@ -256,4 +256,4 @@ You can set static or dynamic text as value for the bookmark property. To set an
 2. Now, the report preview can be visualized as below.
 ![Chart report preview](/static/assets/on-premise/images/report-designer/report-items/chart/bar-chart/report-preview-page.png)
 
-> Download the above report design from the [link](https://github.com/boldreports/resources/tree/master/docs/report-designer/chart/column.rdl).
+> Download the above report design from the [link](https://github.com/boldreports/resources/tree/master/docs/report-designer/chart/bar-chart.rdl).
