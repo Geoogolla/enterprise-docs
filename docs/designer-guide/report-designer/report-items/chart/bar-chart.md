@@ -45,7 +45,7 @@ To configure data into a bar chart, follow the steps:
 
 1. To bind data to a chart report item placed in the design area, focus on that report item.
 2. Click the `Properties` icon in the configuration panel, the property pane opens. Now, switch to the `DATA` tab.
-   ![Chart properties pane](/static/assets/on-premise/images/report-designer/report-items/chart/bar-chart/chart-properties-pane.png)
+   ![Chart properties pane](/static/assets/on-premise/images/report-designer/report-items/chart/bar-chart/Chart-properties-pane.png)
 3. The available data in the report will be listed in the dropdown, choose a data in the dropdown list.
 ![Choose the dataset for chart](/static/assets/on-premise/images/report-designer/report-items/chart/bar-chart/data-assign-drop-down.png)
 4. The numeric columns and numeric expressions are listed under the `Measures` section; other types of columns and dimension expressions are listed under the `Dimensions` section.
