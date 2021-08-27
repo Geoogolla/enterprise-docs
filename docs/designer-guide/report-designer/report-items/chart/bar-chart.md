@@ -1,6 +1,6 @@
 ---
 title: Configuring and Formatting Bar Chart | Web ReportDesigner
-description: Adding HTML5 JavaScript Bar Chart control into report and formatting with the Bold Report Designer
+description: Adding HTML5 JavaScript Bar Chart control into report and formatting chart appearance with the Bold Report Designer
 keywords: ejReportDesigner, reportdesigner, tablix, reportitem, bold reports, documentation, help, ej, user guide, demo, samples, bold reports, bold reporting
 ---
 
