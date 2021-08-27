@@ -148,7 +148,7 @@ The No Data property is used to display static text when a dataset results with 
 
 ![Chart No data message](/static/assets/on-premise/images/report-designer/report-items/chart/bar-chart/no-data.png)
 
-To set/reset no data message properties, refer to the [No Data Message](./../../../report-items/chart/bar-chart/no-data-message/) property section.
+To set/reset no data message properties, refer to the [No Data Message](./../../../report-items/chart/no-data-message/) property section.
 
 ### Category Axis
 
