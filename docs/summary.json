@@ -301,6 +301,7 @@
                     }
                 },
                 "Chart":{
+		    "Bar Chart": "bar-chart.md",
                     "Column Chart" : "column-chart.md",
                     "Pie Chart" : "pie-chart.md",
                     "Bubble Chart" : "bubble-chart.md",
