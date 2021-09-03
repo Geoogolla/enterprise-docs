@@ -39,40 +39,60 @@ GROUP BY DATEPART(yy, SOH.OrderDate), PC.Name, PS.Name, 'Q' + DATENAME(qq, SOH.O
 
 ## Assign data
 
-The Bar Chart needs a minimum of 1 value element and 1 column element to showcase. The measure or expression field that you would like to analyze can be dropped into the `Y Values` section. The dimension that you would like to categorize the measure can be dropped into the `Columns` section. If you would like to categorize based on a series, then the respective dimension can be dropped into the `Rows` section in addition.
+The **Bar Chart** needs a minimum of 1 value element and 1 column element to showcase. The measure or expression field that you would like to analyze can be dropped into the `Y Values` section. The dimension that you would like to categorize the measure can be dropped into the `Columns` section. If you would like to categorize based on a series, then the respective dimension can be dropped into the `Rows` section in addition.
 
 To configure data into a bar chart, follow the steps:
 
 1. To bind data to a chart report item placed in the design area, focus on that report item.
+
 2. Click the `Properties` icon in the configuration panel, the property pane opens. Now, switch to the `DATA` tab.
+
    ![Chart properties pane](/static/assets/on-premise/images/report-designer/report-items/chart/bar-chart/Chart-properties-pane.png)
+
 3. The available data in the report will be listed in the dropdown, choose a data in the dropdown list.
+
 ![Choose the dataset for chart](/static/assets/on-premise/images/report-designer/report-items/chart/bar-chart/data-assign-drop-down.png)
+
 4. The numeric columns and numeric expressions are listed under the `Measures` section; other types of columns and dimension expressions are listed under the `Dimensions` section.
+
    ![Measures and dimensions](/static/assets/on-premise/images/report-designer/report-items/chart/bar-chart/measures-dimensions-category.png)
+
 5. **Drag and Drop Measure Element**:
+
    Select and drag the numeric column (measure element) or the numeric expression column from the `Measure` section and drop it in the `Y Values` section.
+
    ![Add a Y-value field](/static/assets/on-premise/images/report-designer/report-items/chart/bar-chart/add-y-values-field.png)
 
    Now, the report item design will look like below:
+
    ![Preview after adding y-value field](/static/assets/on-premise/images/report-designer/report-items/chart/bar-chart/y-value-chart-design-view.png)
+
 6. **Aggregate Options**:
+
    Click the `Settings` icon (highlighted below) to open the aggregation type dropdown list.
+
    ![Aggregate settings icon](/static/assets/on-premise/images/report-designer/report-items/chart/bar-chart/aggregation-settings-icon.png)
 
    You can set the aggregation type by which you can compute the selected column.
+
    ![Aggregate menu list](/static/assets/on-premise/images/report-designer/report-items/chart/bar-chart/aggregation-settings-menu.png)
+
 7. **Drag and Drop Dimension Element**:
+
    Select and drag the dimension element from the `Dimensions` section to measure against any of the selected numeric column(s) in `Y Value(s)` section, and drop it into the `Column(s)` section.  
+
    ![Add dimension field](/static/assets/on-premise/images/report-designer/report-items/chart/bar-chart/add-field-to-column-section.png)
 
    Now, the report item design will look like below:
+
    ![Preview after adding dimension field](/static/assets/on-premise/images/report-designer/report-items/chart/bar-chart/column-field-design-preview.png)
 8. **Grouping**:
    You can group the added column element with another column, by adding the respective dimension element into the Row(s) section.
+
    ![Achieve grouping by row values](/static/assets/on-premise/images/report-designer/report-items/chart/bar-chart/add-field-to-rows-section.png)
 
    Now, the report item design will look like below.
+
    ![Preview of row value grouping ](/static/assets/on-premise/images/report-designer/report-items/chart/bar-chart/row-field-design-preview.png)
 
 ## Format bar chart
@@ -84,7 +104,8 @@ To format a bar chart, follow the below steps:
 1. Drag and drop the bar chart into the design area and resize it to the required size.
 2. Configure the data for the bar chart.
 3. Focus on the bar chart and click the `Properties` icon in the configuration panel, the property pane opens.
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/bar-chart/open-chart-properties.png)
+
+   ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/bar-chart/open-chart-properties.png)
 
 You can see the list of properties available for the widget with the default value.
 
@@ -175,9 +196,11 @@ The Grid line properties can be set to category and value axis.
 #### Category Axis
 
 To show the grid line for category axis, enable the `Category Axis` checkbox.
+
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/bar-chart/category-axis-grid-line.png)
 
 You can also enable the `Minor Grid Lines` and customize the major and minor gridline style and color in the `Advanced Options` menu.
+
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/bar-chart/category-grid-line-advanced-properties.png)
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/bar-chart/category-axis-minor-grid-lines.png)
@@ -185,8 +208,11 @@ You can also enable the `Minor Grid Lines` and customize the major and minor gri
 #### Value Axis
 
 To show the grid line for value axis, enable the `Value Axis` checkbox.
+
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/bar-chart/value-axis-grid-line.png)
+
 You can also enable the `Minor Grid Lines` and customize the major and minor gridline style and color in the `Advanced Options` menu.
+
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/bar-chart/value-grid-line-advanced-properties.png)
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/bar-chart/value-axis-minor-grid-lines.png)
@@ -196,9 +222,12 @@ You can also enable the `Minor Grid Lines` and customize the major and minor gri
 The page break property can be used to control the amount of information on each page when you preview the report. Follow the below steps to apply the page break property for the chart report item.
 
 1. The Break Location property specifies where the page break should occur. Choose any `Break Location` type in the drop-down.
-![Break location](/static/assets/on-premise/images/report-designer/report-items/chart/bar-chart/break-location-types.png)
+
+   ![Break location](/static/assets/on-premise/images/report-designer/report-items/chart/bar-chart/break-location-types.png)
+
 2. To restart the page numbering on each page, enable `Page Number Reset` property checkbox.
-![Reset page number](/static/assets/on-premise/images/report-designer/report-items/chart/bar-chart/page-break-property.png)
+
+   ![Reset page number](/static/assets/on-premise/images/report-designer/report-items/chart/bar-chart/page-break-property.png)
 
 ### Data Element
 
@@ -252,8 +281,11 @@ You can set static or dynamic text as the value for the bookmark property. To se
 ## Preview report
 
 1. The final design view of the report is shown below.
-![Preview icon in design view](/static/assets/on-premise/images/report-designer/report-items/chart/bar-chart/preview-icon.png)
+
+   ![Preview icon in design view](/static/assets/on-premise/images/report-designer/report-items/chart/bar-chart/preview-icon.png)
+
 2. Now, the report preview can be visualized as below.
-![Chart report preview](/static/assets/on-premise/images/report-designer/report-items/chart/bar-chart/report-preview-page.png)
+
+   ![Chart report preview](/static/assets/on-premise/images/report-designer/report-items/chart/bar-chart/report-preview-page.png)
 
 > Download the above report design from the [link](https://github.com/boldreports/resources/tree/master/docs/report-designer/chart/bar-chart.rdl).
