@@ -27,28 +27,28 @@ To present data in the chart, create a dataset and bind data to the chart data r
 ```json
 { 
 {                  
-	points: [
-	{ Month: 'Jan', Temperature: -1 }, { Month: 'Feb', Temperature: -1 }, { Month: 'Mar', Temperature: 2 }, 
-	{ Month: 'Apr', Temperature: 8 }, { Month: 'May', Temperature: 13 }, { Month: 'Jun', Temperature: 18 }, 
-	{ Month: 'Jul', Temperature: 21 }, { Month: 'Aug', Temperature: 20 }, { Month: 'Sep', Temperature: 16 }, 
-	{ Month: 'Oct', Temperature: 10 }, { Month: 'Nov', Temperature: 4 }, { Month: 'Dec', Temperature: 0 }],                   
+   points: [
+      { Month: 'Jan', Temperature: -1 }, { Month: 'Feb', Temperature: -1 }, { Month: 'Mar', Temperature: 2 }, 
+      { Month: 'Apr', Temperature: 8 }, { Month: 'May', Temperature: 13 }, { Month: 'Jun', Temperature: 18 }, 
+      { Month: 'Jul', Temperature: 21 }, { Month: 'Aug', Temperature: 20 }, { Month: 'Sep', Temperature: 16 }, 
+	   { Month: 'Oct', Temperature: 10 }, { Month: 'Nov', Temperature: 4 }, { Month: 'Dec', Temperature: 0 }],                   
  	Country: 'London'  
 },                 
 {
-points: [
-	{ Month: 'Jan', Temperature: 3 }, { Month: 'Feb', Temperature: 3.5 }, { Month: 'Mar', Temperature: 7 }, 
-	{ Month: 'Apr', Temperature: 13.5 }, { Month: 'May', Temperature: 19 }, { Month: 'Jun', Temperature: 23.5 }, 
-	{ Month: 'Jul', Temperature: 26 }, { Month: 'Aug', Temperature: 25 }, { Month: 'Sep', Temperature: 21 }, 
-	{ Month: 'Oct', Temperature: 15 }, { Month: 'Nov', Temperature: 9 }, { Month: 'Dec', Temperature: 3.5 }],
+   points: [
+	   { Month: 'Jan', Temperature: 3 }, { Month: 'Feb', Temperature: 3.5 }, { Month: 'Mar', Temperature: 7 }, 
+	   { Month: 'Apr', Temperature: 13.5 }, { Month: 'May', Temperature: 19 }, { Month: 'Jun', Temperature: 23.5 }, 
+	   { Month: 'Jul', Temperature: 26 }, { Month: 'Aug', Temperature: 25 }, { Month: 'Sep', Temperature: 21 }, 
+	   { Month: 'Oct', Temperature: 15 }, { Month: 'Nov', Temperature: 9 }, { Month: 'Dec', Temperature: 3.5 }],
 	Country: 'Germany'                
 },     
 {                             
-points: [
-	{ Month: 'Jan', Temperature: 7 }, { Month: 'Feb', Temperature: 8 }, { Month: 'Mar', Temperature: 12 }, 
-	{ Month: 'Apr', Temperature: 19 }, { Month: 'May', Temperature: 25 }, { Month: 'Jun', Temperature: 29 }, 
- 	{ Month: 'Jul', Temperature: 31 }, { Month: 'Aug', Temperature: 30 }, { Month: 'Sep', Temperature: 26 }, 
-	{ Month: 'Oct', Temperature: 20 }, { Month: 'Nov', Temperature: 14 }, { Month: 'Dec', Temperature: 8 }], 
-	Country: 'France'
+   points: [
+	   { Month: 'Jan', Temperature: 7 }, { Month: 'Feb', Temperature: 8 }, { Month: 'Mar', Temperature: 12 }, 
+	   { Month: 'Apr', Temperature: 19 }, { Month: 'May', Temperature: 25 }, { Month: 'Jun', Temperature: 29 }, 
+ 	   { Month: 'Jul', Temperature: 31 }, { Month: 'Aug', Temperature: 30 }, { Month: 'Sep', Temperature: 26 }, 
+	   { Month: 'Oct', Temperature: 20 }, { Month: 'Nov', Temperature: 14 }, { Month: 'Dec', Temperature: 8 }], 
+   Country: 'France'
 }
 }
 ```
@@ -61,63 +61,37 @@ The **Smooth line chart** needs a minimum of 1 value element and 1 column elemen
 To configure data into a smooth line chart, follow these steps:
 
 1. To bind data to a chart report item placed in the design area, focus on that report item.
-
 2. Click the `Properties` icon in the configuration panel, the property pane opens. Now, switch to the `DATA` tab.
    ![Chart properties pane](/static/assets/on-premise/images/report-designer/report-items/chart/smooth-line-chart/chart-properties-pane.png)
-
 3. The available data in the report will be listed in the dropdown, choose a data in the dropdown list.
    ![Choose the dataset for chart](/static/assets/on-premise/images/report-designer/report-items/chart/smooth-line-chart/data-assign-drop-down.png)
-
-4. The numeric columns and numeric expressions are listed under the `Measures` section; other types of columns and dimension expressions are listed under the `Dimensions` section.
-
+4. The numeric columns and numeric expressions are listed under the `Measures` section; other types of columns and dimension        expressions are listed under the `Dimensions` section.
    ![Measures and dimensions](/static/assets/on-premise/images/report-designer/report-items/chart/smooth-line-chart/measures-dimensions-category.png)
-
 5. **Drag and Drop Measure Element**:
    Select and drag the numeric column (measure element) or the numeric expression column from the `Measure` section and drop it in the `Y Values` section.
-
    ![Add a Y-value field](/static/assets/on-premise/images/report-designer/report-items/chart/smooth-line-chart/add-y-values-field.png)
-
    Now, the report item design will look like below:
-
    ![Preview after adding y-value field](/static/assets/on-premise/images/report-designer/report-items/chart/smooth-line-chart/y-value-chart-design-view.png)
-
 6. **Aggregate Options**:
    Click the `Settings` icon (highlighted below) to open the aggregation type dropdown list.
-
    ![Aggregate settings icon](/static/assets/on-premise/images/report-designer/report-items/chart/smooth-line-chart/aggregation-settings-icon.png)
-
    You can set the aggregation type by which you can compute the selected column.
-
    ![Aggregate menu list](/static/assets/on-premise/images/report-designer/report-items/chart/smooth-line-chart/aggregation-settings-menu.png)
-
 7. **Drag and Drop Dimension Element**:
-   Select and drag the dimension element from the `Dimensions` section to measure against any of the selected numeric column(s) in the `Y Value(s)` section, and drop it into the `Column(s)` section. 
-
+   Select and drag the dimension element from the `Dimensions` section to measure against any of the selected numeric column(s) in the `Y Value(s)` section, and drop it into the `Column(s)` section.
    ![Add dimension field](/static/assets/on-premise/images/report-designer/report-items/chart/smooth-line-chart/add-field-to-column-section.png)
-
    Click the `Settings` icon and select `Sorts` from dropdown to set the expressions. 
-   
    ![Column settings](/static/assets/on-premise/images/report-designer/report-items/chart/smooth-line-chart/column-settings.png)
-   
    Here, I have sorted the Month using expressions. The expressions are `=Month(cdate("1-" & Fields!Month.Value))`.
-
    ![Sorting options](/static/assets/on-premise/images/report-designer/report-items/chart/smooth-line-chart/sorting-options.png)
-
    ![Set expression](/static/assets/on-premise/images/report-designer/report-items/chart/smooth-line-chart/set-expression.png)
-
    Now, the report item design will look like below:
-
    ![Preview after adding dimension field](/static/assets/on-premise/images/report-designer/report-items/chart/smooth-line-chart/column-field-design-preview.png)
-
 8. **Grouping**:
    You can group the added column element with another column by adding the respective dimension element into the Row(s) section.
-
    ![Achieve grouping by row values](/static/assets/on-premise/images/report-designer/report-items/chart/smooth-line-chart/add-field-to-rows-section.png)
-
    Now, the report item design will look like below.
-
    ![Preview of row value grouping ](/static/assets/on-premise/images/report-designer/report-items/chart/smooth-line-chart/row-field-design-preview.png)
-
 
 ## Format Smooth line chart
 
