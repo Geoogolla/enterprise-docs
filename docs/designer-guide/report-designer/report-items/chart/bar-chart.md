@@ -47,7 +47,7 @@ To configure data into a bar chart, follow the steps:
 
 2. Click the `Properties` icon in the configuration panel, the property pane opens. Now, switch to the `DATA` tab.
 
-   ![Chart properties pane](/static/assets/on-premise/images/report-designer/report-items/chart/bar-chart/Chart-properties-pane.png)
+   ![Chart properties pane](/static/assets/on-premise/images/report-designer/report-items/chart/bar-chart/chart-properties-pane.png)
 
 3. The available data in the report will be listed in the dropdown, choose a data in the dropdown list.
 
@@ -58,13 +58,13 @@ To configure data into a bar chart, follow the steps:
    ![Measures and dimensions](/static/assets/on-premise/images/report-designer/report-items/chart/bar-chart/measures-dimensions-category.png)
 
 5. **Drag and Drop Measure Element**:
-   
+
    Select and drag the numeric column (measure element) or the numeric expression column from the `Measure` section and drop it in the `Y Values` section.
-   
+
    ![Add a Y-value field](/static/assets/on-premise/images/report-designer/report-items/chart/bar-chart/add-y-values-field.png)
-   
+
    Now, the report item design will look like below:
-   
+
    ![Preview after adding y-value field](/static/assets/on-premise/images/report-designer/report-items/chart/bar-chart/y-value-chart-design-view.png)
 6. **Aggregate Options**:
 
