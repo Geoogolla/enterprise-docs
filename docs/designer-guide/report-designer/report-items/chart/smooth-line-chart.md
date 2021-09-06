@@ -95,6 +95,16 @@ To configure data into a smooth line chart, follow these steps:
 
    ![Add dimension field](/static/assets/on-premise/images/report-designer/report-items/chart/smooth-line-chart/add-field-to-column-section.png)
 
+   Click the `Settings` icon and select `Sorts` from dropdown to set the expressions. 
+   
+   ![Column settings](/static/assets/on-premise/images/report-designer/report-items/chart/smooth-line-chart/column-settings.png)
+   
+   Here, I have sorted the Month using expressions. The expressions are `=Month(cdate("1-" & Fields!Month.Value))`.
+
+   ![Sorting options](/static/assets/on-premise/images/report-designer/report-items/chart/smooth-line-chart/sorting-options.png)
+
+   ![Set expression](/static/assets/on-premise/images/report-designer/report-items/chart/smooth-line-chart/set-expression.png)
+
    Now, the report item design will look like below:
 
    ![Preview after adding dimension field](/static/assets/on-premise/images/report-designer/report-items/chart/smooth-line-chart/column-field-design-preview.png)
