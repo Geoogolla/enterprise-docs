@@ -51,22 +51,21 @@ To configure data into a bar chart, follow the steps:
 
 3. The available data in the report will be listed in the dropdown, choose a data in the dropdown list.
 
-![Choose the dataset for chart](/static/assets/on-premise/images/report-designer/report-items/chart/bar-chart/data-assign-drop-down.png)
+   ![Choose the dataset for chart](/static/assets/on-premise/images/report-designer/report-items/chart/bar-chart/data-assign-drop-down.png)
 
 4. The numeric columns and numeric expressions are listed under the `Measures` section; other types of columns and dimension expressions are listed under the `Dimensions` section.
 
    ![Measures and dimensions](/static/assets/on-premise/images/report-designer/report-items/chart/bar-chart/measures-dimensions-category.png)
 
 5. **Drag and Drop Measure Element**:
-
+   
    Select and drag the numeric column (measure element) or the numeric expression column from the `Measure` section and drop it in the `Y Values` section.
-
+   
    ![Add a Y-value field](/static/assets/on-premise/images/report-designer/report-items/chart/bar-chart/add-y-values-field.png)
-
+   
    Now, the report item design will look like below:
-
+   
    ![Preview after adding y-value field](/static/assets/on-premise/images/report-designer/report-items/chart/bar-chart/y-value-chart-design-view.png)
-
 6. **Aggregate Options**:
 
    Click the `Settings` icon (highlighted below) to open the aggregation type dropdown list.
@@ -79,14 +78,16 @@ To configure data into a bar chart, follow the steps:
 
 7. **Drag and Drop Dimension Element**:
 
-   Select and drag the dimension element from the `Dimensions` section to measure against any of the selected numeric column(s) in `Y Value(s)` section, and drop it into the `Column(s)` section.  
+   Select and drag the dimension element from the `Dimensions` section to measure against any of the selected numeric column(s) in `Y Value(s)` section, and drop it into the `Column(s)` section.
 
    ![Add dimension field](/static/assets/on-premise/images/report-designer/report-items/chart/bar-chart/add-field-to-column-section.png)
 
    Now, the report item design will look like below:
 
    ![Preview after adding dimension field](/static/assets/on-premise/images/report-designer/report-items/chart/bar-chart/column-field-design-preview.png)
+
 8. **Grouping**:
+
    You can group the added column element with another column, by adding the respective dimension element into the Row(s) section.
 
    ![Achieve grouping by row values](/static/assets/on-premise/images/report-designer/report-items/chart/bar-chart/add-field-to-rows-section.png)
@@ -155,7 +156,7 @@ Use the [Color Palette](./../../../report-items/chart/color-palette/) property t
 
 ### Title
 
-The chart title can be customized by editing the `Title Text` property of the chart.
+The **chart title** can be customized by editing the `Title Text` property of the chart.
 
 To show/hide the chart title, toggle the `Show Chart Title` checkbox.
 
@@ -165,7 +166,7 @@ Using these properties the font color, font text, font style, border, background
 
 ### No Data
 
-The No Data property is used to display static text when a dataset results with empty or zero rows at run time.
+The **No Data** property is used to display static text when a dataset results with empty or zero rows at runtime.
 
 ![Chart No data message](/static/assets/on-premise/images/report-designer/report-items/chart/bar-chart/no-data.png)
 
@@ -219,9 +220,9 @@ You can also enable the `Minor Grid Lines` and customize the major and minor gri
 
 ### Page break
 
-The page break property can be used to control the amount of information on each page when you preview the report. Follow the below steps to apply the page break property for the chart report item.
+The **page break** property can be used to control the amount of information on each page when you preview the report. Follow the below steps to apply the page break property for the chart report item.
 
-1. The Break Location property specifies where the page break should occur. Choose any `Break Location` type in the drop-down.
+1. The **Break Location** property specifies where the page break should occur. Choose any `Break Location` type in the drop-down.
 
    ![Break location](/static/assets/on-premise/images/report-designer/report-items/chart/bar-chart/break-location-types.png)
 
