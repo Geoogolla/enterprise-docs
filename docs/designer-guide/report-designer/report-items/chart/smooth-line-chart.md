@@ -114,7 +114,7 @@ To configure data into a smooth line chart, follow these steps:
 
    ![Preview of row value grouping ](/static/assets/on-premise/images/report-designer/report-items/chart/smooth-line-chart/row-field-design-preview.png)
 
-9. **Formating Row(s) and Column(s) sections**:
+9. **Formatting Row(s) and Column(s) sections**:
 
    You can also [Filter](./../../../report-designer/compose-report/filter-data/), [Sort](./../../../report-designer/compose-report/sort-data/), or [Group](./../../../report-designer/compose-report/group-data/) the column(s) or Row(s) sections using expressions.
 
