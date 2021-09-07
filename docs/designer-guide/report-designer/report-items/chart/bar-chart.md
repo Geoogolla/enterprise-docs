@@ -132,6 +132,10 @@ You can add multiple series to the chart and the available series will be listed
 
 Refer to the [Series](./../../../report-items/chart/series/) section, to customize each series using the properties panel.
 
+In this case, we enabled the `Show Data Label` option from the Data Label Settings in series settings.
+
+![Data Label Settings](/static/assets/on-premise/images/report-designer/report-items/chart/bar-chart/data-label-settings.png)
+
 ### Appearance
 
 The border style, color, width, and background color properties can be used to style the chart and customize its appearance in the report design. These properties are listed under the `Appearance` category in the properties panel.
