@@ -116,7 +116,7 @@ To configure data into a smooth line chart, follow these steps:
 
 9. **Formatting Row(s) and Column(s) sections**:
 
-   You can also [Filter](./../../../report-designer/compose-report/filter-data/), [Sort](./../../../report-designer/compose-report/sort-data/), or [Group](./../../../report-designer/compose-report/group-data/) the column(s) or Row(s) sections using expressions.
+   You can also [Filter](./../../../compose-report/filter-data/), [Sort](./../../../compose-report/sort-data/), or [Group](./../../../compose-report/group-data/) the column(s) or Row(s) sections using expressions.
 
    For example, here the `Month` field is sorted using `=Month(cdate("1-" & Fields!Month.Value))` expression.
 
