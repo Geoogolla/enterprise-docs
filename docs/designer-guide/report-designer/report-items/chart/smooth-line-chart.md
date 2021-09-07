@@ -101,16 +101,6 @@ To configure data into a smooth line chart, follow these steps:
 
    ![Add dimension field](/static/assets/on-premise/images/report-designer/report-items/chart/smooth-line-chart/add-field-to-column-section.png)
 
-   Click the `Settings` icon and select `Sorts` from dropdown to set the expressions.
-
-   ![Column settings](/static/assets/on-premise/images/report-designer/report-items/chart/smooth-line-chart/column-settings.png)
-
-   Here, I have sorted the Month using expressions. The expressions are `=Month(cdate("1-" & Fields!Month.Value))`.
-
-   ![Sorting options](/static/assets/on-premise/images/report-designer/report-items/chart/smooth-line-chart/sorting-options.png)
-
-   ![Set expression](/static/assets/on-premise/images/report-designer/report-items/chart/smooth-line-chart/set-expression.png)
-
    Now, the report item design will look like below:
 
    ![Preview after adding dimension field](/static/assets/on-premise/images/report-designer/report-items/chart/smooth-line-chart/column-field-design-preview.png)
@@ -123,6 +113,18 @@ To configure data into a smooth line chart, follow these steps:
    Now, the report item design will look like below.
 
    ![Preview of row value grouping ](/static/assets/on-premise/images/report-designer/report-items/chart/smooth-line-chart/row-field-design-preview.png)
+
+9. **Formating Row(s) and Column(s) sections**:
+
+   You can also [Filter](./../../../report-designer/compose-report/filter-data/), [Sort](./../../../report-designer/compose-report/sort-data/), or [Group](./../../../report-designer/compose-report/group-data/) the column(s) or Row(s) sections using expressions.
+
+   For example, here the `Month` field is sorted using `=Month(cdate("1-" & Fields!Month.Value))` expression.
+
+   ![Column row settings](/static/assets/on-premise/images/report-designer/report-items/chart/smooth-line-chart/column-row-settings.png)
+
+   ![Sorting options](/static/assets/on-premise/images/report-designer/report-items/chart/smooth-line-chart/sorting-options.png)
+
+   ![Set expression](/static/assets/on-premise/images/report-designer/report-items/chart/smooth-line-chart/set-expression.png)
 
 ## Format Smooth line chart
 
@@ -162,7 +164,7 @@ We can edit the selected series by clicking the edit button.
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/smooth-line-chart/edit-series.png)
 
-In this case, we can enabled the `show Marker` property and set the `Marker type` to `Circle` and `Size(pixel)` to `4.000`.
+**Marker Property**: In this case, we have enabled the `show Marker` property and set the `Marker type` to `Circle` and `Size(pixel)` to `4.000`.
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/smooth-line-chart/marker-settings.png)
 
