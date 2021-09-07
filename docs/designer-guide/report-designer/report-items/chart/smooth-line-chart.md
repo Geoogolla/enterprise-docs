@@ -31,8 +31,8 @@ To present data in the chart, create a dataset and bind data to the chart data r
       { Month: 'Jan', Temperature: -1 }, { Month: 'Feb', Temperature: -1 }, { Month: 'Mar', Temperature: 2 },
       { Month: 'Apr', Temperature: 8 }, { Month: 'May', Temperature: 13 }, { Month: 'Jun', Temperature: 18 },
       { Month: 'Jul', Temperature: 21 }, { Month: 'Aug', Temperature: 20 }, { Month: 'Sep', Temperature: 16 },
-      { Month: 'Oct', Temperature: 10 }, { Month: 'Nov', Temperature: 4 }, { Month: 'Dec', Temperature: 0 }],             
- 	Country: 'London'
+      { Month: 'Oct', Temperature: 10 }, { Month: 'Nov', Temperature: 4 }, { Month: 'Dec', Temperature: 0 }],
+   Country: 'London'
 },
 {
    points: [
@@ -260,11 +260,11 @@ The **page break** property can be used to control the amount of information on 
 
 1. The **Break Location** property specifies where the page break should occur. Choose any `Break Location` type in the dropdown.
 
-![Break location](/static/assets/on-premise/images/report-designer/report-items/chart/smooth-line-chart/break-location-types.png)
+   ![Break location](/static/assets/on-premise/images/report-designer/report-items/chart/smooth-line-chart/break-location-types.png)
 
 2. To restart the page numbering on each page, enable the `Page Number Reset` property checkbox.
 
-![Reset page number](/static/assets/on-premise/images/report-designer/report-items/chart/smooth-line-chart/page-break-property.png)
+   ![Reset page number](/static/assets/on-premise/images/report-designer/report-items/chart/smooth-line-chart/page-break-property.png)
 
 ### Data Element
 
