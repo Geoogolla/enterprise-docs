@@ -284,7 +284,7 @@ You can assign a custom name to the chart element using the `Name` field. The ch
 
 #### Output
 
-On exporting the report, the visibility of the chart can be controlled using the `Output` property. Choosing the following options for the `Output` property will perform the respective operations:
+On exporting the report, the visibility of the chart can be controlled using the **Output** property. Choosing the following options for the `Output` property will perform the respective operations:
 
 * **Auto** or **Output** - Exports the chart report item
 * **NoOutput** - Does not export the chart report item
