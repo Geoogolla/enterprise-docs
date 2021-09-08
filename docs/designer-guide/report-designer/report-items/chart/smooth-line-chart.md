@@ -324,8 +324,11 @@ The **Tooltip** property can be used to display informative text or values when 
 ## Preview report
 
 1. To see the report preview, click on the **Preview** button in the top-right corner of the report header.
-![Preview icon in design view](/static/assets/on-premise/images/report-designer/report-items/chart/smooth-line-chart/preview-icon.png)
+
+   ![Preview icon in design view](/static/assets/on-premise/images/report-designer/report-items/chart/smooth-line-chart/preview-icon.png)
+
 2. Now, the report preview can be visualized as below.
-![Chart report preview](/static/assets/on-premise/images/report-designer/report-items/chart/smooth-line-chart/report-preview-page.png)
+
+   ![Chart report preview](/static/assets/on-premise/images/report-designer/report-items/chart/smooth-line-chart/report-preview-page.png)
 
 > Download the above report design from the [link](https://github.com/boldreports/resources/tree/master/docs/report-designer/chart/smooth-line.rdl).
