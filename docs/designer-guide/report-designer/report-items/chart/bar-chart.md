@@ -47,7 +47,7 @@ To configure data into a bar chart, follow the steps:
 
 2. Click the `Properties` icon in the configuration panel, the property pane opens. Now, switch to the `DATA` tab.
 
-   ![Chart properties pane](/static/assets/on-premise/images/report-designer/report-items/chart/bar-chart/Chart-properties-pane.png)
+   ![Chart properties pane](/static/assets/on-premise/images/report-designer/report-items/chart/bar-chart/chart-properties-pane.png)
 
 3. The available data in the report will be listed in the dropdown, choose a data in the dropdown list.
 
@@ -132,7 +132,7 @@ You can add multiple series to the chart and the available series will be listed
 
 Refer to the [Series](./../../../report-items/chart/series/) section, to customize each series using the properties panel.
 
-In this case, we enabled the `Show Data Label` option from the Data Label Settings in series settings.
+In this case, we enabled the `Show Data Label` option and changed the `Format type` as `Custom` and entered the `Custom format` value as `'$'#,0,;('$'#,0,)` from the Data Label Settings in series settings.
 
 ![Data Label Settings](/static/assets/on-premise/images/report-designer/report-items/chart/bar-chart/data-label-settings.png)
 
@@ -244,7 +244,7 @@ Data element can be used to control visibility of a report item when exporting t
 
 You can assign a custom name to the chart element using the `Name` field. The chart report item will be exported with the provided name.
 
-![Data element name property](/static/assets/on-premise/images/report-designer/report-items/chart/bar-chart/name-property.png)
+![Data element name property](/static/assets/on-premise/images/report-designer/report-items/chart/bar-chart/data-element-name-properties.png)
 
 > Note: The name cannot contain spaces, and it must begin with a letter followed by letters, numbers, or the underscore character (_).
 
