@@ -313,6 +313,7 @@
                     "Switch Chart Type": "switch-chart-type.md",
                     "Show Legend" : "legend.md",
                     "Show Marker" : "marker.md",
+		    "Smooth Line Chart" : "smooth-line-chart",
                     "Show Data Label": "data-label.md",
                     "Smart Label" : "smart-label.md",
 					"Color Palette": "color-palette.md",
