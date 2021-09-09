@@ -47,7 +47,7 @@ To configure data into a bar chart, follow the steps:
 
 2. Click the `Properties` icon in the configuration panel, the property pane opens. Now, switch to the `DATA` tab.
 
-   ![Chart properties pane](/static/assets/on-premise/images/report-designer/report-items/chart/bar-chart/chart-properties-pane.png)
+   ![Chart properties pane](/static/assets/on-premise/images/report-designer/report-items/chart/bar-chart/Chart-properties-pane.png)
 
 3. The available data in the report will be listed in the dropdown, choose a data in the dropdown list.
 

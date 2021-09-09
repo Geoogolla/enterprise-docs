@@ -278,7 +278,7 @@ The **data element** can be used to control the visibility of a report item when
 
 You can assign a custom name to the chart element using the `Name` field. The chart report item will be exported with the provided name.
 
-![Data element name property](/static/assets/on-premise/images/report-designer/report-items/chart/smooth-line-chart/name-property.png)
+![Data element name property](/static/assets/on-premise/images/report-designer/report-items/chart/smooth-line-chart/data-element-name-properties.png)
 
 > Note: The name cannot contain spaces, and it must begin with a letter followed by letters, numbers, or the underscore character (_).
 
