@@ -132,7 +132,7 @@ You can add multiple series to the chart and the available series will be listed
 
 Refer to the [Series](./../../../report-items/chart/series/) section, to customize each series using the properties panel.
 
-In this case, we enabled the `Show Data Label` option and changed the `Format type` as `Custom` and entered the `Custom format` value as `'$'#,0,;('$'#,0,)` from the Data Label Settings in series settings.
+In this case, we have enabled the `Show Data Label` option and entered the Data Label format value as `'$'#,0,;('$'#,0,)` in series settings.
 
 ![Data Label Settings](/static/assets/on-premise/images/report-designer/report-items/chart/bar-chart/data-label-settings.png)
 
