@@ -70,6 +70,35 @@ sudo bash install-boldreports.sh -i new -u www-data -h http://linux.example.com 
 
 Once the installation completed, open the host URL in the browser and continue the application startup.
 
+## Upgrade breaking changes
+
+>**Note**:
+> * After upgrading Bold Reports application to v3.2.22 from v3.1.x, you need to update below section of code in Nginx configuration file in the location
+>`/etc/nginx/sites-available`.
+> * This breaking changes should be done for both automatic and manual Nginx configurations.
+
+**Old Nginx configuration file code**:
+
+![Breaking Issue](/static/assets/on-premise/images/installation/breaking.png)
+
+Replace below code in Nginx configuration file instead of above marked code,
+
+```cmd
+    location /reporting/reportservice {
+        root               /var/www/bold-services/application/reporting/reportservice;
+        proxy_pass         http://localhost:6553;
+        proxy_http_version 1.1;
+        proxy_set_header   Upgrade $http_upgrade;
+        proxy_set_header   Connection keep-alive;
+        proxy_set_header   Host $host;
+        proxy_cache_bypass $http_upgrade;
+        proxy_set_header   X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header   X-Forwarded-Proto $scheme;
+    }
+```
+
+Once the Nginx configuration is updated, run the `sudo nginx -t`  to verify the syntax of the configuration files. If the configuration file test is successful, force the Nginx to pick up the changes by running the `sudo nginx -s reload`.
+
 ## Manually Configure Nginx
 
 To configure Nginx as a reverse proxy to forward requests to the Bold Reports app, modify /etc/nginx/sites-available/default. Open it in a text editor, and add the following code.
