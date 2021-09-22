@@ -97,7 +97,7 @@ To configure data into a stacked column 100% chart, follow these steps:
 
 7. **Drag and Drop Dimension Element**:
 
-   Select and drag the dimension element from the `Dimensions` section to measure against any of the selected numeric column(s) in `Y  Value(s)` section, and drop it into the `Column(s)` section.
+   Select and drag the dimension element from the `Dimensions` section to measure against any of the selected numeric column(s) in `Y  Value(s)` section, and drop it into the `Column` section.
 
    ![Add dimension field](/static/assets/on-premise/images/report-designer/report-items/chart/100-stacked-column-chart/add-field-to-column-section.png)
 
@@ -175,8 +175,6 @@ These properties are listed under the `Chart Area` category.
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/100-stacked-column-chart/chart-area.png)
 
-Here, we have set the `Color Palette` as `Pacific` and the design is shown below.
-
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/100-stacked-column-chart/chart-area-design.png)
 
 Use the [Color Palette](./../../../report-items/chart/color-palette/) property to customize the color of the chart.
@@ -231,7 +229,7 @@ You can also enable the `Minor Grid Lines` and customize the major and minor gri
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/100-stacked-column-chart/category-grid-line-advanced-properties.png)
 
-When we enable the `Minor Grid Line` in the stacked column 100% chart, it does not appear in the design is shown below.
+When we enable the `Minor Grid Lines`, it will enable the gridlines. But it is hidden in bar.
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/100-stacked-column-chart/category-axis-minor-grid-lines.png)
 
