@@ -211,9 +211,9 @@ To configure Nginx as a reverse proxy to forward requests to the Bold Reports ap
         proxy_set_header   X-Forwarded-For $proxy_add_x_forwarded_for;
         proxy_set_header   X-Forwarded-Proto $scheme;
     }
-    location /reporting/reportservice/api {
+    location /reporting/reportservice {
         root               /var/www/bold-services/application/reporting/reportservice;
-        proxy_pass         http://localhost:6553/api;
+        proxy_pass         http://localhost:6553;
         proxy_http_version 1.1;
         proxy_set_header   Upgrade $http_upgrade;
         proxy_set_header   Connection keep-alive;
