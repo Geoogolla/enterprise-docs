@@ -28,10 +28,10 @@ We have to place the downloaded license key file in the Bold Reports installed l
 
 1. Go to the deployed location and place the license key file in below location.
 
-   **`{Deployed Location}`**\Report Server\Configuration
+   **`{Deployed Location}`**\app_data\reporting\configuration
 
-   Example: C:\Bold Reports\Report Server\Configuration
+   Example: C:\BoldServices\app_data\reporting\configuration
 
-   >By default, Bold Reports will be deployed on C:\Bold Reports
+   >By default, Bold Reports will be deployed on C:\BoldServices
 
 2. Restart the Bold Reports application.

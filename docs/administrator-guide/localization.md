@@ -22,12 +22,32 @@ Clone your own culture for the [Bold Report Server](https://github.com/boldrepor
 * Copy your own culture **messages.po** file from the location where you are cloned from GitHub
 ![Copy-Po-File](/static/assets/on-premise/images/localization/copy-po-file.png)
 
-* Create a folder in **C:\Bold Reports\Report Server\locale** with {language code}-{country code} and paste the cloned messages.po file inside the newly created folder.
+* Create a folder in locale folder  with {language code}-{country code} and paste the cloned messages.po file inside the newly created folder.
+
+  <span style="font-weight:bold">Version below 3.1</span>
+
+  Locale folder path: `{Installed_location}\Bold Reports\Report Server\locale`
+
+  <span style="font-weight:bold">Version above 3.1</span>
+
+  Locale folder path: `{Installed_location}\BoldServices\reporting\web\locale`
 
    For example, if you are translating to Germany, create a folder named de-DE and paste the messages.po like the below.
 
-  **C:\Bold Reports\Report Server\locale\de-DE\messages.po**
-![Create New Folder](/static/assets/on-premise/images/localization/create-new-folder.png)
+  <span style="font-weight:bold">Version below 3.1</span>
+  
+  ![Create New Folder](/static/assets/on-premise/images/localization/create-new-folder.png)
+
+  <span style="font-weight:bold">Version above 3.1</span>
+
+  ![Create New Folder](/static/assets/on-premise/images/localization/version-create-new-folder.png)
 
 * Then refresh Your Bold Report On Premise source and select the preferred language.
-![Select Language](/static/assets/on-premise/images/localization/select-language.png)
+
+  <span style="font-weight:bold">Version below 3.1</span>
+
+    ![Select Language](/static/assets/on-premise/images/localization/select-language.png)
+
+  <span style="font-weight:bold">Version above 3.1</span>
+
+    ![Select Language](/static/assets/on-premise/images/localization/version-select-language.png)

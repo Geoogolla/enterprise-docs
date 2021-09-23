@@ -170,7 +170,7 @@ By selecting the variable the scheduled user variable is assigned directly from 
 
 * To save the exported report, **Export Path** and **Max reports count** has to be filled.
 
-  **Export Path** - Location to save the exported report. By default, the folder path will be **\Export** and the default root path location will be **C:\BoldServices\app_data\reporting\Jobs**.
+   **Export Path** - Location to save the exported report. By default, the folder path will be **\Export** and the default root path location will be **C:\BoldServices\app_data\reporting\Jobs**.
        * You need a required folder path, simply edit the default folder path location and set the required path location in the Export path.
        * You need a required root path, it must be updated in [Shedule Report Setting](./../../../designer-guide/manage-schedule/schedule-report-settings/#save-as-file) Export path.
 
