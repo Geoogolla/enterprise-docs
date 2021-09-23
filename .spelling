@@ -427,7 +427,8 @@ wwwroot
 ClientLibraries
 install-optional-libs
 v3.2.22
-v3.1.xps1
+v3.1.x
+ps1
 txt
 vCPU
 P3v2
