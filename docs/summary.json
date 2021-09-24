@@ -303,6 +303,9 @@
                 "Chart":{
 		    "Bar Chart": "bar-chart.md",
                     "Column Chart" : "column-chart.md",
+		    "Stacked Bar Chart" : "stacked-bar-chart.md",
+		    "Stacked Column Chart" : "stacked-column-chart.md",
+		    "Stacked Bar 100% Chart" : "100-stacked-bar-chart.md",
 		    "Stacked Column 100% Chart" : "100-stacked-column-chart.md",
                     "Pie Chart" : "pie-chart.md",
                     "Bubble Chart" : "bubble-chart.md",

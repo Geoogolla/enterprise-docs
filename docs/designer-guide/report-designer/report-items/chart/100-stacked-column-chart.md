@@ -117,7 +117,7 @@ To configure data into a stacked column 100% chart, follow these steps:
 
 9. **Formatting Column and Row(s) sections**:
 
-   You can also [Filter](./../../../compose-report/filter-data/), [Sort](./../../../compose-report/sort-data/), or [Group](./../../../compose-report/group-data/) the column or Row(s) sections using expressions.
+   You can also [Filter](./../../../compose-report/filter-data/), [Sort](./../../../compose-report/sort-data/), or [Group](./../../../compose-report/group-data/) the Column or Row(s) sections using expressions.
 
 ## Format stacked column 100% chart
 
@@ -228,8 +228,6 @@ To show the grid line for the category axis, enable the `Category Axis` checkbox
 You can also enable the `Minor Grid Lines` and customize the major and minor gridline style and color in the `Advanced Options` menu.
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/100-stacked-column-chart/category-grid-line-advanced-properties.png)
-
-When we enable the `Minor Grid Lines`, it will enable the gridlines. But it is hidden in bar.
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/100-stacked-column-chart/category-axis-minor-grid-lines.png)
 
