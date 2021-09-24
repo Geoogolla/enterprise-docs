@@ -82,30 +82,19 @@ Click on `No`, it will not have common login for `BoldBI` and `BoldReportsEnterp
 Please follow below steps to change the application binding information
 
 1. Add new binding to Bold Reports Enterprise Reporting edition on IIS as shown in the image below.
- **`Example: 192.168.1.3`**
+ **`Example: example.com`**
 ![IIS Binding](/static/assets/on-premise/images/getting-started/add-binding.png)  
     >Don’t remove existing bindings.
-
-2. Update the new binding values in below configuration files in deployed location.
-I>By default, Bold Reports will be deployed on `C:\Bold Reports`
-   * Update the **`InternalAppReportUrl`** value in config file in below location  
-**`{Deployed Location}`**\IDP\App_Data\Configuration\config.xml  
-![IDP Config File](/static/assets/on-premise/images/getting-started/idp-config.png)
-   * Update the **`InternalAppDataServiceUrl`**, and **`InternalAppIdpUrl`** values in the config file in below location  
-**`{Deployed Location}`**\Report Server\App_Data\Configuration\Config.xml  
-![RS Config File](/static/assets/on-premise/images/getting-started/rs-config.png)
-3. Restart the site in IIS and browse the site with old binding URL.
-4. Now navigate to the site settings page of the UMS application using below old binding and update the new binding information as shown in image below.
+2. Go to site settings page of the UMS application using below old binding and update the new binding information as shown in image below.
 **`http://localhost:{port-no}/ums/administration`**  
 ![IDP Base URL](/static/assets/on-premise/images/getting-started/idp-base-url.png)
-5. Now navigate to the site setting of your report server application using below old binding and update the new binding information as shown in image below.  
-**`http://localhost:{port-no}/reporting/en-us/site/site1/administration`**  
-![RS Base URL](/static/assets/on-premise/images/getting-started/rs-base-url.png)
-
-6. Now Bold Reports site can be browsed using the new binding.
-
+3. Then navigate to the site listing page of UMS application and click `Edit` on the deployed site as shown in image below.
+**`http://localhost:{port-no}/ums/sites`**  
+![RS Base URL](/static/assets/on-premise/images/getting-started/ums-url-edit.png)
+4. Update the new binding information as shown in image below.![RS Base URL](/static/assets/on-premise/images/getting-started/ums-base-url.png)
+5. Now, Bold Reports site can be browsed using the new binding.
+6. Repeat the step 3 and 4 to change custom domain for deployed sites.
 > * To Configure the Bold Reports Enterprise Reporting Edition by using newly added bindings in IIS, refer this [link](../../how-to/map-a-domain-name-to-bold-reports-site-before-startup/)
-> * Bold Reports Enterprise Reporting Edition configuration completed by using newly added bindings in IIS but unable to launch `BoldReportsEnterprise Reporting` site, refer this [link](../../how-to/resolve-unavailable-error-when-site-fails-incase-of-domain-name-change/) to solve the problem and configure BoldReports site.
 
 ## See Also
 

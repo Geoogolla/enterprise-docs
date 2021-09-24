@@ -6,7 +6,7 @@ platform: report-platform
 documentation: ug
 ---
 
-# How to upgrade Bold Reports On-Premise Edition new version on production server
+# How to upgrade Bold Reports On-Premise Edition version up to 2.x on production server
 
 This section explains how to upgrade Bold Reports On-Premise Edition in staging and to production environment.
 

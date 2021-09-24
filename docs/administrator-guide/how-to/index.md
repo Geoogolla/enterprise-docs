@@ -12,7 +12,7 @@ This section helps to get the answer for the frequently asked how to queries in 
 
 * [How to map a domain name for Bold Report On-Premise Edition before startup?](./../how-to/map-a-domain-name-to-bold-reports-site-before-startup/)
 
-* [How to resolve unavailable error with Bold Reports On-Premises Edition when it is occurred in reason of domain name change?](./../how-to/resolve-unavailable-error-when-site-fails-incase-of-domain-name-change/)
+* [How to resolve unavailable error with Bold Reports On-Premises Edition when it is occurred in reason of domain name change version up to 2.x?](./../how-to/resolve-unavailable-error-when-site-fails-incase-of-domain-name-change/)
 
 * [How to setup the staging and production environment for Bold Reports On-Premise Edition?](./../how-to/setup-the-development-staging-and-production-environment-for-bold-reports-on-premise-edition/)
 
@@ -25,3 +25,5 @@ This section helps to get the answer for the frequently asked how to queries in 
 * [How to apply the patches to Bold Reports Multi-tenant Azure App Service?](./../how-to/apply-patches-to-bold-reports-azure-app-service/)
 
 * [How to switch the installed Bold Reports Report Server IIS Express application to IIS?](./../how-to/switch-the-installed-bold-reports-report-server-iis-express-application-to-iis/)
+
+* [How to apply the patches to Bold Reports to support common login with latest BI?](./../how-to/apply-patches-to-bold-reports-to-support-common-login-with-latest-bi/)
