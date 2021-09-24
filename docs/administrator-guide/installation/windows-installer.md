@@ -79,29 +79,6 @@ Click on `No`, it will not have common login for `BoldBI` and `BoldReportsEnterp
 
 ## How to change the binding in the Bold Reports Enterprise Reporting
 
-### Mapping the custom domain after the installation
-
-Please follow the below steps to update the custom domain after the installation
-
-1. Add custom domain to Bold Reports Enterprise Reporting edition on IIS as shown in the image below.
-![IIS Binding](/static/assets/on-premise/images/getting-started/add-binding.png)
-
-2. Navigate to sites page in tenant management application **`{your-current-domain}/ums/sites`** and click on deployed site and go to settings page.
-   ![Site listing page](/static/assets/on-premise/images/getting-started/site-listing-page.png)
-   ![Site Setting page](/static/assets/on-premise/images/getting-started/site-setting-page.png)
-
-3. Update the new custom domain information in site URL as shown below and save the settings,
-   ![Site Setting Site URL](/static/assets/on-premise/images/getting-started/site-setting-site-url.png)
-
-4. Repeat the step 2 to 3 for all deployed sites.
-
-5. Navigate to the site settings page of the UMS application and update the new custom domain information as shown in image below.
-![UMS Site Setting](/static/assets/on-premise/images/getting-started/ums-site-settings.png)
-
-6. Now, you can access sites using newly mapped domain.
-
-#### Mapping the custom domain before startup Bold Reports Enterprise Reporting application
-
 Please follow below steps to change the application binding information
 
 1. Add new binding to Bold Reports Enterprise Reporting edition on IIS as shown in the image below.
@@ -118,8 +95,6 @@ Please follow below steps to change the application binding information
 5. Now, Bold Reports site can be browsed using the new binding.
 6. Repeat the step 3 and 4 to change custom domain for deployed sites.
 > * To Configure the Bold Reports Enterprise Reporting Edition by using newly added bindings in IIS, refer this [link](../../how-to/map-a-domain-name-to-bold-reports-site-before-startup/)
-
-4. Start the site in IIS and browse the site using the custom domain. Now, the Bold Reports Enterprise Reporting startup page will be loaded on the browser.![Startup Page](/static/assets/on-premise/images/getting-started/startup-page.png)
 
 ## See Also
 
