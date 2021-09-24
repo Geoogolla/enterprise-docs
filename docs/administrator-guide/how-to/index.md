@@ -25,3 +25,5 @@ This section helps to get the answer for the frequently asked how to queries in 
 * [How to apply the patches to Bold Reports Multi-tenant Azure App Service?](./../how-to/apply-patches-to-bold-reports-azure-app-service/)
 
 * [How to switch the installed Bold Reports Report Server IIS Express application to IIS?](./../how-to/switch-the-installed-bold-reports-report-server-iis-express-application-to-iis/)
+
+* [How to apply the patches to Bold Reports to support common login with latest BI?](./../how-to/apply-patches-to-bold-reports-to-support-common-login-with-latest-bi/)
