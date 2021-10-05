@@ -8,7 +8,7 @@ documentation: ug
 
 # MySQL Configuration
 
-Starting with the version v2.4.19, Bold Reports introduced MySQL database support for storing the user identities and report details.
+Starting with the version v3.2.22, Bold Reports introduced MySQL database support for storing the user identities and report details.
 
 ## MySQL Database Configuration for Bold ID
 
@@ -18,16 +18,14 @@ You can connect to the existing MySQL Server instance by following the below ste
 
 1. Select the server type as `MySQL` and provide the name of the server.
 
-2. Select the `MySQL ODBC DSN`. Create the MySQL DSN by following this [link](./../../how-to/create-dsn-for-mysql/)
+2. Provide the Username and password of the server to be connected.
 
-3. Provide the Username and password of the server to be connected.
-
-4. You can connect to the MySQL Server with the below options.
+3. You can connect to the MySQL Server with the below options.
 
     * Create new database.
     * Use an existing database.
 
-5. Provide the database name and proceed further.
+4. Provide the database name and proceed further.
 
 ![MySQL Server](/static/assets/on-premise/images/getting-started/application-startup-mySQL-server.png)
 
@@ -43,16 +41,14 @@ You can connect to the existing MySQL Server instance by following the below ste
 
 1. Select the server type as `MySQL` and provide the name of the server.
 
-2. Select the `MySQL ODBC DSN`. Create the MySQL DSN by following this [link](./../../how-to/create-dsn-for-mysql/)
+2. Provide the Username and password of the server to be connected.
 
-3. Provide the Username and password of the server to be connected.
-
-4. You can connect to the MySQL Server with the below options.
+3. You can connect to the MySQL Server with the below options.
 
     * Create new database.
     * Use an existing database.
 
-5. Provide the database name and proceed further.
+4. Provide the database name and proceed further.
 
 ![MySQL Server](/static/assets/on-premise/images/getting-started/application-startup-mySQL-bold-reports-server.png)
 
