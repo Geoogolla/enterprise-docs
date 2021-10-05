@@ -4,9 +4,13 @@
     "Installation": {
         "Windows Installer":"windows-installer.md",
         "Azure App Service":{
-            "Client libraries":"client-libraries.md",
+	    "Prerequisites":"prerequisites.md",
+	    "Recommendations":"recommendations.md",
+	    "Using ARM template":{	
+	    "Client libraries":"client-libraries.md"
+		},
             "Upgrade":"upgrade.md"
-        },
+	},
         "Deploy in Linux":{
             "Prerequisites":"prerequisites.md",
             "Bold Reports on Ubuntu":"bold-report-ubuntu.md",
