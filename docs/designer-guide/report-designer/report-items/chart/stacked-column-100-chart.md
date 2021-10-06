@@ -318,4 +318,4 @@ The **Tooltip** property can be used to display informative text or values when 
 
    ![Chart report preview](/static/assets/on-premise/images/report-designer/report-items/chart/100-stacked-column-chart/report-preview-page.png)
 
-> Download the above report design from the [link](https://github.com/boldreports/resources/tree/master/docs/report-designer/chart/100-stacked-column-chart.rdl).
+> Download the above report design from the [link](https://github.com/boldreports/resources/tree/master/docs/report-designer/chart/stacked-column-100-chart.rdl).
