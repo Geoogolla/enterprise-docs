@@ -96,6 +96,10 @@ To configure data into a bar chart, follow the steps:
 
    ![Preview of row value grouping ](/static/assets/on-premise/images/report-designer/report-items/chart/bar-chart/row-field-design-preview.png)
 
+9. **Formatting Column and Row(s) sections**:
+
+   You can also [Filter](./../../../compose-report/filter-data/), [Sort](./../../../compose-report/sort-data/), or [Group](./../../../compose-report/group-data/) the Column or Row(s) sections using expressions.
+
 ## Format bar chart
 
 You can format the bar chart for better illustration of the view that you require, through the settings available in the `Properties` tab.
