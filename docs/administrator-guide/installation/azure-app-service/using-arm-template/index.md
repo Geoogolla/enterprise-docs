@@ -26,7 +26,7 @@ This section explains how to create the Bold Reports Report Server into Azure cl
 5. Now, select **Build your own template in the editor** in the Custom Deployment window.
 ![Build your own template in the editor option](/static/assets/on-premise/images/installation-and-deployment/azure-deployment/app-service-using-arm-template/build-your-own-template.png)
 
-6. [Click here](https://raw.githubusercontent.com/boldreports/bold-reports-azure/master/armtemplates/v2.4.19/BoldReportsAppServiceTemplate.json) to download the ARM template file.
+6. [Click here](https://raw.githubusercontent.com/boldreports/bold-reports-azure/master/armtemplates/v3.2.22/BoldReportsAppServiceTemplate.json) to download the ARM template file.
 
 7. Copy all the contents in the template file and replace them in the Edit template window, and then click **Save**.
 ![Edit the template and replace the template](/static/assets/on-premise/images/installation-and-deployment/azure-deployment/app-service-using-arm-template/edit-template.png)
@@ -62,22 +62,6 @@ This section explains how to create the Bold Reports Report Server into Azure cl
    Scale up: <https://docs.microsoft.com/en-us/azure/app-service-web/web-sites-scale>
 
    Scale out: <https://docs.microsoft.com/en-us/azure/monitoring-and-diagnostics/insights-how-to-scale>
-
-10. After the successful deployment go to your Web App and search `App Service Editor`, then click `GO` as shown in the following screenshot.
-
-    ![App Service Editor](/static/assets/on-premise/images/installation-and-deployment/azure-deployment/app-service-using-arm-template/app-service-editor.png)
-
-11. Copy your Web App URL, and then update the following xml node `InternalAppReportUrl` in the config.xml file under `wwwroot/IDP/UMS/Configuration/boldreports/config.xml`.
-
-    The URL must be, **`InternalAppReportUrl`- `{web App URL}/reporting`**
-    ![IDP Config](/static/assets/on-premise/images/installation-and-deployment/azure-deployment/app-service-using-arm-template/idp-config.png)
-
-12. Copy your Web App URL, and then update the following xml node `InternalAppDataServiceUrl` and `InternalAppIdpUrl` in the config.xml file under `wwwroot/Report Server/Configuration/config.xml`.
-
-    The URL must be, **`InternalAppDataServiceUrl` – `{web App URL}/reporting/reportservice`**
-
-    **`InternalAppIdpUrl` – `{web App URL}/`**
-   ![Report Server Config](/static/assets/on-premise/images/installation-and-deployment/azure-deployment/app-service-using-arm-template/report-server-config.png)
 
 Now, stop and start your Web App, and then browse it.
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: DEV, TEST and PROD Environments – App Service | Bold Reports
-description: Learn the recommended Azure App service configuration to install the Bold Reprots application in test, development, and production environments for embedding use.
+description: Learn the recommended Azure App service configuration to install the Bold Reports application in test, development, and production environments for embedding use.
 platform: bold-reports
 documentation: ug
 ---
