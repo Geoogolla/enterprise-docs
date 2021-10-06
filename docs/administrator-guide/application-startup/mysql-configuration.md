@@ -35,7 +35,7 @@ You can connect to the existing MySQL Server instance by following the below ste
 
 ## MySQL Database Configuration for Bold Reports Server Sites
 
-This configuration stores the reports, users and their access permissions in MySQL Server Database.
+This configuration stores the reports, users, and their access permissions in MySQL Server Database.
 
 You can connect to the existing MySQL Server instance by following the below steps.
 
