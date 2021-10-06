@@ -8,7 +8,7 @@ documentation: ug
 
 # MySQL Configuration
 
-Starting with the version v3.2.22, Bold Reports introduced MySQL database support for storing the user identities and report details.
+Starting with the version v2.4.19, Bold Reports introduced MySQL database support for storing the user identities and report details.
 
 ## MySQL Database Configuration for Bold ID
 
