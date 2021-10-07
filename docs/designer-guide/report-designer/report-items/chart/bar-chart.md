@@ -78,7 +78,7 @@ To configure data into a bar chart, follow the steps:
 
 7. **Drag and Drop Dimension Element**:
 
-   Select and drag the dimension element from the `Dimensions` section to measure against any of the selected numeric column(s) in `Y Value(s)` section, and drop it into the `Column(s)` section.
+   Select and drag the dimension element from the `Dimensions` section to measure against any of the selected numeric column(s) in `Y Value(s)` section, and drop it into the `Column` section.
 
    ![Add dimension field](/static/assets/on-premise/images/report-designer/report-items/chart/bar-chart/add-field-to-column-section.png)
 
@@ -95,6 +95,10 @@ To configure data into a bar chart, follow the steps:
    Now, the report item design will look like below.
 
    ![Preview of row value grouping ](/static/assets/on-premise/images/report-designer/report-items/chart/bar-chart/row-field-design-preview.png)
+
+9. **Formatting Column and Row(s) sections**:
+
+   You can also [Filter](./../../../compose-report/filter-data/), [Sort](./../../../compose-report/sort-data/), or [Group](./../../../compose-report/group-data/) the Column or Row(s) sections using expressions.
 
 ## Format bar chart
 

@@ -93,7 +93,7 @@ Now, the label in `Y-Value` section for the respective field will be displayed w
 ![Aggregate settings icon](/static/assets/on-premise/images/report-designer/report-items/chart/bubble-chart/expression-indication.png)
 
 **Drag and Drop Dimension Element**:
-   Select and drag the dimension element from the `Dimensions` section to measure against any of the selected numeric column(s) in `Y Value(s)` section, and drop into the `Column(s)` section.  
+   Select and drag the dimension element from the `Dimensions` section to measure against any of the selected numeric column(s) in `Y Value(s)` section, and drop into the `Column` section.  
    ![Add dimension field](/static/assets/on-premise/images/report-designer/report-items/chart/bubble-chart/add-field-to-column-section.png)
 
 **Grouping**:

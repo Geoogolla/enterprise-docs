@@ -25,7 +25,7 @@ Now, the smooth line chart will be rendered in the design area and the chart pro
 To present data in the chart, create a dataset and bind data to the chart data region. In this designing section, the following json data is used for dataset creation.
 
 ```json
-{
+[
 {  
    points: [
       { Month: 'Jan', Temperature: -1 }, { Month: 'Feb', Temperature: -1 }, { Month: 'Mar', Temperature: 2 },
@@ -50,7 +50,7 @@ To present data in the chart, create a dataset and bind data to the chart data r
       { Month: 'Oct', Temperature: 20 }, { Month: 'Nov', Temperature: 14 }, { Month: 'Dec', Temperature: 8 }],
    Country: 'France'
 }
-}
+]
 ```
 
 > Refer to the [Create Data](./../../../manage-data/dataset/create-an-embedded-dataset/#create-an-embedded-dataset) section for more information. Here, we are going to create a dataset using [JSON inline data](./../../../manage-data/data-connectors/json-data-source/#inline-data) to design the report.
@@ -97,7 +97,7 @@ To configure data into a smooth line chart, follow these steps:
 
 7. **Drag and Drop Dimension Element**:
 
-   Select and drag the dimension element from the `Dimensions` section to measure against any of the selected numeric column(s) in the `Y Value(s)` section, and drop it into the `Column(s)` section.
+   Select and drag the dimension element from the `Dimensions` section to measure against any of the selected numeric column(s) in the `Y Value(s)` section, and drop it into the `Column` section.
 
    ![Add dimension field](/static/assets/on-premise/images/report-designer/report-items/chart/smooth-line-chart/add-field-to-column-section.png)
 
@@ -116,7 +116,7 @@ To configure data into a smooth line chart, follow these steps:
 
 9. **Formatting Column and Row(s) sections**:
 
-   You can also [Filter](./../../../compose-report/filter-data/), [Sort](./../../../compose-report/sort-data/), or [Group](./../../../compose-report/group-data/) the column or Row(s) sections using expressions.
+   You can also [Filter](./../../../compose-report/filter-data/), [Sort](./../../../compose-report/sort-data/), or [Group](./../../../compose-report/group-data/) the Column or Row(s) sections using expressions.
 
    For example, here the `Month` field is sorted using `=Month(cdate("1-" & Fields!Month.Value))` expression.
 
