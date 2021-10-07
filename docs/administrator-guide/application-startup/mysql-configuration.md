@@ -16,7 +16,7 @@ This configuration stores the user identities and site details in MySQL Server D
 
 You can connect to the existing MySQL Server instance by following the below steps.
 
-1. Select the server type as `MySQL` and provide the name of the server.
+1. Select the server type as `MySQL` and provide the `Server name` and a `Port number`.
 
 2. Provide the Username and password of the server to be connected.
 
@@ -39,7 +39,7 @@ This configuration stores the reports, users, and their access permissions in My
 
 You can connect to the existing MySQL Server instance by following the below steps.
 
-1. Select the server type as `MySQL` and provide the name of the server.
+1. Select the server type as `MySQL` and provide the `Server name` and a `Port number`.
 
 2. Provide the Username and password of the server to be connected.
 
