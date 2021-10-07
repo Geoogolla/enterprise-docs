@@ -63,8 +63,6 @@ This section explains how to create the Bold Reports Report Server into Azure cl
 
    Scale out: <https://docs.microsoft.com/en-us/azure/monitoring-and-diagnostics/insights-how-to-scale>
 
-Now, stop and start your Web App, and then browse it.
-
 ## Configure a new Bold Reports
 
 Configure the Bold Reports Multi-tenant Azure App Service by following these steps:

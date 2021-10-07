@@ -6,10 +6,9 @@
         "Azure App Service":{
 	    "Prerequisites":"prerequisites.md",
 	    "Recommendations":"recommendations.md",
-	    "Using ARM template":{	
-	    "Client libraries":"client-libraries.md"
-		},
-            "Upgrade":"upgrade.md"
+	    "Using ARM template":"using-arm-template.md",
+	    "Client libraries":"client-libraries.md",
+        "Upgrade":"upgrade.md"
 	},
         "Deploy in Linux":{
             "Prerequisites":"prerequisites.md",
