@@ -312,6 +312,7 @@
                 "Chart":{
 					"Bar": "bar-chart.md",
                     "Column" : "column-chart.md",
+					"doughnut" : "doughnut-chart.md",
 					"Stacked Bar" : "stacked-bar-chart.md",
 					"Stacked Column" : "stacked-column-chart.md",
 					"Stacked Bar 100%" : "stacked-bar-100-chart.md",
