@@ -61,7 +61,7 @@ To configure data into column chart follow the steps:
    You can set the aggregation type by which you can compute the selected column.
    ![Aggregate menu list](/static/assets/on-premise/images/report-designer/report-items/chart/aggregation-settings-menu.png)
 7. **Drag and Drop Dimension Element**:
-   Select and drag the dimension element from the `Dimensions` section to measure against any of the selected numeric column(s) in `Y Value(s)` section, and drop into the `Column(s)` section.  
+   Select and drag the dimension element from the `Dimensions` section to measure against any of the selected numeric column(s) in `Y Value(s)` section, and drop into the `Column` section.  
    ![Add dimension field](/static/assets/on-premise/images/report-designer/report-items/chart/column-chart/add-field-to-column-section.png)
    Now, the report item design will look like below:
    ![Preview after adding dimension field](/static/assets/on-premise/images/report-designer/report-items/chart/radar-chart/column-field-design-preview.png)

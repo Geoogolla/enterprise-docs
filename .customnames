@@ -60,3 +60,7 @@ report
 bold
 in
 phantomjs
+100
+stacked
+column
+chart
