@@ -79,7 +79,7 @@ Now, drag and drop `Sales` field from `Measures` section and drop it in the `Y V
 
 ![Matrix simple design](/static/assets/on-premise/images/report-designer/report-items/chart/nested-data-region/add-y-value.png)
 
-Then, drag and drop `SubCat` field from the `Dimensions` section to measure against any of the selected numeric column(s) in `Y Value(s)` section, and drop into the `Column(s)` section.
+Then, drag and drop `SubCat` field from the `Dimensions` section to measure against any of the selected numeric column(s) in `Y Value(s)` section, and drop into the `Column` section.
 
 ![Matrix simple design](/static/assets/on-premise/images/report-designer/report-items/chart/nested-data-region/add-column-field.png)
 
