@@ -205,6 +205,10 @@ A document map is a navigational feature that displays a separate side pane with
 
 You can set the static or dynamic text as value for document map property. To set and reset dynamic text, refer [Set Expression](./../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../compose-report/properties-panel/#reset-expression) section.
 
+<span style="font-weight:bold">Bookmark</span>
+
+Bookmark links allows the users to navigate to different parts of a SSRS report. You can add bookmarks to each textbox, image, table or chart or to the unique group values displayed in a tablix which can direct the users to specified locations in the report. The value of bookmark property can be your own strings or an expression. Refer [Bookmark](./../../compose-report/bookmark/) section to configure bookmark in the report design.
+
 #### Localization
 
 <span style="font-weight:bold">Direction</span>
