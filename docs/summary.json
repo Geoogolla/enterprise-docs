@@ -80,7 +80,15 @@
         }
     },
     "Manage Tenants": {
-        "Create Site": "create-site.md"
+        "Create Site": "create-site.md",
+        "Site Administrator": {
+            "Authentication": {
+                "Default Authentication": "default-authentication",
+                "OAuth 2.0 Support": "oauth-2.0-support",
+                "OpenID Support": "openid-settings",
+                "JSON Web Token": "json-web-token"
+            }
+        }
     },
     "User Profile": "user-profile.md",
     "Rebranding": "custom-rebranding.md",
