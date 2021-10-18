@@ -81,7 +81,7 @@
     },
     "Manage Tenants": {
         "Create Site": "create-site.md",
-        "Site Administrator": {
+        "Site Administration": {
             "Authentication": {
                 "Default Authentication": "default-authentication",
                 "OAuth 2.0 Support": "oauth-2.0-support",
