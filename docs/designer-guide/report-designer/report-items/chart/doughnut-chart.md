@@ -22,279 +22,13 @@ Now, the doughnut chart will be rendered in the design area and the chart proper
 
 ## Create data
 
-To present data in the chart, create a dataset and bind data to the chart data region. In this designing section, the following json data is used for dataset creation.
+To present data in the chart, create a dataset and bind data to the chart data region. Here, we are going to create a dataset using [Json Data File](./../../../manage-data/data-connectors/json-data-source/#load-from-disk) to design the report. You can download sample data from the following [link](https://github.com/boldreports/resources/tree/master/docs/report-designer/expense-analysis.json).
 
-```json
-[
-   {"Category":"Home","Amount":437},{"Category":"Home","Amount":242},{"Category":"Home","Amount":458},{"Category":"Home","Amount":181},
-   {"Category":"Home","Amount":1338},{"Category":"Home","Amount":288},{"Category":"DailyLiving","Amount":238},
-   {"Category":"DailyLiving","Amount":95},{"Category":"DailyLiving","Amount":154},{"Category":"Dues/subscriptions","Amount":490},
-   {"Category":"Dues/subscriptions","Amount":15},{"Category":"Entertainment","Amount":9},{"Category":"Entertainment","Amount":1517},
-   {"Category":"Financialobligations","Amount":208},{"Category":"Financialobligations","Amount":256},
-   {"Category":"Health","Amount":317},{"Category":"Health","Amount":421},{"Category":"Personal","Amount":325},
-   {"Category":"Personal","Amount":360},{"Category":"Personal","Amount":169},{"Category":"Transportation","Amount":339},
-   {"Category":"Transportation","Amount":60},{"Category":"Transportation","Amount":39},{"Category":"Income","Amount":16322},
-   {"Category":"Income","Amount":657},{"Category":"Income","Amount":4309},{"Category":"Home","Amount":242},
-   {"Category":"Home","Amount":458},{"Category":"Home","Amount":181},{"Category":"Home","Amount":1338},
-   {"Category":"Home","Amount":288},{"Category":"DailyLiving","Amount":238},{"Category":"DailyLiving","Amount":95},
-   {"Category":"DailyLiving","Amount":154},{"Category":"Dues/subscriptions","Amount":490},
-   {"Category":"Dues/subscriptions","Amount":15},{"Category":"Entertainment","Amount":9},{"Category":"Entertainment","Amount":1517},
-   {"Category":"Financialobligations","Amount":208},{"Category":"Financialobligations","Amount":256},
-   {"Category":"Health","Amount":317},{"Category":"Health","Amount":421},{"Category":"Personal","Amount":325},
-   {"Category":"Personal","Amount":360},{"Category":"Personal","Amount":169},{"Category":"Transportation","Amount":339},
-   {"Category":"Transportation","Amount":60},{"Category":"Transportation","Amount":39},{"Category":"Home","Amount":242},
-   {"Category":"Home","Amount":458},{"Category":"Home","Amount":181},{"Category":"Home","Amount":1338},
-   {"Category":"Home","Amount":288},{"Category":"DailyLiving","Amount":238},{"Category":"DailyLiving","Amount":95},
-   {"Category":"DailyLiving","Amount":154},{"Category":"Dues/subscriptions","Amount":490},
-   {"Category":"Dues/subscriptions","Amount":15},{"Category":"Entertainment","Amount":9},{"Category":"Entertainment","Amount":1517},
-   {"Category":"Financialobligations","Amount":208},{"Category":"Financialobligations","Amount":256},
-   {"Category":"Health","Amount":421},{"Category":"Health","Amount":325},{"Category":"Personal","Amount":430},
-   {"Category":"Personal","Amount":169},{"Category":"Personal","Amount":378},{"Category":"Transportation","Amount":243},
-   {"Category":"Transportation","Amount":87},{"Category":"Transportation","Amount":20},{"Category":"Income","Amount":18934},
-   {"Category":"Income","Amount":561},{"Category":"Income","Amount":4831},{"Category":"Home","Amount":123},
-   {"Category":"Home","Amount":563},{"Category":"Home","Amount":133},{"Category":"Home","Amount":1860},
-   {"Category":"Home","Amount":250},{"Category":"DailyLiving","Amount":290},{"Category":"DailyLiving","Amount":71},
-   {"Category":"DailyLiving","Amount":196},{"Category":"Dues/subscriptions","Amount":394},
-   {"Category":"Dues/subscriptions","Amount":19,{"Category":"Entertainment","Amount":7},{"Category":"Entertainment","Amount":1040},
-   {"Category":"Financialobligations","Amount":312},{"Category":"Financialobligations","Amount":208},
-   {"Category":"Health","Amount":421},{"Category":"Health","Amount":325},{"Category":"Personal","Amount":430},
-   {"Category":"Personal","Amount":169},{"Category":"Personal","Amount":378},{"Category":"Transportation","Amount":243},
-   {"Category":"Transportation","Amount":87},{"Category":"Transportation","Amount":20},{"Category":"Home","Amount":123},
-   {"Category":"Home","Amount":563},{"Category":"Home","Amount":133},{"Category":"Home","Amount":1860},
-   {"Category":"Home","Amount":250},{"Category":"DailyLiving","Amount":290},{"Category":"DailyLiving","Amount":71},
-   {"Category":"DailyLiving","Amount":196},{"Category":"Dues/subscriptions","Amount":394},
-   {"Category":"Dues/subscriptions","Amount":19},{"Category":"Entertainment","Amount":7},{"Category":"Entertainment","Amount":1040},
-   {"Category":"Financialobligations","Amount":312},{"Category":"Financialobligations","Amount":208},
-   {"Category":"Health","Amount":421},{"Category":"Health","Amount":325},{"Category":"Personal","Amount":430},
-   {"Category":"Personal","Amount":169},{"Category":"Personal","Amount":378},{"Category":"Transportation","Amount":243},
-   {"Category":"Transportation","Amount":87},{"Category":"Transportation","Amount":20},{"Category":"Home","Amount":123},
-   {"Category":"Home","Amount":467},{"Category":"Home","Amount":186},{"Category":"Home","Amount":1383},
-   {"Category":"Home","Amount":292},{"Category":"DailyLiving","Amount":242},{"Category":"DailyLiving","Amount":97},
-   {"Category":"DailyLiving","Amount":157},{"Category":"Dues/subscriptions","Amount":499},
-   {"Category":"Dues/subscriptions","Amount":16},{"Category":"Entertainment","Amount":5},{"Category":"Entertainment","Amount":1562},
-   {"Category":"Financialobligations","Amount":217},{"Category":"Financialobligations","Amount":260},
-   {"Category":"Health","Amount":325},{"Category":"Health","Amount":430},{"Category":"Personal","Amount":334},
-   {"Category":"Personal","Amount":378},{"Category":"Personal","Amount":187},{"Category":"Transportation","Amount":348},
-   {"Category":"Transportation","Amount":63},{"Category":"Transportation","Amount":41},{"Category":"Income","Amount":16546},
-   {"Category":"Income","Amount":666},{"Category":"Income","Amount":4354},{"Category":"Home","Amount":253},
-   {"Category":"Home","Amount":467},{"Category":"Home","Amount":186},{"Category":"Home","Amount":1383},
-   {"Category":"Home","Amount":292},{"Category":"DailyLiving","Amount":242},{"Category":"DailyLiving","Amount":97},
-   {"Category":"DailyLiving","Amount":157},{"Category":"Dues/subscriptions","Amount":499},
-   {"Category":"Dues/subscriptions","Amount":16},{"Category":"Entertainment","Amount":5},{"Category":"Entertainment","Amount":1562},
-   {"Category":"Financialobligations","Amount":217},{"Category":"Financialobligations","Amount":260},
-   {"Category":"Health","Amount":325},{"Category":"Health","Amount":430},{"Category":"Personal","Amount":334},
-   {"Category":"Personal","Amount":378},{"Category":"Personal","Amount":187},{"Category":"Transportation","Amount":348},
-   {"Category":"Transportation","Amount":63},{"Category":"Transportation","Amount":41},{"Category":"Home","Amount":253},
-   {"Category":"Home","Amount":467},{"Category":"Home","Amount":186},{"Category":"Home","Amount":1383},
-   {"Category":"Home","Amount":292},{"Category":"DailyLiving","Amount":242},{"Category":"DailyLiving","Amount":97},
-   {"Category":"DailyLiving","Amount":157},{"Category":"Dues/subscriptions","Amount":499},
-   {"Category":"Dues/subscriptions","Amount":16},{"Category":"Entertainment","Amount":5},{"Category":"Entertainment","Amount":1562},
-   {"Category":"Financialobligations","Amount":217},{"Category":"Financialobligations","Amount":260},
-   {"Category":"Health","Amount":325},{"Category":"Health","Amount":430},{"Category":"Personal","Amount":439},
-   {"Category":"Personal","Amount":187},{"Category":"Personal","Amount":396},{"Category":"Transportation","Amount":252},
-   {"Category":"Transportation","Amount":89},{"Category":"Transportation","Amount":22},{"Category":"Income","Amount":19158},
-   {"Category":"Income","Amount":570},{"Category":"Income","Amount":4876},{"Category":"Home","Amount":134},
-   {"Category":"Home","Amount":572},{"Category":"Home","Amount":138},{"Category":"Home","Amount":1905},
-   {"Category":"Home","Amount":254},{"Category":"DailyLiving","Amount":295},{"Category":"DailyLiving","Amount":73},
-   {"Category":"DailyLiving","Amount":199},{"Category":"Dues/subscriptions","Amount":403},
-   {"Category":"Dues/subscriptions","Amount":12},{"Category":"Entertainment","Amount":7},{"Category":"Entertainment","Amount":1085},
-   {"Category":"Financialobligations","Amount":321},{"Category":"Financialobligations","Amount":212},
-   {"Category":"Health","Amount":430},{"Category":"Health","Amount":334},{"Category":"Personal","Amount":439},
-   {"Category":"Personal","Amount":187},{"Category":"Personal","Amount":396},{"Category":"Transportation","Amount":252},
-   {"Category":"Transportation","Amount":89},{"Category":"Transportation","Amount":22},{"Category":"Home","Amount":134},
-   {"Category":"Home","Amount":572},{"Category":"Home","Amount":138},{"Category":"Home","Amount":1905},
-   {"Category":"Home","Amount":254},{"Category":"DailyLiving","Amount":295},{"Category":"DailyLiving","Amount":73},
-   {"Category":"DailyLiving","Amount":199},{"Category":"Dues/subscriptions","Amount":403},
-   {"Category":"Dues/subscriptions","Amount":12},{"Category":"Entertainment","Amount":7},{"Category":"Entertainment","Amount":1085},
-   {"Category":"Financialobligations","Amount":321},{"Category":"Financialobligations","Amount":212},
-   {"Category":"Health","Amount":430},{"Category":"Health","Amount":334},{"Category":"Personal","Amount":439},
-   {"Category":"Personal","Amount":187},{"Category":"Personal","Amount":396},{"Category":"Transportation","Amount":252},
-   {"Category":"Transportation","Amount":89},{"Category":"Transportation","Amount":22},{"Category":"Home","Amount":134},
-   {"Category":"Home","Amount":572},{"Category":"Home","Amount":138},{"Category":"Home","Amount":1905},
-   {"Category":"Home","Amount":254},{"Category":"DailyLiving","Amount":295},{"Category":"DailyLiving","Amount":73},
-   {"Category":"DailyLiving","Amount":161},{"Category":"Dues/subscriptions","Amount":308},
-   {"Category":"Dues/subscriptions","Amount":16},{"Category":"Entertainment","Amount":5},
-   {"Category":"Entertainment","Amount":1607},{"Category":"Financialobligations","Amount":225},
-   {"Category":"Financialobligations","Amount":265},{"Category":"Health","Amount":334},{"Category":"Health","Amount":439},
-   {"Category":"Personal","Amount":343},{"Category":"Personal","Amount":396},{"Category":"Personal","Amount":205},{"Category":"Transportation","Amount":357},{"Category":"Transportation","Amount":65},{"Category":"Transportation","Amount":43},
-   {"Category":"Income","Amount":16770},{"Category":"Income","Amount":675},{"Category":"Income","Amount":4399},
-   {"Category":"Home","Amount":265},{"Category":"Home","Amount":476},{"Category":"Home","Amount":190},
-   {"Category":"Home","Amount":1428},{"Category":"Home","Amount":296},{"Category":"DailyLiving","Amount":247},
-   {"Category":"DailyLiving","Amount":99},{"Category":"DailyLiving","Amount":161},{"Category":"Dues/subscriptions","Amount":308},
-   {"Category":"Dues/subscriptions","Amount":16},{"Category":"Entertainment","Amount":5},{"Category":"Entertainment","Amount":1607},
-   {"Category":"Financialobligations","Amount":225},{"Category":"Financialobligations","Amount":265},
-   {"Category":"Health","Amount":334},{"Category":"Health","Amount":439},{"Category":"Personal","Amount":343},
-   {"Category":"Personal","Amount":396},{"Category":"Personal","Amount":205},{"Category":"Transportation","Amount":357},
-   {"Category":"Transportation","Amount":65},{"Category":"Transportation","Amount":43},{"Category":"Home","Amount":265},
-   {"Category":"Home","Amount":476},{"Category":"Home","Amount":190},{"Category":"Home","Amount":1428},
-   {"Category":"Home","Amount":296},{"Category":"DailyLiving","Amount":247},{"Category":"DailyLiving","Amount":99},
-   {"Category":"DailyLiving","Amount":161},{"Category":"Dues/subscriptions","Amount":308},
-   {"Category":"Dues/subscriptions","Amount":16},{"Category":"Entertainment","Amount":5},{"Category":"Entertainment","Amount":1607},
-   {"Category":"Financialobligations","Amount":225},{"Category":"Financialobligations","Amount":265},
-   {"Category":"Health","Amount":334},{"Category":"Health","Amount":439},{"Category":"Personal","Amount":343},
-   {"Category":"Personal","Amount":396},{"Category":"Personal","Amount":205},{"Category":"Transportation","Amount":357},
-   {"Category":"Transportation","Amount":65},{"Category":"Transportation","Amount":43},{"Category":"Income","Amount":19382},
-   {"Category":"Income","Amount":579},{"Category":"Income","Amount":4921},{"Category":"Home","Amount":145},
-   {"Category":"Home","Amount":581},{"Category":"Home","Amount":142},{"Category":"Home","Amount":1950},
-   {"Category":"Home","Amount":257},{"Category":"DailyLiving","Amount":299},{"Category":"DailyLiving","Amount":75},
-   {"Category":"DailyLiving","Amount":123},{"Category":"Dues/subscriptions","Amount":412},
-   {"Category":"Dues/subscriptions","Amount":12},{"Category":"Entertainment","Amount":8},{"Category":"Entertainment","Amount":1129},
-   {"Category":"Financialobligations","Amount":330},{"Category":"Financialobligations","Amount":217},
-   {"Category":"Health","Amount":439},{"Category":"Health","Amount":343},{"Category":"Personal","Amount":448},
-   {"Category":"Personal","Amount":205},{"Category":"Personal","Amount":414},{"Category":"Transportation","Amount":261},{"Category":"Transportation","Amount":91},{"Category":"Transportation","Amount":24},{"Category":"Home","Amount":145},
-   {"Category":"Home","Amount":581},{"Category":"Home","Amount":142},{"Category":"Home","Amount":1950},
-   {"Category":"Home","Amount":257},{"Category":"DailyLiving","Amount":299},{"Category":"DailyLiving","Amount":75},
-   {"Category":"DailyLiving","Amount":123},{"Category":"Dues/subscriptions","Amount":412},
-   {"Category":"Dues/subscriptions","Amount":12},{"Category":"Entertainment","Amount":8},{"Category":"Entertainment","Amount":1129},
-   {"Category":"Financialobligations","Amount":330},{"Category":"Financialobligations","Amount":217},
-   {"Category":"Health","Amount":439},{"Category":"Health","Amount":343},{"Category":"Personal","Amount":448},
-   {"Category":"Personal","Amount":205},{"Category":"Personal","Amount":414},{"Category":"Transportation","Amount":261},
-   {"Category":"Transportation","Amount":91},{"Category":"Transportation","Amount":24},{"Category":"Home","Amount":145},
-   {"Category":"Home","Amount":581},{"Category":"Home","Amount":142},{"Category":"Home","Amount":1950},
-   {"Category":"Home","Amount":257},{"Category":"DailyLiving","Amount":299},{"Category":"DailyLiving","Amount":75},
-   {"Category":"DailyLiving","Amount":123},{"Category":"Dues/subscriptions","Amount":412},
-   {"Category":"Dues/subscriptions","Amount":12},{"Category":"Entertainment","Amount":8},{"Category":"Entertainment","Amount":1129},
-   {"Category":"Financialobligations","Amount":330},{"Category":"Financialobligations","Amount":269},
-   {"Category":"Health","Amount":343},{"Category":"Health","Amount":448},{"Category":"Personal","Amount":352},
-   {"Category":"Personal","Amount":414},{"Category":"Personal","Amount":223},{"Category":"Transportation","Amount":366},
-   {"Category":"Transportation","Amount":67},{"Category":"Transportation","Amount":45},{"Category":"Income","Amount":16995},
-   {"Category":"Income","Amount":684},{"Category":"Income","Amount":4443},{"Category":"Home","Amount":276},
-   {"Category":"Home","Amount":485},{"Category":"Home","Amount":195},{"Category":"Home","Amount":1472},
-   {"Category":"Home","Amount":299},{"Category":"DailyLiving","Amount":251},{"Category":"DailyLiving","Amount":52},
-   {"Category":"DailyLiving","Amount":165},{"Category":"Dues/subscriptions","Amount":317},
-   {"Category":"Dues/subscriptions","Amount":16},{"Category":"Entertainment","Amount":5},{"Category":"Entertainment","Amount":1652},
-   {"Category":"Financialobligations","Amount":234},{"Category":"Financialobligations","Amount":269},
-   {"Category":"Health","Amount":343},{"Category":"Health","Amount":448},{"Category":"Personal","Amount":352},
-   {"Category":"Personal","Amount":414},{"Category":"Personal","Amount":223},{"Category":"Transportation","Amount":366},
-   {"Category":"Transportation","Amount":67},{"Category":"Transportation","Amount":45},{"Category":"Home","Amount":276},
-   {"Category":"Home","Amount":485},{"Category":"Home","Amount":195},{"Category":"Home","Amount":1472},
-   {"Category":"Home","Amount":299},{"Category":"DailyLiving","Amount":251},{"Category":"DailyLiving","Amount":52},
-   {"Category":"DailyLiving","Amount":165},{"Category":"Dues/subscriptions","Amount":317},
-   {"Category":"Dues/subscriptions","Amount":16},{"Category":"Entertainment","Amount":5},{"Category":"Entertainment","Amount":1652},
-   {"Category":"Financialobligations","Amount":234},{"Category":"Financialobligations","Amount":269},
-   {"Category":"Health","Amount":343},{"Category":"Health","Amount":448},{"Category":"Personal","Amount":352},
-   {"Category":"Personal","Amount":414},{"Category":"Personal","Amount":223},{"Category":"Transportation","Amount":366},
-   {"Category":"Transportation","Amount":67},{"Category":"Transportation","Amount":45},{"Category":"Home","Amount":276},
-   {"Category":"Home","Amount":485},{"Category":"Home","Amount":195},{"Category":"Home","Amount":1472},
-   {"Category":"Home","Amount":299},{"Category":"DailyLiving","Amount":251},{"Category":"DailyLiving","Amount":78},
-   {"Category":"DailyLiving","Amount":126},{"Category":"Dues/subscriptions","Amount":421},
-   {"Category":"Dues/subscriptions","Amount":13},{"Category":"Entertainment","Amount":8},{"Category":"Entertainment","Amount":1174},
-   {"Category":"Financialobligations","Amount":339},{"Category":"Financialobligations","Amount":221},
-   {"Category":"Health","Amount":448},{"Category":"Health","Amount":352},{"Category":"Personal","Amount":457},
-   {"Category":"Personal","Amount":223},{"Category":"Personal","Amount":432},{"Category":"Transportation","Amount":270},
-   {"Category":"Transportation","Amount":93},{"Category":"Transportation","Amount":25},{"Category":"Income","Amount":19607},
-   {"Category":"Income","Amount":588},{"Category":"Income","Amount":4966},{"Category":"Home","Amount":157},
-   {"Category":"Home","Amount":590},{"Category":"Home","Amount":147},{"Category":"Home","Amount":1995},
-   {"Category":"Home","Amount":261},{"Category":"DailyLiving","Amount":204},{"Category":"DailyLiving","Amount":78},
-   {"Category":"DailyLiving","Amount":126},{"Category":"Dues/subscriptions","Amount":421},
-   {"Category":"Dues/subscriptions","Amount":13},{"Category":"Entertainment","Amount":8},{"Category":"Entertainment","Amount":1174},
-   {"Category":"Financialobligations","Amount":339},{"Category":"Financialobligations","Amount":221},
-   {"Category":"Health","Amount":448},{"Category":"Health","Amount":352},{"Category":"Personal","Amount":457},
-   {"Category":"Personal","Amount":223},{"Category":"Personal","Amount":432},{"Category":"Transportation","Amount":270},
-   {"Category":"Transportation","Amount":93},{"Category":"Transportation","Amount":25},{"Category":"Home","Amount":157},
-   {"Category":"Home","Amount":590},{"Category":"Home","Amount":147},{"Category":"Home","Amount":1995},
-   {"Category":"Home","Amount":261},{"Category":"DailyLiving","Amount":204},{"Category":"DailyLiving","Amount":78},
-   {"Category":"DailyLiving","Amount":126},{"Category":"Dues/subscriptions","Amount":421},
-   {"Category":"Dues/subscriptions","Amount":13},{"Category":"Entertainment","Amount":8},{"Category":"Entertainment","Amount":1174},
-   {"Category":"Financialobligations","Amount":339},{"Category":"Financialobligations","Amount":221},
-   {"Category":"Health","Amount":448},{"Category":"Health","Amount":352},{"Category":"Personal","Amount":457},
-   {"Category":"Personal","Amount":223},{"Category":"Personal","Amount":432},{"Category":"Transportation","Amount":270},
-   {"Category":"Transportation","Amount":93},{"Category":"Transportation","Amount":46},{"Category":"Income","Amount":17219},
-   {"Category":"Income","Amount":693},{"Category":"Income","Amount":4488},{"Category":"Home","Amount":287},
-   {"Category":"Home","Amount":494},{"Category":"Home","Amount":199},{"Category":"Home","Amount":1517},
-   {"Category":"Home","Amount":223},{"Category":"DailyLiving","Amount":256},{"Category":"DailyLiving","Amount":54},
-   {"Category":"DailyLiving","Amount":168},{"Category":"Dues/subscriptions","Amount":325},
-   {"Category":"Dues/subscriptions","Amount":17},{"Category":"Entertainment","Amount":5},
-   {"Category":"Entertainment","Amount":1697},{"Category":"Financialobligations","Amount":243},
-   {"Category":"Financialobligations","Amount":274},{"Category":"Health","Amount":352},{"Category":"Health","Amount":457},
-   {"Category":"Personal","Amount":361},{"Category":"Personal","Amount":432},{"Category":"Personal","Amount":241},
-   {"Category":"Transportation","Amount":375},{"Category":"Transportation","Amount":69},{"Category":"Transportation","Amount":46},
-   {"Category":"Home","Amount":287},{"Category":"Home","Amount":494},{"Category":"Home","Amount":199},
-   {"Category":"Home","Amount":1517},{"Category":"Home","Amount":223},{"Category":"DailyLiving","Amount":256},
-   {"Category":"DailyLiving","Amount":54},{"Category":"DailyLiving","Amount":168},{"Category":"Dues/subscriptions","Amount":325},
-   {"Category":"Dues/subscriptions","Amount":17},{"Category":"Entertainment","Amount":5},{"Category":"Entertainment","Amount":1697},
-   {"Category":"Financialobligations","Amount":243},{"Category":"Financialobligations","Amount":274},
-   {"Category":"Health","Amount":352},{"Category":"Health","Amount":457},{"Category":"Personal","Amount":361},
-   {"Category":"Personal","Amount":432},{"Category":"Personal","Amount":241},{"Category":"Transportation","Amount":375},
-   {"Category":"Transportation","Amount":69},{"Category":"Transportation","Amount":46},{"Category":"Home","Amount":287},
-   {"Category":"Home","Amount":494},{"Category":"Home","Amount":199},{"Category":"Home","Amount":1517},
-   {"Category":"Home","Amount":223},{"Category":"DailyLiving","Amount":256},{"Category":"DailyLiving","Amount":54},
-   {"Category":"DailyLiving","Amount":168},{"Category":"Dues/subscriptions","Amount":325},
-   {"Category":"Dues/subscriptions","Amount":17},{"Category":"Entertainment","Amount":5},{"Category":"Entertainment","Amount":1697},
-   {"Category":"Financialobligations","Amount":348},{"Category":"Financialobligations","Amount":226},
-   {"Category":"Health","Amount":457},{"Category":"Health","Amount":361},{"Category":"Personal","Amount":466},
-   {"Category":"Personal","Amount":241},{"Category":"Personal","Amount":450},{"Category":"Transportation","Amount":279},
-   {"Category":"Transportation","Amount":96},{"Category":"Transportation","Amount":27},{"Category":"Income","Amount":19831},
-   {"Category":"Income","Amount":597},{"Category":"Income","Amount":4011},{"Category":"Home","Amount":168},
-   {"Category":"Home","Amount":599},{"Category":"Home","Amount":151},{"Category":"Home","Amount":1040},
-   {"Category":"Home","Amount":265},{"Category":"DailyLiving","Amount":208},{"Category":"DailyLiving","Amount":80},
-   {"Category":"DailyLiving","Amount":130},{"Category":"Dues/subscriptions","Amount":430},
-   {"Category":"Dues/subscriptions","Amount":13},{"Category":"Entertainment","Amount":8},{"Category":"Entertainment","Amount":1219},
-   {"Category":"Financialobligations","Amount":348},{"Category":"Financialobligations","Amount":226},
-   {"Category":"Health","Amount":457},{"Category":"Health","Amount":361},{"Category":"Personal","Amount":466},
-   {"Category":"Personal","Amount":241},{"Category":"Personal","Amount":450},{"Category":"Transportation","Amount":279},
-   {"Category":"Transportation","Amount":96},{"Category":"Transportation","Amount":27},{"Category":"Home","Amount":168},
-   {"Category":"Home","Amount":599},{"Category":"Home","Amount":151},{"Category":"Home","Amount":1040},
-   {"Category":"Home","Amount":265},{"Category":"DailyLiving","Amount":208},{"Category":"DailyLiving","Amount":80},
-   {"Category":"DailyLiving","Amount":130},{"Category":"Dues/subscriptions","Amount":430},
-   {"Category":"Dues/subscriptions","Amount":13},{"Category":"Entertainment","Amount":8},{"Category":"Entertainment","Amount":1219},
-   {"Category":"Financialobligations","Amount":348},{"Category":"Financialobligations","Amount":226},
-   {"Category":"Health","Amount":457},{"Category":"Health","Amount":361},{"Category":"Personal","Amount":466},
-   {"Category":"Personal","Amount":241},{"Category":"Personal","Amount":450},{"Category":"Transportation","Amount":279},
-   {"Category":"Transportation","Amount":96},{"Category":"Transportation","Amount":27},{"Category":"Home","Amount":168},
-   {"Category":"Home","Amount":599},{"Category":"Home","Amount":151},{"Category":"Home","Amount":1040},
-   {"Category":"Home","Amount":265},{"Category":"DailyLiving","Amount":260},{"Category":"DailyLiving","Amount":56},
-   {"Category":"DailyLiving","Amount":172},{"Category":"Dues/subscriptions","Amount":334},
-   {"Category":"Dues/subscriptions","Amount":17},{"Category":"Entertainment","Amount":6},{"Category":"Entertainment","Amount":1742},
-   {"Category":"Financialobligations","Amount":252},{"Category":"Financialobligations","Amount":278},
-   {"Category":"Health","Amount":361},{"Category":"Health","Amount":466},{"Category":"Personal","Amount":370},
-   {"Category":"Personal","Amount":450},{"Category":"Personal","Amount":259},{"Category":"Transportation","Amount":384},
-   {"Category":"Transportation","Amount":72},{"Category":"Transportation","Amount":48},{"Category":"Income","Amount":17443},
-   {"Category":"Income","Amount":502},{"Category":"Income","Amount":4533},{"Category":"Home","Amount":298},
-   {"Category":"Home","Amount":503},{"Category":"Home","Amount":104},{"Category":"Home","Amount":1562},
-   {"Category":"Home","Amount":226},{"Category":"DailyLiving","Amount":260},{"Category":"DailyLiving","Amount":56},
-   {"Category":"DailyLiving","Amount":172},{"Category":"Dues/subscriptions","Amount":334},
-   {"Category":"Dues/subscriptions","Amount":17},{"Category":"Entertainment","Amount":6},{"Category":"Entertainment","Amount":1742},
-   {"Category":"Financialobligations","Amount":252},{"Category":"Financialobligations","Amount":278},
-   {"Category":"Health","Amount":361},{"Category":"Health","Amount":466},{"Category":"Personal","Amount":370},
-   {"Category":"Personal","Amount":450},{"Category":"Personal","Amount":259},{"Category":"Transportation","Amount":384},
-   {"Category":"Transportation","Amount":72},{"Category":"Transportation","Amount":48},{"Category":"Home","Amount":298},
-   {"Category":"Home","Amount":503},{"Category":"Home","Amount":104},{"Category":"Home","Amount":1562},
-   {"Category":"Home","Amount":226},{"Category":"DailyLiving","Amount":260},{"Category":"DailyLiving","Amount":56},
-   {"Category":"DailyLiving","Amount":172},{"Category":"Dues/subscriptions","Amount":334},
-   {"Category":"Dues/subscriptions","Amount":17},{"Category":"Entertainment","Amount":6},{"Category":"Entertainment","Amount":1742},
-   {"Category":"Financialobligations","Amount":252},{"Category":"Financialobligations","Amount":278},
-   {"Category":"Health","Amount":361},{"Category":"Health","Amount":466},{"Category":"Personal","Amount":370},
-   {"Category":"Personal","Amount":450},{"Category":"Personal","Amount":468},{"Category":"Transportation","Amount":288},
-   {"Category":"Transportation","Amount":98},{"Category":"Transportation","Amount":29},{"Category":"Income","Amount":15055},
-   {"Category":"Income","Amount":606},{"Category":"Income","Amount":4055},{"Category":"Home","Amount":179},
-   {"Category":"Home","Amount":408},{"Category":"Home","Amount":156},{"Category":"Home","Amount":1085},
-   {"Category":"Home","Amount":268},{"Category":"DailyLiving","Amount":212},{"Category":"DailyLiving","Amount":82},
-   {"Category":"DailyLiving","Amount":133},{"Category":"Dues/subscriptions","Amount":439},
-   {"Category":"Dues/subscriptions","Amount":13},{"Category":"Entertainment","Amount":8},
-   {"Category":"Entertainment","Amount":1264},{"Category":"Financialobligations","Amount":357},
-   {"Category":"Financialobligations","Amount":230},{"Category":"Health","Amount":466},{"Category":"Health","Amount":370},
-   {"Category":"Personal","Amount":475},{"Category":"Personal","Amount":259},{"Category":"Personal","Amount":468},
-   {"Category":"Transportation","Amount":288},{"Category":"Transportation","Amount":98},{"Category":"Transportation","Amount":29},
-   {"Category":"Home","Amount":179},{"Category":"Home","Amount":408},{"Category":"Home","Amount":156},
-   {"Category":"Home","Amount":1085},{"Category":"Home","Amount":268},{"Category":"DailyLiving","Amount":212},
-   {"Category":"DailyLiving","Amount":82},{"Category":"DailyLiving","Amount":133},{"Category":"Dues/subscriptions","Amount":439},
-   {"Category":"Dues/subscriptions","Amount":13},{"Category":"Entertainment","Amount":8},{"Category":"Entertainment","Amount":1264},
-   {"Category":"Financialobligations","Amount":357},{"Category":"Financialobligations","Amount":230},
-   {"Category":"Health","Amount":466},{"Category":"Health","Amount":370},{"Category":"Personal","Amount":475},
-   {"Category":"Personal","Amount":259},{"Category":"Personal","Amount":468},{"Category":"Transportation","Amount":288},
-   {"Category":"Transportation","Amount":98},{"Category":"Transportation","Amount":29},{"Category":"Home","Amount":179},
-   {"Category":"Home","Amount":408},{"Category":"Home","Amount":156},{"Category":"Home","Amount":1085},
-   {"Category":"Home","Amount":268},{"Category":"DailyLiving","Amount":212},{"Category":"DailyLiving","Amount":82},
-   {"Category":"DailyLiving","Amount":133},{"Category":"Dues/subscriptions","Amount":439}
-   ]
-```
-
-> Refer to the [Create Data](./../../../manage-data/dataset/create-an-embedded-dataset/#create-an-embedded-dataset) section for more information. Here, we are going to create a dataset using [JSON inline data](./../../../manage-data/data-connectors/json-data-source/#inline-data) to design the report.
+> Refer to the [Create Data](./../../../manage-data/dataset/create-an-embedded-dataset/#create-an-embedded-dataset) section for more information.
 
 ## Assign data
 
-The **Doughnut chart** needs a minimum of one value element and one column element to showcase. The measure or expression field that you want to analyze can be dropped into the `Y Value(s)` section. The dimension for which you want to categorize the measure can be dropped into the `Column` section. To categorize based on a series, drop the respective dimension into the `Row(s)` section.
+The **Doughnut Chart** needs a minimum of one value element and one column element to showcase. The measure or expression field that you want to analyze can be dropped into the `Y Value(s)` section. The dimension for which you want to categorize the measure can be dropped into the `Column` section. To categorize based on a series, drop the respective dimension into the `Row(s)` section.
 
 To configure data into a doughnut chart, follow these steps:
 
@@ -308,7 +42,7 @@ To configure data into a doughnut chart, follow these steps:
 
    ![Choose the dataset for chart](/static/assets/on-premise/images/report-designer/report-items/chart/doughnut-chart/data-assign-drop-down.png)
 
-4. The numeric columns and numeric expressions are listed under the `Measures` section; other types of columns and dimension        expressions are listed under the `Dimensions` section.
+4. The numeric columns and numeric expressions are listed under the `Measures` section; other types of columns and dimension expressions are listed under the `Dimensions` section.
 
    ![Measures and dimensions](/static/assets/on-premise/images/report-designer/report-items/chart/doughnut-chart/measures-dimensions-category.png)
 
@@ -352,7 +86,7 @@ To configure data into a doughnut chart, follow these steps:
 
 ## Format Doughnut Chart
 
-You can format the doughnut chart for better illustration of the view that you require, through the settings available in the  `Properties` tab.
+You can format the doughnut chart for better illustration of the view that you require, through the settings available in the `Properties` tab.
 
 To format a doughnut chart, follow the below steps:
 
@@ -388,11 +122,11 @@ We can edit the selected series by clicking the edit button.
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/doughnut-chart/edit-series.png)
 
-In this case, we have enabled the `Enable SmartLabel`.
+In this case, we have enabled the `Enable SmartLabel` property.
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/doughnut-chart/enable-smart-label.png)
 
-In `Data Label Settings`, we have enabled the `Show Data Label` and set the Label as `#PERCENT` and then the `UseValueAsLabel` is disabled.
+In the `Data Label Settings` properties, we have enabled the `Show Data Label` property and set the Label as `#PERCENT` and then the `UseValueAsLabel` property is disabled.
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/doughnut-chart/data-label-settings.png)
 
@@ -408,27 +142,21 @@ The border style, color, width, and background color properties can be used to s
 
 ### Chart Area
 
-The **Chart Area** properties such as border width, color, and background color can be used to customize the area of the chart design.
+The **Chart Area** property can be used to customize the area of the chart design.
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/doughnut-chart/chart-area-sketch.png)
 
-These properties are listed under the `Chart Area` category.
-
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/doughnut-chart/chart-area-category.png)
+Use the [Color Palette](./../../../report-items/chart/color-palette/) property to customize the color of the chart. `Color Palatte` are listed under the `Chart Area` category.
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/doughnut-chart/chart-area-design.png)
 
-Use the [Color Palette](./../../../report-items/chart/color-palette/) property to customize the color of the chart.
-
 ### Title
 
-The chart title can be customized by editing the `Title Text` property of the chart.
-
-To show/hide the chart title, toggle the `Show Chart Title` checkbox.
+To show or hide the chart title, toggle the `Show Chart Title` checkbox. The chart title can be customized by editing the `Title Text` property of the chart. You can customize the font color, font text, font style, border, background, and position of the title.
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/doughnut-chart/chart-title.png)
 
-Using these properties, the font color, font text, font style, border, background, and position of the title can be customized in the chart design.
+![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/doughnut-chart/chart-title-design.png)
 
 ### No Data
 
@@ -481,7 +209,7 @@ The **page name** property is used to name the first worksheet of the Excel work
 
 ![Page name property](/static/assets/on-premise/images/report-designer/report-items/chart/doughnut-chart/page-name.png)
 
-You can set static or dynamic text as the page name. To set and reset dynamic text, refer to the [Set Expression](./../../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../../compose-report/properties-panel/#reset-expression) section.
+You can set static or dynamic text as the page name. To set and reset dynamic text, refer to the [Set Expression](./../../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../../compose-report/properties-panel/#reset-expression)section.
 
 #### Document Map
 
@@ -513,4 +241,4 @@ The **Tooltip** property can be used to display informative text or values when 
 
    ![Chart report preview](/static/assets/on-premise/images/report-designer/report-items/chart/doughnut-chart/report-preview-page.png)
 
-> Download the above report design from the [link](https://github.com/boldreports/resources/tree/master/docs/report-designer/chart/doughnut.rdl).
+> Download the above report design from the [link](https://github.com/boldreports/resources/tree/master/docs/report-designer/chart/doughnut-chart.rdl).
