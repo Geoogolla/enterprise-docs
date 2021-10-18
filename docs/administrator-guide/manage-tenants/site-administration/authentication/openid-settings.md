@@ -64,13 +64,13 @@ The User Management Server can be configured to support OpenID Connect for Singl
 
 If you need to import the OpenID Connect groups, you must configure the group details while saving the OpenID authentication settings.  
 
-![OpenId Group setting](/static/assets/on-premise/images/tenant-management/site-management/authentication/OpenId-group-settings.png)
+![OpenId Group setting](/static/assets/on-premise/images/tenant-management/site-management/authentication/openId-group-settings.png)
 
 The following list of OpenID Connect providers explain how to connect with the User Management Server. 
 
-* [Auth0](/embedded-bi/site-administration/sso/openid-support/auth0/)
-* [Okta](/embedded-bi/site-administration/sso/openid-support/okta/)
-* [OneLogin](/embedded-bi/site-administration/sso/openid-support/onelogin/)
+* [Auth0](./../../../authentication/single-sign-on/openid-connect/auth0/)
+* [Okta](./../../../authentication/single-sign-on/openid-connect/okta/)
+* [OneLogin](./../../../authentication/single-sign-on/openid-connect/onelogin/)
 
 ## Set OpenID Connect as default authentication
 
@@ -80,12 +80,12 @@ Follow these steps to configure default authentication:
 
 1. In settings page, click `Authentication` tab and select `General`.
 
-2. Enable the **Enable Default Authentication** option and select the **OpenID Connect** as default authentication provider, as shown in the following screenshot.  
+2. Check the **Enable Default Authentication** option and select the **OpenID Connect** as default authentication provider, as shown in the following screenshot.  
 
    ![Enable OpenID Default Authentication](/static/assets/on-premise/images/tenant-management/site-management/authentication/openid-default-authentication.png)
 
 ## Disabling OpenID connect settings
 
-Disabling the Enable Default Authentication option and then clicking `Save` will disable the [OpenID Connect default authentication](#set-openid-connect-as-default-authentication).  
+Unchecking the Enable Default Authentication option and then clicking `Save` will disable the [OpenID Connect default authentication](#set-openid-connect-as-default-authentication).  
 
 ![Disable Default Authentication](/static/assets/on-premise/images/tenant-management/site-management/authentication/disable-openid-settings.png)

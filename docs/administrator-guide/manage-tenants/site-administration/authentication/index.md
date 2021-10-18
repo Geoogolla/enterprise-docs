@@ -14,7 +14,7 @@ Here, you can explore the Authentication in detail.
 
 [Default Authentication](./../authentication/default-authentication/)
 
-[OAuth 2.0 Support](./../authentication/oauth-2.0-settings/)
+[OAuth 2.0 Support](./../authentication/oauth-2.0-support/)
 
 [OpenID Support](./../authentication/openid-settings/)
 

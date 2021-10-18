@@ -93,10 +93,10 @@ If you need to import the OAuth 2.0 groups, you must configure the group details
 
 The following list of OAuth 2.0 providers explains how to connect with the User Management Server. 
 
-* [Amazon Cognito](/embedded-bi/site-administration/sso/oauth-2.0-support/amazon-cognito/)
-* [Auth0](/embedded-bi/site-administration/sso/oauth-2.0-support/auth0/)
-* [Okta](/embedded-bi/site-administration/sso/oauth-2.0-support/okta/)
-* [OneLogin](/embedded-bi/site-administration/sso/oauth-2.0-support/onelogin/)
+* [Amazon Cognito](./../../../authentication/single-sign-on/oauth-2.0/amazon-cognito/)
+* [Auth0](./../../../authentication/single-sign-on/oauth-2.0/auth0/)
+* [Okta](./../../../authentication/single-sign-on/oauth-2.0/okta/)
+* [OneLogin](./../../../authentication/single-sign-on/oauth-2.0/onelogin/)
 
 ## Set OAuth 2.0 as default authentication
 OAuth 2.0 can be set as default authentication when [OAuth 2.0 settings](#steps-to-configure-oauth-2.0-in-user-management-server) is enabled.
@@ -105,12 +105,12 @@ Follow these steps to configure default authentication:
 
 1. In settings page, click `Authentication` tab and select `General`.
 
-2. Enable the **Enable Default Authentication** option and select the **OAuth 2.0** as default authentication provider, as shown in the following screenshot.
+2. Check the **Enable Default Authentication** option and select the **OAuth 2.0** as default authentication provider, as shown in the following screenshot.
 
     ![Enable OAuth Default Authentication](/static/assets/on-premise/images/tenant-management/site-management/authentication/default-oauth.png)
 
 ## Disabling OAuth 2.0 settings
 
-Disable the **Enable Default Authentication** option and then clicking `Save` will disable the [OAuth 2.0 default authentication](#set-oauth-20-as-default-authentication).
+Unchecking the **Enable Default Authentication** option and then clicking `Save` will disable the [OAuth 2.0 default authentication](#set-oauth-2.0-as-default-authentication).
 
 ![Disable Default Authentication](/static/assets/on-premise/images/tenant-management/site-management/authentication/oauth-default-authentication.png)

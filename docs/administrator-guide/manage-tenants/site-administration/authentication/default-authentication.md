@@ -18,7 +18,7 @@ You must configure any provider and enable one of the following identity provide
 
 You can select any of the following provider as the default authentication provider: 
 
-[OAuth 2.0 Support](./../authentication/oauth-2.0-settings/)
+[OAuth 2.0 Support](./../authentication/oauth-2.0-support/)
 
 [OpenID Support](./../authentication/openid-settings/)
 
