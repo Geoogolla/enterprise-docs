@@ -6,7 +6,7 @@ platform: report-platform
 documentation: ug
 ---
 
-# Authentication 
+# Authentication
 
 This section explains how to configure Default Authentication, Azure AD, OAuth 2.0, OpenID, and JWT SSO in User Management Server.
 
