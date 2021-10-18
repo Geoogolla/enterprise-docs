@@ -16,18 +16,16 @@ This configuration stores the user identities and site details in MySQL Server D
 
 You can connect to the existing MySQL Server instance by following the below steps.
 
-1. Select the server type as `MySQL` and provide the name of the server.
+1. Select the server type as `MySQL` and provide the `Server name` and `Port number`.
 
-2. Select the `MySQL ODBC DSN`. Create the MySQL DSN by following this [link](./../../how-to/create-dsn-for-mysql/)
+2. Provide the Username and password of the server to be connected.
 
-3. Provide the Username and password of the server to be connected.
-
-4. You can connect to the MySQL Server with the below options.
+3. You can connect to the MySQL Server with the below options.
 
     * Create new database.
     * Use an existing database.
 
-5. Provide the database name and proceed further.
+4. Provide the database name and proceed further.
 
 ![MySQL Server](/static/assets/on-premise/images/getting-started/application-startup-mySQL-server.png)
 
@@ -37,22 +35,20 @@ You can connect to the existing MySQL Server instance by following the below ste
 
 ## MySQL Database Configuration for Bold Reports Server Sites
 
-This configuration stores the reports, users and their access permissions in MySQL Server Database.
+This configuration stores the reports, users, and their access permissions in MySQL Server Database.
 
 You can connect to the existing MySQL Server instance by following the below steps.
 
-1. Select the server type as `MySQL` and provide the name of the server.
+1. Select the server type as `MySQL` and provide the `Server name` and `Port number`.
 
-2. Select the `MySQL ODBC DSN`. Create the MySQL DSN by following this [link](./../../how-to/create-dsn-for-mysql/)
+2. Provide the Username and password of the server to be connected.
 
-3. Provide the Username and password of the server to be connected.
-
-4. You can connect to the MySQL Server with the below options.
+3. You can connect to the MySQL Server with the below options.
 
     * Create new database.
     * Use an existing database.
 
-5. Provide the database name and proceed further.
+4. Provide the database name and proceed further.
 
 ![MySQL Server](/static/assets/on-premise/images/getting-started/application-startup-mySQL-bold-reports-server.png)
 
