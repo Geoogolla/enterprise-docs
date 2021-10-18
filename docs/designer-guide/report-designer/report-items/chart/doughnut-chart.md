@@ -22,7 +22,7 @@ Now, the doughnut chart will be rendered in the design area and the chart proper
 
 ## Create data
 
-To present data in the chart, create a dataset and bind data to the chart data region. Here, we are going to create a dataset using [Json Data File](./../../../manage-data/data-connectors/json-data-source/#load-from-disk) to design the report. You can download sample data from the following [link](https://github.com/boldreports/resources/tree/master/docs/report-designer/expense-analysis.json).
+To present data in the chart, create a dataset and bind data to the chart data region. Here, we are going to create a dataset using [Json Data File](./../../../manage-data/data-connectors/json-data-source/#load-from-disk) to design the report. You can download sample data from the following [link](https://github.com/boldreports/resources/tree/master/docs/report-designer/data/expense-analysis.json).
 
 > Refer to the [Create Data](./../../../manage-data/dataset/create-an-embedded-dataset/#create-an-embedded-dataset) section for more information.
 
