@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Authentication provider – Bold ID | Bold Reports Documentation
+title:  Authentication provider – Bold ID | Bold Reports
 description: Learn how to configure Default Authentication, Azure AD, OAuth 2.0, OpenID, and JWT SSO in User Management Server.
 platform: report-platform
 documentation: ug

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Default Authentication Option in User Management Server | Bold Reports
+title: Default Authentication Option in UMS | Bold Reports
 description: Learn default authentication functionality and how to configure the default authentication in User Management Server to enable or disable it.
 platform: report-platform
 documentation: ug

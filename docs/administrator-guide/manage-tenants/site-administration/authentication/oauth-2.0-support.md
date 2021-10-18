@@ -1,6 +1,6 @@
 ---
 layout: post
-title: SSO with OAuth 2.0 Identities in User Management Server | Bold Reports
+title: SSO with OAuth 2.0 Identities in UMS | Bold Reports
 description: Learn how to configure User Management Server with an OAuth 2.0 identity provider for Single Sign-On authentication using OAuth 2.0.
 platform: report-platform
 documentation: ug

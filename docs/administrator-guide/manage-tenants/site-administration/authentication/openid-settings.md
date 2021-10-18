@@ -1,6 +1,6 @@
 ---
 layout: post
-title: SSO with OpenID Connect in User Management Server | Bold Reports
+title: SSO with OpenID Connect support in UMS | Bold Reports
 description: Learn how to configure User Management Server with an OpenID based identity provider for Single Sign-on authentication using OpenID Connect.
 platform: report-platform
 documentation: ug
