@@ -14,9 +14,9 @@ This section explains how to perform Single Sign-On (SSO) for users with the Cus
 
 1. Login with this URL `{Bold Reports URL}/ums/administration` using the admin credential.
 
-2. Click `Authentication ` and then `JWT`.
+2. Click `Authentication ` and then `JWT`. 
 
-    ![JWT Configuration](/static/assets/on-premise/images/tenant-management/site-management/authentication/jwt-configuration.png)
+   ![JWT Configuration](/static/assets/on-premise/images/tenant-management/site-management/authentication/jwt-configuration.png)
 
 3. Enable the JWT settings.
 
@@ -52,7 +52,7 @@ This section explains how to perform Single Sign-On (SSO) for users with the Cus
 
     ![Copy](/static/assets/on-premise/images/tenant-management/site-management/authentication/jwt-signingkey-options.png)
 
-## How JWT works with Bold Reports   
+## How JWT works with Bold Reports
 
 1. Once configured the JWT settings, go to the Bold Reports login page and click the JWT login option, it will redirects to configured application login URL.
     ![JWT Login](/static/assets/on-premise/images/tenant-management/site-management/authentication/jwt-login-option.png)
@@ -70,7 +70,7 @@ This section explains how to perform Single Sign-On (SSO) for users with the Cus
   JWT callback URL will validate the JWT response from configured application.
 
   After a user successful logs into your configured application, you can redirect them to the following specific URL.
- 
+
  `{Bold Reports URL}/sso/jwt/callback?jwt={token}&site_identifier={site identifier}&redirect_to={redirecturl}`
 
   <table>
@@ -89,13 +89,13 @@ This section explains how to perform Single Sign-On (SSO) for users with the Cus
    <tr>
    <td>site_identifier</td>
    <td>No</td>
-   <td>This parameter will be used to grant site access for the JWT user. 
-   
+   <td>This parameter will be used to grant site access for the JWT user.
+
    If the JWT login accessed from the tenant, Bold Reports login URL will redirect to your application with tenant site identifier in URL query string. You can use this identifier in JWT response URL.
-   
+
    Example Url`{Remote login URL}?site_identifier={site identifier}`
 
-   > **NOTE:** Should pass one site identifier. More than one identifier not allowed. 
+   > **NOTE:** Should pass one site identifier. More than one identifier not allowed.
    </td>
    </tr>
 
@@ -106,11 +106,9 @@ This section explains how to perform Single Sign-On (SSO) for users with the Cus
    </tr>
    </table>
 
-
 ## Create JSON Web Token
 
 To create the JWT, use `HMAC-SHA256` as signing algorithm.  
-
 
 ### What parameters can be passed in the payload of JWT
 
@@ -166,14 +164,13 @@ JWT should contain the following claims:
    </tr>
    </table>
 
-
 ### JSON Web Token sample
 
 Please refer to the following sample for how to generate the JWT.
 
 ```c#
-private string GenerateJSONWebToken(UserModel userInfo)    
-{    
+private string GenerateJSONWebToken(UserModel userInfo)
+{
     var signingKey = "signingkey";// Signing key value will copy from JWT Settings page
     var securityKey = new SymmetricSecurityKey(signingKey);
     var credentials = new SigningCredentials(securityKey, SecurityAlgorithms.HmacSha256Signature, SecurityAlgorithms.Sha256Digest);
@@ -191,5 +188,5 @@ private string GenerateJSONWebToken(UserModel userInfo)
                 signingCredentials: credentials);
 
     return new JwtSecurityTokenHandler().WriteToken(token);
-}   
+}
 ```

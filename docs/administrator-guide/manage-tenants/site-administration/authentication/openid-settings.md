@@ -24,7 +24,7 @@ The User Management Server can be configured to support OpenID Connect for Singl
 
     ![Authentication settings](/static/assets/on-premise/images/tenant-management/site-management/authentication/openid-auth-page.png)
 
-4. Provide the following details in the `OpenID Connect` settings page of User Management Server.
+3. Provide the following details in the `OpenID Connect` settings page of User Management Server.
 
     <table>
 
@@ -59,14 +59,14 @@ The User Management Server can be configured to support OpenID Connect for Singl
     </tr>
 
     </table>  
-    
+
     ![OpenId settings](/static/assets/on-premise/images/tenant-management/site-management/authentication/openid-auth-configuration.png)
 
 If you need to import the OpenID Connect groups, you must configure the group details while saving the OpenID authentication settings.  
 
 ![OpenId Group setting](/static/assets/on-premise/images/tenant-management/site-management/authentication/openId-group-settings.png)
 
-The following list of OpenID Connect providers explain how to connect with the User Management Server. 
+The following list of OpenID Connect providers explain how to connect with the User Management Server.
 
 * [Auth0](../../../../authentication/single-sign-on/openid-connect/auth0/)
 * [Okta](../../../../authentication/single-sign-on/openid-connect/okta/)
