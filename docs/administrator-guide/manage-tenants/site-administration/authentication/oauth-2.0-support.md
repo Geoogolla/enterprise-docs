@@ -93,10 +93,10 @@ If you need to import the OAuth 2.0 groups, you must configure the group details
 
 The following list of OAuth 2.0 providers explains how to connect with the User Management Server. 
 
-* [Amazon Cognito](./../../../authentication/single-sign-on/oauth-2.0/amazon-cognito/) 
-* [Auth0](./../../../authentication/single-sign-on/oauth-2.0/auth0/)
-* [Okta](./../../../authentication/single-sign-on/oauth-2.0/okta/)
-* [OneLogin](./../../../authentication/single-sign-on/oauth-2.0/onelogin/)
+* [Amazon Cognito](../../../authentication/single-sign-on/oauth-2.0/amazon-cognito/) 
+* [Auth0](../../../authentication/single-sign-on/oauth-2.0/auth0/)
+* [Okta](../../../authentication/single-sign-on/oauth-2.0/okta/)
+* [OneLogin](../../../authentication/single-sign-on/oauth-2.0/onelogin/)
 
 ## Set OAuth 2.0 as default authentication
 OAuth 2.0 can be set as default authentication when [OAuth 2.0 settings](#steps-to-configure-oauth-20-in-user-management-server) is enabled.
