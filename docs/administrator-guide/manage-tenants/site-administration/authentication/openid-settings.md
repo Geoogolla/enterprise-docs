@@ -68,9 +68,9 @@ If you need to import the OpenID Connect groups, you must configure the group de
 
 The following list of OpenID Connect providers explain how to connect with the User Management Server. 
 
-* [Auth0](./../../../authentication/single-sign-on/openid-connect/auth0)
-* [Okta](./../../../authentication/single-sign-on/openid-connect/okta)
-* [OneLogin](./../../../authentication/single-sign-on/openid-connect/onelogin)
+* [Auth0](./../../../authentication/single-sign-on/openid-connect/auth0/)
+* [Okta](./../../../authentication/single-sign-on/openid-connect/okta/)
+* [OneLogin](./../../../authentication/single-sign-on/openid-connect/onelogin/)
 
 ## Set OpenID Connect as default authentication
 

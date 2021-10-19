@@ -38,7 +38,7 @@ Check the `Enable Default Authentication` option and select any provider in defa
 
 When you disable the default authentication, then it directs you to the normal login page. 
 
-Unchecking the **Enable Default Authentication** option and then clicking Save will disable the [OpenID Connect default authentication](./../authentication/openid-settings#Set-openid-connect-as-default-authentication). 
+Unchecking the **Enable Default Authentication** option and then clicking Save will disable the [OpenID Connect default authentication](./../openid-settings#set-openid-connect-as-default-authentication). 
 
 ![Disable default authentication](/static/assets/on-premise/images/tenant-management/site-management/authentication/disable-default-authentication.png) 
 
