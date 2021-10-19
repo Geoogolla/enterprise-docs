@@ -14,7 +14,7 @@ This section explains how to perform Single Sign-On (SSO) for users with the Cus
 
 1. Login with this URL `{Bold Reports URL}/ums/administration` using the admin credential.
 
-2. Click `Authentication ` and then `JWT`. 
+2. Click `Authentication` and then `JWT`.
 
    ![JWT Configuration](/static/assets/on-premise/images/tenant-management/site-management/authentication/jwt-configuration.png)
 

@@ -42,4 +42,4 @@ Unchecking the **Enable Default Authentication** option and then clicking Save w
 
 ![Disable default authentication](/static/assets/on-premise/images/tenant-management/site-management/authentication/disable-default-authentication.png)
 
-> **NOTE:** If you want to skip default authentication after setting it, then use '`use_default_authentication=false`' in the login URL. (ex: 'https://testdomain.com/login?use_default_authentication=false').
+> **NOTE:** If you want to skip default authentication after setting it, then use '`use_default_authentication=false`' in the login URL. (ex: `https://testdomain.com/login?use_default_authentication=false`).
