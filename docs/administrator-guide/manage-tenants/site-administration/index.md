@@ -12,10 +12,4 @@ This section explains how to configure email, custom rebrand and update the lice
 
 You can explore the Site Administration in detail here,
 
-[Rebranding](./../site-administration/rebranding/)
-
-[Email Settings](./../site-administration/email-settings/)
-
 [Authentication](./../site-administration/authentication/)
-
-[Manage License](./../site-administration/manage-license/)

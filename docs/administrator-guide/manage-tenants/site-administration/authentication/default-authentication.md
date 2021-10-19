@@ -18,11 +18,11 @@ You must configure any provider and enable one of the following identity provide
 
 You can select any of the following provider as the default authentication provider: 
 
-[OAuth 2.0 Support](./../authentication/oauth-2.0-support/)
+[OAuth 2.0 Support](./../oauth-2.0-support/)
 
-[OpenID Support](./../authentication/openid-settings/)
+[OpenID Support](./../openid-settings/)
 
-[JWT SSO](./../authentication/json-web-token/)
+[JWT SSO](./../json-web-token/)
 
 ## Enable Default Authentication 
 
@@ -38,7 +38,7 @@ Check the `Enable Default Authentication` option and select any provider in defa
 
 When you disable the default authentication, then it directs you to the normal login page. 
 
-Unchecking the **Enable Default Authentication** option and then clicking Save will disable the [OpenID Connect default authentication](/enterprise-reporting/administrator-guide/manage-tenants/site-administration/authentication/openid-settings#Set-openid-connect-as-default-authentication). 
+Unchecking the **Enable Default Authentication** option and then clicking Save will disable the [OpenID Connect default authentication](./../authentication/openid-settings#Set-openid-connect-as-default-authentication). 
 
 ![Disable default authentication](/static/assets/on-premise/images/tenant-management/site-management/authentication/disable-default-authentication.png) 
 
