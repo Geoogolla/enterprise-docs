@@ -4,9 +4,12 @@
     "Installation": {
         "Windows Installer":"windows-installer.md",
         "Azure App Service":{
-            "Client libraries":"client-libraries.md",
-            "Upgrade":"upgrade.md"
-        },
+	    "Prerequisites":"prerequisites.md",
+	    "Recommendations":"recommendations.md",
+	    "Using ARM template":"using-arm-template.md",
+	    "Client libraries":"client-libraries.md",
+        "Upgrade":"upgrade.md"
+	},
         "Deploy in Linux":{
             "Prerequisites":"prerequisites.md",
             "Bold Reports on Ubuntu":"bold-report-ubuntu.md",
@@ -104,6 +107,7 @@
         "How to resolve unavailable error when deploying on Bold Reports site":"resolve-unavailable-error-when-site-fails-incase-of-domain-name-change.md",
         "Setup the development staging and production environment for BoldReportsOn-PremiseEdition": "setup-the-development-staging-and-production-environment-for-bold-reports-on-premise-edition.md",
         "Create DSN for MySQL": "create-dsn-for-mysql",
+		"Create a Bold Reports Azure App Service using the ARM template up to v2.x" : "create-a-bold-reports-azure-app-service-using-the-arm-template-up-to-v2.x.md",
         "Set up Azure Active Directory": "set-up-azure-active-directory.md",
         "Configure Gmail SMTP Server in Email Settings": "configure-gmail-smtp-server-in-email-settings.md",
         "Add parameters with Report link": "report-link-with-filter-parameters.md",
