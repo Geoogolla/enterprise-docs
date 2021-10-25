@@ -317,6 +317,8 @@
                     "Stacked Column" : "stacked-column-chart.md",
                     "Stacked Bar 100%" : "stacked-bar-100-chart.md",
                     "Stacked Column 100%" : "stacked-column-100-chart.md",
+                    "Stacked Area" : "stacked-area-chart.md",
+                    "Stacked Area 100%" : "stacked-area-100-chart.md",
                     "Pie" : "pie-chart.md",
                     "Bubble" : "bubble-chart.md",
                     "Scatter" : "scatter-chart.md",
