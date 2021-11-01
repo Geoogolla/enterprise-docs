@@ -23,7 +23,7 @@ The following SMTP details are required to send email from the User Management S
 <table>
 <tr>
     <td>SMTP Server</td>
-    <td>The SMTP server specifies the public IP address or provider which delivers the emails to the end user mail box.</td>
+    <td>The SMTP server specifies the public IP address or provider which delivers the emails to the end user mail box. </td>
 </tr>
 <tr>
     <td>SMTP Port</td>
