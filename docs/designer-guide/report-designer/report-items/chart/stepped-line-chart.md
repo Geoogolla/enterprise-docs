@@ -26,30 +26,30 @@ To present data in the chart, create a dataset and bind data to the chart data r
 
 ```json
 [
-    {
-		points: [
-            { Year: 2006, Intensity: 378 }, { Year: 2007, Intensity: 416 }, { Year: 2008, Intensity: 404 }, 
-            { Year: 2009, Intensity: 390 }, { Year: 2010, Intensity: 376 }, { Year: 2011, Intensity: 365 }],						 
-		Country: 'USA'
-	},				
-	{
-		points: [
-            { Year: 2006, Intensity: 463 }, { Year: 2007, Intensity: 449 }, { Year: 2008, Intensity: 458 }, 
-            { Year: 2009, Intensity: 450 }, { Year: 2010, Intensity: 425 }, { Year: 2011, Intensity: 430 }],						 
-		Country: 'UK'
-	},                
-	{
-		points: [
-            { Year: 2006, Intensity: 519 }, { Year: 2007, Intensity: 508 }, { Year: 2008, Intensity: 502 }, 
-            { Year: 2009, Intensity: 495 }, { Year: 2010, Intensity: 485 }, { Year: 2011, Intensity: 470 }],						 
-		Country: 'Korea'
-	},				
-	{
-		points: [
-            { Year: 2006, Intensity: 570 }, { Year: 2007, Intensity: 579 }, { Year: 2008, Intensity: 563 }, 
-            { Year: 2009, Intensity: 550 }, { Year: 2010, Intensity: 545 }, { Year: 2011, Intensity: 525 }],						 
-		Country: 'Japan'
-	}
+   {
+      points: [
+            { Year: 2006, Intensity: 378 }, { Year: 2007, Intensity: 416 }, { Year: 2008, Intensity: 404 },
+            { Year: 2009, Intensity: 390 }, { Year: 2010, Intensity: 376 }, { Year: 2011, Intensity: 365 }],
+      Country: 'USA'
+   },
+   {
+      points: [
+            { Year: 2006, Intensity: 463 }, { Year: 2007, Intensity: 449 }, { Year: 2008, Intensity: 458 },
+            { Year: 2009, Intensity: 450 }, { Year: 2010, Intensity: 425 }, { Year: 2011, Intensity: 430 }],
+      Country: 'UK'
+   },
+   {
+      points: [
+            { Year: 2006, Intensity: 519 }, { Year: 2007, Intensity: 508 }, { Year: 2008, Intensity: 502 },
+            { Year: 2009, Intensity: 495 }, { Year: 2010, Intensity: 485 }, { Year: 2011, Intensity: 470 }],
+      Country: 'Korea'
+   },
+   {
+      points: [
+            { Year: 2006, Intensity: 570 }, { Year: 2007, Intensity: 579 }, { Year: 2008, Intensity: 563 },
+            { Year: 2009, Intensity: 550 }, { Year: 2010, Intensity: 545 }, { Year: 2011, Intensity: 525 }],
+      Country: 'Japan'
+   }
 ]
 ```
 

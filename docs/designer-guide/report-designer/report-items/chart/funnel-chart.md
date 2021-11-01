@@ -1,5 +1,5 @@
 ---
-title: Funnel Chart | Report Designer | Bold Reports
+title: Funnel Chart | Bold Reports Report Designer | Bold Reports
 description: Adding HTML5 JavaScript Funnel Chart control into report and formatting chart appearance with the Bold Report Designer
 keywords: ejReportDesigner, reportdesigner, tablix, reportitem, bold reports, documentation, help, ej, user guide, demo, samples, bold reports, bold reporting
 ---
@@ -76,7 +76,7 @@ To configure data into a funnel chart, follow the steps:
    Now, the report item design will look like below:
 
    ![Preview after adding y-value field](/static/assets/on-premise/images/report-designer/report-items/chart/funnel-chart/y-value-chart-design-view.png)
-   
+
 6. **Aggregate Options**:
 
    Click the `Settings` icon (highlighted below) to open the aggregation type dropdown list.

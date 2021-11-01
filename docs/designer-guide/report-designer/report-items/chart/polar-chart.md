@@ -1,5 +1,5 @@
 ---
-title: Polar Chart | Report Designer | Bold Reports
+title: Polar Chart | Bold Reports Report Designer | Bold Reports
 description: Adding HTML5 JavaScript Polar Chart control into report and formatting chart appearance with the Bold Report Designer
 keywords: ejReportDesigner, reportdesigner, tablix, reportitem, bold reports, documentation, help, ej, user guide, demo, samples, bold reports, bold reporting
 ---
@@ -33,9 +33,9 @@ To present data in the chart, create a dataset and bind data to the chart data r
             { Month: 'May', Celcius: 13.3 }, { Month: 'Jun', Celcius: 18.0 },
             { Month: 'Jul', Celcius: 19.8 }, { Month: 'Aug', Celcius: 18.1 },
             { Month: 'Sep', Celcius: 13.1 }, { Month: 'Oct', Celcius: 4.1 },
-            { Month: 'Nov', Celcius: -3.8 }, { Month: 'Dec', Celcius: -6.8 }],                        
-        Country: 'Warmest'
-    },               
+            { Month: 'Nov', Celcius: -3.8 }, { Month: 'Dec', Celcius: -6.8 }],
+         Country: 'Warmest'
+    },
     {
         points: [
             { Month: 'Jan', Celcius: -17.4 }, { Month: 'Feb', Celcius: -15.6 },
@@ -43,9 +43,9 @@ To present data in the chart, create a dataset and bind data to the chart data r
             { Month: 'May', Celcius: 1.0 }, { Month: 'Jun', Celcius: 6.9 },
             { Month: 'Jul', Celcius: 9.4 }, { Month: 'Aug', Celcius: 7.6 },
             { Month: 'Sep', Celcius: 2.6 }, { Month: 'Oct', Celcius: -4.9 },
-            { Month: 'Nov', Celcius: -13.4 }, { Month: 'Dec', Celcius: -16.4 }],                        
+            { Month: 'Nov', Celcius: -13.4 }, { Month: 'Dec', Celcius: -16.4 }],
         Country: 'Coldest'
-    }          
+    }
 ]
 ```
 
@@ -80,7 +80,7 @@ To configure data into a polar chart, follow the steps:
    Now, the report item design will look like below:
 
    ![Preview after adding y-value field](/static/assets/on-premise/images/report-designer/report-items/chart/polar-chart/y-value-chart-design-view.png)
-   
+
 6. **Aggregate Options**:
 
    Click the `Settings` icon (highlighted below) to open the aggregation type dropdown list.

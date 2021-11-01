@@ -84,7 +84,7 @@ To configure data into a pyramid chart, follow the steps:
    Now, the report item design will look like below:
 
    ![Preview after adding y-value field](/static/assets/on-premise/images/report-designer/report-items/chart/pyramid-chart/y-value-chart-design-view.png)
-   
+
 6. **Aggregate Options**:
 
    Click the `Settings` icon (highlighted below) to open the aggregation type dropdown list.
