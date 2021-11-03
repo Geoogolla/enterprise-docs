@@ -147,7 +147,7 @@ In this case, we have enabled the `Enable SmartLabel` property.
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/funnel-chart/enable-smart-label.png)
 
-In the `Data Label Settings` properties, we have enabled the `Show Data Label` property and set the `Format as `#,0;(#,0)`.
+In the `Data Label Settings` properties, we have enabled the `Show Data Label` property and set the `Format` as `#,0;(#,0)`.
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/funnel-chart/data-label-settings.png)
 
@@ -169,7 +169,7 @@ The **Chart Area** property can be used to customize the area of the chart desig
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/funnel-chart/chart-area-sketch.png)
 
-Use the [Color Palette](./../../../report-items/chart/color-palette/) property to customize the color of the chart. `Color Palatte` are listed under the `Chart Area` category.
+Use the [Color Palette](./../../../report-items/chart/color-palette/) property to customize the color of the chart. `Color Palette` are listed under the `Chart Area` category.
 
 Here, we have set the `Color Palette` as `PacificLight` and the design is shown below.
 
