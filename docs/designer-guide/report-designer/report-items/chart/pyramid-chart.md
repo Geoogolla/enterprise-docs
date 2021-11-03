@@ -159,6 +159,8 @@ In the `Data Label Settings` properties, we have enabled the `Show Data Label` p
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/pyramid-chart/data-label-settings.png)
 
+![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/pyramid-chart/data-label-settings-preview.png)
+
 Refer to the [Series](./../../../report-items/chart/series/) section, to customize each series using the properties panel.
 
 ### Appearance

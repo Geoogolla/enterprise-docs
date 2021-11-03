@@ -139,7 +139,21 @@ You can add multiple series to the chart and the available series will be listed
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/funnel-chart/multi-series-list-in-drop-down.png)
 
-Refer to the [Series](./../../../report-items/chart/series/) section, to customize each series using the properties panel.
+We can edit the selected series by clicking the edit button.
+
+![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/funnel-chart/edit-series.png)
+
+In this case, we have enabled the `Enable SmartLabel` property.
+
+![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/funnel-chart/enable-smart-label.png)
+
+In the `Data Label Settings` properties, we have enabled the `Show Data Label` property and set the `Format as `#,0;(#,0)`.
+
+![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/funnel-chart/data-label-settings.png)
+
+![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/funnel-chart/data-label-settings-preview.png)
+
+Refer to the [Series](./../../../report-items/chart/series/) section to customize each series using the properties panel.
 
 ### Appearance
 
@@ -157,7 +171,7 @@ The **Chart Area** property can be used to customize the area of the chart desig
 
 Use the [Color Palette](./../../../report-items/chart/color-palette/) property to customize the color of the chart. `Color Palatte` are listed under the `Chart Area` category.
 
-Here, we have set the `Color Palette` as `EarthTones` and the design is shown below.
+Here, we have set the `Color Palette` as `PacificLight` and the design is shown below.
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/funnel-chart/chart-area-design.png)
 

@@ -119,7 +119,7 @@ To configure data into a stepped line chart, follow these steps:
 
    You can also [Filter](./../../../compose-report/filter-data/), [Sort](./../../../compose-report/sort-data/), or [Group](./../../../compose-report/group-data/) the Column or Row(s) sections using expressions.
 
-## Format Stepped Line chart
+## Format Stepped Line Chart
 
 You can format the stepped line chart for better illustration of the view that you require, through the settings available in the `Properties` tab.
 
