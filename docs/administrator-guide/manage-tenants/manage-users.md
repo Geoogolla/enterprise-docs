@@ -30,7 +30,7 @@ The `Add User` dialog will be shown as in the image below.
 > **NOTE:**  
 > * If the account activation mode is Automatic, then the new user will be automatically activated. 
 > * If the activation type is Email, then the user will receive an email for activating their account. The user account will be activated after verifying the email. By default, the Account Activation Mode is Automatic.
-> * Kindly refer to [Account settings](./../manage-tenants/site-administration/account-settings/) page for more details.
+> * Kindly refer to [Account settings](./../site-administration/account-settings/) page for more details.
 
 **Automatic activation**|**Email activation**
 -----|-----
@@ -138,4 +138,4 @@ After the process completion, you can see a detailed report on it. You can also 
 
 ![Grant Access Select Sites](/static/assets/on-premise/images/tenant-management/grant-access-report.png)
 
-You can revoke access to the site by referring [here](./../manage-tenants/manage-sites/#revoke-access).
+You can revoke access to the site by referring [here](./../manage-sites/#revoke-access).

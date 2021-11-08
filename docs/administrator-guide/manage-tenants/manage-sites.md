@@ -102,6 +102,6 @@ To grant access to new user, click the `Add User` button.
 
 ![Add User Button](/static/assets/on-premise/images/tenant-management/add-user-button.png)
 
-You can add the user by referring [Add User](./../manage-tenants/manage-users/#add-individual-users)
+You can add the user by referring [Add User](./../manage-users/#add-individual-users)
 
 The user will be added and have access to the site.
