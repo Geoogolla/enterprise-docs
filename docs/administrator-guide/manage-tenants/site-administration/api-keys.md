@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Configure REST API Keys for Enterprise Reporting Apps | Bold Reports
+title: Configure REST API Keys | Enterprise Reporting
 description: Learn how to configure the Client Id and Client secret information of Bold Reports that can be used for REST API authentication in your enterprise Reporting Web applications.
 platform: report-platform
 documentation: ug
