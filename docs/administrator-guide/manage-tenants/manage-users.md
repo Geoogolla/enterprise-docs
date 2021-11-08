@@ -7,7 +7,7 @@ documentation: ug
 
 # Manage Users in UMS
 
-This section explains how to add, update, activate and delete users. 
+This section explains how to add, update, activate and delete users.
 
 Users can only be added/edited/deleted by those who are having UMS admin access.
 
@@ -17,7 +17,7 @@ New users can be added to UMS individually or in bulk by using CSV import.
 
 ### Add individual users
 
-To add a new user in UMS, click `New User` and then `Add User` from the User Management page. 
+To add a new user in UMS, click `New User` and then `Add User` from the User Management page.
 
 The `Add User` dialog will be shown as in the image below.
 
@@ -28,7 +28,7 @@ The `Add User` dialog will be shown as in the image below.
 ![Add User Dialog](/static/assets/on-premise/images/tenant-management/add-user-success-prompt.png)
 
 > **NOTE:**  
-> * If the account activation mode is Automatic, then the new user will be automatically activated. 
+> * If the account activation mode is Automatic, then the new user will be automatically activated.
 > * If the activation type is Email, then the user will receive an email for activating their account. The user account will be activated after verifying the email. By default, the Account Activation Mode is Automatic.
 > * Kindly refer to [Account settings](./../site-administration/account-settings/) page for more details.
 
@@ -65,21 +65,22 @@ Follow the below steps to add users using the CSV template
 
 1. Download CSV template.
 
-	![Import from CSV - Download CSV template](/static/assets/on-premise/images/tenant-management/download-csv-template.png)
+    ![Import from CSV - Download CSV template](/static/assets/on-premise/images/tenant-management/download-csv-template.png)
 
 2. Add users in the CSV. Save the file and upload it.
 
-	![Import from CSV - Add users into CSV file](/static/assets/on-premise/images/tenant-management/csv-import-add-users.png)
+    ![Import from CSV - Add users into CSV file](/static/assets/on-premise/images/tenant-management/csv-import-add-users.png)
 
 3. Once the file is uploaded the user details will be shown in the grid like in the below image. Click `Import Users` to add the users.
 
-	![Import from CSV - User detail in grid](/static/assets/on-premise/images/tenant-management/csv-import-proceed.png)
+    ![Import from CSV - User detail in grid](/static/assets/on-premise/images/tenant-management/csv-import-proceed.png)
 
 4. After uploaded the users in UMS the results are displayed as below.
 
     ![Import from CSV - Success Message](/static/assets/on-premise/images/tenant-management/csv-import-success-prompt.png)
-	
+
 ### Password Requirement
+
 The password must meet the following requirements:
 
 It must contain,
@@ -93,6 +94,7 @@ It must contain,
 ![Password Requirement](/static/assets/on-premise/images/tenant-management/user-add-dialog-password-validation.png)
 
 ## Activate users
+
 Once the user is added new account will be created for the user and an account activation email will be sent to the email address with an activation link to activate the Bold Reports account.
 
 The activation link sent to the user will be valid only for 2 days and if the user have not activated within the 2 days, a new activation link can be sent to the user from the user edit page.
@@ -100,6 +102,7 @@ The activation link sent to the user will be valid only for 2 days and if the us
 The account will be on inactive status till the user activates the account from the activation email.
 
 ## Edit users
+
 User profile details can be edited by the users edit page as shown in the below image.
 
 ![Edit User](/static/assets/on-premise/images/tenant-management/edit-user-proceed.png)
@@ -108,7 +111,8 @@ Username, First Name, Last Name, Phone number and profile picture of the user ca
 
 ![Edit User Profile](/static/assets/on-premise/images/tenant-management/edit-user.png)
 
-## Change Password 
+## Change Password
+
 If the users forgot their password, Administrators can able to reset the password for the users by using this option.
 
 Please refer to [this](#password-requirement) section for password requirement.
@@ -116,6 +120,7 @@ Please refer to [this](#password-requirement) section for password requirement.
 ![Change Password](/static/assets/on-premise/images/tenant-management/change-password.png)
 
 ## Delete users
+
 Users can be deleted from the UMS when the user no longer requires the access. Users can be deleted from the user management page by the `System Administrator`.
 
 ![Delete user by Admin](/static/assets/on-premise/images/tenant-management/delete-user.png)

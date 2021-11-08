@@ -10,7 +10,7 @@ documentation: ug
 
 This section briefly explains how to manage the sites and information about the site.
 
-### Suspend Site
+## Suspend Site
 
 You can suspend the site by clicking the `Suspend` option in Action Menu.
 
@@ -18,13 +18,13 @@ You can suspend the site by clicking the `Suspend` option in Action Menu.
 
 > **Warning :** If the site is suspended, users cannot access the site.
 
-### Activate Site
+## Activate Site
 
 You can activate the suspended site by clicking the `Activate` option.
 
 ![Activate Site](/static/assets/on-premise/images/tenant-management/activate-site.png)
 
-### Edit Site
+## Edit Site
 
 We can able to update the following information for the site using the `Edit` Site option.
 
@@ -45,7 +45,7 @@ After entering your database credential, click `Update` button to update the sit
 
 ![Edit Database](/static/assets/on-premise/images/tenant-management/edit-database.png)
 
-### Delete Site
+## Delete Site
 
 You can delete the site and it's database by clicking the `Delete` option.
 
@@ -70,7 +70,7 @@ This section displays the basic information about the site.
 
 ![General Info](/static/assets/on-premise/images/tenant-management/general-site-info.png)
 
-### Site Users 
+### Site Users
 
 This section shows the users list which have access to the site.
 
@@ -92,7 +92,7 @@ You can remove access for single user by clicking this link `Revoke Access`.
 
 ![Revoke Single User](/static/assets/on-premise/images/tenant-management/revoke-single-user.png)
 
-You can remove access for multiple users by clicking the `Revoke Access` button. 
+You can remove access for multiple users by clicking the `Revoke Access` button.
 
 ![Revoke Multiple Users](/static/assets/on-premise/images/tenant-management/revoke-multiple-users.png)
 
