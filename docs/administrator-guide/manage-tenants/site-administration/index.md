@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Admin Privileges in User Management Server | Bold Reports
-description: Learn the admin privileges such as, configuring email settings, embed settings, account settings, custom rebranding, API keys information and license update in the user management server.
+description: Learn the admin privileges such as, configuring email settings, embed settings, account settings, custom rebranding, authentication, API keys information and license update in the user management server.
 platform: report-platform
 documentation: ug
 ---
@@ -12,16 +12,14 @@ This section explains how to configure email, embed settings, account settings, 
 
 You can explore the Site Administration in detail here,
 
-[Rebranding](/embedded-bi/multi-tenancy/site-administration/rebranding/)
+[Rebranding](./../site-administration/rebranding/)
 
-[Embed Settings](/embedded-bi/site-administration/embed-settings/)
+[Email Settings](./../site-administration/email-settings/)
 
-[Email Settings](/embedded-bi/multi-tenancy/site-administration/email-settings/)
+[Account Settings](./../site-administration/account-settings/)
 
-[Account Settings](/embedded-bi/multi-tenancy/site-administration/account-settings/)
+[API Keys](./../site-administration/api-keys/)
 
-[API Keys](/embedded-bi/multi-tenancy/site-administration/api-keys/)
+[Authentication](./../site-administration/authentication/)
 
-[Authentication](/embedded-bi/multi-tenancy/site-administration/authentication/)
-
-[Manage License](/embedded-bi/multi-tenancy/site-administration/manage-license/)
+[Manage License](./../site-administration/manage-license/)
