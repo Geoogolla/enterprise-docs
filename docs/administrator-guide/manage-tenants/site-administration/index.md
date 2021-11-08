@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Admin Privileges in User Management Server | Bold Reports
-description: Learn the admin privileges such as, configuring email settings, custom rebranding and license update in the user management server.
+description: Learn the admin privileges such as, configuring email settings, custom rebranding, authentication and license update in the user management server.
 platform: report-platform
 documentation: ug
 ---
@@ -15,5 +15,7 @@ You can explore the Site Administration in detail here,
 [Rebranding](./../site-administration/rebranding/)
 
 [Email Settings](./../site-administration/email-settings/)
+
+[Authentication](./../site-administration/authentication/)
 
 [Manage License](./../site-administration/manage-license/)

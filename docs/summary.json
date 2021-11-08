@@ -95,6 +95,12 @@
         "Site Administration": {
             "Rebranding": "rebranding",
             "Email Settings": "email-settings",
+            "Authentication": {
+                "Default Authentication": "default-authentication",
+                "OAuth 2.0 Support": "oauth-2.0-support",
+                "OpenID Support": "openid-settings",
+                "JSON Web Token": "json-web-token"
+            },
             "Manage License": "manage-license"
           },    
         "Manage Admin Access": "manage-admin-access.md"
