@@ -7,7 +7,7 @@ documentation: ug
 
 # Manage Users in UMS
 
-This section explains how to add, update, activate and delete users.
+This section explains how to add, update, activate and delete users. 
 
 Users can only be added/edited/deleted by those who are having UMS admin access.
 
