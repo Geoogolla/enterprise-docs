@@ -38,7 +38,7 @@ If you are having multiple Bold Reports licenses, then you will be getting this 
 
 ## Offline Installation
 
-> **NOTE:** Offline unlock key available for selected customers only. [Please contact us](https://www.boldreports.com/contact) to get access to offline unlock key.
+> **NOTE:** Offline unlock key available for selected customers only. Please [contact us](https://www.boldreports.com/contact) to get access to offline unlock key.
 
 ![Activate the account with Unlock key option](/static/assets/on-premise/images/getting-started/application-startup-login-license.png)
 
