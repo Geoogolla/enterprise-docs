@@ -51,6 +51,9 @@ postgresql
 incase
 mariadb
 memsql
+admin
+utility
+v2.4
 deploy
 linux
 deploy-in-linux
