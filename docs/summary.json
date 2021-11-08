@@ -51,6 +51,14 @@
         },
         "Account Activation": "account-activation.md"
     },
+    "Admin Utility": {
+        "Reset Password": "reset-password",
+        "Reset Application Database": "reset-application-database",
+        "v2.4 or older": {
+          "Reset Password for Bold Reports version 2.4 or older": "reset-password",
+          "Reset Application Database for Bold Reports version 2.4 or older": "reset-application-database"
+        }
+    },  
     "Manage Permissions": "manage-permissions.md",
     "Authentication": {
         "Single Sign On": {
@@ -83,7 +91,19 @@
         }
     },
     "Manage Tenants": {
-        "Create Site": "create-site.md"
+        "Create Site": "create-site.md",
+        "Site Administration": {
+            "Rebranding": "rebranding",
+            "Email Settings": "email-settings",
+            "Authentication": {
+                "Default Authentication": "default-authentication",
+                "OAuth 2.0 Support": "oauth-2.0-support",
+                "OpenID Support": "openid-settings",
+                "JSON Web Token": "json-web-token"
+            },
+            "Manage License": "manage-license"
+          },    
+        "Manage Admin Access": "manage-admin-access.md"
     },
     "User Profile": "user-profile.md",
     "Rebranding": "custom-rebranding.md",
