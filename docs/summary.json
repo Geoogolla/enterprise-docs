@@ -95,14 +95,18 @@
         "Site Administration": {
             "Rebranding": "rebranding",
             "Email Settings": "email-settings",
+            "Account Settings": "account-settings",
             "Authentication": {
                 "Default Authentication": "default-authentication",
                 "OAuth 2.0 Support": "oauth-2.0-support",
                 "OpenID Support": "openid-settings",
                 "JSON Web Token": "json-web-token"
             },
+            "API Keys": "api-keys",
             "Manage License": "manage-license"
-          },    
+          },
+        "Manage Sites": "manage-sites",
+        "Manage Users": "manage-users",
         "Manage Admin Access": "manage-admin-access.md"
     },
     "User Profile": "user-profile.md",
