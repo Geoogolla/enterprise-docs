@@ -35,12 +35,12 @@ Choose or enter an existing valid database. e.g. AdventureWorks.
 
 Click on the `Connect` to proceed with query design pane. Now, enter the required query and execute. Its corresponding values will be shown in grid for preview.
 
-![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/mysql-data-source/execute-schema.png)
+![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/ssas-data-source/execute-schema.png)
 
 > Only query mode is supported for Microsoft SQL Server Analysis Services data source.
 
 Click `Finish` to save the data source with a relevant name to proceed with designing report.
-![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/mysql-data-source/data-list.png)
+![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/ssas-data-source/data-list.png)
 
 ### Authentication types for basic connection
 
@@ -68,20 +68,20 @@ Now, the panel is switched to advanced options. In advanced options, you can bui
 
 Set the connection string and authentication type as required and click on `Connect`.
 
-![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/advanced-connection.png)
+![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/ssas-data-source/advanced-connection.png)
 
 Now, enter the required query and execute. Its corresponding values will be shown in grid for preview.
 
-![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/mysql-data-source/execute-schema.png)
+![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/ssas-data-source/execute-schema.png)
 
 > Only query mode is supported for Microsoft SQL Server Analysis Services data source.
 
 Click `Finish` to save the data source with a relevant name to proceed with designing report.
 
-![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/data-list.png)
+![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/ssas-data-source/data-list.png)
 
 > Click on `Basic Options` to switch back to the basic connection settings.
-![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/switch-basic-options.png)
+![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/ssas-data-source/switch-basic-options.png)
 
 ### Authentication types for advanced connection
 

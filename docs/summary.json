@@ -176,6 +176,7 @@
                 "PostgreSQL":"postgresql-data-source.md",
                 "Rest API": "rest-api-data-source.md",
                 "Microsoft SQL": "sql-data-source.md",
+                "Microsoft SQL Server Analysis Services": "ssas-data-source",
                 "XML": "xml-data-source.md"
             },
             "DataSource": {
