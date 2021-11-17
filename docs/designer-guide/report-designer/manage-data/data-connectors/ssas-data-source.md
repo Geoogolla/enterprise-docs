@@ -5,7 +5,7 @@ description: Learn how to connect Microsoft SQL Server Analysis Services (SSAS) 
 
 # Connect to Microsoft SQL Server Analysis Services(SSAS) data source
 
-The Bold Reports allows you to connect with Microsoft SQL Server Analysis Services (SSAS) database using the SQL MDX Query (C# API).
+The Bold Reports allows you to connect with Microsoft SQL Server Analysis Services (SSAS) database.
 
 ## How to create Microsoft SQL Server Analysis Services(SSAS) data source
 
