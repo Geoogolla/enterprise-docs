@@ -449,3 +449,9 @@ linux
 symlink
 deserialize
 Url
+serviceAuthorizationToken
+eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJlbWFpbCI6IL3NpdGU5MSJ9.d24190nn6i2UNz_8hX1mI0JZTNO9zPX1HYSlGClkUyw
+serviceUrl
+serverurl
+reportServiceUrl
+reportPath
