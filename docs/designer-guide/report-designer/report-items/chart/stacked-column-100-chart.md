@@ -57,7 +57,7 @@ To present data in the chart, create a dataset and bind data to the chart data r
 
 ## Assign data
 
-The **Stacked Column 100% Chart** needs a minimum of 1 value element and 1 column element to showcase. The measure or expression field that you would like to analyze can be dropped into the `Y Values` section. The dimension that you would like to categorize the measure can be dropped into the `Columns` section. If you would like to categorize based on a series, then the respective dimension can be dropped onto the `Rows` section in addition.
+The **Stacked Column 100% Chart** needs a minimum of 1 value element and 1 column element to showcase. The measure or expression field that you would like to analyze can be dropped into the `Y Value(s)` section. The dimension that you would like to categorize the measure can be dropped into the `Column` section. If you would like to categorize based on a series, then the respective dimension can be dropped onto the `Row(s)` section in addition.
 
 To configure data into a stacked column 100% chart, follow these steps:
 
@@ -77,7 +77,7 @@ To configure data into a stacked column 100% chart, follow these steps:
 
 5. **Drag and Drop Measure Element**:
 
-   Select and drag the numeric column (measure element) or the numeric expression column from the `Measure` section and drop it in the `Y Values` section.
+   Select and drag the numeric column (measure element) or the numeric expression column from the `Measure` section and drop it in the `Y Value(s)` section.
 
    ![Add a Y-value field](/static/assets/on-premise/images/report-designer/report-items/chart/100-stacked-column-chart/add-y-values-field.png)
 
@@ -181,9 +181,7 @@ Use the [Color Palette](./../../../report-items/chart/color-palette/) property t
 
 ### Title
 
-The chart title can be customized by editing the `Title Text` property of the chart.
-
-To show/hide the chart title, toggle the `Show Chart Title` checkbox.
+To show/hide the chart title, toggle the `Show Chart Title` checkbox. The chart title can be customized by editing the `Title Text` property of the chart.
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/100-stacked-column-chart/chart-title.png)
 
