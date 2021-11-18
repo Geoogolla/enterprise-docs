@@ -378,7 +378,15 @@ TerritoryID.Value
 StoreName.value
 MariaDB
 MemSQL
-MemSQL
+adminutils
+servername
+hostname
+databasename
+iswindowsauthentication
+sslenabled
+AdminUtils
+lic
+rebranded
 sudo
 Nginx
 libgdiplus
@@ -439,3 +447,5 @@ exporitng
 Shedule
 linux
 symlink
+deserialize
+Url
