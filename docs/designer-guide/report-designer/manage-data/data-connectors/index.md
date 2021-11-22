@@ -35,4 +35,6 @@ The Bold Reports Designer supports the Microsoft SQL Server, Oracle, OLEDB, ODBC
 
 * [Microsoft SQL Server](./../../manage-data/data-connectors/sql-data-source/)
 
+* [Microsoft SQL Server Analysis Services](./../../manage-data/data-connectors/ssas-data-source/)
+
 * [XML](./../../manage-data/data-connectors/xml-data-source/)

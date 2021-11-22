@@ -115,6 +115,12 @@ Data label can be added to a chart series by using the `Show Data Label` propert
 
 ## Miscellaneous
 
+### Tooltip
+
+Tooltip property can be used to display informative text or value, when the user hovers over the respective series in report preview. To set tooltip for chart series using properties panel refer [Tooltip](./../../../compose-report/common-properties/#tooltip) section.
+
+![Series tooltip](/static/assets/on-premise/images/report-designer/report-items/chart/series/tooltip.png)
+
 ### Custom Attributes
 
 This property can be used to set the values for chart series custom properties. To assign values for series custom properties using properties panel refer [Custom Properties](./../../../compose-report/common-properties/#custom-properties) section.
