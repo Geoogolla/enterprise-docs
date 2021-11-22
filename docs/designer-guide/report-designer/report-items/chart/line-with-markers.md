@@ -77,7 +77,7 @@ To configure data into a line with markers chart, follow these steps:
 
 5. **Drag and Drop Measure Element**:
 
-   Select and drag the numeric column (measure element) or the numeric expression column from the `Measure` section and drop it in the `Y Values` section.
+   Select and drag the numeric column (measure element) or the numeric expression column from the `Measure` section and drop it in the `Y Value(s)` section.
 
    ![Add a Y-value field](/static/assets/on-premise/images/report-designer/report-items/chart/line-with-markers/add-y-values-field.png)
 

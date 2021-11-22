@@ -188,8 +188,6 @@ These properties are listed under the `Chart Area` category.
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/smooth-line-chart/chart-area-category.png)
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/smooth-line-chart/chart-area-design.png)
-
 Use the [Color Palette](./../../../report-items/chart/color-palette/) property to customize the color of the chart.
 
 ### Title

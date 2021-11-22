@@ -74,7 +74,7 @@ To configure data into a smooth area chart, follow the steps:
 
 5. **Drag and Drop Measure Element**:
 
-   Select and drag the numeric column (measure element) or the numeric expression column from the `Measure` section and drop it in the `Y Values` section.
+   Select and drag the numeric column (measure element) or the numeric expression column from the `Measure` section and drop it in the `Y Value(s)` section.
 
    ![Add a Y-value field](/static/assets/on-premise/images/report-designer/report-items/chart/smooth-area-chart/add-y-values-field.png)
 
@@ -168,9 +168,11 @@ The **Chart Area** properties such as border width, color, and background color 
 
 These properties are listed under the `Chart Area` category.
 
-In this case, we have set the `Color Palette` as `Custom` and, by clicking the edit option in `Custom Colors`, we have picked the color we want and clicked **Update**.
+In this case, we have set the `Color Palette` as `Custom`.
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/smooth-area-chart/chart-area.png)
+
+Refer to the [Custom Colors](./../../../report-items/chart/color-palette/#define-custom-color-palette) for more information.
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/smooth-area-chart/chart-area-custom-color.png)
 

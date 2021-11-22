@@ -6,7 +6,7 @@ keywords: ejReportDesigner, reportdesigner, tablix, reportitem, bold reports, do
 
 # Exploded Pie Chart
 
-The **Exploded Pie Chart** is a simple pie chart with pie explosion can be considered as an exploded pie chart.
+The **Exploded Pie Chart** is the kind of pie chart in which one or several slices are separated from the other.
 
 ## Add chart to the report
 
