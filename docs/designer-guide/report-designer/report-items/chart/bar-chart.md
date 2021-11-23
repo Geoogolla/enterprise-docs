@@ -39,7 +39,7 @@ GROUP BY DATEPART(yy, SOH.OrderDate), PC.Name, PS.Name, 'Q' + DATENAME(qq, SOH.O
 
 ## Assign data
 
-The **Bar Chart** needs a minimum of 1 value element and 1 column element to showcase. The measure or expression field that you would like to analyze can be dropped into the `Y Values` section. The dimension that you would like to categorize the measure can be dropped into the `Columns` section. If you would like to categorize based on a series, then the respective dimension can be dropped into the `Rows` section in addition.
+The **Bar Chart** needs a minimum of 1 value element and 1 column element to showcase. The measure or expression field that you would like to analyze can be dropped into the `Y Value(s)` section. The dimension that you would like to categorize the measure can be dropped into the `Column` section. If you would like to categorize based on a series, then the respective dimension can be dropped into the `Row(s)` section in addition.
 
 To configure data into a bar chart, follow the steps:
 
@@ -59,13 +59,14 @@ To configure data into a bar chart, follow the steps:
 
 5. **Drag and Drop Measure Element**:
 
-   Select and drag the numeric column (measure element) or the numeric expression column from the `Measure` section and drop it in the `Y Values` section.
+   Select and drag the numeric column (measure element) or the numeric expression column from the `Measure` section and drop it in the `Y Value(s)` section.
 
    ![Add a Y-value field](/static/assets/on-premise/images/report-designer/report-items/chart/bar-chart/add-y-values-field.png)
 
    Now, the report item design will look like below:
 
    ![Preview after adding y-value field](/static/assets/on-premise/images/report-designer/report-items/chart/bar-chart/y-value-chart-design-view.png)
+
 6. **Aggregate Options**:
 
    Click the `Settings` icon (highlighted below) to open the aggregation type dropdown list.
@@ -158,15 +159,11 @@ These properties are listed under the `Chart Area` category.
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/bar-chart/chart-area.png)
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/bar-chart/chart-area-design.png)
-
 Use the [Color Palette](./../../../report-items/chart/color-palette/) property to customize the color of the chart.
 
 ### Title
 
-The **chart title** can be customized by editing the `Title Text` property of the chart.
-
-To show/hide the chart title, toggle the `Show Chart Title` checkbox.
+To show/hide the chart title, toggle the `Show Chart Title` checkbox. The **chart title** can be customized by editing the `Title Text` property of the chart.
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/bar-chart/chart-title.png)
 

@@ -159,7 +159,7 @@ We can edit the selected series by clicking the edit button.
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/stepped-line-chart/edit-series.png)
 
-**Marker Property**: In this case, we have enabled the `show Marker` property and set the `Marker type` to `Circle` and `Size(pixel)` to `5.000`.
+**Marker Property**: In this case, we have enabled the `Show Marker` property and set the `Marker Type` to `Circle` and `Size(pixel)` to `5.000`.
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/stepped-line-chart/marker-settings.png)
 
