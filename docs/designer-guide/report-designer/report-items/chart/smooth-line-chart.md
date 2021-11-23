@@ -1,12 +1,12 @@
 ---
-title: Smooth line Chart | Report Designer | Bold Reports
-description: Adding HTML5 JavaScript Smooth line Chart control into report and formatting with the Bold Report Designer.
+title: Smooth Line Chart | Report Designer | Bold Reports
+description: Adding HTML5 JavaScript Smooth Line Chart control into report and formatting with the Bold Report Designer.
 keywords: ejReportDesigner, reportdesigner, tablix, reportitem, documentation, help, ej, user guide, demo, samples, bold reports, bold reporting
 ---
 
 # Smooth Line Chart
 
-The **Smooth line Chart** allows you to showcase trends for analysis over a time period with data points connected using smooth lines.
+The **Smooth Line Chart** allows you to showcase trends for analysis over a time period with data points connected using smooth lines.
 
 ## Add chart to the report
 
@@ -57,7 +57,7 @@ To present data in the chart, create a dataset and bind data to the chart data r
 
 ## Assign data
 
-The **Smooth line chart** needs a minimum of 1 value element and 1 column element to showcase. The measure or expression field that you would like to analyze can be dropped into the `Y Values` section. The dimension that you would like to categorize the measure can be dropped into the `Columns` section. If you would like to categorize based on a series, then the respective dimension can be dropped onto the `Rows` section in addition.
+The **Smooth Line Chart** needs a minimum of 1 value element and 1 column element to showcase. The measure or expression field that you would like to analyze can be dropped into the `Y Value(s)` section. The dimension that you would like to categorize the measure can be dropped into the `Column` section. If you would like to categorize based on a series, then the respective dimension can be dropped onto the `Row(s)` section in addition.
 
 To configure data into a smooth line chart, follow these steps:
 
@@ -77,7 +77,7 @@ To configure data into a smooth line chart, follow these steps:
 
 5. **Drag and Drop Measure Element**:
 
-   Select and drag the numeric column (measure element) or the numeric expression column from the `Measure` section and drop it in the `Y Values` section.
+   Select and drag the numeric column (measure element) or the numeric expression column from the `Measure` section and drop it in the `Y Value(s)` section.
 
    ![Add a Y-value field](/static/assets/on-premise/images/report-designer/report-items/chart/smooth-line-chart/add-y-values-field.png)
 
@@ -126,7 +126,7 @@ To configure data into a smooth line chart, follow these steps:
 
    ![Set expression](/static/assets/on-premise/images/report-designer/report-items/chart/smooth-line-chart/set-expression.png)
 
-## Format Smooth line chart
+## Format Smooth Line Chart
 
 You can format the smooth line chart for better illustration of the view that you require, through the settings available in the  `Properties` tab.
 
@@ -188,15 +188,11 @@ These properties are listed under the `Chart Area` category.
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/smooth-line-chart/chart-area-category.png)
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/smooth-line-chart/chart-area-design.png)
-
 Use the [Color Palette](./../../../report-items/chart/color-palette/) property to customize the color of the chart.
 
 ### Title
 
-The chart title can be customized by editing the `Title Text` property of the chart.
-
-To show/hide the chart title, toggle the `Show Chart Title` checkbox.
+To show/hide the chart title, toggle the `Show Chart Title` checkbox. The chart title can be customized by editing the `Title Text` property of the chart.
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/smooth-line-chart/chart-title.png)
 
