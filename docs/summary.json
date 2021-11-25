@@ -287,7 +287,6 @@
                     "Insert or Delete a Row Group":"insert-or-delete-a-row-group-ssrs.md",
                     "Insert or Delete a Column Group":"insert-or-delete-a-column-group-ssrs.md",
                     "Insert or Delete a Details Group":"add-or-delete-a-details-group-ssrs.md",
-					"Keep Headers visible while scrolling": "keep-headers-visible-while-scrolling-in-tablix.md",
                     "Merge Cells in Data Region": "merge-cells-in-tablix-data-region.md",
                     "Add Filters": "add-filters-to-tablix-data-region.md",
                     "Sort Data": "sort-data-in-tablix-data-region.md",
@@ -298,6 +297,7 @@
                     "Add Grouping and Totals": "add-grouping-and-totals-in-tablix-design.md",
                     "Conditional Formatting": "conditional-formatting-tablix-data-region.md",
                     "Repeat Headers on Each Page": "repeat-headers-on-each-page-in-ssrs.md",
+					"Keep Headers visible while scrolling": "keep-headers-visible-while-scrolling-in-tablix.md",
                     "No Rows Message": "no-rows-message.md"
                 },
                 "Matrix":{
