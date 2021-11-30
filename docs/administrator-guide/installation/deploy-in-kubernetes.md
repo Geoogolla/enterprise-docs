@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Installation in Kubernetes for the Bold Reports Enterprise.
-description: Learn how to set up the Installation in Kubernetes for the Bold Reports Enterprise Edition.
+description: In the bold reports enterprise reporting, learn how to set up the Installation in Kubernetes for the Bold Reports Enterprise Edition.
 platform: report-platform
 documentation: ug
 ---
