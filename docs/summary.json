@@ -298,6 +298,7 @@
                     "Add Grouping and Totals": "add-grouping-and-totals-in-tablix-design.md",
                     "Conditional Formatting": "conditional-formatting-tablix-data-region.md",
                     "Repeat Headers on Each Page": "repeat-headers-on-each-page-in-ssrs.md",
+					"Keep Column Headers Visible While Scrolling in SSRS": "keep-column-headers-visible-while-scrolling-in-ssrs.md",
                     "No Rows Message": "no-rows-message.md"
                 },
                 "Matrix":{
