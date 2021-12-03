@@ -1,10 +1,10 @@
 ---
-title: Keep Headers visible while scrolling in SSRS | Bold Reports
-description: This section describes how to keep headers visible while scrolling in SSRS report in the Bold Report Designer
+title: Keep Headers Visible While Scrolling in SSRS | Bold Reports
+description: This section describes how to keep headers visible while scrolling in SSRS tablix report in the Bold Report Designer
 keywords: ejReportDesigner, reportdesigner, tablix, reportitem, bold reports, documentation, help, ej, user guide, demo, samples, bold reports, bold reporting, repeat headers
 ---
 
-# Keep Column Headers visible while scrolling in SSRS
+# Keep Column Headers Visible While Scrolling in SSRS
 
 To keep column headers visible while scrolling through the report, follow the below steps.
 
