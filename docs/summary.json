@@ -15,7 +15,8 @@
             "Bold Reports on Ubuntu":"bold-report-ubuntu.md",
             "Install optional libraries":"install-opt-library.md",
             "Upgrading Bold Reports Linux package to the Latest Version":"upgrade-linux-server.md"
-        }
+        },
+		"Deploy in Kubernetes":"deploy-in-kubernetes.md"
     },
     "Application Startup": {
         "SQL Server": "sql-configuration",
