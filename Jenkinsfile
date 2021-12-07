@@ -6,7 +6,7 @@ node('EssentialStudio')
         try {        
             stage 'Import'
                 println("Reports Platform Document Validation");
-			    git url: 'https://gitlab.syncfusion.com/bold-reports/shared-groovy.git', branch: 'master', credentialsId: env.JENKINS_CREDENTIAL_ID
+			    git url: 'http://github.com/bold-reports/shared-groovy.git', branch: 'master', credentialsId: env.JENKINS_CREDENTIAL_ID
 			    shared = load 'src/shared.groovy'
 			    shared.setEnvCurlPath();                
 
@@ -65,7 +65,7 @@ node('EssentialStudio')
                             }
                         }
                 }
-                if(currentBuild.result != 'FAILURE' && env.publishBranch.contains(gitlabSourceBranch)) {
+                if(currentBuild.result != 'FAILURE' && env.publishBranch.contains(githubSourceBranch)) {
                     stage 'Publish'
                         try {
                             gitlabCommitStatus('Publish') {
