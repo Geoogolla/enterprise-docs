@@ -17,10 +17,10 @@ This section explains the access modes, entities, scopes, and how to manage the 
 * Read: Provides read permission for the chosen entity.
 * Read and Write: Provides read and write permission for the chosen entity.
 * Read, Write, and Delete: Provides read, write, and delete permission for the chosen entity.
-* Read and Download: Provides read and download permission for the chosen entity.
-* Read, Write, and Download: Provides read, write, and download permission for the chosen entity.
-* Read, Write, Delete, and Download: Provides read, write, delete, and download permission for the chosen entity.
+* Download: Provides download permission for the chosen entity.
 * Create: Provides permission to create the chosen entity.
+* Manage: Provides permission to manage the chosen entity.
+* Create and Manage: Provides permission to create and manage users and groups.
 
 ## Entity
 
@@ -34,6 +34,13 @@ This section explains the access modes, entities, scopes, and how to manage the 
 * Specific Category: Provides permission to access a specific category with the chosen access mode.
 * All Schedules: Provides permission to access all schedules with the chosen access mode.
 * Specific Schedule: Provides permission to access a specific schedule with the chosen access mode.
+* All Settings: Provides permission to access all settings pages with the Manage access mode.
+* Specific Settings: Provides permission to access specific settings page with the Manage access mode.
+* All Groups: Provides permission to create new groups except for import groups from third parties.
+* Users and Groups: Provides permission to access user and group management with the Create and Manage access mode except for the manage permission page. If you want to access the manage permission page, then you need to provide delegate permission.
+* Specific Group: Provides permission to access specific groups with the Manage access mode except for the manage permission page. If you want to access the manage permission page, then you need to provide delegate permission.
+* All Permissions: Provides permission with the Manage access mode to delegate permission for all the resources in users and groups manage permission page. Only, the permission will available, if the user has a specific group or users and groups permission.
+* Specific Permissions: Provides permission with the Manage access mode to delegate permission for specific resource in users and groups manage permission page. Only the permission will available if the user has a specific group or users and groups permission.
 
 ## Scope
 
@@ -44,13 +51,15 @@ Choose scopes for the following entities only, other entities do not require sco
 * Specific Data Source: A specific data source has to be chosen to provide access to it.
 * Specific Category: A specific category has to be chosen to provide access to it.
 * Specific Schedule: A specific schedule has to be chosen to provide access to it.
+* Specific Settings: A specific settings has to be chosen to provide access to it.
+* Specific Group: A specific group has to be chosen to provide access to it.
+* Specific Permissions: A specific resource has to be chosen to delegate the resource permissions.
 
-> `Create` access only have the following scopes:
-> * All Reports
-> * Reports in Category
-> * All Data Sources
-> * All Datasets
-> * All Schedules and All Categories
+> **NOTE**: Create access can only have the Scopes, All Reports, Reports in Category, All Data Sources,All Datasets, All Schedules, All Categories and All Groups.
+>
+> Manage access can only have All Settings, Specific Settings, Specific Group, All Permissions, and Specific Permissions entities.
+>
+> Create and Manage access can only have Users and Groups entity. All Settings, Specific Settings, All Groups, Specific Groups, Users and Groups, All Permissions and Specific Permissions can delegated by the system administrator only.
 
 ## Manage users permissions
 
