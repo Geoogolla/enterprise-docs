@@ -12,6 +12,6 @@
   },
   "dependencies": {
     "gatsby": "2.0.50",
-    "@boldreports/docs-helper": "*"
+    "@boldreports/docs-helper": "1.0.49"
   }
 }
