@@ -55,7 +55,7 @@ Choose scopes for the following entities only, other entities do not require sco
 * Specific Group: A specific group has to be chosen to provide access to it.
 * Specific Permissions: A specific resource has to be chosen to delegate the resource permissions.
 
-> **NOTE**: Create access can only have the Scopes, All Reports, Reports in Category, All Data Sources,All Datasets, All Schedules, All Categories and All Groups.
+> **NOTE**: Create access can only have the Scopes, All Reports, Reports in Category, All Data Sources, All Datasets, All Schedules, All Categories and All Groups.
 >
 > Manage access can only have All Settings, Specific Settings, Specific Group, All Permissions, and Specific Permissions entities.
 >
