@@ -27,3 +27,5 @@ This section helps to get the answer for the frequently asked how to queries in 
 * [How to switch the installed Bold Reports Report Server IIS Express application to IIS?](./../how-to/switch-the-installed-bold-reports-report-server-iis-express-application-to-iis/)
 
 * [How to apply the patches to Bold Reports to support common login with latest BI?](./../how-to/apply-patches-to-bold-reports-to-support-common-login-with-latest-bi/)
+
+* [How to install Bold Reports Server over Bold BI in Azure App Services](./../how-to/how-to-install-bold-reports-server-over-bold-bi/)
