@@ -12,10 +12,9 @@ Code Module is used to add a custom code or custom assemblies to a report. Code 
 
 ## Add Custom Code to a report
 
-1. Click on the **Properties** icon to open **Report Properties**.
-
-    ![open-report-properties](/static/assets/on-premise/images/report-designer/compose-report/unit-switcher/open-report-properties.png)
-2. The custom code option is listed under `Code` category,click on the **Code...** button to open `Code Module` dialog.
+1. Click on the outer grey surface report area and then click on the **Properties** icon to open **Report Properties**.
+    ![report-properies](/static/assets/on-premise/images/report-designer/compose-report/unit-switcher/report-properties.png)
+2. Click on the **Code...** button to open `Code Module` dialog.
 3. In the code tab, type the code snippet as shown below. The following code example demonstrates the custom function that return the color string, based on the given value range.
 
     ```basic
