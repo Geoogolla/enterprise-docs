@@ -116,4 +116,4 @@ After the token is generated, use the generated token by attaching in the reques
 
 ## See also
 
-* [How to generate the access token for Bold Reports Report Server user?](../generate-access-token-for-bold-reports-server-user/)
+* [How to generate the access token for Bold Reports Report Server using credentials?](../generate-access-token-for-bold-reports-server-using-credentials/)
