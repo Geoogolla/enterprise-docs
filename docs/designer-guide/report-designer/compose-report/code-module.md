@@ -8,14 +8,15 @@ keywords: ejReportDesigner, reportdesigner, code, assemblies, class
 
 Code Module is used to add a custom code or custom assemblies to a report. Code module allows to add references to custom code embedded in a report or generated with custom assemblies.
 
-![Open code module](/static/assets/on-premise/images/report-designer/compose-report/code-module/open-code-module.png)
-
 ## Add Custom Code to a report
 
 1. Click on the outer grey surface report area and then click on the **Properties** icon to open **Report Properties**.
+    ![open-properies](/static/assets/on-premise/images/report-designer/compose-report/unit-switcher/open-properties.png)
+2. The custom code option is listed under `Code` category, click on the **Code...** button to open `Code Module` dialog.
     ![report-properies](/static/assets/on-premise/images/report-designer/compose-report/unit-switcher/report-properties.png)
-2. Click on the **Code...** button to open `Code Module` dialog.
-3. In the code tab, type the code snippet as shown below. The following code example demonstrates the custom function that return the color string, based on the given value range.
+3. In the code tab, type the codes in Visual Basic (VB) language. 
+    ![Open code module](/static/assets/on-premise/images/report-designer/compose-report/code-module/open-code-module.png)
+4. The following code example demonstrates the custom function that return the color string, based on the given value range.
 
     ```basic
     Public Function GetColor(ByVal TotalSales As Decimal) As String
@@ -34,11 +35,11 @@ Code Module is used to add a custom code or custom assemblies to a report. Code 
     ```
 
     ![Enter custom code](/static/assets/on-premise/images/report-designer/compose-report/code-module/code-section.png)
-4. Click on the **OK** button.
-5. Use the following expression, to call the custom code function in the report.
+5. Click on the **OK** button.
+6. Use the following expression, to call the custom code function in the report.
     ![Call custom code function](/static/assets/on-premise/images/report-designer/compose-report/code-module/custom-code-expression.png)
 Refer [Expression](./../../compose-report/expressions/) section to learn more about handling expressions.
-6. To view the color changes based on the price range in a report, click `Preview`.
+7. To view the color changes based on the price range in a report, click `Preview`.
 ![Preview custom code](/static/assets/on-premise/images/report-designer/compose-report/code-module/custom-code-preview.png)
 
 ## Add Assembly References
