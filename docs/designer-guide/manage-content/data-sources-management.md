@@ -67,6 +67,7 @@ This section explains on how to share data sources with the other users in the R
 4. After selecting the access and users or groups, click on the `Add` button.
 ![Add button](/static/assets/on-premise/images/manage-content/manage-data-sources/add-access-datasource-permission.png)
 > Only the user who have share permission can share the data source with other Report Server users.
+
 ### Remove data source Permission
 
 The user who will have specific permission can remove the shared report permissions using the `Remove` icon in the `Actions` column of the each permissions.

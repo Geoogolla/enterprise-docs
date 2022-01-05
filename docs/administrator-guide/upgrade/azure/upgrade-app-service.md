@@ -14,7 +14,7 @@ documentation: ug
 
 * To upgrade the Bold Reports Azure App Service to latest version you must have access rights to edit the Bold Reports Server App Service.
 
-Follow below steps to upgrade Bold Reports Azure App Service version from v2.x to v2.4.19.
+Follow below steps to upgrade Bold Reports Azure App Service version from v2.x to v2.4.19 .
 
 1. Login to [Azure portal](https://portal.azure.com/).
 2. Select `App Services` in Microsoft Azure Services.
