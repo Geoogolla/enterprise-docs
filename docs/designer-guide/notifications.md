@@ -25,7 +25,7 @@ To view the system notifications, click on the `Notification` icon in the Report
 
 ### Mail notifications
 
-Enabling the mail notifications option will notify the users through email for comments, permission, schedules, views, users/ groups synchronize, users and groups schedule synchronization and users account activation.
+Enabling the mail notifications option will notify the users through email for comments, permission, schedules, views, users/groups synchronize, users and groups schedule synchronization and users account activation.
 
 ### Auto watch comments of created items
 
