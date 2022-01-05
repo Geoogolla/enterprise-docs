@@ -2639,7 +2639,7 @@
         },
         "DataSetId": {
           "type": "string",
-          "description": "Dataset ID",
+          "description": "Dataset ID. \n\n **Note:** It is not a mandatory field but we must provide either `DataSetId` or `DataSetName` property to mapping the dataset",
           "format": "guid"
         },
         "DataSetName": {
@@ -2661,7 +2661,7 @@
         },
         "DataSourceId": {
           "type": "string",
-          "description": "Datasource ID",
+          "description": "Datasource ID. \n\n  **Note:** It is not a mandatory field but we must provide either `DataSourceId` or `DataSourceName` property to mapping the datasource.",
           "format": "guid"
         },
         "DataSourceName": {
