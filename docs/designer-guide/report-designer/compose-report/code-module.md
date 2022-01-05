@@ -14,7 +14,7 @@ Code Module is used to add a custom code or custom assemblies to a report. Code 
     ![open-properies](/static/assets/on-premise/images/report-designer/compose-report/unit-switcher/open-properties.png)
 2. The custom code option is listed under `Code` category, click on the **Code...** button to open `Code Module` dialog.
     ![report-properies](/static/assets/on-premise/images/report-designer/compose-report/unit-switcher/report-properties.png)
-3. In the code tab, type the codes in Visual Basic (VB) language. 
+3. In the code tab, type the codes in Visual Basic (VB) language.
     ![Open code module](/static/assets/on-premise/images/report-designer/compose-report/code-module/open-code-module.png)
 4. The following code example demonstrates the custom function that return the color string, based on the given value range.
 
