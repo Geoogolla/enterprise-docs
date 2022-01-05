@@ -2629,9 +2629,6 @@
     "DataSetMappingInfoV5": {
       "type": "object",
       "description": "Mapping information of dataset",
-      "required": [
-        "DataSetId"
-      ],
       "properties": {
         "Name": {
           "type": "string",
@@ -2639,7 +2636,7 @@
         },
         "DataSetId": {
           "type": "string",
-          "description": "Dataset ID. \n\n **Note:** It is not a mandatory field but we must provide either `DataSetId` or `DataSetName` property to mapping the dataset",
+          "description": "Dataset ID. \n\n **Note:** It is not a mandatory field but we must provide either `DataSetId` or `DataSetName` property to map the dataset",
           "format": "guid"
         },
         "DataSetName": {
@@ -2651,9 +2648,6 @@
     "DataSourceMappingInfoV5": {
       "type": "object",
       "description": "Mapping information of datasource",
-      "required": [
-        "DataSourceId"
-      ],
       "properties": {
         "Name": {
           "type": "string",
@@ -2661,7 +2655,7 @@
         },
         "DataSourceId": {
           "type": "string",
-          "description": "Datasource ID. \n\n  **Note:** It is not a mandatory field but we must provide either `DataSourceId` or `DataSourceName` property to mapping the datasource.",
+          "description": "Datasource ID. \n\n  **Note:** It is not a mandatory field but we must provide either `DataSourceId` or `DataSourceName` property to map the datasource.",
           "format": "guid"
         },
         "DataSourceName": {
