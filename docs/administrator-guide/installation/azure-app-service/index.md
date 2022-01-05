@@ -17,5 +17,3 @@ Here, you can explore the deployment of Enterprise Bold Reports in Azure App ser
 [Recommended Azure App service configuration](./../../../administrator-guide/installation/azure-app-service/recommendations/)
 
 [Deploy Bold Reports Azure web app using the ARM template](./../../../administrator-guide/installation/azure-app-service/using-arm-template/)
-
-[Upgrade to latest version](./../../../administrator-guide/installation/azure-app-service/upgrade/)
