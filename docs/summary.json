@@ -142,7 +142,8 @@
         "How to apply the patches to Bold Reports Enterprise Reporting":"apply-patches-to-bold-reports.md",        
         "Apply patches to Bold Reports Multi-tenant Azure App Service": "apply-patches-to-bold-reports-azure-app-service.md",
         "Switch the installed Bold Reports Report Server IIS Express application to IIS": "switch-the-installed-bold-reports-report-server-iis-express-application-to-iis.md",
-        "How to apply the patches to Bold Reports to support common login with latest BI":"apply-patches-to-bold-reports-to-support-common-login-with-latest-bi.md"
+        "How to apply the patches to Bold Reports to support common login with latest BI":"apply-patches-to-bold-reports-to-support-common-login-with-latest-bi.md",
+        "How to install Bold Report Server over Bold BI":"how-to-install-bold-reports-server-over-bold-bi.md"
     },
     "FAQ": {
         "Where can i find the error and debug log files?": "where-can-i-find-the-error-and-debug-log-files.md",

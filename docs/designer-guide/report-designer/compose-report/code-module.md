@@ -10,13 +10,13 @@ Code Module is used to add a custom code or custom assemblies to a report. Code 
 
 ## Add Custom Code to a report
 
-1. Click on the outer grey surface report area and then click on the **Properties** icon to open **Report Properties**.
+1. Click the outer grey surface report area and then click the **Properties** icon to open **Report Properties**.
     ![open-properies](/static/assets/on-premise/images/report-designer/compose-report/unit-switcher/open-properties.png)
-2. The custom code option is listed under `Code` category, click on the **Code...** button to open `Code Module` dialog.
+2. The custom code option is listed under the `Code` category, click **Code...** to open Code Module dialog.
     ![report-properies](/static/assets/on-premise/images/report-designer/compose-report/unit-switcher/report-properties.png)
 3. In the code tab, type the codes in Visual Basic (VB) language.
     ![Open code module](/static/assets/on-premise/images/report-designer/compose-report/code-module/open-code-module.png)
-4. The following code example demonstrates the custom function that return the color string, based on the given value range.
+4. The following code example demonstrates the custom function that returns the color string based on the given value range.
 
     ```basic
     Public Function GetColor(ByVal TotalSales As Decimal) As String
@@ -35,7 +35,7 @@ Code Module is used to add a custom code or custom assemblies to a report. Code 
     ```
 
     ![Enter custom code](/static/assets/on-premise/images/report-designer/compose-report/code-module/code-section.png)
-5. Click on the **OK** button.
+5. Click **OK**.
 6. Use the following expression, to call the custom code function in the report.
     ![Call custom code function](/static/assets/on-premise/images/report-designer/compose-report/code-module/custom-code-expression.png)
 Refer [Expression](./../../compose-report/expressions/) section to learn more about handling expressions.
