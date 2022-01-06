@@ -14,7 +14,7 @@ You can generate the access token for the user in Bold Reports by using the <a h
 
    `grant_type` - This type of credentials are used to authorize the request for an access token. Valid values: **password**.
 
-## ASP.NET Core, ASP.NET MVC, and ASP.NET Web Forms
+## .NET,.NET Core, and .NET Framework
 
 Use `HTTPClient` with `ASP.NET Core`, `ASP.NET MVC`, and `ASP.NET Web Forms` applications to interact with RESTful APIs. Refer to the following code to generate the authorization using the credential.
 
@@ -131,3 +131,7 @@ function token(res, callback, callbackInput) {
    request.end();
 }
 ```
+
+See also
+
+* [How to generate the authorization token by using Embed Secret Key API](../generate-authorization-token-for-user-by-using-embed-secret-key-api/)
