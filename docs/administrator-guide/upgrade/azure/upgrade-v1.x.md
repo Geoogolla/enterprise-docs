@@ -8,7 +8,7 @@ documentation: ug
 
 # Upgrade Bold Reports Azure App Service version from v1.x to 2.3.x
 
-This section explains how to upgrade Bold Reports Azure app Service from 1.x to 2.3.x .
+This section explains how to upgrade Bold Reports Azure app Service from v1.x to 2.3.x .
 
 ## Create a Bold Reports Azure App Service with latest version
 
