@@ -131,3 +131,7 @@ function token(res, callback, callbackInput) {
    request.end();
 }
 ```
+
+See also
+
+* [How to generate the authorization token by using Embed Secret Key API](../generate-authorization-token-for-user-by-using-embed-secret-key-api/)
