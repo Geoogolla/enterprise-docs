@@ -27,25 +27,33 @@ Data source can be added to Report Server only if the user has `Create All Data 
 
    > While adding datasource we can also add new Dataset to the Report Server either by using `Create New Datasource` option or `Use existing Datasource` option.
 
-2. By default, `Create New Datasource` will be chosen. Enter the name and description of the data source, the data source type, connection string and the connection detail to connect the selected data source type. Data source can be created with connections to any one of the following data source types,
-    ![Set data source properties](/static/assets/on-premise/images/manage-content/manage-data-sources/add-data-source.png)
+#### Create New Datasource
 
-    * SQL
-    * SQLCE
-    * OLEDB
-    * ODBC
-    * Oracle
-    * XML
-    * SSAS
-    * PostgreSQL
-    ![Set data source existing](/static/assets/on-premise/images/manage-content/manage-data-sources/add-data-source-existing.png)
+1. Click on `Create New Datasource` option, it will show enabled connectors like below image.
+![Set data connectors type](/static/assets/on-premise/images/manage-content/manage-data-sources/connectors-type.png)
 
-3. Click on `Connect` button, it will add new dataset by connecting with newly created or existing datasource.
+2. Choose the data source. Enter the name, description and the other required details of the data source and click on the
+`Save and Create DataSet` option.
+    ![Set data source properties](/static/assets/on-premise/images/manage-content/manage-data-sources/add-new-data-source.png)
 
-4. Enter the name and description of the dataset and click on `Proceed to Designer` option.
+3. Enter the name and description of the dataset and click on `Proceed to Query Designer` option.
 ![Proceed to designer](/static/assets/on-premise/images/manage-content/manage-data-sources/proceed-to-designer.png).
 
-5. After designing dataset click on the `save` option.
+4. After designing dataset click on the `save` option.
+
+    >`Read Write Delete Download` permission for the `Specific Data Source` will be added for the user who created the data source.
+
+#### Use existing Datasource
+
+1. Click on `Use existing Datasource` option, it will show all existing data sources.
+
+2. Select the existing data source, click on `Connect` button to create new dataset.
+![Set Use existing Datasource](/static/assets/on-premise/images/manage-content/manage-data-sources/add-data-source-existing.png)
+
+3. Enter the name and description of the dataset and click on `Proceed to Query Designer` option.
+![Proceed to designer](/static/assets/on-premise/images/manage-content/manage-data-sources/proceed-to-designer.png).
+
+4. After designing dataset click on the `save` option.
 
     >`Read Write Delete Download` permission for the `Specific Data Source` will be added for the user who created the data source.
 
@@ -75,7 +83,8 @@ This section explains how to update the data sources in Bold Reports.
 1. Click the `Actions` in the data sources grid context menu and select `Update` option.
 ![Update datasource menu option](/static/assets/on-premise/images/manage-content/manage-data-sources/update-datasource-option.png)
 
-2. The name, description, data source type, connection string, and credential details to connect to the specified data source type can be changed by clicking `Update` option in the update data source dialog box.
+2. The name, description and the other required details can be changed by clicking `Update` option in the update data source
+dialog box.
 ![Update option](/static/assets/on-premise/images/manage-content/manage-data-sources/update-option.png)
 
 >This option is available on Bold Reports On-Premise Edition from `2.2.28` version.

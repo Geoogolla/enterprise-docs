@@ -82,6 +82,7 @@
         "Active Directory": "active-directory.md",
         "Azure Active Directory": "azure-active-directory.md",
         "Email": "email-settings.md",
+        "Connectors Settings":"connectors-settings",
         "Database Settings": "database-settings.md",
         "Report Settings": "report-settings.md",
         "Oauth2.0": "oauth-settings.md",
