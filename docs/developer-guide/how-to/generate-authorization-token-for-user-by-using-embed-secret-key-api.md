@@ -30,6 +30,8 @@ Add the following assemblies in a namespace:
 
 > Refer `Newtonsoft.Json` assembly from [nuget package](https://www.nuget.org/packages/Newtonsoft.Json/).
 
+## .NET, .NET Core, .NET Framework
+
 ```csharp
 public class Token
 {
