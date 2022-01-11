@@ -33,8 +33,11 @@ v2.x
 2.x
 v4.x
 4.x
+2.4.x
 v2.4.x
 v2.4.19
+3.x
+v3.x
 programmatically
 publishsettings
 readonly-ftp
@@ -465,6 +468,7 @@ reportServiceUrl
 reportPath
 kubernetes
 url
+v2.3.x
 Github
 zilla
 quickconnect
@@ -477,8 +481,3 @@ Version.xml
 version.xml
 WEBSITE_LOAD_USER_PROFILE
 v3.3.23
-2.4.x
-3.x
-v3.x
-v2.3.x
-2.3.x
