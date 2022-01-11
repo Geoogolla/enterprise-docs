@@ -4374,6 +4374,49 @@
         }
       }
     },
+    "ApiDatasetMapping": {
+      "type": "object",
+      "description": "Returns the dataset mapping information like shared dataset id, shared dataset name and name of the dataset",
+      "required": [
+        "CategoryId",
+        "SharedDataSetId",
+        "SharedDataSetName",
+        "Name"
+      ],
+      "properties": {
+        "SharedDataSetId": {
+          "type": "string",
+          "description": "Returns the shared dataset id of the report"
+        },
+        "SharedDataSetName": {
+          "type": "string",
+          "description": "Returns the shared dataset name of the report"
+        },
+        "Name": {
+          "type": "string",
+          "description": "Returns the name of the dataset"
+        }
+      }
+    },
+    "ApiDatasourceMapping": {
+      "type": "object",
+      "description": "Returns the datasource mapping information like shared datasource id, shared datasource name and name of the datasource",
+      "required": [
+        "SharedDataSourceId",
+        "SharedDataSourceName",
+        "Name"
+      ],
+      "properties": {
+        "SharedDataSourceId": {
+          "type": "string",
+          "description": "Returns the shared datasource id of the report"
+        },
+        "SharedDataSourceName": {
+          "type": "string",
+          "description": "Returns the shared datasource name of the report"
+        }
+      }
+    },
     "ExportFilterParameters": {
       "type": "object",
       "description": "Filter Parameters details",
