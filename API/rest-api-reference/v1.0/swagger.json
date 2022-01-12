@@ -2127,6 +2127,110 @@
           }
         }
       }
+    },
+    "/api/site/{tenant-name}/v1.0/activity-logs": {
+      "get": {
+        "tags": [
+          "Audit Logs"
+        ],
+        "summary": "All Activity Logs",
+        "description": "With this endpoint, site administrator can retrieve list of all activities performed in the site.",
+        "operationId": "Audit-Logs_AllActivityLogs",
+        "parameters": [
+          {
+            "type": "string",
+            "name": "activitymodule",
+            "in": "query",
+            "required": false,
+            "x-nullable": false,
+            "description": "Module in which the activity performed",
+            "enum":[
+              "Group",
+              "GroupPermission",
+              "User",
+              "UserPermission",
+              "Comment",
+              "Schedule",
+              "System",
+              "Item"
+            ]
+          },
+          {
+            "type": "string",
+            "name": "activity",
+            "in": "query",
+            "required": false,
+            "enum":[
+              "Added",
+              "Updated",
+              "Deleted",
+              "Synchronized",
+              "Imported",
+              "Visited",
+              "UserAdded",
+              "UserRemoved",
+              "PermissionAdded",
+              "PermissionRemoved",
+              "Edited",
+              "Replied",
+              "UserMentioned",
+              "Success",
+              "Failed",
+              "Run",
+              "Activated",
+              "Retried",
+              "Enabled",
+              "Disabled",
+              "Visited",
+              "Moved",
+              "Copied",
+              "Cloned",
+              "Restored",
+              "Rollbacked"
+            ],
+            "description": "Type of the activity performed.(It depends on ActivityModule)"
+          },
+          {
+            "type": "string",
+            "name": "itemtype",
+            "in": "query",
+            "required": false,
+            "description": "Type of the Item.(Only for Item module)",
+            "x-schema": {
+              "$ref": "#/definitions/ItemType"
+            },
+            "x-nullable": false,
+            "enum": [
+              "Category",
+              "Report",
+              "Datasource",
+              "Dataset",
+              "Schedule"
+            ]
+          }
+        ],
+        "responses": {
+          "200": {
+            "x-nullable": false,
+            "description": "List of activities retrieved successfully",
+            "schema": {
+              "$ref": "#/definitions/ActivityLogResponseList"
+            }
+          },
+          "204": {
+            "description": "Activity log is empty"
+          },
+          "400": {
+            "description": "Invalid request"
+          },
+          "401": {
+            "description": "Access Denied"
+          },
+          "405": {
+            "description": "Request Type was not GET"
+          }
+        }
+      }
     }
   },
   "definitions": {
