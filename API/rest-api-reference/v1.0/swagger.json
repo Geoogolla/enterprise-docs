@@ -31,6 +31,10 @@
     {
       "name": "Permission",
       "description": "To retrieve a list of permissions, or retrieve, create and delete a particular permission in the Bold Reports On-Premise, use the corresponding endpoints below.\n"
+    },
+    {
+      "name": "Audit Logs",
+      "description": "To retrieve a list of activities performed in the Bold Reports Enterprise edition, use the corresponding endpoints below.\n"
     }
 	],
   "paths": {
