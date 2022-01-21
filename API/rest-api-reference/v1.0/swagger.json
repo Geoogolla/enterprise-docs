@@ -4845,16 +4845,6 @@
           }
         }
       }
-    },
-    "ExportFilterParameters": {
-      "type": "object",
-      "description": "Filter Parameters details",
-      "properties": {
-        "FilterParameters": {
-          "type": "string",
-          "description": "Specify the filter parameter values to be applied in reports. The JSON for the different types of parameters includes, \n\n 1. For String parameter - {\"FilterParameters\":\"{\\'SalesOrderNumber':['SO50750']}\"} \n\n  2. For Integer parameter - {\"FilterParameters\":\"{\\'InvoiceID':['10252']}\"} \n\n 3. For Date parameter - {\"FilterParameters\":\"{\\'StartDate':['1/1/2003'],\\'EndDate':['1/31/2003']}\"} \n\n 4. For Boolean parameter - {\"FilterParameters\":\"{\\'ReportParameter1':['true']}\"} \n\n The Date parameters input values are validated based on the server culture. Valid formats for en-us culture as following: `mm/dd/yyyy` `yyyy/mm/dd` `dd/mmm/yyyy` `mmm/dd/yyyy` `yyyy/dd/mmm` `yyyy/mmm/dd`."
-        }
-      }
     }
   },
     "parameters": {},
