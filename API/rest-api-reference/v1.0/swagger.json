@@ -33,6 +33,10 @@
       "description": "To retrieve a list of permissions, or retrieve, create and delete a particular permission in the Bold Reports On-Premise, use the corresponding endpoints below.\n"
     },
     {
+      "name": "Settings",
+      "description": "To update the details of the email settings in the Bold Reports Enterprise edition, use the corresponding endpoints below.\n"
+    },
+    {
       "name": "Audit Logs",
       "description": "To retrieve a list of activities performed in the Bold Reports Enterprise edition, use the corresponding endpoints below.\n"
     }
@@ -1414,66 +1418,6 @@
         }
       }
     },
-    "/api/site/{tenant-name}/v2.0/report/{reportId}/copy": {
-      "post": {
-        "tags": [
-          "Items"
-        ],
-        "summary":"Copy report",
-        "description":"Users who have access to the report, can copy the report by providing respective report details in the request body.",
-        "operationId":"Items_CopyReport",
-        "parameters": [
-          {
-            "type": "string",
-            "name": "reportId",
-            "in": "path",
-            "required": true,
-            "format": "guid",
-            "x-nullable": false
-          },
-          {
-            "name": "apiCopyReport",
-            "in": "body",
-            "required": true,
-            "description": "Details of the report passed will be copied",
-            "schema": {
-            "$ref": "#/definitions/ApiCopyReport"
-            },
-            "x-nullable": false
-          }        
-        ],
-        "responses": {
-          "200": {
-            "x-nullable": false,
-            "description": "Report has been copied successfully",
-            "schema": {
-              "$ref": "#/definitions/ApiCopyReportResponse"
-            }
-          },
-          "400": {
-            "description": "The content of the request body is missing or incomplete"
-          },
-          "401": {
-            "description": "Access denied"
-          },
-          "403":{
-            "description": "Do not have permission to set report will be copied as public"
-          },
-          "404": {
-            "description": "Item detail not found"
-          },
-          "406": {
-            "description": "The content of the request body is invalid"
-          },          
-          "409":{
-            "description": "Report will be copied name already exists"
-          },
-          "417": {
-            "description": "Failed to copy report"
-          }         
-        }
-      }
-    },
     "/api/site/{tenant-name}/v1.0/permissions/users/{id}": {
       "get": {
         "tags": [
@@ -2128,6 +2072,52 @@
           },
           "417": {
             "description": "Failed to get group details"
+          }
+        }
+      }
+    },
+    "/api/site/{tenant-name}/v1.0/email": {
+      "put": {
+        "tags": [
+          "Settings"
+        ],
+        "summary": "Update Email Settings",
+        "description": "With this endpoint, User who have permission to modify email settings can edit the details in the request body.",
+        "operationId": "Settings_EditEmailSettingsOfSite",
+        "parameters": [
+          {
+            "name": "EmailDetail",
+            "in": "body",
+            "required": true,
+            "description": "Detail of the email settings.",
+            "schema": {
+              "$ref": "#/definitions/ApiEmailEdit"
+            },
+            "x-nullable": true
+          }
+        ],
+        "responses": {
+          "200": {
+            "x-nullable": false,
+            "description": "Email settings has been updated successfully",
+            "schema": {
+              "$ref": "#/definitions/ApiResponseEmail"
+            }
+          },
+          "400": {
+            "description": "The content of the request body is missing or incomplete"
+          },
+          "405": {
+            "description": "Request type was not PUT"
+          },
+          "401": {
+            "description": "Access denied"
+          },
+          "404": {
+            "description": "Attribute not found"
+          },
+          "406": {
+            "description": "The content of the request body is invalid"
           }
         }
       }
@@ -4491,48 +4481,116 @@
           "format": "byte"
         }
       }
-    }, 
-    "ApiCopyReport": {
+    },
+    "ApiDatasetMapping": {
       "type": "object",
+      "description": "Returns the dataset mapping information like shared dataset id, shared dataset name and name of the dataset",
       "required": [
-        "CategoryId",
+        "SharedDataSetId",
+        "SharedDataSetName",
         "Name"
       ],
       "properties": {
-        "CategoryId": {
+        "SharedDataSetId": {
           "type": "string",
-          "description": "Category ID.",
-          "format": "guid"
+          "description": "Returns the shared dataset id of the report"
+        },
+        "SharedDataSetName": {
+          "type": "string",
+          "description": "Returns the shared dataset name of the report"
         },
         "Name": {
           "type": "string",
-          "description": "Report name"
-        },
-        "Description":{
-          "type":"string",
-          "description":"Report description"
-        },
-        "IsPublic": {
-          "type": "boolean",
-          "description": "Specify true to set the item as a public."
-        },
-        "IsCopyDatasource":{
-          "type":"boolean",
-          "description":"Copy the datasource of the report based on this value"
-        },
-        "IsCopyDataset":{
-          "type":"boolean",
-          "description":"Copy the dataset of the report based on this value"
+          "description": "Returns the name of the dataset"
         }
       }
     },
-    "ApiCopyReportResponse": {
+    "ApiDatasourceMapping": {
+      "type": "object",
+      "description": "Returns the datasource mapping information like shared datasource id, shared datasource name and name of the datasource",
+      "required": [
+        "SharedDataSourceId",
+        "SharedDataSourceName",
+        "Name"
+      ],
+      "properties": {
+        "SharedDataSourceId": {
+          "type": "string",
+          "description": "Returns the shared datasource id of the report"
+        },
+        "SharedDataSourceName": {
+          "type": "string",
+          "description": "Returns the shared datasource name of the report"
+        },
+                "Name": {
+          "type": "string",
+          "description": "Returns the name of the datasource"
+        }
+      }
+    },
+    "ExportFilterParameters": {
+      "type": "object",
+      "description": "Filter Parameters details",
+      "properties": {
+        "FilterParameters": {
+          "type": "string",
+          "description": "Specify the filter parameter values to be applied in reports. The JSON for the different types of parameters includes, \n\n 1. For String parameter - {\"FilterParameters\":\"{\\'SalesOrderNumber':['SO50750']}\"} \n\n  2. For Integer parameter - {\"FilterParameters\":\"{\\'InvoiceID':['10252']}\"} \n\n 3. For Date parameter - {\"FilterParameters\":\"{\\'StartDate':['1/1/2003'],\\'EndDate':['1/31/2003']}\"} \n\n 4. For Boolean parameter - {\"FilterParameters\":\"{\\'ReportParameter1':['true']}\"} \n\n The Date parameters input values are validated based on the server culture. Valid formats for en-us culture as following: `mm/dd/yyyy` `yyyy/mm/dd` `dd/mmm/yyyy` `mmm/dd/yyyy` `yyyy/dd/mmm` `yyyy/mmm/dd`."
+        }
+      }
+    },
+    "ApiEmailEdit": {
+      "type": "object",
+      "description": "Email detail",
+      "required": [
+        "SMTPServer",
+        "SMTPPort",
+        "SenderName",
+        "SenderEmailAddress",
+        "AuthenticationType",
+        "Username",
+        "Password",
+        "EnableSSL"
+      ],
+      "properties": {
+        "SMTPServer": {
+          "type": "string",
+          "description": "SMTP server."
+        },
+        "SMTPPort": {
+          "type": "string",
+          "description": "SMTP port."
+        },
+        "SenderName": {
+          "type": "string",
+          "description": "Specifies the sender name of the user."
+        },
+        "SenderEmailAddress": {
+          "type": "string",
+          "description": "Email address of the user."
+        },
+        "AuthenticationType": {
+          "type": "string",
+          "description": "Authentication type. Vaild values: `\"Basic\"` `\"Anonymous\"`."
+        },
+         "Username": {
+          "type": "string",
+          "description": "Username of the user."
+        },
+         "Password": {
+          "type": "string",
+          "description": "Password of the user."
+        },
+        "EnableSSL": {
+          "type": "boolean",
+          "description": "Enable SSL."
+        }
+      }
+    },
+    "ApiResponseEmail": {
       "type": "object",
       "required": [
         "ApiStatus",
-        "Status",
-        "PublishedItemId",
-        "Version"
+        "Status"
       ],
       "properties": {
         "ApiStatus": {
@@ -4542,16 +4600,6 @@
         "Status": {
           "type": "boolean",
           "description": "Returns status of the API request."
-        },
-        "PublishedItemId":{
-          "type":"string",
-          "description":"Returns the published report item id",
-          "format":"guid"
-        },
-        "Version":{
-          "type":"integer",
-          "description":"Returns the version number of the report",
-          "format":"int32"
         },
         "StatusMessage": {
           "type": "string",

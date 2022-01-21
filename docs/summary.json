@@ -8,7 +8,7 @@
 	    "Recommendations":"recommendations.md",
 	    "Using ARM template":"using-arm-template.md",
 	    "Client libraries":"client-libraries.md",
-        "Upgrade":"upgrade.md"
+        "Upgrade":"upgrade-to-latest.md"
 	},
         "Deploy in Linux":{
             "Prerequisites":"prerequisites.md",
@@ -123,9 +123,10 @@
            "Upgrade v2.x to latest": "upgrade-bold-reports-from-v2.x-to-latest.md"
         },
         "Azure": {
-          "Upgrade Bold Reports Azure App Service from v1.x to latest": "upgrade-v1.x.md",
-          "Upgrade Bold Reports Azure App Service from v2.x to latest": "upgrade-app-service.md",
-          "Upgrade Syncfusion Report Server Azure App Service from v4.x to latest": "migrate-syncfusion-report-server-app-service.md"
+            "Upgrade v2.4.19 to latest":"upgrade-v2.x-to-latest.md",
+            "Upgrade Bold Reports Azure App Service from v1.x to 2.3.x": "upgrade-v1.x.md",
+            "Upgrade Bold Reports Azure App Service from v2.x to 2.4.19": "upgrade-app-service.md",
+            "Upgrade Syncfusion Report Server Azure App Service from v4.x to 2.3.x": "migrate-syncfusion-report-server-app-service.md"
         }
     },
     "How To": {

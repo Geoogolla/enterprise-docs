@@ -18,16 +18,16 @@ This section explains about how to share report with users by adding permission 
 2. Click the `Manage Access` button.
 ![Manage Access Button](/static/assets/on-premise/images/manage-content/manage-reports/manage-access-button.png)
 
-3. Select the permission access and the users or groups to share the dashboard.
+3. Select the permission access and the users or groups to share the report.
 ![Share Report](/static/assets/on-premise/images/manage-content/manage-reports/share-report.png)
 
 4. After selecting the access and users or groups, click on the `Add` button.
 ![Add button](/static/assets/on-premise/images/manage-content/manage-reports/add-button.png)
-> Only the user who created the Report can share the Report with other Report Server users.
+> Only the user who have share permission can share the Report with other Report Server users.
 
 ## Remove Permission
 
-The user who created the report and the Administrator can remove the shared report permissions using the `Remove` icon in the `Actions` column of the each permissions.
+The user who will have specific permission can remove the shared report permissions using the `Remove` icon in the `Actions` column of the each permissions.
 ![Add Permission](/static/assets/on-premise/images/manage-content/manage-reports/remove-permission.png)
 
 ## share report link to the users
