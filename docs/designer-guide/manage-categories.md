@@ -51,21 +51,21 @@ You can set permissions to the categories to share with other users in the Repor
 
 1. Click **Actions** in the category list context menu and select **Sharing Permissions**.
 ![Select Sharing Permissions option](/static/assets/on-premise/images/manage-categories/category-setting-options.png)
-2. In the Sharing Permissions dialog, click `Share To` tab. By default, it will be open with `Share To` tab.
-3. Select the permission access from the Select Access drop-down and select the users or groups to share the category.
-![select the users or groups to share the category](/static/assets/on-premise/images/manage-categories/share-category.png)
+2. Click the `Manage Access` button.
+![Set permissions to share a Category](/static/assets/on-premise/images/manage-categories/share-category.png)
 
-4. After selecting the access, users, and groups, click **Share** button.
-    ![Add category permission to share](/static/assets/on-premise/images/manage-categories/add-permission.png)
-    > Only the user who created the category can share it with other users.
+3. Select the permission access and the users or groups to share the Category.
+    ![Add permission to Category](/static/assets/on-premise/images/manage-categories/add-permission.png)
 
-### Remove permission
+4. After selecting the access and users or groups, click on the `Add` button.
+![Add button](/static/assets/on-premise/images/manage-categories/select-category-permission.png)
 
-The user who created the category can remove the shared category permissions by following these steps:
+>Only the user who have permission can share the category with other Report Server users.
 
-1. In the Sharing Permissions dialog, click `Share With` tab. select the user or group to remove the permission.
-2. Click **Remove** in the Actions column of the each permissions.
-![Remove user or group shared permission](/static/assets/on-premise/images/manage-categories/remove-permission.png)
+### Remove Category permission
+
+The user who will have specific permission can remove the shared Category permissions using the `Remove` option in the `Actions` column of the each permissions.
+![Remove Permission](/static/assets/on-premise/images/manage-categories/remove-permission.png)
 
 ## Delete category
 

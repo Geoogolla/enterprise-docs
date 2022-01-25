@@ -66,13 +66,20 @@ This section explains on how to share data sources with the other users in the R
 1. Click the `Actions` button in the Data sources grid context menu and select `Sharing Permissions` option.
 ![Sharing permission menu option](/static/assets/on-premise/images/manage-content/manage-data-sources/manage-datasource-permission-context-menu.png)
 
-2. Sharing permission dialog will open. By default it will open dialog with `Share To` tab. Select the permission access from the `Select Access` dropdown and select the users or groups to share the data source.
+2. Click the `Manage Access` button.
 ![Select data source access permission](/static/assets/on-premise/images/manage-content/manage-data-sources/select-datasource-permission-dialog.png)
 
-3. After selecting the access and users or groups, click on the `Share` button.
+3. Select the permission access and the users or groups to share the datasource.
     ![Add permission to a data source](/static/assets/on-premise/images/manage-content/manage-data-sources/add-datasource-permission.png)
 
-    > Only the user who created the data source can share the data source with other Report Server users.
+4. After selecting the access and users or groups, click on the `Add` button.
+![Add button](/static/assets/on-premise/images/manage-content/manage-data-sources/add-access-datasource-permission.png)
+> Only the user who have share permission can share the data source with other Report Server users.
+
+### Remove data source Permission
+
+The user who will have specific permission can remove the shared report permissions using the `Remove` icon in the `Actions` column of the each permissions.
+![Add Permission](/static/assets/on-premise/images/manage-content/manage-data-sources/remove-datasource-permission.png)
 
 ## Update data sources
 
@@ -88,11 +95,6 @@ dialog box.
 ![Update option](/static/assets/on-premise/images/manage-content/manage-data-sources/update-option.png)
 
 >This option is available on Bold Reports On-Premise Edition from `2.2.28` version.
-
-### Remove data source permission
-
-Click on the `Shared With` tab. The user who created the data source can remove the shared data source permissions using the `Remove` option in the `Actions` column of the each permissions.
-![Remove permission of a data source](/static/assets/on-premise/images/manage-content/manage-data-sources/remove-datasource-permission.png)
 
 ## Delete data source
 

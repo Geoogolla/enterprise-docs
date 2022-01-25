@@ -43,13 +43,17 @@ Saved Report Views of each report will be listed in the context menu of the resp
 
 Saved Report Views can be shared with other users and groups in the Bold Report Server. They can be also shared to anonymous users.
 
-To share the Report Views, click the `share` icon of the respective report view from `Saved Views` panel.
-
+1. To share the Report Views, click the `share` icon of the respective report view from `Saved Views` panel.
 ![Share Report View](/static/assets/on-premise/images/manage-content/manage-reports/share-icon.png)
 
-Choose the users and groups from the drop-down and click `Share` to share to the selected users and groups.
-
+2. Click the `Manage Access` button.
 ![Share Report View popup](/static/assets/on-premise/images/manage-content/manage-reports/share-report-view.png)
+
+3. Select the users or groups to share the report view.
+![Add permission to a report view](/static/assets/on-premise/images/manage-content/manage-reports/selecting-user-group.png)
+
+4. After selecting the users or groups, click on the `Add` button.
+![Add button](/static/assets/on-premise/images/manage-content/manage-reports/manage-access-report-view.png)
 
 ## Copy the Report Views link
 

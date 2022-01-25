@@ -70,17 +70,19 @@ This section explains on how to share dataset with the other users in the Report
 1. Click the `Actions` button in the dataset grid context menu and select `Sharing Permissions` option.
     ![Manage dataset permission option](/static/assets/on-premise/images/manage-content/manage-data-sets/manage-dataset-permissions.png)
 
-2. Sharing permission dialog will open. By default it will open dialog with `Share To` tab. Select the permission access from the `Select Access` dropdown and select the users or groups to share the dataset.
-    ![Set permissions to share a dataset](/static/assets/on-premise/images/manage-content/manage-data-sets/manage-dataset-permission-dialog.png)
+2. Click the `Manage Access` button.
+![Set permissions to share a dataset](/static/assets/on-premise/images/manage-content/manage-data-sets/manage-dataset-permission-dialog.png)
 
-3. After selecting the access and users or groups, click on the `Add Permission` button.
+3. Select the permission access and the users or groups to share the dataset.
     ![Add permission to dataset](/static/assets/on-premise/images/manage-content/manage-data-sets/add-dataset-permission.png)
 
-    > Only the user who created the dataset can share the dataset with other Report Server users.
+4. After selecting the access and users or groups, click on the `Add` button.
+![Add button](/static/assets/on-premise/images/manage-content/manage-data-sets/add-access-dataset-permission.png)
+> Only the user who have share permission can share the dataset with other Report Server users.
 
-### Remove permission
+### Remove dataset permission
 
-Click on the `Shared With` tab. The user who created the dataset can remove the shared dataset permissions using the `Remove` option in the `Actions` column of the each permissions.
+The user who will have specific permission can remove the shared dataset permissions using the `Remove` option in the `Actions` column of the each permissions.
 ![Remove Permission](/static/assets/on-premise/images/manage-content/manage-data-sets/remove-dataset-permission.png)
 
 ## Version history
