@@ -2225,6 +2225,403 @@
           }
         }
       }
+    },
+    "/api/site/{tenant-name}/v1.0/activity-logs?activitymodule=group": {
+      "get": {
+        "tags": [
+          "Audit Logs"
+        ],
+        "summary": "Group Activity Logs",
+        "description": "With this endpoint, site administrator can retrieve the list of activities performed in group module.",
+        "operationId": "Audit-Logs_GroupActivityLogs",
+        "parameters": [
+          {
+            "type": "string",
+            "name": "activity",
+            "in": "query",
+            "required": false,
+            "enum":[
+              "Added",
+              "Updated",
+              "Deleted",
+              "Synchronized",
+              "Imported",
+              "Visited",
+              "UserAdded",
+              "UserRemoved"
+            ],
+            "description": "Type of group activity performed."
+          }
+        ],
+        "responses": {
+          "200": {
+            "x-nullable": false,
+            "description": "List of group activities retrieved successfully",
+            "schema": {
+              "$ref": "#/definitions/GroupActivityLogResponseList"
+            }
+          },
+          "204": {
+            "description": "Group activity log is empty"
+          },
+          "400": {
+            "description": "Invalid request"
+          },
+          "401": {
+            "description": "Access Denied"
+          },
+          "405": {
+            "description": "Request Type was not GET"
+          }
+        }
+      }
+    },
+    "/api/site/{tenant-name}/v1.0/activity-logs?activitymodule=grouppermission": {
+      "get": {
+        "tags": [
+          "Audit Logs"
+        ],
+        "summary": "Group Permission Activity Logs",
+        "description": "With this endpoint, site administrator can retrieve the list of activities performed in group permission module.",
+        "operationId": "Audit-Logs_GroupPermissionActivityLogs",
+        "parameters": [
+          {
+            "type": "string",
+            "name": "activity",
+            "in": "query",
+            "required": false,
+            "enum":[
+              "PermissionAdded",
+              "PermissionRemoved"
+            ],
+            "description": "Type of group permission activity performed."
+          }
+        ],
+        "responses": {
+          "200": {
+            "x-nullable": false,
+            "description": "List of group permission activities retrieved successfully",
+            "schema": {
+              "$ref": "#/definitions/GroupPermissionActivityLogResponseList"
+            }
+          },
+          "204": {
+            "description": "Group permission activity log is empty"
+          },
+          "400": {
+            "description": "Invalid request"
+          },
+          "401": {
+            "description": "Access Denied"
+          },
+          "405": {
+            "description": "Request Type was not GET"
+          }
+        }
+      }
+    },
+    "/api/site/{tenant-name}/v1.0/activity-logs?activitymodule=user": {
+      "get": {
+        "tags": [
+          "Audit Logs"
+        ],
+        "summary": "User Activity Logs",
+        "description": "With this endpoint, site administrator can retrieve the list of activities performed in user module.",
+        "operationId": "Audit-Logs_UserActivityLogs",
+        "parameters": [
+          {
+            "type": "string",
+            "name": "activity",
+            "in": "query",
+            "required": false,
+            "enum":[
+              "Added",
+              "Updated",
+              "Deleted",
+              "Synchronized",
+              "Imported",
+              "Visited"
+            ],
+            "description": "Type of user activity performed."
+          }
+        ],
+        "responses": {
+          "200": {
+            "x-nullable": false,
+            "description": "List of user activities retrieved successfully",
+            "schema": {
+              "$ref": "#/definitions/UserActivityLogResponseList"
+            }
+          },
+          "204": {
+            "description": "User activity log is empty"
+          },
+          "400": {
+            "description": "Invalid request"
+          },
+          "401": {
+            "description": "Access Denied"
+          },
+          "405": {
+            "description": "Request Type was not GET"
+          }
+        }
+      }
+    },
+    "/api/site/{tenant-name}/v1.0/activity-logs?activitymodule=userpermission": {
+      "get": {
+        "tags": [
+          "Audit Logs"
+        ],
+        "summary": "User Permission Activity Logs",
+        "description": "With this endpoint, site administrator can retrieve the list of activities performed in user permission module.",
+        "operationId": "Audit-Logs_UserPermissionActivityLogs",
+        "parameters": [
+          {
+            "type": "string",
+            "name": "activity",
+            "in": "query",
+            "required": false,
+            "enum":[
+              "PermissionAdded",
+              "PermissionRemoved"
+            ],
+            "description": "Type of user permission activity performed."
+          }
+        ],
+        "responses": {
+          "200": {
+            "x-nullable": false,
+            "description": "List of user permission activities retrieved successfully",
+            "schema": {
+              "$ref": "#/definitions/UserPermissionActivityLogResponseList"
+            }
+          },
+          "204": {
+            "description": "User permission activity log is empty"
+          },
+          "400": {
+            "description": "Invalid request"
+          },
+          "401": {
+            "description": "Access Denied"
+          },
+          "405": {
+            "description": "Request Type was not GET"
+          }
+        }
+      }
+    },
+    "/api/site/{tenant-name}/v1.0/activity-logs?activitymodule=comment": {
+      "get": {
+        "tags": [
+          "Audit Logs"
+        ],
+        "summary": "Comment Activity Logs",
+        "description": "With this endpoint, site administrator can retrieve the list of activities performed in comment module.",
+        "operationId": "Audit-Logs_CommentActivityLogs",
+        "parameters": [
+          {
+            "type": "string",
+            "name": "activity",
+            "in": "query",
+            "required": false,
+            "enum":[
+              "Added",
+              "Edited",
+              "Deleted",
+              "Replied",
+              "UserMentioned"
+            ],
+            "description": "Type of comment activity performed."
+          }
+        ],
+        "responses": {
+          "200": {
+            "x-nullable": false,
+            "description": "List of comment activities retrieved successfully",
+            "schema": {
+              "$ref": "#/definitions/CommentActivityLogResponseList"
+            }
+          },
+          "204": {
+            "description": "Comment activity log is empty"
+          },
+          "400": {
+            "description": "Invalid request"
+          },
+          "401": {
+            "description": "Access Denied"
+          },
+          "405": {
+            "description": "Request Type was not GET"
+          }
+        }
+      }
+    },
+    "/api/site/{tenant-name}/v1.0/activity-logs?activitymodule=schedule": {
+      "get": {
+        "tags": [
+          "Audit Logs"
+        ],
+        "summary": "Schedule Activity Logs",
+        "description": "With this endpoint, site administrator can retrieve the list of activities performed in schedule module.",
+        "operationId": "Audit-Logs_ScheduleActivityLogs",
+        "parameters": [
+          {
+            "type": "string",
+            "name": "activity",
+            "in": "query",
+            "required": false,
+            "enum":[
+              "Success",
+              "Failed",
+              "Run"
+            ],
+            "description": "Type of schedule activity performed."
+          }
+        ],
+        "responses": {
+          "200": {
+            "x-nullable": false,
+            "description": "List of schedule activities retrieved successfully",
+            "schema": {
+              "$ref": "#/definitions/ScheduleActivityLogResponseList"
+            }
+          },
+          "204": {
+            "description": "Schedule activity log is empty"
+          },
+          "400": {
+            "description": "Invalid request"
+          },
+          "401": {
+            "description": "Access Denied"
+          },
+          "405": {
+            "description": "Request Type was not GET"
+          }
+        }
+      }
+    },
+    "/api/site/{tenant-name}/v1.0/activity-logs?activitymodule=system": {
+      "get": {
+        "tags": [
+          "Audit Logs"
+        ],
+        "summary": "System Settings Activity Logs",
+        "description": "With this endpoint, site administrator can retrieve the list of activities performed in system settings module.",
+        "operationId": "Audit-Logs_SystemSettingsActivityLogs",
+        "parameters": [
+          {
+            "type": "string",
+            "name": "activity",
+            "in": "query",
+            "required": false,
+            "enum":[
+              "Added",
+              "Updated",
+              "Deleted",
+              "Activated",
+              "Retried",
+              "Enabled",
+              "Disabled",
+              "Visited"
+            ],
+            "description": "Type of system settings activity performed."
+          }
+        ],
+        "responses": {
+          "200": {
+            "x-nullable": false,
+            "description": "List of system settings activities retrieved successfully",
+            "schema": {
+              "$ref": "#/definitions/SystemActivityLogResponseList"
+            }
+          },
+          "204": {
+            "description": "System settings activity log is empty"
+          },
+          "400": {
+            "description": "Invalid request"
+          },
+          "401": {
+            "description": "Access Denied"
+          },
+          "405": {
+            "description": "Request Type was not GET"
+          }
+        }
+      }
+    },
+    "/api/site/{tenant-name}/v1.0/activity-logs?activitymodule=item": {
+      "get": {
+        "tags": [
+          "Audit Logs"
+        ],
+        "summary": "Item Activity Logs",
+        "description": "With this endpoint, site administrator can retrieve the list of activities performed in item module.",
+        "operationId": "Audit-Logs_ItemActivityLogs",
+        "parameters": [
+          {
+            "type": "string",
+            "name": "activity",
+            "in": "query",
+            "required": false,
+            "enum":[
+              "Added",
+              "Edited",
+              "Deleted",
+              "Moved",
+              "Copied",
+              "Cloned",
+              "Restored",
+              "Rollbacked",
+              "Visited"
+            ],
+            "description": "Type of item activity performed."
+          },
+          {
+            "type": "string",
+            "name": "itemtype",
+            "in": "query",
+            "required": false,
+            "description": "Type of the item",
+            "x-schema": {
+              "$ref": "#/definitions/ItemType"
+            },
+            "x-nullable": false,
+            "enum": [
+              "Category",
+              "Report",
+              "Datasource",
+              "Dataset",
+              "Schedule"
+            ]
+          }
+        ],
+        "responses": {
+          "200": {
+            "x-nullable": false,
+            "description": "List of item activities retrieved successfully",
+            "schema": {
+              "$ref": "#/definitions/ItemActivityLogResponseList"
+            }
+          },
+          "204": {
+            "description": "Item activity log is empty"
+          },
+          "400": {
+            "description": "Invalid request"
+          },
+          "401": {
+            "description": "Access Denied"
+          },
+          "405": {
+            "description": "Request Type was not GET"
+          }
+        }
+      }
     }
   },
   "definitions": {
@@ -4812,6 +5209,640 @@
         "PermissionAccess": {
           "type": "string",
           "description": "Specify an access type for item."
+        },
+        "ActivityLogInfo": {
+          "type": "object",
+          "description": "Report Execution Information",
+          "properties":{
+            "TimeStart": {
+              "type": "string",
+              "description": "Date-Time at which the report starts to render.",
+              "format": "date-time"
+            },
+            "TimeEnd": {
+              "type": "string",
+              "description": "Date-Time at which the report stops to render.",
+              "format": "date-time"
+            },
+            "TimeDataRetrieval": {
+              "type": "integer",
+              "description": "Data retrieval time in milliseconds.",
+              "format":"int32"
+            },
+            "TimeProcessing": {
+              "type": "integer",
+              "description": "Data processing time in milliseconds.",
+              "format":"int32"
+            },
+            "RowCount": {
+              "type": "integer",
+              "description": "Specifies the number of rows retrieved.",
+              "format":"int32"
+            }
+          }
+        }
+      }
+    },
+    "GroupActivityLogResponseList":{
+      "type": "array",
+      "description": "Group Activity Log Response List",
+      "items": {
+        "$ref": "#/definitions/GroupActivityLogResponse"
+      }
+    },
+    "GroupActivityLogResponse":{
+      "type": "object",
+      "description": "Group Activity Log Response",
+      "properties": {
+        "Id": {
+          "type": "string",
+          "description": "ID of the activity."
+        },
+        "Activity": {
+          "type": "string",
+          "description": "Type of activity which is performed."
+        },
+        "OldValue": {
+          "type": "string",
+          "description": "Specifies the value before update."
+        },
+        "NewValue": {
+          "type": "string",
+          "description": "Specifies the value after update."
+        },
+        "ModifiedById": {
+          "type": "integer",
+          "description": "Specifies the user ID of the item modifier.",
+          "format":"int32"
+        },
+        "ModifiedBy": {
+          "type": "string",
+          "description": "Specifies the user name of the item modifier."
+        },
+        "GroupId": {
+          "type": "integer",
+          "description": "ID of the group.",
+          "format":"int32"
+        },
+        "GroupName": {
+          "type": "string",
+          "description": "Name of the group."
+        },
+        "SourceTypeId": {
+          "type": "integer",
+          "description": "Specifies the enum value of the source type.",
+          "enum":[
+            1,
+            2,
+            3
+          ]
+        },
+        "SourceType": {
+          "type": "string",
+          "description": "Specifies the source type.",
+          "enum":[
+            "Web",
+            "API",
+            "Schedule"
+          ]
+        },
+        "ActivityStatusId": {
+          "type": "integer",
+          "description": "Specifies the enum value of the activity status.",
+          "enum":[
+            1,
+            2,
+            3
+          ]
+        },
+        "ActivityStatus": {
+          "type": "string",
+          "description": "Status of the activity.",
+          "enum":[
+            "Start",
+            "Success",
+            "Fail"
+          ]
+        },
+        "CreatedDate": {
+          "type": "string",
+          "description": "Date created of item in date format.",
+          "format": "date-time"
+        },
+        "IsActive": {
+          "type": "boolean",
+          "description": "Returns true if the item is active."
+        },
+        "Description": {
+          "type": "string",
+          "description": "Specifies the description of the item."
+        },
+        "ModifiedDate": {
+          "type": "string",
+          "description": "Date modified of item in date format.",
+          "format": "date-time"
+        }
+      }
+    },
+    "GroupPermissionActivityLogResponseList":{
+      "type": "array",
+      "description": "Group Permission Activity Log Response List",
+      "items": {
+        "$ref": "#/definitions/GroupPermissionActivityLogResponse"
+      }
+    },
+    "GroupPermissionActivityLogResponse":{
+      "type": "object",
+      "description": "Group Permission Activity Log Response",
+      "properties": {
+        "Id": {
+          "type": "string",
+          "description": "ID of the activity."
+        },
+        "Activity": {
+          "type": "string",
+          "description": "Type of activity which is performed."
+        },
+        "ModifiedById": {
+          "type": "integer",
+          "description": "Specifies the user ID of the item modifier.",
+          "format":"int32"
+        },
+        "ModifiedBy": {
+          "type": "string",
+          "description": "Specifies the user name of the item modifier."
+        },
+        "GroupId": {
+          "type": "integer",
+          "description": "ID of the group.",
+          "format":"int32"
+        },
+        "GroupName": {
+          "type": "string",
+          "description": "Name of the group."
+        },
+        "CreatedDate": {
+          "type": "string",
+          "description": "Date created of item in date format.",
+          "format": "date-time"
+        },
+        "IsActive": {
+          "type": "boolean",
+          "description": "Returns true if the item is active."
+        },
+        "GroupPermissionId": {
+          "type": "integer",
+          "description": "Specifies the ID of the group permission.",
+          "format":"int32"
+        },
+        "PermissionEntity": {
+          "type": "string",
+          "description": "Specify an entity of item for permission."
+        },
+        "PermissionAccess": {
+          "type": "string",
+          "description": "Specify an access type for item."
+        }
+      }
+    },
+    "UserActivityLogResponseList":{
+      "type": "array",
+      "description": "User Activity Log Response List",
+      "items": {
+        "$ref": "#/definitions/UserActivityLogResponse"
+      }
+    },
+    "UserActivityLogResponse":{
+      "type": "object",
+      "description": "User Activity Log Response",
+      "properties": {
+        "Id": {
+          "type": "string",
+          "description": "ID of the activity."
+        },
+        "Activity": {
+          "type": "string",
+          "description": "Type of activity which is performed."
+        },
+        "OldValue": {
+          "type": "string",
+          "description": "Specifies the value before update."
+        },
+        "NewValue": {
+          "type": "string",
+          "description": "Specifies the value after update."
+        },
+        "ActivityStatusId": {
+          "type": "integer",
+          "description": "Specifies the enum value of the activity status.",
+          "enum":[
+            1,
+            2,
+            3
+          ]
+        },
+        "ActivityStatus": {
+          "type": "string",
+          "description": "Status of the activity.",
+          "enum":[
+            "Start",
+            "Success",
+            "Fail"
+          ]
+        },
+        "SourceTypeId": {
+          "type": "integer",
+          "description": "Specifies the enum value of the source type.",
+          "enum":[
+            1,
+            2,
+            3
+          ]
+        },
+        "SourceType": {
+          "type": "string",
+          "description": "Specifies the source type.",
+          "enum":[
+            "Web",
+            "API",
+            "Schedule"
+          ]
+        },
+        "CreatedDate": {
+          "type": "string",
+          "description": "Date created of item in date format.",
+          "format": "date-time"
+        },
+        "IsActive": {
+          "type": "boolean",
+          "description": "Returns true if the item is active."
+        },
+        "UserId": {
+          "type": "integer",
+          "description": "ID of the user.",
+          "format":"int32"
+        },
+        "Username": {
+          "type": "string",
+          "description": "Username of the user."
+        },
+        "Description": {
+          "type": "string",
+          "description": "Specifies the description of the item."
+        }
+      }
+    },
+    "UserPermissionActivityLogResponseList":{
+      "type": "array",
+      "description": "User Permission Activity Log Response List",
+      "items": {
+        "$ref": "#/definitions/UserPermissionActivityLogResponse"
+      }
+    },
+    "UserPermissionActivityLogResponse":{
+      "type": "object",
+      "description": "User Permission Activity Log Response",
+      "properties": {
+        "Id": {
+          "type": "string",
+          "description": "ID of the activity."
+        },
+        "Activity": {
+          "type": "string",
+          "description": "Type of activity which is performed."
+        },
+        "ModifiedById": {
+          "type": "integer",
+          "description": "Specifies the user ID of the item modifier.",
+          "format":"int32"
+        },
+        "ModifiedBy": {
+          "type": "string",
+          "description": "Specifies the user name of the item modifier."
+        },
+        "UserPermissionId": {
+          "type": "string",
+          "description": "Specifies the ID of the user permission."
+        },
+        "ItemId": {
+          "type": "string",
+          "description": "Id of the item.",
+          "format":"guid"
+        },
+        "CreatedDate": {
+          "type": "string",
+          "description": "Date created of item in date format.",
+          "format": "date-time"
+        },
+        "IsActive": {
+          "type": "boolean",
+          "description": "Returns true if the item is active."
+        },
+        "UserId": {
+          "type": "integer",
+          "description": "ID of the user.",
+          "format":"int32"
+        },
+        "Username": {
+          "type": "string",
+          "description": "Username of the user."
+        },
+        "PermissionEntity": {
+          "type": "string",
+          "description": "Specify an entity of item for permission."
+        },
+        "PermissionAccess": {
+          "type": "string",
+          "description": "Specify an access type for item."
+        }
+      }
+    },
+    "CommentActivityLogResponseList":{
+      "type": "array",
+      "description": "Comment Activity Log Response List",
+      "items": {
+        "$ref": "#/definitions/CommentActivityLogResponse"
+      }
+    },
+    "CommentActivityLogResponse":{
+      "type": "object",
+      "description": "Comment Activity Log Response",
+      "properties": {
+        "Id": {
+          "type": "string",
+          "description": "ID of the activity."
+        },
+        "Activity": {
+          "type": "string",
+          "description": "Type of activity which is performed."
+        },
+        "ModifiedById": {
+          "type": "integer",
+          "description": "Specifies the user ID of the item modifier.",
+          "format":"int32"
+        },
+        "ModifiedBy": {
+          "type": "string",
+          "description": "Specifies the user name of the item modifier."
+        },
+        "CommentId": {
+          "type": "integer",
+          "description": "ID of the comment.",
+          "format":"int32"
+        },
+        "Url": {
+          "type": "string",
+          "description": "Specifies the URL of the report."
+        },
+        "ParentCommentId": {
+          "type": "integer",
+          "description": "ID of the comment which is replied.",
+          "format":"int32"
+        },
+        "NotificationTo": {
+          "type": "integer",
+          "description": "ID of the user who receives notification.",
+          "format":"int32"
+        },
+        "ModifiedDate": {
+          "type": "string",
+          "description": "Date modified of item in date format.",
+          "format": "date-time"
+        },
+        "IsRead": {
+          "type": "boolean",
+          "description": "Returns true if comment was read."
+        },
+        "Description": {
+          "type": "string",
+          "description": "Specifies the description of the item."
+        },
+        "IsActive": {
+          "type": "boolean",
+          "description": "Returns true if the item is active."
+        }
+      }
+    },
+    "ScheduleActivityLogResponseList":{
+      "type": "array",
+      "description": "Schedule Activity Log Response List",
+      "items": {
+        "$ref": "#/definitions/ScheduleActivityLogResponse"
+      }
+    },
+    "ScheduleActivityLogResponse":{
+      "type": "object",
+      "description": "Schedule Activity Log Response",
+      "properties": {
+        "Id": {
+          "type": "string",
+          "description": "ID of the activity."
+        },
+        "Activity": {
+          "type": "string",
+          "description": "Type of activity which is performed."
+        },
+        "ItemType": {
+          "type": "string",
+          "description": "Type of the item."
+        },
+        "ItemId": {
+          "type": "string",
+          "description": "Id of the item.",
+          "format":"guid"
+        },
+        "ExecutedDate": {
+          "type": "string",
+          "description": "Schedule executed date in date format.",
+          "format": "date-time"
+        },
+        "IsOnDemand": {
+          "type": "string",
+          "description": "Returns true if schedule is on-demand."
+        },
+        "Description": {
+          "type": "string",
+          "description": "Specifies the description of the item."
+        },
+        "ModifiedDate": {
+          "type": "string",
+          "description": "Date modified of item in date format.",
+          "format": "date-time"
+        },
+        "IsActive": {
+          "type": "boolean",
+          "description": "Returns true if the item is active."
+        },
+        "ScheduleName": {
+          "type": "string",
+          "description": "Name of the schedule."
+        }
+      }
+    },
+    "SystemActivityLogResponseList":{
+      "type": "array",
+      "description": "System Settings Activity Log Response List",
+      "items": {
+        "$ref": "#/definitions/SystemActivityLogResponse"
+      }
+    },
+    "SystemActivityLogResponse":{
+      "type": "object",
+      "description": "System Settings Activity Log Response",
+      "properties": {
+        "Id": {
+          "type": "string",
+          "description": "ID of the activity."
+        },
+        "Activity": {
+          "type": "string",
+          "description": "Type of activity which is performed."
+        },
+        "OldValue": {
+          "type": "string",
+          "description": "Specifies the value before update."
+        },
+        "NewValue": {
+          "type": "string",
+          "description": "Specifies the value after update."
+        },
+        "ModifiedById": {
+          "type": "integer",
+          "description": "Specifies the user ID of the item modifier.",
+          "format":"int32"
+        },
+        "ModifiedBy": {
+          "type": "string",
+          "description": "Specifies the user name of the item modifier."
+        },
+        "ActivityStatusId": {
+          "type": "integer",
+          "description": "Specifies the enum value of the activity status.",
+          "enum":[
+            1,
+            2,
+            3
+          ]
+        },
+        "ActivityStatus": {
+          "type": "string",
+          "description": "Status of the activity.",
+          "enum":[
+            "Start",
+            "Success",
+            "Fail"
+          ]
+        },
+        "Description": {
+          "type": "string",
+          "description": "Specifies the description of the item."
+        },
+        "CreatedDate": {
+          "type": "string",
+          "description": "Date created of item in date format.",
+          "format": "date-time"
+        },
+        "IsActive": {
+          "type": "boolean",
+          "description": "Returns true if the item is active."
+        }
+      }
+    },
+    "ItemActivityLogResponseList":{
+      "type": "array",
+      "description": "Item Activity Log Response List",
+      "items": {
+        "$ref": "#/definitions/ItemActivityLogResponse"
+      }
+    },
+    "ItemActivityLogResponse":{
+      "type": "object",
+      "description": "Item Activity Log Response",
+      "properties": {
+        "Id": {
+          "type": "string",
+          "description": "ID of the activity."
+        },
+        "Activity": {
+          "type": "string",
+          "description": "Type of activity which is performed."
+        },
+        "ModifiedById": {
+          "type": "integer",
+          "description": "Specifies the user ID of the item modifier.",
+          "format":"int32"
+        },
+        "ModifiedBy": {
+          "type": "string",
+          "description": "Specifies the user name of the item modifier."
+        },
+        "SourceTypeId": {
+          "type": "integer",
+          "description": "Specifies the enum value of the source type.",
+          "enum":[
+            1,
+            2,
+            3
+          ]
+        },
+        "SourceType": {
+          "type": "string",
+          "description": "Specifies the source type.",
+          "enum":[
+            "Web",
+            "API",
+            "Schedule"
+          ]
+        },
+        "ItemId": {
+          "type": "string",
+          "description": "Id of the item.",
+          "format":"guid"
+        },
+        "ItemName": {
+          "type": "string",
+          "description": "Name of the item."
+        },
+        "ItemType": {
+          "type": "string",
+          "description": "Type of the item."
+        },
+        "ItemVersionId": {
+          "type": "string",
+          "description": "Specifies the version ID of the item."
+        },
+        "ParentId": {
+          "type": "string",
+          "description": "Specifies the category ID."
+        },
+        "CategoryName": {
+          "type": "string",
+          "description": "Specifies the category name."
+        },
+        "FromCategoryId": {
+          "type": "string",
+          "description": "Specifies the source category ID."
+        },
+        "FromCategoryName": {
+          "type": "string",
+          "description": "Specifies the source category name."
+        },
+        "ToCategoryId": {
+          "type": "string",
+          "description": "Specifies the destination category ID."
+        },
+        "ToCategoryName": {
+          "type": "string",
+          "description": "Specifies the destination category name."
+        },
+        "ModifiedDate": {
+          "type": "string",
+          "description": "Date modified of item in date format.",
+          "format": "date-time"
+        },
+        "IsActive": {
+          "type": "boolean",
+          "description": "Returns true if the item is active."
         },
         "ActivityLogInfo": {
           "type": "object",
