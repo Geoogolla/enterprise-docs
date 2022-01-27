@@ -35,6 +35,10 @@
     {
       "name": "Settings",
       "description": "To update the details of the email settings in the Bold Reports Enterprise edition, use the corresponding endpoints below.\n"
+    },
+    {
+      "name": "Audit Logs",
+      "description": "To retrieve a list of activities performed in the Bold Reports Enterprise edition, use the corresponding endpoints below.\n"
     }
 	],
   "paths": {
@@ -2114,6 +2118,110 @@
           },
           "406": {
             "description": "The content of the request body is invalid"
+          }
+        }
+      }
+    },
+    "/api/site/{tenant-name}/v1.0/activity-logs": {
+      "get": {
+        "tags": [
+          "Audit Logs"
+        ],
+        "summary": "All Activity Logs",
+        "description": "With this endpoint, site administrator can retrieve list of all activities performed in the site.",
+        "operationId": "Audit-Logs_AllActivityLogs",
+        "parameters": [
+          {
+            "type": "string",
+            "name": "activitymodule",
+            "in": "query",
+            "required": false,
+            "x-nullable": false,
+            "description": "Module in which the activity performed",
+            "enum":[
+              "Group",
+              "GroupPermission",
+              "User",
+              "UserPermission",
+              "Comment",
+              "Schedule",
+              "System",
+              "Item"
+            ]
+          },
+          {
+            "type": "string",
+            "name": "activity",
+            "in": "query",
+            "required": false,
+            "enum":[
+              "Added",
+              "Updated",
+              "Deleted",
+              "Synchronized",
+              "Imported",
+              "Visited",
+              "UserAdded",
+              "UserRemoved",
+              "PermissionAdded",
+              "PermissionRemoved",
+              "Edited",
+              "Replied",
+              "UserMentioned",
+              "Success",
+              "Failed",
+              "Run",
+              "Activated",
+              "Retried",
+              "Enabled",
+              "Disabled",
+              "Visited",
+              "Moved",
+              "Copied",
+              "Cloned",
+              "Restored",
+              "Rollbacked"
+            ],
+            "description": "Type of the activity performed.(It depends on ActivityModule)"
+          },
+          {
+            "type": "string",
+            "name": "itemtype",
+            "in": "query",
+            "required": false,
+            "description": "Type of the Item.(Only for Item module)",
+            "x-schema": {
+              "$ref": "#/definitions/ItemType"
+            },
+            "x-nullable": false,
+            "enum": [
+              "Category",
+              "Report",
+              "Datasource",
+              "Dataset",
+              "Schedule"
+            ]
+          }
+        ],
+        "responses": {
+          "200": {
+            "x-nullable": false,
+            "description": "List of activities retrieved successfully",
+            "schema": {
+              "$ref": "#/definitions/ActivityLogResponseList"
+            }
+          },
+          "204": {
+            "description": "Activity log is empty"
+          },
+          "400": {
+            "description": "Invalid request"
+          },
+          "401": {
+            "description": "Access Denied"
+          },
+          "405": {
+            "description": "Request Type was not GET"
           }
         }
       }
@@ -4893,6 +5001,245 @@
         "StatusMessage": {
           "type": "string",
           "description": "Returns the status message from the API."
+        }
+      }
+    },
+    "ActivityLogResponseList":{
+      "type": "array",
+      "description": "Activity Log Response List",
+      "items": {
+        "$ref": "#/definitions/ActivityLogResponse"
+      }
+    },
+    "ActivityLogResponse":{
+      "type": "object",
+      "description": "Activity Log Response",
+      "properties": {
+        "Id": {
+          "type": "string",
+          "description": "ID of the activity."
+        },
+        "ActivityModule": {
+          "type": "string",
+          "description": "Name of the module in which the activity performed."
+        },
+        "Activity": {
+          "type": "string",
+          "description": "Type of activity which is performed."
+        },
+        "OldValue": {
+          "type": "string",
+          "description": "Specifies the value before update."
+        },
+        "NewValue": {
+          "type": "string",
+          "description": "Specifies the value after update."
+        },
+        "ModifiedById": {
+          "type": "integer",
+          "description": "Specifies the user ID of the item modifier.",
+          "format":"int32"
+        },
+        "ModifiedBy": {
+          "type": "string",
+          "description": "Specifies the user name of the item modifier."
+        },
+        "GroupId": {
+          "type": "integer",
+          "description": "ID of the group.",
+          "format":"int32"
+        },
+        "GroupName": {
+          "type": "string",
+          "description": "Name of the group."
+        },
+        "SourceTypeId": {
+          "type": "integer",
+          "description": "Specifies the enum value of the source type.",
+          "enum":[
+            1,
+            2,
+            3
+          ]
+        },
+        "SourceType": {
+          "type": "string",
+          "description": "Specifies the source type.",
+          "enum":[
+            "Web",
+            "API",
+            "Schedule"
+          ]
+        },
+        "ActivityStatusId": {
+          "type": "integer",
+          "description": "Specifies the enum value of the activity status.",
+          "enum":[
+            1,
+            2,
+            3
+          ]
+        },
+        "ActivityStatus": {
+          "type": "string",
+          "description": "Status of the activity.",
+          "enum":[
+            "Start",
+            "Success",
+            "Fail"
+          ]
+        },
+        "CreatedDate": {
+          "type": "string",
+          "description": "Date created of item in date format.",
+          "format": "date-time"
+        },
+        "IsActive": {
+          "type": "boolean",
+          "description": "Returns true if the item is active."
+        },
+        "UserId": {
+          "type": "integer",
+          "description": "ID of the user.",
+          "format":"int32"
+        },
+        "Username": {
+          "type": "string",
+          "description": "Username of the user."
+        },
+        "GroupPermissionId": {
+          "type": "integer",
+          "description": "Specifies the ID of the group permission.",
+          "format":"int32"
+        },
+        "CommentId": {
+          "type": "integer",
+          "description": "ID of the comment.",
+          "format":"int32"
+        },
+        "Url": {
+          "type": "string",
+          "description": "Specifies the URL of the report."
+        },
+        "ParentCommentId": {
+          "type": "integer",
+          "description": "ID of the comment which is replied.",
+          "format":"int32"
+        },
+        "NotificationTo": {
+          "type": "integer",
+          "description": "ID of the user who receives notification.",
+          "format":"int32"
+        },
+        "ModifiedDate": {
+          "type": "string",
+          "description": "Date modified of item in date format.",
+          "format": "date-time"
+        },
+        "IsRead": {
+          "type": "boolean",
+          "description": "Returns true if comment was read."
+        },
+        "ItemId": {
+          "type": "string",
+          "description": "Id of the item.",
+          "format":"guid"
+        },
+        "ItemName": {
+          "type": "string",
+          "description": "Name of the item."
+        },
+        "ItemType": {
+          "type": "string",
+          "description": "Type of the item."
+        },
+        "ItemVersionId": {
+          "type": "string",
+          "description": "Specifies the version ID of the item."
+        },
+        "ParentId": {
+          "type": "string",
+          "description": "Specifies the category ID."
+        },
+        "CategoryName": {
+          "type": "string",
+          "description": "Specifies the category name."
+        },
+        "FromCategoryId": {
+          "type": "string",
+          "description": "Specifies the source category ID."
+        },
+        "FromCategoryName": {
+          "type": "string",
+          "description": "Specifies the source category name."
+        },
+        "ToCategoryId": {
+          "type": "string",
+          "description": "Specifies the destination category ID."
+        },
+        "ToCategoryName": {
+          "type": "string",
+          "description": "Specifies the destination category name."
+        },
+        "UserPermissionId": {
+          "type": "string",
+          "description": "Specifies the ID of the user permission."
+        },
+        "ExecutedDate": {
+          "type": "string",
+          "description": "Schedule executed date in date format.",
+          "format": "date-time"
+        },
+        "IsOnDemand": {
+          "type": "string",
+          "description": "Returns true if schedule is on-demand."
+        },
+        "Description": {
+          "type": "string",
+          "description": "Specifies the description of the item."
+        },
+        "ScheduleName": {
+          "type": "string",
+          "description": "Name of the schedule."
+        },
+        "PermissionEntity": {
+          "type": "string",
+          "description": "Specify an entity of item for permission."
+        },
+        "PermissionAccess": {
+          "type": "string",
+          "description": "Specify an access type for item."
+        },
+        "ActivityLogInfo": {
+          "type": "object",
+          "description": "Report Execution Information",
+          "properties":{
+            "TimeStart": {
+              "type": "string",
+              "description": "Date-Time at which the report starts to render.",
+              "format": "date-time"
+            },
+            "TimeEnd": {
+              "type": "string",
+              "description": "Date-Time at which the report stops to render.",
+              "format": "date-time"
+            },
+            "TimeDataRetrieval": {
+              "type": "integer",
+              "description": "Data retrieval time in milliseconds.",
+              "format":"int32"
+            },
+            "TimeProcessing": {
+              "type": "integer",
+              "description": "Data processing time in milliseconds.",
+              "format":"int32"
+            },
+            "RowCount": {
+              "type": "integer",
+              "description": "Specifies the number of rows retrieved.",
+              "format":"int32"
+            }
+          }
         }
       }
     },
