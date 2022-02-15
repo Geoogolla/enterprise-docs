@@ -13,6 +13,8 @@ This section helps to get the answer for the frequently asked how to queries in 
 
 * [Get distinct values in parameter drop down](./../how-to/get-distinct-values-in-ssrs-parameter-drop-down/)
 
+* [How to select all the available values in the parameter list as default](./../how-to/set-all-values-in-multi-value-parameters-as-default/)
+
 * [Resolve misused header name error](./../how-to/resolve-misused-header-name-error-rest-api-data-source/)
 
 * [Pass form data in REST API data source](./../how-to/pass-form-data-in-rest-api-data-source/)

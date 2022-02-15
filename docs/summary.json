@@ -409,7 +409,8 @@
                 "Upgrade or downgrade RDL schema version": "upgrade-or-downgrade-rdl-schema-version.md",
                 "How to get distinct values in parameter drop down": "get-distinct-values-in-ssrs-parameter-drop-down.md",
                 "Resolve misused headers error":"resolve-misused-header-name-error-rest-api-data-source.md",
-                "Pass form data with post action":"pass-form-data-in-rest-api-data-source.md"
+                "Pass form data with post action":"pass-form-data-in-rest-api-data-source.md",
+                "How to select all the available values in the parameter list as default":"set-all-values-in-multi-value-parameters-as-default.md"
             }
         },
     "Manage Content": {
