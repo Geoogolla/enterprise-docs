@@ -25,7 +25,11 @@ After clicking the data source, the `NEW DATASOURCE` configuration panel opens. 
 Specify the data source name without special characters, in **Name** field.
 ![Web datasource properties](/static/assets/on-premise/images/report-designer/manage-data/oracle-data-source/oracle-properties.png)
 
-Then enter the valid connection string and authentication type to connect with specified data source.
+Then enter the valid connection string as mentioned below and authentication type to connect with specified data source.
+
+```js
+Data Source=(DESCRIPTION=(ADDRESS_LIST=(ADDRESS=(PROTOCOL=TCP)(HOST=MyHost)(PORT=MyPort)))(CONNECT_DATA=(SERVER=DEDICATED)(SERVICE_NAME=MyOracleSID)));User Id=myUsername;Password=myPassword;
+```
 
 ![Web datasource properties](/static/assets/on-premise/images/report-designer/manage-data/oracle-data-source/basic-connection.png)
 
