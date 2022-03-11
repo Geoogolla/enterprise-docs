@@ -13,7 +13,7 @@ This section explains how to hide a table column or row when the field value is 
 ## How to hide the table column when the field value is empty
 
 1. Drag and drop the table, then select the dataset and assign the filed values
-![table deisgn](/static/assets/on-premise/images/report-designer/how-to/hide-row-column/Hide-row-column-table-design.png)
+![table deisgn](/static/assets/on-premise/images/report-designer/how-to/hide-row-column/hide-row-column-table-design.png)
 2. Select the row and click `visibility` under the properties panel.
 ![set visibility expression](/static/assets/on-premise/images/report-designer/how-to/hide-row-column/hide-column-expression.png)
 3. You can hide the empty column in the table based on the column visibility expression as follows.  
@@ -28,7 +28,7 @@ This section explains how to hide a table column or row when the field value is 
 ## How to hide the table row when the field value is empty
 
 1. Drag and drop the table, then select the dataset and assign the filed values.
-![table deisgn](/static/assets/on-premise/images/report-designer/how-to/hide-row-column/Hide-row-column-table-design.png)
+![table deisgn](/static/assets/on-premise/images/report-designer/how-to/hide-row-column/hide-row-column-table-design.png)
 2. Select the row and click `visibility` under the properties panel.
 ![set visibility expression](/static/assets/on-premise/images/report-designer/how-to/hide-row-column/hide-row-expression.png)
 3. You can hide the empty column in the table based on the column visibility expression as follows.
