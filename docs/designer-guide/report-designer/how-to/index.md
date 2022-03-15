@@ -16,3 +16,5 @@ This section helps to get the answer for the frequently asked how to queries in 
 * [Resolve misused header name error](./../how-to/resolve-misused-header-name-error-rest-api-data-source/)
 
 * [Pass form data in REST API data source](./../how-to/pass-form-data-in-rest-api-data-source/)
+
+* [How to create master detail report using subreport?](./../how-to/create-master-detail-report-using-subreport/)
