@@ -27,9 +27,9 @@ This documentation explains the step-by-step procedure to create master-detail r
 6. Similarly, do the same to add the parameter `ProdModel`.
 ![Subreport add parameters](/static/assets/on-premise/images/report-designer/how-to/master-detail-report-subreport/subreport-addparameter.gif)
 
-7. Connect to the data source using this documentation [link](./../../javascript-reporting/report-designer/designer-guide/manage-data/datasource/).
+7. Connect to the data source using this documentation [link](./../../manage-data/datasource/).
 
-8. Connect to the dataset using this documentation [link](./../../javascript-reporting/report-designer/designer-guide/manage-data/dataset/).
+8. Connect to the dataset using this documentation [link](./../../manage-data/dataset/).
 
 9. The `ProductCatalog` dataset is created using the following query.
 ![ProductCatalog dataset](/static/assets/on-premise/images/report-designer/how-to/master-detail-report-subreport/datasource-connection.gif)
@@ -58,9 +58,9 @@ You can download the created Detail report from here,
 1. Open the Bold Report Designer.
 ![Bold reports designer](/static/assets/on-premise/images/report-designer/how-to/master-detail-report-subreport/bold-reports-designer.png)
 
-2. Connect to the data source using this documentation [link](./../../javascript-reporting/report-designer/designer-guide/manage-data/datasource/).
+2. Connect to the data source using this documentation [link](./../../manage-data/datasource/).
 
-3. Connect to the dataset using this documentation [link](./../../javascript-reporting/report-designer/designer-guide/manage-data/dataset/).
+3. Connect to the dataset using this documentation [link](./../../manage-data/dataset/).
 
 4. The `ProductCatalog` dataset is created using the following query.
 ![ProductCatalog dataset](/static/assets/on-premise/images/report-designer/how-to/master-detail-report-subreport/datasource-connection.gif)
@@ -79,7 +79,7 @@ You can download the created Detail report from here,
     WHERE (PMPDCL.CultureID = 'en')
     ```
 
-5. Drag the table report item and configure the fields. Then, add groups in the tablix to display the data using this documentation [link](./../../javascript-reporting/report-designer/designer-guide/report-items/tablix/add-or-delete-a-details-group-ssrs/).
+5. Drag the table report item and configure the fields. Then, add groups in the tablix to display the data using this documentation [link](./../../report-items/tablix/add-or-delete-a-details-group-ssrs/).
 
 6. The initial design of the report is displayed as shown in the following image.
 ![Initial master detail report design](/static/assets/on-premise/images/report-designer/how-to/master-detail-report-subreport/initial-master-report-design.png)
