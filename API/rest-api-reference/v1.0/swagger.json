@@ -2076,7 +2076,7 @@
         }
       }
     },
-    "/api/site/{tenant-name}/v1.0/email": {
+    "/api/site/{tenant-name}/v1.0/settings/email": {
       "put": {
         "tags": [
           "Settings"
