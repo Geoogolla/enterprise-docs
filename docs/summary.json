@@ -410,7 +410,10 @@
                 "How to get distinct values in parameter drop down": "get-distinct-values-in-ssrs-parameter-drop-down.md",
                 "Resolve misused headers error":"resolve-misused-header-name-error-rest-api-data-source.md",
                 "Pass form data with post action":"pass-form-data-in-rest-api-data-source.md",
-                "Hide the table column and row when the field value is empty?": "hide-table-column-or-row-when-field-value-empty.md"
+                "How to select all the available values in the parameter list as default":"set-all-values-in-multi-value-parameters-as-default.md",
+                "How to hide the table column and row when the field value is empty?": "how-to-hide-table-column-or-row-when-field-value-empty.md",
+                "How to create master detail report using table?": "create-master-detail-report-using-table.md",
+                "How to create master detail report using list?": "create-master-detail-report-using-list.md"
             }
         },
     "Manage Content": {

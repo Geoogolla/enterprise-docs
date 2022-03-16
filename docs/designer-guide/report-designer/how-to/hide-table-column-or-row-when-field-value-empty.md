@@ -1,6 +1,6 @@
 ---
 layout: post
-title: hide the column or row when the field value is empty
+title: Hide the column or row when the field value is empty
 description: This section explains about how to hide the table column or row when the field value is empty using expression
 platform: report-platform
 documentation: ug
