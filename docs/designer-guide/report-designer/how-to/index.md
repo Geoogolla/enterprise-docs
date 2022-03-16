@@ -15,6 +15,8 @@ This section helps to get the answer for the frequently asked how to queries in 
 
 * [How to select all the available values in the parameter list as default](./../how-to/set-all-values-in-multi-value-parameters-as-default/)
 
+* [Hide the table column and row when the field value is empty](./../how-to/hide-table-column-or-row-when-field-value-empty/)
+
 * [How to create master detail report using table?](./../how-to/create-master-detail-report-using-table/)
 
 * [How to create master detail report using list?](./../how-to/create-master-detail-report-using-list/)
