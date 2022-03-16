@@ -19,6 +19,8 @@ This section helps to get the answer for the frequently asked how to queries in 
 
 * [How to create master detail report using list?](./../how-to/create-master-detail-report-using-list/)
 
+* [How to create master detail report using subreport?](./../how-to/create-master-detail-report-using-subreport/)
+
 * [Resolve misused header name error](./../how-to/resolve-misused-header-name-error-rest-api-data-source/)
 
 * [Pass form data in REST API data source](./../how-to/pass-form-data-in-rest-api-data-source/)
