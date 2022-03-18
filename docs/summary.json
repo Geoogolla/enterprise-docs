@@ -413,7 +413,8 @@
                 "How to select all the available values in the parameter list as default":"set-all-values-in-multi-value-parameters-as-default.md",
                 "How to hide the table column and row when the field value is empty?": "hide-table-column-or-row-when-field-value-empty.md",
                 "How to create master detail report using table?": "create-master-detail-report-using-table.md",
-                "How to create master detail report using list?": "create-master-detail-report-using-list.md"
+                "How to create master detail report using list?": "create-master-detail-report-using-list.md",
+                "How to create master detail report using subreport?": "create-master-detail-report-using-subreport.md"
             }
         },
     "Manage Content": {
