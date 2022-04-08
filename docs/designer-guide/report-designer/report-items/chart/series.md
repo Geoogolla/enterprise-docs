@@ -126,3 +126,13 @@ Tooltip property can be used to display informative text or value, when the user
 This property can be used to set the values for chart series custom properties. To assign values for series custom properties using properties panel refer [Custom Properties](./../../../compose-report/common-properties/#custom-properties) section.
 
 ![Series Custom properties](/static/assets/on-premise/images/report-designer/report-items/chart/custom-attributes.png)
+
+### Legend Text
+
+A **Legend Text** is a chart element used to display the series name for each dataset, in the case of multi-series or combination charts. Legends are used to correlate a data plot with its series name using its color.
+
+![Series Legend Text](/static/assets/on-premise/images/report-designer/report-items/chart/series/legend-text.png)
+
+You can customize text for all legends on your report by navigating to the series properties.
+
+![Series Legend Text Preview](/static/assets/on-premise/images/report-designer/report-items/chart/series/legend-text-preview.png)

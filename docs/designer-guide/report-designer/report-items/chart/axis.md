@@ -101,6 +101,12 @@ Interval and interval type property can be used to to set the interval for categ
 
 ![Interval](/static/assets/on-premise/images/report-designer/report-items/chart/chart-axis/interval.png)
 
+## Maximum and Minimum
+
+The **Maximum and Minimum** property can be used to define the minimum and maximum values on a chart axis property.
+
+![Maximum and Minimum](/static/assets/on-premise/images/report-designer/report-items/chart/chart-axis/maximum-and-minimum.png)
+
 ## Labels AutoFit Disabled
 
 By default, the Interval Auto setting for the chart axis can cause the labels of X/Y axis to show only every second interval. This property can be used to avoid skipping labels at runtime. Enable or disable this property based on the label rendering behaviour of chart design.
