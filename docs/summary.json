@@ -8,7 +8,7 @@
 	    "Recommendations":"recommendations.md",
 	    "Using ARM template":"using-arm-template.md",
 	    "Client libraries":"client-libraries.md",
-        "Upgrade":"upgrade.md"
+        "Upgrade":"upgrade-to-latest.md"
 	},
         "Deploy in Linux":{
             "Prerequisites":"prerequisites.md",
@@ -82,6 +82,7 @@
         "Active Directory": "active-directory.md",
         "Azure Active Directory": "azure-active-directory.md",
         "Email": "email-settings.md",
+        "Connectors Settings":"connectors-settings",
         "Database Settings": "database-settings.md",
         "Report Settings": "report-settings.md",
         "Oauth2.0": "oauth-settings.md",
@@ -123,9 +124,10 @@
            "Upgrade v2.x to latest": "upgrade-bold-reports-from-v2.x-to-latest.md"
         },
         "Azure": {
-          "Upgrade Bold Reports Azure App Service from v1.x to latest": "upgrade-v1.x.md",
-          "Upgrade Bold Reports Azure App Service from v2.x to latest": "upgrade-app-service.md",
-          "Upgrade Syncfusion Report Server Azure App Service from v4.x to latest": "migrate-syncfusion-report-server-app-service.md"
+            "Upgrade v2.4.19 to latest":"upgrade-v2.x-to-latest.md",
+            "Upgrade Bold Reports Azure App Service from v1.x to 2.3.x": "upgrade-v1.x.md",
+            "Upgrade Bold Reports Azure App Service from v2.x to 2.4.19": "upgrade-app-service.md",
+            "Upgrade Syncfusion Report Server Azure App Service from v4.x to 2.3.x": "migrate-syncfusion-report-server-app-service.md"
         }
     },
     "How To": {
@@ -407,7 +409,12 @@
                 "Upgrade or downgrade RDL schema version": "upgrade-or-downgrade-rdl-schema-version.md",
                 "How to get distinct values in parameter drop down": "get-distinct-values-in-ssrs-parameter-drop-down.md",
                 "Resolve misused headers error":"resolve-misused-header-name-error-rest-api-data-source.md",
-                "Pass form data with post action":"pass-form-data-in-rest-api-data-source.md"
+                "Pass form data with post action":"pass-form-data-in-rest-api-data-source.md",
+                "How to select all the available values in the parameter list as default":"set-all-values-in-multi-value-parameters-as-default.md",
+                "How to hide the table column and row when the field value is empty?": "hide-table-column-or-row-when-field-value-empty.md",
+                "How to create master detail report using table?": "create-master-detail-report-using-table.md",
+                "How to create master detail report using list?": "create-master-detail-report-using-list.md",
+                "How to create master detail report using subreport?": "create-master-detail-report-using-subreport.md"
             }
         },
     "Manage Content": {

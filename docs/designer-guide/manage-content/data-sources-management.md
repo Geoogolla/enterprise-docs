@@ -27,25 +27,33 @@ Data source can be added to Report Server only if the user has `Create All Data 
 
    > While adding datasource we can also add new Dataset to the Report Server either by using `Create New Datasource` option or `Use existing Datasource` option.
 
-2. By default, `Create New Datasource` will be chosen. Enter the name and description of the data source, the data source type, connection string and the connection detail to connect the selected data source type. Data source can be created with connections to any one of the following data source types,
-    ![Set data source properties](/static/assets/on-premise/images/manage-content/manage-data-sources/add-data-source.png)
+#### Create New Datasource
 
-    * SQL
-    * SQLCE
-    * OLEDB
-    * ODBC
-    * Oracle
-    * XML
-    * SSAS
-    * PostgreSQL
-    ![Set data source existing](/static/assets/on-premise/images/manage-content/manage-data-sources/add-data-source-existing.png)
+1. Click on `Create New Datasource` option, it will show enabled connectors like below image.
+![Set data connectors type](/static/assets/on-premise/images/manage-content/manage-data-sources/connectors-type.png)
 
-3. Click on `Connect` button, it will add new dataset by connecting with newly created or existing datasource.
+2. Choose the data source. Enter the name, description and the other required details of the data source and click on the
+`Save and Create DataSet` option.
+    ![Set data source properties](/static/assets/on-premise/images/manage-content/manage-data-sources/add-new-data-source.png)
 
-4. Enter the name and description of the dataset and click on `Proceed to Designer` option.
+3. Enter the name and description of the dataset and click on `Proceed to Query Designer` option.
 ![Proceed to designer](/static/assets/on-premise/images/manage-content/manage-data-sources/proceed-to-designer.png).
 
-5. After designing dataset click on the `save` option.
+4. After designing dataset click on the `save` option.
+
+    >`Read Write Delete Download` permission for the `Specific Data Source` will be added for the user who created the data source.
+
+#### Use existing Datasource
+
+1. Click on `Use existing Datasource` option, it will show all existing data sources.
+
+2. Select the existing data source, click on `Connect` button to create new dataset.
+![Set Use existing Datasource](/static/assets/on-premise/images/manage-content/manage-data-sources/add-data-source-existing.png)
+
+3. Enter the name and description of the dataset and click on `Proceed to Query Designer` option.
+![Proceed to designer](/static/assets/on-premise/images/manage-content/manage-data-sources/proceed-to-designer.png).
+
+4. After designing dataset click on the `save` option.
 
     >`Read Write Delete Download` permission for the `Specific Data Source` will be added for the user who created the data source.
 
@@ -58,13 +66,20 @@ This section explains on how to share data sources with the other users in the R
 1. Click the `Actions` button in the Data sources grid context menu and select `Sharing Permissions` option.
 ![Sharing permission menu option](/static/assets/on-premise/images/manage-content/manage-data-sources/manage-datasource-permission-context-menu.png)
 
-2. Sharing permission dialog will open. By default it will open dialog with `Share To` tab. Select the permission access from the `Select Access` dropdown and select the users or groups to share the data source.
+2. Click the `Manage Access` button.
 ![Select data source access permission](/static/assets/on-premise/images/manage-content/manage-data-sources/select-datasource-permission-dialog.png)
 
-3. After selecting the access and users or groups, click on the `Share` button.
+3. Select the permission access and the users or groups to share the datasource.
     ![Add permission to a data source](/static/assets/on-premise/images/manage-content/manage-data-sources/add-datasource-permission.png)
 
-    > Only the user who created the data source can share the data source with other Report Server users.
+4. After selecting the access and users or groups, click on the `Add` button.
+![Add button](/static/assets/on-premise/images/manage-content/manage-data-sources/add-access-datasource-permission.png)
+> Only the user who have share permission can share the data source with other Report Server users.
+
+### Remove data source Permission
+
+The user who will have specific permission can remove the shared report permissions using the `Remove` icon in the `Actions` column of the each permissions.
+![Add Permission](/static/assets/on-premise/images/manage-content/manage-data-sources/remove-datasource-permission.png)
 
 ## Update data sources
 
@@ -75,15 +90,11 @@ This section explains how to update the data sources in Bold Reports.
 1. Click the `Actions` in the data sources grid context menu and select `Update` option.
 ![Update datasource menu option](/static/assets/on-premise/images/manage-content/manage-data-sources/update-datasource-option.png)
 
-2. The name, description, data source type, connection string, and credential details to connect to the specified data source type can be changed by clicking `Update` option in the update data source dialog box.
+2. The name, description and the other required details can be changed by clicking `Update` option in the update data source
+dialog box.
 ![Update option](/static/assets/on-premise/images/manage-content/manage-data-sources/update-option.png)
 
 >This option is available on Bold Reports On-Premise Edition from `2.2.28` version.
-
-### Remove data source permission
-
-Click on the `Shared With` tab. The user who created the data source can remove the shared data source permissions using the `Remove` option in the `Actions` column of the each permissions.
-![Remove permission of a data source](/static/assets/on-premise/images/manage-content/manage-data-sources/remove-datasource-permission.png)
 
 ## Delete data source
 

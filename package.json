@@ -7,7 +7,7 @@
   "scripts": {
     "build": "gulp production-build",
     "test": "gulp ci-test",
-    "publish": "gulp publish",
+    "ci-publish": "gulp publish",
     "postinstall": "gulp postinstall"
   },
   "dependencies": {

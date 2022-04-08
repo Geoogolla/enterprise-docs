@@ -14,6 +14,8 @@ Settings in Bold Reports Report Server stores valuable information required for 
 
 * [Report Settings](./../../administrator-guide/manage-app-settings/report-settings/)
 
+* [Connectors Settings](./../../administrator-guide/manage-app-settings/connectors-settings/)
+
 * [Email Settings](./../../administrator-guide/manage-app-settings/email-settings/)
 
 * [Account Settings](./../../administrator-guide/manage-users/account-activation/)
