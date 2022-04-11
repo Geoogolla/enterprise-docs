@@ -1,41 +1,24 @@
 ---
-title: Upgrade or downgrade reports | Bold Reports Designer
-description: This section describes how to upgrade or downgrade RDL/RDLC reports to different RDL schema version using Bold Reports Designer.
+layout: post
+title: Create a cover page report in the Bold Reports designer.
+description: This document provides the details on how to create the cover page report in the Bold Reports designer control.
+control: Bold Reports
+documentation: ug
 ---
 
-# How to upgrade or downgrade reports using Bold Reports Designer
+# How to create the cover page report in Bold Reports
 
-The user can upgrade or downgrade the reports between 2008, 2010 or 2016 RDL schema versions using the `Version` option. This option is provided under the `Report Properties` in properties panel.
+You can create the cover page for your report using a rectangle with a page break. Please follow these steps for creating the cover page.
 
-![Version option](/static/assets/on-premise/images/report-designer/how-to/upgrade-or-downgrade-reports/version-option.png)
+## Create the cover page using Rectangle
 
-**Default** - It refers to the 2016 RDL schema version. When user creates a new report, by default the schema version is set to 2016.
-
-**RDL2010** - Upgrades or downgrades report to 2010 RDL schema version.
-
-**RDL2016** - Upgrades the report to 2016 RDL schema version.
-
-## Steps to upgrade or downgrade reports
-
-Follow the below steps to upgrade or downgrade the report using Bold Reports Designer,
-
-1. Launch Enterprise Server application and edit a target report.![Open report](/static/assets/on-premise/images/report-designer/how-to/upgrade-or-downgrade-reports/open-report.png)
-2. Open [Report Properties](./../../compose-report/report-properties/). Under `Miscellaneous` category, choose the target version in `Version` property drop-down.![Choose version](/static/assets/on-premise/images/report-designer/how-to/upgrade-or-downgrade-reports/choose-version.png)
-3. Now, save the report.
-
-## Upgrading
-
-You can upgrade reports as tabulated below,
-
-|Current version | Target version |
-|----------------|----------------|
-| 2008 schema version | User can upgrade the reports to 2010 or 2016 schema version |
-| 2010 schema version | User can upgrade the reports to 2016 schema version |
-
-## Downgrading
-
-You can downgrade reports as tabulated below,
-
-|Current version | Target version |
-|----------------|----------------|
-| 2016 schema version | User can downgrade the reports to 2010 schema version |
+1. Drag and drop the rectangle report item into the design area from the item panel. Create your cover page inside the rectangle item.
+![Report cover page](/static/assets/on-premise/images/how-to/cover-page-report/cover-page.png)
+2. Add a page break for the rectangle report item and enable the `Page Number Reset` option.
+![Apply the page breakl](/static/assets/on-premise/images/how-to/cover-page-report/reset-page-number.png)
+3. Now, design your detailed report after the rectangle report item.
+![Design the detailed report](/static/assets/on-premise/images/how-to/cover-page-report/detailed-report.png)
+4. Now, the report preview can be visualized as follows.
+![First page](/static/assets/on-premise/images/how-to/cover-page-report/first-page.png)
+![Second page](/static/assets/on-premise/images/how-to/cover-page-report/second-page.png)
+> Download the above report design from the [link](https://www.syncfusion.com/downloads/support/directtrac/general/ze/Cover_Page_Report_(2)-268815869)
