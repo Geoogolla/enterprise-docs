@@ -123,7 +123,7 @@ By default, the Interval Auto setting for the chart axis can cause the labels of
 
 ![Interval](/static/assets/on-premise/images/report-designer/report-items/chart/chart-axis/label-autofit.png)
 
-You can also enable or disable the label autoFit based on dynamic values, by using the `Expressions`. Refer [Set Expression](./../../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
+You can also enable or disable the label autofit based on dynamic values, by using the `Expressions`. Refer [Set Expression](./../../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
 
 ## Tick
 
