@@ -414,7 +414,8 @@
                 "How to hide the table column and row when the field value is empty?": "hide-table-column-or-row-when-field-value-empty.md",
                 "How to create master detail report using table?": "create-master-detail-report-using-table.md",
                 "How to create master detail report using list?": "create-master-detail-report-using-list.md",
-                "How to create master detail report using subreport?": "create-master-detail-report-using-subreport.md"
+                "How to create master detail report using subreport?": "create-master-detail-report-using-subreport.md",
+                "How to create the cover page report in Bold Reports?":"create-the-cover-page-report-in-bold-reports.md"
             }
         },
     "Manage Content": {
