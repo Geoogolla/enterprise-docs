@@ -129,10 +129,12 @@ This property can be used to set the values for chart series custom properties. 
 
 ### Legend Text
 
-A **Legend Text** is a chart element used to display the series name for each dataset, in the case of multi-series or combination charts. Legends are used to correlate a data plot with its series name using its color.
+A **Legend Text** property can be used to customize the legend text of each series in the chart.
 
 ![Series Legend Text](/static/assets/on-premise/images/report-designer/report-items/chart/series/legend-text.png)
 
 You can customize text for all legends on your report by navigating to the series properties.
 
 ![Series Legend Text Preview](/static/assets/on-premise/images/report-designer/report-items/chart/series/legend-text-preview.png)
+
+You can also set the legend text property based on dynamic values, by using the `Expressions`. Refer [Set Expression](./../../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
