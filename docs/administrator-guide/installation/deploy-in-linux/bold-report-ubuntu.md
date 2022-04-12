@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Set up To Install Bold Report in Linux Ubunthu for the Bold.
-description: Set up To Install Bold Report in Linux Ubunthu for the Bold.Set up To Install Bold Report in Linux Ubunthu for the Bold.Set up To Install Bold Report in Linux Ubunthu for the Bold.
+title: Set up To Install Bold Report in Linux Ubuntu for the Bold.
+description: Set up To Install Bold Report in Linux Ubuntu for the Bold.Set up To Install Bold Report in Linux Ubuntu for the Bold.Set up To Install Bold Report in Linux Ubuntu for the Bold.
 
 platform: report-platform
 documentation: ug
