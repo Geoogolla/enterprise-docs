@@ -126,3 +126,15 @@ Tooltip property can be used to display informative text or value, when the user
 This property can be used to set the values for chart series custom properties. To assign values for series custom properties using properties panel refer [Custom Properties](./../../../compose-report/common-properties/#custom-properties) section.
 
 ![Series Custom properties](/static/assets/on-premise/images/report-designer/report-items/chart/custom-attributes.png)
+
+### Legend Text
+
+A **Legend Text** property can be used to customize the legend text of each series in the chart.
+
+![Series Legend Text](/static/assets/on-premise/images/report-designer/report-items/chart/series/legend-text.png)
+
+You can customize text for all legends on your report by navigating to the series properties.
+
+![Series Legend Text Preview](/static/assets/on-premise/images/report-designer/report-items/chart/series/legend-text-preview.png)
+
+You can also set the legend text property based on dynamic values, by using the `Expressions`. Refer [Set Expression](./../../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.

@@ -44,17 +44,19 @@ You can also set the chart axis title text based on dynamic values, by using the
 
 ## Line Style
 
-Line style property can be used to set the line style, width, and color of the axis line.
+The **Line Style** property can be used to set the line style, width, and color of the axis line.
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/chart-axis/line-style.png)
 
-In the below snap, line style, color and width properties are applied to chart axes
+In the below snap, line style, color and width properties are applied to chart axes.
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/chart-axis/line-style-design.png)
 
+You can also apply the line style, color and width properties based on dynamic values, by using the `Expressions`. Refer [Set Expression](./../../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
+
 ## Label Overflow Mode
 
-Label Overflow Mode property can be used to handle the display mode of the overlapping labels.
+The **Label Overflow Mode** property can be used to handle the display mode of the overlapping labels.
 
 ### Trim
 
@@ -66,9 +68,11 @@ This option hides the overlapping label in the axis.
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/chart-axis/label-overflow-mode.png)
 
+You can also apply the label overflow mode based on dynamic values, by using the `Expressions`. Refer [Set Expression](./../../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
+
 ## Label Rotation
 
-Label rotation property can be used to define the rotation angle for the axis labels to display in the chart design.
+The **Label Rotation** property can be used to define the rotation angle for the axis labels to display in the chart design.
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/chart-axis/label-rotation.png)
 
@@ -76,9 +80,11 @@ Increase or decrease the rotation angle in the label rotation numeric textbox,
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/chart-axis/label-rotation-design.png)
 
+You can also set the label rotation property based on dynamic values, by using the `Expressions`. Refer [Set Expression](./../../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
+
 ## Label Format
 
-Label format property can be used to handle different formatting options like display type, denominations, decimal places, currency culture and negative value display format to the value axis labels.
+The **Label Format** property can be used to handle different formatting options like display type, denominations, decimal places, currency culture and negative value display format to the value axis labels.
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/chart-axis/label-format.png)
 
@@ -97,15 +103,27 @@ You can also apply font properties based on dynamic values, by using the `Expres
 
 ## Interval
 
-Interval and interval type property can be used to to set the interval for category and value axes. The interval property allows you to define the number of intervals you want in the category (x) and value (y) axes and it provides the consistent measurement of the data points in the chart report.
+The **Interval and Interval Type** properties can be used to to set the interval for category and value axes. The interval property allows you to define the number of intervals you want in the category (x) and value (y) axes and it provides the consistent measurement of the data points in the chart report.
 
 ![Interval](/static/assets/on-premise/images/report-designer/report-items/chart/chart-axis/interval.png)
+
+You can also set the interval and interval type properties based on dynamic values, by using the `Expressions`. Refer [Set Expression](./../../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
+
+## Maximum and Minimum
+
+The **Maximum and Minimum** properties can be used to define the minimum and maximum values on a chart axis.
+
+![Maximum and Minimum](/static/assets/on-premise/images/report-designer/report-items/chart/chart-axis/maximum-and-minimum.png)
+
+You can also set the maximum and minimum properties based on dynamic values, by using the `Expressions`. Refer [Set Expression](./../../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
 
 ## Labels AutoFit Disabled
 
 By default, the Interval Auto setting for the chart axis can cause the labels of X/Y axis to show only every second interval. This property can be used to avoid skipping labels at runtime. Enable or disable this property based on the label rendering behaviour of chart design.
 
 ![Interval](/static/assets/on-premise/images/report-designer/report-items/chart/chart-axis/label-autofit.png)
+
+You can also enable or disable the label autofit based on dynamic values, by using the `Expressions`. Refer [Set Expression](./../../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
 
 ## Tick
 
@@ -161,4 +179,4 @@ By default, ticks will be positioned outside of the chart axis, in the below sna
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/chart-axis/tick-position-design.png)
 
-You can also apply tick position based on dynamic values, by using the `Expressions`. Refer [Set Expressions](./../../../compose-report/properties-panel/#set-expression) and [Reset Expressions](./../../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.> Axis properties are not applicable for `Proportion` chart types.
+You can also apply tick position based on dynamic values, by using the `Expressions`. Refer [Set Expressions](./../../../compose-report/properties-panel/#set-expression) and [Reset Expressions](./../../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel. Axis properties are not applicable for `Proportion` chart types.
