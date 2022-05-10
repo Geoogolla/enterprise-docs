@@ -416,6 +416,9 @@
                 "How to create master detail report using list?": "create-master-detail-report-using-list.md",
                 "How to create master detail report using subreport?": "create-master-detail-report-using-subreport.md",
                 "How to create the cover page report in Bold Reports?":"create-the-cover-page-report-in-bold-reports.md"
+            },
+            "FAQ":{
+                "Display no data message for a data region":"display-no-data-message-for-a-data-region.md"
             }
         },
     "Manage Content": {
