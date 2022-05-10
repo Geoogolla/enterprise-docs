@@ -15,7 +15,7 @@ In the Properties panel, under `No Rows` category set the text that you want to 
 
 ![No data for table](/static/assets/on-premise/images/report-designer/faq/display-no-data-message-for-a-data-region/no-data-for-table.png)
 
-Alternatively, you can set the message text based on dynamic values, by using the `Expressions`. Refer [Set Expression](./../../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
+Alternatively, you can set the message text based on dynamic values, by using the `Expressions`. Refer [Set Expression](./../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
 
 ![No rows message as expression](/static/assets/on-premise/images/report-designer/faq/display-no-data-message-for-a-data-region/message-as-expression-in-table.png)
 
@@ -31,7 +31,7 @@ In the Properties panel, under `No Data` category set the text that you want to 
 
 ![No data for chart](/static/assets/on-premise/images/report-designer/faq/display-no-data-message-for-a-data-region/no-data-for-chart.png)
 
-Alternatively, you can set the message text based on dynamic values, by using the `Expressions`. Refer [Set Expression](./../../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
+Alternatively, you can set the message text based on dynamic values, by using the `Expressions`. Refer [Set Expression](./../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
 
 ![No data message as expression](/static/assets/on-premise/images/report-designer/faq/display-no-data-message-for-a-data-region/message-as-expression-in-chart.png)
 
