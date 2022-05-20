@@ -11,15 +11,15 @@ This section guides you to link a shared datasource in Bold Report Designer.
 
    ![Data icon configuration panel](/static/assets/on-premise/images/report-designer/manage-data/datasource/data-icon-configuration-panel.png#width=403px)
 
-2. In the `Data` panel, click on the `switcher` icon on the top-right corner.
+2. In the `Data` panel, click on the `DATASOURCE` on the top-left corner.
 
    ![Data panel switcher icon](/static/assets/on-premise/images/report-designer/manage-data/datasource/data-panel-switcher-icon.png#width=540px)
 
-3. In the context menu, click `Datasources` to launch the `DATASOURCES` configuration panel.
+3. In the `DATASOURCE` configuration panel, click on the `NEW DATASOURCE` button.
 
    ![New data source panel](/static/assets/on-premise/images/report-designer/manage-data/datasource/new-data-source-panel.PNG#width=540px)
 
-4. In the `DATASOURCES` configuration panel, click on the `NEW DATASOURCE` button. In the connection type panel, choose the `Shared` data source type.
+4. In the connection type panel, choose the `Shared` data source type.
 
    ![Connection types shared data](/static/assets/on-premise/images/report-designer/manage-data/datasource/connection-types-shared-data.png#width=540px)
 

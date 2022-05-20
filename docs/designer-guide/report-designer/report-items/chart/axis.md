@@ -179,4 +179,6 @@ By default, ticks will be positioned outside of the chart axis, in the below sna
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/chart-axis/tick-position-design.png)
 
-You can also apply tick position based on dynamic values, by using the `Expressions`. Refer [Set Expressions](./../../../compose-report/properties-panel/#set-expression) and [Reset Expressions](./../../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel. Axis properties are not applicable for `Proportion` chart types.
+You can also apply tick position based on dynamic values, by using the `Expressions`. Refer [Set Expressions](./../../../compose-report/properties-panel/#set-expression) and [Reset Expressions](./../../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
+
+> Axis properties are not applicable for `Proportion` chart types.

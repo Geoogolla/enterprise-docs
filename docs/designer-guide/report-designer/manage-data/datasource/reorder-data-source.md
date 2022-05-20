@@ -8,7 +8,7 @@ keywords: reorder data, reorder datasource, report-designer, ssrs, reporting
 
 This section guides you to reorder the data sources in the data sources panel. It can be done through the following procedure:
 
-1. Open the `DATASOURCES` panel. The data sources in the report will be listed here.
+1. Open the `DATASOURCE` panel. The data sources in the report will be listed here.
 2. Click and hold the drag indicator icon of the data source item that you want to reorder.
    ![Data source drag icon](/static/assets/on-premise/images/report-designer/manage-data/datasource/drag-icon.png#width=485px)
 3. Drag and drop the selected data source item to the required position in the data sources list.
