@@ -52,4 +52,4 @@ To remove the default values defined for the parameter follow the below steps:
 2. Click on `Assign Value >>` to open parameter assign dialog.
 3. Under the `Default Values` tab, choose the `None` option.
 ![Remove default values](/static/assets/on-premise/images/report-designer/report-parameters/add-report-parameter/remove-default-values.png)
-4. Click `OK`and save the parameter.
+4. Click `OK` and save the parameter.

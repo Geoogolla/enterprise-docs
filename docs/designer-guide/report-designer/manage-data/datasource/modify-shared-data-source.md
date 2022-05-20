@@ -7,7 +7,7 @@ description:  Modify a shared datasource in Bold Report Designer, to change the 
 
 This section guides you to modify an shared data source connection in Bold Report Designer. You can edit a shared data source through the following steps:
 
-1. Select a data source in the `DATASOURCES` panel that you want to edit.
+1. Select a data source in the `DATASOURCE` panel that you want to edit.
 
    ![Data source item menu icon](/static/assets/on-premise/images/report-designer/manage-data/datasource/data-source-item-menu-icon.png#width=540px)
 
