@@ -463,6 +463,7 @@
         "Integrating Report Designer": "integrating-report-designer.md"
     },
     "How to":{
+		"Limit the synchronization from ADFS": "can-we-limit-the-synchronization-from-adfs.md",
         "Filter Data Based on User in a Report": "filter-data-based-on-user-in-a-report.md",
         "Export report from Bold Reports Report Server ": "export-report-from-bold-reports-server.md",
         "Get list of items from Bold Reports Report Server": "get-list-of-items-from-bold-reports-server.md",
