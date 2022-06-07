@@ -8,15 +8,13 @@ keywords: report-platform
 
 No, we cannot limit the synchronization from ADFS based on count (like synchronizing 100 users). But, we can control whose details should be synchronized.
 
-Using Azure AD group synchronization, we can control the synchronization of specific users.
-
-Bold Reports On-Premise will list the Azure Active Directory groups that are already imported. Choose the groups you want to synchronize and click on `Synchronize` at the top.
+Using Azure AD group synchronization, we can control the synchronization of specific users. Bold Reports will list the Imported Database users that are already imported. Choose the users you want to synchronize and click on `Synchronize` at the top.
 
 ![Synchronize button](/static/assets/on-premise/images/manage-users-and-groups/users/synchronize-existing-database-users/synchronize-button-of-dbusers.png)
 
-Using Azure AD group synchronization, we can control the synchronization of specific groups also.
+To learn more about synchronize users, refer [here](https://help.boldreports.com/enterprise-reporting/administrator-guide/manage-users/users/synchronize/synchronize-existing-database-users/#synchronize-users).
 
-Bold Reports will list the Imported Database users that are already imported. Choose the users you want to synchronize and click on `Synchronize` at the top.
+Using Azure AD group synchronization, we can control the synchronization of specific groups also. Bold Reports On-Premise will list the Azure Active Directory groups that are already imported. Choose the groups you want to synchronize and click on `Synchronize` at the top.
 
 ![Azure AD Group Synchronize button](/static/assets/on-premise/images/manage-users-and-groups/groups/synchronize-azure-active-directory-groups/Azure-Group-Synchronize-button.png)
 
