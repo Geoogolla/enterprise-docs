@@ -6,20 +6,20 @@ platform: report-platform
 documentation: ug
 ---
 
-# If the user is configured using Open ID connect to Site1 - will they have access to Site2
+# Will the OpenID user have access to site2? if the user is imported from OpenID connect under site1
 
-Yes, it is possible to give access to site2 if the user is configured using Open ID connect to site1.
+If the user is imported from OpenID connect on site1, the user doesn't have access to site2. But, it is possible if the admin grants access to the site2.
 
-If the user is automatically imported to site1 and the admin wants to provide access to site2, the admin can grant access from UMS to site2. To learn more about Grant Access, you can refer [here](https://help.boldreports.com/enterprise-reporting/administrator-guide/manage-tenants/manage-sites/#grant-access).
+To learn more about Grant Access, you can refer [here](https://help.boldreports.com/enterprise-reporting/administrator-guide/manage-tenants/manage-sites/#grant-access).
 
 The following image shows the grant access permission to the new user.
 
 ![Grant Access](/static/assets/on-premise/images/faq/grant-access.png)
 
-The user can then access Site2, and the reports based on the permissions shared with him on the Report Server. The following image shows how to manage permission to add the user.
+When the admin grants access to site2, the user can access it. Then, the user has permission to site2 in the Report Server but only with limited permission. The following image shows how to manage permission to add to the user.
 
 ![Manage Permission](/static/assets/on-premise/images/faq/manage-permission.png)
 
 To learn more about Manage Permissions, you can refer [here](https://help.boldreports.com/enterprise-reporting/administrator-guide/manage-permissions/).
 
-On the other hand, it is not required for the admin to grant access to site2. If the same Open ID is configured on site2, the user will automatically be imported and logged in to site2.
+On the other hand, it is not required for the admin to grant access to site2. When the same Open ID settings are configured on site2, the user will automatically be imported and logged into site2.
