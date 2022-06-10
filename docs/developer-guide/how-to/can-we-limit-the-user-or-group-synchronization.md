@@ -24,6 +24,6 @@ With this group synchronization option, we can import fresh users from the Azure
 
 After synchronization completes, the number of groups modified, deleted, and duplicated will be shown in the success message box below.
 
-![Synchronization Azure Group Access window](/static/assets/on-premise/images/how-to/can-we-limit-the-synchronization-from-adfs/synchronize-azure-group-success-window.png)
+![Synchronization Azure Group Access window](/static/assets/on-premise/images/how-to/can-we-limit-the-synchronization-from-adfs/Synchronize-azure-group-success-window.png)
 
 To learn more about the procedure of synchronization, refer [here](https://help.boldreports.com/enterprise-reporting/administrator-guide/manage-users/groups/synchronize/synchronize-azure-active-directory-groups/#synchronization-procedure).
