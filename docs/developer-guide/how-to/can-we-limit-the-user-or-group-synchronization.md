@@ -1,20 +1,20 @@
 ---
-title: Limit the synchronization from ADFS | Bold Reports
+title: Limit the user/group Synchronization | Bold Reports
 description: This documentation explains how to provide a way to limit the synchronization from ADFS in the Bold Reports On-Premise Edition.
 keywords: report-platform
 ---
 
-# Can we limit the synchronization from ADFS
+# Can we limit the user/group synchronization
 
-No, we cannot limit the synchronization from ADFS based on count (like synchronizing 100 users). But, we can control whose details should be synchronized.
+No, we cannot limit the synchronization from Azure AD, Windows AD, and Database Users based on count (like synchronizing 100 users). But, we can control whose details should be synchronized.
 
-Using Azure AD group synchronization, we can control the synchronization of specific users. Bold Reports will list the Imported Database users that are already imported. Choose the users you want to synchronize and click on `Synchronize` at the top.
+Using Azure AD, Windows AD, and Database Users synchronization, we can control the synchronization of specific users. Bold Reports will list the imported users from which you can choose the required users to synchronize by clicking the `Synchronize` button at the top.
 
-![Synchronize button](/static/assets/on-premise/images/how-to/can-we-limit-the-synchronization-from-adfs/synchronize-button-of-dbusers.png)
+![Synchronize button](/static/assets/on-premise/images/how-to/can-we-limit-the-synchronization-from-adfs/Azure-Synchronize-button.png)
 
 To learn more about synchronize users, refer [here](https://help.boldreports.com/enterprise-reporting/administrator-guide/manage-users/users/synchronize/synchronize-existing-database-users/#synchronize-users).
 
-Using Azure AD group synchronization, we can control the synchronization of specific groups also. Bold Reports On-Premise will list the Azure Active Directory groups that are already imported. Choose the groups you want to synchronize and click on `Synchronize` at the top.
+Using Azure AD and Windows AD synchronization, we can control the synchronization of specific groups. Bold Reports On-Premise will list the imported groups from which you can choose the required groups to synchronize by clicking the `Synchronize` button at the top.
 
 ![Azure AD Group Synchronize button](/static/assets/on-premise/images/how-to/can-we-limit-the-synchronization-from-adfs/Azure-Group-Synchronize-button.png)
 
