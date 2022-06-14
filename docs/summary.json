@@ -145,7 +145,8 @@
         "Apply patches to Bold Reports Multi-tenant Azure App Service": "apply-patches-to-bold-reports-azure-app-service.md",
         "Switch the installed Bold Reports Report Server IIS Express application to IIS": "switch-the-installed-bold-reports-report-server-iis-express-application-to-iis.md",
         "How to apply the patches to Bold Reports to support common login with latest BI":"apply-patches-to-bold-reports-to-support-common-login-with-latest-bi.md",
-        "How to install Bold Report Server over Bold BI":"how-to-install-bold-reports-server-over-bold-bi.md"
+        "How to install Bold Report Server over Bold BI":"how-to-install-bold-reports-server-over-bold-bi.md",
+        "Limit the user/group Synchronization": "can-we-limit-the-user-or-group-synchronization.md"
     },
     "FAQ": {
         "Where can i find the error and debug log files?": "where-can-i-find-the-error-and-debug-log-files.md",
@@ -463,7 +464,6 @@
         "Integrating Report Designer": "integrating-report-designer.md"
     },
     "How to":{
-		"Limit the user/group Synchronization": "can-we-limit-the-user-or-group-synchronization.md",
         "Filter Data Based on User in a Report": "filter-data-based-on-user-in-a-report.md",
         "Export report from Bold Reports Report Server ": "export-report-from-bold-reports-server.md",
         "Get list of items from Bold Reports Report Server": "get-list-of-items-from-bold-reports-server.md",
