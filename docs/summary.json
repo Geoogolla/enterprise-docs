@@ -160,7 +160,8 @@
         "Where should I replace the Bold Reports license key in Bold Reports Azure App Service": "where-should-i-replace-the-bold-reports-license-key-in-bold-reports-azure-app-service.md",
         "Where does the data resides in Bold Reports": "where-does-the-data-resides-in-bold-reports.md",
         "Does Report Server store reports execution data to server database": "does-report-server-store-reports-execution-data-to-server-database.md",
-        "How to install PhantomJS manually?":"how-to-install-phantomjs-manually.md"
+        "How to install PhantomJS manually?":"how-to-install-phantomjs-manually.md",
+        "Will the OpenID user have access to site2? When, if the user is imported from OpenID connect under site1": "will-the-openid-user-have-access-to-site2-when-if-the-user-is-imported-from-openid-connect-under-site1.md"
     }
 },
 "Designer Guide":{

@@ -31,3 +31,5 @@ This section helps to get the answer for the frequently asked questions in `Bold
 * [Does Report Server store reports execution data to the server database?](./../faq/does-report-server-store-reports-execution-data-to-server-database/)
 
 * [How to install PhantomJS manually?](./how-to-install-phantomjs-manually/)
+
+* [Will the OpenID user have access to site2? When, if the user is imported from OpenID connect under site1](./../faq/will-the-openid-user-have-access-to-site2-when-if-the-user-is-imported-from-openid-connect-under-site1/)
