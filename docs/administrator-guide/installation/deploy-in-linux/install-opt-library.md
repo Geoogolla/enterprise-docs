@@ -12,7 +12,7 @@ documentation: ug
 
 > **Important:** Bold Reports Enterprise Edition uses client libraries such as Oracle, PostgreSQL, and MySQL to connect with their respective SQL database variants. You need to read and accept client library license to install client libraries.
 
-1. Go to client library location. `/var/www/bold-services/clientlibrary/`
+1. Go to client library location. `/var/www/bold-services/clientlibrary/boldreports`
 
 2. Here, you can see the client library consent document `consent-to-deploy-client-libraries.txt`. Read client libraries `LICENSE` details and execute the following command to install client libraries.
 
