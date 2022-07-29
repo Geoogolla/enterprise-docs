@@ -42,7 +42,7 @@
     }
 	],
   "paths": {
-    "/api/site/{tenant-name}/token": {
+    "{domain}/reporting/api/site/{tenant-name}/token": {
       "post": {
         "tags": [
           "Authentication"
@@ -98,12 +98,12 @@
         }
       }
     },
-    "/api/site/{tenant-name}/v1.0/groups": {
+    "{domain}/reporting/api/site/{tenant-name}/v1.0/groups": {
       "post": {
         "tags": [
           "Groups"
         ],
-        "summary": "Adds a group to the server",
+        "summary": "Add Group",
         "description": "With this endpoint, administrators can add a group to the server by providing the group details in the request body.",
         "operationId": "Groups_AddGroup",
         "parameters": [
@@ -150,7 +150,7 @@
         "tags": [
           "Groups"
         ],
-        "summary": "Returns the list of groups on the server",
+        "summary": "Get List Of Groups",
         "description": "With this endpoint, users can get the list of group information from the server.",
         "operationId": "Groups_GetGroupsV2",
         "responses": {
@@ -170,12 +170,12 @@
         }
       }
     },
-    "/api/site/{tenant-name}/v1.0/groups/{id}": {
+    "{domain}/reporting/api/site/{tenant-name}/v1.0/groups/{id}": {
       "delete": {
         "tags": [
           "Groups"
         ],
-        "summary": "Deletes the specified group on the server",
+        "summary": "Delete Group",
         "description": "With this endpoint administrator can delete the specific group on the server by providing group id in the id parameter.",
         "operationId": "Groups_DeleteGroup",
         "parameters": [
@@ -218,7 +218,7 @@
         "tags": [
           "Groups"
         ],
-        "summary": "Modifies information about a specified group",
+        "summary": "Edit Group",
         "description": "With this endpoint, administrators can modify a group to the server by providing the group details in the request body.",
         "operationId": "Groups_EditGroup",
         "parameters": [
@@ -277,7 +277,7 @@
         "tags": [
           "Groups"
         ],
-        "summary": "Returns group details on the server for a specified group.",
+        "summary": "Get Specific Group Detail",
         "description": "With this endpoint, administrators can get the group information from the server by providing the Group ID in the path parameter.",
         "operationId": "Groups_GetGroupDetail",
         "parameters": [
@@ -311,12 +311,12 @@
         }
       }
     },
-    "/api/site/{tenant-name}/v1.0/groups/{id}/users": {
+    "{domain}/reporting/api/site/{tenant-name}/v1.0/groups/{id}/users": {
       "get": {
         "tags": [
           "Groups"
         ],
-        "summary": "Returns a list of users on the server for the specified group",
+        "summary": "Get List Of Users From Group",
         "description": "With this endpoint, users can get the list of user information for the specified groups from the server by providing the group ID in the path parameter.",
         "operationId": "Groups_GetUsesFromGroup",
         "parameters": [
@@ -359,7 +359,7 @@
         "tags": [
           "Groups"
         ],
-        "summary": "Add user(s) to the particular group",
+        "summary": "Add User(s) To The Group",
         "description": "With this endpoint, administrators can add a list of users to a particular group by providing the group ID in the path parameter and the user IDs in the request body.",
         "operationId": "Groups_AddUserToGroup",
         "parameters": [
@@ -412,7 +412,7 @@
         "tags": [
           "Groups"
         ],
-        "summary": "Delete user(s) from the particular group",
+        "summary": "Delete User(s) From The Group",
         "description": "With this endpoint, administrators can delete a list of users from the particular group by providing the group ID in the path parameter and the user IDs in the request body.",
         "operationId": "Groups_DeleteUserFromGroup",
         "parameters": [
@@ -462,12 +462,12 @@
         }
       }
     },
-    "/api/site/{tenant-name}/v1.0/items/{id}": {
+    "{domain}/reporting/api/site/{tenant-name}/v1.0/items/{id}": {
       "get": {
         "tags": [
           "Items"
         ],
-        "summary": "Returns item details from the server for a specified item",
+        "summary": "Get Specific Item Detail",
         "description": "Server retrieves the respective item details for the values (CategoryId, DashboardId, DatasourceId, WidgetId, ScheduleId) provided in id parameter for the current user.",
         "operationId": "Items_GetItemDetail",
         "parameters": [
@@ -504,7 +504,7 @@
         "tags": [
           "Items"
         ],
-        "summary": "Deletes the specified items on the server",
+        "summary": "Delete Item",
         "description": "Users who have a delete access for item (Category, Dashboard, Datasource, Widget, Schedule), can delete the item on the server by providing (CategoryId, DashboardId, DatasourceId, WidgetId, ScheduleId) in id parameter.",
         "operationId": "Items_DeleteItem",
         "parameters": [
@@ -544,12 +544,12 @@
         }
       }
     },
-    "/api/site/{tenant-name}/v1.0/categories": {
+    "{domain}/reporting/api/site/{tenant-name}/v1.0/categories": {
       "post": {
         "tags": [
           "Items"
         ],
-        "summary": "Add a new category to the server",
+        "summary": "Add Category",
         "description": "Users who have a create access for categories, can add a new category to the server by providing respective category details in the request body.",
         "operationId": "Items_AddCategory",
         "parameters": [
@@ -596,7 +596,7 @@
         "tags": [
           "Items"
         ],
-        "summary": "Update category to the server",
+        "summary": "Update Category",
         "description": "Users who have a write access for categories, can update an existing category on the server by providing respective category details in the request body.",
         "operationId": "Items_UpdateCategory",
         "parameters": [
@@ -643,12 +643,12 @@
         }
       }
     },
-    "/api/site/{tenant-name}/v1.0/items/is-name-exists": {
+    "{domain}/reporting/api/site/{tenant-name}/v1.0/items/is-name-exists": {
       "post": {
         "tags": [
           "Items"
         ],
-        "summary": "Checks whether the item name already exists in the server",
+        "summary": "Item Name Exists",
         "description": "Current user can check whether the item (category, report, data source, dataset, schedule) is already exists or not on the server by providing item name (category name, report name, data source name, dataset name, schedule name) and item type (category, report, datasource, dataset, schedule) in the request body.",
         "operationId": "Items_IsItemNameExists",
         "parameters": [
@@ -686,12 +686,12 @@
         }
       }
     },
-    "/api/site/{tenant-name}/v1.0/reports": {
+    "{domain}/reporting/api/site/{tenant-name}/v1.0/reports": {
       "post": {
         "tags": [
           "Items"
         ],
-        "summary": "Add report",
+        "summary": "Add Report",
         "description": "Users who have create access for reports can add a new report to the server by providing report details in the request body. In the request body, for DataSourceMappingInfo and DataSetMappingInfo we can pass Datasource Name and Dataset Name from the server and providing either the item content or by passing the RDL report file server path, respectively.",
         "operationId": "Items_AddReport",
         "parameters": [
@@ -741,7 +741,7 @@
         "tags": [
           "Items"
         ],
-        "summary": "Update report",
+        "summary": "Update Report",
         "description": "Users who have write access for reports can update an existing report on the server by providing report details in the request body. In the request body, for DataSourceMappingInfo and DataSetMappingInfo, we can pass Datasource Name and Dataset Name from the server, respectively.",
         "operationId": "Items_UpdateReport",
         "parameters": [
@@ -791,12 +791,12 @@
         }
       }
     },
-    "/api/site/{tenant-name}/v1.0/reports/data-sources": {
+    "{domain}/reporting/api/site/{tenant-name}/v1.0/reports/data-sources": {
       "post": {
         "tags": [
           "Items"
         ],
-        "summary": "Add a new datasource to the server.",
+        "summary": "Add Datasource",
         "description": "Users who have a create access for datasources, can add a new datasource to the server by providing respective datasource details in the request body.In the request body, we can also pass Datasource Name from the server.",
         "operationId": "Items_AddDataSource",
         "parameters": [
@@ -843,7 +843,7 @@
         "tags": [
           "Items"
         ],
-        "summary": "Update datasource",
+        "summary": "Update Datasource",
         "description": "Users who have write access for the DataSource can update an existing DataSource on the server by providing respective DataSource details in the request body. In the request body, we can also pass Datasource Name from the server.",
         "operationId": "Items_UpdateDataSource",
         "parameters": [
@@ -890,12 +890,12 @@
         }
       }
     },
-    "/api/site/{tenant-name}/v1.0/reports/datasets": {
+    "{domain}/reporting/api/site/{tenant-name}/v1.0/reports/datasets": {
       "post": {
         "tags": [
           "Items"
         ],
-        "summary": "Add dataset",
+        "summary": "Add Dataset",
         "description": "Users who have create access for datasets can add a new dataset to the server by providing the dataset details in the request body. In the request body, for DataSourceMappingInfo, we can also pass the Datasource Name from the server.",
         "operationId": "Items_AddDataSet",
         "parameters": [
@@ -942,7 +942,7 @@
         "tags": [
           "Items"
         ],
-        "summary": "Update dataset",
+        "summary": "Update Dataset",
         "description": "Users who have write access for datasets can update an existing dataset on the server by providing details of the dataset in the request body. In the request body, for DataSourceMappingInfo, we can also pass Datasource Name from the server.",
         "operationId": "Items_UpdateDataSet",
         "parameters": [
@@ -989,12 +989,12 @@
         }
       }
     },
-    "/api/site/{tenant-name}/v1.0/items": {
+    "{domain}/reporting/api/site/{tenant-name}/v1.0/items": {
       "get": {
         "tags": [
           "Items"
         ],
-        "summary": "Returns list of items from the server",
+        "summary": "Get List Of Items",
         "description": "Server retrieves the list of items for the current user.",
         "operationId": "Items_GetItems",
         "parameters": [
@@ -1042,7 +1042,7 @@
         }
       }
     },
-    "/api/site/{tenant-name}/v1.0/reports/schedule": {
+    "{domain}/reporting/api/site/{tenant-name}/v1.0/reports/schedule": {
       "post": {
         "tags": [
           "Items"
@@ -1094,7 +1094,7 @@
         }
       }
     },
-    "/api/site/{tenant-name}/v1.0/reports/schedule/{scheduleid}": {
+    "{domain}/reporting/api/site/{tenant-name}/v1.0/reports/schedule/{scheduleid}": {
       "put": {
         "tags": [
           "Items"
@@ -1155,7 +1155,7 @@
         }
       }
     },
-    "/api/site/{tenant-name}/v1.0/reports/schedule/items": {
+    "{domain}/reporting/api/site/{tenant-name}/v1.0/reports/schedule/items": {
       "get": {
         "tags": [
           "Items"
@@ -1180,7 +1180,7 @@
         }
       }
     },
-    "/api/site/{tenant-name}/v1.0/reports/schedule/{scheduleId}": {
+    "{domain}/reporting/api/site/{tenant-name}/v1.0/reports/schedule/{scheduleId}": {
       "get": {
         "tags": [
           "Items"
@@ -1218,7 +1218,7 @@
         }
       }
     },
-    "/api/site/{tenant-name}/v1.0/schedules/{scheduleId}/run": {
+    "{domain}/reporting/api/site/{tenant-name}/v1.0/schedules/{scheduleId}/run": {
       "get": {
         "tags": [
           "Items"
@@ -1263,7 +1263,7 @@
         }
       }
     },
-    "/api/site/{tenant-name}/v1.0/items/{itemId}/location": {
+    "{domain}/reporting/api/site/{tenant-name}/v1.0/items/{itemId}/location": {
       "get": {
         "tags": [
           "Items"
@@ -1305,12 +1305,12 @@
         }
       }
     },
-    "/api/site/{tenant-name}/v1.0/reports/export": {
+    "{domain}/reporting/api/site/{tenant-name}/v1.0/reports/export": {
       "post": {
         "tags": [
           "Items"
         ],
-        "summary": "Export report",
+        "summary": "Export Report",
         "description": "Users who have read access for reports can export the reports by providing the report details and export type (Microsoft Excel, PDF, HTML, PPT, CSV, XML and Micorosft Word) in the request body. The response will be in an array of bytes.",
         "operationId": "Items_ExportReport",
         "parameters": [
@@ -1354,12 +1354,12 @@
         }
       }
     },
-    "/api/site/{tenant-name}/v1.0/reports/{reportId}/{exportType}/export-filter": {
+    "{domain}/reporting/api/site/{tenant-name}/v1.0/reports/{reportId}/{exportType}/export-filter": {
       "post": {
         "tags": [
           "Items"
         ],
-        "summary": "Export report with filters",
+        "summary": "Export Report With Filters",
         "description": "Users who have read access for reports can export the reports by providing the report ID and export type (Microsoft Excel, PDF, HTML, PPT, CSV, XML and Micorosft Word) in the request URL and filter parameters in the request body. The response will be in an array of bytes.",
         "operationId": "Items_ExportReportWithFilters",
         "parameters": [
@@ -1418,12 +1418,12 @@
         }
       }
     },
-    "/api/site/{tenant-name}/v1.0/permissions/users/{id}": {
+    "{domain}/reporting/api/site/{tenant-name}/v1.0/permissions/users/{id}": {
       "get": {
         "tags": [
           "Permission"
         ],
-        "summary": "Return list of permissions of user",
+        "summary": "Get List Of Permissions Of User",
         "description": "By this endpoint administrator can retrieves the list of permissions of a specific user by providing user id in the id parameter.",
         "operationId": "Permission_GetUserPermission",
         "parameters": [
@@ -1469,7 +1469,7 @@
         "tags": [
           "Permission"
         ],
-        "summary": "Delete user permission from the server",
+        "summary": "Delete User Permission",
         "description": "By this endpoint administrator can delete the specific user permissions on the server by providing user permission id in the id parameter.",
         "operationId": "Permission_DeleteUserPermission",
         "parameters": [
@@ -1506,12 +1506,12 @@
         }
       }
     },
-    "/api/site/{tenant-name}/v1.0/permissions/groups/{id}": {
+    "{domain}/reporting/api/site/{tenant-name}/v1.0/permissions/groups/{id}": {
       "get": {
         "tags": [
           "Permission"
         ],
-        "summary": "Return list of permissions of group",
+        "summary": "Get List Of Permissions Of Group",
         "description": "By this endpoint administrator can retrieves the list of permissions of a specific group by providing group id in the id parameter.",
         "operationId": "Permission_GetGroupPermission",
         "parameters": [
@@ -1557,7 +1557,7 @@
         "tags": [
           "Permission"
         ],
-        "summary": "Delete group permission from the server",
+        "summary": "Delete Group Permission",
         "description": "By this endpoint administrator can delete the specific group permissions on the server by providing group permission id in the id parameter.",
         "operationId": "Permission_DeleteGroupPermission",
         "parameters": [
@@ -1594,12 +1594,12 @@
         }
       }
     },
-    "/api/site/{tenant-name}/v1.0/permissions/users": {
+    "{domain}/reporting/api/site/{tenant-name}/v1.0/permissions/users": {
       "post": {
         "tags": [
           "Permission"
         ],
-        "summary": "Add a user permission to the server",
+        "summary": "Add User Permission",
         "description": "With this endpoint administrator can add the specific user permissions on the server by providing user permission details in the request body.",
         "operationId": "Permission_AddUserPermission",
         "parameters": [
@@ -1645,12 +1645,12 @@
         }
       }
     },
-    "/api/site/{tenant-name}/v1.0/permissions/groups": {
+    "{domain}/reporting/api/site/{tenant-name}/v1.0/permissions/groups": {
       "post": {
         "tags": [
           "Permission"
         ],
-        "summary": "Add a group permission to the server",
+        "summary": "Add Group Permission",
         "description": "With this endpoint administrator can add the specific group permissions on the server by providing group permission details in the request body.",
         "operationId": "Permission_AddGroupPermission",
         "parameters": [
@@ -1696,12 +1696,12 @@
         }
       }
     },
-    "/api/site/{tenant-name}/v1.0/users": {
+    "{domain}/reporting/api/site/{tenant-name}/v1.0/users": {
       "post": {
         "tags": [
           "Users"
         ],
-        "summary": "Adds a user to the server",
+        "summary": "Add User",
         "description": "With this endpoint, administrators can add a user to the server by providing the user details in the request body.",
         "operationId": "Users_AddUserV2",
         "parameters": [
@@ -1748,7 +1748,7 @@
         "tags": [
           "Users"
         ],
-        "summary": "Returns the list of users on the server",
+        "summary": "Get List Of Users",
         "description": "With this endpoint, the user can get the list of users information from the server.",
         "operationId": "Users_GetUsers",
         "responses": {
@@ -1768,12 +1768,12 @@
         }
       }
     },
-    "/api/site/{tenant-name}/v1.0/users/{user}": {
+    "{domain}/reporting/api/site/{tenant-name}/v1.0/users/{user}": {
       "delete": {
         "tags": [
           "Users"
         ],
-        "summary": "Deletes the specified user on the server",
+        "summary": "Delete User",
         "description": "With this endpoint administrator can delete the specific user on the server by providing user email address in the user parameter.",
         "operationId": "Users_DeleteUser",
         "parameters": [
@@ -1818,7 +1818,7 @@
         "tags": [
           "Users"
         ],
-        "summary": "Modifies information about the specified user",
+        "summary": "Edit User",
         "description": "With this endpoint, administrators can modify a user to the server by providing the user details in the request body.",
         "operationId": "Users_EditUser",
         "parameters": [
@@ -1876,7 +1876,7 @@
         "tags": [
           "Users"
         ],
-        "summary": "Returns user details on the server for a specified user",
+        "summary": "Get Specific User Detail",
         "description": "With this endpoint, users can get the profile information from the server by providing the Email ID in the path parameter.",
         "operationId": "Users_GetUserDetailV2",
         "parameters": [
@@ -1915,7 +1915,7 @@
         "tags": [
           "Users"
         ],
-        "summary": "Activate or deactivate user account",
+        "summary": "Activate Or Deactivate User",
         "description": "With this endpoint, administrators can activate or de-activate the user account in the server by providing the  email address in the path parameter and activation or de-activation request in the request body.",
         "operationId": "Users_ActivateDeactivateuser",
         "parameters": [
@@ -1961,12 +1961,12 @@
         }
       }
     },
-    "/api/site/{tenant-name}/v1.0/csv-users/download-template": {
+    "{domain}/reporting/api/site/{tenant-name}/v1.0/csv-users/download-template": {
       "get": {
         "tags": [
           "Users"
         ],
-        "summary": "Downloads CSV template from the server.",
+        "summary": "Download CSV Template",
         "description": "With this endpoint, administrators can download the CSV templates from the server.",
         "operationId": "Users_DownloadCsvTemplate",
         "responses": {
@@ -1989,12 +1989,12 @@
         }
       }
     },
-    "/api/site/{tenant-name}/v1.0/csv-users": {
+    "{domain}/reporting/api/site/{tenant-name}/v1.0/csv-users": {
       "post": {
         "tags": [
           "Users"
         ],
-        "summary": "Add CSV user",
+        "summary": "Add CSV User",
         "description": "With this endpoint, administrators can add a CSV of users to the server by providing the CSV file as an array of bytes in the request body.",
         "operationId": "Users_CsvUserImport",
         "parameters": [
@@ -2032,12 +2032,12 @@
         }
       }
     },
-    "/api/site/{tenant-name}/v1.0/users/{user}/groups": {
+    "{domain}/reporting/api/site/{tenant-name}/v1.0/users/{user}/groups": {
       "get": {
         "tags": [
           "Users"
         ],
-        "summary": "Get group details of particular user",
+        "summary": "Get Group Details Of Particular User",
         "description": "With this endpoint, administrators can get the group details of particular users from the server by providing email address, or user ID in the path parameter.",
         "operationId": "Users_GetGroupsOfUser",
         "parameters": [
@@ -2076,7 +2076,7 @@
         }
       }
     },
-    "/api/site/{tenant-name}/v1.0/settings/email": {
+    "{domain}/reporting/api/site/{tenant-name}/v1.0/settings/email": {
       "put": {
         "tags": [
           "Settings"
@@ -2122,7 +2122,7 @@
         }
       }
     },
-    "/api/site/{tenant-name}/v1.0/activity-logs": {
+    "{domain}/reporting/api/site/{tenant-name}/v1.0/activity-logs": {
       "get": {
         "tags": [
           "Audit Logs"
@@ -2226,7 +2226,7 @@
         }
       }
     },
-    "/api/site/{tenant-name}/v1.0/activity-logs?activitymodule=group": {
+    "{domain}/reporting/api/site/{tenant-name}/v1.0/activity-logs?activitymodule=group": {
       "get": {
         "tags": [
           "Audit Logs"
@@ -2276,7 +2276,7 @@
         }
       }
     },
-    "/api/site/{tenant-name}/v1.0/activity-logs?activitymodule=grouppermission": {
+    "{domain}/reporting/api/site/{tenant-name}/v1.0/activity-logs?activitymodule=grouppermission": {
       "get": {
         "tags": [
           "Audit Logs"
@@ -2320,7 +2320,7 @@
         }
       }
     },
-    "/api/site/{tenant-name}/v1.0/activity-logs?activitymodule=user": {
+    "{domain}/reporting/api/site/{tenant-name}/v1.0/activity-logs?activitymodule=user": {
       "get": {
         "tags": [
           "Audit Logs"
@@ -2368,7 +2368,7 @@
         }
       }
     },
-    "/api/site/{tenant-name}/v1.0/activity-logs?activitymodule=userpermission": {
+    "{domain}/reporting/api/site/{tenant-name}/v1.0/activity-logs?activitymodule=userpermission": {
       "get": {
         "tags": [
           "Audit Logs"
@@ -2412,7 +2412,7 @@
         }
       }
     },
-    "/api/site/{tenant-name}/v1.0/activity-logs?activitymodule=comment": {
+    "{domain}/reporting/api/site/{tenant-name}/v1.0/activity-logs?activitymodule=comment": {
       "get": {
         "tags": [
           "Audit Logs"
@@ -2459,7 +2459,7 @@
         }
       }
     },
-    "/api/site/{tenant-name}/v1.0/activity-logs?activitymodule=schedule": {
+    "{domain}/reporting/api/site/{tenant-name}/v1.0/activity-logs?activitymodule=schedule": {
       "get": {
         "tags": [
           "Audit Logs"
@@ -2504,7 +2504,7 @@
         }
       }
     },
-    "/api/site/{tenant-name}/v1.0/activity-logs?activitymodule=system": {
+    "{domain}/reporting/api/site/{tenant-name}/v1.0/activity-logs?activitymodule=system": {
       "get": {
         "tags": [
           "Audit Logs"
@@ -2554,7 +2554,7 @@
         }
       }
     },
-    "/api/site/{tenant-name}/v1.0/activity-logs?activitymodule=item": {
+    "{domain}/reporting/api/site/{tenant-name}/v1.0/activity-logs?activitymodule=item": {
       "get": {
         "tags": [
           "Audit Logs"
@@ -3191,8 +3191,6 @@
         "CredentialRetrieval",
         "Enabled",
         "EnabledSpecified",
-        "ImpersonateUser",
-        "ImpersonateUserSpecified",
         "OriginalConnectStringExpressionBased",
         "UseOriginalConnectString",
         "WindowsCredentials",
@@ -3205,16 +3203,8 @@
           "description": "Datasource connection string"
         },
         "CredentialRetrieval": {
-          "description": "Set the type of credentials to secure data",
-          "allOf": [
-            {
-              "$ref": "#/definitions/CredentialRetrieval"
-            }
-          ]
-        },
-        "ImpersonateUser": {
-          "type": "boolean",
-          "description": "Set to true to impersonate  the authenticated user after a connection has been made to the datasource"
+          "type": "string",
+          "description": "Set the type of credentials to secure data. Valid values: `Prompt`, `Store`, `Integrated`, `None`"
         },
         "Password": {
           "type": "string",
@@ -3233,57 +3223,10 @@
           "description": "Set to true to use Windows credentials when connecting to the datasource"
         },
         "ServerType": {
-          "description": "Specify the server type",
-          "allOf": [
-            {
-              "$ref": "#/definitions/ServerType"
-            }
-          ]
+          "type": "string",
+          "description": "Specify the server type. Valid values: `SQL`, `SQLCE`, `OLEDB`, `ODBC`, `Oracle`, `XML`, `SSAS`, `PostgreSQL`"
         }
       }
-    },
-    "CredentialRetrieval": {
-      "type": "integer",
-      "description": "Set the type of credentials to secure data\nPrompt: Credentials should be supplied by the user while running the report,\nStore: Credentials that stored securely in the report server,\nIntegrated: Use the Windows credentials of the current user to access the data source,\nNone: Credentials are not required.",
-      "x-enumNames": [
-        "Prompt",
-        "Store",
-        "Integrated",
-        "None"
-      ],
-      "enum": [
-        0,
-        1,
-        2,
-        3
-      ]
-    },
-    "ServerType": {
-      "type": "integer",
-      "description": "Select the server type to make datasource connection",
-      "x-enumNames": [
-        "None",
-        "SQL",
-        "SQLCE",
-        "OLEDB",
-        "ODBC",
-        "Oracle",
-        "XML",
-        "SSAS",
-        "PostgreSQL"
-      ],
-      "enum": [
-        0,
-        1,
-        2,
-        3,
-        4,
-        5,
-        6,
-        7,
-        8,
-        9
-      ]
     },
     "ApiReportDataSetAddV5": {
       "type": "object",
