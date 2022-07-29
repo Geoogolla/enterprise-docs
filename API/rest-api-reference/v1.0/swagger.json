@@ -316,7 +316,7 @@
         "tags": [
           "Groups"
         ],
-        "summary": "Get List Of Users On A Group",
+        "summary": "Get List Of Users From Group",
         "description": "With this endpoint, users can get the list of user information for the specified groups from the server by providing the group ID in the path parameter.",
         "operationId": "Groups_GetUsesFromGroup",
         "parameters": [
@@ -2037,7 +2037,7 @@
         "tags": [
           "Users"
         ],
-        "summary": "Get Group Details Of A User",
+        "summary": "Get Group Details Of Particular User",
         "description": "With this endpoint, administrators can get the group details of particular users from the server by providing email address, or user ID in the path parameter.",
         "operationId": "Users_GetGroupsOfUser",
         "parameters": [
