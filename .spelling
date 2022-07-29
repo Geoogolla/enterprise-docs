@@ -437,6 +437,7 @@ boldservices
 PowerShell
 wwwroot
 ClientLibraries
+clientlibrary
 install-optional-libs
 v3.2.22
 v3.1.x
