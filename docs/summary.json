@@ -172,6 +172,7 @@
                 "Azure SQL":"azure-sql-data-warehouse.md",
                 "CSV":"csv-data-source.md",
                 "Excel":"excel-data-source.md",
+                "Google Cloud SQL":"google-cloud-sql-data-source.md",
                 "JSON": "json-data-source.md",
                 "MariaDB":"mariadb-data-source.md",
                 "MemSQL":"memsql-data-source.md",
