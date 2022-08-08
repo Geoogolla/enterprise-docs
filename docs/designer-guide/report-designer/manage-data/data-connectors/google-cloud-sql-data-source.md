@@ -18,22 +18,15 @@ To configure the Google Cloud SQL data source, follow these steps:
 3. In the connection type panel, choose the `Google Cloud SQL` data source type.
    ![Connection types panel](/static/assets/on-premise/images/report-designer/manage-data/google-cloud-sql-data-source/connection-types.png)
 
-> You can also create a data source from the home page by clicking the Data Sources menu from the left menu panel and create Data Source from the data sources page.
-
-  ![Data Source Another Way](/static/assets/on-premise/images/report-designer/manage-data/google-cloud-sql-data-source/data-source-other-way.png)
-
 ### Create Google Cloud SQL data source with basic options
 
 When you create a new data, the `NEW DATASOURCE` panel will show up with basic options.
 
-1. Specify the data source name without special characters in the **Name** field.
-2. Select a database engine you want to use with the given Google Cloud SQL Server from the Database Engine combo box.
-3. Enter a valid Google Cloud SQL server or host name in the **Server Name** field.
-4. Enter a valid Google Cloud SQL username in the **Username** text box.
-5. Enter a valid Google Cloud SQL password in the **Password** text box.
-6. Select a database that you want to query in the listed database associated with the given Google Cloud SQL server in the database combo box.
-7. Click on `Connect` to connect the Bold Reports with the Google Cloud SQL server database.
-![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/google-cloud-sql-data-source/basic-options.png)
+Specify the data source name without special characters in the **Name** field.
+
+![Web datasource properties](/static/assets/on-premise/images/report-designer/manage-data/google-cloud-sql-data-source/google-cloud-sql-properties.png)
+
+Select a database engine you want to use with the given Google Cloud SQL Server from the Database Engine combo box.
 
 #### Google Cloud SQL supported database engine in Bold Reports
 
@@ -42,15 +35,34 @@ When you create a new data, the `NEW DATASOURCE` panel will show up with basic o
 
 ![Database Engine](/static/assets/on-premise/images/report-designer/manage-data/google-cloud-sql-data-source/database-engine.png)
 
-#### Data Preview
+Then enter the valid connection string and authentication type to connect with specified data source.
 
-1. Click on the `Connect` to proceed with the query design pane. The query design pane will show the specified Google Cloud SQL data's structure in the left pane.
-![Query Design Page](/static/assets/on-premise/images/report-designer/manage-data/google-cloud-sql-data-source/query-design-page.png)
+![Web datasource properties](/static/assets/on-premise/images/report-designer/manage-data/google-cloud-sql-data-source/basic-connection.png)
 
-2. Drag and drop the table from the left pane in the query design view page and execute.
-![Execute Schema File](/static/assets/on-premise/images/report-designer/manage-data/google-cloud-sql-data-source/execute-schema-file.png)
+Click on the `Connect` to proceed with query design pane. Now, enter the required query and execute. Its corresponding values will be shown in grid for preview.
 
-3. You can use the `Code View` options by clicking code in the tools pane for passing the query to display data.
-![Code View Options](/static/assets/on-premise/images/report-designer/manage-data/google-cloud-sql-data-source/code-view-options.png)
+![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/google-cloud-sql-data-source/execute-schema.png)
 
-4. Click `Finish` to save the data source with a relevant name to design the report.
+Click `Finish` to save the data source with a relevant name to proceed with designing report.
+
+![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/google-cloud-sql-data-source/data-list.png)
+
+#### Authentication types
+
+You can set database credentials, prompted credentials, or use no credentials.
+
+![Advanced authentication](/static/assets/on-premise/images/report-designer/manage-data/mysql-data-source/authentication.png)
+
+**Authentication** - A user name and password must be supplied to access the database, the credentials might be for a database login. The credentials are passed to the data source for authentication.
+
+![Advanced authentication](/static/assets/on-premise/images/report-designer/manage-data/mysql-data-source/authentication-type.png)
+
+Enable the **Save Password** option to embed the credentials within the report when saving it in Report Server.
+
+> On report download action, the credentials will be not be saved with report data.
+
+**Prompt** - When you configure a data source connection to use prompted credentials, each user who access the report must enter a user name and password on preview action to retrieve the data.
+
+![Advanced authentication](/static/assets/on-premise/images/report-designer/manage-data/mysql-data-source/prompt.png)
+
+**None** - Choose the authentication type as `None`, when the authentication details or any other arguments required to connect with the data source are provided in connection string.
