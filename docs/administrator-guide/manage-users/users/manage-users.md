@@ -126,6 +126,12 @@ Users can be deleted from the Bold Reports On-Premise when the user no longer re
 
 ![Delete user from user edit page](/static/assets/on-premise/images/manage-users-and-groups/users/delete-user-2.png)
 
+### Delete multiple users
+
+You can select multiple users from the user management page and then click the **Delete User** button to delete multiple users.
+
+![Delete multiple-user by Admin](/static/assets/on-premise/images/manage-users-and-groups/users/delete-multiple-user.png)
+
 ## Deactivate users
 
 Users can be deactivated at any time. Once deactivated, the user cannot log into the Bold Reports On-Premise.
