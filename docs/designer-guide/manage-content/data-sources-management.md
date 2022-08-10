@@ -41,7 +41,7 @@ Data source can be added to Report Server only if the user has `Create All Data 
 
 4. After designing dataset click on the `save` option.
 
-    >`Read Write Delete Download` permission for the `Specific Data Source` will be added for the user who created the data source.
+    >`Read Write Delete` permission for the `Specific Data Source` will be added for the user who created the data source.
 
 #### Use existing Datasource
 
@@ -55,7 +55,7 @@ Data source can be added to Report Server only if the user has `Create All Data 
 
 4. After designing dataset click on the `save` option.
 
-    >`Read Write Delete Download` permission for the `Specific Data Source` will be added for the user who created the data source.
+    >`Read Write Delete` permission for the `Specific Data Source` will be added for the user who created the data source.
 
 ## Share data sources
 
@@ -126,7 +126,7 @@ The following table illustrates the list of available APIs related to datasource
     </tr>
     <tr>
         <td>
-            <a href="https://help.boldreports.com/developer-guide/rest-api/v1.0/#operation/Items_AddDataSource">AddDataSource</a>
+            <a href="https://help.boldreports.com/on-premise/rest-api-reference/v1.0/#operation/Items_AddDataSource">AddDataSource</a>
         </td>
         <td>
             POST
@@ -140,7 +140,7 @@ The following table illustrates the list of available APIs related to datasource
     </tr>
     <tr>
         <td>
-            <a href="https://help.boldreports.com/developer-guide/rest-api/v1.0/#operation/Items_UpdateDataSource">UpdateDataSource</a>
+            <a href="https://help.boldreports.com/on-premise/rest-api-reference/v1.0/#operation/Items_UpdateDataSource">UpdateDataSource</a>
         </td>
         <td>
             PUT
@@ -154,7 +154,7 @@ The following table illustrates the list of available APIs related to datasource
     </tr>  
     <tr>
         <td>
-            <a href="https://help.boldreports.com/developer-guide/rest-api/v1.0/#operation/Items_GetItems">GetDataSources</a>
+            <a href="https://help.boldreports.com/on-premise/rest-api-reference/v1.0/#operation/Items_GetItems">GetDataSources</a>
         </td>
         <td>
             GET
@@ -168,7 +168,7 @@ The following table illustrates the list of available APIs related to datasource
     </tr>  
     <tr>
         <td>
-            <a href="https://help.boldreports.com/developer-guide/rest-api/v1.0/#operation/Items_GetItemLocation">GetDataSourceLocation</a>
+            <a href="https://help.boldreports.com/on-premise/rest-api-reference/v1.0/#operation/Items_GetItemLocation">GetDataSourceLocation</a>
         </td>
         <td>
             GET
@@ -196,7 +196,7 @@ The following table illustrates the list of available APIs related to datasource
     </tr>
     <tr>
         <td>
-            <a href="https://help.boldreports.com/developer-guide/rest-api/v1.0/#operation/Items_GetItemDetail">GetDataSourceDetail</a>
+            <a href="https://help.boldreports.com/on-premise/rest-api-reference/v1.0/#operation/Items_GetItemDetail">GetDataSourceDetail</a>
         </td>
         <td>
             GET
@@ -210,7 +210,7 @@ The following table illustrates the list of available APIs related to datasource
     </tr>
     <tr>
         <td>
-            <a href="https://help.boldreports.com/developer-guide/rest-api/v1.0/#operation/Items_DeleteItem">DeleteDataSource</a>
+            <a href="https://help.boldreports.com/on-premise/rest-api-reference/v1.0/#operation/Items_DeleteItem">DeleteDataSource</a>
         </td>
         <td>
             DELETE
