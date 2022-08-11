@@ -143,7 +143,7 @@ The following table illustrates the list of available APIs related to datasets i
     </tr>
     <tr>
         <td>
-            <a href="https://help.boldreports.com/developer-guide/rest-api/v1.0/#operation/Items_AddDataSet">AddDataset</a>
+            <a href="https://help.boldreports.com/enterprise-reporting/rest-api-reference/v1.0/#operation/Items_AddDataSet">AddDataset</a>
         </td>
         <td>
             POST
@@ -157,7 +157,7 @@ The following table illustrates the list of available APIs related to datasets i
     </tr>
     <tr>
         <td>
-            <a href="https://help.boldreports.com/developer-guide/rest-api/v1.0/#operation/Items_UpdateDataSet">UpdateDataset</a>
+            <a href="https://help.boldreports.com/enterprise-reporting/rest-api-reference/v1.0/#operation/Items_UpdateDataSet">UpdateDataset</a>
         </td>
         <td>
             PUT
@@ -171,7 +171,7 @@ The following table illustrates the list of available APIs related to datasets i
     </tr>  
         <tr>
         <td>
-            <a href="https://help.boldreports.com/developer-guide/rest-api/v1.0/#operation/Items_GetItems">GetDataSets</a>
+            <a href="https://help.boldreports.com/enterprise-reporting/rest-api-reference/v1.0/#operation/Items_GetItems">GetDataSets</a>
         </td>
         <td>
             GET
@@ -185,7 +185,7 @@ The following table illustrates the list of available APIs related to datasets i
     </tr>
         <tr>
         <td>
-            <a href="https://help.boldreports.com/developer-guide/rest-api/v1.0/#operation/Items_GetItemLocation">GetDataSetLocation</a>
+            <a href="https://help.boldreports.com/enterprise-reporting/rest-api-reference/v1.0/#operation/Items_GetItemLocation">GetDataSetLocation</a>
         </td>
         <td>
             GET
@@ -199,7 +199,7 @@ The following table illustrates the list of available APIs related to datasets i
     </tr>
     <tr>
         <td>
-            <a href="https://help.boldreports.com/developer-guide/rest-api/v1.0/#operation/Items_IsItemNameExists">IsDataSetNameExists</a>
+            <a href="https://help.boldreports.com/enterprise-reporting/rest-api-reference/v1.0/#operation/Items_IsItemNameExists">IsDataSetNameExists</a>
         </td>
         <td>
             POST
@@ -213,7 +213,7 @@ The following table illustrates the list of available APIs related to datasets i
     </tr>
     <tr>
         <td>
-            <a href="https://help.boldreports.com/developer-guide/rest-api/v1.0/#operation/Items_GetItemDetail">GetDataSetDetail</a>
+            <a href="https://help.boldreports.com/enterprise-reporting/rest-api-reference/v1.0/#operation/Items_GetItemDetail">GetDataSetDetail</a>
         </td>
         <td>
             GET
@@ -227,7 +227,7 @@ The following table illustrates the list of available APIs related to datasets i
     </tr>
         <tr>
         <td>
-            <a href="https://help.boldreports.com/developer-guide/rest-api/v1.0/#operation/Items_DeleteItem">DeleteDataSet</a>
+            <a href="https://help.boldreports.com/enterprise-reporting/rest-api-reference/v1.0/#operation/Items_DeleteItem">DeleteDataSet</a>
         </td>
         <td>
             DELETE

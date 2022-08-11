@@ -8,11 +8,11 @@ documentation: ug
 
 # Data sources management in Report Server
 
-You can create and store a data source on the Report Server when you have data source that you use often. When you create or upload a data source to Report Server, it is considered as shared data source that can be used by multiple reports.
+You can create and store a data source on the Report Server when you have data source that you use often. When you create a data source to Report Server, it is considered as shared data source that can be used by multiple reports.
 
 It is recommended to use shared data sources as much as possible. It is easier to manage, and help to keep reports and the data sources access more secure. The shared data sources always placed in the `Data Sources` page, they are accessible to the user depending on the user’s permission.
 
-This section about data sources management in Report Server. Allows you to add,delete shared data sources in the Report Server. The following image shows the list of options available to manage a datasources.
+This section about data sources management in Report Server. Allows you to add, update, share and delete shared data sources in the Report Server. The following image shows the list of options available to manage a datasources.
 
 ![Options available to manage data sources in the Report Server](/static/assets/on-premise/images/manage-content/manage-data-sources/managing-data-sources.png)
 
@@ -41,7 +41,7 @@ Data source can be added to Report Server only if the user has `Create All Data 
 
 4. After designing dataset click on the `save` option.
 
-    >`Read Write Delete Download` permission for the `Specific Data Source` will be added for the user who created the data source.
+    >`Read Write Delete` permission for the `Specific Data Source` will be added for the user who created the data source.
 
 #### Use existing Datasource
 
@@ -55,7 +55,7 @@ Data source can be added to Report Server only if the user has `Create All Data 
 
 4. After designing dataset click on the `save` option.
 
-    >`Read Write Delete Download` permission for the `Specific Data Source` will be added for the user who created the data source.
+    >`Read Write Delete` permission for the `Specific Data Source` will be added for the user who created the data source.
 
 ## Share data sources
 
@@ -103,7 +103,7 @@ Data sources can also be deleted from the Report Server when they are no longer 
 Click the `Actions` button in the data sources grid context menu and select `Delete` to delete the data source.
 ![Delete a data source](/static/assets/on-premise/images/manage-content/manage-data-sources/delete-data-source.png)
 
-> Data Sources cannot be deleted if a report uses it.
+> Data Sources cannot be deleted if a report or dataset uses it.
 
 ## REST API Reference
 
@@ -126,7 +126,7 @@ The following table illustrates the list of available APIs related to datasource
     </tr>
     <tr>
         <td>
-            <a href="https://help.boldreports.com/developer-guide/rest-api/v1.0/#operation/Items_AddDataSource">AddDataSource</a>
+            <a href="https://help.boldreports.com/enterprise-reporting/rest-api-reference/v1.0/#operation/Items_AddDataSource">AddDataSource</a>
         </td>
         <td>
             POST
@@ -140,7 +140,7 @@ The following table illustrates the list of available APIs related to datasource
     </tr>
     <tr>
         <td>
-            <a href="https://help.boldreports.com/developer-guide/rest-api/v1.0/#operation/Items_UpdateDataSource">UpdateDataSource</a>
+            <a href="https://help.boldreports.com/enterprise-reporting/rest-api-reference/v1.0/#operation/Items_UpdateDataSource">UpdateDataSource</a>
         </td>
         <td>
             PUT
@@ -154,7 +154,7 @@ The following table illustrates the list of available APIs related to datasource
     </tr>  
     <tr>
         <td>
-            <a href="https://help.boldreports.com/developer-guide/rest-api/v1.0/#operation/Items_GetItems">GetDataSources</a>
+            <a href="https://help.boldreports.com/enterprise-reporting/rest-api-reference/v1.0/#operation/Items_GetItems">GetDataSources</a>
         </td>
         <td>
             GET
@@ -168,7 +168,7 @@ The following table illustrates the list of available APIs related to datasource
     </tr>  
     <tr>
         <td>
-            <a href="https://help.boldreports.com/developer-guide/rest-api/v1.0/#operation/Items_GetItemLocation">GetDataSourceLocation</a>
+            <a href="https://help.boldreports.com/enterprise-reporting/rest-api-reference/v1.0/#operation/Items_GetItemLocation">GetDataSourceLocation</a>
         </td>
         <td>
             GET
@@ -182,7 +182,7 @@ The following table illustrates the list of available APIs related to datasource
     </tr>
     <tr>
         <td>
-            <a href="https://help.boldreports.com/on-premise/rest-api-reference/v1.0/#operation/Items_IsItemNameExists">IsDataSourceNameExists</a>
+            <a href="https://help.boldreports.com/enterprise-reporting/rest-api-reference/v1.0/#operation/Items_IsItemNameExists">IsDataSourceNameExists</a>
         </td>
         <td>
             POST
@@ -196,7 +196,7 @@ The following table illustrates the list of available APIs related to datasource
     </tr>
     <tr>
         <td>
-            <a href="https://help.boldreports.com/developer-guide/rest-api/v1.0/#operation/Items_GetItemDetail">GetDataSourceDetail</a>
+            <a href="https://help.boldreports.com/enterprise-reporting/rest-api-reference/v1.0/#operation/Items_GetItemDetail">GetDataSourceDetail</a>
         </td>
         <td>
             GET
@@ -210,7 +210,7 @@ The following table illustrates the list of available APIs related to datasource
     </tr>
     <tr>
         <td>
-            <a href="https://help.boldreports.com/developer-guide/rest-api/v1.0/#operation/Items_DeleteItem">DeleteDataSource</a>
+            <a href="https://help.boldreports.com/enterprise-reporting/rest-api-reference/v1.0/#operation/Items_DeleteItem">DeleteDataSource</a>
         </td>
         <td>
             DELETE
