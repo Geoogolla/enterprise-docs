@@ -171,6 +171,7 @@
             "Data Connectors": {
                 "Azure SQL":"azure-sql-data-warehouse.md",
                 "CSV":"csv-data-source.md",
+                "Elastic Search":"elastic-search-data-source.md",
                 "Excel":"excel-data-source.md",
                 "JSON": "json-data-source.md",
                 "MariaDB":"mariadb-data-source.md",
