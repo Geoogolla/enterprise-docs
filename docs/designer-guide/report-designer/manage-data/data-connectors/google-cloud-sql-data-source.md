@@ -1,11 +1,11 @@
 ---
 title: Connect to Google Cloud SQL Data Source | Bold Reports
-description: Learn how to connect the multiple database by Google Cloud SQL using the SQL Query (C# API) in Bold Reports Designer.
+description: Learn how to connect to Google Cloud SQL Data Source and feed data to your RDL reports using Bold Reports Designer.
 ---
 
 # Connect to Google Cloud SQL data source
 
-The Bold Reports allows you to connect multiple database through Google Cloud SQL using SQL Query (C# API).
+The Bold Reports allows you to connect multiple database through Google Cloud SQL.
 
 ## How to create Google Cloud SQL data source
 
@@ -22,11 +22,14 @@ To configure the Google Cloud SQL data source, follow these steps:
 
 When you create a new data, the `NEW DATASOURCE` panel will show up with basic options.
 
-Specify the data source name without special characters in the **Name** field.
+1. Specify the data source name without special characters in the **Name** field.
+2. Select a database engine you want to use with the given Google Cloud SQL Server from the Database Engine drop-down.
+3. Enter a valid Google Cloud SQL server or host name in the **Server Name** field.
+4. Enter a valid Google Cloud SQL username in the **UserName** text box.
+5. Enter a valid Google Cloud SQL password in the **Password** text box.
+6. Select a database that you want to query in the listed database associated with the given Google Cloud SQL server in the database combo-box.
 
-![Web datasource properties](/static/assets/on-premise/images/report-designer/manage-data/google-cloud-sql-data-source/google-cloud-sql-properties.png)
-
-Select a database engine you want to use with the given Google Cloud SQL Server from the Database Engine combo box.
+![Web datasource properties](/static/assets/on-premise/images/report-designer/manage-data/google-cloud-sql-data-source/basic-options.png)
 
 #### Google Cloud SQL supported database engine in Bold Reports
 
@@ -35,9 +38,7 @@ Select a database engine you want to use with the given Google Cloud SQL Server 
 
 ![Database Engine](/static/assets/on-premise/images/report-designer/manage-data/google-cloud-sql-data-source/database-engine.png)
 
-Then enter the valid connection string and authentication type to connect with specified data source.
-
-![Web datasource properties](/static/assets/on-premise/images/report-designer/manage-data/google-cloud-sql-data-source/basic-connection.png)
+#### Preview Report
 
 Click on the `Connect` to proceed with query design pane. Now, enter the required query and execute. Its corresponding values will be shown in grid for preview.
 
@@ -46,23 +47,3 @@ Click on the `Connect` to proceed with query design pane. Now, enter the require
 Click `Finish` to save the data source with a relevant name to proceed with designing report.
 
 ![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/google-cloud-sql-data-source/data-list.png)
-
-#### Authentication types
-
-You can set database credentials, prompted credentials, or use no credentials.
-
-![Advanced authentication](/static/assets/on-premise/images/report-designer/manage-data/mysql-data-source/authentication.png)
-
-**Authentication** - A user name and password must be supplied to access the database, the credentials might be for a database login. The credentials are passed to the data source for authentication.
-
-![Advanced authentication](/static/assets/on-premise/images/report-designer/manage-data/mysql-data-source/authentication-type.png)
-
-Enable the **Save Password** option to embed the credentials within the report when saving it in Report Server.
-
-> On report download action, the credentials will be not be saved with report data.
-
-**Prompt** - When you configure a data source connection to use prompted credentials, each user who access the report must enter a user name and password on preview action to retrieve the data.
-
-![Advanced authentication](/static/assets/on-premise/images/report-designer/manage-data/mysql-data-source/prompt.png)
-
-**None** - Choose the authentication type as `None`, when the authentication details or any other arguments required to connect with the data source are provided in connection string.
