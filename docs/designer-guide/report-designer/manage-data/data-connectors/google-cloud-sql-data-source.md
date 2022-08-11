@@ -27,18 +27,9 @@ When you create a new data, the `NEW DATASOURCE` panel will show up with basic o
 3. Enter a valid Google Cloud SQL server or host name in the **Server Name** field.
 4. Enter a valid Google Cloud SQL username in the **UserName** text box.
 5. Enter a valid Google Cloud SQL password in the **Password** text box.
-6. Select a database that you want to query in the listed database associated with the given Google Cloud SQL server in the database combo-box.
+6. Select a database that you want to query in the listed database associated with the given Google Cloud SQL server in the database drop-down.
 
 ![Web datasource properties](/static/assets/on-premise/images/report-designer/manage-data/google-cloud-sql-data-source/basic-options.png)
-
-#### Google Cloud SQL supported database engine in Bold Reports
-
-* MySQL
-* PostgreSQL
-
-![Database Engine](/static/assets/on-premise/images/report-designer/manage-data/google-cloud-sql-data-source/database-engine.png)
-
-#### Preview Report
 
 Click on the `Connect` to proceed with query design pane. Now, enter the required query and execute. Its corresponding values will be shown in grid for preview.
 
@@ -47,3 +38,16 @@ Click on the `Connect` to proceed with query design pane. Now, enter the require
 Click `Finish` to save the data source with a relevant name to proceed with designing report.
 
 ![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/google-cloud-sql-data-source/data-list.png)
+
+#### Google Cloud SQL supported database engine in Bold Reports
+
+* MySQL
+* PostgreSQL
+
+![Database Engine](/static/assets/on-premise/images/report-designer/manage-data/google-cloud-sql-data-source/database-engine.png)
+
+## See Also
+
+[MySQL](./../../data-connectors/mysql-data-source/)
+
+[PostgreSQL](./../../data-connectors/postgresql-data-source/)
