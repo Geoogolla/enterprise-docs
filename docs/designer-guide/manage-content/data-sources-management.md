@@ -103,7 +103,7 @@ Data sources can also be deleted from the Report Server when they are no longer 
 Click the `Actions` button in the data sources grid context menu and select `Delete` to delete the data source.
 ![Delete a data source](/static/assets/on-premise/images/manage-content/manage-data-sources/delete-data-source.png)
 
-> Data Sources cannot be deleted if a report and dataset uses it.
+> Data Sources cannot be deleted if a report or dataset uses it.
 
 ## REST API Reference
 
