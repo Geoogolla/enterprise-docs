@@ -12,7 +12,7 @@ You can create and store a data source on the Report Server when you have data s
 
 It is recommended to use shared data sources as much as possible. It is easier to manage, and help to keep reports and the data sources access more secure. The shared data sources always placed in the `Data Sources` page, they are accessible to the user depending on the user’s permission.
 
-This section about data sources management in Report Server. Allows you to add,update,share and delete shared data sources in the Report Server. The following image shows the list of options available to manage a datasources.
+This section about data sources management in Report Server. Allows you to add, update, share and delete shared data sources in the Report Server. The following image shows the list of options available to manage a datasources.
 
 ![Options available to manage data sources in the Report Server](/static/assets/on-premise/images/manage-content/manage-data-sources/managing-data-sources.png)
 
@@ -32,7 +32,7 @@ Data source can be added to Report Server only if the user has `Create All Data 
 1. Click on `Create New Datasource` option, it will show enabled connectors like below image.
 ![Set data connectors type](/static/assets/on-premise/images/manage-content/manage-data-sources/connectors-type.png)
 
-2. Choose the data source type. Enter the name, description and the other required details of the data source and click on the
+2. Choose the data source. Enter the name, description and the other required details of the data source and click on the
 `Save and Create DataSet` option.
     ![Set data source properties](/static/assets/on-premise/images/manage-content/manage-data-sources/add-new-data-source.png)
 
@@ -107,7 +107,7 @@ Click the `Actions` button in the data sources grid context menu and select `Del
 
 ## REST API Reference
 
-The following table illustrates the list of available API's related to datasources in Bold Reports On-Premise.
+The following table illustrates the list of available APIs related to datasources in Bold Reports On-Premise.
 
 <table>
     <tr>
