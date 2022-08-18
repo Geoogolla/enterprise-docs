@@ -119,7 +119,7 @@ You can also set the maximum and minimum properties based on dynamic values, by 
 
 ## Margin
 
-The **Margin** property specifies the size of the chart's margins, in pixels. Margins are calculated inward from the specified chart size; increasing the margin size does not increase the total chart size, but rather shrinks the chart area, if necessary.
+The **Margin** property specifies the size of the chart's margins. Margins are calculated inward from the specified chart size; increasing the margin size does not increase the total chart size, but rather shrinks the chart area, if necessary.
 
 ![Margin](/static/assets/on-premise/images/report-designer/report-items/chart/chart-axis/margin-property.png)
 
