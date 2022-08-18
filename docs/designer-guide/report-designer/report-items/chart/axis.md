@@ -117,6 +117,16 @@ The **Maximum and Minimum** properties can be used to define the minimum and max
 
 You can also set the maximum and minimum properties based on dynamic values, by using the `Expressions`. Refer [Set Expression](./../../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
 
+## Margin
+
+The **Margin** property specifies the size of the chart's margins, in pixels. Margins are calculated inward from the specified chart size; increasing the margin size does not increase the total chart size, but rather shrinks the chart area, if necessary.
+
+![Margin](/static/assets/on-premise/images/report-designer/report-items/chart/chart-axis/margin-property.png)
+
+> This property does not apply to pie, doughnut, funnel, or pyramid chart types.
+
+You can also set the margin property based on dynamic values, by using the `Expressions`. Refer [Set Expression](./../../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
+
 ## Labels AutoFit Disabled
 
 By default, the Interval Auto setting for the chart axis can cause the labels of X/Y axis to show only every second interval. This property can be used to avoid skipping labels at runtime. Enable or disable this property based on the label rendering behaviour of chart design.
