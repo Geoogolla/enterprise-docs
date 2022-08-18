@@ -168,12 +168,17 @@ On exporting the report, the visibility of the dynamic row or column can be cont
 
 ### Page break
 
-The page break property is used to control the amount of information on each page when you preview the report. Follow the below steps to apply page break property for dynamic member.
+The **Page Break** property is used to control the amount of information on each page when you preview the report. Follow the below steps to apply page break property for dynamic member.
 
 ![Page break property](/static/assets/on-premise/images/report-designer/report-items/tablix/group-member-page-break.png)
 
 Choose any `Break Location` type in the drop-down.
+
 ![Break location](/static/assets/on-premise/images/report-designer/report-items/tablix/group-break-location-types.png)
+
+The **Page Number Reset** property indicates whether the page number should be reset to 1 when a page break occurs. If this property evaluates to true, the page number is reset.
+
+![Page Number Reset](/static/assets/on-premise/images/report-designer/report-items/tablix/reset-page-number.png)
 
 #### Visibility
 
