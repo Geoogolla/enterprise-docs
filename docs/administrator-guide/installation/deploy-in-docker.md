@@ -22,6 +22,7 @@ The following hardware requirements are necessary to run the Bold Reports soluti
     * Ubuntu 18.04 LTS
     * Cent OS 7
     * Windows
+    * Red Hat Enterprise Linux (RHEL)
 * **CPU**: 4-core.
 * **Memory**: 16 GB RAM.
 * **Disk Space**: 8 GB or more.
