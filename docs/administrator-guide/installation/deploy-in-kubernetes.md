@@ -10,4 +10,4 @@ documentation: ug
 
 Bold Reports can be deployed on Kubernetes cluster. You can create Kubernetes cluster on either cloud or on-premise infrastructure. After completing cluster creation, you can follow the below link for Bold Reports Kubernetes deployment in a specific cloud and on-premise environments.
 
-[Bold Reports on Kubernetes](https://github.com/boldreports/bold-reports-kubernetes/tree/v3.3.23)
+[Bold Reports on Kubernetes](https://github.com/boldreports/bold-reports-kubernetes/tree/v4.2.52)
