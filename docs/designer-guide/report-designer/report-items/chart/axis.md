@@ -119,7 +119,7 @@ You can also set the maximum and minimum properties based on dynamic values, by 
 
 ## Include Zero
 
-When the `Include Zero` property is enabled, the y-axis configures the range so that zero is included. But, whenever y values are big and differences among data points are hard to judge, then disable `Include Zero` makes the y-axis set a range that provides the differences prominently visible.
+When the `Include Zero` property is enabled, the y-axis configures the range so that zero is included. But, whenever y values are big and differences among data points are hard to judge, then disable the `Include Zero` property. It makes the y-axis to set a range that provides the differences prominently visible.
 
 ![Include Zero](/static/assets/on-premise/images/report-designer/report-items/chart/chart-axis/include-zero.png)
 
