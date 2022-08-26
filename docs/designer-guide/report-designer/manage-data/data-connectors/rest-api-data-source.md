@@ -24,7 +24,7 @@ To configure the web data source, follow the below steps:
 
 1. Enter a valid REST API endpoint in the URL text box to perform GET action.
 2. Choose *GET* in **Method** drop-down.
-3. Choose a **Data Format** from the drop-down based on the response of your provided REST API. Options are JSON and XML.
+3. Choose a **Data Format** from the drop-down based on the response of your provided REST API. Options are JSON, XML, and CSV.
 4. Choose an **Authentication Type** supported by the data source. Options are `Basic http authentication` and `None`. Learn more about [Authentication Types](./../../../manage-data/data-connectors/rest-api-data-source/#authentication-types).
 Now, the basic connection details looks something similar to below image,
 
