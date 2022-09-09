@@ -259,6 +259,18 @@ Use *None* type in following cases,
 
 Use *Basic Http authentication*, if your data source requires username and password to authenticate. Choose **Basic HTTP Authentication** under **Authentication Type** and input the username and password.
 
+## Data format
+
+Data formats are plugins that define how a table of data can be exported for download. The options are JSON, XML, and CSV.
+
+### CSV data format
+
+The `CSV (Comma Separated Values)` file is a delimited text file that uses a comma to separate values. Each line of the file is a data record. Each record consists of one or more fields, separated by commas. Using the comma as a field separator is the source of the name for this file format. A CSV file typically stores tabular data (numbers and text) in plain text, where each line will have the same number of fields.
+
+Once you select the CSV format, the `Separator` options will show as below. You can choose the separator from the given options.
+
+![CSV Data Format](/static/assets/on-premise/images/report-designer/manage-data/web-data-source/csv-data-format.png)
+
 ## See also
 
 [Formatting Columns](./../../../transforming-data/formatting-columns/)
