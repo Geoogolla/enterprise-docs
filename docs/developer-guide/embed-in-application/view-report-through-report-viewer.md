@@ -73,18 +73,18 @@ Path of report, which is added on server.
 
 You can get more details of embedding with Bold Reporting Tools respective platforms as follows.
 
-  [Angular](https://help.boldreports.com/angular/report-viewer/reportserver-report/)
+  [Angular](https://help.boldreports.com/embedded-reporting/angular-reporting/report-viewer/reportserver-report/)
 
-  [ASP.NET Core](https://help.boldreports.com/aspnet-core/report-viewer/reportserver-report/)
+  [ASP.NET Core](https://help.boldreports.com/embedded-reporting/aspnet-core-reporting/report-viewer/reportserver-report/)
 
-  [ASP.NET MVC](https://help.boldreports.com/aspnet-mvc/report-viewer/reportserver-report/)
+  [ASP.NET MVC](https://help.boldreports.com/embedded-reporting/aspnet-mvc-reporting/report-viewer/reportserver-report/)
 
-  [ASP.NET Web Forms](https://help.boldreports.com/aspnet-web-forms/report-viewer/reportserver-report/)
+  [ASP.NET Web Forms](https://help.boldreports.com/embedded-reporting/aspnet-web-forms-reporting/report-viewer/reportserver-report/)
 
-  [Javascript](https://help.boldreports.com/javascript/report-viewer/reportserver-report/)
+  [Javascript](https://help.boldreports.com/embedded-reporting/javascript-reporting/report-viewer/reportserver-report/)
 
   [React](https://help.boldreports.com/embedded-reporting/react-reporting/report-viewer/reportserver-report/)
 
-  [UWP](https://help.boldreports.com/uwp/report-viewer/reportserver-report/)
+  [UWP](https://help.boldreports.com/embedded-reporting/uwp-reporting/report-viewer/reportserver-report/)
 
-  [WPF](https://help.boldreports.com/wpf/report-viewer/reportserver-report/)
+  [WPF](https://help.boldreports.com/embedded-reporting/wpf-reporting/report-viewer/reportserver-report/)
