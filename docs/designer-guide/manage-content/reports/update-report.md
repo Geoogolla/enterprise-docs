@@ -43,7 +43,7 @@ The following table illustrates the list of available APIs related to update rep
     </tr>
     <tr>
       <td>
-        <a href="https://help.boldreports.com/developer-guide/rest-api/v1.0/#operation/Items_UpdateReport">UpdateReport</a>
+        <a href="https://help.boldreports.com/cloud-reporting/rest-api-reference/v1.0/#operation/Items_UpdateReport">UpdateReport</a>
       </td>
       <td>
         PUT

@@ -97,7 +97,7 @@ The following table illustrates the list of available APIs related to category i
     </tr>
     <tr>
         <td>
-            <a href="https://help.boldreports.com/developer-guide/rest-api/v1.0/#operation/Items_AddCategory">AddCategory</a>
+            <a href="https://help.boldreports.com/cloud-reporting/rest-api-reference/v1.0/#operation/Items_AddCategory">AddCategory</a>
         </td>
         <td>
             POST
@@ -111,7 +111,7 @@ The following table illustrates the list of available APIs related to category i
     </tr>
     <tr>
         <td>
-            <a href="https://help.boldreports.com/developer-guide/rest-api/v1.0/#operation/Items_UpdateCategory">UpdateCategory</a>
+            <a href="https://help.boldreports.com/cloud-reporting/rest-api-reference/v1.0/#operation/Items_UpdateCategory">UpdateCategory</a>
         </td>
         <td>
             PUT
@@ -125,7 +125,7 @@ The following table illustrates the list of available APIs related to category i
     </tr>  
         <tr>
         <td>
-            <a href="https://help.boldreports.com/developer-guide/rest-api/v1.0/#operation/Items_GetItems">GetCategory</a>
+            <a href="https://help.boldreports.com/cloud-reporting/rest-api-reference/v1.0/#operation/Items_GetItems">GetCategory</a>
         </td>
         <td>
             GET
@@ -138,7 +138,7 @@ The following table illustrates the list of available APIs related to category i
         </td>
     <tr>
         <td>
-            <a href="https://help.boldreports.com/developer-guide/rest-api/v1.0/#operation/Items_IsItemNameExists">IsCategoryNameExists</a>
+            <a href="https://help.boldreports.com/cloud-reporting/rest-api-reference/v1.0/#operation/Items_IsItemNameExists">IsCategoryNameExists</a>
         </td>
         <td>
             POST
@@ -152,7 +152,7 @@ The following table illustrates the list of available APIs related to category i
     </tr>
     <tr>
         <td>
-            <a href="https://help.boldreports.com/developer-guide/rest-api/v1.0/#operation/Items_GetItemDetail">GetCategoryDetail</a>
+            <a href="https://help.boldreports.com/cloud-reporting/rest-api-reference/v1.0/#operation/Items_GetItemDetail">GetCategoryDetail</a>
         </td>
         <td>
             GET
@@ -166,7 +166,7 @@ The following table illustrates the list of available APIs related to category i
     </tr>
         <tr>
         <td>
-            <a href="https://help.boldreports.com/developer-guide/rest-api/v1.0/#operation/Items_DeleteItem">DeleteCategory</a>
+            <a href="https://help.boldreports.com/cloud-reporting/rest-api-reference/v1.0/#operation/Items_DeleteItem">DeleteCategory</a>
         </td>
         <td>
             DELETE

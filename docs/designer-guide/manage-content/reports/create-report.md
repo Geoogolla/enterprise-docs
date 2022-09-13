@@ -150,7 +150,7 @@ The following table illustrates the list of available APIs related to Add report
     </tr>
     <tr>
       <td>
-        <a href="https://help.boldreports.com/developer-guide/rest-api/v1.0/#operation/Items_AddReport">AddReport</a>
+        <a href="https://help.boldreports.com/cloud-reporting/rest-api-reference/v1.0/#operation/Items_AddReport">AddReport</a>
       </td>
       <td>
         POST
