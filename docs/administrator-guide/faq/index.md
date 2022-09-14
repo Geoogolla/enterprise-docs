@@ -33,3 +33,5 @@ This section helps to get the answer for the frequently asked questions in `Bold
 * [How to install PhantomJS manually?](./how-to-install-phantomjs-manually/)
 
 * [Will the OpenID user have access to site2? When, if the user is imported from OpenID connect under site1](./../faq/will-the-openid-user-have-access-to-site2-when-if-the-user-is-imported-from-openid-connect-under-site1/)
+
+* [Does Bold Reports support scaling?](./../faq/does-bold-reports-support-scaling/)

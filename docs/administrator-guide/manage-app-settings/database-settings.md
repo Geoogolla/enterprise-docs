@@ -18,7 +18,6 @@ You should configure the database settings in the Report Server to import users 
 3. You can import users from the following types of databases:
     * SQL Server
     * MySQL
-    * Oracle
     * PostgreSQL
 4. Click **database type** drop-down to change the database type.
 ![Select database Type](/static/assets/on-premise/images/settings/select-database-type.png)
@@ -34,12 +33,6 @@ You should configure the database settings in the Report Server to import users 
 1. Fill the MySQL connection details such as DSN, username, password, and database name.
 2. Click **Test Connection** to validate the connection details.
 ![Configuring MySQL database connection](/static/assets/on-premise/images/settings/connect-to-mysql-database.png)
-
-### Oracle database
-
-1. Fill the Oracle connection details such as DSN, Admin username, Admin password, database name, and database password.
-2. Click **Test Connection** to validate the connection details.
-![Configuring Oracle database connection](/static/assets/on-premise/images/settings/connect-to-oracle-database.png)
 
 ### PostgreSQL database
 

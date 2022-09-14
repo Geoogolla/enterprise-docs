@@ -241,7 +241,7 @@ The following table illustrates the list of available APIs related to schedules 
     </tr>
     <tr>
         <td>
-            <a href="https://help.boldreports.com/developer-guide/rest-api/v1.0/#operation/Items_AddSchedule">AddSchedule</a>
+            <a href="https://help.boldreports.com/cloud-reporting/rest-api-reference/v1.0/#operation/Items_AddSchedule">AddSchedule</a>
         </td>
         <td>
             POST
@@ -255,7 +255,7 @@ The following table illustrates the list of available APIs related to schedules 
     </tr>
     <tr>
         <td>
-            <a href="https://help.boldreports.com/developer-guide/rest-api/v1.0/#operation/Items_UpdateSchedule">UpdateSchedule</a>
+            <a href="https://help.boldreports.com/cloud-reporting/rest-api-reference/v1.0/#operation/Items_UpdateSchedule">UpdateSchedule</a>
         </td>
         <td>
             PUT
@@ -269,7 +269,7 @@ The following table illustrates the list of available APIs related to schedules 
     </tr>
     <tr>
         <td>
-            <a href="https://help.boldreports.com/developer-guide/rest-api/v1.0/#operation/Items_RunScheduleReport">RunScheduleReport</a>
+            <a href="https://help.boldreports.com/cloud-reporting/rest-api-reference/v1.0/#operation/Items_RunScheduleReport">RunScheduleReport</a>
         </td>
         <td>
             GET
@@ -283,7 +283,7 @@ The following table illustrates the list of available APIs related to schedules 
     </tr>
     <tr>
         <td>
-            <a href="https://help.boldreports.com/developer-guide/rest-api/v1.0/#operation/Items_GetScheduleItemDetail">GetScheduleItemDetail</a>
+            <a href="https://help.boldreports.com/cloud-reporting/rest-api-reference/v1.0/#operation/Items_GetScheduleItemDetail">GetScheduleItemDetail</a>
         </td>
         <td>
             GET
@@ -297,7 +297,7 @@ The following table illustrates the list of available APIs related to schedules 
     </tr>
     <tr>
         <td>
-            <a href="https://help.boldreports.com/developer-guide/rest-api/v1.0/#operation/Items_GetScheduleItems">GetScheduleItems</a>
+            <a href="https://help.boldreports.com/cloud-reporting/rest-api-reference/v1.0/#operation/Items_GetScheduleItems">GetScheduleItems</a>
         </td>
         <td>
             GET
@@ -311,7 +311,7 @@ The following table illustrates the list of available APIs related to schedules 
     </tr>
     <tr>
         <td>
-            <a href="https://help.boldreports.com/developer-guide/rest-api/v1.0/#operation/Items_GetItems">GetSchedules</a>
+            <a href="https://help.boldreports.com/cloud-reporting/rest-api-reference/v1.0/#operation/Items_GetItems">GetSchedules</a>
         </td>
         <td>
             GET
@@ -325,7 +325,7 @@ The following table illustrates the list of available APIs related to schedules 
     </tr>
     <tr>
         <td>
-            <a href="https://help.boldreports.com/developer-guide/rest-api/v1.0/#operation/Items_IsItemNameExists">IsScheduleNameExists</a>
+            <a href="https://help.boldreports.com/cloud-reporting/rest-api-reference/v1.0/#operation/Items_IsItemNameExists">IsScheduleNameExists</a>
         </td>
         <td>
             POST
@@ -339,7 +339,7 @@ The following table illustrates the list of available APIs related to schedules 
     </tr>
     <tr>
         <td>
-            <a href="https://help.boldreports.com/developer-guide/rest-api/v1.0/#operation/Items_GetItemDetail">GetScheduleDetail</a>
+            <a href="https://help.boldreports.com/cloud-reporting/rest-api-reference/v1.0/#operation/Items_GetItemDetail">GetScheduleDetail</a>
         </td>
         <td>
             GET
@@ -353,7 +353,7 @@ The following table illustrates the list of available APIs related to schedules 
     </tr>  
     <tr>
         <td>
-            <a href="https://help.boldreports.com/developer-guide/rest-api/v1.0/#operation/Items_DeleteItem">DeleteSchedule</a>
+            <a href="https://help.boldreports.com/cloud-reporting/rest-api-reference/v1.0/#operation/Items_DeleteItem">DeleteSchedule</a>
         </td>
         <td>
             DELETE
