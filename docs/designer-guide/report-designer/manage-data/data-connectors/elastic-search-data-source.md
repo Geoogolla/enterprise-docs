@@ -34,9 +34,13 @@ When you create a new data, the `NEW DATASOURCE` panel will show up with basic o
 
 #### Preview Report
 
-Click on the `Connect` to proceed with query design pane. Now, enter the required query and execute. Its corresponding values will be shown in grid for preview.
+After connecting the data source, the data design view page will be opened. On this page, the list of schemas and tables from the Elastic Search server will be shown in a `treeview` section.
 
 ![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/elastic-search-data-source/execute-schema.png)
+
+Now, you can drag and drop the required table from the tree view list.
+
+![Tree View List](/static/assets/on-premise/images/report-designer/manage-data/elastic-search-data-source/tree-view-list.png)
 
 Click `Finish` to save the data source with a relevant name to proceed with designing report.
 
