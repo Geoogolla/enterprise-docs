@@ -5,7 +5,7 @@ description: Learn how to connect to Google Cloud SQL Data Source and feed data 
 
 # Connect to Google Cloud SQL data source
 
-The Bold Reports allows you to connect multiple database through Google Cloud SQL.
+The Bold Reports allows you to connect with Google Cloud SQL database to visualize and analyze the data in reports.
 
 ## How to create Google Cloud SQL data source
 

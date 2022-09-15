@@ -170,6 +170,11 @@
     "Report Creation": "design-rdl-report-in-web-report-designer.md",
         "Manage Data": {
             "Data Connectors": {
+                "Amazon Aurora":"amazon-aurora-data-source.md",
+                "Amazon RDS":"amazon-rds-data-source.md",
+                "Amazon Redshift":"amazon-redshift-data-source.md",
+                "CDATA":"cdata-data-source.md",
+                "Elastic Search":"elastic-search-data-source.md",
                 "Azure SQL":"azure-sql-data-warehouse.md",
                 "CSV":"csv-data-source.md",
                 "Excel":"excel-data-source.md",
