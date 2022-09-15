@@ -248,17 +248,6 @@ Pagination allows REST API to conserve resources, improve response times and opt
 https://demo.net/rest/api/2/Books?id=1278&startAt=0&maxResults=33&fields=title,author,price
 ```
 
-## Authentication types
-
-You can set authentication type, either as **None** or **Basic HTTP Authentication**.
-
-Use *None* type in following cases,
-
-1. If your data source supports authentication directly through REST API URL, choose **None** under **Authentication Type**.
-2. If your data source supports API Key/API Token authentication, pass these values under **Header(s)** by clicking **+Add**. Choose **None** under **Authentication Type**.
-
-Use *Basic Http authentication*, if your data source requires username and password to authenticate. Choose **Basic HTTP Authentication** under **Authentication Type** and input the username and password.
-
 ## Data format
 
 You can choose the Data format of the response for the provided Rest API in the Data format drop-down.
@@ -270,6 +259,17 @@ You can choose the Data format of the response for the provided Rest API in the 
 Once you select the CSV format, the `Separator` options will show as below. You can choose the separator from the given options.
 
 ![CSV Data Format](/static/assets/on-premise/images/report-designer/manage-data/web-data-source/csv-data-format.png)
+
+## Authentication types
+
+You can set authentication type, either as **None** or **Basic HTTP Authentication**.
+
+Use *None* type in following cases,
+
+1. If your data source supports authentication directly through REST API URL, choose **None** under **Authentication Type**.
+2. If your data source supports API Key/API Token authentication, pass these values under **Header(s)** by clicking **+Add**. Choose **None** under **Authentication Type**.
+
+Use *Basic Http authentication*, if your data source requires username and password to authenticate. Choose **Basic HTTP Authentication** under **Authentication Type** and input the username and password.
 
 ## See also
 
