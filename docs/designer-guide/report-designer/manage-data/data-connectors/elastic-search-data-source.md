@@ -45,3 +45,57 @@ Now, you can drag and drop the required table from the tree view list.
 Click `Finish` to save the data source with a relevant name to proceed with designing report.
 
 ![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/elastic-search-data-source/data-list.png)
+
+## Connecting through custom query
+
+You can connect to data source of certain data connections through the custom query. This feature allows you to define the data source with manually written queries instead of manually dragged tables for data connection type such as Elasticsearch SQL connections.
+
+After connect action, you will get into the query design view.
+
+### Switch to code view
+
+By default, the query design view opens with design view. Switch to the code view by enabling the slider option in the tools pane in query design view as shown (highlighted) in the following image.
+
+![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/code-switcher.png)
+
+This will switch the query editor pane as like below,
+
+![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/elastic-search-data-source/query-mode.png)
+
+### Write query and execute
+
+In the `Query Editor` pane, you can write your own query which helps you to access table schema information and perform all the operations with respect to retrieving data from your database.
+
+After writing your query, click the `Execute` option in the tools pane. You can also view the data for your query in bottom of the `Query Editor`.
+
+![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/elastic-search-data-source/enter-query.png)
+
+If you tried to switch back design view by disabling the Code Slider in tools pane, you will be prompted with an alert message to remove your query for confirmation as proceeding with this action, will reset the code view query.
+
+![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/elastic-search-data-source/switcher-alert.png)
+
+Clicking `Yes` will discard the query and take you to design view, otherwise click `No`. Save the data source by clicking the `Finish` button.
+
+### Code view for tables in design view
+
+You can view the query in `Query Editor` pane for already created a data source in design view.
+
+For example, I have dragged the `kibana_sample_data_flights` table in design view.
+
+Then, I tried to enable the `Code Switcher` to view the query, this query shows the applied filters and whatever changes that made in the table.
+
+![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/elastic-search-data-source/design-to-query.png)
+
+## See also
+
+[Formatting Columns](./../../../transforming-data/formatting-columns/)
+
+[Join Tables](./../../../transforming-data/join-table/)
+
+[Query Filter](./../../../transforming-data/query-filter/)
+
+[Dataset Parameter](./../../../transforming-data/link-a-query-parameter-with-a-report-parameter/)
+
+[Query Parameter](./../../../transforming-data/define-query-parameters/)
+
+[Query Expression](./../../../transforming-data/configure-expression-columns/)
