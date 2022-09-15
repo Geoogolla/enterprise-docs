@@ -61,12 +61,12 @@ Bold Reports On-Premise built-in service URL.
 
 You can get more details of embedding with Bold Reporting Tools respective platforms as follows.
 
-  [Angular](https://help.boldreports.com/angular/report-designer/server-integration/)
+  [Angular](https://help.boldreports.com/embedded-reporting/angular-reporting/report-designer/server-integration/)
 
-  [ASP.NET Core](https://help.boldreports.com/aspnet-core/report-designer/server-integration/)
+  [ASP.NET Core](https://help.boldreports.com/embedded-reporting/aspnet-core-reporting/report-designer/server-integration/)
 
-  [ASP.NET MVC](https://help.boldreports.com/aspnet-mvc/report-designer/server-integration/)
+  [ASP.NET MVC](https://help.boldreports.com/embedded-reporting/aspnet-mvc-reporting/report-designer/server-integration/)
 
-  [ASP.NET Web Forms](https://help.boldreports.com/aspnet-web-forms/report-designer/server-integration/)
+  [ASP.NET Web Forms](https://help.boldreports.com/embedded-reporting/aspnet-web-forms-reporting/report-designer/server-integration/)
 
-  [Javascript](https://help.boldreports.com/javascript/report-designer/server-integration/)
+  [Javascript](https://help.boldreports.com/embedded-reporting/javascript-reporting/report-designer/server-integration/)

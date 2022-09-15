@@ -25,7 +25,7 @@ The following hardware requirements are necessary to run the Bold Reports On-Pre
 ### Software Requirements
 
 The following software requirements are necessary to run the Bold Reports Enterprise Reporting Edition:
-* **Framework :** [Microsoft .NET Framework 4.5](https://www.microsoft.com/en-in/download/details.aspx?id=30653)
+* **Framework :** [Microsoft .NET Core 5.0](https://dotnet.microsoft.com/en-us/download/dotnet/5.0)
 * **Database :** Microsoft SQL Server 2008+, Azure SQL | PostgreSQL server 9.0+ | MySQL
 * **Web Server :** [Internet Information Services (IIS) 7.0+](https://en.wikipedia.org/wiki/Internet_Information_Services)
 * **Web Browser :** Microsoft Edge , Mozilla Firefox , Chrome

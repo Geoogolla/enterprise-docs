@@ -48,6 +48,18 @@ Drag and drop the table from the left pane in the query design view page and exe
 Click `Finish` to save the data source with a relevant name to proceed with designing report.
 ![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/odata-data-source/data-list.png)
 
+## Data format
+
+You can choose the Data format of the response for the provided Rest API in the Data format drop-down.
+
+![Data Format](/static/assets/on-premise/images/report-designer/manage-data/web-data-source/data-format.png)
+
+### CSV data format
+
+Once you select the CSV format, the `Separator` options will show as below. You can choose the separator from the given options.
+
+![CSV Data Format](/static/assets/on-premise/images/report-designer/manage-data/web-data-source/csv-data-format.png)
+
 ## Authentication types
 
 You can set authentication type, either as **None** or **Basic HTTP Authentication**.
