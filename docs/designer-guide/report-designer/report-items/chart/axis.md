@@ -117,6 +117,14 @@ The **Maximum and Minimum** properties can be used to define the minimum and max
 
 You can also set the maximum and minimum properties based on dynamic values, by using the `Expressions`. Refer [Set Expression](./../../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
 
+## Include Zero
+
+When the `Include Zero` property is enabled, the y-axis configures the range so that zero is included. But, whenever y values are big and differences among data points are hard to judge, then disable the `Include Zero` property. It makes the y-axis to set a range that provides the differences prominently visible.
+
+![Include Zero](/static/assets/on-premise/images/report-designer/report-items/chart/chart-axis/include-zero.png)
+
+You can also set the include zero property based on dynamic values, by using the `Expressions`. Refer [Set Expression](./../../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
+
 ## Labels AutoFit Disabled
 
 By default, the Interval Auto setting for the chart axis can cause the labels of X/Y axis to show only every second interval. This property can be used to avoid skipping labels at runtime. Enable or disable this property based on the label rendering behaviour of chart design.
