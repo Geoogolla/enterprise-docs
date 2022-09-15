@@ -24,7 +24,7 @@ To configure the web data source, follow the below steps:
 
 1. Enter a valid REST API endpoint in the URL text box to perform GET action.
 2. Choose *GET* in **Method** drop-down.
-3. Choose a **Data Format** from the drop-down based on the response of your provided REST API. Options are JSON and XML.
+3. Choose a **Data Format** from the drop-down based on the response of your provided REST API. Options are JSON, XML, and CSV.
 4. Choose an **Authentication Type** supported by the data source. Options are `Basic http authentication` and `None`. Learn more about [Authentication Types](./../../../manage-data/data-connectors/rest-api-data-source/#authentication-types).
 Now, the basic connection details looks something similar to below image,
 
@@ -247,6 +247,18 @@ Pagination allows REST API to conserve resources, improve response times and opt
 ```html
 https://demo.net/rest/api/2/Books?id=1278&startAt=0&maxResults=33&fields=title,author,price
 ```
+
+## Data format
+
+You can choose the Data format of the response for the provided Rest API in the Data format drop-down.
+
+![Data Format](/static/assets/on-premise/images/report-designer/manage-data/web-data-source/data-format.png)
+
+### CSV data format
+
+Once you select the CSV format, the `Separator` options will show as below. You can choose the separator from the given options.
+
+![CSV Data Format](/static/assets/on-premise/images/report-designer/manage-data/web-data-source/csv-data-format.png)
 
 ## Authentication types
 
