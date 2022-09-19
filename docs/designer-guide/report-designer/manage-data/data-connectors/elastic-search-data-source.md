@@ -32,8 +32,6 @@ When you create a new data, the `NEW DATASOURCE` panel will show up with basic o
 5. Select a database that you want to query in the listed database associated with the given Elastic Search server in the database combo-box.
    ![Web datasource properties](/static/assets/on-premise/images/report-designer/manage-data/elastic-search-data-source/basic-options.png)
 
-#### Preview Report
-
 After connecting the data source, the data design view page will be opened. On this page, the list of schemas and tables from the Elastic Search server will be shown in a `treeview` section.
 
 ![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/elastic-search-data-source/execute-schema.png)
@@ -41,6 +39,8 @@ After connecting the data source, the data design view page will be opened. On t
 Now, you can drag and drop the required table from the tree view list.
 
 ![Tree View List](/static/assets/on-premise/images/report-designer/manage-data/elastic-search-data-source/tree-view-list.png)
+
+> Multiple joins are not supported for the Elastic Search data source in Bold Reports.
 
 Click `Finish` to save the data source with a relevant name to proceed with designing report.
 
@@ -82,15 +82,15 @@ You can view the query in `Query Editor` pane for already created a data source 
 
 For example, I have dragged the `kibana_sample_data_flights` table in design view.
 
-Then, I tried to enable the `Code Switcher` to view the query, this query shows the applied filters and whatever changes that made in the table.
+![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/elastic-search-data-source/design-view.png)
+
+Then, I tried to enable the `Code Switcher` to view the query, this query shows whatever changes that made in the table.
 
 ![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/elastic-search-data-source/design-to-query.png)
 
 ## See also
 
 [Formatting Columns](./../../../transforming-data/formatting-columns/)
-
-[Join Tables](./../../../transforming-data/join-table/)
 
 [Query Filter](./../../../transforming-data/query-filter/)
 
