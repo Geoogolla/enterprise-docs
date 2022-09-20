@@ -490,3 +490,6 @@ site1
 site2
 Elasticsearch
 schemas
+GS1Code128
+ConsumeContainerWhitespace
+whitespace

@@ -74,6 +74,12 @@ Select the required language in the **Language** property dropdown.
 
 ## Miscellaneous
 
+### ConsumeContainerWhitespace Property
+
+The **ConsumeContainerWhitespace** property is used to gets or sets a value that indicates whether all whitespace in containers, such as Body and Rectangle, should be consumed when contents grow instead of preserving the minimum white space between the contents and the container.
+
+![Consume Container Whitespace](/static/assets/on-premise/images/report-designer/report-items/properties-panel/consume-container-whitespace.png)
+
 <span style="font-weight:bold">Custom attributes</span>
 
 This property can be used to add custom properties at report level. To create and assign values for custom properties using properties panel refer [Custom Properties](./../../compose-report/common-properties/#custom-properties) section.![Custom properties at report level](/static/assets/on-premise/images/report-designer/report-items/properties-panel/custom-properties-report-level.png)
