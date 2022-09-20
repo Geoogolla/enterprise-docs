@@ -14,6 +14,7 @@ It has three rules to fill colors on map marker icons,
 * [Color palette](./../../../report-items/map/color-palette-marker-rule/)
 * [Color ranges](./../../../report-items/map/color-range-marker-rule/)
 * [Custom colors](./../../../report-items/map/custom-color-marker-rule/)
+
 Similarly, it has four distribution types to distribute colors on map marker icons,
 
 * [Equal](./../../../report-items/map/equal-distribution-marker-rule/)
