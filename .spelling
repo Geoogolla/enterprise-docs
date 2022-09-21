@@ -493,3 +493,7 @@ schemas
 GS1Code128
 ConsumeContainerWhitespace
 whitespace
+RangeBar
+RangeColumn
+RangeArea
+SmoothRangeAreaChart
