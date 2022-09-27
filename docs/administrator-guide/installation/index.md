@@ -7,11 +7,12 @@ platform: report-platform
 documentation: ug
 ---
 
-# Bold Reports  Installation and Deployment
+# Bold Reports Installation and Deployment
 
-Bold Reports Can Install in Following Services.
+Bold Reports can install in the following services.
 
 1. [Window Installer](./windows-installer/)
 2. [Deploy in Azure App Service](./azure-app-service/)
 3. [Deploy in Linux](./deploy-in-linux/)
-4. [Deploy in Docker](./deploy-in-docker/)
+4. [Delpoy in Kubernetes](./deploy-in-kubernetes/)
+5. [Deploy in Docker](./deploy-in-docker/)
