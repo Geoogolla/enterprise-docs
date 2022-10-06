@@ -27,23 +27,19 @@ To present data in the chart, create a dataset and bind data to the chart data r
 [
    {
       points:
-      [{Month: 'Jan', Highvalue: 0.7, Lowvalue: 6.1}, {Month: 'Feb', Highvalue: 1.3, Lowvalue: 6.3},
-      {Month: 'Mar', Highvalue: 1.9, Lowvalue: 8.5}, {Month: 'Apr', Highvalue: 3.1, Lowvalue: 10.8},
-      {Month: 'May', Highvalue: 5.7, Lowvalue: 14.4}, {Month: 'Jun', Highvalue: 8.4, Lowvalue: 16.9},
-      {Month: 'Jul', Highvalue: 10.6, Lowvalue: 19.2}, {Month: 'Aug', Highvalue: 10.5, Lowvalue: 16.5},
-      {Month: 'Sep', Highvalue: 8.5, Lowvalue: 16.1}, {Month: 'Oct', Highvalue: 6, Lowvalue: 12.5},
-      {Month: 'Nov', Highvalue: 1.5, Lowvalue: 6.9}, {Month: 'Dec', Highvalue: 5.1, Lowvalue: 12.1}],
-      Country: 'India'
-},
+         [{Season:'Winter', Highvalue: 10.2, Lowvalue: 6.9},
+         {Season:'Spring', Highvalue: 19.0, Lowvalue: 11.8},
+         {Season:'Summer', Highvalue: 24.6, Lowvalue: 21.8},
+         {Season:'Autumn', Highvalue: 20.8, Lowvalue: 7.8}],
+         Country:'Paris'
+   },
    {
       points:
-      [{Month: 'Jan', Highvalue: 1.7, Lowvalue: 7.1}, {Month: 'Feb', Highvalue: 1.9, Lowvalue: 7.7},
-      {Month: 'Mar', Highvalue: 1.2, Lowvalue: 7.5}, {Month: 'Apr', Highvalue: 2.5, Lowvalue: 9.8},
-      {Month: 'May', Highvalue: 4.7, Lowvalue: 11.4}, {Month: 'Jun', Highvalue: 6.4, Lowvalue: 14.4},
-      {Month: 'Jul', Highvalue: 9.6, Lowvalue: 17.2}, {Month: 'Aug', Highvalue: 10.7, Lowvalue: 17.9},
-      {Month: 'Sep', Highvalue: 7.5, Lowvalue: 15.1}, {Month: 'Oct', Highvalue: 3, Lowvalue: 10.5},
-      {Month: 'Nov', Highvalue: 1.2, Lowvalue: 7.9}, {Month: 'Dec', Highvalue: 4.1, Lowvalue: 9.1}],
-      Country: 'Germany'
+         [{Season:'Winter', Highvalue: 13.0, Lowvalue: 7.9},
+         {Season:'Spring', Highvalue: 22.8, Lowvalue: 15.2},
+         {Season:'Summer', Highvalue: 30.6, Lowvalue: 23.9},
+         {Season:'Autumn', Highvalue: 26.5, Lowvalue: 15.9}],
+         Country:'Rome'
    }
 ]
 ```
@@ -122,14 +118,6 @@ To configure data into a range column chart, follow the steps:
 
    You can also [Filter](./../../../compose-report/filter-data/), [Sort](./../../../compose-report/sort-data/), or [Group](./../../../compose-report/group-data/) the Column or Row(s) sections using expressions.
 
-   For example, here the `Month` field is sorted using `=Month(cdate("1-" & Fields!Month.Value))` expression.
-
-   ![Column row settings](/static/assets/on-premise/images/report-designer/report-items/chart/polar-chart/column-row-settings.png)
-
-   ![Sorting options](/static/assets/on-premise/images/report-designer/report-items/chart/polar-chart/sorting-options.png)
-
-   ![Set expression](/static/assets/on-premise/images/report-designer/report-items/chart/polar-chart/set-expression.png)
-
 ## Format Range Column Chart
 
 You can format the range column chart for better illustration of the view that you require, through the settings available in the `Properties` tab.
@@ -180,11 +168,19 @@ The **Chart Area** property can be used to customize the area of the chart desig
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/range-column-chart/chart-area-sketch.png)
 
-Use the [Color Palette](./../../../report-items/chart/color-palette/) property to customize the color of the chart. `Color Palatte` are listed under the `Chart Area` category.
+These properties are listed under the `Chart Area` category.
 
-Here, we have set the `Color Palette` as `Pacific` and the design is shown below.
+In this case, we have set the `Color Palette` as `Custom`.
+
+![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/range-column-chart/chart-area.png)
+
+Refer to the [Custom Colors](./../../../report-items/chart/color-palette/#define-custom-color-palette) for more information.
+
+![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/range-column-chart/chart-area-custom-color.png)
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/range-column-chart/chart-area-design.png)
+
+Use the [Color Palette](./../../../report-items/chart/color-palette/) property to customize the color of the chart.
 
 ### Title
 
@@ -213,6 +209,8 @@ To set/reset axis properties, refer to the [Axis Properties](./../../../report-i
 ### Value Axis
 
 The **Numeric axis** uses a numerical scale and displays numbers as labels. To use the categorical axis, toggle the `Enable Axis` checkbox under the `Value Axis` category in the chart properties.
+
+Here, we have set the `Interval Type` to `Number`, `Interval` to `5`. Then, we set the `Maximum` and `Minimum` value to `0` and `35`.
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/range-column-chart/value-axis.png)
 
