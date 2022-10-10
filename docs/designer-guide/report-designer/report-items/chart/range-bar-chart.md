@@ -27,15 +27,24 @@ To present data in the chart, create a dataset and bind data to the chart data r
 [
    {
       points:
-        [{Mobile: 'SureTalk S1', Highvalue: 40, Lowvalue: 13},
-        {Mobile: 'SureTalk S2.05', Highvalue: 41, Lowvalue: 17},
-        {Mobile: 'Eclipse Mobile', Highvalue: 39, Lowvalue: 10},
-        {Mobile: 'Blazen Mobile', Highvalue: 55, Lowvalue: 12},
-        {Mobile: 'Globular S435', Highvalue: 46, Lowvalue: 13},
-        {Mobile: 'Globular I775', Highvalue: 38, Lowvalue: 12},
-        {Mobile: 'Initech', Highvalue: 44, Lowvalue: 15},
-        {Mobile: 'MusiCone', Highvalue: 60, Lowvalue: 14}],
-   },
+      [{Month: 'Jan', Highvalue: 0.7, Lowvalue: 6.1}, {Month: 'Feb', Highvalue: 1.3, Lowvalue: 6.3},
+      {Month: 'Mar', Highvalue: 1.9, Lowvalue: 8.5}, {Month: 'Apr', Highvalue: 3.1, Lowvalue: 10.8},
+      {Month: 'May', Highvalue: 5.7, Lowvalue: 14.4}, {Month: 'Jun', Highvalue: 8.4, Lowvalue: 16.9},
+      {Month: 'Jul', Highvalue: 10.6, Lowvalue: 19.2}, {Month: 'Aug', Highvalue: 10.5, Lowvalue: 16.5},
+      {Month: 'Sep', Highvalue: 8.5, Lowvalue: 16.1}, {Month: 'Oct', Highvalue: 6, Lowvalue: 12.5},
+      {Month: 'Nov', Highvalue: 1.5, Lowvalue: 6.9}, {Month: 'Dec', Highvalue: 5.1, Lowvalue: 12.1}],
+      Country: 'India'
+},
+   {
+      points:
+      [{Month: 'Jan', Highvalue: 1.7, Lowvalue: 7.1}, {Month: 'Feb', Highvalue: 1.9, Lowvalue: 7.7},
+      {Month: 'Mar', Highvalue: 1.2, Lowvalue: 7.5}, {Month: 'Apr', Highvalue: 2.5, Lowvalue: 9.8},
+      {Month: 'May', Highvalue: 4.7, Lowvalue: 11.4}, {Month: 'Jun', Highvalue: 6.4, Lowvalue: 14.4},
+      {Month: 'Jul', Highvalue: 9.6, Lowvalue: 17.2}, {Month: 'Aug', Highvalue: 10.7, Lowvalue: 17.9},
+      {Month: 'Sep', Highvalue: 7.5, Lowvalue: 15.1}, {Month: 'Oct', Highvalue: 3, Lowvalue: 10.5},
+      {Month: 'Nov', Highvalue: 1.2, Lowvalue: 7.9}, {Month: 'Dec', Highvalue: 4.1, Lowvalue: 9.1}],
+      Country: 'Germany'
+   }
 ]
 ```
 
@@ -101,11 +110,25 @@ To configure data into a range bar chart, follow the steps:
 
 8. **Grouping**:
 
-   You can also group the added column element with another column, by adding the respective dimension element into the `Row(s)` section.
+   You can group the added column element with another column, by adding the respective dimension element into the `Row(s)` section.
+
+   ![Achieve grouping by row values](/static/assets/on-premise/images/report-designer/report-items/chart/range-bar-chart/add-field-to-rows-section.png)
+
+   Now, the report item design will look like below.
+
+   ![Preview of row value grouping ](/static/assets/on-premise/images/report-designer/report-items/chart/range-bar-chart/row-field-design-preview.png)
 
 9. **Formatting Column and Row(s) sections**:
 
    You can also [Filter](./../../../compose-report/filter-data/), [Sort](./../../../compose-report/sort-data/), or [Group](./../../../compose-report/group-data/) the Column or Row(s) sections using expressions.
+
+   For example, here the `Month` field is sorted using `=Month(cdate("1-" & Fields!Month.Value))` expression.
+
+   ![Column row settings](/static/assets/on-premise/images/report-designer/report-items/chart/polar-chart/column-row-settings.png)
+
+   ![Sorting options](/static/assets/on-premise/images/report-designer/report-items/chart/polar-chart/sorting-options.png)
+
+   ![Set expression](/static/assets/on-premise/images/report-designer/report-items/chart/polar-chart/set-expression.png)
 
 ## Format Range Bar Chart
 
@@ -141,20 +164,6 @@ You can add multiple series to the chart and the available series will be listed
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/range-bar-chart/multi-series-list-in-drop-down.png)
 
-We can edit the selected series by clicking the edit button.
-
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/range-bar-chart/edit-series.png)
-
-In this case, we have enabled the `Enable SmartLabel` property.
-
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/range-bar-chart/enable-smart-label.png)
-
-In the `Data Label Settings` properties, we have enabled the `Show Data Label` property.
-
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/range-bar-chart/data-label-settings.png)
-
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/range-bar-chart/data-label-settings-preview.png)
-
 Refer to the [Series](./../../../report-items/chart/series/) section, to customize each series using the properties panel.
 
 ### Appearance
@@ -167,15 +176,15 @@ The border style, color, width, and background color properties can be used to s
 
 ### Chart Area
 
-The **Chart Area** properties such as border width, color, and background color can be used to customize the area of the chart design.
+The **Chart Area** property can be used to customize the area of the chart design.
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/range-bar-chart/chart-area-sketch.png)
 
-These properties are listed under the `Chart Area` category.
+Use the [Color Palette](./../../../report-items/chart/color-palette/) property to customize the color of the chart. `Color Palatte` are listed under the `Chart Area` category.
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/range-bar-chart/chart-area.png)
+Here, we have set the `Color Palette` as `Pacific` and the design is shown below.
 
-Use the [Color Palette](./../../../report-items/chart/color-palette/) property to customize the color of the chart.
+![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/range-bar-chart/chart-area-design.png)
 
 ### Title
 
