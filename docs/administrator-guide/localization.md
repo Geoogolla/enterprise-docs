@@ -28,7 +28,7 @@ Create a folder in the locale folder  with {language code}-{country code} and pa
 | Installation Type | Folder Path |
 | ----------------- | ----------- |
 | Windows | Navigate to below installer folder: <br> {Installed_location}\BoldServices\reporting\web\locale</br> |
-| Docker | Bash into the reports-web container. <br> Inside the container, go to the below location:</br> "/application/reporting/web/locale" | 
+| Docker | Bash into the reports-web container. <br> Inside the container, go to the below location:</br> "/application/reporting/web/locale" |
 
 ### Windows
 
