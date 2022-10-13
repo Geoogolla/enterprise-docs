@@ -1,9 +1,16 @@
-node('EssentialStudio')
+node('BoldReports')
 {
  timestamps {
      timeout(time: 7200000, unit: 'MILLISECONDS') {
         string status="";
-        try {        
+        try {
+	     stage('Install Software') {
+         	nodejs(nodeJSInstallationName: 'nodejs-14.16.0') {
+         	bat 'npm config ls'
+          	}                
+          	env.PATH = "C:\\tools\\jenkins.plugins.nodejs.tools.NodeJSInstallation\\nodejs-14.16.0;${env.PATH}"
+        	}
+		
             stage 'Import'
                 println("Reports Platform Document Validation");
 			    git url: 'http://github.com/bold-reports/shared-groovy.git', branch: 'master', credentialsId: env.GithubCredentialID
