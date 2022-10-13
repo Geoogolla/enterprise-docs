@@ -2,7 +2,9 @@
     "Administrator Guide":{
     "Getting Started": "getting-started.md",
     "Installation": {
-        "Windows Installer":"windows-installer.md",
+        "Windows Installer":{
+            "Install Bold Reports over Bold BI":"install-bold-reports-over-bold-bi.md"
+        },
         "Azure App Service":{
 	    "Prerequisites":"prerequisites.md",
 	    "Recommendations":"recommendations.md",

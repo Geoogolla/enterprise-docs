@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Set up To Install Bold Report in Windows for the Bold.
-description: Learn how to install  Bold Reports Enterprise Edition and how to host the Bold Reports Enterprise in IIS or IIS Express in your machine. 
+description: Learn how to install Bold Reports Enterprise Edition and how to host the Bold Reports Enterprise in IIS or IIS Express in your machine. 
 platform: report-platform
 documentation: ug
 ---
