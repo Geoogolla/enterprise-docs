@@ -22,6 +22,20 @@ You can check the license agreement of the Bold Reports Enterprise edition by cl
 
 ![License Agreement](/static/assets/on-premise/images/installation/bold-reports-over-bold-bi/license-agreement.png)
 
+Then prompt will appear to proceed whether you are going to use the existing or new Bold ID for Bold Reports Enterprise Edition.
+
+![Prompt Dialog](/static/assets/on-premise/images/installation/bold-reports-over-bold-bi/prompt-dialog.png)
+
+## Proceed installation without Common Login
+
+If you select `No` to proceed the installation without common login, then Bold Reports Enterprise Reporting installation will be cancelled.
+
+![Cancelled Process](/static/assets/on-premise/images/installation/bold-reports-over-bold-bi/cancelled-process.png)
+
+## Proceed installation with common login
+
+If you select `Yes` to proceed the installation with common login for both Bold Reports and Bold BI products, then installation will host the Bold Reports as one of sub application inside the existing Bold BI Site hosted on IIS for common login to work.
+
 ## Hosting type
 
 Installer will automatically detect the existing Bold BI hosting details and show them in the following web hosting type.
@@ -54,9 +68,17 @@ After the installation process is completed, you can launch the application by c
 
 ## Registering Bold Reports site
 
+You cannot setup the Bold Reports application directly by clicking Launch Application when common login is selected. 
+
 First, you need to activate the license on the UMS server and then register the site.
 
-You cannot setup the Bold Reports application directly by clicking Launch Application when common login is selected. You have to manually create the site for Bold Reports from the site management page by opening the URL as follows.
+* Go to **settings > Manage License > Enterprise Reporting** in the UMS settings page.
+
+* Then, click `Login to activate account` to register on the site.
+
+![UMS Server](/static/assets/on-premise/images/installation/bold-reports-over-bold-bi/ums-server.png)
+
+After registering the site, you have to manually create the site for Bold Reports from the site management page by opening the URL as follows.
 
 `http://{hostname}/ums/sites?action=create-new-site`
 
