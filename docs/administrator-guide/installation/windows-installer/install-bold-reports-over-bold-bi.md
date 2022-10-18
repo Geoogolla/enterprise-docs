@@ -68,7 +68,7 @@ After the installation process is completed, you can launch the application by c
 
 ## Registering Bold Reports site
 
-You cannot setup the Bold Reports application directly by clicking Launch Application when common login is selected. 
+You cannot setup the Bold Reports application directly by clicking Launch Application when common login is selected.
 
 First, you need to activate the license on the UMS server and then register the site.
 
