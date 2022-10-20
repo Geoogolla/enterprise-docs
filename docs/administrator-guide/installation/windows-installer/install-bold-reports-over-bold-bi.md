@@ -22,7 +22,7 @@ You can check the license agreement of the Bold Reports Enterprise edition by cl
 
 ![License Agreement](/static/assets/on-premise/images/installation/bold-reports-over-bold-bi/license-agreement.png)
 
-Then prompt will appear to proceed whether you are going to use the existing or new Bold ID for Bold Reports Enterprise Edition.
+Then prompt will appear to proceed whether you are going to use the existing for Bold Reports Enterprise Edition.
 
 ![Prompt Dialog](/static/assets/on-premise/images/installation/bold-reports-over-bold-bi/prompt-dialog.png)
 
