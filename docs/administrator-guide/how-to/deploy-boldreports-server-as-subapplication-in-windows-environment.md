@@ -69,16 +69,67 @@ Please follow the below steps to deploy bold reports as sub-applications in the 
 
 13. We must add the below applications as sub-applications with the mentioned alias name, application pool, and physical path.
 
-    | Application | Alias Name | Application Pool | Physical path | Example |
-    | ----------- | ---------- | ---------------- | ------------- | ------- |
-    | {your application} | bold <br> (Did at step 10) </br> | SubApp_IDPWeb | {Deployed location}\idp\web | C:\BoldServices - Copy\idp\web |
-    | {your application}\bold\ | api <br> (Did at step 12) </br> | SubApp_IDPApi | {Deployed location}\idp\api | C:\BoldServices - Copy\idp\api |
-    | | ums| SubApp_IDPUMS | {Deployed location}\idp\ums | C:\BoldServices - Copy\idp\ums |
-    | | windowsauthentication | SubApp_IDPWinAuth | {Deployed location}\idp\winauth | C:\BoldServices - Copy\idp\windowsauthentication |
-    | | reporting | SubApp_ReportsWeb | {Deployed location}\reporting\web | C:\BoldServices - Copy\reporting\web |
-    | {your application}\bold\reporting\ | api | SubApp_ReportsApi | {Deployed location}\reporting\api | C:\BoldServices - Copy\reporting\api |
-    | | jobs | SubApp_ReportsJobs | {Deployed location}\reporting\jobs | C:\BoldServices - Copy\reporting\jobs |
-    | | reportservice | SubApp_ReportsDesigner | {Deployed location}\reporting\reportservice | C:\BoldServices - Copy\reporting\reportservice |
+    <table>
+     <tr>
+     <th>Application</th>
+     <th>Alias Name</th>
+     <th>Application Pool</th>
+     <th>Physical path</th>
+     <th>Example</th>
+     </tr>
+     <tr>
+     <td>{your application}</td>
+     < td>bold <br> (Did at step 10)</td>
+     <td>SubApp_IDPWeb</td>
+     <td>{Deployed location}\idp\web</td>
+     <td>C:\BoldServices - Copy\idp\web</td>
+     </tr>
+     <tr>
+     <td rowspan="4">{your application}\bold\</td>
+     <td>api <br> (Did at step 12) </br></td>
+     <td>SubApp_IDPApi</td>
+     <td>{Deployed location}\idp\api</td>
+     <td>C:\BoldServices - Copy\idp\api</td>
+     </tr>
+     <tr>
+     <td>ums</td>
+     <td>SubApp_IDPUMS</td>
+     <td>{Deployed location}\idp\ums</td>
+     <td>C:\BoldServices - Copy\idp\ums</td>
+     </tr>
+     <tr>
+     <td>windowsauthentication</td>
+     <td>SubApp_IDPWinAuth</td>
+     <td>{Deployed location}\idp\winauth</td>
+     <td>C:\BoldServices - Copy\idp\windowsauthentication</td>
+     </tr>
+     <tr>
+     <td>reporting</td>
+     <td>SubApp_ReportsWeb</td>
+     <td>{Deployed location}\reporting\web</td>
+     <td>C:\BoldServices - Copy\reporting\web</td>
+     </tr>
+     <tr>
+     <td rowspan="3">{your application}\bold\reporting\</td>
+     <td>api</td>
+     <td>SubApp_ReportsApi</td>
+     <td>{Deployed location}\reporting\api</td>
+     <td>C:\BoldServices - Copy\reporting\api</td>
+     </tr>
+     <tr>
+     <td>jobs</td>
+     <td>SubApp_ReportsJobs</td>
+     <td>{Deployed location}\reporting\jobs</td>
+     <td>C:\BoldServices - Copy\reporting\jobs</td>
+     </tr>
+     <tr>
+     <td>reportservice</td>
+     <td>SubApp_ReportsDesigner</td>
+     <td>{Deployed location}\reporting\reportservice</td>
+     <td>C:\BoldServices - Copy\reporting\reportservice</td>
+     </tr>
+    </table>
+
     > You must provide an alias name in the above table for api, ums, windowsauthentication, reporting, api, jobs, and reportservice.
 
 14. Ensure the **Bold Reports** application has the sub-applications, as shown in below image.
