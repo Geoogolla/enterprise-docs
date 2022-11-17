@@ -146,7 +146,7 @@ The **Chart Area** property can be used to customize the area of the chart desig
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/doughnut-chart/chart-area-sketch.png)
 
-Use the [Color Palette](./../../../report-items/chart/color-palette/) property to customize the color of the chart. `Color Palatte` are listed under the `Chart Area` category.
+Use the [Color Palette](./../../../report-items/chart/color-palette/) property to customize the color of the chart. `Color Palette` are listed under the `Chart Area` category.
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/doughnut-chart/chart-area-design.png)
 

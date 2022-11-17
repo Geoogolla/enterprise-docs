@@ -311,6 +311,11 @@ You can set static or dynamic text as the value for the bookmark property. To se
 
 The **Tooltip** property can be used to display informative text or values when the user hovers over the report item in the report preview. To set the tooltip for the chart item using the properties panel, refer to the [Tooltip](./../../../compose-report/common-properties/#tooltip) section.
 
+To customize the tooltip property in the report preview, go to **Series Properties**, under the Miscellaneous Category set tooltip as like below.
+`="Country: " & Fields!Country.Value + "<br>" + "Month: " & Fields!Month.Value + "<br>" + "High Value: " + Fields!Highvalue.Value + "<br>" + "Low Value: " + Fields!Lowvalue.Value`
+
+![Tooltip Property](/static/assets/on-premise/images/report-designer/report-items/chart/range-column-chart/tooltip-property-preview.png)
+
 ## Preview report
 
 1. The final design view of the report is shown below.

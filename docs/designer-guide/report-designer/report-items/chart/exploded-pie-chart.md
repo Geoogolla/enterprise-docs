@@ -174,9 +174,9 @@ The **Chart Area** property can be used to customize the area of the chart desig
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/exploded-pie-chart/chart-area-sketch.png)
 
-Use the [Color Palette](./../../../report-items/chart/color-palette/) property to customize the color of the chart. `Color Palatte` are listed under the `Chart Area` category.
+Use the [Color Palette](./../../../report-items/chart/color-palette/) property to customize the color of the chart. `Color Palette` are listed under the `Chart Area` category.
 
-Here, we have set the `Color Palatte` as `Pacific` and the design is shown below.
+Here, we have set the `Color Palette` as `Pacific` and the design is shown below.
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/exploded-pie-chart/chart-area-design.png)
 
