@@ -207,7 +207,7 @@ To set/reset axis properties, refer to the [Axis Properties](./../../../report-i
 
 ### Value Axis
 
-The **Numeric axis** uses a numerical scale and displays numbers as labels. To use the categorical axis, toggle the `Enable Axis` checkbox under the `Value Axis` category in the chart properties.
+The **Value axis** uses a numerical scale and displays numbers as labels. To use the value axis, toggle the `Enable Axis` checkbox under the `Value Axis` category in the chart properties.
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/100-stacked-bar-chart/value-axis.png)
 
