@@ -13,7 +13,7 @@ Please follow the below steps to deploy bold reports as sub-applications in the 
 1. Install the Bold Reports application, by default it is deployed in **C:\ Boldservices** Location. Then take a backup of boldservices.
 <br>`Location - C:\BoldServices-Copy`</br>
 
-2. Right-click `Application Pools` and click `Add Application Pool`.
+2. Open IIS server, right-click `Application Pools` and click `Add Application Pool`.
    ![Add Application Pool](/static/assets/on-premise/images/how-to/subapplication-in-windows/add-application-pool.png)
 
 3. Provide the name as **SubApp_IDPWeb** and click `OK`.
@@ -60,14 +60,14 @@ Please follow the below steps to deploy bold reports as sub-applications in the 
 11. Right-click the Bold Reports sub-application name and select `Add Application`.
     ![Add Sub Application](/static/assets/on-premise/images/how-to/subapplication-in-windows/add-sub-application.png)
 
-12. Provide the alias name, application pool, and physical path, and click `OK`.
+12. Provide the alias name, application pool and physical path, and click `OK`.
     * Alias name - Please provide the name as `api`.
     * Application pool - Select the application pool `SubApp_IDPApi` that you have created in step 5.
     * Physical path - Click Browse, go to the backup location, and choose the api folder under idp.
     `(C:\BoldServices - Copy\idp\api)`
     ![Sub App Alias Name](/static/assets/on-premise/images/how-to/subapplication-in-windows/sub-app-alias-name.png)
 
-13. We must add the below applications as sub-applications with the mentioned alias name, application pool, and physical path.
+13. We must add the below applications as sub-applications with the mentioned alias name, application pool and physical path.
 
     <table>
      <tr>
@@ -79,7 +79,7 @@ Please follow the below steps to deploy bold reports as sub-applications in the 
      </tr>
      <tr>
      <td>{your application}</td>
-     < td>bold <br> (Did at step 10)</td>
+     <td>bold <br> (Did at step 10)</td>
      <td>SubApp_IDPWeb</td>
      <td>{Deployed location}\idp\web</td>
      <td>C:\BoldServices - Copy\idp\web</td>
