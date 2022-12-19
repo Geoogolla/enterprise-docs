@@ -27,22 +27,22 @@ To present data in the chart, create a dataset and bind data to the chart data r
 [
    {
       points:
-      [{Month: 'Jan', Highvalue: 0.7, Lowvalue: 6.1}, {Month: 'Feb', Highvalue: 1.3, Lowvalue: 6.3},
-      {Month: 'Mar', Highvalue: 1.9, Lowvalue: 8.5}, {Month: 'Apr', Highvalue: 3.1, Lowvalue: 10.8},
-      {Month: 'May', Highvalue: 5.7, Lowvalue: 14.4}, {Month: 'Jun', Highvalue: 8.4, Lowvalue: 16.9},
-      {Month: 'Jul', Highvalue: 10.6, Lowvalue: 19.2}, {Month: 'Aug', Highvalue: 10.5, Lowvalue: 16.5},
-      {Month: 'Sep', Highvalue: 8.5, Lowvalue: 16.1}, {Month: 'Oct', Highvalue: 6, Lowvalue: 12.5},
-      {Month: 'Nov', Highvalue: 1.5, Lowvalue: 6.9}, {Month: 'Dec', Highvalue: 5.1, Lowvalue: 12.1}],
+      [{Month: 'Jan', Highvalue: 6.1, Lowvalue: 0.7}, {Month: 'Feb', Highvalue: 6.3, Lowvalue: 1.3},
+      {Month: 'Mar', Highvalue: 8.5, Lowvalue: 1.9}, {Month: 'Apr', Highvalue: 10.8, Lowvalue: 3.1},
+      {Month: 'May', Highvalue: 14.4, Lowvalue: 5.7}, {Month: 'Jun', Highvalue: 16.9, Lowvalue: 8.4},
+      {Month: 'Jul', Highvalue: 19.2, Lowvalue: 10.6}, {Month: 'Aug', Highvalue: 16.5, Lowvalue: 10.5},
+      {Month: 'Sep', Highvalue: 16.1, Lowvalue: 8.5}, {Month: 'Oct', Highvalue: 12.5, Lowvalue: 6},
+      {Month: 'Nov', Highvalue: 6.9, Lowvalue: 1.5}, {Month: 'Dec', Highvalue: 12.1, Lowvalue: 5.1}],
       Country: 'India'
 },
    {
       points:
-      [{Month: 'Jan', Highvalue: 1.7, Lowvalue: 7.1}, {Month: 'Feb', Highvalue: 1.9, Lowvalue: 7.7},
-      {Month: 'Mar', Highvalue: 1.2, Lowvalue: 7.5}, {Month: 'Apr', Highvalue: 2.5, Lowvalue: 9.8},
-      {Month: 'May', Highvalue: 4.7, Lowvalue: 11.4}, {Month: 'Jun', Highvalue: 6.4, Lowvalue: 14.4},
-      {Month: 'Jul', Highvalue: 9.6, Lowvalue: 17.2}, {Month: 'Aug', Highvalue: 10.7, Lowvalue: 17.9},
-      {Month: 'Sep', Highvalue: 7.5, Lowvalue: 15.1}, {Month: 'Oct', Highvalue: 3, Lowvalue: 10.5},
-      {Month: 'Nov', Highvalue: 1.2, Lowvalue: 7.9}, {Month: 'Dec', Highvalue: 4.1, Lowvalue: 9.1}],
+      [{Month: 'Jan', Highvalue: 7.1, Lowvalue: 1.7}, {Month: 'Feb', Highvalue: 7.7, Lowvalue: 1.9},
+      {Month: 'Mar', Highvalue: 7.5, Lowvalue: 1.2}, {Month: 'Apr', Highvalue: 9.8, Lowvalue: 2.5},
+      {Month: 'May', Highvalue: 11.4, Lowvalue: 4.7}, {Month: 'Jun', Highvalue: 14.4, Lowvalue: 6.4},
+      {Month: 'Jul', Highvalue: 17.2, Lowvalue: 9.6}, {Month: 'Aug', Highvalue: 17.9, Lowvalue: 10.7},
+      {Month: 'Sep', Highvalue: 15.1, Lowvalue: 7.5}, {Month: 'Oct', Highvalue: 10.5, Lowvalue: 3},
+      {Month: 'Nov', Highvalue: 7.9, Lowvalue: 1.2}, {Month: 'Dec', Highvalue: 9.1, Lowvalue: 4.1}],
       Country: 'Germany'
    }
 ]
@@ -100,7 +100,7 @@ To configure data into a range area chart, follow the steps:
 
 7. **Drag and Drop Dimension Element**:
 
-   Select and drag the dimension element from the `Dimensions` section to measure against any of the selected numeric column(s) in `Y Value(s)` section, and drop it into the `Column` section.
+   Select and drag the dimension element from the `Dimensions` section to measure against any of the selected numeric column(s) in `High(s)` or `Low(s)` section, and drop it into the `Column` section.
 
    ![Add dimension field](/static/assets/on-premise/images/report-designer/report-items/chart/range-area-chart/add-field-to-column-section.png)
 
@@ -180,7 +180,7 @@ The **Chart Area** property can be used to customize the area of the chart desig
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/range-area-chart/chart-area-sketch.png)
 
-Use the [Color Palette](./../../../report-items/chart/color-palette/) property to customize the color of the chart. `Color Palatte` are listed under the `Chart Area` category.
+Use the [Color Palette](./../../../report-items/chart/color-palette/) property to customize the color of the chart. `Color Palette` are listed under the `Chart Area` category.
 
 Here, we have set the `Color Palette` as `Pacific` and the design is shown below.
 
@@ -212,7 +212,7 @@ To set/reset axis properties, refer to the [Axis Properties](./../../../report-i
 
 ### Value Axis
 
-The **Numeric axis** uses a numerical scale and displays numbers as labels. To use the categorical axis, toggle the `Enable Axis` checkbox under the `Value Axis` category in the chart properties.
+The **Value axis** uses a numerical scale and displays numbers as labels. To use the value axis, toggle the `Enable Axis` checkbox under the `Value Axis` category in the chart properties.
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/range-area-chart/value-axis.png)
 
@@ -312,6 +312,11 @@ You can set static or dynamic text as the value for the bookmark property. To se
 #### Tooltip
 
 The **Tooltip** property can be used to display informative text or values when the user hovers over the report item in the report preview. To set the tooltip for the chart item using the properties panel, refer to the [Tooltip](./../../../compose-report/common-properties/#tooltip) section.
+
+To customize the tooltip property in the report preview, go to [Series Properties](https://help.boldreports.com/enterprise-reporting/designer-guide/report-designer/report-items/chart/series/#tooltip), under the Miscellaneous Category, set tooltip as like below.
+`="Country: " & Fields!Country.Value + "<br>" + "Month: " & Fields!Month.Value + "<br>" + "High Value: " + Fields!Highvalue.Value + "<br>" + "Low Value: " + Fields!Lowvalue.Value`
+
+![Tooltip Property](/static/assets/on-premise/images/report-designer/report-items/chart/range-area-chart/tooltip-property-preview.png)
 
 ## Preview report
 

@@ -96,7 +96,7 @@ To configure data into a range column chart, follow the steps:
 
 7. **Drag and Drop Dimension Element**:
 
-   Select and drag the dimension element from the `Dimensions` section to measure against any of the selected numeric column(s) in `Y Value(s)` section, and drop it into the `Column` section.
+   Select and drag the dimension element from the `Dimensions` section to measure against any of the selected numeric column(s) in `High(s)` or `Low(s)` section, and drop it into the `Column` section.
 
    ![Add dimension field](/static/assets/on-premise/images/report-designer/report-items/chart/range-column-chart/add-field-to-column-section.png)
 
@@ -208,7 +208,7 @@ To set/reset axis properties, refer to the [Axis Properties](./../../../report-i
 
 ### Value Axis
 
-The **Numeric axis** uses a numerical scale and displays numbers as labels. To use the categorical axis, toggle the `Enable Axis` checkbox under the `Value Axis` category in the chart properties.
+The **Value axis** uses a numerical scale and displays numbers as labels. To use the value axis, toggle the `Enable Axis` checkbox under the `Value Axis` category in the chart properties.
 
 Here, we have set the `Interval Type` to `Number`, `Interval` to `5`. Then, we set the `Maximum` and `Minimum` value to `0` and `35`.
 
@@ -310,6 +310,11 @@ You can set static or dynamic text as the value for the bookmark property. To se
 #### Tooltip
 
 The **Tooltip** property can be used to display informative text or values when the user hovers over the report item in the report preview. To set the tooltip for the chart item using the properties panel, refer to the [Tooltip](./../../../compose-report/common-properties/#tooltip) section.
+
+To customize the tooltip property in the report preview, go to [Series Properties](https://help.boldreports.com/enterprise-reporting/designer-guide/report-designer/report-items/chart/series/#tooltip), under the Miscellaneous Category set tooltip as like below.
+`="Country: " & Fields!Country.Value + "<br>" + "Season: " & Fields!Season.Value + "<br>" + "High Value: " + Fields!Highvalue.Value + "<br>" + "Low Value: " + Fields!Lowvalue.Value`
+
+![Tooltip Property](/static/assets/on-premise/images/report-designer/report-items/chart/range-column-chart/tooltip-property-preview.png)
 
 ## Preview report
 
