@@ -1,5 +1,4 @@
 {
-    "Bold Reports Architecture Diagram":"bold-reports-architecture.md",
     "Administrator Guide":{
     "Getting Started": "getting-started.md",
     "Installation": {
@@ -152,6 +151,7 @@
         "Limit the user/group Synchronization": "can-we-limit-the-user-or-group-synchronization.md"
     },
     "FAQ": {
+        "Bold Reports Architecture":"bold-reports-architecture.md",
         "Where can i find the error and debug log files?": "where-can-i-find-the-error-and-debug-log-files.md",
         "What are the features need to be enabled in IIS to run the Bold Reports application in Windows Client OS": "features-needed-to-enable-in-iis-to-run-bold-reports-in-win-client-os.md",
         "What are the features need to be enabled in IIS to run Bold Reports application in Windows Server OS": "features-needed-to-enable-in-iis-to-run-bold-reports-in-win-server-os.md",
