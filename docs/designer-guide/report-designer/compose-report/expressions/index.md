@@ -15,6 +15,31 @@ Expressions provide great flexibility to control the content, style, data, value
 2. Choose **Data** from the second drop-down list to set expression with **Parameters** and **Dataset Fields**.
 ![expression-in-data](/static/assets/on-premise/images/report-designer/compose-report/expressions/data-dropdown.png)
 
+## Expression Format
+
+When mentioning expressions, it should be in a single line format, not in multiple lines. For example, when providing a JSON object as input, it should be formatted as a single line, rather than the following incorrect format,
+
+```html
+="{
+  'ID': 220,
+  'Title': 'Book 220',
+  'Description': 'Book 220 added',
+  'PageCount': 100,
+  'Excerpt': 'Lorem lorem lorem. Lorem lorem lorem. Lorem lorem lorem.\r\n',
+  'PublishDate': '2020-08-06T10:42:22.464Z'
+}"
+```
+
+![Enter expression](/static/assets/on-premise/images/report-designer/manage-data/web-data-source/wrong-exp-format.png)
+
+It should be in a single line format instead, like below,
+
+```html
+="{ 'ID': 220, 'Title': 'Book 220', 'Description': 'Book 220 added', 'PageCount': 100, 'Excerpt': 'Lorem lorem lorem. Lorem lorem lorem. Lorem lorem lorem.\r\n', 'PublishDate': '2020-08-06T10:42:22.464Z' }"  
+```
+
+![Enter expression](/static/assets/on-premise/images/report-designer/manage-data/web-data-source/exp-format.png)
+
 ## Supported Expressions
 
 The supported expression types and functions details are listed in the following table:

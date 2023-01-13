@@ -240,6 +240,39 @@ The above action will post the information into specified REST API URL and take 
 
 > We use double quotes to identify the data is whole string value or not.
 
+## Expression Format
+
+When mentioning expressions, it should be in a single line format, not in multiple lines. For example, when providing a JSON object as input, it should be formatted as a single line, rather than the following incorrect format,
+
+```html
+="{
+  'ID': 220,
+  'Title': 'Book 220',
+  'Description': 'Book 220 added',
+  'PageCount': 100,
+  'Excerpt': 'Lorem lorem lorem. Lorem lorem lorem. Lorem lorem lorem.\r\n',
+  'PublishDate': '2020-08-06T10:42:22.464Z'
+}"
+```
+
+![Enter expression](/static/assets/on-premise/images/report-designer/manage-data/web-data-source/wrong-exp-format.png)
+
+It should be in a single line format instead, like below,
+
+```html
+="{ 'ID': 220, 'Title': 'Book 220', 'Description': 'Book 220 added', 'PageCount': 100, 'Excerpt': 'Lorem lorem lorem. Lorem lorem lorem. Lorem lorem lorem.\r\n', 'PublishDate': '2020-08-06T10:42:22.464Z' }"  
+```
+
+![Enter expression](/static/assets/on-premise/images/report-designer/manage-data/web-data-source/exp-format.png)
+
+To use the Parameters with Json object, follow the below syntax,
+
+```html
+="{'ID': '" & Parameters!id.Value & "','Title':'" & Parameters!title.Value & "','Description':'" & Parameters!description.Value & "','PageCount':'" & Parameters!pageCount.Value & "','Excerpt':'" & Parameters!excerpt.Value & "','PublishDate':'" & Parameters!publishDate.Value & "'}" 
+```
+
+![Enter expression](/static/assets/on-premise/images/report-designer/manage-data/web-data-source/exp-param-format.png)
+
 ## Pagination
 
 Pagination allows REST API to conserve resources, improve response times and optimize the user experience. To get better response time for huge records append pagination properties along with URL or specify it as `Headers`. For example, you can append the pagination parameter in URL like below,
