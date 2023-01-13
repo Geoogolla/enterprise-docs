@@ -35,7 +35,7 @@ Invalid HTML markup tags and cascading style sheet attributes will be ignored an
   <li><p>Fonts: &lt;FONT&gt;</p></li>
   <li><p>Header, style and block elements: &lt;H{n}&gt;, &lt;DIV&gt;, &lt;SPAN&gt;,&lt;P&gt;, &lt;DIV&gt;, &lt;LI&gt;, &lt;HN&gt;</p></li>
   <li><p>Text format: &lt;B&gt;, &lt;I&gt;, &lt;U&gt;, &lt;S&gt;</p></li>
-  <li><p>List handling: &lt;OL&gt;, &lt;UL&gt;, &lt;LI&gt;</p></li>
+  <li><p>List handling: &lt;UL&gt;, &lt;LI&gt;</p></li>
   <li><p>text-align, text-indent</p></li>
   <li><p>font-family</p></li>
   <li><p>font-size</p></li>
