@@ -268,7 +268,7 @@ It should be in a single line format instead, like below,
 To use the Parameters with Json object, follow the below syntax,
 
 ```html
-="{'ID': '" & Parameters!id.Value & "','Title':'" & Parameters!title.Value & "','Description':'" & Parameters!description.Value & "','PageCount':'" & Parameters!pageCount.Value & "','Excerpt':'" & Parameters!excerpt.Value & "','PublishDate':'" & Parameters!publishDate.Value & "'}" 
+="{'ID': '" & Parameters!id.Value & "','Title':'" & Parameters!title.Value & "','Description':'" & Parameters!description.Value & "','PageCount':'" & Parameters!pageCount.Value & "','Excerpt':'" & Parameters!excerpt.Value & "','PublishDate':'" & Parameters!publishDate.Value & "'}"
 ```
 
 ![Enter expression](/static/assets/on-premise/images/report-designer/manage-data/web-data-source/exp-param-format.PNG)
