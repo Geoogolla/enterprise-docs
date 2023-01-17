@@ -255,7 +255,7 @@ When mentioning expressions, it should be in a single line format, not in multip
 }"
 ```
 
-![Enter expression](/static/assets/on-premise/images/report-designer/manage-data/web-data-source/wrong-exp-format.png)
+![Enter expression](/static/assets/on-premise/images/report-designer/manage-data/web-data-source/wrong-exp-format.PNG)
 
 It should be in a single line format instead, like below,
 
@@ -263,7 +263,7 @@ It should be in a single line format instead, like below,
 ="{ 'ID': 220, 'Title': 'Book 220', 'Description': 'Book 220 added', 'PageCount': 100, 'Excerpt': 'Lorem lorem lorem. Lorem lorem lorem. Lorem lorem lorem.\r\n', 'PublishDate': '2020-08-06T10:42:22.464Z' }"  
 ```
 
-![Enter expression](/static/assets/on-premise/images/report-designer/manage-data/web-data-source/exp-format.png)
+![Enter expression](/static/assets/on-premise/images/report-designer/manage-data/web-data-source/exp-format.PNG)
 
 To use the Parameters with Json object, follow the below syntax,
 
@@ -271,7 +271,7 @@ To use the Parameters with Json object, follow the below syntax,
 ="{'ID': '" & Parameters!id.Value & "','Title':'" & Parameters!title.Value & "','Description':'" & Parameters!description.Value & "','PageCount':'" & Parameters!pageCount.Value & "','Excerpt':'" & Parameters!excerpt.Value & "','PublishDate':'" & Parameters!publishDate.Value & "'}" 
 ```
 
-![Enter expression](/static/assets/on-premise/images/report-designer/manage-data/web-data-source/exp-param-format.png)
+![Enter expression](/static/assets/on-premise/images/report-designer/manage-data/web-data-source/exp-param-format.PNG)
 
 ## Pagination
 
