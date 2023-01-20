@@ -1,43 +1,34 @@
 {
-  "openapi": "3.0.1",
+  "swagger": "2.0",
   "info": {
     "title": "API Reference",
-    "description": {
-      "$ref": "./../../../../common/site-administration/api-reference/introduction.md"
-    },
-    "version": "2.0"
+    "version": "2.0",
+    "description": "# Introduction\n You can manage items in the Bold Reports On-Premise using the REST API."
   },
-  "servers": [
-    {
-      "url": "https://{yourdomain}/api"
-    }
+  "consumes": [
+    "application/json"
   ],
-  "tags": [
+  "produces": [
+    "application/json"
+  ],
+  "tags": [ 
     {
       "name": "Authentication",
-      "description": {
-        "$ref": "./../../../../common/site-administration/api-reference/helperswagger.json#/authentication/getauthenticationdescription"
-      }
+      "description": "When you sign in to our application, an authentication token is provided that should be attached in the request header(Authorization) for all subsequent API calls to authenticate the requests.\n"
     },
-    {
+  	{
       "name": "Application Startup",
-      "description": {
-        "$ref": "./../../../../common/site-administration/api-reference/helperswagger.json#/startup/getstartupdescription"
-      }
+      "description": "Configure the Bold BI or Bold Reports application for the first time. To activate Bold BI or Bold Reports, you need an offline unlock key, and that can be obtained [here](https://www.boldbi.com/account/downloads/embedded). If you don't have access to the offline key, please create a support ticket [here](https://support.boldbi.com/create).\n"
     },
-    {
+	{
       "name": "Tenants",
-      "description": {
-        "$ref": "./../../../../common/site-administration/api-reference/helperswagger.json#/tenants/gettenantsdescription"
-      }
+      "description": "To create, view, update, delete, and list the Bold BI/Bold Reports tenants, use the following corresponding end points.\n"
     },
-    {
+	{
       "name": "Users",
-      "description": {
-        "$ref": "./../../../../common/site-administration/api-reference/helperswagger.json#/users/getusersdescription"
-      }
+      "description": "To update the user, update the user password, and get the list of users in the Site Administration, use the following corresponding end points.\n"
     }
-  ],
+	],
   "paths": {
     "/token": {
       "post": {
@@ -46,22 +37,21 @@
         ],
         "summary": "Authenticate Client",
         "operationId": "client_authentication",
-        "requestBody": {
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/Authentication"
-              }
-            }
-          },
-          "required": true
-        },
+        "parameters": [
+          {
+            "name": "token",
+			 "description": "x-www-form-urlencoded.",
+            "in": "body",
+            "required": true,
+            "schema": {
+              "$ref": "#/components/schemas/Authentication"
+            },
+			 "x-nullable": true
+          }
+        ],
         "responses": {
           "200": {
             "description": "Successfully retrived access token.",
-            "schema": {
-              "$ref": "#/components/schemas/Response"
-            },
             "x-nullable": true
           },
           "400": {
@@ -76,7 +66,7 @@
         }
       }
     },
-    "/v2.0/startup": {
+	"/v2.0/startup": {
       "post": {
         "tags": [
           "Application Startup"
@@ -84,28 +74,26 @@
         "summary": "Application Startup",
         "description": "Configure the application startup for Bold BI/Bold Reports application.",
         "operationId": "application_startup",
-        "requestBody": {
-          "description": "configuration request data.",
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/Startup"
-              }
-            }
-          },
-          "required": true
-        },
+		"parameters": [
+          {
+		   "description": "configuration request data.",
+            "name": "startup",
+            "in": "body",
+            "required": true,
+            "schema": {
+              "$ref": "#/components/schemas/Startup"
+            },
+            "x-nullable": true
+          }
+        ],
         "responses": {
           "200": {
             "description": "Tenant added successfully.",
-            "content": {
-              "application/json": {
                 "schema": {
                   "$ref": "#/components/schemas/ApiResponse"
-                }
-              }
-            }
-          },
+                },
+				"x-nullable": true
+            },
           "400": {
             "description": "The content of the request body is missing or incomplete.",
             "content": {}
@@ -130,7 +118,7 @@
         "x-codegen-request-body-name": "startup"
       }
     },
-    "/v2.0/tenants": {
+	"/v2.0/tenants": {
       "post": {
         "tags": [
           "Tenants"
@@ -138,27 +126,24 @@
         "summary": "Create New Tenant",
         "description": "Create a new Bold BI / Bold Reports tenant.",
         "operationId": "create_tenant",
-        "requestBody": {
-          "description": "Add tenant request body.",
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/AddTenantV2"
-              }
-            }
-          },
-          "required": true
-        },
+		"parameters": [
+          {
+		   "description": "Add tenant request body.",
+            "name": "Tenant",
+            "in": "body",
+            "required": true,
+            "schema": {
+              "$ref": "#/components/schemas/AddTenantV2"
+            },
+            "x-nullable": true
+          }
+        ],
         "responses": {
           "200": {
             "description": "Tenant added successfully.",
-            "content": {
-              "application/json": {
                 "schema": {
                   "$ref": "#/components/schemas/ApiResponse"
                 }
-              }
-            }
           },
           "400": {
             "description": "The content of the request body is missing or incomplete.",
@@ -183,7 +168,7 @@
         }
       }
     },
-    "/v2.0/tenant/{tenantId}/isolation-code": {
+  "/v2.0/tenant/{tenantId}/isolation-code": {
       "post": {
         "tags": [
           "Tenants"
@@ -199,35 +184,29 @@
             "required": true,
             "style": "simple",
             "explode": false,
-            "schema": {
               "type": "string",
               "format": "uuid",
               "nullable": false
-            }
-          }
-        ],
-        "requestBody": {
-          "description": "Add isolation-code request body.",
-          "content": {
-            "application/json": {
-              "schema": {
-                "$ref": "#/components/schemas/TenantIsolation"
-              }
-            }
+            
           },
-          "required": true
-        },
+		  {
+		    "name": "tenantId",
+			 "in": "body",
+            "description": "Add isolation-code request body.",
+            "schema": {
+                "$ref": "#/components/schemas/TenantIsolation"
+              },
+             "required": true,
+			 "x-nullable": false
+          }
+		],
         "responses": {
           "200": {
             "description": "Tenant isolation code added successfully.",
-            "content": {
-              "application/json": {
                 "schema": {
                   "$ref": "#/components/schemas/TenantIsolationResponse"
                 }
-              }
-            }
-          },
+              },
           "400": {
             "description": "The content of the request body is missing or incomplete.",
             "content": {}
@@ -251,7 +230,7 @@
         }
       }
     },
-    "/v2.0/tenants/{tenantid}": {
+	"/v2.0/tenants/{tenantid}": {
       "get": {
         "tags": [
           "Tenants"
@@ -267,23 +246,18 @@
             "required": true,
             "style": "simple",
             "explode": false,
-            "schema": {
               "type": "string",
               "format": "uuid",
               "nullable": false
-            }
+            
           }
         ],
         "responses": {
           "200": {
             "description": "operation is successful.",
-            "content": {
-              "application/json": {
                 "schema": {
                   "$ref": "#/components/schemas/TenantResponse"
-                }
-              }
-            }
+                } 
           },
           "400": {
             "description": "The content of the request body is missing or incomplete.",
@@ -309,7 +283,7 @@
         "x-codegen-request-body-name": "startup"
       }
     },
-    "/v2.0/tenants/{id}": {
+	 "/v2.0/tenants/{id}": {
       "put": {
         "tags": [
           "Tenants"
@@ -325,34 +299,28 @@
             "required": true,
             "style": "simple",
             "explode": false,
-            "schema": {
               "type": "string",
               "format": "uuid",
               "nullable": false
-            }
-          }
-        ],
-        "requestBody": {
-          "description": "Update tenant request body.",
-          "content": {
-            "application/json": {
+            
+          },
+          {
+			 "name": "Tenant",
+            "in": "body",
+             "description": "Update tenant request body.",
               "schema": {
                 "$ref": "#/components/schemas/UpdateTenant"
-              }
-            }
-          },
-          "required": true
-        },
+              },
+              "required": true,
+			 "x-nullable": false
+          }
+		],
         "responses": {
           "200": {
             "description": "Tenant details updated successfully.",
-            "content": {
-              "application/json": {
                 "schema": {
                   "$ref": "#/components/schemas/TenantResponse"
                 }
-              }
-            }
           },
           "400": {
             "description": "The content of the request body is missing or incomplete.",
@@ -378,7 +346,7 @@
         "x-codegen-request-body-name": "startup"
       }
     },
-    "/v2.0/tenants/{tenant_id}": {
+	"/v2.0/tenants/{tenant_id}": {
       "delete": {
         "tags": [
           "Tenants"
@@ -394,17 +362,17 @@
             "required": true,
             "style": "simple",
             "explode": false,
-            "schema": {
               "type": "string",
               "format": "uuid",
               "nullable": false
-            }
           }
         ],
         "responses": {
-          "204": {
-            "description": "No content.",
-            "content": {}
+          "200": {
+            "description": "Site has been deleted successfully.",
+            "schema": {
+                  "$ref": "#/components/schemas/ApiUserDeleteResponse"
+                }
           },
           "400": {
             "description": "Tenant id invalid.",
@@ -429,24 +397,44 @@
         }
       }
     },
-    "/v2.0/tenants ": {
+	 "/v2.0/tenants ": {
       "get": {
         "tags": [
           "Tenants"
         ],
         "summary": "List Tenants",
-        "description": "List all the Bold BI and Bold Reports tenants available in the application.",
+        "description": "List all the Bold BI and Bold Reports tenants available in the application. <br /><blockquote>URI Parameters</blockquote><ul><li><code>/v2.0/tenants</code> returns the first 25 tenants by default.</li><li><code>/v2.0/tenants?page_size=30</code> returns the first 30 tenants.</li><li><code>/v2.0/tenants?page=2&page_size=30</code> returns the 2nd group of 30 tenants.</li></ul>",
         "operationId": "list_tenant",
+		"parameters": [
+          {
+            "name": "page",
+            "in": "path",
+            "description": "Specify the page number.",
+            "required": false,
+            "style": "simple",
+            "explode": false,
+              "type": "string",
+              "format": "int32",
+              "nullable": false
+          },
+          {
+            "name": "page_size",
+            "in": "path",
+            "description": "Specify the number of tenants per page.",
+            "required": false,
+            "style": "simple",
+            "explode": false,
+              "type": "string",
+              "format": "int32",
+              "nullable": false
+          }
+        ],
         "responses": {
           "200": {
             "description": "Operation success.",
-            "content": {
-              "application/json": {
                 "schema": {
                   "$ref": "#/components/schemas/ArrayTenantResponse"
                 }
-              }
-            }
           },
           "400": {
             "description": "The content of the request body is missing or incomplete.",
@@ -471,7 +459,7 @@
         }
       }
     },
-    "/v2.0/users/{userId}": {
+	"/v2.0/users/{userId}": {
       "put": {
         "tags": [
           "Users"
@@ -487,34 +475,26 @@
             "required": true,
             "style": "simple",
             "explode": false,
-            "schema": {
               "type": "string",
               "format": "uuid",
               "nullable": false
-            }
-          }
-        ],
-        "requestBody": {
-          "description": "Update user password request body.",
-          "content": {
-            "application/json": {
+          },
+          {
+			  "name" : "user password",
+			  "in" : "body",
+            "description": "Update user password request body.",
               "schema": {
                 "$ref": "#/components/schemas/UpdatePassword"
-              }
-            }
-          },
-          "required": true
+              },
+            "required": true
         },
+		],
         "responses": {
           "200": {
-            "description": "Tenant isolation code added successfully.",
-            "content": {
-              "application/json": {
+            "description": "Password has been changed successfully.",
                 "schema": {
-                  "$ref": "#/components/schemas/UserResponse"
+                  "$ref": "#/components/schemas/ArrayUserResponse"
                 }
-              }
-            }
           },
           "400": {
             "description": "The content of the request body is missing or incomplete.",
@@ -539,7 +519,7 @@
         }
       }
     },
-    "/v2.0/users": {
+	"/v2.0/users": {
       "get": {
         "tags": [
           "Users"
@@ -555,11 +535,9 @@
             "required": false,
             "style": "simple",
             "explode": false,
-            "schema": {
               "type": "string",
               "format": "int32",
               "nullable": false
-            }
           },
           {
             "name": "page_size",
@@ -568,23 +546,17 @@
             "required": false,
             "style": "simple",
             "explode": false,
-            "schema": {
               "type": "string",
               "format": "int32",
               "nullable": false
-            }
           }
         ],
         "responses": {
           "200": {
             "description": "Listed users successfully.",
-            "content": {
-              "application/json": {
                 "schema": {
                   "$ref": "#/components/schemas/ArrayUserResponse"
                 }
-              }
-            }
           },
           "400": {
             "description": "The content of the request body is missing or incomplete.",
@@ -612,7 +584,7 @@
   },
   "components": {
     "schemas": {
-      "Response": {
+		"Response": {
         "type": "object",
         "properties": {
           "token_type": {
@@ -650,122 +622,8 @@
         },
         "x-typeName": "Response"
       },
-      "ApiResponse": {
-        "required": [
-          "ApiStatus",
-          "Status"
-        ],
-        "type": "object",
-        "properties": {
-          "ApiStatus": {
-            "type": "boolean",
-            "description": "Returns the status of the API."
-          },
-          "Data": {
-            "type": "object",
-            "description": "Returns data from the API."
-          },
-          "Status": {
-            "type": "boolean",
-            "description": "Returns status of the API request."
-          },
-          "StatusMessage": {
-            "type": "string",
-            "description": "Returns the status message from the API."
-          },
-          "Message": {
-            "type": "string",
-            "description": "Returns the message from the API."
-          }
-        }
-      },
-      "TenantResponse": {
-        "type": "object",
-        "properties": {
-          "ApiStatus": {
-            "type": "boolean",
-            "description": "Returns the status of the API."
-          },
-          "Data": {
-            "description": "Response data.",
-            "$ref": "#/components/schemas/TenantResponseData"
-          },
-          "Status": {
-            "type": "boolean",
-            "description": "Returns status of the API request."
-          },
-          "StatusMessage": {
-            "type": "string",
-            "description": "Returns the status message from the API."
-          },
-          "Message": {
-            "type": "string",
-            "description": "Returns the message from the API."
-          }
-        }
-      },
-      "ArrayTenantResponse": {
-        "type": "object",
-        "properties": {
-          "ApiStatus": {
-            "type": "boolean",
-            "description": "Returns the status of the API."
-          },
-          "Data": {
-            "type": "array",
-            "description": "Response data.",
-            "items": {
-            "$ref": "#/components/schemas/TenantResponseData"
-            }
-          },
-          "Status": {
-            "type": "boolean",
-            "description": "Returns status of the API request."
-          },
-          "StatusMessage": {
-            "type": "string",
-            "description": "Returns the status message from the API."
-          },
-          "Message": {
-            "type": "string",
-            "description": "Returns the message from the API."
-          }
-        }
-      },
-      "TenantResponseData": {
-        "type": "object",
-        "properties": {
-          "id": {
-            "type": "string",
-            "description": "ID of the tenant."
-          },
-          "tenant_name": {
-            "type": "string",
-            "description": "Name of the tenant."
-          },
-          "url": {
-            "type": "string",
-            "description": "URL of the tenant.."
-          },
-          "tenant_type": {
-            "type": "string",
-            "description": "Type of tenant."
-          },
-          "created_date": {
-            "type": "string",
-            "description": "Created date of the tenant."
-          },
-          "modified_date": {
-            "type": "string",
-            "description": "Modified date of the tenant."
-          },
-          "tenant_status": {
-            "type": "string",
-            "description": "Status of the tenant."
-          }
-        }
-      },
-      "Authentication": {
+       "Authentication": {
+		   "type": "object",
         "required": [
           "grant_type",
           "client_id",
@@ -789,7 +647,7 @@
           }
         }
       },
-      "Startup": {
+	  "Startup": {
         "type": "object",
         "description": "Startup Configuration object details.",
         "additionalProperties": false,
@@ -805,116 +663,28 @@
           }
         }
       },
-      "AddTenantV2": {
+	  "ServerConfiguration": {
         "type": "object",
-        "description": "Add tenant object details.",
-        "additionalProperties": false,
-        "properties": {
-          "Email": {
-            "type": "string",
-            "description": "Email of the user."
-          },
-          "ServerConfiguration": {
-            "$ref": "#/components/schemas/ServerConfiguration"
-          },
-          "DataStoreConfiguration": {
-            "$ref": "#/components/schemas/DataStoreConfiguration"
-          }
-        }
-      },
-      "UpdateTenant": {
-        "type": "object",
-        "description": "Update tenant object.",
+        "description": "Site configuration data.",
         "additionalProperties": false,
         "required": [
-          "ServerName",
-          "UserName",
-          "Password",
-          "SSLEnabled"
+          "Database",
+          "Storage",
+          "Site"
         ],
         "properties": {
-          "SiteName": {
-            "type": "string",
-            "description": "Name of the site."
+          "Database": {
+            "$ref": "#/components/schemas/Database"
           },
-          "SiteUrl": {
-            "type": "string",
-            "description": "URL of the site."
+          "Storage": {
+            "$ref": "#/components/schemas/Storage"
           },
-          "ServerName": {
-            "type": "string",
-            "description": "Name of the database server."
-          },
-          "UserName": {
-            "type": "string",
-            "description": "Username of the database server.  <br /> <blockquote>Check the permission required for the database userss [here](https://staginghelp.boldbi.com/embedded-bi/faq/what-are-the-database-permissions-required-to-set-up-bold-bi-embedded/)</blockquote>"
-          },
-          "MaintenanceDatabase": {
-            "type": "string",
-            "description": "Maintenance database of the database server.<br /> <blockquote>Required only for <code>PostgreSQL</code> database server.</blockquote>"
-          },
-          "Port": {
-            "type": "string",
-            "description": "Port number of the database server.<br /><blockquote>Required only for <code>PostgreSQL</code> and <code>MySQL</code> database servers.</blockquote>"
-          },
-          "SSLEnabled": {
-            "type": "boolean",
-            "description": "Determines the site SSL or not."
-          },
-          "AdditionalParameters": {
-            "type": "string",
-            "description": "Additional data requested from server."
+          "Site": {
+            "$ref": "#/components/schemas/Site"
           }
         }
       },
-      "DataStoreConfiguration": {
-        "type": "object",
-        "description": "Data store configuration of the site <blockquote>required to create <code>BoldBIOnPremise</code> tenants only.</blockquote>",
-        "additionalProperties": false,
-        "required": [
-          "ServerName",
-          "DatabaseName",
-          "UserName",
-          "Password",
-          "ServerType"
-        ],
-        "properties": {
-          "ServerName": {
-            "type": "string",
-            "description": "Name of the database server."
-          },
-          "DatabaseName": {
-            "type": "string",
-            "description": "Name of the database."
-          },
-          "UserName": {
-            "type": "string",
-            "description": "Username of the database server.  <br /> <blockquote>Check the permission required for the database userss [here](https://staginghelp.boldbi.com/embedded-bi/faq/what-are-the-database-permissions-required-to-set-up-bold-bi-embedded/)</blockquote>"
-          },
-          "Password": {
-            "type": "string",
-            "description": "Password of the database user."
-          },
-          "IsNewDatabase": {
-            "type": "boolean",
-            "default": "false",
-            "description": "Determines whether the <code>DatabaseName</code> is new or existing."
-          },
-          "MaintenanceDatabase": {
-            "type": "string",
-            "description": "Maintenance database of the database server.<br /> <blockquote>Required only for <code>PostgreSQL</code> database server.</blockquote>"
-          },
-          "Port": {
-            "type": "string",
-            "description": "Port number of the database server.<br /><blockquote>Required only for <code>PostgreSQL</code> and <code>MySQL</code> database servers.</blockquote>"
-          },
-          "ServerType": {
-            "description": "Database type of the server.",
-            "$ref": "#/components/schemas/DatabaseType"
-          }
-        }
-      },
-      "Database": {
+	  "Database": {
         "type": "object",
         "additionalProperties": false,
         "required": [
@@ -960,54 +730,7 @@
           }
         }
       },
-      "UmsConfiguration": {
-        "type": "object",
-        "description": "Site administration configuration data.",
-        "additionalProperties": false,
-        "required": [
-          "Database",
-          "Storage",
-          "User",
-          "Unlockkey"
-        ],
-        "properties": {
-          "Database": {
-            "$ref": "#/components/schemas/Database"
-          },
-          "Storage": {
-            "$ref": "#/components/schemas/Storage"
-          },
-          "User": {
-            "$ref": "#/components/schemas/User"
-          },
-          "Unlockkey": {
-            "type": "string",
-            "description": "Unlockkey of the bold licese."
-          }
-        }
-      },
-      "ServerConfiguration": {
-        "type": "object",
-        "description": "Site configuration data.",
-        "additionalProperties": false,
-        "required": [
-          "Database",
-          "Storage",
-          "Site"
-        ],
-        "properties": {
-          "Database": {
-            "$ref": "#/components/schemas/Database"
-          },
-          "Storage": {
-            "$ref": "#/components/schemas/Storage"
-          },
-          "Site": {
-            "$ref": "#/components/schemas/Site"
-          }
-        }
-      },
-      "Storage": {
+	  "Storage": {
         "type": "object",
         "additionalProperties": false,
         "required": [
@@ -1025,10 +748,11 @@
         }
       },
       "StorageType": {
-        "type": "string",
+		  "description": "0 - FileStorage, 1 - AzureBlob",
+        "type": "enum",
         "enum": [
-          "FileStorage",
-          "AzureBlob"
+          0,
+          1
         ],
         "x-enumNames": [
           "FileStorage",
@@ -1036,11 +760,12 @@
         ]
       },
       "DatabaseType": {
-        "type": "string",
+		   "description": "0 - MSSQL, 1 - MySQL,2-PostgreSQL",
+        "type": "enum",
         "enum": [
-          "MSSQL",
-          "MySQL",
-          "PostgreSQL"
+          0,
+          1,
+          2
         ],
         "x-enumNames": [
           "MSSQL",
@@ -1049,10 +774,11 @@
         ]
       },
       "TenantType": {
-        "type": "string",
+		  "description": "3 - BoldBIOnPremise, 4 - BoldReportsOnPremise",
+        "type": "enum",
         "enum": [
-          "BoldBIOnPremise",
-          "BoldReportsOnPremise"
+          3,
+          4
         ],
         "x-enumNames": [
           "BoldBIOnPremise",
@@ -1138,7 +864,34 @@
           }
         }
       },
-      "TenantIsolation": {
+	  "CustomAttribute": {
+        "type": "object",
+        "required": [
+          "Name",
+          "Value",
+          "Description",
+          "CanEncrypt"
+        ],
+        "properties": {
+          "Name": {
+            "type": "string",
+            "description": "Name of the site attribute."
+          },
+          "Value": {
+            "type": "string",
+            "description": "Value for the site attribute."
+          },
+          "Description": {
+            "type": "string",
+            "description": "Description of the attribute."
+          },
+          "CanEncrypt": {
+            "type": "boolean",
+            "description": "Decides to encrypt the site attribute data."
+          }
+        }
+      },
+	  "TenantIsolation": {
         "type": "object",
         "additionalProperties": false,
         "description": "Tenant isolation code.",
@@ -1153,55 +906,7 @@
           }
         }
       },
-      "TenantIsolationResponse": {
-        "type": "object",
-        "description": "Tenant Isolation code response details.",
-        "additionalProperties": false,
-        "properties": {
-          "is_enabled": {
-            "type": "boolean",
-            "description": "Enable or disable the Isolation Code."
-          },
-          "isolation_code": {
-            "type": "string",
-            "description": "Isolation code."
-          }
-        }
-      },
-      "User": {
-        "type": "object",
-        "additionalProperties": false,
-        "required": [
-          "Email",
-          "FirstName",
-          "UserName",
-          "LastName",
-          "Password"
-        ],
-        "properties": {
-          "Email": {
-            "type": "string",
-            "description": "Email address of the user."
-          },
-          "FirstName": {
-            "type": "string",
-            "description": "First name of the user."
-          },
-          "UserName": {
-            "type": "string",
-            "description": "Username."
-          },
-          "LastName": {
-            "type": "string",
-            "description": "Last name of the user."
-          },
-          "Password": {
-            "type": "string",
-            "description": "Password of the user. <br /><blockquote>Note: Password must meet the following requirements. It must contain,</blockquote><ul><li><code>At least 6 characters</code></li><li><code>1 uppercase character</code></li><li><code>1 lowercase character</code></li><li><code>1 numeric character</code></li><li><code>1 special character</code></li></ul>"
-          }
-        }
-      },
-      "UpdatePassword": {
+	  "UpdatePassword": {
         "type": "object",
         "additionalProperties": false,
         "required": [
@@ -1259,20 +964,7 @@
           }
         }
       },
-      "DirectoryType": {
-        "type": "object",
-        "properties": {
-          "id": {
-            "type": "string",
-            "description": "ID of the directory type."
-          },
-          "name": {
-            "type": "string",
-            "description": "Name of the directory type."
-          }
-        }
-      },
-      "ArrayUserResponse": {
+	  "ArrayUserResponse": {
         "type": "object",
         "properties": {
           "ApiStatus": {
@@ -1300,33 +992,392 @@
           }
         }
       },
-      "CustomAttribute": {
+	 "ApiUserDeleteResponse": {
         "type": "object",
+        "properties": {
+          "ApiStatus": {
+            "type": "boolean",
+            "description": "Returns the status from the API."
+          },
+          "Data": {
+            "type": "array",
+            "description": "Response data from the API..",
+            "items": {
+            "$ref": "#/components/schemas/UserDeleteResponse"
+            }
+          },
+          "Status": {
+            "type": "boolean",
+            "description": "Returns status of the API request."
+          },
+          "StatusMessage": {
+            "type": "string",
+            "description": "Returns the status message from the API."
+          },
+          "Message": {
+            "type": "string",
+            "description": "Returns the message from the API."
+          }
+        }
+      },
+	  "UserDeleteResponse":
+	  {
+		   "type": "object",
+        "properties": {
+          "DatabaseDeleted": {
+            "type": "string",
+            "description": "DatabaseDeleted."
+          },
+          "IsSiteDeleted": {
+            "type": "boolean",
+            "description": "SiteDeleted."
+          }
+        }
+	  },
+	  "DirectoryType": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "ID of the directory type."
+          },
+          "name": {
+            "type": "string",
+            "description": "Name of the directory type."
+          }
+        }
+      },
+	  "User": {
+        "type": "object",
+        "additionalProperties": false,
         "required": [
-          "Name",
-          "Value",
-          "Description",
-          "CanEncrypt"
+          "Email",
+          "FirstName",
+          "UserName",
+          "LastName",
+          "Password"
         ],
         "properties": {
-          "Name": {
+          "Email": {
             "type": "string",
-            "description": "Name of the site attribute."
+            "description": "Email address of the user."
           },
-          "Value": {
+          "FirstName": {
             "type": "string",
-            "description": "Value for the site attribute."
+            "description": "First name of the user."
           },
-          "Description": {
+          "UserName": {
             "type": "string",
-            "description": "Description of the attribute."
+            "description": "Username."
           },
-          "CanEncrypt": {
+          "LastName": {
+            "type": "string",
+            "description": "Last name of the user."
+          },
+          "Password": {
+            "type": "string",
+            "description": "Password of the user. <br /><blockquote>Note: Password must meet the following requirements. It must contain,</blockquote><ul><li><code>At least 6 characters</code></li><li><code>1 uppercase character</code></li><li><code>1 lowercase character</code></li><li><code>1 numeric character</code></li><li><code>1 special character</code></li></ul>"
+          }
+        }
+      },
+	  "UmsConfiguration": {
+        "type": "object",
+        "description": "Site administration configuration data.",
+        "additionalProperties": false,
+        "required": [
+          "Database",
+          "Storage",
+          "User",
+          "Unlockkey"
+        ],
+        "properties": {
+          "Database": {
+            "$ref": "#/components/schemas/Database"
+          },
+          "Storage": {
+            "$ref": "#/components/schemas/Storage"
+          },
+          "User": {
+            "$ref": "#/components/schemas/User"
+          },
+          "Unlockkey": {
+            "type": "string",
+            "description": "Unlockkey of the bold licese."
+          }
+        }
+      },
+	  "TenantIsolationResponse": {
+        "type": "object",
+        "description": "Tenant Isolation code response details.",
+        "additionalProperties": false,
+        "properties": {
+          "is_enabled": {
             "type": "boolean",
-            "description": "Decides to encrypt the site attribute data."
+            "description": "Enable or disable the Isolation Code."
+          },
+          "isolation_code": {
+            "type": "string",
+            "description": "Isolation code."
+          }
+        }
+      },
+	  "TenantResponse": {
+        "type": "object",
+        "properties": {
+          "ApiStatus": {
+            "type": "boolean",
+            "description": "Returns the status of the API."
+          },
+          "Data": {
+            "description": "Response data.",
+            "$ref": "#/components/schemas/TenantResponseData"
+          },
+          "Status": {
+            "type": "boolean",
+            "description": "Returns status of the API request."
+          },
+          "StatusMessage": {
+            "type": "string",
+            "description": "Returns the status message from the API."
+          },
+          "Message": {
+            "type": "string",
+            "description": "Returns the message from the API."
+          }
+        }
+      },
+	  "TenantResponseData": {
+        "type": "object",
+        "properties": {
+          "id": {
+            "type": "string",
+            "description": "ID of the tenant."
+          },
+          "tenant_name": {
+            "type": "string",
+            "description": "Name of the tenant."
+          },
+          "url": {
+            "type": "string",
+            "description": "URL of the tenant.."
+          },
+          "tenant_type": {
+            "type": "string",
+            "description": "Type of tenant."
+          },
+          "created_date": {
+            "type": "string",
+            "description": "Created date of the tenant."
+          },
+          "modified_date": {
+            "type": "string",
+            "description": "Modified date of the tenant."
+          },
+          "tenant_status": {
+            "type": "string",
+            "description": "Status of the tenant."
+          }
+        }
+      },
+	  "ArrayTenantResponse": {
+        "type": "object",
+        "properties": {
+          "ApiStatus": {
+            "type": "boolean",
+            "description": "Returns the status of the API."
+          },
+          "Data": {
+            "type": "array",
+            "description": "Response data.",
+            "items": {
+            "$ref": "#/components/schemas/TenantResponseData"
+            }
+          },
+          "Status": {
+            "type": "boolean",
+            "description": "Returns status of the API request."
+          },
+          "StatusMessage": {
+            "type": "string",
+            "description": "Returns the status message from the API."
+          },
+          "Message": {
+            "type": "string",
+            "description": "Returns the message from the API."
+          }
+        }
+      },
+	  "UpdateTenant": {
+        "type": "object",
+        "description": "Update tenant object.",
+        "additionalProperties": false,
+        "properties": {
+          "Site": { 
+			 "$ref": "#/components/schemas/SiteDetails"
+          },
+          "Database": {
+			 "$ref": "#/components/schemas/DatabaseInformation"
+          }
+        }
+      },
+	  "SiteDetails":
+	  {
+		 "type": "object",
+        "description": "site details.",
+        "additionalProperties": false,
+		"properties": {
+          "SiteName": { 
+			 "type": "string",
+            "description": "Name of the site."
+          },
+          "SiteUrl": {
+            "type": "string",
+            "description": "URL of the site."
+          },
+		  "SiteIdentifier":
+		  {
+			"type": "string",
+            "description": "Identifier of the site."
+		  }
+        }
+      },
+	  "DatabaseInformation":
+	  {
+		  "type": "object",
+        "description": "Database information.",
+        "additionalProperties": false,
+		 "required": [
+          "ServerName",
+          "DatabaseName",
+          "UserName",
+          "Password",
+		  "SslEnabled"
+        ],
+		"properties": {
+          "ServerName": {
+            "type": "string",
+            "description": "Name of the database server."
+          },
+          "DatabaseName": {
+            "type": "string",
+            "description": "Name of the database."
+          },
+          "UserName": {
+            "type": "string",
+            "description": "Username of the database server.  <br /> <blockquote>Check the permission required for the database users [here](https://staginghelp.boldbi.com/embedded-bi/faq/what-are-the-database-permissions-required-to-set-up-bold-bi-embedded/)</blockquote>"
+          },
+          "Password": {
+            "type": "string",
+            "description": "Password of the database user."
+          },
+          "MaintenanceDatabase": {
+            "type": "string",
+            "description": "Maintenance database of the database server.<br /> <blockquote>Required only for <code>PostgreSQL</code> database server.</blockquote>"
+          },
+          "Port": {
+            "type": "string",
+            "description": "Port number of the database server.<br /><blockquote>Required only for <code>PostgreSQL</code> and <code>MySQL</code> database servers.</blockquote>"
+          },
+          "SslEnabled":
+		  {
+			  "type": "boolean",
+            "description": "sslenabled for the database."
+		  }
+	  }
+	  },
+	  "ApiResponse": {
+        "required": [
+          "ApiStatus",
+          "Status"
+        ],
+        "type": "object",
+        "properties": {
+          "ApiStatus": {
+            "type": "boolean",
+            "description": "Returns the status of the API."
+          },
+          "Data": {
+            "type": "object",
+            "description": "Returns data from the API."
+          },
+          "Status": {
+            "type": "boolean",
+            "description": "Returns status of the API request."
+          },
+          "StatusMessage": {
+            "type": "string",
+            "description": "Returns the status message from the API."
+          },
+          "Message": {
+            "type": "string",
+            "description": "Returns the message from the API."
+          }
+        }
+      },
+	  "AddTenantV2": {
+        "type": "object",
+        "description": "Add tenant object details.",
+        "additionalProperties": false,
+        "properties": {
+          "Email": {
+            "type": "string",
+            "description": "Email of the user."
+          },
+          "ServerConfiguration": {
+            "$ref": "#/components/schemas/ServerConfiguration"
+          },
+          "DataStoreConfiguration": {
+            "$ref": "#/components/schemas/DataStoreConfiguration"
+          }
+        }
+      },
+	  "DataStoreConfiguration": {
+        "type": "object",
+        "description": "Data store configuration of the site <blockquote>required to create <code>BoldBIOnPremise</code> tenants only.</blockquote>",
+        "additionalProperties": false,
+        "required": [
+          "ServerName",
+          "DatabaseName",
+          "UserName",
+          "Password",
+          "ServerType"
+        ],
+        "properties": {
+          "ServerName": {
+            "type": "string",
+            "description": "Name of the database server."
+          },
+          "DatabaseName": {
+            "type": "string",
+            "description": "Name of the database."
+          },
+          "UserName": {
+            "type": "string",
+            "description": "Username of the database server.  <br /> <blockquote>Check the permission required for the database users [here](https://staginghelp.boldbi.com/embedded-bi/faq/what-are-the-database-permissions-required-to-set-up-bold-bi-embedded/)</blockquote>"
+          },
+          "Password": {
+            "type": "string",
+            "description": "Password of the database user."
+          },
+          "IsNewDatabase": {
+            "type": "boolean",
+            "default": "false",
+            "description": "Determines whether the <code>DatabaseName</code> is new or existing."
+          },
+          "MaintenanceDatabase": {
+            "type": "string",
+            "description": "Maintenance database of the database server.<br /> <blockquote>Required only for <code>PostgreSQL</code> database server.</blockquote>"
+          },
+          "Port": {
+            "type": "string",
+            "description": "Port number of the database server.<br /><blockquote>Required only for <code>PostgreSQL</code> and <code>MySQL</code> database servers.</blockquote>"
+          },
+          "ServerType": {
+            "description": "Database type of the server.",
+            "$ref": "#/components/schemas/DatabaseType"
           }
         }
       }
-    }
+	}
   }
-}
+ } 

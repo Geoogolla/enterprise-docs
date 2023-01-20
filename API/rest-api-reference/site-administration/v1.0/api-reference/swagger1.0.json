@@ -3,7 +3,7 @@
   "info": {
     "title": "API Reference",
     "version": "1.0",
-    "description": "# Introduction\n You can manage users,groups,items and permissions in the Bold Reports On-Premise using the REST API."
+    "description": "#  Introduction\n You can manage users,groups,items and permissions in the Bold Reports On-Premise using the REST API."
   },
   "consumes": [
     "application/json"
@@ -3552,11 +3552,11 @@
         ]
       },
       "TenantType": {
-		  "description": "0 - BoldBIOnPremise, 1 - BoldReportsOnPremise",
+		  "description": "3 - BoldBIOnPremise, 4 - BoldReportsOnPremise",
         "type": "enum",
         "enum": [
-          0,
-          1
+          3,
+          4
         ],
         "x-enumNames": [
           "BoldBIOnPremise",
