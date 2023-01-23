@@ -14,7 +14,7 @@ For our application, the API path will be `https://{Domain}/api/{ApiEndpoint}`
 
 For example, `https://onpremise-demo.boldbi.com/api/token`
 
-## API Versions 
+## API Versions
 
 <table>
 <tr>
@@ -42,4 +42,3 @@ For example, `https://onpremise-demo.boldbi.com/api/token`
      </td>
   </tr>
 </table>
-
