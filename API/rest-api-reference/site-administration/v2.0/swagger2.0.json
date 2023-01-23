@@ -5,6 +5,11 @@
     "version": "2.0",
     "description": "# Introduction\n You can manage items in the Bold Reports On-Premise using the REST API."
   },
+  "servers": [
+    {
+      "url": "https://{yourdomain}/api"
+    }
+  ],
   "consumes": [
     "application/json"
   ],
@@ -18,7 +23,7 @@
     },
   	{
       "name": "Application Startup",
-      "description": "Configure the Bold BI or Bold Reports application for the first time. To activate Bold BI or Bold Reports, you need an offline unlock key, and that can be obtained [here](https://www.boldbi.com/account/downloads/embedded). If you don't have access to the offline key, please create a support ticket [here](https://support.boldbi.com/create).\n"
+      "description": "Configure the Bold BI or Bold Reports application for the first time. To activate Bold BI or Bold Reports, you need an offline unlock key, and that can be obtained [here](https://www.boldreports.com/account/downloads). If you don't have access to the offline key, please create a support ticket [here](https://support.boldbi.com/create).\n"
     },
 	{
       "name": "Tenants",
@@ -660,9 +665,6 @@
           },
           "UmsConfiguration": {
             "$ref": "#/components/schemas/UmsConfiguration"
-          },
-          "DataStoreConfiguration": {
-            "$ref": "#/components/schemas/DataStoreConfiguration"
           }
         }
       },
@@ -1328,56 +1330,6 @@
           },
           "ServerConfiguration": {
             "$ref": "#/components/schemas/ServerConfiguration"
-          },
-          "DataStoreConfiguration": {
-            "$ref": "#/components/schemas/DataStoreConfiguration"
-          }
-        }
-      },
-	  "DataStoreConfiguration": {
-        "type": "object",
-        "description": "Data store configuration of the site <blockquote>required to create <code>BoldBIOnPremise</code> tenants only.</blockquote>",
-        "additionalProperties": false,
-        "required": [
-          "ServerName",
-          "DatabaseName",
-          "UserName",
-          "Password",
-          "ServerType"
-        ],
-        "properties": {
-          "ServerName": {
-            "type": "string",
-            "description": "Name of the database server."
-          },
-          "DatabaseName": {
-            "type": "string",
-            "description": "Name of the database."
-          },
-          "UserName": {
-            "type": "string",
-            "description": "Username of the database server.  <br /> <blockquote>Check the permission required for the database users [here](https://staginghelp.boldbi.com/embedded-bi/faq/what-are-the-database-permissions-required-to-set-up-bold-bi-embedded/)</blockquote>"
-          },
-          "Password": {
-            "type": "string",
-            "description": "Password of the database user."
-          },
-          "IsNewDatabase": {
-            "type": "boolean",
-            "default": "false",
-            "description": "Determines whether the <code>DatabaseName</code> is new or existing."
-          },
-          "MaintenanceDatabase": {
-            "type": "string",
-            "description": "Maintenance database of the database server.<br /> <blockquote>Required only for <code>PostgreSQL</code> database server.</blockquote>"
-          },
-          "Port": {
-            "type": "string",
-            "description": "Port number of the database server.<br /><blockquote>Required only for <code>PostgreSQL</code> and <code>MySQL</code> database servers.</blockquote>"
-          },
-          "ServerType": {
-            "description": "Database type of the server.",
-            "$ref": "#/components/schemas/DatabaseType"
           }
         }
       }
