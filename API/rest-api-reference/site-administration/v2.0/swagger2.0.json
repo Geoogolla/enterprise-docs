@@ -603,6 +603,9 @@
           },
           "UmsConfiguration": {
             "$ref": "#/components/schemas/UmsConfiguration"
+          },
+		  "DataStoreConfiguration": {
+            "$ref": "#/components/schemas/DataStoreConfiguration"
           }
         }
       },
@@ -837,7 +840,7 @@
 	  "TenantIsolation": {
         "type": "object",
         "additionalProperties": false,
-        "description": "Tenant isolation code.",
+        "description": "Tenant isolation code. <blockquote>required to create <code>BoldBIOnPremise</code> tenants only.</blockquote>",
         "properties": {
           "IsEnabled": {
             "type": "boolean",
@@ -1046,6 +1049,53 @@
           "Unlockkey": {
             "type": "string",
             "description": "Unlockkey of the bold licese."
+          }
+        }
+      },
+	  "DataStoreConfiguration": {
+        "type": "object",
+        "description": "Data store configuration of the site <blockquote>required to create <code>BoldBIOnPremise</code> tenants only.</blockquote>",
+        "additionalProperties": false,
+        "required": [
+          "ServerName",
+          "DatabaseName",
+          "UserName",
+          "Password",
+          "ServerType"
+        ],
+        "properties": {
+          "ServerName": {
+            "type": "string",
+            "description": "Name of the database server."
+          },
+          "DatabaseName": {
+            "type": "string",
+            "description": "Name of the database."
+          },
+          "UserName": {
+            "type": "string",
+            "description": "Username of the database server.  <br /> <blockquote>Check the permission required for the database userss [here](https://staginghelp.boldbi.com/embedded-bi/faq/what-are-the-database-permissions-required-to-set-up-bold-bi-embedded/)</blockquote>"
+          },
+          "Password": {
+            "type": "string",
+            "description": "Password of the database user."
+          },
+          "IsNewDatabase": {
+            "type": "boolean",
+            "default": "false",
+            "description": "Determines whether the <code>DatabaseName</code> is new or existing."
+          },
+          "MaintenanceDatabase": {
+            "type": "string",
+            "description": "Maintenance database of the database server.<br /> <blockquote>Required only for <code>PostgreSQL</code> database server.</blockquote>"
+          },
+          "Port": {
+            "type": "string",
+            "description": "Port number of the database server.<br /><blockquote>Required only for <code>PostgreSQL</code> and <code>MySQL</code> database servers.</blockquote>"
+          },
+          "ServerType": {
+            "description": "Database type of the server.",
+            "$ref": "#/components/schemas/DatabaseType"
           }
         }
       },
@@ -1277,6 +1327,9 @@
           },
           "ServerConfiguration": {
             "$ref": "#/components/schemas/ServerConfiguration"
+          },
+		  "DataStoreConfiguration": {
+            "$ref": "#/components/schemas/DataStoreConfiguration"
           }
         }
       }
