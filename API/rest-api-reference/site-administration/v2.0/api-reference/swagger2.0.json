@@ -26,7 +26,7 @@
     },
 	{
       "name": "Users",
-      "description": "To update the user, update the user password, and get the list of users in the Site Administration, use the following corresponding end points.\n"
+      "description": "To update the user password, and get the list of users in the Site Administration, use the following corresponding end points.\n"
     }
 	],
   "paths": {

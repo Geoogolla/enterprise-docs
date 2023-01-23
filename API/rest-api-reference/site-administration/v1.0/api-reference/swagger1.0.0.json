@@ -36,6 +36,7 @@
         "parameters": [
           {
             "name": "token",
+			 "description": "x-www-form-urlencoded.",
             "in": "body",
             "required": true,
             "schema": {
