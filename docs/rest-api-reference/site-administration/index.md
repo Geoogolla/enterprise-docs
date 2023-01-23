@@ -12,7 +12,7 @@ Using the Site Administration REST API, you can manage and change resources in y
 
 For our application, the API path will be `https://{Domain}/api/{ApiEndpoint}`
 
-For example, `https://onpremise-demo.boldbi.com/api/token`
+For example, `https://on-premise-demo.boldreports.com/api/token`
 
 ## API Versions
 

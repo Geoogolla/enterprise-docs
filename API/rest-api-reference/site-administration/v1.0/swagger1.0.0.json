@@ -3,7 +3,7 @@
   "info": {
     "title": "API Reference",
     "version": "1.0",
-    "description": "#  Introduction\n You can manage users,groups,items and permissions in the Bold Reports On-Premise using the REST API."
+    "description": "#  Introduction\n Our application provides a RESTful web API that allows other third-party applications to interact with the Bold Reports on-premise programmatically. It supports read, create, edit, and delete operations, which are usually in JSON format. Application startup, tenants, and users among other items, can be handled using REST APIs."
   },
   
   "consumes": [
@@ -19,7 +19,7 @@
     },
     {
       "name": "Application Startup",
-      "description": "Configure the Bold BI or Bold Reports application for the first time. To activate Bold BI or Bold Reports, you need an offline unlock key, and that can be obtained [here](https://www.boldreports.com/account/downloads). If you don't have access to the offline key, please create a support ticket [here](https://support.boldbi.com/create).\n"
+      "description": "Configure the Bold BI or Bold Reports application for the first time. To activate Bold BI or Bold Reports, you need an offline unlock key, and that can be obtained [here](https://www.boldreports.com/account/downloads). If you don't have access to the offline key, please create a support ticket [here](https://support.boldreports.com/create).\n"
     },
     {
       "name": "Tenants",
@@ -27,7 +27,7 @@
     }
 	],
   "paths": {
-    "/token": {
+    "{domain}/api/token": {
       "post": {
         "tags": [
           "Authentication"
@@ -62,7 +62,7 @@
         }
       }
     },
-	"/v1.0/startup": {
+	"{domain}/api/v1.0/startup": {
       "post": {
         "tags": [
           "Application Startup"
@@ -114,7 +114,7 @@
         "x-codegen-request-body-name": "startup"
       }
     },
-	"/v1.0/tenants": {
+	"{domain}/api/v1.0/tenants": {
       "post": {
         "tags": [
           "Tenants"

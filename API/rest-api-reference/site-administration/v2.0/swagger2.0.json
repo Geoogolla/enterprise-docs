@@ -3,7 +3,7 @@
   "info": {
     "title": "API Reference",
     "version": "2.0",
-    "description": "# Introduction\n You can manage items in the Bold Reports On-Premise using the REST API."
+    "description": "# Introduction\n Our application provides a RESTful web API that allows other third-party applications to interact with the Bold Reports on-premise programmatically. It supports read, create, edit, and delete operations, which are usually in JSON format. Application startup, tenants, and users among other items, can be handled using REST APIs."
   },
   "servers": [
     {
@@ -23,7 +23,7 @@
     },
   	{
       "name": "Application Startup",
-      "description": "Configure the Bold BI or Bold Reports application for the first time. To activate Bold BI or Bold Reports, you need an offline unlock key, and that can be obtained [here](https://www.boldreports.com/account/downloads). If you don't have access to the offline key, please create a support ticket [here](https://support.boldbi.com/create).\n"
+      "description": "Configure the Bold BI or Bold Reports application for the first time. To activate Bold BI or Bold Reports, you need an offline unlock key, and that can be obtained [here](https://www.boldreports.com/account/downloads). If you don't have access to the offline key, please create a support ticket [here](https://support.boldreports.com/create).\n"
     },
 	{
       "name": "Tenants",
@@ -35,7 +35,7 @@
     }
 	],
   "paths": {
-    "/token": {
+    "{domain}/api/token": {
       "post": {
         "tags": [
           "Authentication"
@@ -71,7 +71,7 @@
         }
       }
     },
-	"/v2.0/startup": {
+	"{domain}/api/v2.0/startup": {
       "post": {
         "tags": [
           "Application Startup"
@@ -123,7 +123,7 @@
         "x-codegen-request-body-name": "startup"
       }
     },
-	"/v2.0/tenants": {
+	"{domain}/api/v2.0/tenants": {
       "post": {
         "tags": [
           "Tenants"
@@ -173,69 +173,7 @@
         }
       }
     },
-  "/v2.0/tenant/{tenantId}/isolation-code": {
-      "post": {
-        "tags": [
-          "Tenants"
-        ],
-        "summary": "Add Isolation Code",
-        "description": "Isolation code support is available for Bold BI tenants alone.",
-        "operationId": "add_isolation_code",
-        "parameters": [
-          {
-            "name": "tenantId",
-            "in": "path",
-            "description": "ID of the tenant.",
-            "required": true,
-            "style": "simple",
-            "explode": false,
-              "type": "string",
-              "format": "uuid",
-              "nullable": false
-            
-          },
-		  {
-		    "name": "tenantId",
-			 "in": "body",
-            "description": "Add isolation-code request body.",
-            "schema": {
-                "$ref": "#/components/schemas/TenantIsolation"
-              },
-             "required": true,
-			 "x-nullable": false
-          }
-		],
-        "responses": {
-          "200": {
-            "description": "Tenant isolation code added successfully.",
-                "schema": {
-                  "$ref": "#/components/schemas/TenantIsolationResponse"
-                }
-              },
-          "400": {
-            "description": "The content of the request body is missing or incomplete.",
-            "content": {}
-          },
-          "401": {
-            "description": "Access denied.",
-            "content": {}
-          },
-          "405": {
-            "description": "Request type was not POST.",
-            "content": {}
-          },
-          "406": {
-            "description": "The content of the request body is invalid.",
-            "content": {}
-          },
-          "417": {
-            "description": "Failed to add tenant.",
-            "content": {}
-          }
-        }
-      }
-    },
-	"/v2.0/tenants/{tenantid}": {
+	"{domain}/api/v2.0/tenants/{tenantid}": {
       "get": {
         "tags": [
           "Tenants"
@@ -276,19 +214,19 @@
             "description": "Request type was not POST.",
             "content": {}
           },
-          "406": {
-            "description": "The content of the request body is invalid.",
+          "404": {
+            "description": "Tenant details not found.",
             "content": {}
           },
           "417": {
-            "description": "Failed to update tenant.",
+            "description": "Failed to get tenant Information.",
             "content": {}
           }
         },
         "x-codegen-request-body-name": "startup"
       }
     },
-	 "/v2.0/tenants/{id}": {
+	 "{domain}/api/v2.0/tenants/{id}": {
       "put": {
         "tags": [
           "Tenants"
@@ -339,8 +277,8 @@
             "description": "Request type was not POST.",
             "content": {}
           },
-          "406": {
-            "description": "The content of the request body is invalid.",
+          "404": {
+            "description": "Tenant id invalid or empty.",
             "content": {}
           },
           "417": {
@@ -351,7 +289,7 @@
         "x-codegen-request-body-name": "startup"
       }
     },
-	"/v2.0/tenants/{tenant_id}": {
+	"{domain}/api/v2.0/tenants/{tenant_id}": {
       "delete": {
         "tags": [
           "Tenants"
@@ -396,13 +334,13 @@
             "content": {}
           },
           "417": {
-            "description": "Failed to delete item.",
+            "description": "Error while deleting the site.",
             "content": {}
           }
         }
       }
     },
-	 "/v2.0/tenants ": {
+	 "{domain}/api/v2.0/tenants ": {
       "get": {
         "tags": [
           "Tenants"
@@ -464,7 +402,7 @@
         }
       }
     },
-	"/v2.0/users/{userId}": {
+	"{domain}/api/v2.0/users/{userId}": {
       "put": {
         "tags": [
           "Users"
@@ -518,13 +456,13 @@
             "content": {}
           },
           "417": {
-            "description": "Failed to add tenant.",
+            "description": "Failed to while update user password.",
             "content": {}
           }
         }
       }
     },
-	"/v2.0/users": {
+	"{domain}/api/v2.0/users": {
       "get": {
         "tags": [
           "Users"
@@ -1181,9 +1119,18 @@
           "tenant_status": {
             "type": "string",
             "description": "Status of the tenant."
-          }
-        }
-      },
+          },
+		  "use_site_identifier":{
+			  "type": "boolean",
+            "description": "site identifier of the tenant."
+         },
+		 "is_master":
+		 {
+			 "type": "boolean",
+            "description": "master site of the tenant."
+		 }
+      }
+	  },
 	  "ArrayTenantResponse": {
         "type": "object",
         "properties": {
