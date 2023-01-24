@@ -33,6 +33,7 @@
           "Authentication"
         ],
         "summary": "Authenticate Client",
+		"description" : "To copy the REST API client ID and secret from the UMS Administration page. so Please refer the [link](https://help.boldbi.com/embedded-bi/multi-tenancy/site-administration/api-keys/).",
         "operationId": "client_authentication",
         "parameters": [
           {
