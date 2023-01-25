@@ -26,3 +26,5 @@ The supported expression types and functions details are listed in the following
 |[Functions](./../../compose-report/expressions/using-built-in-functions/)|Functions in an expressions is used to perform some basic functions like datetime, math, aggregate, text functions, conversion functions.|`=Round(1.3*5)/5`|
 |[Parameters](./../../compose-report/expressions/using-report-parameters/)|Represents the collection of report parameters, each of which with a parameter value.|`Parameters!ReportParameter1.Value`|
 |[Dataset Fields](./../../compose-report/expressions/using-dataset-fields/)|Represents dataset fields collections in reports with dataset field value.|`Fields!EmployeeID.Value,"DataSet1"`|
+
+> Note: When mentioning expressions, it should be in a single line format, not in multiple lines.
