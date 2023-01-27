@@ -3,7 +3,7 @@
   "info": {
     "title": "API Reference",
     "version": "2.0",
-    "description": "# Introduction\n Our application provides a RESTful web API that allows other third-party applications to interact with the Bold Reports on-premise programmatically. It supports read, create, edit, and delete operations, which are usually in JSON format. Application startup, tenants, and users among other items, can be handled using REST APIs.\n ## Pagination\n Multiple List API calls in Bold BI or Bold Reports, such as Get [tenants-list](/#operation/list_tenant) and [users-list](/#operation/get_user_list), will return more results. Because you will not be able to return them all at once, so you must return them one page at a time, called pagination.\n\n**These parameters can be passed to list APIs for pagination.** \n| Parameters | Description     |\n| ---------- |--------------------- |\n| page       | It indicates the current page number. |\n| page_size  | It denotes the number of data lists per page.<br><br> - Page size default value is 25. <br> - Page size maximum value is 100. |\n ## Authentication\n\n **bearer  (token)** \n\n JWT token Authentication \n\n| Security Scheme Type | HTTP| \n|---------- | --------------------- |\n| HTTP Authorization Scheme       | bearer  |\n| Bearer format |JWT|"
+    "description": "# Introduction\n Our application provides a RESTful web API that allows other third-party applications to interact with the Bold Reports on-premise programmatically. It supports read, create, edit, and delete operations, which are usually in JSON format. Application startup, tenants, and users among other items, can be handled using REST APIs.\n ## Pagination\n Multiple List API calls in Bold BI or Bold Reports, such as Get [tenants-list](/#operation/list_tenant) and [users-list](/#operation/get_user_list), will return more results. Because you will not be able to return them all at once, so you must return them one page at a time, called pagination.\n\n**These parameters can be passed to list APIs for pagination.** \n| Parameters | Description     |\n| ---------- |--------------------- |\n| page       | It indicates the current page number. |\n| page_size  | It denotes the number of data lists per page.<br><br> - Page size default value is 25. <br> - Page size maximum value is 100. |\n ## Authentication\n\n **Bearer  (token)** \n\n JWT token Authentication \n\n| Security Scheme Type | HTTP| \n|---------- | --------------------- |\n| HTTP Authorization Scheme       | Bearer  |\n| Bearer format |JWT|"
   },
   "consumes": [
     "application/json"
@@ -15,19 +15,19 @@
   "tags": [ 
     {
       "name": "Authentication",
-      "description": "Bold BI or Bold Reports API uses an API key based Authentication. To make an API request, you need the API key that is created in your profile. The API key will be used to authenticate and authorize your request, an authentication token is provided that should be attached in the request header(Authorization) for all subsequent API calls to authenticate the requests.\n"
+      "description": "Bold Reports API uses OAuth 2.0 authentication based on client credentials. To make an API request, you need to generate an access token using the client ID and secret. For subsequent API requests, this access token should be sent in the Authorization header. This access token is valid for 60 minutes from the time it received.\n\n For information on how to retrieve the client ID and secret for the REST API, please refer to [this](https://help.boldbi.com/embedded-bi/multi-tenancy/site-administration/api-keys/) documentation."
     },
   	{
       "name": "Application Startup",
-      "description": "Configure the Bold BI or Bold Reports application for the first time. To activate Bold BI or Bold Reports, you need an offline unlock key, and that can be obtained [here](https://www.boldreports.com/account/downloads). If you don't have access to the offline key, please create a support ticket [here](https://support.boldreports.com/create).\n"
+      "description": "The Bold BI or Bold Reports application can be configured for the first time using this API.\n\nYou will need offline unlock key, which can be found [here](https://www.boldreports.com/account/downloads), to activate Bold BI or Bold Reports. Please open a support ticket [here](https://support.boldreports.com/create) if you don't have access to the offline key."
     },
 	{
       "name": "Tenants",
-      "description": "Creating, listing, viewing and deleting tenants for Bold BI/Bold Reports using an API can be a powerful and efficient way to manage and organize your data. To create, view, update, delete, and list the Bold BI/Bold Reports tenants, use the following corresponding end points.\n"
+      "description": "Creating, listing, viewing and deleting tenants for Bold BI/Bold Reports using an API can be a powerful and efficient way to manage and organize your data. The request body should be in json format, and you can provide the tenant information in the json format,Include the necessary headers for the API request, such as the Content-Type and Accept headers.To create, view, update, delete, and list the Bold BI/Bold Reports tenants, use the following corresponding end points."
     },
 	{
       "name": "Users",
-      "description": "Creating, listing, viewing and deleting users for Bold BI/Bold Reports using an API can be a powerful and efficient way to manage and organize your data. To create, view, update, delete, and list the Bold BI/Bold Reports users, use the following corresponding end points.\n"
+      "description": "Creating, listing, viewing and deleting users for Bold BI/Bold Reports using an API can be a powerful and efficient way to manage and organize your data. The request body should be in json format, and you can provide the user information in the json format,Include the necessary headers for the API request, such as the Content-Type and Accept headers.To create, view, update, delete, and list the Bold BI/Bold Reports users, use the following corresponding end points."
     }
 	],
   "paths": {
@@ -37,12 +37,11 @@
           "Authentication"
         ],
         "summary": "Authenticate Client",
-		"description" : "Bold Reports API uses OAuth 2.0 authentication based on client credentials. To make an API request, you need to generate an access token using the client ID and secret. These can be found in the UMS Administration page. Please refer to [this](https://help.boldbi.com/embedded-bi/multi-tenancy/site-administration/api-keys/) documentation for instructions on how to obtain the client ID and secret.",
+		"description" : "To call the  token API, you will need to make a POST request to the API endpoint, typically in the format of `https://your-domain/api/token`.\n You will need to include the following parameters in the body of the request:\n\n - grant_type: client_credentials \n\n - client_id: your client ID \n\n - client_secret: your client secret \n\n You will also need to include the appropriate headers for the API, such as Content-Type: `application/x-www-form-urlencoded`.",
         "operationId": "client_authentication",
         "parameters": [
           {
             "name": "token",
-			 "description": "x-www-form-urlencoded.",
             "in": "body",
             "required": true,
             "schema": {
@@ -76,11 +75,10 @@
           "Application Startup"
         ],
         "summary": "Application Startup",
-        "description": "Configure the application startup for Bold BI/Bold Reports application.",
+        "description": "Configure the Bold BI or Bold Reports application using the REST API.\n\n **No AUTHORIZATION** \n\nContent-Type: `application/json`.",
         "operationId": "application_startup",
 		"parameters": [
           {
-		   "description": "configuration request data.",
             "name": "startup",
             "in": "body",
             "required": true,
@@ -128,11 +126,10 @@
           "Tenants"
         ],
         "summary": "Create New Tenant",
-        "description": "Create a new Bold BI / Bold Reports tenant. \n\n AUTHORIZATIONS: [Bearer (token)](/#section/Introduction/Authentication)",
+        "description": "Create a new Bold BI / Bold Reports tenant. \n\n AUTHORIZATIONS: [Bearer (token)](/#section/Introduction/Authentication) \n\nContent-Type: `application/json`",
         "operationId": "create_tenant",
 		"parameters": [
           {
-		   "description": "Add tenant request body.",
             "name": "Tenant",
             "in": "body",
             "required": true,
@@ -178,7 +175,7 @@
           "Tenants"
         ],
         "summary": "View Tenant",
-        "description": "View the details of the Bold BI / Bold Reports tenant. \n\n AUTHORIZATIONS: [Bearer (token)](/#section/Introduction/Authentication)",
+        "description": "View the details of the Bold BI / Bold Reports tenant. \n\n AUTHORIZATIONS: [Bearer (token)](/#section/Introduction/Authentication) \n\nContent-Type: `application/json`",
         "operationId": "view_tenant",
         "parameters": [
           {
@@ -231,7 +228,7 @@
           "Tenants"
         ],
         "summary": "Update Tenant",
-        "description": "Update the site or database information for the Bold BI or Bold Reports tenant. \n\n AUTHORIZATIONS:              [Bearer (token)](/#section/Introduction/Authentication)",
+        "description": "Update the site or database information for the Bold BI or Bold Reports tenant. \n\n AUTHORIZATIONS:              [Bearer (token)](/#section/Introduction/Authentication) \n\nContent-Type: `application/json`" ,
         "operationId": "update_tenant",
         "parameters": [
           {
@@ -249,7 +246,6 @@
           {
 			 "name": "Tenant",
             "in": "body",
-             "description": "Update tenant request body.",
               "schema": {
                 "$ref": "#/components/schemas/UpdateTenant"
               },
@@ -294,7 +290,7 @@
           "Tenants"
         ],
         "summary": "Delete Tenant",
-        "description": "Delete the  Bold BI / Bold Reports tenant \n\n AUTHORIZATIONS: [Bearer (token)](/#section/Introduction/Authentication)",
+        "description": "Delete the  Bold BI / Bold Reports tenant \n\n AUTHORIZATIONS: [Bearer (token)](/#section/Introduction/Authentication) \n\nContent-Type: `application/json`",
         "operationId": "delete_tenant",
         "parameters": [
           {
@@ -345,7 +341,7 @@
           "Tenants"
         ],
         "summary": "List Tenants",
-        "description": "List all the Bold BI and Bold Reports tenants available in the application. <br /><blockquote>URI Parameters</blockquote><ul><li><code>/v2.0/tenants</code> returns the first 25 tenants by default.</li><li><code>/v2.0/tenants?page_size=30</code> returns the first 30 tenants.</li><li><code>/v2.0/tenants?page=2&page_size=30</code> returns the 2nd group of 30 tenants.</li></ul> \n\n AUTHORIZATIONS: [Bearer (token)](/#section/Introduction/Authentication)",
+        "description": "List all the Bold BI and Bold Reports tenants available in the application. <br /><blockquote>URI Parameters</blockquote><ul><li><code>/v2.0/tenants</code> returns the first 25 tenants by default.</li><li><code>/v2.0/tenants?page_size=30</code> returns the first 30 tenants.</li><li><code>/v2.0/tenants?page=2&page_size=30</code> returns the 2nd group of 30 tenants.</li></ul> \n\n AUTHORIZATIONS: [Bearer (token)](/#section/Introduction/Authentication) \n\nContent-Type: `application/json`",
         "operationId": "list_tenant",
 		"parameters": [
           {
@@ -407,7 +403,7 @@
           "Tenants"
         ],
         "summary": "Grant User Access to Tenant ",
-        "description": "Grant user access to the given tenant. \n\n AUTHORIZATIONS: [Bearer (token)](/#section/Introduction/Authentication)", 
+        "description": "Grant user access to the given tenant. \n\n AUTHORIZATIONS: [Bearer (token)](/#section/Introduction/Authentication) \n\nContent-Type: `application/json`", 
         "operationId": "grant_user_access",
 		"parameters": [
 		{
@@ -422,7 +418,6 @@
               "nullable": false
           },
           {
-		   "description": "Grant user access request body.",
             "name": "Tenant",
             "in": "body",
             "required": true,
@@ -462,19 +457,80 @@
         }
       }
     },
+	"{domain}/api/v2.0/tenant/{tenant_id}/remove-access": {
+      "post": {
+        "tags": [
+          "Tenants"
+        ],
+        "summary": "Remove User Access from Tenant ",
+        "description": "Remove user access from the given tenant.. \n\n AUTHORIZATIONS: [Bearer (token)](/#section/Introduction/Authentication) \n\nContent-Type: `application/json`", 
+        "operationId": "remove_user_access",
+		"parameters": [
+		{
+            "name": "tenant_id",
+            "in": "path",
+            "description": "ID of the tenant.",
+            "required": true,
+            "style": "simple",
+            "explode": false,
+              "type": "string",
+              "format": "uuid",
+              "nullable": false
+          },
+          {
+            "name": "Tenant",
+            "in": "body",
+            "required": true,
+            "schema": {
+              "$ref": "#/components/schemas/GrantUser"
+            },
+            "x-nullable": true
+          }
+        ],
+        "responses": {
+         "204": {
+            "description": "No Content.",
+            "content": {}
+          },
+          "400": {
+            "description": "The content of the request body is missing or incomplete.",
+            "content": {}
+          },
+		  "412": {
+            "description": "Tenant id is invalid.",
+            "content": {}
+          },
+          "401": {
+            "description": "Access denied.",
+            "content": {}
+          },
+          "405": {
+            "description": "Request type was not POST.",
+            "content": {}
+          },
+          "404": {
+            "description": "Tenant is deleted.",
+            "content": {}
+          },
+          "417": {
+            "description": "Failed to remove user access from tenant.",
+            "content": {}
+          }
+        }
+      }
+    },
 	"{domain}/api/v2.0/user/add": {
       "post": {
         "tags": [
           "Users"
         ],
         "summary": "Add User ",
-        "description": "Add new user account in UMS. \n\n AUTHORIZATIONS: [Bearer (token)](/#section/Introduction/Authentication)",
+        "description": "Add new user account in UMS. \n\n AUTHORIZATIONS: [Bearer (token)](/#section/Introduction/Authentication) \n\nContent-Type: `application/json`",
         "operationId": "add_user",
 		"parameters": [
         {
 			"name" : "add user",
 			  "in" : "body",
-              "description": "Add User request body.",
               "schema": {
                 "$ref": "#/components/schemas/AddUser"
               },
@@ -517,7 +573,7 @@
           "Users"
         ],
         "summary": "Update User",
-        "description": "Update the User Details. \n\n AUTHORIZATIONS: [Bearer (token)](/#section/Introduction/Authentication)",
+        "description": "Update the User Details. \n\n AUTHORIZATIONS: [Bearer (token)](/#section/Introduction/Authentication) \n\nContent-Type: `application/json`",
         "operationId": "update_user",
         "parameters": [
           {
@@ -534,7 +590,6 @@
         {
 			"name" : "update user",
 			"in" : "body",
-            "description": "Update user request body.",
               "schema": {
                 "$ref": "#/components/schemas/UpdateUser"
               },
@@ -577,7 +632,7 @@
           "Users"
         ],
         "summary": "View User ",
-        "description": "View specific user details. \n\n AUTHORIZATIONS: [Bearer (token)](/#section/Introduction/Authentication)",
+        "description": "View specific user details. \n\n AUTHORIZATIONS: [Bearer (token)](/#section/Introduction/Authentication) \n\nContent-Type: `application/json`",
         "operationId": "view_user",
         "parameters": [
           {
@@ -628,7 +683,7 @@
           "Users"
         ],
         "summary": "List All Users",
-        "description": "List all the active user.<br /><blockquote>URI Parameters</blockquote><ul><li><code>/v2.0/users</code> returns the first 25 users by default.</li><li><code>/v2.0/users?page_size=30</code> returns the first 30 users.</li><li><code>/v2.0/users?page=2&page_size=30</code> returns the 2nd group of 30 users.</li></ul> \n\n AUTHORIZATIONS:     [Bearer (token)](/#section/Introduction/Authentication)",
+        "description": "List all the active user.<br /><blockquote>URI Parameters</blockquote><ul><li><code>/v2.0/users</code> returns the first 25 users by default.</li><li><code>/v2.0/users?page_size=30</code> returns the first 30 users.</li><li><code>/v2.0/users?page=2&page_size=30</code> returns the 2nd group of 30 users.</li></ul> \n\n AUTHORIZATIONS:     [Bearer (token)](/#section/Introduction/Authentication) \n\nContent-Type: `application/json`",
         "operationId": "get_user_list",
         "parameters": [
           {
@@ -690,7 +745,7 @@
           "Users"
         ],
         "summary": "Update Password",
-        "description": "Update user password. \n\n AUTHORIZATIONS: [Bearer (token)](/#section/Introduction/Authentication)",
+        "description": "Update user password. \n\n AUTHORIZATIONS: [Bearer (token)](/#section/Introduction/Authentication) \n\nContent-Type: `application/json`",
         "operationId": "update_user_password",
         "parameters": [
           {
@@ -707,7 +762,6 @@
           {
 			  "name" : "user password",
 			  "in" : "body",
-            "description": "Update user password request body.",
               "schema": {
                 "$ref": "#/components/schemas/UpdatePassword"
               },
@@ -750,7 +804,7 @@
           "Users"
         ],
         "summary": "Delete User",
-        "description": "Delete the User information \n\n AUTHORIZATIONS:[Bearer (token)](/#section/Introduction/Authentication)",
+        "description": "Delete the User information \n\n AUTHORIZATIONS:[Bearer (token)](/#section/Introduction/Authentication) \n\nContent-Type: `application/json`",
         "operationId": "delete_user",
        "parameters": [
           {
@@ -1170,7 +1224,7 @@
           "FirstName",
           "UserName",
 		  "LastName",
-          "contact",
+          "contact"
         ],
         "properties": {
           "Email": {
