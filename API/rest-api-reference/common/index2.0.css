@@ -140,7 +140,7 @@ h1, h2
 	color: #ff4801 !important;
 }
 
-[_nghost-redoc-41] h1:nth-child(11) {
+[_nghost-redoc-41] h1:nth-child(11), [_nghost-redoc-41] h1:nth-child(7) {
     display: none !important;
 }
 
