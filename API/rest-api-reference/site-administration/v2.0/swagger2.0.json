@@ -463,7 +463,7 @@
           "Tenants"
         ],
         "summary": "Remove User Access from Tenant ",
-        "description": "Remove user access from the given tenant.. \n\n AUTHORIZATIONS: [Bearer (token)](/#section/Introduction/Authentication) \n\nContent-Type: `application/json`", 
+        "description": "Remove user access from the given tenant.\n\n AUTHORIZATIONS: [Bearer (token)](/#section/Introduction/Authentication) \n\nContent-Type: `application/json`", 
         "operationId": "remove_user_access",
 		"parameters": [
 		{
@@ -1247,42 +1247,8 @@
 		  {
 			"type": "int",
             "description": "Contact of the user."
-		  },
-		  "Avatar":
-		  {
-            "$ref": "#/components/schemas/AvatarDetails"
 		  }
         }
-	  },
-	  "AvatarDetails":
-	  {
-		"type": "object",
-		"description": "Avatar Details of the user.",
-		"additionalProperties": false,
-        "required": [
-          "Content",
-		  "FileType"
-        ],
-        "properties": {
-          "Content": {
-            "type": "string",
-            "description": "plain base 64 string required image only."
-          },
-          "FileType": {
-            "description": "1 - png, 2 - jpg, 3 - jpeg",
-            "type": "enum",
-             "enum": [
-              1,
-              2,
-		      3
-              ],
-          "x-enumNames": [
-            "png",
-            "jpg",
-		    "jpeg"
-           ]
-          }
-	    }
 	  },
 	  "ArrayUpdateUserResponse":
 	  {
