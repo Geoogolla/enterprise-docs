@@ -27,6 +27,8 @@ the [Bold Reports](https://www.boldreports.com/account) site.
 
 ```text
 Offline license file is availble for Community, embedded, Enterprise and cloud license users.
+
+Offline license file should have the name `boldreports_components_licensekey.lic`.
 ```
 
 ### Place offline license key file
