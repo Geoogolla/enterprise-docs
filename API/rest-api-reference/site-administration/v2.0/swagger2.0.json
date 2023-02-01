@@ -1318,11 +1318,6 @@
             "type": "string",
             "description": "Returns the status of the user from the API."
           },
-		  "avatar_url":
-		  {
-			   "type": "string",
-			   "description": "Returns the url of the avatar image ."
-		  },
           "directory_type": {
             "description": "Returns directory type response data from the API.",
             "$ref": "#/components/schemas/DirectoryType"
