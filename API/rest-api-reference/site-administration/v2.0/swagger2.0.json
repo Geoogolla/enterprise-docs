@@ -3,7 +3,7 @@
   "info": {
     "title": "API Reference",
     "version": "2.0",
-    "description": "# Introduction\n Our application provides a RESTful web API that allows other third-party applications to interact with the Bold Reports on-premise programmatically. It supports read, create, edit, and delete operations, which are usually in JSON format. Application startup, tenants, and users among other items, can be handled using REST APIs.\n ## Pagination\n Multiple List API calls in Bold BI or Bold Reports, such as Get [tenants-list](/#operation/list_tenant) and [users-list](/#operation/get_user_list), will return more results. Because you will not be able to return them all at once, so you must return them one page at a time, called pagination.\n\n**These parameters can be passed to list APIs for pagination.** \n| Parameters | Description     |\n| ---------- |--------------------- |\n| page       | It indicates the current page number. |\n| page_size  | It denotes the number of data lists per page.<br><br> - Page size default value is 25. <br> - Page size maximum value is 100. |\n ## Authentication\n\n **Bearer  (token)** \n\n JWT token Authentication \n\n| Security Scheme Type | HTTP| \n|---------- | --------------------- |\n| HTTP Authorization Scheme       | Bearer  |\n| Bearer format |JWT|"
+    "description": "# Introduction\n Our application provides a RESTful web API that allows other third-party applications to interact with the Bold Reports on-premise programmatically. It supports read, create, edit, and delete operations, which are usually in JSON format. Application startup, tenants, and users among other items, can be handled using REST APIs.\n ## Pagination\n Multiple List API calls in Bold BI or Bold Reports, such as Get [tenants-list](../.././#operation/list_tenant) and [users-list](../.././#operation/get_user_list), will return more results. Because you will not be able to return them all at once, so you must return them one page at a time, called pagination.\n\n**These parameters can be passed to list APIs for pagination.** \n| Parameters | Description     |\n| ---------- |--------------------- |\n| page       | It indicates the current page number. |\n| page_size  | It denotes the number of data lists per page.<br><br> - Page size default value is 25. <br> - Page size maximum value is 100. |\n ## Authentication\n\n **Bearer  (token)** \n\n JWT token Authentication \n\n| Security Scheme Type | HTTP| \n|---------- | --------------------- |\n| HTTP Authorization Scheme       | Bearer  |\n| Bearer format |JWT|"
   },
   "consumes": [
     "application/json"
@@ -23,11 +23,11 @@
     },
 	{
       "name": "Tenants",
-      "description": "Creating, listing, viewing and deleting tenants for Bold BI/Bold Reports using an API can be a powerful and efficient way to manage and organize your data. The request body should be in json format, and you can provide the tenant information in the json format,Include the necessary headers for the API request, such as the Content-Type and Accept headers.To create, view, update, delete, and list the Bold BI/Bold Reports tenants, use the following corresponding end points."
+      "description": "Creating, listing, viewing and deleting tenants for Bold BI/Bold Reports using an API can be a powerful and efficient way to manage and organize your data. The request body should be in JSON format, and you can provide the tenant information in the JSON format. Include the necessary headers for the API request, such as the Content-Type and Accept headers. To create, view, update, delete, and list the Bold BI/Bold Reports tenants, use the following corresponding end points."
     },
 	{
       "name": "Users",
-      "description": "Creating, listing, viewing and deleting users for Bold BI/Bold Reports using an API can be a powerful and efficient way to manage and organize your data. The request body should be in json format, and you can provide the user information in the json format,Include the necessary headers for the API request, such as the Content-Type and Accept headers.To create, view, update, delete, and list the Bold BI/Bold Reports users, use the following corresponding end points."
+      "description": "Creating, listing, viewing and deleting users for Bold BI/Bold Reports using an API can be a powerful and efficient way to manage and organize your data. The request body should be in JSON format, and you can provide the user information in the JSON format. Include the necessary headers for the API request, such as the Content-Type and Accept headers. To create, view, update, delete, and list the Bold BI/Bold Reports users, use the following corresponding end points."
     }
 	],
   "paths": {
@@ -573,7 +573,7 @@
           "Users"
         ],
         "summary": "Update User",
-        "description": "Update the User Details. \n\n AUTHORIZATIONS: [Bearer (token)](/#section/Introduction/Authentication) \n\nContent-Type: `application/json`",
+        "description": "Update the user details. \n\n AUTHORIZATIONS: [Bearer (token)](/#section/Introduction/Authentication) \n\nContent-Type: `application/json`",
         "operationId": "update_user",
         "parameters": [
           {
@@ -683,7 +683,7 @@
           "Users"
         ],
         "summary": "List All Users",
-        "description": "List all the active user.<br /><blockquote>URI Parameters</blockquote><ul><li><code>/v2.0/users</code> returns the first 25 users by default.</li><li><code>/v2.0/users?page_size=30</code> returns the first 30 users.</li><li><code>/v2.0/users?page=2&page_size=30</code> returns the 2nd group of 30 users.</li></ul> \n\n AUTHORIZATIONS:     [Bearer (token)](/#section/Introduction/Authentication) \n\nContent-Type: `application/json`",
+        "description": "List all the active users.<br /><blockquote>URI Parameters</blockquote><ul><li><code>/v2.0/users</code> returns the first 25 users by default.</li><li><code>/v2.0/users?page_size=30</code> returns the first 30 users.</li><li><code>/v2.0/users?page=2&page_size=30</code> returns the 2nd group of 30 users.</li></ul> \n\n AUTHORIZATIONS:     [Bearer (token)](/#section/Introduction/Authentication) \n\nContent-Type: `application/json`",
         "operationId": "get_user_list",
         "parameters": [
           {
@@ -804,7 +804,7 @@
           "Users"
         ],
         "summary": "Delete User",
-        "description": "Delete the User information \n\n AUTHORIZATIONS:[Bearer (token)](/#section/Introduction/Authentication) \n\nContent-Type: `application/json`",
+        "description": "Delete the user account. \n\n AUTHORIZATIONS:[Bearer (token)](/#section/Introduction/Authentication) \n\nContent-Type: `application/json`",
         "operationId": "delete_user",
        "parameters": [
           {
@@ -980,7 +980,7 @@
           "IsNewDatabase": {
             "type": "boolean",
             "default": "false",
-            "description": "Determines whether the <code>DatabaseName</code> is new or existing."
+            "description": "Determines whether to create a new database or connect to an existing database specified by the <code>DatabaseName</code> parameter. "
           },
           "MaintenanceDatabase": {
             "type": "string",
@@ -997,13 +997,13 @@
 		  "AdditionalParameters": 
 		  {
 			"type": "string",
-            "description": "AdditionalParameters of the database."
+            "description": "Additional parameters for connecting to the database server."
 		  },
 		  "SslEnabled":
 		  {
 			"type": "boolean",
             "default": "false",
-            "description": "sslenabled for the database."
+            "description": "Determines whether the encrypted connection to the database server is required."
 		  }
         }
       },
@@ -1118,7 +1118,7 @@
           },
           "UseSiteIdentifier": {
             "type": "boolean",
-            "description": "Decides to Use Site Identifier or not."
+            "description": "Decides whether we need to use or ignore the site identifier. If the site identifier is ignored, unique domain should be used for each site."
           },
           "TenantType": {
             "description": "Tenant type of the site.",
@@ -1175,7 +1175,7 @@
         "properties": {
           "UserName": {
             "type": "string",
-            "description": "Username of the user ."
+            "description": "Username of the user."
           },
           "Email": {
             "type": "string",
@@ -1237,7 +1237,7 @@
           },
           "UserName": {
             "type": "string",
-            "description": "Username of the user ."
+            "description": "Username of the user."
           },
           "LastName": {
             "type": "string",
@@ -1345,7 +1345,7 @@
           },
           "UserName": {
             "type": "string",
-            "description": "Username of the user ."
+            "description": "Username of the user."
           },
           "LastName": {
             "type": "string",
@@ -1353,7 +1353,7 @@
           },
           "Password": {
             "type": "string",
-            "description": "Password of the user.Based on activation mode, the user can give the password. Automatic Activation password is required , Email Activation password isnt required. <br /><blockquote>Note: Password must meet the following requirements. It must contain,</blockquote><ul><li><code>At least 6 characters</code></li><li><code>1 uppercase character</code></li><li><code>1 lowercase character</code></li><li><code>1 numeric character</code></li><li><code>1 special character</code></li></ul> "
+            "description": "The user's password. Depending on the activation mode, this field may not be required. For, Email activation mode password is not necessary. Automatic activation is password required.  <br /><blockquote>Note: Password must meet the following requirements. It must contain,</blockquote><ul><li><code>At least 6 characters</code></li><li><code>1 uppercase character</code></li><li><code>1 lowercase character</code></li><li><code>1 numeric character</code></li><li><code>1 special character</code></li></ul> "
           }
         }
 	  },
@@ -1628,7 +1628,7 @@
           },
           "Unlockkey": {
             "type": "string",
-            "description": "Unlockkey of the bold licese."
+            "description": "Unlock key for the Bold BI/Reports application."
           }
         }
       },
@@ -1654,7 +1654,7 @@
           },
           "UserName": {
             "type": "string",
-            "description": "Username of the database server.  <br /> <blockquote>Check the permission required for the database userss [here](https://staginghelp.boldbi.com/embedded-bi/faq/what-are-the-database-permissions-required-to-set-up-bold-bi-embedded/)</blockquote>"
+            "description": "Username of the database server.  <br /> <blockquote>Check the permission required for the database users [here](https://staginghelp.boldbi.com/embedded-bi/faq/what-are-the-database-permissions-required-to-set-up-bold-bi-embedded/)</blockquote>"
           },
           "Password": {
             "type": "string",
@@ -1663,7 +1663,7 @@
           "IsNewDatabase": {
             "type": "boolean",
             "default": "false",
-            "description": "Determines whether the <code>DatabaseName</code> is new or existing."
+            "description": "Determines whether to create a new database or connect to an existing database specified by the <code>DatabaseName</code> parameter."
           },
           "MaintenanceDatabase": {
             "type": "string",
@@ -1680,13 +1680,13 @@
 		   "AdditionalParameters": 
 		  {
 			"type": "string",
-            "description": "AdditionalParameters of the database."
+            "description": "Additional parameters for connecting to the database server."
 		  },
 		  "SslEnabled":
 		  {
 			"type": "boolean",
             "default": "false",
-            "description": "sslenabled for the database."
+            "description": "Determines whether the encrypted connection to the database server is required. "
 		  }
         }
       },
@@ -1816,7 +1816,7 @@
 	  "SiteDetails":
 	  {
 		 "type": "object",
-        "description": "site details.",
+        "description": "Site information to be updated.",
         "additionalProperties": false,
 		"properties": {
           "SiteName": { 
@@ -1875,12 +1875,12 @@
 		  {
 			  "type": "boolean",
 			  "default": "false",
-            "description": "sslenabled for the database."
+            "description": "Determines whether the encrypted connection to the database server is required. "
 		  },
 		   "AdditionalParameters": 
 		  {
 			"type": "string",
-            "description": "AdditionalParameters of the database."
+            "description": "Additional parameters for connecting to the database server."
 		  }
 	  }
 	  },

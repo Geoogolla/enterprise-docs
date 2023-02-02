@@ -23,7 +23,7 @@
     },
     {
       "name": "Tenants",
-      "description": " Creating tenants for Bold BI/Bold Reports using an API can be a powerful and efficient way to manage and organize your data. The request body should be in json format, and you can provide the tenant information in the json format.Include the necessary headers for the API request, such as the Content-Type and Accept headers.To create the Bold BI/Bold Reports tenants, use the following corresponding end points."
+      "description": " Creating tenants for Bold BI/Bold Reports using an API can be a powerful and efficient way to manage and organize your data. The request body should be in JSON format, and you can provide the tenant information in the JSON format. Include the necessary headers for the API request, such as the Content-Type and Accept headers. To create the Bold BI/Bold Reports tenants, use the following corresponding end points."
     }
 	],
   "paths": {
@@ -300,7 +300,7 @@
           "IsNewDatabase": {
             "type": "boolean",
             "default": "false",
-            "description": "Determines whether the <code>DatabaseName</code> is new or existing."
+            "description": "Determines whether to create a new database or connect to an existing database specified by the <code>DatabaseName</code> parameter."
           },
           "MaintenanceDatabase": {
             "type": "string",
@@ -318,12 +318,12 @@
 		  {
 			  "type": "boolean",
 			  "default": "false",
-            "description": "sslenabled for the database."
+            "description": "Determines whether the encrypted connection to the database server is required. "
 		  },
 		   "AdditionalParameters": 
 		  {
 			"type": "string",
-            "description": "AdditionalParameters of the database."
+            "description": "Additional parameters for connecting to the database server."
 		  }
         }
       },
@@ -438,7 +438,7 @@
           },
           "UseSiteIdentifier": {
             "type": "boolean",
-            "description": "Decides to Use Site Identifier or not."
+            "description": "Decides whether we need to use or ignore the site identifier. If the site identifier is ignored, unique domain should be used for each site."
           },
           "TenantType": {
             "description": "Tenant type of the site.",
@@ -558,7 +558,7 @@
           },
           "Unlockkey": {
             "type": "string",
-            "description": "Unlockkey of the bold licese."
+            "description": "Unlock key for the Bold BI/Reports application."
           }
         }
       },
@@ -584,7 +584,7 @@
           },
           "UserName": {
             "type": "string",
-            "description": "Username of the database server.  <br /> <blockquote>Check the permission required for the database userss [here](https://staginghelp.boldbi.com/embedded-bi/faq/what-are-the-database-permissions-required-to-set-up-bold-bi-embedded/)</blockquote>"
+            "description": "Username of the database server.  <br /> <blockquote>Check the permission required for the database users [here](https://staginghelp.boldbi.com/embedded-bi/faq/what-are-the-database-permissions-required-to-set-up-bold-bi-embedded/)</blockquote>"
           },
           "Password": {
             "type": "string",
@@ -593,7 +593,7 @@
           "IsNewDatabase": {
             "type": "boolean",
             "default": "false",
-            "description": "Determines whether the <code>DatabaseName</code> is new or existing."
+            "description": "Determines whether to create a new database or connect to an existing database specified by the <code>DatabaseName</code> parameter."
           },
           "MaintenanceDatabase": {
             "type": "string",
@@ -611,12 +611,12 @@
 		  {
 			  "type": "boolean",
 			  "default": "false",
-            "description": "sslenabled for the database."
+            "description": "Determines whether the encrypted connection to the database server is required. "
 		  },
 		   "AdditionalParameters": 
 		  {
 			"type": "string",
-            "description": "AdditionalParameters of the database."
+            "description": "Additional parameters for connecting to the database server."
 		  }
         }
       },
@@ -670,11 +670,11 @@
           "IsNewDatabase": {
             "type": "boolean",
             "default": "false",
-            "description": "Decides the data store database is new or existing."
+            "description": "Determines whether to create a new database or connect to an existing database specified by the <code>DatabaseName</code> parameter."
           },
           "MaintenanceDataBase": {
             "type": "string",
-            "description": "Maintenance dataBase of the database server."
+            "description": "Maintenance database of the database server."
           },
           "EmailDomain": {
             "type": "string",
