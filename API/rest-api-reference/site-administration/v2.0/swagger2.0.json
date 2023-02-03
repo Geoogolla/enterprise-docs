@@ -3,7 +3,7 @@
   "info": {
     "title": "API Reference",
     "version": "2.0",
-    "description": "# Introduction\n Our application provides a RESTful web API that allows other third-party applications to interact with the Bold Reports on-premise programmatically. It supports read, create, edit, and delete operations, which are usually in JSON format. Application startup, tenants, and users among other items, can be handled using REST APIs.\n ## Pagination\n Multiple List API calls in Bold BI or Bold Reports, such as Get [tenants-list](../.././#operation/list_tenant) and [users-list](../.././#operation/get_user_list), will return more results. Because you will not be able to return them all at once, so you must return them one page at a time, called pagination.\n\n**These parameters can be passed to list APIs for pagination.** \n| Parameters | Description     |\n| ---------- |--------------------- |\n| page       | It indicates the current page number. |\n| page_size  | It denotes the number of data lists per page.<br><br> - Page size default value is 25. <br> - Page size maximum value is 100. |\n ## Authentication\n\n **Bearer  (token)** \n\n JWT token Authentication \n\n| Security Scheme Type | HTTP| \n|---------- | --------------------- |\n| HTTP Authorization Scheme       | Bearer  |\n| Bearer format |JWT|"
+    "description": "# Introduction\n Our application provides a RESTful web API that allows other third-party applications to interact with the Bold Reports on-premise programmatically. It supports read, create, edit, and delete operations, which are usually in JSON format. Application startups, tenants, and users, among other items, can be handled using REST APIs.\n ## Pagination\n Multiple List API calls in our application, such as Get [tenants-list](../.././#operation/list_tenant) and [users-list](../.././#operation/get_user_list), will return more results. Because you will not be able to return them all at once, you must return them one page at a time, called pagination.\n\n**These parameters can be passed to list APIs for pagination.** \n| Parameters | Description     |\n| ---------- |--------------------- |\n| page       | It indicates the current page number. |\n| page_size  | It denotes the number of data lists per page.<br><br> - Page size default value is 25. <br> - Page size maximum value is 100. |\n ## Authentication\n\n **Bearer  (token)** \n\n JWT token Authentication \n\n| Security Scheme Type | HTTP| \n|---------- | --------------------- |\n| HTTP Authorization Scheme       | Bearer  |\n| Bearer format |JWT|"
   },
   "consumes": [
     "application/json"
@@ -15,19 +15,19 @@
   "tags": [ 
     {
       "name": "Authentication",
-      "description": "Bold Reports API uses OAuth 2.0 authentication based on client credentials. To make an API request, you need to generate an access token using the client ID and secret. For subsequent API requests, this access token should be sent in the Authorization header. This access token is valid for 60 minutes from the time it received.\n\n For information on how to retrieve the client ID and secret for the REST API, please refer to [this](https://help.boldbi.com/embedded-bi/multi-tenancy/site-administration/api-keys/) documentation."
+      "description": "Bold Reports API uses OAuth 2.0 authentication based on client credentials. To make an API request, you need to generate an access token using the client ID and secret. For subsequent API requests, this access token should be sent in the Authorization header. This access token is valid for 60 minutes from the time it is received.\n\n For information on how to retrieve the client ID and secret for the REST API, please refer to [this](https://help.boldbi.com/embedded-bi/multi-tenancy/site-administration/api-keys/) documentation."
     },
   	{
       "name": "Application Startup",
-      "description": "The Bold BI or Bold Reports application can be configured for the first time using this API.\n\nYou will need offline unlock key, which can be found [here](https://www.boldreports.com/account/downloads), to activate Bold BI or Bold Reports. Please open a support ticket [here](https://support.boldreports.com/create) if you don't have access to the offline key."
+      "description": "The Bold BI or Bold Reports application can be configured for the first time using this API.\n\nYou will need an offline unlock key, which can be found [here](https://www.boldreports.com/account/downloads) , to activate Bold BI or Bold Reports.\nPlease open a support ticket [here](https://support.boldreports.com/create) if you don't have access to the offline key."
     },
 	{
       "name": "Tenants",
-      "description": "Creating, listing, viewing and deleting tenants for Bold BI/Bold Reports using an API can be a powerful and efficient way to manage and organize your data. The request body should be in JSON format, and you can provide the tenant information in the JSON format. Include the necessary headers for the API request, such as the Content-Type and Accept headers. To create, view, update, delete, and list the Bold BI/Bold Reports tenants, use the following corresponding end points."
+      "description": "Creating, listing, viewing, and deleting tenants for Bold BI/Bold Reports using an API can be a powerful and efficient way to manage and organize your data. The request body should be in JSON format, and you can provide the tenant information in JSON format. Include the necessary headers for the API request, such as the Content-Type and Accept headers. To create, view, update, delete, and list the Bold BI/Bold Reports tenants, use the following corresponding endpoints."
     },
 	{
       "name": "Users",
-      "description": "Creating, listing, viewing and deleting users for Bold BI/Bold Reports using an API can be a powerful and efficient way to manage and organize your data. The request body should be in JSON format, and you can provide the user information in the JSON format. Include the necessary headers for the API request, such as the Content-Type and Accept headers. To create, view, update, delete, and list the Bold BI/Bold Reports users, use the following corresponding end points."
+      "description": "Creating, listing, viewing, and deleting users for Bold BI/Bold Reports using an API can be a powerful and efficient way to manage and organize your data. The request body should be in JSON format, and you can provide the user information in JSON format. Include the necessary headers for the API request, such as the Content-Type and Accept headers. To create, view, update, delete, and list the Bold BI/Bold Reports users, use the following corresponding endpoints."
     }
 	],
   "paths": {
@@ -37,7 +37,7 @@
           "Authentication"
         ],
         "summary": "Authenticate Client",
-		"description" : "To call the  token API, you will need to make a POST request to the API endpoint, typically in the format of `https://your-domain/api/token`.\n You will need to include the following parameters in the body of the request:\n\n - grant_type: client_credentials \n\n - client_id: your client ID \n\n - client_secret: your client secret \n\n You will also need to include the appropriate headers for the API, such as Content-Type: `application/x-www-form-urlencoded`.",
+		"description" : "To call the token API, you will need to make a POST request to the API endpoint, typically in the format of `https://your-domain/api/token`.\n You will need to include the following parameters in the body of the request:\n\n - grant_type: client_credentials \n\n - client_id: your client ID \n\n - client_secret: your client secret\n\n You will also need to include the appropriate headers for the API, such as\n\n Content-Type: `application/x-www-form-urlencoded`.",
         "operationId": "client_authentication",
         "parameters": [
           {
