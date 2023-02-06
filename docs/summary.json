@@ -192,6 +192,7 @@
                 "OData":"odata-data-source.md",
                 "OLEDB":"oledb-data-source.md",
                 "Oracle":"oracle-data-source.md",
+                "Snowflake":"snowflake-data-source.md",
                 "PostgreSQL":"postgresql-data-source.md",
                 "Rest API": "rest-api-data-source.md",
                 "Microsoft SQL": "sql-data-source.md",

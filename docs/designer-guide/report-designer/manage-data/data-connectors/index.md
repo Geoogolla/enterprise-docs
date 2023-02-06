@@ -29,6 +29,8 @@ The Bold Reports Designer supports the Microsoft SQL Server, Oracle, OLEDB, ODBC
 
 * [Oracle](./../../manage-data/data-connectors/oracle-data-source/)
 
+* [Snowflake](./../../manage-data/data-connectors/snowflake-data-source/)
+
 * [PostgreSQL](./../../manage-data/data-connectors/postgresql-data-source/)
 
 * [Web API](./../../manage-data/data-connectors/rest-api-data-source/)
