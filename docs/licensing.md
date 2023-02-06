@@ -25,7 +25,7 @@ the [Bold Reports](https://www.boldreports.com/account) site.
 
 ![Offline License](/static/assets/on-premise/images/getting-started/offline-license.png)
 
-```text
+```steps
 Offline license file is availble for Community, embedded, Enterprise and cloud license users.
 
 Offline license file should have the name `boldreports_components_licensekey.lic`.
@@ -45,7 +45,7 @@ Place the downloaded license key file in the Bold Reports installed location. Fo
 
 2. Restart the Bold Reports application.
 
-```text
+```steps
 License key will expire based on the validity of the subscription.
 
 After the expiration date, you have to renew and change the license key.
