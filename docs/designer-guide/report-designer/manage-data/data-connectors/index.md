@@ -19,6 +19,10 @@ The Bold Reports Designer supports the Microsoft SQL Server, Oracle, OLEDB, ODBC
 
 * [MemSQL](./../../manage-data/data-connectors/memsql-data-source/)
 
+* [Microsoft SQL Server](./../../manage-data/data-connectors/sql-data-source/)
+
+* [Microsoft SQL Server Analysis Services](./../../manage-data/data-connectors/ssas-data-source/)
+
 * [MySQL](./../../manage-data/data-connectors/mysql-data-source/)
 
 * [ODBC](./../../manage-data/data-connectors/odbc-data-source/)
@@ -29,14 +33,10 @@ The Bold Reports Designer supports the Microsoft SQL Server, Oracle, OLEDB, ODBC
 
 * [Oracle](./../../manage-data/data-connectors/oracle-data-source/)
 
-* [Snowflake](./../../manage-data/data-connectors/snowflake-data-source/)
-
 * [PostgreSQL](./../../manage-data/data-connectors/postgresql-data-source/)
 
+* [Snowflake](./../../manage-data/data-connectors/snowflake-data-source/)
+
 * [Web API](./../../manage-data/data-connectors/rest-api-data-source/)
-
-* [Microsoft SQL Server](./../../manage-data/data-connectors/sql-data-source/)
-
-* [Microsoft SQL Server Analysis Services](./../../manage-data/data-connectors/ssas-data-source/)
 
 * [XML](./../../manage-data/data-connectors/xml-data-source/)
