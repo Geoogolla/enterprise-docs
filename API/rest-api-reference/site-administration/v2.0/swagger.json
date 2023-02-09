@@ -37,7 +37,7 @@
           "Authentication"
         ],
         "summary": "Authenticate Client",
-		"description" : "To call the token API, you will need to make a POST request to the API endpoint, typically in the format of `https://your-domain/api/token`.\n You will need to include the following parameters in the body of the request:\n\n - grant_type: client_credentials \n\n - client_id: your client ID \n\n - client_secret: your client secret\n\n You will also need to include the appropriate headers for the API, such as\n\n Content-Type: `application/x-www-form-urlencoded`.",
+		"description" : "To call the token API, you will need to make a POST request to the API endpoint, typically in the format of `https://your-domain/api/token`.\n You will need to include the following parameters in the body of the request:\n\n - grant_type: client_credentials \n\n - client_id: your client ID \n\n - client_secret: your client secret\n\n You will also need to include the appropriate headers for the API, such as Content-Type: `application/x-www-form-urlencoded`.",
         "operationId": "client_authentication",
         "parameters": [
           {
