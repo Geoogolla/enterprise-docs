@@ -15,7 +15,7 @@
   "tags": [
     {
       "name": "Authentication",
-      "description": "Bold Reports API uses OAuth 2.0 authentication based on client credentials. To make an API request, you need to generate an access token using the client ID and secret. For subsequent API requests, this access token should be sent in the Authorization header. This access token is valid for 60 minutes from the time it is received.\n\n For information on how to retrieve the client ID and secret for the REST API, please refer to [this](https://help.boldbi.com/embedded-bi/multi-tenancy/site-administration/api-keys/) documentation."
+      "description": "Bold Reports API uses OAuth 2.0 authentication based on client credentials. To make an API request, you need to generate an access token using the client ID and secret. For subsequent API requests, this access token should be sent in the Authorization header. This access token is valid for 60 minutes from the time it is received.\n\n For information on how to retrieve the client ID and secret for the REST API, please refer to [this](https://help.boldreports.com/enterprise-reporting/administrator-guide/manage-tenants/site-administration/api-keys/) documentation."
     },
     {
       "name": "Application Startup",
@@ -450,15 +450,11 @@
           },
           "CustomAttribute": {
             "type": "array",
-            "description": "Custom site attributes.",
+            "description": "Custom site attributes. <br/><blockquote>Applicable to create <code>BoldBIOnPremise</code> tenants only.</blockquote>",
             "items": {
             "$ref": "#/components/schemas/CustomAttribute"
           }
           },
-          "TenantIsolation": {
-            "description": "Tenant isolation code.",
-            "$ref": "#/components/schemas/TenantIsolation"
-          }
         }
       },
 	  "CustomAttribute": {
@@ -485,21 +481,6 @@
           "CanEncrypt": {
             "type": "boolean",
             "description": "Decides to encrypt the site attribute data."
-          }
-        }
-      },
-	  "TenantIsolation": {
-        "type": "object",
-        "additionalProperties": false,
-        "description": "Tenant isolation code <blockquote>required to create <code>BoldBIOnPremise</code> tenants only.</blockquote>.",
-        "properties": {
-          "IsEnabled": {
-            "type": "boolean",
-            "description": "Enable or disable the Isolation Code."
-          },
-          "IsolationCode": {
-            "type": "string",
-            "description": "Isolation code."
           }
         }
       },
@@ -699,18 +680,9 @@
 		  "DataStoreConfiguration": {
             "$ref": "#/components/schemas/DataStoreConfiguration"
           },
-          "IsTenantIsolationCodeEnabled": {
-            "type": "boolean",
-            "default": "false",
-            "description": "Enable or disable the Isolation Code. <br/><blockquote>required to create <code>BoldBIOnPremise</code> tenants only.</blockquote>"
-          },
-          "TenantIsolationCode": {
-            "type": "string",
-            "description": "Isolation code. <br/><blockquote>required to create <code>BoldBIOnPremise</code> tenants only.</blockquote>"
-          },
           "CustomAttribute": {
             "type": "array",
-            "description": "Custom site attributes.",
+            "description": "Custom site attributes. <br/><blockquote>Applicable to create <code>BoldBIOnPremise</code> tenants only.</blockquote>",
             "items": {
             "$ref": "#/components/schemas/CustomAttribute"
           }
