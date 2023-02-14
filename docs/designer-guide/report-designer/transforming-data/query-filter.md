@@ -39,11 +39,10 @@ Query Filters are used to filter out specific data in a database. The data can b
 7. Choose **AND** or **OR** condition from the dropdown and with that you can filter out data based on the query condition
 
     ![and-or-dropdown](/static/assets/on-premise/images/report-designer/transforming-data/query-filter/and-or-dropdown.png)
-    
 
 8. To add multiple filters, follow steps 1 - 5.
 
-   ![add-with-multiple-filter](/static/assets/on-premise/images/report-designer/transforming-data/query-filter/multiple-filters.png)
+    ![add-with-multiple-filter](/static/assets/on-premise/images/report-designer/transforming-data/query-filter/multiple-filters.png)
 
 9. Click **OK** and select **Execute** icon as shown below to view the filtered data based on the condition in the data preview.
 
