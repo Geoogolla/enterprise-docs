@@ -29,7 +29,7 @@ the [Bold Reports](https://www.boldreports.com/account) site.
 
 Place the downloaded license key file in the Bold Reports installed location. Follow the below steps.
 
-1. Offline license file should have the name `boldreports_components_licensekey.lic`.
+1. Offline license file should have the name `boldreports_components_licensekey.lic.`
 
 2. Go to the deployed location and place the license key file in below location.
 
