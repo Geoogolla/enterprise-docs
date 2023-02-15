@@ -187,6 +187,8 @@
                 "JSON": "json-data-source.md",
                 "MariaDB":"mariadb-data-source.md",
                 "MemSQL":"memsql-data-source.md",
+                "Microsoft SQL": "sql-data-source.md",
+                "Microsoft SQL Server Analysis Services": "ssas-data-source",                
                 "MySQL":"mysql-data-source.md",
                 "ODBC":"odbc-data-source.md",
                 "OData":"odata-data-source.md",
@@ -194,8 +196,7 @@
                 "Oracle":"oracle-data-source.md",
                 "PostgreSQL":"postgresql-data-source.md",
                 "Rest API": "rest-api-data-source.md",
-                "Microsoft SQL": "sql-data-source.md",
-                "Microsoft SQL Server Analysis Services": "ssas-data-source",
+                "Snowflake":"snowflake-data-source.md",
                 "XML": "xml-data-source.md"
             },
             "DataSource": {
