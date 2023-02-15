@@ -25,17 +25,13 @@ the [Bold Reports](https://www.boldreports.com/account) site.
 
 ![Offline License](/static/assets/on-premise/images/getting-started/offline-license.png)
 
-```steps
-Offline license file is availble for Community, embedded, Enterprise and cloud license users.
-
-Offline license file should have the name `boldreports_components_licensekey.lic`.
-```
-
 ### Place offline license key file
 
-Place the downloaded license key file in the Bold Reports installed location. Follow the below steps.  
+Place the downloaded license key file in the Bold Reports installed location. Follow the below steps.
 
-1. Go to the deployed location and place the license key file in below location.
+1. Offline license file should have the name `boldreports_components_licensekey.lic`.
+
+2. Go to the deployed location and place the license key file in below location.
 
    **`{Deployed Location}`**\app_data\reporting\configuration
 
@@ -43,7 +39,7 @@ Place the downloaded license key file in the Bold Reports installed location. Fo
 
    >By default, Bold Reports will be deployed on C:\BoldServices
 
-2. Restart the Bold Reports application.
+3. Restart the Bold Reports application.
 
 ```steps
 License key will expire based on the validity of the subscription.
