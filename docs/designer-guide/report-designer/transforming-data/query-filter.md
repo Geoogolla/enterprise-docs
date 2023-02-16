@@ -32,15 +32,23 @@ Query Filters are used to filter out specific data in a database. The data can b
 
     ![include-paramter](/static/assets/on-premise/images/report-designer/transforming-data/query-filter/include-paramter.png)
 
-6. To add multiple filters, follow steps 1 - 5.
+6. Click on **Add** icon again to add the second row. You can see a dropdown on the top of the second row
 
-   ![add-with-multiple-filter](/static/assets/on-premise/images/report-designer/transforming-data/query-filter/multiple-filters.png)
+    ![and-condition-filter](/static/assets/on-premise/images/report-designer/transforming-data/query-filter/and-condition.png)
 
-7. Click **OK** and select **Execute** icon as shown below to view the filtered data in the data preview.
+7. Choose **AND** or **OR** condition from the dropdown and with that you can filter out data based on the query condition
+
+    ![and-or-dropdown](/static/assets/on-premise/images/report-designer/transforming-data/query-filter/and-or-dropdown.png)
+
+8. To add multiple filters, follow steps 1 - 5.
+
+    ![add-with-multiple-filter](/static/assets/on-premise/images/report-designer/transforming-data/query-filter/multiple-filters.png)
+
+9. Click **OK** and select **Execute** icon as shown below to view the filtered data based on the condition in the data preview.
 
     ![datapreview](/static/assets/on-premise/images/report-designer/transforming-data/query-filter/filtered-data.png)
 
-8. When save the dataset, the query parameter will automatically included in report parameter as shown below.
+10. When save the dataset, the query parameter will automatically included in report parameter as shown below.
 
     ![report-parameter](/static/assets/on-premise/images/report-designer/transforming-data/query-filter/query-report-parameter.png)
 
