@@ -23,7 +23,11 @@ After clicking the data source, the `NEW DATASOURCE` configuration panel opens. 
 Specify the data source name without special characters, in **Name** field.
 ![Web datasource properties](/static/assets/on-premise/images/report-designer/manage-data/snowflake-data-source/snowflake-properties.png)
 
-Then enter the valid connection string and authentication type to connect with specified data source.
+Then enter the valid connection string as mentioned below and authentication type to connect with specified data source.
+
+```js
+scheme=https;port=MyPort;account=myAccount;host=MyHost;db=SNOWFLAKE_SAMPLE_DATA;user=myUsername;password=myPassword;warehouse=myWarehouse;
+```
 
 ![Web datasource properties](/static/assets/on-premise/images/report-designer/manage-data/snowflake-data-source/basic-connection.png)
 
