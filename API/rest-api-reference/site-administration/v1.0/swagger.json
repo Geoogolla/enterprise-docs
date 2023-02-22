@@ -121,7 +121,7 @@
           "Tenants"
         ],
         "summary": "Create New Tenant", 
-        "description": "Create a new Bold BI / Bold Reports tenant. \n\n AUTHORIZATION: [Bearer (token)](/#section/Introduction/Authentication) \n\nContent-Type: `application/json`.",
+        "description": "Create a new Bold BI / Bold Reports tenant. \n\n AUTHORIZATION: [Bearer (token)](/rest-api-reference/site-administration/v1.0/#section/Introduction/Authentication) \n\nContent-Type: `application/json`.",
         "operationId": "create_tenant",
 		"parameters": [
           {

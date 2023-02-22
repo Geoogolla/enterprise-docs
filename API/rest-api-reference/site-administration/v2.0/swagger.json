@@ -3,7 +3,7 @@
   "info": {
     "title": "API Reference",
     "version": "2.0",
-    "description": "# Introduction\n Our application provides a RESTful web API that allows other third-party applications to interact with the Bold Reports on-premise programmatically. It supports read, create, edit, and delete operations, which are usually in JSON format. Application startups, tenants, and users, among other items, can be handled using REST APIs.\n ## Pagination\n Multiple List API calls in our application, such as Get [tenants-list](/#operation/list_tenant) and [users-list](/#operation/get_user_list), will return more results. Because you will not be able to return them all at once, you must return them one page at a time, called pagination.\n\n**These parameters can be passed to list APIs for pagination.** \n| Parameters | Description     |\n| ---------- |--------------------- |\n| page       | It indicates the current page number. |\n| page_size  | It denotes the number of data lists per page.<br><br> - Page size default value is 25. <br> - Page size maximum value is 100. |\n ## Authentication\n\n **Bearer  (token)** \n\n JWT token Authentication \n\n| Security Scheme Type | HTTP| \n|---------- | --------------------- |\n| HTTP Authorization Scheme       | Bearer  |\n| Bearer format |JWT|"
+    "description": "# Introduction\n Our application provides a RESTful web API that allows other third-party applications to interact with the Bold Reports on-premise programmatically. It supports read, create, edit, and delete operations, which are usually in JSON format. Application startups, tenants, and users, among other items, can be handled using REST APIs.\n ## Pagination\n Multiple List API calls in our application, such as Get [tenants-list](/rest-api-reference/site-administration/v2.0/#operation/list_tenant) and [users-list](/rest-api-reference/site-administration/v2.0/#operation/get_user_list), will return more results. Because you will not be able to return them all at once, you must return them one page at a time, called pagination.\n\n**These parameters can be passed to list APIs for pagination.** \n| Parameters | Description     |\n| ---------- |--------------------- |\n| page       | It indicates the current page number. |\n| page_size  | It denotes the number of data lists per page.<br><br> - Page size default value is 25. <br> - Page size maximum value is 100. |\n ## Authentication\n\n **Bearer  (token)** \n\n JWT token Authentication \n\n| Security Scheme Type | HTTP| \n|---------- | --------------------- |\n| HTTP Authorization Scheme       | Bearer  |\n| Bearer format |JWT|"
   },
   "consumes": [
     "application/json"
@@ -126,7 +126,7 @@
           "Tenants"
         ],
         "summary": "Create New Tenant",
-        "description": "Create a new Bold BI / Bold Reports tenant. \n\n AUTHORIZATIONS: [Bearer (token)](/#section/Introduction/Authentication) \n\nContent-Type: `application/json`",
+        "description": "Create a new Bold BI / Bold Reports tenant. \n\n AUTHORIZATIONS: [Bearer (token)](/rest-api-reference/site-administration/v2.0/#section/Introduction/Authentication) \n\nContent-Type: `application/json`",
         "operationId": "create_tenant",
 		"parameters": [
           {
@@ -175,7 +175,7 @@
           "Tenants"
         ],
         "summary": "View Tenant",
-        "description": "View the details of the Bold BI / Bold Reports tenant. \n\n AUTHORIZATIONS: [Bearer (token)](/#section/Introduction/Authentication) \n\nContent-Type: `application/json`",
+        "description": "View the details of the Bold BI / Bold Reports tenant. \n\n AUTHORIZATIONS: [Bearer (token)](/rest-api-reference/site-administration/v2.0/#section/Introduction/Authentication) \n\nContent-Type: `application/json`",
         "operationId": "view_tenant",
         "parameters": [
           {
@@ -228,7 +228,7 @@
           "Tenants"
         ],
         "summary": "Update Tenant",
-        "description": "Update the site or database information for the Bold BI or Bold Reports tenant. \n\n AUTHORIZATIONS:              [Bearer (token)](/#section/Introduction/Authentication) \n\nContent-Type: `application/json`" ,
+        "description": "Update the site or database information for the Bold BI or Bold Reports tenant. \n\n AUTHORIZATIONS:              [Bearer (token)](/rest-api-reference/site-administration/v2.0/#section/Introduction/Authentication) \n\nContent-Type: `application/json`" ,
         "operationId": "update_tenant",
         "parameters": [
           {
@@ -290,7 +290,7 @@
           "Tenants"
         ],
         "summary": "Delete Tenant",
-        "description": "Delete the  Bold BI / Bold Reports tenant \n\n AUTHORIZATIONS: [Bearer (token)](/#section/Introduction/Authentication) \n\nContent-Type: `application/json`",
+        "description": "Delete the  Bold BI / Bold Reports tenant \n\n AUTHORIZATIONS: [Bearer (token)](/rest-api-reference/site-administration/v2.0/#section/Introduction/Authentication) \n\nContent-Type: `application/json`",
         "operationId": "delete_tenant",
         "parameters": [
           {
@@ -341,7 +341,7 @@
           "Tenants"
         ],
         "summary": "List Tenants",
-        "description": "List all the Bold BI and Bold Reports tenants available in the application. <br /><blockquote>URI Parameters</blockquote><ul><li><code>/v2.0/tenants</code> returns the first 25 tenants by default.</li><li><code>/v2.0/tenants?page_size=30</code> returns the first 30 tenants.</li><li><code>/v2.0/tenants?page=2&page_size=30</code> returns the 2nd group of 30 tenants.</li></ul> \n\n AUTHORIZATIONS: [Bearer (token)](/#section/Introduction/Authentication) \n\nContent-Type: `application/json`",
+        "description": "List all the Bold BI and Bold Reports tenants available in the application. <br /><blockquote>URI Parameters</blockquote><ul><li><code>/v2.0/tenants</code> returns the first 25 tenants by default.</li><li><code>/v2.0/tenants?page_size=30</code> returns the first 30 tenants.</li><li><code>/v2.0/tenants?page=2&page_size=30</code> returns the 2nd group of 30 tenants.</li></ul> \n\n AUTHORIZATIONS: [Bearer (token)](/rest-api-reference/site-administration/v2.0/#section/Introduction/Authentication) \n\nContent-Type: `application/json`",
         "operationId": "list_tenant",
 		"parameters": [
           {
@@ -403,7 +403,7 @@
           "Tenants"
         ],
         "summary": "Grant User Access to Tenant ",
-        "description": "Grant user access to the given tenant. \n\n AUTHORIZATIONS: [Bearer (token)](/#section/Introduction/Authentication) \n\nContent-Type: `application/json`", 
+        "description": "Grant user access to the given tenant. \n\n AUTHORIZATIONS: [Bearer (token)](/rest-api-reference/site-administration/v2.0/#section/Introduction/Authentication) \n\nContent-Type: `application/json`", 
         "operationId": "grant_user_access",
 		"parameters": [
 		{
@@ -463,7 +463,7 @@
           "Tenants"
         ],
         "summary": "Remove User Access from Tenant ",
-        "description": "Remove user access from the given tenant.\n\n AUTHORIZATIONS: [Bearer (token)](/#section/Introduction/Authentication) \n\nContent-Type: `application/json`", 
+        "description": "Remove user access from the given tenant.\n\n AUTHORIZATIONS: [Bearer (token)](/rest-api-reference/site-administration/v2.0/#section/Introduction/Authentication) \n\nContent-Type: `application/json`", 
         "operationId": "remove_user_access",
 		"parameters": [
 		{
@@ -525,7 +525,7 @@
           "Users"
         ],
         "summary": "Add User ",
-        "description": "Add new user account in UMS. \n\n AUTHORIZATIONS: [Bearer (token)](/#section/Introduction/Authentication) \n\nContent-Type: `application/json`",
+        "description": "Add new user account in UMS. \n\n AUTHORIZATIONS: [Bearer (token)](/rest-api-reference/site-administration/v2.0/#section/Introduction/Authentication) \n\nContent-Type: `application/json`",
         "operationId": "add_user",
 		"parameters": [
         {
@@ -573,7 +573,7 @@
           "Users"
         ],
         "summary": "Update User",
-        "description": "Update the user details. \n\n AUTHORIZATIONS: [Bearer (token)](/#section/Introduction/Authentication) \n\nContent-Type: `application/json`",
+        "description": "Update the user details. \n\n AUTHORIZATIONS: [Bearer (token)](/rest-api-reference/site-administration/v2.0/#section/Introduction/Authentication) \n\nContent-Type: `application/json`",
         "operationId": "update_user",
         "parameters": [
           {
@@ -632,7 +632,7 @@
           "Users"
         ],
         "summary": "View User ",
-        "description": "View specific user details. \n\n AUTHORIZATIONS: [Bearer (token)](/#section/Introduction/Authentication) \n\nContent-Type: `application/json`",
+        "description": "View specific user details. \n\n AUTHORIZATIONS: [Bearer (token)](/rest-api-reference/site-administration/v2.0/#section/Introduction/Authentication) \n\nContent-Type: `application/json`",
         "operationId": "view_user",
         "parameters": [
           {
@@ -683,7 +683,7 @@
           "Users"
         ],
         "summary": "List All Users",
-        "description": "List all the active users.<br /><blockquote>URI Parameters</blockquote><ul><li><code>/v2.0/users</code> returns the first 25 users by default.</li><li><code>/v2.0/users?page_size=30</code> returns the first 30 users.</li><li><code>/v2.0/users?page=2&page_size=30</code> returns the 2nd group of 30 users.</li></ul> \n\n AUTHORIZATIONS:     [Bearer (token)](/#section/Introduction/Authentication) \n\nContent-Type: `application/json`",
+        "description": "List all the active users.<br /><blockquote>URI Parameters</blockquote><ul><li><code>/v2.0/users</code> returns the first 25 users by default.</li><li><code>/v2.0/users?page_size=30</code> returns the first 30 users.</li><li><code>/v2.0/users?page=2&page_size=30</code> returns the 2nd group of 30 users.</li></ul> \n\n AUTHORIZATIONS:     [Bearer (token)](/rest-api-reference/site-administration/v2.0/#section/Introduction/Authentication) \n\nContent-Type: `application/json`",
         "operationId": "get_user_list",
         "parameters": [
           {
@@ -745,7 +745,7 @@
           "Users"
         ],
         "summary": "Update Password",
-        "description": "Update user password. \n\n AUTHORIZATIONS: [Bearer (token)](/#section/Introduction/Authentication) \n\nContent-Type: `application/json`",
+        "description": "Update user password. \n\n AUTHORIZATIONS: [Bearer (token)](/rest-api-reference/site-administration/v2.0/#section/Introduction/Authentication) \n\nContent-Type: `application/json`",
         "operationId": "update_user_password",
         "parameters": [
           {
@@ -804,7 +804,7 @@
           "Users"
         ],
         "summary": "Delete User",
-        "description": "Delete the user account. \n\n AUTHORIZATIONS:[Bearer (token)](/#section/Introduction/Authentication) \n\nContent-Type: `application/json`",
+        "description": "Delete the user account. \n\n AUTHORIZATIONS:[Bearer (token)](/rest-api-reference/site-administration/v2.0/#section/Introduction/Authentication) \n\nContent-Type: `application/json`",
         "operationId": "delete_user",
        "parameters": [
           {
