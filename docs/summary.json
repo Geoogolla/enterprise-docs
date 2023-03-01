@@ -178,7 +178,7 @@
                 "Amazon Aurora":"amazon-aurora-data-source.md",
                 "Amazon RDS":"amazon-rds-data-source.md",
                 "Amazon Redshift":"amazon-redshift-data-source.md",
-                "AWS Open Search":"aws-open-search-data-source.md",
+                "AWS Open Search":"aws-opensearch-data-source.md",
                 "Azure SQL":"azure-sql-data-warehouse.md",
                 "CDATA":"cdata-data-source.md",
                 "CSV":"csv-data-source.md",

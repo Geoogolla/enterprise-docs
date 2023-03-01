@@ -9,7 +9,7 @@ The Bold Reports Designer supports the Microsoft SQL Server, Oracle, OLEDB, ODBC
 
 * [Azure SQL](./../../manage-data/data-connectors/azure-sql-data-warehouse/)
 
-* [AWS Open Search](./../../manage-data/data-connectors/aws-open-search-data-source/)
+* [AWS Open Search](./../../manage-data/data-connectors/aws-opensearch-data-source/)
 
 * [CSV](./../../manage-data/data-connectors/csv-data-source/)
 
