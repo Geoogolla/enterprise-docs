@@ -27,7 +27,7 @@ For example, `https://on-premise-demo.boldreports.com/api/token`
   </tr>
   <tr>
     <td>
-        <a href="https://help.boldreports.com/enterprise-reporting/rest-api-reference/site-administration/v1.0/">Rest API-v1.0</a>
+        <a href="https://help.boldreports.com/enterprise-reporting/rest-api-reference/site-administration/v1.0/" target="_blank">Rest API-v1.0</a>
     </td>
     <td>
         Configure application startup and create a tenant in your Bold BI or Bold Reports applications.
@@ -35,7 +35,7 @@ For example, `https://on-premise-demo.boldreports.com/api/token`
   </tr>
   <tr>
     <td>
-        <a href="https://help.boldreports.com/enterprise-reporting/rest-api-reference/site-administration/v2.0/">Rest API-v2.0</a>
+        <a href="https://help.boldreports.com/enterprise-reporting/rest-api-reference/site-administration/v2.0/" target="_blank">Rest API-v2.0</a>
     </td>
     <td>
         Manage your sites and users in your Bold BI or Bold Reports applications.
