@@ -49,7 +49,7 @@ Click `Finish` to save the data source with a relevant name to proceed with desi
 
 ## Connecting through custom query
 
-You can connect to data source of certain data connections through the custom query. This feature allows you to define the data source with manually written queries instead of manually dragged tables for data connection type such as Elasticsearch SQL connections.
+You can connect to data source of certain data connections through the custom query. This feature allows you to define the data source with manually written queries instead of manually dragged tables for data connection type such as Elasticsearch SQL and Open distro connections.
 
 After connect action, you will get into the query design view.
 
