@@ -1,48 +1,51 @@
 ---
-title: Connect to Elastic Search Data Source using Open Distro | Bold Reports
-description: Learn how to connect to Elastic Search Data Source using Open Distro and feed data to your RDL reports using Bold Reports Designer.
+title: Connect to AWS Open Search | Bold Reports
+description: Learn how to connect to AWS Open Search and feed data to your RDL reports using Bold Reports Designer.
 ---
 
-# Connect to Elastic Search data source using Open Distro
+# Connect to AWS Open Search
 
-The Bold Reports allows you to connect with Elastic Search data source using Open Distro in reports.
+The Bold Reports allows you to connect with AWS Open Search in reports.
 
-## How to create Elastic Search data source using Open Distro
+## How to create AWS Open Search
 
-To configure the Elastic Search data source using Open Distro, follow these steps:
+To configure the AWS Open Search, follow these steps:
 
 1. Click on the **Data** icon in the configuration panel.
    ![Data icon configuration panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/data-configuration-panel.png)
 2. In the `DATA` configuration panel, click on the `NEW DATA` button.
    ![Data icon configuration panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/new-data-button.png)
 3. In the connection type panel, choose the `Elastic Search` data source type.
-   ![Connection types panel](/static/assets/on-premise/images/report-designer/manage-data/elastic-search-open-distro-data-source/connection-types.png)
+   ![Connection types panel](/static/assets/on-premise/images/report-designer/manage-data/aws-open-search-data-source/connection-types.png)
 
-### Create Elastic Search data source using Open Distro with basic options
+### Create AWS Open Search with basic options
 
 When you create a new data, the `NEW DATASOURCE` panel will show up with basic options.
 
 1. Specify the data source name without special characters in the **Name** field.
-2. The Connection type should be selected based on the configuration of the Elastic Search server. 
+2. There are two Connection types available in the Elastic Search connector:
    * Elasticsearch SQL
    * Open Distro
-3. Enter a valid Elastic Search server or host name in the **Server Name** field.
-4. If the Elastic Search server uses the **Open Distro** in the Connection type, then, enter a valid Elastic Search username in the **Username** text box and enter a valid Elastic Search password in the **Password** text box.
-   ![Web datasource properties](/static/assets/on-premise/images/report-designer/manage-data/elastic-search-open-distro-data-source/basic-options.png)
+3. To connect to an Amazon Web Service hosted Open Search instance, please use connection type as Open Distro.
+4. Enter a valid Open Search server or host name in the **Server Name** field.
+5. Enter the **Port** in which the server is running in the port text box.
+6. Enter a valid username in the **Username** text box.
+7. Enter a valid password in the **Password** text box.
+   ![Web datasource properties](/static/assets/on-premise/images/report-designer/manage-data/aws-open-search-data-source/basic-options.png)
 
-After connecting the data source, the data design view page will be opened. On this page, the list of schemas and tables from the Elastic Search server will be shown in a `treeview` section.
+After connecting the data source, the data design view page will be opened. On this page, the list of schemas and tables from the AWS Open Search server will be shown in a `treeview` section.
 
-![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/elastic-search-open-distro-data-source/execute-schema.png)
+![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/aws-open-search-data-source/execute-schema.png)
 
 Now, you can drag and drop the required table from the tree view list.
 
-![Tree View List](/static/assets/on-premise/images/report-designer/manage-data/elastic-search-open-distro-data-source/tree-view-list.png)
+![Tree View List](/static/assets/on-premise/images/report-designer/manage-data/aws-open-search-data-source/tree-view-list.png)
 
-> Multiple joins are not supported for the Elastic Search data source in Bold Reports.
+> Multiple joins are not supported for the AWS Open Search data source in Bold Reports.
 
 Click `Finish` to save the data source with a relevant name to proceed with designing report.
 
-![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/elastic-search-open-distro-data-source/data-list.png)
+![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/aws-open-search-data-source/data-list.png)
 
 ## Connecting through custom query
 
@@ -58,7 +61,7 @@ By default, the query design view opens with design view. Switch to the code vie
 
 This will switch the query editor pane as like below,
 
-![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/elastic-search-open-distro-data-source/query-mode.png)
+![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/aws-open-search-data-source/query-mode.png)
 
 ### Write query and execute
 
@@ -66,11 +69,11 @@ In the `Query Editor` pane, you can write your own query which helps you to acce
 
 After writing your query, click the `Execute` option in the tools pane. You can also view the data for your query in bottom of the `Query Editor`.
 
-![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/elastic-search-open-distro-data-source/enter-query.png)
+![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/aws-open-search-data-source/enter-query.png)
 
 If you tried to switch back design view by disabling the Code Slider in tools pane, you will be prompted with an alert message to remove your query for confirmation as proceeding with this action, will reset the code view query.
 
-![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/elastic-search-open-distro-data-source/switcher-alert.png)
+![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/aws-open-search-data-source/switcher-alert.png)
 
 Clicking `Yes` will discard the query and take you to design view, otherwise click `No`. Save the data source by clicking the `Finish` button.
 
@@ -80,11 +83,11 @@ You can view the query in `Query Editor` pane for already created a data source 
 
 For example, I have dragged the `kibana_sample_data_flights` table in design view.
 
-![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/elastic-search-open-distro-data-source/design-view.png)
+![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/aws-open-search-data-source/design-view.png)
 
 Then, I tried to enable the `Code Switcher` to view the query, this query shows whatever changes that made in the table.
 
-![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/elastic-search-open-distro-data-source/design-to-query.png)
+![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/aws-open-search-data-source/design-to-query.png)
 
 ## See also
 

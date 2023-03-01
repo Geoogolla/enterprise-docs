@@ -23,16 +23,17 @@ To configure the Elastic Search data source, follow these steps:
 When you create a new data, the `NEW DATASOURCE` panel will show up with basic options.
 
 1. Specify the data source name without special characters in the **Name** field.
-2. The Connection type should be selected based on the configuration of the Elastic Search server. 
+2. There are two Connection types available in the Elastic Search connector:
    * Elasticsearch SQL
    * Open Distro
 3. Enter a valid Elastic Search server or host name in the **Server Name** field.
-4. If the Elastic Search server uses the **Elasticsearch SQL** in the Connection type, then select an Authentication type from the available options. The Authentication type provided is determined by the configuration of the Elastic Search server.
+4. Enter the **Port** in which the server is running in the port text box.
+5. If the Elastic Search server uses the **Elasticsearch SQL** in the Connection type, then select an Authentication type from the available options. The Authentication type provided is determined by the configuration of the Elastic Search server.
    * None
    * Basic HTTP Authentication
-5. If the Elastic Search server uses the **Basic HTTP Authentication** in the Authentication type, then, enter a valid Elastic Search username in the **Username** text box and enter a valid Elastic Search password in the **Password** text box.
+6. If the Elastic Search server uses the **Basic HTTP Authentication** in the Authentication type, then, enter a valid Elastic Search username in the **Username** text box and enter a valid Elastic Search password in the **Password** text box.
    ![Web datasource properties](/static/assets/on-premise/images/report-designer/manage-data/elastic-search-data-source/authentication-type.png)
-6. Select a database that you want to query in the listed database associated with the given Elastic Search server in the database combo-box.
+7. Select a database that you want to query in the listed database associated with the given Elastic Search server in the database combo-box.
    ![Web datasource properties](/static/assets/on-premise/images/report-designer/manage-data/elastic-search-data-source/basic-options.png)
 
 After connecting the data source, the data design view page will be opened. On this page, the list of schemas and tables from the Elastic Search server will be shown in a `treeview` section.
