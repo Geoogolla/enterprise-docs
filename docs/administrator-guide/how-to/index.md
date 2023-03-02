@@ -29,3 +29,5 @@ This section helps to get the answer for the frequently asked how to queries in 
 * [How to apply the patches to Bold Reports to support common login with latest BI?](./../how-to/apply-patches-to-bold-reports-to-support-common-login-with-latest-bi/)
 
 * [How to install Bold Reports Server over Bold BI in Azure App Services](./../how-to/how-to-install-bold-reports-server-over-bold-bi/)
+
+* [How to Configure SSL for Bold Reports in IIS Manager](./../how-to/configure-ssl-for-bold-reports-in-iis-manager/)
