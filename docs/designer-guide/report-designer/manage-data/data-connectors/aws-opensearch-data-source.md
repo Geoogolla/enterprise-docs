@@ -1,5 +1,5 @@
 ---
-title: Connect to AWS Open Search | Bold Reports
+title: Connect to AWS Open Search Data Source | Bold Reports
 description: Learn how to connect to AWS Open Search and feed data to your RDL reports using Bold Reports Designer.
 ---
 
