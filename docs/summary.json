@@ -19,7 +19,8 @@
             "Upgrading Bold Reports Linux package to the Latest Version":"upgrade-linux-server.md"
         },
 		"Deploy in Kubernetes":"deploy-in-kubernetes.md",
-        "Deploy in Docker":"deploy-in-docker.md"
+        "Deploy in Docker":"deploy-in-docker.md",
+        "Deploy in Podman":"deploy-in-podman.md"
     },
     "Application Startup": {
         "SQL Server": "sql-configuration",
