@@ -525,3 +525,14 @@ Distro
 Search
 BoldReports_EnterpriseReporting
 pfx
+exe
+timestamp
+boldreportenterprisereport.exe
+application_startup
+ServerConfiguration
+IsSilentStartUp
+BoldBIOnPremise
+unlockkey
+application_startup.JSon
+UmsConfiguration
+DataStoreConfiguration
