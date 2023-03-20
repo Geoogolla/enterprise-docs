@@ -497,9 +497,6 @@
 },
 "Licensing": "licensing.md",
 "Security": "security.md",
-"Security Configuration": {
-    "Known Domain Configuration": "known-domain-configuration"
-  },
 "REST API Reference": {
 	"Site Administration": {
          "v1.0": "v1.0?html=true",
