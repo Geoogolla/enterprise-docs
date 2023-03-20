@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Understanding Bold Reports Security – Embedded Reports | Bold Reports
+title: Bold Reports Security – Embedded Reports | Bold Reports
 description: Learn about the security of Bold Reports Embedded in terms of authentication, authorization, data security, network security and more.
 platform: bold-reports
 documentation: ug
@@ -11,13 +11,16 @@ documentation: ug
 The security is an important aspect of every software. This document explains the important security features such as authentication, authorization, data security, network security, and more provided by Bold Reports Software to the customers.
 
 ## Authentication 
-Authentication verifies the user's identity. Anyone who wants to access and manage the resource such as reports and data source must be an user of the Bold Reports Server. Bold Report server can be configured to use local authentication or external authentication to validate the authenticity of the users.
+Authentication verifies the user's identity. Anyone who wants to access and manage the resource such as reports, data source and dataset must be an user of the Bold Reports Server. Bold Report server can be configured to use local authentication or external authentication to validate the authenticity of the users.
 
 ### Local authentication
 In local authentication, Bold Reports server validates the user authentication by comparing the provided credentials with the details stored in Bold Reports database.
 
 ### External authentication
-Bold Reports server can be configured with external authentications such as Azure ADFS, OpenID, and OAuth. 
+Bold Reports server can be configured with external authentications such as LDAP, Azure ADFS, OpenID, and OAuth. 
+
+* LDAP   
+Bold Reports server can be configured to use LDAP for user authentication. Users are authenticated by submitting their credentials to Bold Reports server, which will then attempt to bind to the LDAP instance using the user credentials. If the bind works and the credentials are valid, the server grants the user a session.
 
 * Azure ADFS  
 Bold Reports server can be configured to use Azure Active Directory for importing users into Bold Reports server and validating their authentication. Users will be logged into Bold Reports server after validated and authenticated by the Microsoft by providing their credentials.
@@ -29,18 +32,19 @@ OpenID connect is a simple identity layer on top of the OAuth 2.0 protocol. It a
 Bold Reports supports OAuth 2.0 authorization code workflow for authorizing the third-party application users logging into Bold Reports application. It allows client to login to Bold Reports application after logged into their identity provider. You should configure OAuth 2.0 in Bold Reports application to use OAuth connect with Bold Reports server.
 
 ## Authorization
-Authorization refers to which resources such as reports or data sources, the users can access on Bold Reports server after authentication has been verified. 
+Authorization refers to which resources such as reports, data sources or datasets, the users can access on Bold Reports server after authentication has been verified. 
 Authorization includes:
 -	What users are allowed to create new report or manage existing reports.
 -	What users are allowed to create new data sources or manage existing data sources.
+-	What users are allowed to create new datasets or manage existing datasets.
 -	What users are allowed to create new schedules or manage existing schedules.
 -	What users are allowed to perform admin roles on Bold Reports for creating tenant, adding the users, and configuring the server settings.
 
 ## Data security
-Bold Reports provides support to control which users can see the reports and data sources. For data sources that are connected to live databases, you can also control the users based on their permissions. There are read, write, create, and delete permissions that can be assigned to users and groups. Without the read permission, no user could see your data source and reports.
+Bold Reports provides support to control which users can see the reports, data sources and datasets. For data sources that are connected to live databases, you can also control the users based on their permissions. There are read, write, create, and delete permissions that can be assigned to users and groups. Without the read permission, no user could see your data source, dataset and reports.
 
 ### Within the tenant
-Bold Reports server provides the flexible permission system. Using this, you can control the access to dashboard and data source. 
+Bold Reports server provides the flexible permission system. Using this, you can control the access to report, data source and dataset. 
 
 ### Between the tenants
 Every tenant user can only login to their tenant and access the resource. Each tenant has been deployed with its own database and resource, which ensures that one tenant data is not shared with other tenant. Also, users belong to one tenant can only see the users belong to the same tenant and share a report to that tenant users. Users must have permissions to view and access the report and resources created by another user on same tenant.
@@ -65,8 +69,6 @@ Bold Reports server make the internal API call to access resource in web and mob
 Bold Reports server can be connected to the database without SSL, but all the database connections support SSL offer encrypted data transfer. We recommend enable the SSL connection to your database while configuring the Bold Reports server.
 
 ## Application monitoring
-
-### Testing for vulnerability
 We will do the regular penetration testing to identify the potential security issues and fix them. We perform this testing on Bold Reports Software for at least every release update.
 
 ### Application logging
