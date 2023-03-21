@@ -23,15 +23,19 @@ In local authentication, Bold Reports server validates the user authentication b
 Bold Reports server can be configured with external authentications such as LDAP, Azure ADFS, OpenID, and OAuth.
 
 * LDAP  
+
 Bold Reports server can be configured to use LDAP for user authentication. Users are authenticated by submitting their credentials to Bold Reports server, which will then attempt to bind to the LDAP instance using the user credentials. If the bind works and the credentials are valid, the server grants the user a session.
 
 * Azure ADFS  
+
 Bold Reports server can be configured to use Azure Active Directory for importing users into Bold Reports server and validating their authentication. Users will be logged into Bold Reports server after validated and authenticated by the Microsoft by providing their credentials.
 
 * OpenID connect  
+
 OpenID connect is a simple identity layer on top of the OAuth 2.0 protocol. It allows client to login to Bold Reports application after logged into their identity provider. You should configure the OpenID connect with Bold Reports application to use OpenID connect with Bold Reports Server.
 
 * OAuth connect  
+
 Bold Reports supports OAuth 2.0 authorization code workflow for authorizing the third-party application users logging into Bold Reports application. It allows client to login to Bold Reports application after logged into their identity provider. You should configure OAuth 2.0 in Bold Reports application to use OAuth connect with Bold Reports server.
 
 ## Authorization
