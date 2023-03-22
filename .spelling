@@ -533,6 +533,6 @@ ServerConfiguration
 IsSilentStartUp
 BoldBIOnPremise
 unlockkey
-application_startup.JSon
+application_startup.json
 UmsConfiguration
 DataStoreConfiguration
