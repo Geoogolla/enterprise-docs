@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Bold Reports Security – Embedded Reports | Bold Reports
-description: Learn about the security of Bold Reports Embedded in terms of authentication, authorization, data security, network security and more.
+title: Bold Reports Security – Enterprise Reporting | Bold Reports
+description: Learn about the security of Bold Reports Enterprise in terms of authentication, authorization, data security, network security and more.
 platform: bold-reports
 documentation: ug
 ---
@@ -12,7 +12,7 @@ The security is an important aspect of every software. This document explains th
 
 ## Authentication
 
-Authentication verifies the user's identity. Anyone who wants to access and manage the resource such as reports, data source and dataset must be an user of the Bold Reports Server. Bold Report server can be configured to use local authentication or external authentication to validate the authenticity of the users.
+Authentication verifies the user's identity. Anyone who wants to access and manage the resource such as reports, data source and dataset must be an user of the Bold Reports server. Bold Reports server can be configured to use local authentication or external authentication to validate the authenticity of the users.
 
 ### Local authentication
 
@@ -32,7 +32,7 @@ Bold Reports server can be configured to use Azure Active Directory for importin
 
 * OpenID connect  
 
-OpenID connect is a simple identity layer on top of the OAuth 2.0 protocol. It allows client to login to Bold Reports application after logged into their identity provider. You should configure the OpenID connect with Bold Reports application to use OpenID connect with Bold Reports Server.
+OpenID connect is a simple identity layer on top of the OAuth 2.0 protocol. It allows client to login to Bold Reports application after logged into their identity provider. You should configure the OpenID connect with Bold Reports application to use OpenID connect with Bold Reports server.
 
 * OAuth connect  
 
@@ -83,10 +83,6 @@ Bold Reports server make the internal API call to access resource in web and mob
 ### Bold Reports server to database
 
 Bold Reports server can be connected to the database without SSL, but all the database connections support SSL offer encrypted data transfer. We recommend enable the SSL connection to your database while configuring the Bold Reports server.
-
-## Application monitoring
-
-We will do the regular penetration testing to identify the potential security issues and fix them. We perform this testing on Bold Reports Software for at least every release update.
 
 ### Application logging
 
