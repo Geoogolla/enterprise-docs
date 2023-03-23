@@ -23,7 +23,8 @@ For any configurations made in the Bold Reports, log files are generated in depl
 ### Steps to get the log files from Docker using powershell
 
 1. In powershell type **sudo su** command to go into the root directory.
-2. In the root directory type the below command 
+
+2. In the root directory type the below command.
 
    **cd /var/lib/docker/volumes**
 
@@ -33,9 +34,9 @@ For any configurations made in the Bold Reports, log files are generated in depl
 
    **cd foldername\_boldservices\_data/_data/logs**
 
->Note: **foldername** is the folder which contains docker-compose.yml and docker.conf files.
+5. Type **ls** command to get all the files.
 
-4. Type **ls** to get all the files.
+>Note: **foldername** is the folder which contains docker-compose.yml and docker.conf files.
 
 ## Logs for particular container
 
@@ -47,7 +48,7 @@ For any configurations made in the Bold Reports, log files are generated in depl
 
    **docker exec -it container-name /bash**
 
-3. Type **ls** to get all the files.
+3. Type **ls** command to get all the files.
 
 ### Steps to get the log files from Kubernetes using powershell
 
