@@ -531,7 +531,7 @@ boldreportenterprisereport.exe
 application_startup
 ServerConfiguration
 IsSilentStartUp
-BoldBIOnPremise
+BoldBI
 unlockkey
 application_startup.json
 UmsConfiguration

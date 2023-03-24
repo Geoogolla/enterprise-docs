@@ -18,19 +18,19 @@ Please follow the below steps to install the Bold Reports Enterprise Reporting i
 
 2. Run the downloaded `BoldReports_EnterpriseReporting.exe` by double-clicking it. The installer wizard automatically opens and extracts the package into the `%temp%` folder.
 
-3. The file `boldreports_enterprisereporting`(version)(timestamp).exe file will be extracted into the `%temp%` directory.
+3. The file `boldreports_enterprisereporting(version)(timestamp).exe` file will be extracted into the `%temp%` directory.
 
-4. Run `%temp%.`, then Temp folder will be opened. The `boldreports_enterprisereporting`(version)(timestamp).exe file will be present in one of the temp folders. The folder name will start with `is`.
+4. Run `%temp%.`, then Temp folder will be opened. The `boldreports_enterprisereporting(version)(timestamp).exe` file will be present in one of the temp folders. The folder name will start with `is`.
 
     ![Temp-folder](/static/assets/on-premise/images/installation/silent-installation/temp-folder.png)
 
-5. Copy the extracted `boldreports_enterprisereporting`(version)(timestamp).exe file and paste it in any of the local drive.
+5. Copy the extracted `boldreports_enterprisereporting(version)(timestamp).exe` file and paste it in any of the local drive.
 
 6. Exit the Wizard.
 
     ![Exit-wizard](/static/assets/on-premise/images/installation/silent-installation/exit-wizard.png)
 
-7. Open the windows command prompt in **Administrator** mode and navigate to `boldreport_enterprisereporting.exe` file location which is copied from step 5.
+7. Open the windows command prompt in **Administrator** mode and navigate to the `boldreportenterprisereport(version)(timestamp).exe` file location which has been copied and pasted to the local drive.
 
 8. Provide the necessary arguments in the below command to install the the above `Bold Reports Enterprise Edition` installer in silent mode.
 
@@ -61,7 +61,7 @@ We have to provide Database, Storage and Site details in **ServerConfiguration**
 
 ![ServerConfiguration-example](/static/assets/on-premise/images/installation/silent-installation/server-configuration-example.png)
 
-> NOTE: We don't need to provide Database details in **DataStoreConfiguration**, it required to create BoldBIOnPremise tenants only.
+> NOTE: We don't need to provide **DataStoreConfiguration** details, which is required only for BoldBI. Hence, we can ignore it.
 
 We have to provide Database, Storage, User and unlockkey details in **UmsConfiguration**
 
