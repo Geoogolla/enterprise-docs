@@ -36,4 +36,6 @@ This section helps to get the answer for the frequently asked questions in `Bold
 
 * [Does Bold Reports support scaling?](./../faq/does-bold-reports-support-scaling/)
 
-* [Where can i find the error and debug log files in Docker and Kubernetes?](./../faq/where-can-i-find-the-error-and-debug-log-files-in-docker-and-kubernetes/)
+* [Where can i find the error and debug log files in Docker?](./../faq/where-can-i-find-the-error-and-debug-log-files-in-docker)
+
+* [Where can i find the error and debug log files in Kubernetes?](./../faq/where-can-i-find-the-error-and-debug-log-files-in-kubernetes)
