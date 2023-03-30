@@ -40,4 +40,4 @@ The following software requirements are necessary to run the Bold Reports Enterp
 
 Bold Reports can be deployed using podman-compose. Nginx will run in a separate container as a reverse proxy to route traffic to other containers. Please follow the below link to deploy Bold Reports using the podman-compose deployment.
 
-[Bold Reports on Podman](https://github.com/boldreports/bold-reports-docker)
+[Bold Reports on Podman](https://github.com/boldreports/bold-reports-docker/blob/master/docs/multiple-container-podman.md)
