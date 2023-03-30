@@ -22,9 +22,9 @@ This section helps to get the answer for the frequently asked questions in `Bold
 
 * [Where can i find the error and debug log files of Bold Reports Azure App Service?](./../faq/where-can-i-find-the-error-and-debug-log-files-of-bold-reports-azure-app-service/)
 
-* [Docker - Error and Debug Log](./../faq/where-can-i-find-the-error-and-debug-log-files-of-bold-reports-in-docker)
+* [Docker - Error and Debug Log](./../faq/where-can-i-find-the-error-and-debug-log-files-of-bold-reports-in-docker/)
 
-* [Kubernetes - Error and Debug Log](./../faq/where-can-i-find-the-error-and-debug-log-files-of-bold-reports-in-kubernetes)
+* [Kubernetes - Error and Debug Log](./../faq/where-can-i-find-the-error-and-debug-log-files-of-bold-reports-in-kubernetes/)
 
 * [Why should you migrate to Bold Reports from Syncfusion Report Platform?](./../faq/why-should-you-migrate-to-bold-reports-from-syncfusion-report-platform/)
 

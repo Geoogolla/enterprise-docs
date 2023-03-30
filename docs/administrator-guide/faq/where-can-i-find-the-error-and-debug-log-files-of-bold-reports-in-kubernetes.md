@@ -50,23 +50,23 @@ For any configurations made in the Bold Reports, log files are generated in depl
 
    **apt-get install curl**
 
-8. Move into logs directory and Zip the logs folder by running the below command
+7. Move into logs directory and Zip the logs folder by running the below command
 
    **zip -r {folder.zip} .**
 
    ![Zip Command](/static/assets/on-premise/images/faq/kubectl-zipcommand.png)
 
-9. Now type **ls**, you can see zip folder created.
+8. Now type **ls**, you can see zip folder created.
 
    ![Zip Folder](/static/assets/on-premise/images/faq/kube-zip-folder.png)
 
-10. Upload the zip file through bashupload.com site by using below command.
+9. Upload the zip file through bashupload.com site by using below command.
 
     **curl bashupload.com  -T {zipped folder Name}**
 
     ![Curl Command](/static/assets/on-premise/images/faq/kube-curl.png)
 
-11. Please copy and browse the link generated. Download the zip folder and share.
+10. Please copy and browse the link generated. Download the zip folder and share.
 
     ![URL](/static/assets/on-premise/images/faq/kube-url.png)
 

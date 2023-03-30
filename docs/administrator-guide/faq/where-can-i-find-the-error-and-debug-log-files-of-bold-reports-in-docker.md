@@ -36,9 +36,9 @@ For any configurations made in the Bold Reports, log files are generated in depl
 
    ![Logs Directory](/static/assets/on-premise/images/faq/docker-logs.png)
 
-4. Type **ls** command to get all the files.
+   >Note: {foldername} is the folder which contains docker-compose.yml and docker.conf files.
 
->Note: **foldername** is the folder which contains docker-compose.yml and docker.conf files.
+4. Type **ls** command to get all the files.
 
 5. You can find the logs folder in _data location and we need to zip the logs folder.
 
