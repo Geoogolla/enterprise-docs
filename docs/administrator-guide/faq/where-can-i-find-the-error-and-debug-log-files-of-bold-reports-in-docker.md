@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Log files location in Bold Reports Docker
+title: Debug and Error Log files location in Bold Reports Docker
 description: This topic explains about where to find the error logs and debug files to identify the issues in the Bold Reports Docker.
 platform: report-platform
 documentation: ug

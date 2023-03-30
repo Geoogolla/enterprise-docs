@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Log files location in Bold Reports Kubernetes
+title: Debug-Error Log files location in Bold Reports Kubernetes
 description: This topic explains about where to find the error logs and debug files to identify the issues in the Bold Reports Kubernetes.
 platform: report-platform
 documentation: ug

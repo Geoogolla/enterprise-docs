@@ -22,6 +22,10 @@ This section helps to get the answer for the frequently asked questions in `Bold
 
 * [Where can i find the error and debug log files of Bold Reports Azure App Service?](./../faq/where-can-i-find-the-error-and-debug-log-files-of-bold-reports-azure-app-service/)
 
+* [Docker - Error and Debug Log](./../faq/where-can-i-find-the-error-and-debug-log-files-of-bold-reports-in-docker)
+
+* [Kubernetes - Error and Debug Log](./../faq/where-can-i-find-the-error-and-debug-log-files-of-bold-reports-in-kubernetes)
+
 * [Why should you migrate to Bold Reports from Syncfusion Report Platform?](./../faq/why-should-you-migrate-to-bold-reports-from-syncfusion-report-platform/)
 
 * [Where should I replace the Bold Reports license token in Bold Reports Azure App Service?](./../faq/where-should-i-replace-the-bold-reports-license-key-in-bold-reports-azure-app-service/)
@@ -35,7 +39,3 @@ This section helps to get the answer for the frequently asked questions in `Bold
 * [Will the OpenID user have access to site2? When, if the user is imported from OpenID connect under site1](./../faq/will-the-openid-user-have-access-to-site2-when-if-the-user-is-imported-from-openid-connect-under-site1/)
 
 * [Does Bold Reports support scaling?](./../faq/does-bold-reports-support-scaling/)
-
-* [Where can i find the error and debug log files in Docker?](./../faq/where-can-i-find-the-error-and-debug-log-files-in-docker)
-
-* [Where can i find the error and debug log files in Kubernetes?](./../faq/where-can-i-find-the-error-and-debug-log-files-in-kubernetes)
