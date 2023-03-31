@@ -525,5 +525,16 @@ Distro
 Search
 BoldReports_EnterpriseReporting
 pfx
+exe
+timestamp
+boldreportenterprisereport.exe
+application_startup
+ServerConfiguration
+IsSilentStartUp
+BoldBI
+unlockkey
+application_startup.json
+UmsConfiguration
+DataStoreConfiguration
 Podman
 podman-compose
