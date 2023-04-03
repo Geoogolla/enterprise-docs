@@ -162,6 +162,8 @@
         "Is Bold Reports have a centralized report authoring system?": "centralized-report-authoring-system.md",
         "Will Syncfusion charge for Bold Reports Azure App Service": "will-syncfusion-charge-for-the-bold-reports-azure-app-service.md",
         "Where can i find the error and debug log files of Bold Reports Azure App Service": "where-can-i-find-the-error-and-debug-log-files-of-bold-reports-azure-app-service.md",
+        "Docker - Error and Debug Log": "where-can-i-find-the-error-and-debug-log-files-of-bold-reports-in-docker.md",
+        "Kubernetes - Error and Debug Log": "where-can-i-find-the-error-and-debug-log-files-of-bold-reports-in-kubernetes.md",
         "Why should you migrate to Bold Reports from Syncfusion Report Platform": "why-should-you-migrate-to-bold-reports-from-syncfusion-report-platform.md",
         "Is it possible to migrate Syncfusion Report Platform Report Server to Bold Reports Report Server": "is-it-possible-to-migrate-syncfusion-report-platform-report-server-to-bold-reports-report-server.md",
         "What are the database permissions required to set up Bold Reports":"what-are-the-database-permissions-required-to-set-up-bold-reports.md",
