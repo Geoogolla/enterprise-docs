@@ -26,7 +26,7 @@ For any configurations made in the Bold Reports, log files are generated in depl
 
    **cd /var/lib/docker/volumes**
 
-2. Type **ls** command.
+2. Run the **ls** command.
 
 3. To navigate to the logs directory, Type the below command.
 
@@ -38,25 +38,25 @@ For any configurations made in the Bold Reports, log files are generated in depl
 
    >Note: {foldername} is the folder which contains docker-compose.yml and docker.conf files.
 
-4. Type **ls** command.
+4. Run the **ls** command.
 
-5. You can find the logs folder in _data location and we need to zip the logs folder.
+5. You can find the logs folder in _data location.
 
    ![Directory](/static/assets/on-premise/images/faq/logs-folder-docker.png)
 
-6. Please install zip and curl by running the below commands,
+6. By running the below commands, we can install the zip and curl command-line tool.
 
    **apt-get install zip**
 
    **apt-get install curl**
 
-7. Navigate to the logs directory and Zip the logs folder by running the below command
+7. Run the below command to zip the logs folder.
 
    **zip -r {folder.zip} .**
 
    ![Zip Command](/static/assets/on-premise/images/faq/zip-command.png)
 
-8. Type **ls**, you can see the zip folder created.
+8. Run the **ls** command, you can find the zip file.
 
    ![Zip Folder](/static/assets/on-premise/images/faq/zipped-folder.png)
 
@@ -66,7 +66,7 @@ For any configurations made in the Bold Reports, log files are generated in depl
 
    ![Crl Command](/static/assets/on-premise/images/faq/curl-docker.png)
 
-10. Please copy and browse the link generated. Download the zip folder and share.
+10. Copy and browse the link in the browser. Download the zip file and share it to the Bold Reports support team.
 
     ![URL](/static/assets/on-premise/images/faq/zip-url.png)
 
