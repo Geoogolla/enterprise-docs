@@ -25,11 +25,13 @@ For any configurations made in the Bold Reports, log files are generated in depl
 1. Type the below command to get all the pods available in the cluster.
 
    **kubectl -\-kubeconfig=filename.config get pods -n namespace**
+
    ![Pods](/static/assets/on-premise/images/faq/pods.png)
 
 2. To get the logs of a particular pod then use the below command.
 
    **kubectl -\-kubeconfig=filename.config logs podname -n namespace**
+
    ![Logs](/static/assets/on-premise/images/faq/pod-logs.png)
 
 3. To get all the logs of the application, Use the below bash command to navigate into the directory.
@@ -64,9 +66,9 @@ For any configurations made in the Bold Reports, log files are generated in depl
 
 9. Upload the zip file through bashupload.com site by using below command.
 
-    **curl bashupload.com  -T {zipped folder Name}**
+   **curl bashupload.com  -T {zipped folder Name}**
 
-    ![Curl Command](/static/assets/on-premise/images/faq/kube-curl.png)
+   ![Curl Command](/static/assets/on-premise/images/faq/kube-curl.png)
 
 10. Please copy and browse the link generated. Download the zip folder and share.
 
