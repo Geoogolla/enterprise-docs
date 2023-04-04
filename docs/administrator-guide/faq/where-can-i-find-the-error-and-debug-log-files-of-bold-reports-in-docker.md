@@ -26,7 +26,7 @@ For any configurations made in the Bold Reports, log files are generated in depl
 
    **cd /var/lib/docker/volumes**
 
-2. Type **ls** command. You will get the list of all the files inside the directory.
+2. Type **ls** command.
 
 3. To navigate to the logs directory, Type the below command.
 

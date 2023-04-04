@@ -32,13 +32,15 @@ For any configurations made in the Bold Reports, log files are generated in depl
    **kubectl -\-kubeconfig=filename.config logs podname -n namespace**
    ![Logs](/static/assets/on-premise/images/faq/pod-logs.png)
 
-3. To get all the logs of the application, Use the below bash command to go into the directory.
+3. To get all the logs of the application, Use the below bash command to navigate into the directory.
 
    **kubectl -\-kubeconfig=filename.config exec -n namespace -it podname -\- bash**
 
    ![Bash Command](/static/assets/on-premise/images/faq/bash-logs.png)
 
-4. Use **cd /application/app_data/logs** command and type **ls** command to list all the files inside the logs.
+   >Note: You can use any podname available in the cluster.
+
+4. Use **cd /application/app_data/logs** command and type **ls** command.
 
    ![App Logs](/static/assets/on-premise/images/faq/application-logs.png)
 
