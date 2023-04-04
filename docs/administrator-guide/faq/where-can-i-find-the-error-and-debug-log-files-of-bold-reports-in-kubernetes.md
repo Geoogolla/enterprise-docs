@@ -50,13 +50,13 @@ For any configurations made in the Bold Reports, log files are generated in depl
 
    **apt-get install curl**
 
-7. Move into logs directory and Zip the logs folder by running the below command
+7. Navigate to the logs directory and Zip the logs folder by running the below command
 
    **zip -r {folder.zip} .**
 
    ![Zip Command](/static/assets/on-premise/images/faq/kubectl-zipcommand.png)
 
-8. Now type **ls**, you can see zip folder created.
+8. Now type **ls**, you can see the zip folder created.
 
    ![Zip Folder](/static/assets/on-premise/images/faq/kube-zip-folder.png)
 
@@ -80,6 +80,6 @@ Replace podname with your podname which you need to get logs.
 |------------------     |------------------------------------------------------------  |
 | cd    |    Change the directory.               |
 | pwd        |  Find the full path of current directory.     |
-| ls or ls -l        | Used for list the files and folders of the current directory.|
+| ls or ls -l        | Used to list the files and folders of the current directory.|
 | cat filename       | Open the file in the powershell.|
 | nano filename       | Edit the file in the powershell.|

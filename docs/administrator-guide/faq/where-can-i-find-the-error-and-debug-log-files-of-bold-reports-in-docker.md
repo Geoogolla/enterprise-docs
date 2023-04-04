@@ -26,9 +26,9 @@ For any configurations made in the Bold Reports, log files are generated in depl
 
    **cd /var/lib/docker/volumes**
 
-2. Type **ls** command to get the list of all the files present inside the directory.
+2. Type **ls** command. You will get the list of all the files inside the directory.
 
-3. Type the below command to move into the logs directory.
+3. To navigate to the logs directory, Type the below command.
 
    **cd {foldername}\_boldservices\_data/_data/logs**
 
@@ -38,7 +38,7 @@ For any configurations made in the Bold Reports, log files are generated in depl
 
    >Note: {foldername} is the folder which contains docker-compose.yml and docker.conf files.
 
-4. Type **ls** command to get all the files.
+4. Type **ls** command.
 
 5. You can find the logs folder in _data location and we need to zip the logs folder.
 
@@ -50,13 +50,13 @@ For any configurations made in the Bold Reports, log files are generated in depl
 
    **apt-get install curl**
 
-7. Move into logs directory and Zip the logs folder by running the below command
+7. Navigate to the logs directory and Zip the logs folder by running the below command
 
    **zip -r {folder.zip} .**
 
    ![Zip Command](/static/assets/on-premise/images/faq/zip-command.png)
 
-8. Now type **ls**, you can see zip folder created.
+8. Type **ls**, you can see the zip folder created.
 
    ![Zip Folder](/static/assets/on-premise/images/faq/zipped-folder.png)
 
@@ -76,6 +76,6 @@ For any configurations made in the Bold Reports, log files are generated in depl
 |------------------     |------------------------------------------------------------  |
 | cd    |    Change the directory.               |
 | pwd        |  Find the full path of current directory.     |
-| ls or ls -l        | Used for list the files and folders of the current directory.|
+| ls or ls -l        | Used to list the files and folders of the current directory.|
 | cat filename       | Open the file in the powershell.|
 | nano filename       | Edit the file in the powershell.|
