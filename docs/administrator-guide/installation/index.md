@@ -16,3 +16,4 @@ Bold Reports can install in the following services.
 3. [Deploy in Linux](./deploy-in-linux/)
 4. [Deploy in Kubernetes](./deploy-in-kubernetes/)
 5. [Deploy in Docker](./deploy-in-docker/)
+6. [Deploy in Podman](./deploy-in-podman/)
