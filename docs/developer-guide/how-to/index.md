@@ -10,6 +10,8 @@ documentation: ug
 
 This section helps to get the answer for the frequently asked how to queries in Bold Reports Enterprise Reporting.
 
+* [How to generate the authorization token by using Report server](./../how-to/generate-access-token-for-bold-reports-server/)
+
 * [How to generate the access token for Bold Reports Report Server using credentials?](./../how-to/generate-access-token-for-bold-reports-server-using-credentials/)
 
 * [How to get the list of items from Bold Reports Report Server?](../../developer-guide/how-to/get-list-of-items-from-bold-reports-server/)
@@ -27,5 +29,3 @@ This section helps to get the answer for the frequently asked how to queries in 
 * [How to generate the access token for Bold Reports Report Server user?](./../how-to/generate-access-token-for-bold-reports-server-user/)
 
 * [How to generate the authorization token by using Embed Secret Key API](./../how-to/generate-authorization-token-for-user-by-using-embed-secret-key-api/)
-
-* [How to generate the authorization token by using Report server](./../how-to/generate-access-token-for-bold-reports-server/)
