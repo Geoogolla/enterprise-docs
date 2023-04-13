@@ -15,5 +15,5 @@ You can generate the access token for the user in Bold Reports Server. For this,
  ![Expiration](/static/assets/on-premise/images/how-to/rest-api/token-expiration.png)
  4. Click `Generate Token` button and in the confirmation dialog, choose `Yes`.
 ![Token Confirmation](/static/assets/on-premise/images/how-to/rest-api/token-confirmation-dialog.png)
- 5. Access token is generated.Now,you can copy and use the token for embedding .
+ 5. Access token is generated.Now,you can copy and use the token for embedding.
  ![Personal Access Token](/static/assets/on-premise/images/how-to/rest-api/access-token-from-report-server.png)
