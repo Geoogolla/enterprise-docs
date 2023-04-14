@@ -10,7 +10,7 @@ documentation: ug
 
 This section helps to get the answer for the frequently asked how to queries in Bold Reports Enterprise Reporting.
 
-* [How to generate the authorization token by using Report server](./../how-to/generate-access-token-for-bold-reports-server/)
+* [How to generate the authorization token from Report server UI](./../how-to/generate-access-token-for-bold-reports-server/)
 
 * [How to generate the access token for Bold Reports Report Server using credentials?](./../how-to/generate-access-token-for-bold-reports-server-using-credentials/)
 

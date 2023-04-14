@@ -12,8 +12,8 @@ Bold Reports Report Server is designed with an option of integrating the reporti
 
 Bold Reports Report server is designed to manage the Report Server functionalities from the application with the help of built-in REST API. You can refer more about this from the <a href="../../rest-api-reference/v1.0" target="_blank">REST API reference</a> and the following articles,
 
-1. [Authorization Token from Report Server](./../how-to/generate-access-token-for-bold-reports-server/).
-2. [Authorization Token](./../../developer-guide/how-to/generate-access-token-for-bold-reports-server-using-credentials/).
+1. [Generate authorization token from Report Server UI](./../how-to/generate-access-token-for-bold-reports-server/).
+2. [Generate authorization token from Report Server API](./../../developer-guide/how-to/generate-access-token-for-bold-reports-server-using-credentials/).
 3. [Get list of Reports from Report server](../../developer-guide/how-to/get-list-of-items-from-bold-reports-server/)
 4. [Export report from Report Server](./../../developer-guide/how-to/export-report-from-bold-reports-server/)
 
