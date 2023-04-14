@@ -6,7 +6,9 @@ keywords: report-platform
 
 # How to generate the access token for Bold Reports Report Server user
 
-You have two options to generate the access token for the Bold Reports Report Server. You can find the details as follows:
+You have three options to generate the access token for the Bold Reports Report Server. You can find the details as follows:
+
+[How to generate the authorization token from Report Server UI?](../generate-access-token-for-bold-reports-server/)
 
 [How to generate the access token for Bold Reports Report Server using credentials?](../generate-access-token-for-bold-reports-server-using-credentials/)
 
