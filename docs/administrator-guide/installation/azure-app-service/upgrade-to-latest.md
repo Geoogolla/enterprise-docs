@@ -10,7 +10,7 @@ documentation: ug
 
 * Bold Reports releases several major versions in a year. Each version includes new features, bug fixes and other improvements.
 
-* You can refer the features and enhancements from the [Release Notes](https://www.boldreports.com/release-history/enterprise-reporting/5-1).
+* You can refer the features and enhancements from the [Release Notes](https://www.boldreports.com/release-history/embedded-reporting/5-1).
 
 * To upgrade the Bold Reports Azure App Service to latest version you must have access rights to edit the Bold Reports Server App Service.
 
@@ -42,7 +42,7 @@ Follow these below steps to upgrade the Bold Reports Azure App service version f
     ![Synchronization Request Submitted](/static/assets/on-premise/images/installation-and-deployment/upgrade/azure-app-service/upgrade-synchronization-request-submitted.png)
 12. Please wait until synchronization is completed.
 13. >**Breaking Changes:** This step is applicable only for upgrading Azure App Service from version 3.x to latest. Otherwise, skip this step.
-     * Change the below value in **General Settings**.
+      * Change the below value in **General Settings**.
          <table>
          <tr>
           <th>Settings</th>
@@ -53,8 +53,9 @@ Follow these below steps to upgrade the Bold Reports Azure App service version f
           <td>.NET 6 (LTS)</td>
          </tr>
          </table>
+
     ![General Settings](/static/assets/on-premise/images/installation-and-deployment/upgrade/azure-app-service/dot-net-version-in-general-settings.png)
-    * Add below Physical Path in **Path Mappings** and **Save** the settings.
+      * Add below Physical Path in **Path Mappings** and **Save** the settings.
          <table>
          <tr>
           <th>Virtual Path</th>
@@ -65,7 +66,8 @@ Follow these below steps to upgrade the Bold Reports Azure App service version f
           <td>site\wwwroot\reporting\viewer</td>
          </tr>
          </table>
-       ![Path Mappings](/static/assets/on-premise/images/installation-and-deployment/upgrade/azure-app-service/viewer-service-in-path-mappings.png)
+
+    ![Path Mappings](/static/assets/on-premise/images/installation-and-deployment/upgrade/azure-app-service/viewer-service-in-path-mappings.png)
 14. Start the Bold Reports Azure App Service by clicking `Start` button from Overview section.
     ![Start App Service](/static/assets/on-premise/images/installation-and-deployment/upgrade/azure-app-service/upgrade-start-app-service.png)
 15. Now, we have completed the Bold Reports upgrade process. Launch the Bold Reports by clicking the `browse` option or type in the Bold Reports URL in the browser.
