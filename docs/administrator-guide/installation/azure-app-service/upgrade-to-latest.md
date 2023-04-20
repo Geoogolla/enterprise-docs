@@ -41,8 +41,8 @@ Follow these below steps to upgrade the Bold Reports Azure App service version f
 11. Synchronization request submitted notification will be shown in the notification and synchronization progress is shown in the deployment center page.
     ![Synchronization Request Submitted](/static/assets/on-premise/images/installation-and-deployment/upgrade/azure-app-service/upgrade-synchronization-request-submitted.png)
 12. Please wait until synchronization is completed.
-13. >**Breaking Changes:** This step is applicable only for upgrading Azure App Service from version 3.x to latest. Otherwise, skip this step.
-      * Change the below value in `General Settings`.
+13. >**Breaking Changes:** This step is applicable only for upgrading Azure App Service from version 3.x to 5.1.20. Otherwise, skip this step.
+      * In `Configuration` section, change the below value in `General Settings`.
          <table>
          <tr>
           <th>Settings</th>
