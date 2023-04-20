@@ -42,7 +42,7 @@ Follow these below steps to upgrade the Bold Reports Azure App service version f
     ![Synchronization Request Submitted](/static/assets/on-premise/images/installation-and-deployment/upgrade/azure-app-service/upgrade-synchronization-request-submitted.png)
 12. Please wait until synchronization is completed.
 13. >**Breaking Changes:** This step is applicable only for upgrading Azure App Service from version 3.x to latest. Otherwise, skip this step.
-      * Change the below value in **General Settings**.
+      * Change the below value in `General Settings`.
          <table>
          <tr>
           <th>Settings</th>
@@ -55,7 +55,7 @@ Follow these below steps to upgrade the Bold Reports Azure App service version f
          </table>
 
     ![General Settings](/static/assets/on-premise/images/installation-and-deployment/upgrade/azure-app-service/dot-net-version-in-general-settings.png)
-      * Add below Physical Path in **Path Mappings** and **Save** the settings.
+      * Add below Physical Path in `Path Mappings` and `Save` the settings.
          <table>
          <tr>
           <th>Virtual Path</th>
