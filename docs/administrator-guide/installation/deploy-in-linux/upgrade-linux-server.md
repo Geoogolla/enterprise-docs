@@ -54,16 +54,15 @@ Example for upgrading the installation,
 
 ## Upgrade breaking changes
 
-> This breaking changes is applicable only for manual Nginx configuration.
+> While upgrading the Bold Reports application from version v3.x to v5.1.20, you need to update the breaking changes for manual Nginx configuration.
 
-### Automatic Configuration
+**Automatic Nginx configuration**:
 
-* While upgrading the Bold Reports application from version v3.x to v5.1.20, if you had preferred automatic configuration during initial installation, a prompt message will be displayed for automatic Nginx configuration. ![Breaking Issue](/static/assets/on-premise/images/installation/upgrade-installation-message.png)
-* You can choose **Yes** to automatically configure the Viewer Service with the Nginx front-end server.
+* If you preferred automatic configuration during initial installation, below prompt message will be displayed and you can proceed with **Yes** for automatic Nginx configuration. ![Breaking Issue](/static/assets/on-premise/images/installation/upgrade-installation-message.png)
 
-### Manual Configuration
+**Manual Nginx configuration**:
 
-* To configure Nginx as a reverse proxy to forward Viewer Service requests to the Bold Reports app, modify `/etc/nginx/sites-available/default`. Open it in a text editor and add the following code, like the below image.
+* For manual Nginx configuration, you need to modify `default` Nginx configuration file in location`/etc/nginx/sites-available`. Open it in a text editor and add the following code, like the below image.
 
 ```cmd
     location /reporting/viewer {
