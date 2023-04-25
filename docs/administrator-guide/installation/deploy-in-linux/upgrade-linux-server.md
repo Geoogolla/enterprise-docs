@@ -58,9 +58,9 @@ Example for upgrading the installation,
 
 **Automatic Nginx configuration**:
 
-* If you preferred automatic Nginx configuration during initial installation, below prompt message will be displayed and you can proceed with the installation by choosing **Yes**. ![Upgrade Automatic Nginx Configuration Message](/static/assets/on-premise/images/installation/upgrade-automatic-config-message.png)
+* If you preferred automatic Nginx configuration during initial installation, below prompt message will be displayed and proceed with the installation by choosing **Yes**. ![Upgrade Automatic Nginx Configuration Message](/static/assets/on-premise/images/installation/upgrade-automatic-config-message.png)
 
-* If you are choosing **No**, then you need to follow the below step.
+* If you are choosing **No**, then please follow the below step.
 
 **Manual Nginx configuration**:
 
@@ -85,4 +85,4 @@ Example for upgrading the installation,
 
 ![Breaking Issue](/static/assets/on-premise/images/installation/upgrade-breaking-changes.png)
 
-Once the Nginx configuration is updated, run the `sudo nginx -t`  to verify the syntax of the configuration files. If the configuration file test is successful, force the Nginx to pick up the changes by running the `sudo nginx -s reload`.
+Once the Nginx configuration is updated, run the `sudo nginx -t` to verify the syntax of the configuration files. If the configuration file test is successful, force the Nginx to pick up the changes by running the `sudo nginx -s reload`.
