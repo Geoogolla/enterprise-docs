@@ -54,15 +54,15 @@ Example for upgrading the installation,
 
 ## Upgrade breaking changes
 
-> After upgrading the Bold Reports application from version v3.x to v5.1.20, you need to update the breaking changes for manual Nginx configuration.
+> Below breaking changes is applicable only for upgrading the Bold Reports application from version v3.x to v5.1.20.
 
 **Automatic Nginx configuration**:
 
-* If you preferred automatic configuration during initial installation, below prompt message will be displayed and you can proceed with the installation by choosing **Yes**. ![Breaking Issue](/static/assets/on-premise/images/installation/upgrade-installation-message.png)
+* If you preferred automatic Nginx configuration during initial installation, below prompt message will be displayed and you can proceed with the installation by choosing **Yes**. ![Breaking Issue](/static/assets/on-premise/images/installation/upgrade-installation-message.png)
 
 **Manual Nginx configuration**:
 
-* For manual Nginx configuration, you need to modify the `default` Nginx configuration file in location`/etc/nginx/sites-available`. Open it in a text editor and add the following code, like the below image.
+* For manual Nginx configuration, you need to modify the Nginx configuration file in location`/etc/nginx/sites-available`. Open it in a text editor and add the following code, like the below image.
 
 ```cmd
     location /reporting/viewer {
