@@ -58,11 +58,15 @@ Example for upgrading the installation,
 
 **Automatic Nginx configuration**:
 
-* If you preferred automatic Nginx configuration during initial installation, below prompt message will be displayed and you can proceed with the installation by choosing **Yes**. ![Breaking Issue](/static/assets/on-premise/images/installation/upgrade-installation-message.png)
+* If you preferred automatic Nginx configuration during initial installation, below prompt message will be displayed and you can proceed with the installation by choosing **Yes**. ![Upgrade Automatic Nginx Configuration Message](/static/assets/on-premise/images/installation/upgrade-automatic-config-message.png)
+
+* If you are choosing **No**, then you need to follow the below step.
 
 **Manual Nginx configuration**:
 
-* For manual Nginx configuration, you need to modify the Nginx configuration file in location`/etc/nginx/sites-available`. Open it in a text editor and add the following code, like the below image.
+* If you manually configured Nginx during the initial installation, you will be notified by the below prompt message. ![Upgrade Manual Nginx Configuration Message](/static/assets/on-premise/images/installation/upgrade-manual-config-message.png)
+
+* For manual Nginx configuration, you need to modify the default Nginx configuration file in location`/etc/nginx/sites-available`. Open it in a text editor and add the following code, like the below image.
 
 ```cmd
     location /reporting/viewer {
