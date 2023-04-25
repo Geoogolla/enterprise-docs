@@ -60,7 +60,7 @@ Example for upgrading the installation,
 
 * If you preferred automatic Nginx configuration during initial installation, below prompt message will be displayed and proceed with the installation by choosing **Yes**. ![Upgrade Automatic Nginx Configuration Message](/static/assets/on-premise/images/installation/upgrade-automatic-config-message.png)
 
-* If you are choosing **No**, then please follow the below step.
+* If you are choosing **No**, then please follow the below manual Nginx configuration step.
 
 **Manual Nginx configuration**:
 
