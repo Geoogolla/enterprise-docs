@@ -441,7 +441,7 @@
                 "How to create master detail report using list?": "create-master-detail-report-using-list.md",
                 "How to create master detail report using subreport?": "create-master-detail-report-using-subreport.md",
                 "How to create the cover page report in Bold Reports?":"create-the-cover-page-report-in-bold-reports.md",
-                "How to repeat row and column headers on mutiple pages?":"repeat-row-and-column-headers-on-multiple-pages.md"
+                "How to repeat row and column headers on multiple pages?":"repeat-row-and-column-headers-on-multiple-pages.md"
             },
             "FAQ":{
                 "Display no data message for a data region":"display-no-data-message-for-a-data-region.md"
