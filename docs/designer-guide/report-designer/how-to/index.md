@@ -30,3 +30,5 @@ This section helps to get the answer for the frequently asked how to queries in 
 * [How to create the cover page report in Bold Reports?](./../how-to/create-the-cover-page-report-in-bold-reports/)
 
 * [How to Repeat Row and Column Headers on Multiple Pages?](./../how-to/repeat-row-and-column-headers-on-multiple-pages/)
+
+* [How to remove the additional zeros when using percentage format?](./../how-to/remove-additional-zeros-when-using-percentage-format/)
