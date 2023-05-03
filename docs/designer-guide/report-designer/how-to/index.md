@@ -28,3 +28,5 @@ This section helps to get the answer for the frequently asked how to queries in 
 * [Pass form data in REST API data source](./../how-to/pass-form-data-in-rest-api-data-source/)
 
 * [How to create the cover page report in Bold Reports?](./../how-to/create-the-cover-page-report-in-bold-reports/)
+
+* [How to Repeat Row and Column Headers on Multiple Pages?](./../how-to/repeat-row-and-column-headers-on-multiple-pages/)
