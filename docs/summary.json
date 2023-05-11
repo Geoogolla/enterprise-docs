@@ -152,7 +152,9 @@
         "How to apply the patches to Bold Reports to support common login with latest BI":"apply-patches-to-bold-reports-to-support-common-login-with-latest-bi.md",
         "How to install Bold Report Server over Bold BI":"how-to-install-bold-reports-server-over-bold-bi.md",
         "Limit the user/group Synchronization": "can-we-limit-the-user-or-group-synchronization.md",
-		"Configure SSL for Bold Reports in IIS Manager":"configure-ssl-for-bold-reports-in-iis-manager.md"
+		"Configure SSL for Bold Reports in IIS Manager":"configure-ssl-for-bold-reports-in-iis-manager.md",
+        "Check Health and Status of Bold Reports Services":"check-health-and-status-for-bold-reports-services.md"
+
     },
     "FAQ": {
         "Bold Reports Architecture":"bold-reports-architecture.md",
