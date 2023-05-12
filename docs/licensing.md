@@ -12,11 +12,11 @@ Starting with the version v2.x, Bold Reports introduced a new licensing system.
 
 ## Offline license validation
 
-Starting with the version v2.4.x, Bold Reports introduced offline licensing system.
+Starting with the version v2.4.x, Bold Reports introduced an offline licensing system.
 
-We have provided the support to validate the license even when the machine is without internet connection.
+We have provided the support to validate the license even when the machine is without an internet connection.
 
-This topic describes how to enable offline license validation in the Bold Reports Enterprise Edition. Follow the below steps.
+This topic describes how to enable offline license validation in the Bold Reports Enterprise Edition. Follow the given steps:
 
 ### Get offline license key file
 
@@ -27,11 +27,11 @@ the [Bold Reports](https://www.boldreports.com/account) site.
 
 ### Place offline license key file
 
-Place the downloaded license key file in the Bold Reports installed location. Follow the below steps.
+Place the downloaded license key file in the Bold Reports installed location. Follow the given steps:
 
-1. Offline license file should have the name `boldreports_components_licensekey.lic`.
+1. The offline license file should have the name `boldreports_components_licensekey.lic`.
 
-2. Go to the deployed location and place the license key file in below location.
+2. Go to the deployed location and place the license key file in the below location.
 
    **`{Deployed Location}`**\app_data\reporting\configuration
 
@@ -42,7 +42,7 @@ Place the downloaded license key file in the Bold Reports installed location. Fo
 3. Restart the Bold Reports application.
 
 ```steps
-License key will expire based on the validity of the subscription.
+The license key will expire based on the validity of the subscription.
 
 After the expiration date, you have to renew and change the license key.
 ```
