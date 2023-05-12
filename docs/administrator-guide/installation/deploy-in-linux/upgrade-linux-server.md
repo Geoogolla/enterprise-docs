@@ -51,3 +51,38 @@ Example for upgrading the installation,
 * Now, you can open the host URL in the browser and use the latest features of Bold Reports.
 
 > NOTE: Bold Reports Linux package backup file will be available in the following location. /var/www/
+
+## Upgrade breaking changes
+
+> Below breaking changes is applicable only for upgrading the Bold Reports application from version v3.x to v5.1.20.
+
+**Automatic Nginx configuration**:
+
+* If you preferred automatic Nginx configuration during initial installation, below prompt message will be displayed and proceed with the installation by choosing **Yes**. ![Upgrade Automatic Nginx Configuration Message](/static/assets/on-premise/images/installation/upgrade-automatic-config-message.png)
+
+* If you are choosing **No**, then please follow the below manual Nginx configuration step.
+
+**Manual Nginx configuration**:
+
+* If you have manually configured Nginx during initial installation, below message will be displayed. ![Upgrade Manual Nginx Configuration Message](/static/assets/on-premise/images/installation/upgrade-manual-config-message.png)
+
+* For manual Nginx configuration, modify the default Nginx configuration file in location`/etc/nginx/sites-available`. Open it in a text editor and add the following code, like the below image.
+
+```cmd
+    location /reporting/viewer {
+        proxy_pass         http://localhost:6554/reporting/viewer;
+        proxy_http_version 1.1;
+        proxy_set_header   Upgrade $http_upgrade;
+        proxy_set_header   Connection keep-alive;
+        proxy_set_header   Host $host;
+        proxy_cache_bypass $http_upgrade;
+        proxy_set_header   X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header   X-Forwarded-Proto $scheme;
+    }
+```
+
+**Nginx configuration file code**:
+
+![Breaking Issue](/static/assets/on-premise/images/installation/upgrade-breaking-changes.png)
+
+Once the Nginx configuration is updated, run the `sudo nginx -t` to verify the syntax of the configuration files. If the configuration file test is successful, force the Nginx to pick up the changes by running the `sudo nginx -s reload`.

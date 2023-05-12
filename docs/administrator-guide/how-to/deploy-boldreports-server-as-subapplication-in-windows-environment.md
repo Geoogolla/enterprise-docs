@@ -26,30 +26,36 @@ Please follow the below steps to deploy bold reports as sub-applications in the 
 5. Click `Enable 32-Bit Applications` property under the general category and mark it as true.
    ![Enable 32-Bit Applications](/static/assets/on-premise/images/how-to/subapplication-in-windows/enable-applications.png)
 
-6. Click the identity property menu button under the process model category.
+6. Click `Start Mode` property under the general category and select `AlwaysRunning` option.
+   ![Start Mode](/static/assets/on-premise/images/how-to/subapplication-in-windows/start-mode.png)
+
+7. Click the identity property menu button under the process model category.
    ![Identity Property](/static/assets/on-premise/images/how-to/subapplication-in-windows/identity-property.png)
 
-7. Select **LocalSystem** under Built-in account type and click `ok`.
+8. Select **LocalSystem** under Built-in account type and click `ok`.
    ![Local System](/static/assets/on-premise/images/how-to/subapplication-in-windows/local-system.png)
 
-8. We have several applications on the bold report server. So, we should create application pools for each one. We have already created an application pool for IDP-Web in step 2. We should repeat steps 2 to 7 to add application pools for the below applications. Please find the below table:
+9. Click the `Idle Time-out(minutes)` property menu button under the process model category and set it as `zero` and then click `ok`.
+     ![Idle Time-out(minutes)](/static/assets/on-premise/images/how-to/subapplication-in-windows/idle-time-out.png)
 
-   | Application name | Application Pool Name |
-   | ---------------- | --------------------- |
-   | IDP - Web | SubApp_IDPWeb (We have created at step 2) |
-   | IDP - API | SubApp_IDPApi |
-   | IDP - UMS | SubApp_IDPUMS |
-   | IDP - Windows Authentication | SubApp_IDPWinAuth |
-   | Reports - Web | SubApp_ReportsWeb |
-   | Reports – Api | SubApp_ReportsApi |
-   | Reports - Reportservice | SubApp_ReportsDesigner |
-   | Reports – Jobs | SubApp_ReportsJobs |
-   > You can provide your convenient name to the application pool. But make sure to differentiate between each application pool.
+10. We have several applications on the bold report server. So, we should create application pools for each one. We have already created an application pool for IDP-Web in step 2. We should repeat steps 2 to 9 to add application pools for the below applications. Please find the below table:
 
-9. Right-click your application (main application) in IIS, and select **Add Application** as shown in the below image.
+    | Application name | Application Pool Name |
+    | ---------------- | --------------------- |
+    | IDP - Web | SubApp_IDPWeb (We have created at step 2) |
+    | IDP - API | SubApp_IDPApi |
+    | IDP - UMS | SubApp_IDPUMS |
+    | IDP - Windows Authentication | SubApp_IDPWinAuth |
+    | Reports - Web | SubApp_ReportsWeb |
+    | Reports – Api | SubApp_ReportsApi |
+    | Reports - Reportservice | SubApp_ReportsDesigner |
+    | Reports – Jobs | SubApp_ReportsJobs |
+    > You can provide your convenient name to the application pool. But make sure to differentiate between each application pool.
+
+11. Right-click your application (main application) in IIS, and select **Add Application** as shown in the below image.
    ![Add Application](/static/assets/on-premise/images/how-to/subapplication-in-windows/add-main-application.png)
 
-10. Please fill the Alias name, Application pool, and Physical path and click `Ok`.
+12. Please fill the Alias name, Application pool, and Physical path and click `Ok`.
     ![Alias Name](/static/assets/on-premise/images/how-to/subapplication-in-windows/alias-name.png)
     * Alias name - Please provide the name `bold` for the bold reports application, which will act as a sub-application. You can provide the name as per your convenience.
     > The alias name provided in this step will be used in the URL.
@@ -57,17 +63,17 @@ Please follow the below steps to deploy bold reports as sub-applications in the 
     * Physical path - Click Browse and go to your backup location (C:\BoldServices-Copy), then select the web folder under the IDP folder.
     > Alias name should be in lowercase.
 
-11. Right-click the Bold Reports sub-application name and select `Add Application`.
+13. Right-click the Bold Reports sub-application name and select `Add Application`.
     ![Add Sub Application](/static/assets/on-premise/images/how-to/subapplication-in-windows/add-sub-application.png)
 
-12. Provide the alias name, application pool and physical path, and click `OK`.
+14. Provide the alias name, application pool and physical path, and click `OK`.
     * Alias name - Please provide the name as `api`.
     * Application pool - Select the application pool `SubApp_IDPApi` that you have created in step 5.
     * Physical path - Click Browse, go to the backup location, and choose the api folder under idp.
     `(C:\BoldServices - Copy\idp\api)`
     ![Sub App Alias Name](/static/assets/on-premise/images/how-to/subapplication-in-windows/sub-app-alias-name.png)
 
-13. We must add the below applications as sub-applications with the mentioned alias name, application pool and physical path.
+15. We must add the below applications as sub-applications with the mentioned alias name, application pool and physical path.
 
     <table>
      <tr>
@@ -132,16 +138,16 @@ Please follow the below steps to deploy bold reports as sub-applications in the 
 
     > You must provide an alias name in the above table for api, ums, windowsauthentication, reporting, api, jobs, and reportservice.
 
-14. Ensure the **Bold Reports** application has the sub-applications, as shown in below image.
+16. Ensure the **Bold Reports** application has the sub-applications, as shown in below image.
     ![Bold Reports Application](/static/assets/on-premise/images/how-to/subapplication-in-windows/boldreports-application.png)
 
-15. To run the bold reports as sub application, we must update the **config.xml** and **product.json** files under `{DeployedLocation}\app_data\configuration\config.xml`.
+17. To run the bold reports as sub application, we must update the **config.xml** and **product.json** files under `{DeployedLocation}\app_data\configuration\config.xml`.
     Eg. `C:BoldServices-Copy\app_data\configuration\config.xml`
 
-16. Update the URL with sub-app for **Idp**, **Reports**, and **ReportsService** nodes in the config.xml file.
+18. Update the URL with sub-app for **Idp**, **Reports**, and **ReportsService** nodes in the config.xml file.
     ![Config.xml File](/static/assets/on-premise/images/how-to/subapplication-in-windows/config-xml-file.png)
 
-17. Update the URL with sub-app for **Idp**, **Reports**, and **ReportsService** keys in the product.json file.
+19. Update the URL with sub-app for **Idp**, **Reports**, and **ReportsService** keys in the product.json file.
     ![Product.json File](/static/assets/on-premise/images/how-to/subapplication-in-windows/product-json-file.png)
 
-18. Now restart and run the application from IIS.
+20. Now restart and run the application from IIS.

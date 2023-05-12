@@ -33,7 +33,7 @@ Admin can download log files from Get diagnostic logs in UMS.
 | Hosted Environment    | Log location                                                  |
 |------------------     |------------------------------------------------------------   |
 | Windows               |  **`{Deployed Location}`**\App_Data\Logs                      |
-| Linux                 |   /var/www/application/bold-services/app_data/logs            |
+| Linux                 |   /var/www/bold-services/application/app_data/logs            |
 
 ## Bold Reports version below 3.1.31
 

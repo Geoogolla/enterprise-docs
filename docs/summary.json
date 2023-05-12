@@ -3,7 +3,8 @@
     "Getting Started": "getting-started.md",
     "Installation": {
         "Windows Installer":{
-            "Install Bold Reports over Bold BI":"install-bold-reports-over-bold-bi.md"
+            "Install Bold Reports over Bold BI":"install-bold-reports-over-bold-bi.md",
+            "Silent Installation":"silent-installation.md"
         },
         "Azure App Service":{
 	    "Prerequisites":"prerequisites.md",
@@ -19,7 +20,8 @@
             "Upgrading Bold Reports Linux package to the Latest Version":"upgrade-linux-server.md"
         },
 		"Deploy in Kubernetes":"deploy-in-kubernetes.md",
-        "Deploy in Docker":"deploy-in-docker.md"
+        "Deploy in Docker":"deploy-in-docker.md",
+        "Deploy in Podman":"deploy-in-podman.md"
     },
     "Application Startup": {
         "SQL Server": "sql-configuration",
@@ -149,7 +151,8 @@
         "Switch the installed Bold Reports Report Server IIS Express application to IIS": "switch-the-installed-bold-reports-report-server-iis-express-application-to-iis.md",
         "How to apply the patches to Bold Reports to support common login with latest BI":"apply-patches-to-bold-reports-to-support-common-login-with-latest-bi.md",
         "How to install Bold Report Server over Bold BI":"how-to-install-bold-reports-server-over-bold-bi.md",
-        "Limit the user/group Synchronization": "can-we-limit-the-user-or-group-synchronization.md"
+        "Limit the user/group Synchronization": "can-we-limit-the-user-or-group-synchronization.md",
+		"Configure SSL for Bold Reports in IIS Manager":"configure-ssl-for-bold-reports-in-iis-manager.md"
     },
     "FAQ": {
         "Bold Reports Architecture":"bold-reports-architecture.md",
@@ -159,6 +162,8 @@
         "Is Bold Reports have a centralized report authoring system?": "centralized-report-authoring-system.md",
         "Will Syncfusion charge for Bold Reports Azure App Service": "will-syncfusion-charge-for-the-bold-reports-azure-app-service.md",
         "Where can i find the error and debug log files of Bold Reports Azure App Service": "where-can-i-find-the-error-and-debug-log-files-of-bold-reports-azure-app-service.md",
+        "Docker - Error and Debug Log": "where-can-i-find-the-error-and-debug-log-files-of-bold-reports-in-docker.md",
+        "Kubernetes - Error and Debug Log": "where-can-i-find-the-error-and-debug-log-files-of-bold-reports-in-kubernetes.md",
         "Why should you migrate to Bold Reports from Syncfusion Report Platform": "why-should-you-migrate-to-bold-reports-from-syncfusion-report-platform.md",
         "Is it possible to migrate Syncfusion Report Platform Report Server to Bold Reports Report Server": "is-it-possible-to-migrate-syncfusion-report-platform-report-server-to-bold-reports-report-server.md",
         "What are the database permissions required to set up Bold Reports":"what-are-the-database-permissions-required-to-set-up-bold-reports.md",
@@ -178,6 +183,7 @@
                 "Amazon Aurora":"amazon-aurora-data-source.md",
                 "Amazon RDS":"amazon-rds-data-source.md",
                 "Amazon Redshift":"amazon-redshift-data-source.md",
+                "AWS Open Search":"aws-opensearch-data-source.md",
                 "Azure SQL":"azure-sql-data-warehouse.md",
                 "CDATA":"cdata-data-source.md",
                 "CSV":"csv-data-source.md",
@@ -434,7 +440,9 @@
                 "How to create master detail report using table?": "create-master-detail-report-using-table.md",
                 "How to create master detail report using list?": "create-master-detail-report-using-list.md",
                 "How to create master detail report using subreport?": "create-master-detail-report-using-subreport.md",
-                "How to create the cover page report in Bold Reports?":"create-the-cover-page-report-in-bold-reports.md"
+                "How to create the cover page report in Bold Reports?":"create-the-cover-page-report-in-bold-reports.md",
+                "How to repeat row and column headers on multiple pages?":"repeat-row-and-column-headers-on-multiple-pages.md",
+                "How to remove the additional zeros when using percentage format?":"remove-additional-zeros-when-using-percentage-format"
             },
             "FAQ":{
                 "Display no data message for a data region":"display-no-data-message-for-a-data-region.md"
@@ -488,13 +496,19 @@
         "Generate access token for Bold Reports Report Server using credentials": "generate-access-token-for-bold-reports-server-using-credentials.md",
         "How to generate the authorization token by using Embed Secret Key API":"generate-authorization-token-for-user-by-using-embed-secret-key-api.md",
         "How to export the Report using API from the postman":"export-the-report-using-api.md",
+        "How to generate the authorization token from Report Server UI":"generate-access-token-for-bold-reports-server.md",
         "How to generate the access token using API from the postman":"generate-access-token-for-bold-reports-server-using-api.md",
         "How to export the Report with filter parameter using API from the postman":"export-the-report-with-filter-parameter-using-api.md",
         "Generate access token for Bold Reports Report Server user": "generate-access-token-for-bold-reports-server-user.md"
     }
 },
 "Licensing": "licensing.md",
+"Security": "security.md",
 "REST API Reference": {
+	"Site Administration": {
+         "v1.0": "v1.0?html=true",
+         "v2.0": "v2.0?html=true"
+      },
     "v1.0": "v1.0?html=true",
     "v2.0": "v2.0?html=true"
 }
