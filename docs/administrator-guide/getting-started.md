@@ -34,13 +34,11 @@ The following software requirements are necessary to run the Bold Reports Enterp
 
 Please follow the below steps to install the Bold Reports Enterprise Reporting build.
 1. Go to BoldReports [link](https://www.boldreports.com/) to register and download Bold Reports Enterprise Reporting build.
-2. Select Enterprise Reporting from Product Category.
-![Bold Reports On-Premise Plans](/static/assets/on-premise/images/getting-started/trail-page.png)
-3. Choose your plan based on your requirements.
-![Bold Reports Trail Plans Page](/static/assets/on-premise/images/getting-started/trail-plans.png)
-4. Create your Bold Reports Enterprise Reporting portal by creating new account or sign in with existing account.
-![Bold Reports Portal Registration](/static/assets/on-premise/images/getting-started/portal-registration.png)
-5. Once portal have been created, you will be redirected to your trail downloads page.
-![Bold Reports download option](/static/assets/on-premise/images/getting-started/download-option.png)
-6. Click on download button and then select the file type to download.
-![Bold Reports download setup](/static/assets/on-premise/images/getting-started/download-setup.png)
+2. Please click on the 'Sign In' icon to proceed.
+![Bold Reports Enterprise](/static/assets/on-premise/images/getting-started/sign_in.png)
+3. Sign in using different options if you have your existing account.
+![Bold Reports sign in option](/static/assets/on-premise/images/getting-started/bold_id_sign_in.png)
+4. You can also create your new account by clicking Sign Up option mentioned in the above image.
+![Bold Reports sign up option](/static/assets/on-premise/images/getting-started/sign_up.png)
+5. Once the account is created you will be redirect to the your Bold reports account page. Simply click the desired file type to download it.
+![Bold Reports download option](/static/assets/on-premise/images/getting-started/download_file.png)
