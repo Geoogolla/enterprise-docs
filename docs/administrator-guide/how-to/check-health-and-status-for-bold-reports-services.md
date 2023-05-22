@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Health Check and Status Check in Bold Reports Services.
+title: To perform Status and Health Check in Bold Reports Services.
 description: This documentation explains regarding the health check and the status check  of the bold reports services.
 keywords: report-platform
 documentation: ug
@@ -8,11 +8,11 @@ documentation: ug
 
 # Status and Health Check for Bold Reports Services
 
-To maintain the optimal performance and reliability of the reports services, it is essential to regularly monitor and evaluate their health and status. By following the steps outlined below, you can effectively assess the well-being of the reports services.
+Health and status check of application services is a process of verifying the functionality and performance of application services. By regularly checking the health and status of application, you can identify and fix any issues that may affect the availability or performance of your applications. By following the steps outlined below, you can effectively assess the well-being of the reports services.
 
-## Status Check
+## To Perform Status Check
 
-To check the status of the reports services and ensure their smooth functioning, you can perform a Status Check. To begin, enter the following URL in a web browser
+A comprehensive status check provides visibility into the operational state of all services within the application as the services are running or not and ensuring smooth operation. This level of monitoring simplifies the process of troubleshooting and ensures the state of the services. To check the status of the reports services and ensure their smooth functioning, please enter the following URL in a web browser
 
 `https://{Domain_name}/status`
 
@@ -20,16 +20,14 @@ This URL is specifically designed to provide you with an overview of the current
 
 ![Status Check](/static/assets/on-premise/images/how-to/status-check.png)
 
-If you want to obtain a comprehensive assessment of the health of all the applications and sub applications, you can perform a **Health Check**.
+## To Perform Health Check
 
-## Health Check
-
-The Health Check involves evaluating the individual services of the Bold Reports services. By accessing the specific URLs provided in the below table, you can assess the health and operational status of each component.
+In certain environments, where status checks may not be sufficient, the utilization of health checks becomes imperative. Health checks provide a more comprehensive evaluation of the state of each services of an application. By accessing the specific URLs provided in the below table, you can assess the health and operational status of each component.
 
 <table>
   <tr>
     <th>Services</th>
-    <th>Application</th>
+    <th>Main Application</th>
     <th>Sub Application</th>
   </tr>
   <tr>
@@ -72,3 +70,7 @@ The Health Check involves evaluating the individual services of the Bold Reports
     <td>https://{Domain_name}/reporting/reportservice/health-check</td>
     <td>https://{Domain_name}/{Sub_application_name}/reporting/reportservice/health-check</td>
  </tr> </table>
+
+ **Main Application**: The main web application is the central and primary component of a web-based software system. It encompasses the core features, user interface, and functionality that users interact with.
+
+ **Sub-Application**: A sub-application within the web application is a specialized module that provides additional or specific functionality to enhance the main application.
