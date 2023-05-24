@@ -32,4 +32,4 @@ This section helps to get the answer for the frequently asked how to queries in 
 
 * [How to Configure SSL for Bold Reports in IIS Manager](./../how-to/configure-ssl-for-bold-reports-in-iis-manager/)
 
-* [How to check health and status for Bold Reports Services](./../how-to/check-health-and-status-for-bold-reports-services/)
+* [How to check status and health for Bold Reports Services](./../how-to/check-health-and-status-for-bold-reports-services/)

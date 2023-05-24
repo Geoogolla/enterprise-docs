@@ -1,12 +1,12 @@
 ---
 layout: post
 title: To perform Status and Health Check in Bold Reports Services.
-description: This documentation explains regarding the health check and the status check  of the bold reports services.
+description: This documentation explains regarding the status check and the health check of the bold reports services.
 keywords: report-platform
 documentation: ug
 ---
 
-# A Guide to Effective Health Checks and Status Verification
+# A Guide to Effective Status Verification and Health Check  
 
 Status check and health check are two common practices in the field of software development to ensure the proper functioning and reliability of a system or application. While they serve similar purposes, there are some differences in their implementation and scope.  
 
