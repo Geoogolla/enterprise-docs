@@ -14,7 +14,7 @@ Please find below flowchart for how to embed report with user impersonation.
 
 Please follow the below steps to embed report with user impersonation in your existing application
 
-1. To get the embed report with user impersonation, you need to integrate Bold Reports Viewer with your application by referring to  [this](https://help.boldreports.com/enterprise-reporting/developer-guide/embed-in-application/view-report-through-report-viewer/) documentation.
+1. To get the embed report with user impersonation, you need to integrate Bold Reports Viewer with your application by referring to  [this](../../../developer-guide/embed-in-application/view-report-through-report-viewer/) documentation.
 2. Once the viewer has been integrated, get the authentication token for the admin user of the Bold Report Server. You can embed reports with user impersonation by using the admin authentication token and user details as parameters. Please refer [Report Parameter](https://help.boldreports.com/embedded-reporting/javascript-reporting/report-viewer/report-parameters/#set-parameter-at-client) documentation for the same.
 3. The Bold reports server handled the request and returned the report for respective user.
 
