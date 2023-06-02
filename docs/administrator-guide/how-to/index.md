@@ -33,3 +33,5 @@ This section helps to get the answer for the frequently asked how to queries in 
 * [How to Configure SSL for Bold Reports in IIS Manager](./../how-to/configure-ssl-for-bold-reports-in-iis-manager/)
 
 * [How to check the Status and Health for Bold Reports Services](./../how-to/how-to-check-the-status-and-health-for-bold-reports-services/)
+
+* [How to embed the report with user impersonation](./../how-to/embed-the-report-with-user-impersonation/)
