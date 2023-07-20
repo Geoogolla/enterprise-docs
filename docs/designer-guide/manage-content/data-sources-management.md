@@ -43,6 +43,16 @@ Data source can be added to Report Server only if the user has `Create All Data 
 
     >`Read Write Delete` permission for the `Specific Data Source` will be added for the user who created the data source.
 
+#### Edit Datasource as XML
+
+This XML editor provides a user-friendly interface for you to make necessary modifications to the Datasources's. When working with the Report Server, you have the convenience of editing datasource directly using an XML editor. This means you can make necessary changes to the datasource without downloading it and using a separate text editor. By accessing the Report Server's XML editor option, you can easily modify the datasource's in XML.
+
+1. Click the `Actions` button in the datasource grid context menu and select `Edit As XML` to edit a datasource in XML.
+    ![Edit datasource in XML](/static/assets/on-premise/images/manage-content/manage-data-sources/edit-datasource-xml.png)
+
+2. The respective datasource will be opened in new tab as XML,allowing you to make modifications and you can save the edited datasource by publishing it from the XML editor.
+    ![Edit datasource XML View](/static/assets/on-premise/images/manage-content/manage-data-sources/edit-datasource-xml-view.png)
+
 #### Use existing Datasource
 
 1. Click on `Use existing Datasource` option, it will show all existing data sources.
