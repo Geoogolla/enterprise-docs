@@ -30,10 +30,8 @@ This section explains on how to move, copy and clone Reports in the Report Desig
 3. Copies the Report from one Tenant to another Tenant by selecting the Tenant identifier.
     ![Copy Report to Tenant](/static/assets/on-premise/images/manage-content/manage-reports/copy-report-to-tenant.png)
 
-4. If the report is designed by shared dataset or datasource, You can change the dataset or datasource and save the copy of it with `Advanced option`.
+4. You can change the dataset or datasource and save the copy of it with `Advanced option`, If the report is designed by shared dataset or datasource. 
     ![Copy Report to Tenant](/static/assets/on-premise/images/manage-content/manage-reports/copy-report-advanced.png)
-
-5. You can change the dataset or datasource and save the copy of it.
     ![Copy Report to Tenant](/static/assets/on-premise/images/manage-content/manage-reports/copy-report-advanced-option.png)
 
 ## Clone Reports
