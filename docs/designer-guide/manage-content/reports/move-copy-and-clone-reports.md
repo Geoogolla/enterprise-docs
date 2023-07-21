@@ -32,7 +32,7 @@ This section explains on how to move, copy and clone Reports in the Report Desig
 
 4. If the report is designed by shared dataset or datasource, You can change the dataset or datasource and save the copy of it with `Advanced option`.
     ![Copy Report to Tenant](/static/assets/on-premise/images/manage-content/manage-reports/copy-report-advanced.png)
- 
+
 5. You can change the dataset or datasource and save the copy of it.
     ![Copy Report to Tenant](/static/assets/on-premise/images/manage-content/manage-reports/copy-report-advanced-option.png)
 
