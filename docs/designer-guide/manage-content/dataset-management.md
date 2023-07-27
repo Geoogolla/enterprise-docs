@@ -63,7 +63,7 @@ Click the `Actions` button in the dataset grid context menu and select `Edit Dat
 
 ## Edit dataset as XML
 
-This XML editor provides a user-friendly interface for you to make necessary modifications to the dataset. When working with the Report Server, you have the convenience of editing datasets directly using an XML editor. This means you can make necessary changes to the dataset without downloading it and using a separate text editor. By accessing the Report Server's XML editor option, you can easily modify the dataset in XML.
+This XML editor provides a user-friendly interface for you to make necessary modifications to the dataset in the Report Server. This means you can make necessary changes to the dataset without downloading it and using a separate text editor.
 
 1. Click the `Actions` button in the dataset grid context menu and select `Edit As XML` to edit a dataset in XML.
     ![Edit dataset in XML](/static/assets/on-premise/images/manage-content/manage-data-sets/edit-dataset-xml.png)

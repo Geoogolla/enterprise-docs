@@ -14,11 +14,11 @@ Click the `Actions` button in the Reports grid context menu and hover over `Edit
 
 ![Edit report in Report Designer](/static/assets/on-premise/images/manage-content/manage-reports/open-in-Report-designer.png)
 
-## Edit an existing report as XML in Report Designer
+## Edit an existing report as XML
 
-This XML editor provides a user-friendly interface for you to make necessary modifications to the report's. When working with the Report Server, you have the convenience of editing reports directly using an XML editor. This means you can make necessary changes to the report without downloading it and using a separate text editor. By accessing the Report Server's XML editor option, you can easily modify the report's in XML.
+This XML editor provides a user-friendly interface for you to make necessary modifications to the reports in  the Report Server. This means you can make necessary changes to the report without downloading it and using a separate text editor.
 
-1. Click the `Actions` button in the Reports grid context menu and choose `EditAsXML` to open the Report as XML in Report Designer.
+1. Click the `Actions` button in the Reports grid context menu and choose `Edit As XML` to open the Report as XML in Report Designer.
 
     ![Edit report in XML](/static/assets/on-premise/images/manage-content/manage-reports/edit-report-xml.png)
 
