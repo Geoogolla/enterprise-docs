@@ -227,7 +227,8 @@
 					"Reordering DataSets": "reorder-a-dataset.md",
                     "DataSet Fields": "dataset-fields.md",
                     "DataSet Filters": "add-a-filter-to-a-dataset.md",
-                    "DataSet Parameters":"dataset-parameters.md"
+                    "DataSet Parameters":"dataset-parameters.md",
+                    "Configure Custom Attribute": "configure-custom-attribute.md"
                 }
             },            
             "Transforming Data": {
