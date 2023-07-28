@@ -18,7 +18,7 @@ Click the `Actions` button in the Reports grid context menu and hover over `Edit
 
 This XML editor provides a user-friendly interface for you to make necessary modifications to the reports in  the Report Server. This means you can make necessary changes to the report without downloading it and using a separate text editor.
 
-1. Click the `Actions` button in the Reports grid context menu and choose `Edit As XML` to edit the Report as XML.
+1. Click the `Actions` button in the Reports grid context menu and choose `Edit As XML` to edit the Report in XML.
 
     ![Edit report in XML](/static/assets/on-premise/images/manage-content/manage-reports/edit-report-xml.png)
 
