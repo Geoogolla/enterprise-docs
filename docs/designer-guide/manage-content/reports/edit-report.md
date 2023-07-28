@@ -22,6 +22,6 @@ This XML editor provides a user-friendly interface for you to make necessary mod
 
     ![Edit report in XML](/static/assets/on-premise/images/manage-content/manage-reports/edit-report-xml.png)
 
-2. The respective report will be opened in new tab as XML,allowing you to make modifications and you can save the edited report by publishing it from the XML editor.
+2. The respective report will be opened in new tab as XML, allowing you to make modifications and you can save the edited report by publishing it from the XML editor.
 
     ![Edit report XML View](/static/assets/on-premise/images/manage-content/manage-reports/edit-report-xml-view.png)
