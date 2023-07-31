@@ -41,8 +41,12 @@ We can create dataset by following ways.
 1. Click on the `+` button in the left side menu and choose `Upload Dataset` and select `Dataset` to add a dataset.
     ![Upload DataSet](/static/assets/on-premise/images/manage-content/manage-data-sets/upload-dataset-option.png)
 
-2. Enter the name and description of the dataset.
-3. Click `Browse` and select the `.rsd` file to upload.
+2. Enter the description of the dataset.
+3. Click `Browse` and select the `.rsd` file to upload. The `Name` field of the dataset is auto-filled with the uploaded `.rsd` file name.
+    ![Auto-Filled Dataset Name](/static/assets/on-premise/images/manage-content/manage-data-sets/upload-dataset-name.png)
+
+     > If the name is already present in the input box, it will not be auto-filled. However, if there is no name in the input box, the file name will be auto-filled.
+     
 4. Select the `DataSource`. In the select data source dialog, you can either select a data source that is already available in the Report Server or create a new data source at that time itself.
     ![Select a data source for the uploaded dataset](/static/assets/on-premise/images/manage-content/manage-data-sets/upload-dataset-dialog.png)
 
