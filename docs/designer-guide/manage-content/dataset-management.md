@@ -61,6 +61,16 @@ Click the `Actions` button in the dataset grid context menu and select `Create R
 Click the `Actions` button in the dataset grid context menu and select `Edit Dataset` to edit a dataset.
     ![Edit dataset properties](/static/assets/on-premise/images/manage-content/manage-data-sets/edit-dataset.png)
 
+## Edit dataset as XML
+
+This XML editor provides a user-friendly interface for you to make necessary modifications to the dataset in the Report Server. This means you can make necessary changes to the dataset without downloading it and using a separate text editor.
+
+1. Click the `Actions` button in the dataset grid context menu and select `Edit As XML` to edit a dataset.
+    ![Edit dataset in XML](/static/assets/on-premise/images/manage-content/manage-data-sets/edit-dataset-xml.png)
+
+2. The respective dataset will be opened in a new tab as XML, allowing you to make modifications, and you can save the edited dataset by publishing it from the XML editor.
+    ![Edit dataset XML View](/static/assets/on-premise/images/manage-content/manage-data-sets/edit-dataset-xml-view.png)
+
 ## Share dataset
 
 This section explains on how to share dataset with the other users in the Report Server.
