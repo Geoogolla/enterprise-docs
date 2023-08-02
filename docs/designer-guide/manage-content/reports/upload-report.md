@@ -18,7 +18,5 @@ This section explains about how to upload report or add report to Bold Reports O
 2. Select a category for the report and fill the description of the report and upload the RDL file in the Upload Report dialog box.
     ![Upload Report](/static/assets/on-premise/images/manage-content/manage-reports/upload-report-dialog.png)
 
-3. The `Name` field of the report is auto-filled with the uploaded RDL file name.
-    ![Report name](/static/assets/on-premise/images/manage-content/manage-reports/upload-report-name.png)
-    > If the name is already present in the input box, it will not be auto-filled. However, if there is no name in the input box, the file name will be auto-filled.
-4. Click `Save` button.
+    > If there is no name in the input box, the uploaded RDL file name will be auto-filled.
+3. Click `Save` button.
