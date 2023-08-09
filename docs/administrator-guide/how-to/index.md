@@ -28,6 +28,18 @@ This section helps to get the answer for the frequently asked how to queries in 
 
 * [How to apply the patches to Bold Reports to support common login with latest BI?](./../how-to/apply-patches-to-bold-reports-to-support-common-login-with-latest-bi/)
 
+* [How to migrate from one server to another using Sql database?](./../how-to/migrate-server-to-another-server-using-sql-database/)
+
+* [How to migrate from one server to another using Postgres database?](./../how-to/migrate-server-to-another-server-using-postgresql-database/)
+
+* [How to migrate from one server to another using without database?](./../how-to/migrate-server-to-another-server-without-database/)
+
+* [How to migrate bold reports server with database in azure app service?](./../how-to/migrate-bold-reports-server-with-database-in-azure-app-service/)
+
+* [How to migrate from one server single tenant to multiple server in azure blob storage?](./../how-to/migrate-from-one-server-single-tenant-to-multiple-server-in-azure-blob-storage/)
+
+* [How to migrate EC2 instance windows server with postgresql database?](./../how-to/migrate-ec2-instance-windows-server-with-postgresql-database/)
+
 * [How to install Bold Reports Server over Bold BI in Azure App Services](./../how-to/how-to-install-bold-reports-server-over-bold-bi/)
 
 * [How to Configure SSL for Bold Reports in IIS Manager](./../how-to/configure-ssl-for-bold-reports-in-iis-manager/)

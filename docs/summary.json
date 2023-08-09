@@ -154,9 +154,13 @@
         "Limit the user/group Synchronization": "can-we-limit-the-user-or-group-synchronization.md",
 		"Configure SSL for Bold Reports in IIS Manager":"configure-ssl-for-bold-reports-in-iis-manager.md",
         "How to check the Status and Health for Bold Reports Services":"how-to-check-the-status-and-health-for-bold-reports-services.md",
-        "Embed the report with user impersonation":"embed-the-report-with-user-impersonation"
-
-
+        "Embed the report with user impersonation":"embed-the-report-with-user-impersonation",
+        "How to migrate from one server to another using Sql database?":"migrate-server-to-another-server-using-sql-database.md",
+        "How to migrate from one server to another using Postgres database?":"migrate-server-to-another-server-using-postgresql-database.md",
+        "How to migrate from one server to another without using database?":"migrate-server-to-another-server-without-database.md",
+        "How to migrate bold reports server with database in azure app service?":"migrate-bold-reports-server-with-database-in-azure-app-service.md",
+        "How to migrate EC2 instance windows server with postgresql database?":"migrate-ec2-instance-windows-server-with-postgresql-database.md",
+        "How to migrate from one server single tenant to multiple server in azure blob storage?":"migrate-from-one-server-single-tenant-to-multiple-server-in-azure-blob-storage.md"
     },
     "FAQ": {
         "Bold Reports Architecture":"bold-reports-architecture.md",
