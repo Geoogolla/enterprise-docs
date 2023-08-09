@@ -8,7 +8,7 @@ documentation: ug
 
 # How to migrate from one syncfusion single tenant server to Bold reports multiple tenant server in azure blob storage
 
-1. Create folder IDP and Report Server in your local machine as shown in the following screenshot.
+1. Create IDP folder and Report Server folder in your local machine as shown in the following screenshot.
 
    ![Azure Blob folder](/static/assets/on-premise/images/how-to/blob-folder.png)
 
