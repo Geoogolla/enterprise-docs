@@ -14,11 +14,11 @@ We can migrate Bold Reports Server data from one EC2 instance Windows Server (st
 
 2. After installation, do not launch or start the application.
 
-3. We need to make some configuration changes in files to migrate data from EC2 instance Windows Server 1 (staging) to EC2 instance Windows Server 2 (production). So please Stop BoldReports_EnterpriseReporting application in IIS manager in Server 2.
+3. We need to make some configuration changes in the files to migrate data from EC2 instance Windows Server 1 (staging) to EC2 instance Windows Server 2 (production). So please Stop BoldReports_EnterpriseReporting application in IIS manager in Server 2.
 
 4. Copy the app_data folder from the C:\BoldServices\ location in Server 1 and paste that folder in the same location on Server 2.
 
-5. In Server 2, open your **config.xml** file and **product.json** file under **(C:\BoldServices\app_data\configuration)** folder and update the Server 2 domain name.
+5. In Server 2, open **config.xml** file and **product.json** file under **(C:\BoldServices\app_data\configuration)** folder and update the Server 2 domain name.
 
     **Config.xml**
 
@@ -28,11 +28,11 @@ We can migrate Bold Reports Server data from one EC2 instance Windows Server (st
 
     ![Product File](/static/assets/on-premise/images/how-to/product-ec2.png)
 
-6. Start the BoldReports_EnterpriseReporting application in IIS manager.
+6. Start the **BoldReports_EnterpriseReporting** application in IIS manager.
 
-7. In Server 2 go to site listing page of UMS application.
+7. In Server 2 go to the site listing page of UMS application.
 
-8. Go to settings and change the Site URL with your domain name like below
+8. Go to the settings and change the Site URL with your domain name like below.
 
    ![Create Site](/static/assets/on-premise/images/how-to/create-site-ec2.png)
 
@@ -40,7 +40,7 @@ We can migrate Bold Reports Server data from one EC2 instance Windows Server (st
 
    ![Edit Site](/static/assets/on-premise/images/how-to/edit-site-ec2.png)
 
-10. Update the domain name of server 2
+10. Update the domain name of server 2.
 
     ![Site Url](/static/assets/on-premise/images/how-to/site-url-ec2.png)
 
@@ -48,4 +48,4 @@ We can migrate Bold Reports Server data from one EC2 instance Windows Server (st
 
     ![Update password](/static/assets/on-premise/images/how-to/update-password-ec2.png)
 
-12. Repeat the steps from 9 to 11 for all your tenants. Now your reports sites will launch with your existing data.
+12. Repeat the steps from 9 to 11 for all your tenants. Now your Bold report sites will launch with your existing data.

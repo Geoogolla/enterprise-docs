@@ -11,13 +11,13 @@ documentation: ug
 We can migrate Bold Reports Server data from one server to another server without any data loss. It involves a few manual steps, as below.
 1. Before proceeding with the migration, Deploy the same version of Bold Reports on your target app service.
 
-2. We need to make some configuration changes in files to migrate data from app service 1 to app service 2. So please Stop Bold Report Server in azure app service.
+2. We need to make some configuration changes in the files to migrate data from app service 1 to app service 2, So please stop Bold Report Server in azure app service.
 
 Please follow the below steps to change the configurations on the target server,
 
 ## Copy Database
 
-You need to copy all the databases used in Bold Reports Applications of azure app service 1 to azure app service 2.
+You need to copy all the databases used in Bold Reports Application from azure app service 1 to azure app service 2.
 
 1. Go to Azure SQL Server of Azure App Service 1.
 
@@ -29,9 +29,9 @@ You need to copy all the databases used in Bold Reports Applications of azure ap
 
 4. Now, Enter the azure app service 2 database details
 
-    * Type in the database name [Data base name must be same as azure app service 1 database name]
-    * Select the azure app service 2 SQL Server name
-    * Choose “Yes” if you want to host it in the elastic database pool. If not, leave the default value “No”
+    * Type in the database name [Data base name must be same as azure app service 1 database name].
+    * Select the azure app service 2 SQL Server name.
+    * Choose “Yes” if you want to host it in the elastic database pool. If not, leave the default value “No”.
     * Decide the Compute and Storage.
     * Click **Create**.
 
@@ -39,13 +39,13 @@ You need to copy all the databases used in Bold Reports Applications of azure ap
 
 5. Now the database is available in Azure app service 2 SQL server.
 
-> Note : Please follow the copy database steps for all the database which is used for boldreport server application.
+> Note : Please follow the copy database steps for all the databases which is used in boldreport server application.
 
 ## Update database connection string in Bold Reports
 
-Application data will be stored in the app_data folder, and this will make the Bold Reports a stateful application.
+Application data will always be stored in the app_data folder, So this will make the Bold Reports a stateful application.
 
-1. Go to storage account of azure app service 1, which is created at the deployment time of Bold Reports in azure app service 1 and go to container section
+1. Go to storage account of azure app service 1, which is created at the deployment time of Bold Reports in azure app service 1 and go to the container section.
 
    ![Container](/static/assets/on-premise/images/how-to/container.png)
 
@@ -53,7 +53,7 @@ Application data will be stored in the app_data folder, and this will make the B
 
    ![Bold reports Container](/static/assets/on-premise/images/how-to/reports-container.png)
 
-3. Download the config.xml and privatekey.dat file.
+3. Download the **config.xml** and **privatekey.dat** file.
 
    ![Download](/static/assets/on-premise/images/how-to/download.png)
 
@@ -63,11 +63,11 @@ Application data will be stored in the app_data folder, and this will make the B
 
 6. Create new folder **app_data\configuration** under the adminutils folder as like in below screenshot.
 
-7. Copy the config.xml and privatekeys.dat files which is download from step 2 and paste it under **adminutils-1865244183\app_data\configuration**
+7. Copy the config.xml and privatekeys.dat files which is downloaded from step 2 and paste it under **adminutils-1865244183\app_data\configuration**
 
    ![Config](/static/assets/on-premise/images/how-to/config.png)
 
-8. Navigate to the utility directory in command prompt and run the following command
+8. Navigate to the utility directory in the command prompt and run the following command.
 
    **Syncfusion.Server.Commands.Utility.exe dbconfig -servername "localhost" -databasename "BoldReportsMasterDatabase" -u "Admin" -p "Admin@12345" -iswindowsauthentication false -sslenabled false**
 
@@ -89,11 +89,11 @@ Application data will be stored in the app_data folder, and this will make the B
 
    sslenabled – Is encrypted connection required (this is optional)
 
-9. Once it ran successfully, Open the **config.xml** file which is located in **adminutils-1865244183\app_data\configuration** and update the target azure app service url under the InternalAppUrls
+9. Once the command executed successfully, Open the **config.xml** file which is located in **adminutils-1865244183\app_data\configuration** and update the target azure app service url under the InternalAppUrls.
 
    ![App service url](/static/assets/on-premise/images/how-to/app-service-url.png)
 
-10. Now, we need update config.xml and privatekey.dat file to target storage account of azure app service.
+10. Now, we need to update config.xml and privatekey.dat file to target storage account of azure app service.
 
 11. Go to your storage account of azure app service 2, which is created at the deployment time of Bold Reports in azure app service 2 and in container section navigate to the following location. **boldreportscontainer/boldservices/app_data/configuration**
 
@@ -101,7 +101,7 @@ Application data will be stored in the app_data folder, and this will make the B
 
     ![Delete Option](/static/assets/on-premise/images/how-to/delete.png)
 
-13. Click Upload and select the config.xml and privatekey.dat file from the below location **adminutils-1865244183\app_data\configuration** and update it.
+13. Click Upload and select the config.xml and privatekey.dat files from the below location **adminutils-1865244183\app_data\configuration** and update it.
 
     ![Upload option](/static/assets/on-premise/images/how-to/upload.png)
 
@@ -115,13 +115,13 @@ We need update the values in each database in sql server of azure app service 2 
 
 * [dbo].[BOLDTC_Tenant]
 
-> **Note:** [dbo].[BOLDTC_SystemSettings] and [dbo].[BOLDTC_Tenant] tables are available on master database only.
+> **Note:** [dbo].[BOLDTC_SystemSettings] and [dbo].[BOLDTC_Tenant] tables are available only in master database.
 
 ## Queries to update the storage account details and base url
 
-We need to update the storage account details and base url of azure app service 2.
+Update the storage account details and base url of azure app service 2 by using the below queries.
 
-**Query for update values in [dbo].[BOLDTC_Tenant] table:**
+**Query for updating values in [dbo].[BOLDTC_Tenant] table:**
 
 ``` sql
 USE [Database_name]
@@ -129,7 +129,7 @@ UPDATE [dbo].[BOLDTC_Tenant]
    SET DNS = '<azure_app_service_url>/reporting'
 ```
 
-**Query for update values in [dbo].[BOLDTC_SystemSettings] table:**
+**Query for updating values in [dbo].[BOLDTC_SystemSettings] table:**
 
 ``` sql
 USE [Database_name]
@@ -144,7 +144,7 @@ SET SystemValue = CASE [SystemKey]
 WHERE [SystemKey] in ('BaseUrl','AzureBlobStorageUri','ConnectionString','BlobStorageAccountName', 'BlobStorageAccessKey');
 ```
 
-**Query for update values in [dbo].[BOLDRS_SystemSettings] table:**
+**Query for updating values in [dbo].[BOLDRS_SystemSettings] table:**
 
 ``` sql
 USE [Database_name]
@@ -157,21 +157,21 @@ SET Value = CASE [Key]
 WHERE [Key] in ('BaseUrl','AzureBlobStorageUri','ConnectionString');
 ```
 
-Once the above queries executed successfully for all the database, Every data is migrated to azure app service 2.
+Once the above queries executed successfully for all the database, Each and Every data is migrated to azure app service 2.
 
 1. Now start the azure app service 2.
 
 2. Go to the site listing page of UMS application.
 
-3. Click the context menu and select the edit option
+3. Click the context menu and select the edit option.
 
    ![Edit Site](/static/assets/on-premise/images/how-to/context-edit.png)
 
-4. Proceed to the next page
+4. Proceed to the next page.
   
    ![Create Site](/static/assets/on-premise/images/how-to/site-creation.png)
 
-5. Here, you will find an option to change the site’s database connection. Modify the servername, and username and password and update the details.
+5. Here, you will find an option to change the site’s database connection. Modify the servername, username and password and update the details.
 
    ![Update Password](/static/assets/on-premise/images/how-to/update-password.png)
 

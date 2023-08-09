@@ -6,19 +6,19 @@ platform: embedded-reporting-tools
 documentation: ug
 ---
 
-# How to migrate from one Sycfusion server single tenant to Bold reports multiple server in blob storage
+# How to migrate from one syncfusion single tenant server to Bold reports multiple tenant server in azure blob storage
 
 1. Create the folder IDP and Report Server in your local machine as shown in the following screenshot.
 
    ![Azure Blob folder](/static/assets/on-premise/images/how-to/blob-folder.png)
 
-2. Create the following sub-folders structure like **/App_Data/Configuration/** under IDP folder.
+2. Create the following sub-folders structure like **/App_Data/Configuration/** under **IDP** folder.
 
 3. Go to your storage account, which is created at the deployment time of Bold Reports (multi tenant)and in container section navigate to following location. **boldreportscontainer/boldservices/app_data/configuration**
 
    ![Azure Blob location](/static/assets/on-premise/images/how-to/blob-location.png)
 
-4. Download the **config.xml** and **privatekeys.dat** file to the folder **IDP/App_Data/Configuration**
+4. Download the **config.xml** and **privatekeys.dat** files to the folder **IDP/App_Data/Configuration**
 
    ![Azure Blob download option](/static/assets/on-premise/images/how-to/blob-download.png)
 
@@ -38,7 +38,7 @@ documentation: ug
 
 1. Download the shared Migration Utility zip folder from [Utility](https://www.syncfusion.com/downloads/support/common/5100/ze/Migration_Utility_4f292a75.zip).
 
-2. Extract the file and edit the **Syncfusion.Server.DataMigration.exe.config** file.
+2. Extract the folder and edit the **Syncfusion.Server.DataMigration.exe.config** file.
 
 3. Update the values of below listed keys in the config file.
 
@@ -65,7 +65,7 @@ documentation: ug
    <add key=" BoldReportsIDPPath" value="D:\migration\IDP" />
    ```
 
-6. Run the tool Syncfusion.Server.DataMigration.exe from the extracted location.
+6. Run the tool **Syncfusion.Server.DataMigration.exe** from the extracted location.
 
    ![Blob Utility](/static/assets/on-premise/images/how-to/blob-utility.png)
 
@@ -74,6 +74,6 @@ documentation: ug
 >
 > * Also, the utility will not migrate the following items like Admin Settings and Profile Pictures.<br>
 >
-> * The utility will not migrate the password of the user. So we need to set the password manually. In ums page set password for the user manually as shown in the screenshot below..<br>
+> * The utility will not migrate the password of the user. So we need to set the password manually. In ums page set password for the user manually as shown in the screenshot below.<br>
 ><br>
 > ![Blob password](/static/assets/on-premise/images/how-to/blob-password.png)

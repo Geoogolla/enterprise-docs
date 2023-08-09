@@ -135,6 +135,14 @@
         }
     },
     "How To": {
+        "Migration":{
+            "One server to another server using Sql database?":"migrate-server-to-another-server-using-sql-database.md",
+            "One server to another server using Postgresql database?":"migrate-server-to-another-server-using-postgresql-database.md",
+            "One server to another server without database?":"migrate-server-to-another-server-without-database.md",
+            "One server to another bold reports server with database in azure app service?":"migrate-bold-reports-server-with-database-in-azure-app-service.md",
+            "EC2 instance windows server to another server with postgresql database?":"migrate-ec2-instance-windows-server-with-postgresql-database.md",
+            "One single tenant server to multiple server in azure blob storage?":"migrate-from-one-server-single-tenant-to-multiple-server-in-azure-blob-storage.md"
+        },
         "Map a domain name to Bold Reports site before startup": "map-a-domain-name-to-bold-reports-site-before-startup.md",
         "How to resolve unavailable error when deploying on Bold Reports site":"resolve-unavailable-error-when-site-fails-incase-of-domain-name-change.md",
         "Setup the development staging and production environment for BoldReportsOn-PremiseEdition": "setup-the-development-staging-and-production-environment-for-bold-reports-on-premise-edition.md",
@@ -154,13 +162,7 @@
         "Limit the user/group Synchronization": "can-we-limit-the-user-or-group-synchronization.md",
 		"Configure SSL for Bold Reports in IIS Manager":"configure-ssl-for-bold-reports-in-iis-manager.md",
         "How to check the Status and Health for Bold Reports Services":"how-to-check-the-status-and-health-for-bold-reports-services.md",
-        "Embed the report with user impersonation":"embed-the-report-with-user-impersonation",
-        "How to migrate from one server to another using Sql database?":"migrate-server-to-another-server-using-sql-database.md",
-        "How to migrate from one server to another using Postgres database?":"migrate-server-to-another-server-using-postgresql-database.md",
-        "How to migrate from one server to another without using database?":"migrate-server-to-another-server-without-database.md",
-        "How to migrate bold reports server with database in azure app service?":"migrate-bold-reports-server-with-database-in-azure-app-service.md",
-        "How to migrate EC2 instance windows server with postgresql database?":"migrate-ec2-instance-windows-server-with-postgresql-database.md",
-        "How to migrate from one server single tenant to multiple server in azure blob storage?":"migrate-from-one-server-single-tenant-to-multiple-server-in-azure-blob-storage.md"
+        "Embed the report with user impersonation":"embed-the-report-with-user-impersonation"
     },
     "FAQ": {
         "Bold Reports Architecture":"bold-reports-architecture.md",

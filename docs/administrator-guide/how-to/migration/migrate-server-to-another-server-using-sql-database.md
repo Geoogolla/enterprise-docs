@@ -12,7 +12,7 @@ We can migrate Bold Reports Server data from one server to another server withou
 
 2. After installation, do not launch or start the application.
 
-3. We need to make some configuration changes in files to migrate data from Server-1 to Server-2. So please Stop **BoldReports_EnterpriseReporting** application in IIS manager.
+3. We need to make some configuration changes in the files to migrate data from Server-1 to Server-2. So please Stop **BoldReports_EnterpriseReporting** application in IIS manager.
 
 4. Application data will be stored in the **app\_data** folder, and this will make the Bold Reports a stateful application. So, we need to copy the **app\_data** folder under **Deployed location:\BoldService** from Server-1 and paste that folder in the same location on Server-2.
    ![app-data](/static/assets/on-premise/images/how-to/app-data.png)
