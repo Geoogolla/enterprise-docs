@@ -1,7 +1,7 @@
 ---
 layout: post
 title: How to migrate queries for Bold Reports | Bold Reports
-description: This section explains to get the answer for the frequently asked how to queries for migrating from one server to another server in Bold Reports Enterprise Reporting
+description: This section provides answers to common migration queries when moving from one server to another in Bold Reports Enterprise Reporting.
 platform: report-platform
 documentation: ug
 ---
