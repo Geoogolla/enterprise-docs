@@ -86,3 +86,5 @@ aws
 opensearch
 ssl
 podman
+ec2
+instance
