@@ -475,7 +475,10 @@
             "Delete Reports": "delete-report.md",
             "Version History": "version-history-of-report.md",
             "Download Report": "download-report.md",
-            "Manage Report Views": "manage-report-views.md",
+            "Manage Views": {
+                "Manage Views in EJ1-viewer": "viewer.md",
+                "Manage Views in EJ2-viewer": "modern-viewer.md"
+            },
             "Export report": "export-report.md"
         },
         "DataSources": "data-sources-management.md",
