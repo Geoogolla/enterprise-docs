@@ -40,3 +40,5 @@ Reports can be added, updated, downloaded, deleted and shared to other users, ba
 * [Report Views](./../reports/manage-report-views/)
 
 * [Export Report](./../reports/export-report/)
+
+* [View Report](./../reports/view-report/)

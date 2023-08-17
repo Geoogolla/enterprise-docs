@@ -476,7 +476,8 @@
             "Version History": "version-history-of-report.md",
             "Download Report": "download-report.md",
             "Manage Report Views": "manage-report-views.md",
-            "Export report": "export-report.md"
+            "Export report": "export-report.md",
+            "View Report": "view-report.md"
         },
         "DataSources": "data-sources-management.md",
         "DataSet": "dataset-management.md"
