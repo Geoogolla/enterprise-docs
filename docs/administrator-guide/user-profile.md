@@ -56,7 +56,7 @@ You can view and edit the following notification settings in the Report Server:
 
 ## Edit Viewer / Designer preference
 
-1. Go to user profile page by clicking the Profile icon in the Report Server.   
+1. Go to user profile page by clicking the Profile icon in the Report Server.  
     ![View user profile details](/static/assets/on-premise/images/user-profile/view-user-profile.png)
 
 2. Go to Viewer / Designer preference.
@@ -65,6 +65,6 @@ You can view and edit the following notification settings in the Report Server:
 3. You can modify the preference of the Viewer / Designer by clicking the `Edit` button as shown in the below images.
     ![Edit user preference](/static/assets/on-premise/images/user-profile/edit-preference.png)
     ![Switch user preference](/static/assets/on-premise/images/user-profile/switch-viewer.png)
-    
+
 4. After the details have been edited, click the `Save` button.
     > As you edit and view, the report is now displayed with the selected Viewer / Designer.
