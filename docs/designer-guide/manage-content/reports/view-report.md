@@ -8,12 +8,13 @@ documentation: ug
 
 # View report
 
-This section explains on how to open and view report in the Report Viewer directly from the Bold Reports On-Premise.
+This section explains on how to open and view report in the Bold Reports On-Premise.
 
-1. Click open icon to `Open` the report.
+1. Click the `Open` icon or click on the `Report Tile` in the list to open the report.
     ![Open a report](/static/assets/on-premise/images/manage-content/manage-reports/open-report.png)
+    ![Open a report](/static/assets/on-premise/images/manage-content/manage-reports/open-by-report-name.png)
 
-2. Now the report will be viewed through the default Report Viewer.
+2. Now the respective report will be viewed through the Report Viewer.
     ![view report](/static/assets/on-premise/images/manage-content/manage-reports/view-report.png)
 
-    > You can change the default Viewer by accessing the edit option in Viewer / Designer preference on the user profile page.
+    > You can view the report in a new viewer by toggling the `new Viewer` option in the page header or by setting your preferred viewer mode under [Viewer / Designer preference](./../../../../administrator-guide/user-profile/) on the user profile page.
