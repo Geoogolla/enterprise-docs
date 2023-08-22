@@ -25,9 +25,9 @@ This section explains on how to create report and design a report in the Bold Re
     >![Draft report](/static/assets/on-premise/images/manage-content/manage-reports/create-reports/draft-report.png)
 3. Now, the report designer page opens in a new tab, with a blank report by default.
 ![Report designer initial view](/static/assets/on-premise/images/manage-content/manage-reports/create-reports/report-designer-initial-view.png)
-4. To switch the old designer to new designer, click on the `Try the new designer` toggle button.
-![New Report designer initial view](/static/assets/on-premise/images/manage-content/manage-reports/create-reports/report-new-designer-initial-view.png)
-> `Read Write Delete` permission for that `Specific Report` will be added for the user who created the report.
+> * `Read Write Delete` permission for that `Specific Report` will be added for the user who created the report.
+> * Click on the `Try the new designer` toggle button if the user wants to try out a new designer.
+> ![New Report designer initial view](/static/assets/on-premise/images/manage-content/manage-reports/create-reports/report-new-designer-initial-view.png)
 
 ## Create Data
 
