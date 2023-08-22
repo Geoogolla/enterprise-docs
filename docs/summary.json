@@ -66,6 +66,7 @@
         }
     },  
     "Manage Permissions": "manage-permissions.md",
+    "User Role": "user-role.md",
     "Authentication": {
         "Single Sign On": {
             "OAuth 2.0": {
