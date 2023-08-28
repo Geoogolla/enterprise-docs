@@ -14,7 +14,7 @@
   "tags": [ 
   	{
       "name": "Items",
-      "description": "To retrieve a list of items, or retrieve, create, modify, and delete a particular item in the Bold Reports Cloud, use the corresponding endpoints below.\n"
+      "description": "To retrieve a list of items, or retrieve, create, modify, and delete a particular item in the Bold Reports On-Premise, use the corresponding endpoints below.\n"
     }
 	],
   "paths": {   
