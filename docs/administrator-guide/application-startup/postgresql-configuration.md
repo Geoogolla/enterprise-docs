@@ -10,7 +10,7 @@ documentation: ug
 
 Bold Reports have PostgreSQL database support for storing the user identities and report details.
 
-## PostgreSQL Database Configuration for Reports Server Sites
+## PostgreSQL Database Configuration for Bold Reports Server Sites
 
 This configuration stores the reports, users, and their access permissions in PostgreSQL Server Database.
 

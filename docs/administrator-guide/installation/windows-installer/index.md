@@ -78,7 +78,6 @@ If you did not install the client libraries during this installation, then after
 1. Go to the location C:\Program Files (x86)\Bold Reports Enterprise Edition\Client Library. And double click the setup file named ClientLibrary.msi.
 
 ![Location](/static/assets/on-premise/images/installation/location.png)
-
 2. Now, the client libraries dialog will open. Then, you can choose and install the required client libraries.
 ![install](/static/assets/on-premise/images/installation/install.png)
 
