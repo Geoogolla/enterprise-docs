@@ -20,7 +20,7 @@ Run the Bold Reports Enterprise Installer.
 
 ![Set up](/static/assets/on-premise/images/installation/setup.png)
 
-You can check the license agreement of Bold BI Enterprise edition by clicking the License Terms and Conditions.
+You can check the license agreement of Bold Reports Enterprise edition by clicking the License Terms and Conditions.
 
 ## Hosting type
 
@@ -28,9 +28,28 @@ You have been provided Bold Reports Enterprise Edition to be hosted in the IIS w
 
 ## IIS
 
-You need to provide the port number, location, and site name to host Bold BI Enterprise in the IIS.
+You need to provide the port number, location, and site name to host Bold Reports Enterprise in the IIS.
 
 ![IIS](/static/assets/on-premise/images/installation/iis.png)
+
+We can deploy the bold reports application as main application or subapplication.
+
+If you want to configure the Bold Reports application as the main application, please select `No` in Would you like to host Bold Reports - Enterprise Reporting as a sub application block and provide the Port Number and Site Name
+
+![Mainapplication_select](/static/assets/on-premise/images/installation/mainapplication_select.png)
+
+If you want to configure the Bold Reports application as a subapplication, please select `yes` in Would you like to host Bold Reports - Enterprise Reporting as a sub application block and follow the below steps.
+
+![Subapplication_select](/static/assets/on-premise/images/installation/subapplication_select.png)
+
+1. Select your required main\root application name in the `Site Name` drop down option
+
+2. Select your required Domain Name in the `Domain Name` drop down option for your respective main/root application
+
+3. Provide a sub application name in the `Sub Application Name` field to host the Bold Reports Enterprise Reporting as a sub application
+![Subapplication_select](/static/assets/on-premise/images/installation/subapplication_details.png)
+
+Once provided all the details to host the application in IIS and click `Next` to proceed further.
 
 ## PhantomJS
 
@@ -40,7 +59,7 @@ Read and accept the license and third-party terms and conditions by checking the
 
 ![Panthom](/static/assets/on-premise/images/installation/panthom.png)
 
-> **NOTE**: If you have any problem with internet connection or do not have internet connection, unselect the PhantomJS download option and continue to install. To manually install the PhantomJS.
+> **NOTE**: If you have internet connection problem or if you are installing on an air-gapped machine, unselect the PhantomJS download option below and continue to install. You can also install it manually later by following the instructions [here](https://help.boldreports.com/enterprise-reporting/administrator-guide/faq/how-to-install-phantomjs-manually/).
 
 ### Client libraries
 
@@ -60,22 +79,8 @@ If you did not install the client libraries during this installation, then after
 
 ![Location](/static/assets/on-premise/images/installation/location.png)
 
-1. Now, the client libraries dialog will open. Then, you can choose and install the required client libraries.
-
+2. Now, the client libraries dialog will open. Then, you can choose and install the required client libraries.
 ![install](/static/assets/on-premise/images/installation/install.png)
-
-#### Bold BI with Bold Reports Enterprise Reporting Edition Installation
-
-If Bold BI already installed in your machine and your installing Bold Reports Enterprise Reporting Edition, it will ask confirmation for Common Login.
-
-![Installation LaunchApplication](/static/assets/on-premise/images/getting-started/common-login.png)
-
-Click on `yes`, it will have common login for `BoldBI` and `BoldReportsEnterprise Reporting Edition` products. In IIS, it will deploy as Single site.
-![Installation LaunchApplication](/static/assets/on-premise/images/getting-started/common-login-in-IIS.png)
-
-Click on `No`, it will not have common login for `BoldBI` and `BoldReportsEnterprise Reporting Edition` products. In IIS, it will deploy two sites `BoldBIOnPremiseEdition` and `BoldReportsEnterprise Reporting Edition`.
-
->Bold Reports Azure App Service can be deployed in Azure by following the [link](../azure-app-service/).
 
 ## How to change the binding in the Bold Reports Enterprise Reporting
 

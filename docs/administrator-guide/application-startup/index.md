@@ -8,9 +8,9 @@ documentation: ug
 
 # Application Startup
 
-> NOTE: If you have already installed Bold BI in your machine, please go to the [this section](./../application-startup/#activate-bold-reports-license) to activate your Bold Reports account.
+> **NOTE**: If you have already installed Bold BI on your machine, please go to [this section](./../application-startup/#activate-bold-reports-license) to activate your Bold Reports account.
 
-This topic describes how to startup the  Bold Reports Enterprise Application.
+This topic describes how to activate the account and startup the  Bold Reports Enterprise Application.
 
 You can activate your account either by using your login credentials or by offline unlock key.
 
@@ -38,11 +38,11 @@ If you are having multiple Bold Reports licenses, then you will be getting this 
 
 ## Offline Installation
 
-> **NOTE:** Offline unlock key available for selected customers only. Please [contact us](https://www.boldreports.com/contact) to get access to offline unlock key.
+> **NOTE:** Offline unlock key available for selected customers only. Please [contact us](https://www.boldreports.com/contact) to get access to the offline unlock key.
 
 ![Activate the account with Unlock key option](/static/assets/on-premise/images/getting-started/application-startup-login-license.png)
 
-If you are installing the Bold Reports in firewall restricted environments, you can use offline unlock key to activate the account. Please download your offline unlock key [here](https://www.boldreports.com/account/downloads/embedded).
+If you are installing the Bold Reports in firewall restricted environments, you can use the offline unlock key to activate the account. Please download your offline unlock key [here](https://www.boldreports.com/account/downloads/embedded).
 
 ![Unlock key file page](/static/assets/on-premise/images/getting-started/offline-setup-page.png)
 
@@ -67,72 +67,21 @@ If you do not have an account for Bold Reports, you can request a new trial from
 
 ## Application Startup for Bold Reports Enterprise
 
-Application startup screen helps you to configure storage options and admin account setup.
+The application startup screen helps you to configure storage options and admin account setup.
 
-Application startup holds the storage options configuration for below application,
+The application startup holds the storage options configuration for the below application,
 1. Bold Reports Sites - Manages user identities and sites
 2. Bold Reports Server- Manages reports, data sources, dataset, schedules and the user permissions.
 
-## Storage Options
-
-* SQL server, Azure SQL
-* PostgreSQL
-* MySQL
-
-## Database Configuration for Bold ID
-
-This configuration stores the user identities and sites details in the database. You can use anyone of the following database to configure the Bold ID.
-
-You can connect to the existing SQL Server instance with the below options.
-
-* Create new database.
-* Use an existing database.
-
-![SQL Server](/static/assets/on-premise/images/getting-started/application-startup-step1.png)
-
-### Create New Database
-
-[Database Configuration for Bold ID in SQL Server](./sql-configuration/#sql-server-database-configuration-for-bold-id)
-
-[Database Configuration for Bold ID in PostgreSQL](./postgresql-configuration/#postgresql-database-configuration-for-bold-id)
-
-[Database Configuration for Bold ID in MySQL](./mysql-configuration/#mysql-database-configuration-for-bold-id).
-
-### Existing Database
-
-Existing database can be used to configure the database to store the user identities and report details.
-
-> The credentials that is given to connect to database Server instance must have permissions to
-> * Create Database
-> * Create Table
-> * Insert
-> * Update Table
-> * Alter Table
-> * Select
-> * Drop Table
-> * Drop Database
-
-## Storage Type for Bold ID
-
-User can select the preferred storage type File Storage or Blob Storage to store the resource in BoldReports Sites
-
-![Storage Type](/static/assets/on-premise/images/getting-started/storage-type.png)
-
-## Blob Storage
-
-User can select the Blob Storage by giving Azure Blob Credential in the required field
-
-![Blob Storage](/static/assets/on-premise/images/getting-started/select-storage-type-blobstorage.png)
-
 ## New User - System Administrator
 
-New user should be created to access the Bold Reports Sites and Reports with the details mentioned in the below image.
+A new user should be created to access the Bold Reports sites and reports with the details mentioned in the below image.
 
 ![Admin User Registration](/static/assets/on-premise/images/getting-started/application-startup-admin.png)
 
-While creating this new user account, a new group `System Administrator` is also created.
+While creating this new user account, a new group called `System Administrator` is also created.
 
-By default, `System Administrator` group have permission to do the below
+By default, the `System Administrator` group has permission to do the following:
 
 * Create Reports
 * Create Data Sources
@@ -145,15 +94,19 @@ By default, `System Administrator` group have permission to do the below
 The new user account created is assigned to this group by default.
 ![Bold Reports Server](/static/assets/on-premise/images/getting-started/starting-bold-reports-server.png)
 
-## Site Configuration for Bold Reports Sites
+## Database Configuration
 
-User can select the preferred Site Name and Site Identifier for the initial site.
+This configuration helps you to configure single or individual databases for Bold ID and Bold Reports configuration.
 
-![Site Name](/static/assets/on-premise/images/getting-started/site-name.png)
+`Bold ID` database stores the tenants, users, and their tenant access information.
 
-## Database Configuration for Bold Reports Server
+`Bold Reports` database stores the reports, users, and their resource access permissions. You can use anyone of the following database to configure the Bold Reports Server.
 
-This configuration stores the reports, users and their access permissions in the database. You can use anyone of the following database to configure the Bold Reports Server.
+## Storage Options
+
+* SQL server, Azure SQL
+* PostgreSQL
+* MySQL
 
 You can connect to the existing SQL Server instance with the below options.
 
@@ -172,16 +125,9 @@ You can connect to the existing SQL Server instance with the below options.
 
 ### Existing Database
 
-Existing database can be used to configure database to store the reports, users and their access permissions.
+Existing database can be used to configure the database to store the user identities and report details.
 
-You can connect to the existing MySQL Server instance with the below options.
-
-* Create new database.
-* Use an existing database.
-
-![MySQL Server Site](/static/assets/on-premise/images/getting-started/application-startup-site-registration-MySQL-server.png)
-
-> The credentials that is given to connect to the SQL Server instance must have permissions to
+> The credentials that is given to connect to database Server instance must have permissions to
 > * Create Database
 > * Create Table
 > * Insert
@@ -191,13 +137,43 @@ You can connect to the existing MySQL Server instance with the below options.
 > * Drop Table
 > * Drop Database
 
-## Storage Type for Bold Reports Server
+Here, user can select a simple or advanced mode for configuration.
 
-User can select the preferred storage type File Storage or Blob Storage to store the report,datasource and dataset in BoldReports Server.
+#### Simple mode
 
-![Storage Type](/static/assets/on-premise/images/getting-started/site-storage-type.png)
+Configure a single database for Bold ID and Bold Reports.
+
+This configuration stores the user identities, site details, reports, users, and their access permissions in a single database.
+
+The sites will be deployed to the local file system by default in **Simple mode**
+
+![Simple Mode](/static/assets/on-premise/images/getting-started/simple-mode-site-registration.png)
+
+#### Advanced mode
+
+Configure individual databases for Bold ID and Bold Reports, and choose between local file system and Azure Blob Storage for Bold ID and Bold Reports.
+
+`Bold ID` database stores user identities and site details.
+
+`Bold Reports` database stores reports, users, and their access permissions.
+
+![Advanced Mode](/static/assets/on-premise/images/getting-started/advanced-mode-site-registration.png)
+
+## Storage Configuration
+
+In advanced mode, the user can select the preferred storage type, either File Storage or Blob Storage, to store the resource in Bold ID and Bold Reports.
+
+![Storage Configuration](/static/assets/on-premise/images/getting-started/advanced-mode-storage-configuration.png)
+
+> By default, storage type is File Storage.
+User can select the Blob Storage by giving Azure Blob Credential in the required field.
+
+![Azure Blob Storage](/static/assets/on-premise/images/getting-started/azure-blob-storage.png)
+
+You can find the details how to configure the Azure Blob [here](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-quickstart-blobs-portal).
 
 Once the process completed, you can able to
+
 * Manage sites – where you can manage permissions for the sites you have created.
 * Go to Reports - where you can create, edit, update the reports and so on.
 
