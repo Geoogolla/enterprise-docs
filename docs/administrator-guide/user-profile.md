@@ -8,7 +8,7 @@ documentation: ug
 
 # User Profile
 
-This section describes the options available for users to view and manage their profile. The options are:
+This section describes the options available for users to view and manage their profiles. The options are:
 
 * View profile
 * Edit profile
