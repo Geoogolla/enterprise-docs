@@ -8,7 +8,7 @@ documentation: ug
 
 # Dataset management in Report Server
 
-You can create and store dataset on a Report Server that can be used by multiple reports. When you create or upload a dataset to Report Server, it is considered as shared dataset and it always placed in the `Datasets` page. A shared dataset must be based on a shared data source. Datasets are accessible to the user depending on the user’s permission. This section explains about dataset management in Report Server. Allows you to create, edit, update, sharing permissions and delete data sets in the Bold Reports On-Premise. The following image shows the list of options available to manage dataset.
+You can create and store datasets on a Report Server that can be used by multiple reports. When you create or upload a dataset to the Report Server, it is considered a shared dataset and is always placed on the `Dataset` page. A shared dataset must be based on a shared data source. Datasets are accessible to users depending on their permissions. This section explains about dataset management in the Report Server. Allows you to create, edit, update, sharing permissions and delete datasets in Bold Reports On-Premise. The following image shows the list of options available to manage dataset.
 
 ![Options available to manage data sets](/static/assets/on-premise/images/manage-content/manage-data-sets/managing-datasets.png)
 
