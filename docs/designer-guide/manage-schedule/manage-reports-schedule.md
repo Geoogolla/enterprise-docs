@@ -20,13 +20,13 @@ The schedules page displays the schedules that are accessible to the user based 
 
 Schedules can be created only if the user has `Create All Schedules` permission. Schedules can be created in three ways:
 
-1. Add a schedule from the + button in the left side menu.
+1. Add a schedule from the `+` symbol in the left side menu.
 2. Add a schedule from the context menu of the respective reports.
 3. Add a schedule from the schedule listing page.
 
 ### Add a schedule from the Create button menu
 
-* Click on the `+` button in the left side menu and choose `Schedule` under `Create` to add a schedule.
+* Click on the `+` symbol in the left side menu and choose `Schedule` to create a new schedule.
 ![Create Schedule](/static/assets/on-premise/images/manage-schedule/manage-report-schedules/create-schedule1.png)
 
 ### Add the schedule from the context menu of the respective reports
