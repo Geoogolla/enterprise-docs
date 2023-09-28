@@ -92,7 +92,6 @@ Use `Ajax` to interact with RESTful APIs. Refer to the following code to generat
 Use `Http` module to interact with RESTful APIs. Refer to the following code to generate the authorization using the credential.
 
 ```js
-
 function token(res, callback, callbackInput) {
   var postData = JSON.stringify({
     userid: 'guest@boldreports.com',

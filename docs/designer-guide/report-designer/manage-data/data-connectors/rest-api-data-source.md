@@ -190,7 +190,6 @@ Enter the direct value in the text area, for example
   "Excerpt": "Lorem lorem lorem. Lorem lorem lorem. Lorem lorem lorem.\r\n",
   "PublishDate": "2020-08-06T10:42:22.464Z"
 }
-
 ```
 
 ### How to pass dynamic value for raw data
@@ -224,7 +223,6 @@ The above action will post the information into specified REST API URL and take 
    When passing data as JSON object, it should be enclosed with in double quotes, the key/value strings should be enclosed within single quotes. Otherwise it can follow any syntax which supports the Client-Server transaction.
 
    ```json
-
    = "{'ItemType':'Dataset','ReportReferences':['3fe0ea1c-b6a1-4b20-95dd-158edd24ae4b']}"
    ```
 
@@ -247,7 +245,6 @@ When mentioning expressions, it should be in a single line format, not in multip
 ```html
 ="{ 'ID': 220, 'Title': 'Book 220', 'Description': 'Book 220 added', 'PageCount': 100, 'Excerpt': 'Lorem lorem lorem. Lorem lorem lorem. Lorem lorem lorem.\r\n', 'PublishDate': '2020-08-06T10:42:22.464Z' }"
 ```
-
 ![Enter expression](/static/assets/on-premise/images/report-designer/manage-data/web-data-source/exp-syntax.png)
 
 **Incorrect format** :
@@ -262,7 +259,6 @@ When mentioning expressions, it should be in a single line format, not in multip
   'PublishDate': '2020-08-06T10:42:22.464Z'
 }"
 ```
-
 ![Enter expression](/static/assets/on-premise/images/report-designer/manage-data/web-data-source/wrong-exp-syntax.png)
 
 To use the Parameters with Json object, follow the below syntax,
@@ -270,7 +266,6 @@ To use the Parameters with Json object, follow the below syntax,
 ```html
 ="{'ID': '" & Parameters!id.Value & "','Title':'" & Parameters!title.Value & "','Description':'" & Parameters!description.Value & "','PageCount':'" & Parameters!pageCount.Value & "','Excerpt':'" & Parameters!excerpt.Value & "','PublishDate':'" & Parameters!publishDate.Value & "'}"
 ```
-
 ![Enter expression](/static/assets/on-premise/images/report-designer/manage-data/web-data-source/exp-param-syntax.png)
 
 ## Pagination

@@ -75,7 +75,6 @@ Connection strings are the text representation of connection properties for a da
 If the database is on your local computer. Specify connection string like the below.
 
 ```bash
-
 Host=localhost;Port=5432;Database=Northwind;User ID=postgres;Password=1234
 
 ```
@@ -83,7 +82,6 @@ Host=localhost;Port=5432;Database=Northwind;User ID=postgres;Password=1234
 If database is located in any other server domain, specify connection string like the below.
 
 ```bash
-
 Host=myserver.domain.com;Port=5432;Database=Northwind;User ID=postgres;Password=1234;
 
 ```
