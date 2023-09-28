@@ -60,7 +60,6 @@ Use `HTTPClient` with `ASP.NET Core`, `ASP.NET MVC`, and `ASP.NET Web Forms` app
 
         public string password { get; set; }
     }
-
 ```
 
 ## JavaScript
