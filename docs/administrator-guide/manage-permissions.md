@@ -74,7 +74,7 @@ Choose scopes for the following entities only, other entities do not require sco
 4. Click **Add** in the Add Permission dialog box to add permissions to users as shown in the following image.
 ![Add permission to user](/static/assets/on-premise/images/manage-permissions/add-permission-to-user.png)
 
-N>By clicking on the check box `Add another`, you can add multiple permission to the groups.
+> **Note**: By clicking on the check box `Add another`, you can add multiple permission to the groups.
 
 ### Steps to add permission to users
 
