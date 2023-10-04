@@ -115,6 +115,7 @@
           },
         "Manage Sites": "manage-sites",
         "Manage Users": "manage-users",
+        "Two Factor Authentication":"two-factor-authentication.md",
         "Manage Admin Access": "manage-admin-access.md"
     },
     "User Profile": "user-profile.md",
