@@ -12,7 +12,7 @@ Bold Reports have PostgreSQL database support for storing the user identities an
 
 ## PostgreSQL Database Configuration for Bold Reports Server Sites
 
-This configuration stores the reports, users, and their access permissions in PostgreSQL Server Database.
+This configuration stores the reports, users and their access permissions in PostgreSQL Server Database.
 
 You can connect to the existing PostgreSQL Server instance by following the below steps.
 

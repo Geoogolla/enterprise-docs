@@ -8,9 +8,9 @@ documentation: ug
 
 # Application Startup
 
-> **NOTE**: If you have already installed Bold BI on your machine, please go to [this section](./../application-startup/#activate-bold-reports-license) to activate your Bold Reports account.
+> **NOTE**: If you have already installed Bold Reports on your machine, please go to [this section](./../application-startup/#activate-bold-reports-license) to activate your Bold Reports account.
 
-This topic describes how to activate the account and startup the  Bold Reports Enterprise Application.
+This topic describes how to activate the account and startup the Bold Reports Enterprise Application.
 
 You can activate your account either by using your login credentials or by offline unlock key.
 
