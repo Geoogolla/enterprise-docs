@@ -11,6 +11,8 @@ Reports can be added, updated, downloaded, deleted and shared to other users, ba
 
 * [Create Report](./../reports/create-report/)
 
+* [View Report](./../reports/view-report/)
+
 * [Edit Report](./../reports/edit-report/)
 
 * [Report Info](./../reports/report-info/)

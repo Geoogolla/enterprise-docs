@@ -5,10 +5,10 @@ node('BoldReports')
         string status="";
         try {
 	     stage('Install Software') {
-         	nodejs(nodeJSInstallationName: 'nodejs-14.16.0') {
+         	nodejs(nodeJSInstallationName: 'nodejs-18.10.0') {
          	bat 'npm config ls'
           	}                
-          	env.PATH = "C:\\tools\\jenkins.plugins.nodejs.tools.NodeJSInstallation\\nodejs-14.16.0;${env.PATH}"
+          	env.PATH = "C:\\tools\\jenkins.plugins.nodejs.tools.NodeJSInstallation\\nodejs-18.10.0;${env.PATH}"
         	}
 		
             stage 'Import'

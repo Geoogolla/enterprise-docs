@@ -23,3 +23,4 @@ Bold Reports designer provides an option called `Show unique values` when creati
 When the report runs, the unique values will be listed in parameter dropdown.
 
 ![Unique values in ssrs parameter drop down](/static/assets/on-premise/images/report-designer/how-to/distinct-values-parameter/parameters-with-unique-values.png)
+> The ability to get distinct values from parameter drop down feature was introduced in the BoldReports version 5.2.26. Ensure you have upgraded your report server to this version or later to access this feature.
