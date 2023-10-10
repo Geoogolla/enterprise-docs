@@ -14,8 +14,6 @@ Open your Bold ID UMS application URL and login with the Site Administrator acco
 
 Navigate to the `Settings` -> `Manage License`.
 
-In the Manage license page, click `Check License`.
-
    ![License Update Settings](/static/assets/on-premise/images/tenant-management/site-management/manage-license-page.png)
 
 From the login pop-up, please login with your Bold ID account linked with your Bold Reports subscription.
