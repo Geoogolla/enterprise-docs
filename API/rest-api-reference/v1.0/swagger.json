@@ -791,6 +791,50 @@
         }
       }
     },
+    "{domain}/reporting/api/site/{tenant-name}/v1.0/items/download": {
+      "post": {
+        "tags": [
+          "Items"
+        ],
+        "summary": "Download Report",
+        "description": "With this endpoint, users can download the report from the server by providing the respective details.",
+        "operationId": "Items_DownloadReport",
+        "parameters": [
+          {
+            "type": "guid",
+            "name": "ItemId",
+            "in": "formData",
+            "required": true,
+            "x-nullable": false,
+            "description": "Item ID"
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "Item has been downloaded successfully",
+            "schema": {
+              "$ref": "#/definitions/ApiDownloadReport"
+            },
+            "x-nullable": true
+          },
+          "400": {
+            "description": "Item ID is empty"
+          },
+          "401": {
+            "description": "Access denied"
+          },
+          "404": {
+            "description": "Item detail not found"
+          },
+          "405": {
+            "description": "Request Type was not POST"
+          },
+          "417": {
+            "description": "Failed to download the report"
+          }
+        }
+      }
+    },
     "{domain}/reporting/api/site/{tenant-name}/v1.0/reports/data-sources": {
       "post": {
         "tags": [
@@ -2988,6 +3032,34 @@
         "Description": {
           "type": "string",
           "description": "Category description."
+        }
+      }
+    },
+    "ApiDownloadReport": {
+      "type": "object",
+      "x-typeName": "ApiDownReport",
+      "additionalProperties": false,
+
+      "properties": {
+        "FileContent": {
+          "type": "string",
+          "description": "Returns the downloaded report in an array of bytes"
+        },
+        "ItemName": {
+          "type": "string",
+          "description": "Item name"
+        },
+        "Extension": {
+          "type": "string",
+          "description": "Item extension"
+        },
+        "Status": {
+          "type": "boolean",
+          "description": "Returns status of the API request"
+        },
+        "StatusMessage": {
+          "type": "string",
+          "description": "Returns the status message from the API."
         }
       }
     },

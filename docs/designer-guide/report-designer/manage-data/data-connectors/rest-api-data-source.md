@@ -190,7 +190,6 @@ Enter the direct value in the text area, for example
   "Excerpt": "Lorem lorem lorem. Lorem lorem lorem. Lorem lorem lorem.\r\n",
   "PublishDate": "2020-08-06T10:42:22.464Z"
 }
-
 ```
 
 ### How to pass dynamic value for raw data
@@ -224,7 +223,6 @@ The above action will post the information into specified REST API URL and take 
    When passing data as JSON object, it should be enclosed with in double quotes, the key/value strings should be enclosed within single quotes. Otherwise it can follow any syntax which supports the Client-Server transaction.
 
    ```json
-
    = "{'ItemType':'Dataset','ReportReferences':['3fe0ea1c-b6a1-4b20-95dd-158edd24ae4b']}"
    ```
 

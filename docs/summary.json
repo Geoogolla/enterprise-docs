@@ -463,6 +463,7 @@
     "Manage Content": {
         "Reports": {
             "Create Report": "create-report.md",
+            "View Report": "view-report.md",
             "Edit Report": "edit-report.md",
             "Report Info": "report-info.md",
             "Upload Report": "upload-report.md",
@@ -522,6 +523,8 @@
          "v2.0": "v2.0?html=true"
       },
     "v1.0": "v1.0?html=true",
-    "v2.0": "v2.0?html=true"
+    "v2.0": "v2.0?html=true",
+    "v3.0": "v3.0?html=true",
+    "v4.0": "v4.0?html=true"
 }
 }
