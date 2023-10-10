@@ -119,6 +119,41 @@
           }
         }
       }
+    },
+    "{domain}/reporting/api/site/{tenant-name}/v4.0/items?itemtype=report": {
+      "get": {
+        "tags": [
+          "Items"
+        ],
+        "summary": "Get Items using report tags",
+        "description": "The server retrieves the list of reports for the current user using tag name.",
+        "operationId": "Items_GetItems",
+        "parameters": [
+          {
+            "type": "string",
+            "name": "tags",
+            "in": "query",
+            "required": false,
+            "description": "Provide the report tag name(s). \\\n **Note**: If there are multiple tag names, they should be passed as comma-separated values i.e tags=tag1,tag2,tag3\\\n It is possible to obtain report details without using the tag query parameter.",
+            "x-nullable": false
+          }
+        ],
+        "responses": {
+          "200": {
+            "x-nullable": false,
+            "description": "List of items retrieved succesfully",
+            "schema": {
+              "$ref": "#/definitions/TagItemDetail"
+            }
+          },
+          "204": {
+            "description": "Item list is empty"
+          },
+          "405": {
+            "description": "Request Type was not GET"
+          }
+        }
+      }
     }
   },
   "definitions": {
@@ -454,6 +489,135 @@
               "$ref": "#/definitions/ItemType"
             }
           ]
+        }
+      }
+    },
+    "TagItemDetail": {
+      "type": "object",
+      "description": "Item details",
+      "properties": {
+        "CanRead": {
+          "type": "boolean",
+          "description": "Specifies the read permission of the item"
+        },
+        "CanWrite": {
+          "type": "boolean",
+          "description": "Specifies the write permission of the item"
+        },
+        "CanDelete": {
+          "type": "boolean",
+          "description": "Specifies the delete permission of the item"
+        },
+        "CanDownload": {
+          "type": "boolean",
+          "description": "Specifies the download permission of the item"
+        },
+        "CanSchedule": {
+          "type": "boolean",
+          "description": "Specifies the schedule permission of the item"
+        },
+        "CanOpen": {
+          "type": "boolean",
+          "description": "Specifies the open permission of the item"
+        },
+        "CanMove": {
+          "type": "boolean",
+          "description": "Specifies the move permission of the item"
+        },
+        "CanCopy": {
+          "type": "boolean",
+          "description": "Specifies the copy permission of the item"
+        },
+        "CanClone": {
+          "type": "boolean",
+          "description": "Specifies the clone permission of the item"
+        },
+        "CanCreateItem": {
+          "type": "boolean",
+          "description": "Specifies the create permission of the item"
+        },
+        "Id": {
+          "type": "string",
+          "description": "Item ID",
+          "format": "guid"
+        },
+        "ItemType": {
+          "description": "Item type",
+          "allOf": [
+            {
+              "$ref": "#/definitions/ItemType"
+            }
+          ]
+        },
+        "Name": {
+          "type": "string",
+          "description": "Item name"
+        },
+        "Description": {
+          "type": "string",
+          "description": "Item description"
+        },
+        "CategoryId": {
+          "type": "string",
+          "description": "Category ID",
+          "format": "guid"
+        },
+        "CategoryName": {
+          "type": "string",
+          "description": "Category name"
+        },
+        "CategoryDescription": {
+          "type": "string",
+          "description": "Category description"
+        },
+        "Tags":{
+          "type": "array",
+          "description": "Report tags",
+          "format": "string"
+        },
+        "CreatedById": {
+          "type": "integer",
+          "description": "Specifies the user ID of the item creator",
+          "format": "int32"
+        },
+        "CreatedByDisplayName": {
+          "type": "string",
+          "description": "Specifies the display name of the user who created the item"
+        },
+        "ModifiedById": {
+          "type": "integer",
+          "description": "Specifies the user ID of the item modifier",
+          "format": "int32"
+        },
+        "ModifiedByFullName": {
+          "type": "string",
+          "description": "Specifies the full name of the user who modified the item"
+        },
+        "ItemLocation": {
+          "type": "string",
+          "description": "Item location"
+        },
+        "CreatedDate": {
+          "type": "string",
+          "description": "Date created of item in string format"
+        },
+        "ModifiedDate": {
+          "type": "string",
+          "description": "Date modified of item in string format"
+        },
+        "ItemModifiedDate": {
+          "type": "string",
+          "description": "Date modified of item in date format",
+          "format": "date-time"
+        },
+        "ItemCreatedDate": {
+          "type": "string",
+          "description": "Date created of item in date format",
+          "format": "date-time"
+        },
+        "ReportId": {
+          "type": "string",
+          "format": "guid"
         }
       }
     },
