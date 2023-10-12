@@ -13,8 +13,7 @@ Click the `Actions` button in the Reports grid context menu and click `Info` to 
 
 ## Report Info Elements
 
-This section explains about  reports Info Elements from the Bold Reports On-Premise.Report info action have information about Report Id,Report Creator Name,
-Report Created Date,Report Modifier Name,Report Modifier Date,Report Category and Reports DataSource/DataSet Name.
+This section explains the reports Info Elements from the Bold Reports On-Premise. Report info action has information about Report Id,Report Creator Name,Report Created Date,Report Modifier Name,Report Modifier Date,Report Category and Reports Data Source/DataSet Name.
 
 > And if report create by shared DataSource/Shared DataSet it will show the DataSource/DataSet name otherwise If Report Created by only Embedded DataSource/DataSet
 It will show as Embedded in Reports.

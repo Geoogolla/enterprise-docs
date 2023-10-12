@@ -12,12 +12,11 @@ You should configure the database settings in the Report Server to import users 
 
 ## Configure database connection details
 
-1. To configure the database connection details, click the settings option in the Report Server left-side panel.
-2. Navigate to the User Directory tab and select **Database** as shown in the following image.
+1. To configure the database connection details, click the **Settings** option in the Report Server left-side panel.
+2. Navigate to the **User Directories** tab and select **Database** as shown in the following image.
 ![Database connection configuration page](/static/assets/on-premise/images/settings/database-settings-page.png)
 3. You can import users from the following types of databases:
     * SQL Server
-    * MySQL
     * PostgreSQL
 4. Click **database type** drop-down to change the database type.
 ![Select database Type](/static/assets/on-premise/images/settings/select-database-type.png)
@@ -27,12 +26,6 @@ You should configure the database settings in the Report Server to import users 
 1. Fill the SQL connection details such as server name, authentication type, username, password, and database name.
 2. Click **Test Connection** to validate the connection details.
 ![Configuring SQL Server database connection](/static/assets/on-premise/images/settings/connect-to-sqlserver-database.png)
-
-### MySQL database
-
-1. Fill the MySQL connection details such as DSN, username, password, and database name.
-2. Click **Test Connection** to validate the connection details.
-![Configuring MySQL database connection](/static/assets/on-premise/images/settings/connect-to-mysql-database.png)
 
 ### PostgreSQL database
 

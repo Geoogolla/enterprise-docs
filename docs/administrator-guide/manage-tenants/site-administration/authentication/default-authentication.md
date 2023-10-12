@@ -10,9 +10,9 @@ documentation: ug
 
 This topic explains how to enable or disable default authentication in User Management Server.
 
-This feature allows you to configure any third-party identity provider as your default authentication provider. Once default authentication is configured, the Bold Reports application will automatically redirect to the corresponding authentication provider's login page instead of the Bold Reports's login page.
+This feature allows you to configure any third-party identity provider as your default authentication provider. Once default authentication is configured, the Bold Reports application will automatically redirect to the corresponding authentication provider's login page instead of Bold Reports's login page.
 
-You must configure any provider and enable one of the following identity providers to configure default authentication. Otherwise, you will be seeing the following options.
+You must configure any provider and enable one of the following identity providers to configure default authentication. Otherwise, you will encounter the following options.
 
 ![No configuration](/static/assets/on-premise/images/tenant-management/site-management/authentication/no-configuration.png)
 

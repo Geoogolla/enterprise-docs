@@ -6,7 +6,7 @@ keywords : create report, reportserver, web designer
 
 # Create Report
 
-This section explains on how to create report and design a report in the Bold Reports On-Premise.
+This section explains how to create and design a report in Bold Reports On-Premise.
 
 * If the user has `All Reports` permission, then the user can create reports in any category.
 * If the user has `Reports in Category` permission with some chosen categories, then the user can only create reports in those chosen categories.
