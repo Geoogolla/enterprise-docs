@@ -73,15 +73,11 @@ Once the installation completed, open the host URL in the browser and continue t
 ## Upgrade breaking changes
 
 >**Note**:
-> * After upgrading Bold Reports application to v3.2.22 from v3.1.x, you need to update below section of code in Nginx configuration file in the location
+> * After upgrading the Bold Reports application to v5.2.26 from the lower version, you need to update the below section of the **reportservice** code and add the **viewer** code to the Nginx configuration file in the location
 >`/etc/nginx/sites-available`.
 > * This breaking changes should be done for both automatic and manual Nginx configurations.
 
-**Old Nginx configuration file code**:
-
-![Breaking Issue](/static/assets/on-premise/images/installation/breaking.png)
-
-Replace below code in Nginx configuration file instead of above marked code,
+Update the below **reportservice** code and add the **viewer** code in the Nginx configuration file as below:
 
 ```cmd
     location /reporting/reportservice {
@@ -95,7 +91,19 @@ Replace below code in Nginx configuration file instead of above marked code,
         proxy_set_header   X-Forwarded-For $proxy_add_x_forwarded_for;
         proxy_set_header   X-Forwarded-Proto $scheme;
     }
+    location /reporting/viewer {
+        proxy_pass         http://localhost:6554/reporting/viewer;
+        proxy_http_version 1.1;
+        proxy_set_header   Upgrade $http_upgrade;
+        proxy_set_header   Connection keep-alive;
+        proxy_set_header   Host $host;
+        proxy_cache_bypass $http_upgrade;
+        proxy_set_header   X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header   X-Forwarded-Proto $scheme;
+    }
 ```
+
+![Nginx configuration](/static/assets/on-premise/images/installation/viewer.png)
 
 Once the Nginx configuration is updated, run the `sudo nginx -t`  to verify the syntax of the configuration files. If the configuration file test is successful, force the Nginx to pick up the changes by running the `sudo nginx -s reload`.
 
@@ -214,6 +222,16 @@ To configure Nginx as a reverse proxy to forward requests to the Bold Reports ap
     location /reporting/reportservice {
         root               /var/www/bold-services/application/reporting/reportservice;
         proxy_pass         http://localhost:6553;
+        proxy_http_version 1.1;
+        proxy_set_header   Upgrade $http_upgrade;
+        proxy_set_header   Connection keep-alive;
+        proxy_set_header   Host $host;
+        proxy_cache_bypass $http_upgrade;
+        proxy_set_header   X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header   X-Forwarded-Proto $scheme;
+    }
+    location /reporting/viewer {
+        proxy_pass         http://localhost:6554/reporting/viewer;
         proxy_http_version 1.1;
         proxy_set_header   Upgrade $http_upgrade;
         proxy_set_header   Connection keep-alive;
