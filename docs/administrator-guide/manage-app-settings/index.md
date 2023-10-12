@@ -20,11 +20,11 @@ Settings in Bold Reports Report Server stores valuable information required for 
 
 * [Account Settings](./../../administrator-guide/manage-users/account-activation/)
 
-* [Authentication Settings - Windows Active Directory](./../../administrator-guide/manage-app-settings/active-directory/)
+* [User Directories Settings - Windows Active Directory](./../../administrator-guide/manage-app-settings/active-directory/)
 
-* [Authentication Settings - Azure Active Directory](./../../administrator-guide/manage-app-settings/azure-active-directory/)
+* [User Directories Settings - Azure Active Directory](./../../administrator-guide/manage-app-settings/azure-active-directory/)
 
-* [Authentication Settings - Database](./../../administrator-guide/manage-app-settings/database-settings/)
+* [User Directories Settings - Database](./../../administrator-guide/manage-app-settings/database-settings/)
 
 * [Authentication Settings - OAuth 2.0](./../../administrator-guide/authentication/single-sign-on/oauth-2.0/)
 
