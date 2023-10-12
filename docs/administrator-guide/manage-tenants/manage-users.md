@@ -97,7 +97,7 @@ It must contain,
 
 Once the user is added new account will be created for the user and an account activation email will be sent to the email address with an activation link to activate the Bold Reports account.
 
-The activation link sent to the user will be valid only for 2 days and if the user have not activated within the 2 days, a new activation link can be sent to the user from the user edit page.
+The activation link sent to the user will be valid only for 3 days and if the user have not activated within the 3 days, a new activation link can be sent to the user from the user edit page.
 
 The account will be on inactive status till the user activates the account from the activation email.
 

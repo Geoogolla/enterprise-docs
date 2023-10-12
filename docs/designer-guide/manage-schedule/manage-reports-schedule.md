@@ -10,7 +10,7 @@ documentation: ug
 
 The Reporting Server provides report-specific schedules to assist you in managing the processing and distribution of reports. All schedules specify a type of recurrence, which can be monthly, weekly, or daily.
 
-This section explains how to add, edit, delete, manage report schedules and also how to run the schedules on demand and enable or disable schedules in the Bold Reports On-Premise.
+This section explains how to add, edit, delete, and manage report schedules, as well as how to run the schedules on demand and enable or disable schedules in Bold Reports On-Premise.
 
 The schedules page displays the schedules that are accessible to the user based on their permissions.
 
@@ -29,48 +29,48 @@ Schedules can be created only if the user has `Create All Schedules` permission.
 * Click on the `+` symbol in the left side menu and choose `Schedule` to create a new schedule.
 ![Create Schedule](/static/assets/on-premise/images/manage-schedule/manage-report-schedules/create-schedule1.png)
 
-### Add the schedule from the context menu of the respective reports
+### Add a schedule from the context menu of the respective reports
 
 * Click the `Actions` button in the reports grid context menu and select `Schedule` to schedule the corresponding report.
 ![Create Schedule](/static/assets/on-premise/images/manage-schedule/manage-report-schedules/create-schedule.png)
 
-* Once the dialog box is opened, the category and report values are selected by default,
+* Once the dialog box opens, the category and report values are preselected by default,
 ![Create Schedule](/static/assets/on-premise/images/manage-schedule/manage-report-schedules/category-report-preselect.png)
 
 > Categories or Reports can be changed from the schedule dialog box itself.
 
 ### Add a schedule from the schedule listing page
 
-* Click `Schedules` from the left side panel of the Report Server and click `Create Schedule` button.
+* Click `Schedules` in the left side panel of the Report Server, and then click the `Create Schedule` button.
 ![Create Schedule from schedule page](/static/assets/on-premise/images/manage-schedule/manage-report-schedules/add-schedule-from-schedule-page.png)
 
-* Select the required category from the `Category` dropdown. After selecting the category, corresponding reports under that selected category will be displayed in the `report` dropdown,
+* Select the required category from the `Category` dropdown. After selecting the category, corresponding reports under that selected category will be displayed in the `Report` dropdown,
 ![Create Schedule](/static/assets/on-premise/images/manage-schedule/manage-report-schedules/select-category.png)
 
 * Select the required report from the dropdown.
 ![Create Schedule](/static/assets/on-premise/images/manage-schedule/manage-report-schedules/select-report.png)
 
-* Select the export name from the dropdown of Schedule Name,Report Name, and Timestamp.
+* Select the export name from the dropdown options, including Schedule Name,Report Name, and Timestamp.
 ![Create Schedule](/static/assets/on-premise/images/manage-schedule/manage-report-schedules/select-export-name.png)
 
-## Configure Report parameters
+## Configure Report Parameters
 
-* Parameters available for the report will be shown in the scheduler dialog.
+* The parameters available for the report will be shown in the scheduler dialog.
 ![Set Parameter](/static/assets/on-premise/images/manage-schedule/manage-report-schedules/set-parameter.png)
 
 * Select the parameter values to schedule and export the reports with this filter.
 ![Available Parameter](/static/assets/on-premise/images/manage-schedule/manage-report-schedules/available-parameters.png)
 
-> To modify the parameter values, you should enable the `Set parameters` option in the schedule dialog box.
+> To modify the parameter values, you should enable the `Set Parameters` option in the schedule dialog box.
 
 ## Configure Recurrence Intervals
 
-* Select the recurrence type, recurrence, start and end dates in the `Add Schedule' dialog box.
+* Select the recurrence type, recurrence, start date and end date in the `Add Schedule' dialog box.
 * Reports can be scheduled hourly, daily, weekly, monthly, and yearly.
-* The application time zone will be shown below the date picker. The start time of the schedule will be converted to the client's time zone and shown on the right side for the user’s convenience.
+* The application's time zone will be displayed below the date picker. The start time of the schedule will be converted to the client's time zone and displayed on the right side for the user’s convenience.
 ![Add Schedule 1](/static/assets/on-premise/images/manage-schedule/manage-report-schedules/add-schedule-1.png)
 
-## Compress file to export
+## Compress files to export
 
 * You can compress the exported reports into a zip file by selecting the **Enable File Compression** option in the schedule dialog box. This is not mandatory, and you can decompress it at any time by simply unchecking that option.
 ![File Compression](/static/assets/on-premise/images/manage-schedule/manage-report-schedules/file-compression.png)
@@ -80,7 +80,7 @@ Schedules can be created only if the user has `Create All Schedules` permission.
 > For the default password, the password will be generated as a combination of the first and last four characters of the email.
 
 * You can customise the password protection rules for exporting reports by choosing the **Custom Password** option.
-* But the username or first name is mandatory in the password condition.
+* However, the username or first name is mandatory in the password condition.
 ![Custom Password](/static/assets/on-premise/images/manage-schedule/manage-report-schedules/custom-password.png)
 
   For instance, let's consider a sample user with the following details:
@@ -132,22 +132,22 @@ Schedules can be created only if the user has `Create All Schedules` permission.
 ## Customize Mail template
 
 * The mail template defines the text that is sent via email to the Report Server user.
-* Initially, the default template will displayed in the mail template. If the custom password is enabled, the user can add a password hint in the mail template if necessary.
-* And you can also customise the email template to your preference.
+* Initially, the default template will be displayed in the mail template. If the custom password is enabled, the user can add a password hint to the mail template if necessary.
+* And you can also customize the email template to your preference.
 ![Customize Email Template](/static/assets/on-premise/images/manage-schedule/manage-report-schedules/customize-email-template.png)
 
 ### Mail template predefined variables
 
-By selecting the variable the scheduled user variable is assigned directly from the server to the mail template
+By selecting the variable the scheduled user variable is directly assigned from the server to the mail template.
 * {Full Name}: Full name of the recipient
 * {First Name}: First name of the recipient
 * {Last Name}: Last name of the recipient
 * {Schedule Name}: Name of the schedule
 * {Report Name}: Scheduled report name
 * {Report Link}: Link to the scheduled report
-* {Export Format}: Export file format, which is chosen the schedule
+* {Export Format}: The export file format that is chosen for the schedul
 * {Date}:The date means when the schedule was triggered
-* {Organization Name}: [Organization name](./../../../administrator-guide/custom-rebranding/#organization-name) is retrieved from the site setting
+* {Organization Name}: The [Organization name](./../../../administrator-guide/custom-rebranding/#organization-name) is retrieved from the site settings
 
 ## Configure the export types
 
@@ -157,7 +157,7 @@ By selecting the variable the scheduled user variable is assigned directly from 
 
 * Exported reports can be sent to individual users or groups by selecting the **Email attachment** option.
 
-* Additionally, the exported reports can be sent to external recipients by providing the `Email Id`, and you can add multiple external recipients at once Separating the email's with a comma(,). For example [recipient1@gmail.com,recipients2@gmail.com].
+* Additionally, the exported reports can be sent to external recipients by providing the `Email Id`, and you can add multiple external recipients at once Separating the emails with a comma(,). For example [recipient1@gmail.com,recipients2@gmail.com].
 
 ![Email Attachment Checkbox](/static/assets/on-premise/images/manage-schedule/manage-report-schedules/email-attachment-checkbox.png)
 
@@ -165,30 +165,30 @@ By selecting the variable the scheduled user variable is assigned directly from 
 
 ### Save as file
 
-* We can also save exported reports to any location by selecting the **Save as file** option.
+* Exported reports can also be saved to any location by selecting the **Save as file** option.
 ![Save As Checkbox](/static/assets/on-premise/images/manage-schedule/manage-report-schedules/save-as-checkbox.png)
 
 * To save the exported report, **Export Path** and **Max reports count** have to be filled.
 
    **Export Path** - Location to save the exported report. By default, the folder path will be **\Export**, and the default root path location will be **C:\BoldServices\app_data\reporting\Jobs**.
-       * You need a required folder path; simply edit the default folder path location and set the required path location in the Export path.
-       * You need the required root path; it must be updated in [Shedule Report Setting](./../../../designer-guide/manage-schedule/schedule-report-settings/#save-as-file) export path.
+       * Edit the default folder path location to specify the required folder path in the Export path.
+       * You must specify the required root path, which can be updated in the [Shedule Report Setting](./../../../designer-guide/manage-schedule/schedule-report-settings/#save-as-file) export path.
 
-   **Max reports count** - The maximum number of exported reports to be saved in that location.
+   **Max reports count** - Specify the maximum number of exported reports to be saved at this location.
 
-   **Overwrite the Existing file** - When you enable this option, it will overwrite the existing file that is present at the exported folder location.
+   **Overwrite the Existing file** - Enabling this option will overwrite existing files in the export folder.
 
-   **Notify Recipients** - When you enable this option, it will notify the recipients.
+   **Notify Recipients** - Enabling this option will send notifications to the recipients.
 
-* For saving the exported file at the network location, we have to provide the path in UNC format as shown below,`\\172.34.203.23\test\Export`
+* To save the exported file at a network location, you must provide the path in UNC format as shown below,`\\172.34.203.23\test\Export`
 
     **Root directory path**: `\\172.34.203.23\test`
 
     **Relative path**: `\Export`
 
-    * The root directory path can be provided on [Shedule Report Settings](./../../../designer-guide/manage-schedule/schedule-report-settings/#save-as-file), while the relative path can be provided when creating the schedules.
+    * The root directory path can be specified in [Shedule Report Settings](./../../../designer-guide/manage-schedule/schedule-report-settings/#save-as-file), while the relative path can be specified when creating the schedules.
 
-    * If the test folder does not exist,a test folder will be created automatically while running the schedules.
+    * If the test folder does not exist, a test folder will be created automatically while running the schedules.
 
     > **Write** permission for that required root directory path folder.
 
@@ -278,7 +278,7 @@ The following table illustrates the list of available APIs related to schedules 
             /api/site/{tenant-name}/v1.0/schedules/{scheduleId}/run
         </td>
         <td>
-            Runs scheduled report. Should provide Schedule ID in path parameter.
+            Runs a scheduled report. Should provide a Schedule ID in path parameter.
         </td>
     </tr>
     <tr>
@@ -334,7 +334,7 @@ The following table illustrates the list of available APIs related to schedules 
             /api/site/{tenant-name}/v1.0/items/is-name-exists
         </td>
         <td>
-            Returns an item's existence, whether the given schedule name already exists or not on the server. Schedule name and ItemType as Schedule should be passed in request body.
+            Returns an item's existence, whether the given schedule name already exists or not on the server. Schedule name and ItemType as Schedule should be passed in the request body.
         </td>
     </tr>
     <tr>
