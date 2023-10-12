@@ -9,7 +9,7 @@ This section explains how to open and edit an existing reports in the Bold Repor
 
 ## Edit an existing report
 
-To open an existing report in web Report Designer, click the `Actions` button in the Reports grid context menu and choose `Edit` to open the Report.
+To open an existing report in web Report Designer, click the `Edit Icon` to open the Report.
 
 ![Edit report in Report Designer](/static/assets/on-premise/images/report-designer/open-report/edit-report.png)
 

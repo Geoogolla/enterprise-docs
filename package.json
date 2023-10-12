@@ -11,8 +11,7 @@
     "postinstall": "gulp postinstall"
   },
   "dependencies": {
-    "gatsby": "2.24.80",
-    "@boldreports/docs-helper": "*",
-    "@babel/types": "7.17.12"
+    "gatsby": "5.12.4",
+    "@boldreports/docs-helper": "*"
   }
 }

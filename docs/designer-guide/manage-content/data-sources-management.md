@@ -8,11 +8,11 @@ documentation: ug
 
 # Data sources management in Report Server
 
-You can create and store a data source on the Report Server when you have data source that you use often. When you create a data source to Report Server, it is considered as shared data source that can be used by multiple reports.
+You can create and store a data source on the Report Server when you have a data source that you use often. When you create a data source on the Report Server, it is considered a shared data source that can be used by multiple reports.
 
-It is recommended to use shared data sources as much as possible. It is easier to manage, and help to keep reports and the data sources access more secure. The shared data sources always placed in the `Data Sources` page, they are accessible to the user depending on the user’s permission.
+It is recommended to use shared data sources as much as possible. It is easier to manage and helps keep reports and access to data sources more secure. The shared data sources are always placed on the `Data Sources` page and they are accessible to the user depending on the user’s permission.
 
-This section about data sources management in Report Server. Allows you to add, update, share and delete shared data sources in the Report Server. The following image shows the list of options available to manage a datasources.
+This section is about data source management in Report Server. Allows you to add, update, share and delete shared data sources on the Report Server. The following image shows the list of options available to manage a data sources.
 
 ![Options available to manage data sources in the Report Server](/static/assets/on-premise/images/manage-content/manage-data-sources/managing-data-sources.png)
 

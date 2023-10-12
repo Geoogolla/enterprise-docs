@@ -8,7 +8,7 @@ documentation: ug
 
 # Version history of report
 
-This section explains on how to view version history of report in the Bold Reports On-Premise. Versions and file logs for each Report will be maintained in the Report Server for every changes in the Report.
+This section explains how to view the version history of a report in the Bold Reports On-Premise. Versions and file logs for each Report will be maintained in the Report Server for every change in the Report.
 
 Click the `Actions` button in the Reports grid context menu and click `Version History` option.
 ![Version History Option](/static/assets/on-premise/images/manage-content/manage-reports/versions-history-option.png)

@@ -10,7 +10,7 @@ documentation: ug
 
 You should configure the Active Directory settings to import users and groups from the Windows Active Directory and synchronize their details after importing into the Bold Reports On-Premise. To configure [Active Directory](https://msdn.microsoft.com/en-us/library/windows/desktop/aa746492) with the Bold Reports On-Premise, follow these steps:
 
-1. Click the setting option in the Report Server left-side panel and navigate to the User Directories tab, and then select **Windows Active Directory** as shown in the following image.
+1. Click the **Settings** option in the Report Server left-side panel and navigate to the **User Directories** tab, and then select **Windows Active Directory** as shown in the following image.
 ![Active Directory Settings](/static/assets/on-premise/images/settings/windows-active-directory-settings.png)
 
 2. Set the following Active Directory details of your Windows Active Directory.

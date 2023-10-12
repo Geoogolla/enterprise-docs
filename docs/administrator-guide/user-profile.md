@@ -8,13 +8,14 @@ documentation: ug
 
 # User Profile
 
-This section describes the options available for users to view and manage their profile. The options are:
+This section describes the options available for users to view and manage their profiles. The options are:
 
 * View profile
 * Edit profile
 * View permissions
 * Change password
 * Edit notification settings
+* Edit Viewer / Designer preference
 
 ## View profile
 
@@ -52,3 +53,16 @@ You can view and edit the following notification settings in the Report Server:
 * Auto watch for comments of accessible items.
 
 ![View and edit notification settings](/static/assets/on-premise/images/user-profile/edit-notification-settings.png)
+
+## Edit Viewer / Designer preference
+
+1. Go to user profile page by clicking the Profile icon in the Report Server.  
+    ![View user profile details](/static/assets/on-premise/images/user-profile/user-profile.png)
+
+2. Go to Viewer / Designer preference.
+    ![Viewer preference](/static/assets/on-premise/images/user-profile/user-preference.png)
+
+3. You can modify the preference of the Viewer / Designer by clicking the `Edit` button as shown in the below images. After the details have been edited, click the `Save` button.
+    ![Edit user preference](/static/assets/on-premise/images/user-profile/edit-preference.png)
+    ![Switch user preference](/static/assets/on-premise/images/user-profile/switch-viewer.png)
+    > The report will be displayed according to the preference you choose in the Viewer / Designer preference.
