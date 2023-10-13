@@ -73,11 +73,11 @@ Once the installation completed, open the host URL in the browser and continue t
 ## Upgrade breaking changes
 
 >**Note**:
-> * After upgrading the Bold Reports application to v5.2.26 from the lower version, you need to update the below section of the **reportservice** code and add the **viewer** code to the Nginx configuration file in the location
+> * After upgrading the Bold Reports application to v5.2.26 from v3.1.x, you need to update the below section of the **reportservice** and **viewer** codes in the Nginx configuration file in the location
 >`/etc/nginx/sites-available`.
-> * This breaking changes should be done for both automatic and manual Nginx configurations.
+> * This breaking change should be done for manual Nginx configuration.
 
-Update the below **reportservice** code and add the **viewer** code in the Nginx configuration file as below:
+Update the below **reportservice** and **viewer** codes in the Nginx configuration file as below:
 
 ```cmd
     location /reporting/reportservice {
