@@ -71,6 +71,9 @@ Click `Finish` to save the data source with a relevant name to proceed with desi
 
 ![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/data-list.png)
 
+> We have added encryption connection and Trust server certificate options for enhance the security in Microsoft SQL data source connection. Click the `Encrypt` option if the client requires encryption. 
+   >![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/enable-encryption.png)
+
 > Click on `Basic Options` to switch back to the basic connection settings.
 ![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/switch-basic-options.png)
 
