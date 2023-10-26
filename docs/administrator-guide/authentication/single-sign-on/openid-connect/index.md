@@ -8,7 +8,7 @@ documentation: ug
 
 # Single Sign-On(SSO) with OpenID Connect authentication
 
-The Bold Reports application can be configured with OpenID Connect for Single Sign-On (SSO), so that the users can log in directly to Bold Reports application after authenticating using the OpenID Connect.
+The Bold Reports application can be configured with OpenID Connect for Single Sign-On (SSO), so that users can log in directly to the Bold Reports application after authenticating using OpenID Connect.
 
 ## Prerequisites
 

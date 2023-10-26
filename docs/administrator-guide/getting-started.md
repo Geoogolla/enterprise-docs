@@ -30,7 +30,7 @@ The following software requirements are necessary to run the Bold Reports Enterp
 * **Web Server :** [Internet Information Services (IIS) 7.0+](https://en.wikipedia.org/wiki/Internet_Information_Services)
 * **Web Browser :** Microsoft Edge , Mozilla Firefox , Chrome
 
-## Registration & Download
+## Registration and Download
 
 Please follow the below steps to install the Bold Reports Enterprise Reporting build.
 1. Go to BoldReports [link](https://www.boldreports.com/) to register and download Bold Reports Enterprise Reporting build.
