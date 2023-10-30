@@ -8,13 +8,13 @@ keywords: report-platform
 
 We cannot limit the Azure AD, Windows AD, and Database Users synchronization based on count (like synchronizing 100 users). But, we can control whose details should be synchronized.
 
-Using Azure AD, Windows AD, and Database Users synchronization, we can control the synchronization of specific users. While synchronization, Bold Reports will list the imported users. From this you can choose the needed users and synchronize it by clicking the `Synchronize` button at the top.
+Using Azure AD, Windows AD, and Database Users synchronization, we can control the synchronization of specific users. During synchronization, Bold Reports will list the imported users. From here you can choose the needed users and synchronize them by clicking the `Synchronize` button at the top.
 
 ![Synchronize button](/static/assets/on-premise/images/how-to/can-we-limit-the-synchronization-from-adfs/Azure-Synchronize-button.png)
 
 To learn more about synchronize users, refer [here](https://help.boldreports.com/enterprise-reporting/administrator-guide/manage-users/users/synchronize/synchronize-existing-database-users/#synchronize-users).
 
-Using Azure AD and Windows AD group synchronization, we can control the synchronization of specific groups. While synchronization, Bold Reports will list the imported groups. From this you can choose the needed groups and synchronize it by clicking the `Synchronize` button at the top.
+Using Azure AD and Windows AD group synchronization, we can control the synchronization of specific groups. During synchronization, Bold Reports will list the imported groups. From here you can choose the needed groups and synchronize them by clicking the `Synchronize` button at the top.
 
 ![Azure AD Group Synchronize button](/static/assets/on-premise/images/how-to/can-we-limit-the-synchronization-from-adfs/Azure-Group-Synchronize-button.png)
 

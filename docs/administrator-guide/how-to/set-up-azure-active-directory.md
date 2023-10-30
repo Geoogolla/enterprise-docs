@@ -38,7 +38,7 @@ Log on to the Azure portal to create an `Azure Active Directory`.
 
 6. The application will be added to the directory and you can view the details of the application in the `App registrations`.
 
-Go to the Azure Active Directory. In the directory, you should add two applications in which one acts as a Web API for authenticate the Bold Reports On-Premise, and an other application that acts as native client application for authenticate Bold Reports On-Premise mobile app.
+Go to the Azure Active Directory. In the directory, you should add two applications, one of which acts as a Web API for authenticating Bold Reports On-Premise and the other as a native client application for authenticating the Bold Reports On-Premise mobile app.
 
 #### Steps to register Bold Reports On-Premise application in Azure Active Directory
 

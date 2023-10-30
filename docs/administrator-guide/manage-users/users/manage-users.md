@@ -65,7 +65,7 @@ You can navigate to the user management page by clicking the `User Management` d
 
 ![User Management](/static/assets/on-premise/images/manage-users-and-groups/users/manage-user/user-management.png)
 
-> **NOTE**: The section will explain on how to import the users from CSV file which can be downloaded from >below location in Bold BI application.
+> **NOTE**: The section will explain how to import the users from a CSV file, which can be downloaded from the below location in the Bold BI application.
 
 ## Add users from CSV file
 

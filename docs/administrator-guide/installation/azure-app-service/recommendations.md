@@ -12,7 +12,7 @@ This section will explain the recommended Azure App service configuration to ins
 
 You have to choose the correct Azure App service configuration to better experience with Bold Reports.
 
-## Azure App service plans for test, development, and production environments
+## Azure App service plans for test, development and production environments
 
  The Basic service plan can be used for the test or development environment. Also, you can use the same basic service plan for production environment, if your app receive only low or medium level traffic.
 

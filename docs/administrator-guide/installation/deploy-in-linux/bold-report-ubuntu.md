@@ -36,7 +36,8 @@ documentation: ug
 
 ## Configuring the Bold Reports application
 
-1. Register and download the Bold Reports Linux package from here.
+1. Register and download the Bold Reports Linux package from [here](../../../getting-started/#registration-and-download).
+
 2. Download the Bold Reports Linux package by running the following command.
     ```console
     sudo wget {Bold Reports Linux package link}
@@ -256,7 +257,7 @@ If you have an SSL certificate for your domain and need to configure the site wi
 3. Replace the `example.com` with your domain name.
 4. Define the path of the SSL certificate: `ssl_certificate /etc/ssl/domain.crt`.
 5. Specify the directory where the SSL certificate key is located: `ssl_certificate_key /etc/ssl/domain.key`.
-6. Save and run the sudo `nginx -t` to verify the syntax of the configuration file. If the configuration file test is successful, force the Nginx to pick up the changes by running the `sudo nginx -s` reload.
+6. Save and run the sudo `nginx -t` to verify the syntax of the configuration file. If the configuration file test is successful, force the Nginx to pick up the changes by running the `sudo nginx -s reload`.
 
 >**NOTE**: If you are configuring the application with SSL, you need to update the URLs in the product.
 >json with `HTTPS` located in the `/var/www/bold-services/application/app_data/configuration`.
