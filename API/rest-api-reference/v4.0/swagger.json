@@ -80,8 +80,8 @@
         "tags": [
           "Items"
         ],
-        "summary": "Return list of reports along with the mapping info(data source, dataset, sub report).",
-        "description": "Server retrieves the list of reports in a category for the current user.",
+        "summary": "Get Items",
+        "description": "Return a list of reports along with the mapping info(data source, dataset, sub report) and the server retrieves the list of reports for the current user using tag name.",
         "operationId": "Items_GetItems",
         "parameters": [
           {
@@ -101,6 +101,14 @@
             "in": "query",
             "description": "Category path",
             "x-nullable": true
+          },
+          {
+            "type": "string",
+            "name": "tags",
+            "in": "query",
+            "required": false,
+            "description": "Provide the report tag name(s). \\\n **Note**: If there are multiple tag names, they should be passed as comma-separated values i.e tags=tag1,tag2,tag3\\\n It is possible to obtain report details without using the tag query parameter.",
+            "x-nullable": false
           }
         ],
         "responses": {
@@ -361,6 +369,46 @@
       "type": "object",
       "description": "Item details",
       "properties": {
+        "CanRead": {
+          "type": "boolean",
+          "description": "Specifies the read permission of the item"
+        },
+        "CanWrite": {
+          "type": "boolean",
+          "description": "Specifies the write permission of the item"
+        },
+        "CanDelete": {
+          "type": "boolean",
+          "description": "Specifies the delete permission of the item"
+        },
+        "CanDownload": {
+          "type": "boolean",
+          "description": "Specifies the download permission of the item"
+        },
+        "CanSchedule": {
+          "type": "boolean",
+          "description": "Specifies the schedule permission of the item"
+        },
+        "CanOpen": {
+          "type": "boolean",
+          "description": "Specifies the open permission of the item"
+        },
+        "CanMove": {
+          "type": "boolean",
+          "description": "Specifies the move permission of the item"
+        },
+        "CanCopy": {
+          "type": "boolean",
+          "description": "Specifies the copy permission of the item"
+        },
+        "CanClone": {
+          "type": "boolean",
+          "description": "Specifies the clone permission of the item"
+        },
+        "CanCreateItem": {
+          "type": "boolean",
+          "description": "Specifies the create permission of the item"
+        },
         "Id": {
           "type": "string",
           "description": "Item ID",
@@ -386,6 +434,11 @@
         "CategoryDescription": {
           "type": "string",
           "description": "Category description"
+        },
+        "Tags":{
+          "type": "array",
+          "description": "Report tags",
+          "format": "string"
         },
         "DataSetMappingInfo": {
           "type": "array",
@@ -420,10 +473,18 @@
           "description": "Specifies the user ID of the item creator",
           "format": "int32"
         },
+        "CreatedByDisplayName": {
+          "type": "string",
+          "description": "Specifies the display name of the user who created the item"
+        },
         "ModifiedById": {
           "type": "integer",
           "description": "Specifies the user ID of the item modifier",
           "format": "int32"
+        },
+        "ModifiedByFullName": {
+          "type": "string",
+          "description": "Specifies the full name of the user who modified the item"
         },
         "ItemLocation": {
           "type": "string",
@@ -454,6 +515,10 @@
               "$ref": "#/definitions/ItemType"
             }
           ]
+        },
+        "ReportId": {
+          "type": "string",
+          "format": "guid"
         }
       }
     },
