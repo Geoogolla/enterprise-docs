@@ -80,8 +80,8 @@
         "tags": [
           "Items"
         ],
-        "summary": "Return list of reports along with the mapping info(data source, dataset, sub report).",
-        "description": "Server retrieves the list of reports in a category for the current user.",
+        "summary": "Get Items",
+        "description": "Return a list of reports along with the mapping info(data source, dataset, sub report) and the server retrieves the list of reports for the current user using tag name.",
         "operationId": "Items_GetItems",
         "parameters": [
           {
@@ -101,34 +101,7 @@
             "in": "query",
             "description": "Category path",
             "x-nullable": true
-          }
-        ],
-        "responses": {
-          "200": {
-            "x-nullable": false,
-            "description": "List of items retrieved succesfully",
-            "schema": {
-              "$ref": "#/definitions/ApiItemDetail"
-            }
           },
-          "204": {
-            "description": "Item list is empty"
-          },
-          "405": {
-            "description": "Request Type was not GET"
-          }
-        }
-      }
-    },
-    "{domain}/reporting/api/site/{tenant-name}/v4.0/items?itemtype=report": {
-      "get": {
-        "tags": [
-          "Items"
-        ],
-        "summary": "Get Items using report tags",
-        "description": "The server retrieves the list of reports for the current user using tag name.",
-        "operationId": "Items_GetItems",
-        "parameters": [
           {
             "type": "string",
             "name": "tags",
@@ -143,7 +116,7 @@
             "x-nullable": false,
             "description": "List of items retrieved succesfully",
             "schema": {
-              "$ref": "#/definitions/TagItemDetail"
+              "$ref": "#/definitions/ApiItemDetail"
             }
           },
           "204": {
@@ -396,106 +369,6 @@
       "type": "object",
       "description": "Item details",
       "properties": {
-        "Id": {
-          "type": "string",
-          "description": "Item ID",
-          "format": "guid"
-        },
-        "Name": {
-          "type": "string",
-          "description": "Item name"
-        },
-        "Description": {
-          "type": "string",
-          "description": "Item description"
-        },
-        "CategoryId": {
-          "type": "string",
-          "description": "Category ID",
-          "format": "guid"
-        },
-        "CategoryName": {
-          "type": "string",
-          "description": "Category name"
-        },
-        "CategoryDescription": {
-          "type": "string",
-          "description": "Category description"
-        },
-        "DataSetMappingInfo": {
-          "type": "array",
-          "description": "Mapping information of copy dataset",
-          "items": {
-            "$ref": "#/definitions/CopyDataSetMappingInfo"
-          }
-        },
-        "DataSourceMappingInfo": {
-          "type": "array",
-          "description": "Mapping information of copy datasource",
-          "items": {
-            "$ref": "#/definitions/CopyDataSourceMappingInfo"
-          }
-        },
-        "SubReportMappingInfo": {
-          "type": "array",
-          "description": "Mapping information of copy sub report",
-          "items": {
-            "$ref": "#/definitions/CopySubReportMappingInfo"
-          }
-        },
-        "DrillThroughMappingInfo": {
-          "type": "array",
-          "description": "Mapping information of copy sub report",
-          "items": {
-            "$ref": "#/definitions/DrillThroughMappingInfo"
-          }
-        },
-        "CreatedById": {
-          "type": "integer",
-          "description": "Specifies the user ID of the item creator",
-          "format": "int32"
-        },
-        "ModifiedById": {
-          "type": "integer",
-          "description": "Specifies the user ID of the item modifier",
-          "format": "int32"
-        },
-        "ItemLocation": {
-          "type": "string",
-          "description": "Item location"
-        },
-        "CreatedDate": {
-          "type": "string",
-          "description": "Date created of item in string format"
-        },
-        "ModifiedDate": {
-          "type": "string",
-          "description": "Date modified of item in string format"
-        },
-        "ItemModifiedDate": {
-          "type": "string",
-          "description": "Date modified of item in date format",
-          "format": "date-time"
-        },
-        "ItemCreatedDate": {
-          "type": "string",
-          "description": "Date created of item in date format",
-          "format": "date-time"
-        },
-        "ItemType": {
-          "description": "Item type",
-          "allOf": [
-            {
-              "$ref": "#/definitions/ItemType"
-            }
-          ]
-        }
-      }
-    },
-    "TagItemDetail": {
-      "type": "object",
-      "description": "Item details",
-      "properties": {
         "CanRead": {
           "type": "boolean",
           "description": "Specifies the read permission of the item"
@@ -541,14 +414,6 @@
           "description": "Item ID",
           "format": "guid"
         },
-        "ItemType": {
-          "description": "Item type",
-          "allOf": [
-            {
-              "$ref": "#/definitions/ItemType"
-            }
-          ]
-        },
         "Name": {
           "type": "string",
           "description": "Item name"
@@ -574,6 +439,34 @@
           "type": "array",
           "description": "Report tags",
           "format": "string"
+        },
+        "DataSetMappingInfo": {
+          "type": "array",
+          "description": "Mapping information of copy dataset",
+          "items": {
+            "$ref": "#/definitions/CopyDataSetMappingInfo"
+          }
+        },
+        "DataSourceMappingInfo": {
+          "type": "array",
+          "description": "Mapping information of copy datasource",
+          "items": {
+            "$ref": "#/definitions/CopyDataSourceMappingInfo"
+          }
+        },
+        "SubReportMappingInfo": {
+          "type": "array",
+          "description": "Mapping information of copy sub report",
+          "items": {
+            "$ref": "#/definitions/CopySubReportMappingInfo"
+          }
+        },
+        "DrillThroughMappingInfo": {
+          "type": "array",
+          "description": "Mapping information of copy sub report",
+          "items": {
+            "$ref": "#/definitions/DrillThroughMappingInfo"
+          }
         },
         "CreatedById": {
           "type": "integer",
@@ -614,6 +507,14 @@
           "type": "string",
           "description": "Date created of item in date format",
           "format": "date-time"
+        },
+        "ItemType": {
+          "description": "Item type",
+          "allOf": [
+            {
+              "$ref": "#/definitions/ItemType"
+            }
+          ]
         },
         "ReportId": {
           "type": "string",
