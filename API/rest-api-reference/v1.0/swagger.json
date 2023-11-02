@@ -1462,6 +1462,31 @@
         }
       }
     },
+    "{domain}/reporting/api/site/{tenant-name}/v1.0/Tags": {
+      "get": {
+        "tags": [
+          "Items"
+        ],
+        "summary": "Get All Tags",
+        "description": "With this endpoint, the user can get the list of report tags from the server.",
+        "operationId": "Report_Tags",
+        "responses": {
+          "200": {
+            "x-nullable": false,
+            "description": "List of tags retrieved succesfully",
+            "schema": {
+              "type": "array"
+            }
+          },
+          "404": {
+            "description": "Report Tag was empty"
+          },
+          "405": {
+            "description": "Request type was not GET"
+          }
+        }
+      }
+    },
     "{domain}/reporting/api/site/{tenant-name}/v1.0/permissions/users/{id}": {
       "get": {
         "tags": [
@@ -3164,6 +3189,13 @@
           "description": "Category ID",
           "format": "guid"
         },
+        "Tags": {
+          "type":"array",
+          "description": "Specify the list of tag names for the report",
+          "items": {
+            "type": "string"
+          }
+        },
         "ServerPath": {
           "type": "string",
           "description": "Specify the relative Path of the item"
@@ -3368,6 +3400,13 @@
         "IsPublic": {
           "type": "boolean",
           "description": "Specify true to set item as public"
+        },
+        "Tags": {
+          "type":"array",
+          "description": "Specify the tag names for the report",
+          "items": {
+            "type": "string"
+          }
         },
         "DataSetMappingInfo": {
           "type": "array",
