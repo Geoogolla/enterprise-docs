@@ -437,10 +437,10 @@
                     "Supported Barcode Types": "supported-barcode-types.md"
                 }
             },
+            "Report Parts": "report-parts-support.md",
  			"Open a report": "open-report.md",
             "Publish a report": "publish-report.md",
             "Preview a report": "preview-report.md",
-            "Report Parts support": "report-parts-support.md",
             "Supported Items": "supported-unsupported-features.md",
             "Keyboard Shortcuts": "design-report-using-keyboard-shortcuts.md",
             "How To": {
