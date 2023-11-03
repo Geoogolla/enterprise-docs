@@ -43,6 +43,12 @@ Data source can be added to Report Server only if the user has `Create All Data 
 
     >`Read Write Delete` permission for the `Specific Data Source` will be added for the user who created the data source.
 
+> **Note** : `Security Content`
+> ![password encryption](/static/assets/on-premise/images/manage-content/manage-data-sources/password-encryption.png)
+> * A password will be encrypted and saved in the database.
+> * When the `save password` option is not enabled, the credentials will not be stored in the database, and the system will prompt for the username and password on every occasion.
+> * When the `Save Password` option is enabled, the password is encrypted, and the credentials are stored in the database, preventing the system from prompting for the username and password on every occasion.
+
 #### Use existing Datasource
 
 1. Click on `Use existing Datasource` option, it will show all existing data sources.

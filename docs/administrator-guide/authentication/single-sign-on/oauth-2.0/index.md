@@ -8,7 +8,7 @@ documentation: ug
 
 # Single Sign-On(SSO) with OAuth 2.0 authentication in Bold Reports
 
-The Bold Reports application can be configured with OAuth 2.0 for Single Sign-On(SSO), so that the users can log in directly to Bold Reports application after authenticating using the OAuth 2.0.
+The Bold Reports application can be configured with OAuth 2.0 for Single Sign-On(SSO), so that users can log in directly to the Bold Reports application after authenticating using OAuth 2.0.
 
 ## Prerequisites
 
