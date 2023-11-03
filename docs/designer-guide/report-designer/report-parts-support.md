@@ -54,4 +54,4 @@ You are doing changes in the `Product_Details_Table` master report part and publ
 
 Click on the refresh option and the updated changes in the `Product_Details_Table` master report part will get reflected in your report.
 
-> Download the above report design from [link]
+> Download the above report design from [link](https://github.com/bold-reports/resources/blob/development/docs/report-designer/design-report-part-use-case-report.rdl).
