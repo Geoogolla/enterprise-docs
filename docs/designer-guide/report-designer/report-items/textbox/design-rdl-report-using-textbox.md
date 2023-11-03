@@ -31,7 +31,8 @@ You can display dynamic values in the textbox using parameters and dataset field
    > To learn more about handling expressions in report designer refer [Expressions](./../../../compose-report/expressions/) section.
 6. The specified expression is displayed as `<<Exp>>` in the text area at respective cursor position.
    ![Design report using textbox](/static/assets/on-premise/images/report-designer/report-items/textbox/expression-created.png)
-
+7. Now, when you hover over expression tag, the actual expression is displayed in a tooltip.
+   ![Textbox expression support](/static/assets/on-premise/images/report-designer/report-items/textbox/tooltip-expression-support.png)
 ## Edit the expression
 
 1. To edit the created expression in the textbox, select the specific `<<Exp>>` tag.

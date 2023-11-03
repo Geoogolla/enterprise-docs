@@ -310,8 +310,7 @@
                 },
                 "TextBox": {
                     "Design RDL Report using Textbox":"design-rdl-report-using-textbox.md",
-                    "Add html in to a report" : "add-html-in-to-a-report.md",
-                    "Tooltip support for textbox expressions" : "tootip-for-textbox-expressions.md"
+                    "Add html in to a report" : "add-html-in-to-a-report.md"
                 },
                 "Tablix": {
                     "Grouping Panel": "grouping-panel.md",
