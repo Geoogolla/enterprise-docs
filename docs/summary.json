@@ -437,7 +437,7 @@
                     "Supported Barcode Types": "supported-barcode-types.md"
                 }
             },
-            "Report Parts": "report-parts-support.md",
+            "Report Parts": "report-parts.md",
  			"Open a report": "open-report.md",
             "Publish a report": "publish-report.md",
             "Preview a report": "preview-report.md",

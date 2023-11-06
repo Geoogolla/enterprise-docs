@@ -1,17 +1,17 @@
 ---
-title: Support to reuse Report Part in different reports 
-description: This section describes on how to create and publish the report part and reuse it in other paginated reports
-keywords: report parts, web designer,
+title: Learn how to use Report Part in Bold Report Designer 
+description: This section describes on how to create, publish and reuse Report Part in multiple reports
+keywords: report parts, reportdesigner, bold reports, ssrs report parts, paginated reports, reusing report components, creating report templates, report widgets, ejReportDesigner
 ---
 
 # Report Parts
 
-We have provided support for reusing saved report items in other paginated reports through the `Report Part` feature. With this functionality, individual report elements such as tables, charts, maps, and indicators can be saved and reused as the same parts in different reports.
+Report Part helps users to create and publish report item templates that user may want to reuse across multiple reports. With this functionality, Report items such as tables, charts, maps, indicators, and other report items can be published and reused as report parts in different reports.
 
 To demonstrate the usage of the Report Part feature, we created a new table called `Product_Details_Table` to display the product details.
 ![Product detail table](/static/assets/on-premise/images/report-designer/report-parts/product-details-table.png)
 
-Consider this scenario, we need to use the Product Details table in various reports. However, creating this table for each report is a tedious process. To address this case, we are publishing the Product Details table as a report part and reusing it in other different reports.
+Consider this scenario, we need to use the Product Details table in various reports. However, creating this table for each report is a tedious process. To address this case, we are publishing the Product Details table as a report part and reusing it in multiple reports.
 
 ## Publishing the Product Details Table as a Report Part
 
@@ -28,17 +28,16 @@ Consider this scenario, we need to use the Product Details table in various repo
 ![Publish report part](/static/assets/on-premise/images/report-designer/report-parts/publish-report-part.png)
 
 > Note:
-The datasource, dataset and the Query parameters associated with the widgets alone will be published along with the report part.
-Dataset bind with the scope of the expressions and Report parameters will not be published with the report part.
+The Datasource, Dataset and the Query parameters associated with the widgets alone will be published along with the report part whereas Dataset bind with the scope of the expressions and Report parameters will not be published with the report part.
 
 ## Reusing the Published Report Part in other Reports
 
 Create a new report and in that we will use the `Product_Details_Table` report part to demonstrate this feature.
 
-1. Find the `Product_Details_Table` report part under the `Report Parts` tab in the item panel of the report designer
+1. Find the `Product_Details_Table` report part under the `Report Parts` tab in the left side of the Designer surface.
 ![Report part in item panel](/static/assets/on-premise/images/report-designer/report-parts/report-part-itempanel.png)
 
-2. Drag and drop the `Product_Details_Table` report part from the item panel into the Designer surface.
+2. Drag and drop the `Product_Details_Table` report part into the Designer surface.
 ![Drag and drop report part](/static/assets/on-premise/images/report-designer/report-parts/drag-report-part.png)
 
 3. Dataset and query parameters associated with the `Product_Details_Table` report part gets populated in this report.
@@ -49,9 +48,9 @@ Create a new report and in that we will use the `Product_Details_Table` report p
 
 ## Refreshing the Report Parts
 
-You are doing changes in the `Product_Details_Table` master report part and published it and if you want the updated changes to be reflected in the other reports that are using this `Product_Details_Table` report part, simply edit the report, select and right click on the `Product_Details_Table` in your report and it will show you the `refresh` option.
+You are making changes in `Product_Details_Table` report part and have published it. If you want the updated changes to be reflected in the other reports that are using this `Product_Details_Table` report part, right click on the `Product_Details_Table` in your report and it will show you the `refresh` option.
 ![Refresh report part](/static/assets/on-premise/images/report-designer/report-parts/refresh-report-part.png)
 
-Click on the refresh option and the updated changes in the `Product_Details_Table` master report part will get reflected in your report.
+Click on the refresh option, the updated changes in the `Product_Details_Table` report part will get reflected in your report.
 
-> Download the above report design from [link](https://github.com/bold-reports/resources/blob/development/docs/report-designer/design-report-part-use-case-report.rdl).
+> Download the above report design from [link](https://github.com/boldreports/resources/blob/master/docs/report-designer/design-report-part-use-case-report.rdl).
