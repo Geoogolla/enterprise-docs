@@ -1,6 +1,6 @@
 ---
 title: Learn how to use Report Part in Bold Report Designer 
-description: This section describes on how to create, publish and reuse Report Part in multiple reports
+description: This section describes on how to create, publish and reuse Report Part in multiple reports with an use case report in Bold Report Designer
 keywords: report parts, reportdesigner, bold reports, ssrs report parts, paginated reports, reusing report components, creating report templates, report widgets, ejReportDesigner
 ---
 
