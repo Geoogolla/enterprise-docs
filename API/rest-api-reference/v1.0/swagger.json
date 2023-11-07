@@ -4899,7 +4899,7 @@
         },
         "ServerPath": {
           "type": "string",
-          "description": "Specifies the server path eg.`/{category name}/{report name}`."
+          "description": "To get the export report details, provide your report path, like `/{category name}/{report name}`."
         },
         "ExportType": {
           "type": "string",
