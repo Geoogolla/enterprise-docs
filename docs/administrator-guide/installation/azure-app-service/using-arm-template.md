@@ -26,7 +26,7 @@ This section explains how to create the Bold Reports Report Server into Azure cl
 5. Now, select **Build your own template in the editor** in the Custom Deployment window.
 ![Build your own template in the editor option](/static/assets/on-premise/images/installation-and-deployment/azure-deployment/app-service-using-arm-template/build-your-own-template.png)
 
-6. [Click here](https://raw.githubusercontent.com/boldreports/bold-reports-azure/master/armtemplates/v5.2.26/BoldReportsAppServiceTemplate.json)  to download the ARM template file.
+6. [Click here](https://raw.githubusercontent.com/boldreports/bold-reports-azure/master/armtemplates/v5.3.8/BoldReportsAppServiceTemplate.json)  to download the ARM template file.
 
 7. Copy all the contents in the template file and replace them in the Edit template window, and then click **Save**.
 ![Edit the template and replace the template](/static/assets/on-premise/images/installation-and-deployment/azure-deployment/app-service-using-arm-template/edit-template.png)
