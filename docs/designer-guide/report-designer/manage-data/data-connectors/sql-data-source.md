@@ -29,8 +29,8 @@ When you create a new data, the `NEW DATASOURCE` panel will show up with basic o
 3. In [Authentication Type](./../../../manage-data/data-connectors/sql-data-source/#authentication-types-for-basic-connection) field, choose **Windows** or **SQL Server** authentication.
 4. Choose or enter an existing valid database. e.g. AdventureWorks.
 ![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/basic-options.png)
-> Configure the 'Encrypt' and 'Trust Server Certificate' options according to your SQL server settings to enhance security in SQL datasoure connection.
-   >![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/enable-encryption.png)
+    > Configure the 'Encrypt' and 'Trust Server Certificate' options according to your SQL server settings to enhance security in SQL datasource connection.
+    >![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/enable-encryption.png)
 5. Click on the `Connect` to connect the Bold Reports with Microsoft SQL server database.
 6. Drag and drop the table from the table schema in the query design view page.
 ![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/query-designer.png)
