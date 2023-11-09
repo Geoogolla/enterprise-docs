@@ -27,7 +27,7 @@ When you create a new data, the `NEW DATASOURCE` panel will show up with basic o
 3. Enter a valid Azure SQL Data Warehouse username in the **UserName** text box.
 4. Enter a valid Azure SQL Data Warehouse password in the **Password** text box.
 5. Select a database that you want to query in the listed database associated with the given Azure SQL Data Warehouse server in the database combo box.
-    > Configure the 'Encrypt' and 'Trust Server Certificate' options according to your SQL server settings to enhance security in SQL datasource connection.
+    > Configure the 'Encrypt' and 'Trust Server Certificate' options according to your SQL server settings to enhance security in Azure SQL datasource connection.
 6. Click on the `Connect` to connect the Bold Reports with Azure SQL Data Warehouse server database.
 ![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/azure-sql-data-source/basic-options.png)
 7. Drag and drop the table from the table schema in the query design view page.
