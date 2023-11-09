@@ -1,5 +1,5 @@
 ---
-title: Report Parts managing in Report Designer | Bold Reports
+title: Exploring Report Parts in Report Designer | Bold Reports
 description: This section describes on how to create, publish and reuse Report Part in multiple reports with an use case report in Bold Report Designer
 keywords: report parts, report template, report designer, bold reports, ssrs report parts, report components, report part, multiple reports, report items
 ---
