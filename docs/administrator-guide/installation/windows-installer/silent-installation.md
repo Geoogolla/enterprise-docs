@@ -36,7 +36,7 @@ Please follow the below steps to install the Bold Reports Enterprise Reporting i
 
       **parameters:**
      ```console
-    boldreports_enterprisereporting_(version)_(timestamp).exe /Install Silent /InstallPath:{Location to install} /IISPortNo:{Port_No}/IISSiteName:{siteName} /IsSetFirewall:{true/false} /IsDesktopShortcut:{true/false} /IsStartMenuShortcut:{true/false} /IsSilentStartUp:{true/false} /JsonFilePath:{Location of the Startup JSON file path}
+    boldreports_enterprisereporting_(version)_(timestamp).exe /Install Silent /InstallPath:{Location to install} /IISPortNo:{Port_No} /IISSiteName:{siteName} /IsSetFirewall:{true/false} /IsDesktopShortcut:{true/false} /IsStartMenuShortcut:{true/false} /IsSilentStartUp:{true/false} /JsonFilePath:{Location of the Startup JSON file path}
     ```
 
 9. You can install the Bold Reports Enterprise Edition installer in two ways.
