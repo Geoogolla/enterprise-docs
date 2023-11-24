@@ -77,7 +77,7 @@ The fields to be saved in the Bold Reports to enable the Amazon Cognito for auth
         Authorization Endpoint
     </td>
     <td>
-        It should be in the format <span style="color:#0c9dd1">https://AUTH_DOMAIN/oauth2/authorize</span> Please refer <a href="https://aws.amazon.com/blogs/mobile/understanding-amazon-cognito-user-pool-oauth-2-0-grants/">here</a> for more details.
+        It should be in the format <span style="color:#0c9dd1">https://AUTH_DOMAIN/oauth2/authorize</span> Please refer <a href="https://docs.aws.amazon.com/cognito/latest/developerguide/authorization-endpoint.html">here</a> for more details.
     </td>
 </tr>
     <tr>
@@ -94,7 +94,7 @@ The fields to be saved in the Bold Reports to enable the Amazon Cognito for auth
         Token Endpoint
     </td>
     <td>
-        It should be in the format <span style="color:#0c9dd1">https://AUTH_DOMAIN/oauth2/token</span> Please refer <a href="https://aws.amazon.com/blogs/mobile/understanding-amazon-cognito-user-pool-oauth-2-0-grants/">here</a> for more details.
+        It should be in the format <span style="color:#0c9dd1">https://AUTH_DOMAIN/oauth2/token</span> Please refer <a href="https://docs.aws.amazon.com/cognito/latest/developerguide/token-endpoint.html">here</a> for more details.
     </td>
 </tr>
 </tr>
@@ -112,7 +112,7 @@ The fields to be saved in the Bold Reports to enable the Amazon Cognito for auth
         User Information Endpoint
     </td>
     <td>
-        It should be in the format <span style="color:#0c9dd1">https://AUTH_DOMAIN/oauth2/userinfo</span> Please refer <a href="https://developer.amazon%20cognito.com/docs/reference/api/oidc/#userinfo">here</a> for more details.
+        It should be in the format <span style="color:#0c9dd1">https://AUTH_DOMAIN/oauth2/userinfo</span> Please refer <a href="https://docs.aws.amazon.com/cognito/latest/developerguide/userinfo-endpoint.html">here</a> for more details.
     </td>
 </tr>
 </tr>
