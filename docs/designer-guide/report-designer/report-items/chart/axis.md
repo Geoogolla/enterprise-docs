@@ -8,6 +8,25 @@ keywords: ejReportDesigner, reportdesigner, tablix, reportitem, bold reports, do
 
 Charts typically have two axes that are used to measure and categorize data: a vertical (y) primaryYAxis, and a horizontal (x) primaryXAxis. You can customize the axis appearance through the properties provided under the `Category Axis` and `Value Axis` category of chart properties. To customize category axis change the properties under the `Category Axis` property and for value axis change the properties under the `Value Axis` category.
 
+## Axis Type
+
+The Axis Type dropdown displays options for both `Primary` and `Secondary` axes.
+
+![Chart Axis Types](/static/assets/on-premise/images/report-designer/report-items/chart/chart-axis/axis-type-dropdown.png)
+
+If you choose the `Primary` option in the Axis Type dropdown, the values designated for the properties below will be applied uniformly to all series marked as primary axes in the chart.
+
+![Chart primary axis options](/static/assets/on-premise/images/report-designer/report-items/chart/chart-axis/primary-axis-options.png)
+
+Similarly, if you choose the `Secondary` option in the Axis Type dropdown, the values designated for the properties below will be applied uniformly to all series marked as secondary axes in the chart.
+
+![Chart secondary axis options](/static/assets/on-premise/images/report-designer/report-items/chart/chart-axis/secondary-axis-options.png)
+
+> Note: Axis properties are not applicable for `Proportion` and `KPI` chart types.
+
+The steps outlined above detail the configuration of the category axis, and the process remains consistent for the value axis as well.
+
+
 ## Show or hide axis
 
 To show/hide axis in the chart surface, toggle the `Enable Axis` checkbox in the properties panel.
