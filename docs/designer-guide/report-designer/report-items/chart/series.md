@@ -93,7 +93,7 @@ Smart labels manage overlapping of labels even when a large number of labels are
 
 Charts typically have two axes to help organize and display data more meaningfully. The primary axis represents the primary set of data in a chart, while the secondary axis is useful for displaying two or more series with a significantly different range of values on the same chart range, sharing a common category.
 
-`Primary` and `Secondary` axis options will be listed in the Category and Value property dropdown. 
+`Primary` and `Secondary` axis options will be listed in the Category and Value property dropdown.
 
 ![Primary and Secondary axis](/static/assets/on-premise/images/report-designer/report-items/chart/series/primary-and-secondary-axis-options.png)
 

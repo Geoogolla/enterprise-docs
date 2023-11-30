@@ -26,7 +26,6 @@ Similarly, if you choose the `Secondary` option in the Axis Type dropdown, the v
 
 The steps outlined above detail the configuration of the category axis, and the process remains consistent for the value axis as well.
 
-
 ## Show or hide axis
 
 To show/hide axis in the chart surface, toggle the `Enable Axis` checkbox in the properties panel.
