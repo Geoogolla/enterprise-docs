@@ -253,9 +253,9 @@ If you have an SSL certificate for your domain and need to configure the site wi
 ![Ssl Config](/static/assets/on-premise/images/installation/ssl-config.png)
 2. Comment the following marked line in the Nginx config file.
 ![Config Mark](/static/assets/on-premise/images/installation/ssl-config-mark.png)
-3. Replace the `example.com` with your domain name.
-4. Define the path of the SSL certificate: `ssl_certificate /etc/ssl/domain.crt`.
-5. Specify the directory where the SSL certificate key is located: `ssl_certificate_key /etc/ssl/domain.key`.
+3. Replace the `example.com` with your domain name.</br>
+4. Define the path of the SSL certificate: `ssl_certificate /etc/ssl/domain.crt`.</br>
+5. Specify the directory where the SSL certificate key is located: `ssl_certificate_key /etc/ssl/domain.key`.</br>
 6. Save and run the sudo `nginx -t` to verify the syntax of the configuration file. If the configuration file test is successful, force the Nginx to pick up the changes by running the `sudo nginx -s reload`.
 
 >**NOTE**: If you are configuring the application with SSL, you need to update the URLs in the product.
