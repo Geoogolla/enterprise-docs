@@ -40,9 +40,9 @@ This section explains how to create the Bold Reports Report Server into Azure cl
 
     * **Web App name**: This is the name of the Report Server that you want to have in the URL. As this is going to be the URL, it should be unique globally. Deployment process will be failed, if this is already present and you should start once again with another name.
 
-    * **Storage account name**: This is mandatory for Blob storage and also must be unique as that of the Web App name. Learn more about storage accounts from [here](https://docs.microsoft.com/en-us/azure/storage/storage-introduction).
+    * **Storage account name**: This is mandatory for Blob storage and also must be unique as that of the Web App name. Learn more about storage accounts from [here](https://learn.microsoft.com/en-us/azure/storage/common/storage-account-overview).
 
-    * **Storage account type**: This is optional, if you have chosen file storage in storage type and mandatory for Blob storage. Learn more about storage account types from [here](https://docs.microsoft.com/en-us/azure/storage/storage-introduction#replication-for-durability-and-high-availability).
+    * **Storage account type**: This is optional, if you have chosen file storage in storage type and mandatory for Blob storage. Learn more about storage account types from [here](https://learn.microsoft.com/en-us/azure/storage/blobs/object-replication-overview).
 
    > **Note:** Web App name and Storage account name should be in lowercase only.
 
