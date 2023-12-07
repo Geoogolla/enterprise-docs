@@ -25,7 +25,7 @@ This section explains the access modes, entities, scopes, and how to manage the 
 ## Entity
 
 * All Reports: Provides permission to access all the reports with the chosen access mode.
-* Reports in Category: Provides permission to access reports in a specific category with chosen access mode.
+* Reports in Category: Provides permission to access reports in a specific category with a chosen access mode.
 * Specific Report: Provides permission to access a specific report with the chosen access mode.
 * All Data Sources: Provides permission to access all data sources with the chosen access mode.
 * Specific Data Source: Provides permission to access a specific data source with the chosen access mode.
@@ -35,12 +35,12 @@ This section explains the access modes, entities, scopes, and how to manage the 
 * All Schedules: Provides permission to access all schedules with the chosen access mode.
 * Specific Schedule: Provides permission to access a specific schedule with the chosen access mode.
 * All Settings: Provides permission to access all settings pages with the Manage access mode.
-* Specific Settings: Provides permission to access specific settings page with the Manage access mode.
+* Specific Settings: Provides permission to access specific settings pages with the Manage access mode.
 * All Groups: Provides permission to create new groups except for import groups from third parties.
-* Users and Groups: Provides permission to access user and group management with the Create and Manage access mode except for the manage permission page. If you want to access the manage permission page, then you need to provide delegate permission.
-* Specific Group: Provides permission to access specific groups with the Manage access mode except for the manage permission page. If you want to access the manage permission page, then you need to provide delegate permission.
-* All Permissions: Provides permission with the Manage access mode to delegate permission for all the resources in users and groups manage permission page. Only, the permission will available, if the user has a specific group or users and groups permission.
-* Specific Permissions: Provides permission with the Manage access mode to delegate permission for specific resource in users and groups manage permission page. Only the permission will available if the user has a specific group or users and groups permission.
+* Users and Groups: Provides permission to access user and group management with the Create and Manage access mode, except for the Manage Permission page. If you want to access the manage permission page, then you need to provide delegate permission.
+* Specific Group: Provides permission to access specific groups with the Manage access mode, except for the Manage Permission page. If you want to access the manage permission page, then you need to provide delegate permission.
+* All Permissions: Provides permission with the Manage Access mode to delegate permission for all the resources in the users and groups manage permission page. Only permission will be available if the user has a specific group or users and groups permission.
+* Specific Permissions: Provides permission with the Manage Access mode to delegate permission for specific resources in the users and groups manage permission page. Only permission will be available if the user has a specific group or users and groups permission.
 
 ## Scope
 
@@ -51,58 +51,62 @@ Choose scopes for the following entities only, other entities do not require sco
 * Specific Data Source: A specific data source has to be chosen to provide access to it.
 * Specific Category: A specific category has to be chosen to provide access to it.
 * Specific Schedule: A specific schedule has to be chosen to provide access to it.
-* Specific Settings: A specific settings has to be chosen to provide access to it.
+* Specific Settings: A specific setting has to be chosen to provide access to it.
 * Specific Group: A specific group has to be chosen to provide access to it.
 * Specific Permissions: A specific resource has to be chosen to delegate the resource permissions.
 
-> **NOTE**: Create access can only have the Scopes, All Reports, Reports in Category, All Data Sources, All Datasets, All Schedules, All Categories and All Groups.
+> **NOTE**: Create access can only have Scopes, All Reports, Reports in Category, All Data Sources, All Datasets, All Schedules, All Categories, and All Groups.
 >
 > Manage access can only have All Settings, Specific Settings, Specific Group, All Permissions, and Specific Permissions entities.
 >
-> Create and Manage access can only have Users and Groups entity. All Settings, Specific Settings, All Groups, Specific Groups, Users and Groups, All Permissions and Specific Permissions can delegated by the system administrator only.
+> Create and Manage Access can only have users and group entities. All Settings, Specific Settings, All Groups, Specific Groups, Users and Groups, All Permissions, and Specific Permissions can be delegated by the system administrator only.
 
 ## Manage users permissions
 
-`Manage Permissions` page for the users can be accessed from any one of the following places.
+The `Manage Permissions` page for users can be accessed from any one of the following places:
 
-1. Click on the `Manage Permission` icon for the respective users in the users grid on the user management page.
-![Manage Permissions context menu for users](/static/assets/on-premise/images/manage-permissions/manage-permission-icon-user.png)
-2. On the top right corner of the user profile edit page.
-![Manage Permissions option on edit user page](/static/assets/on-premise/images/manage-permissions/edit-user.png)
-3. Here, you will find both the permissions assigned directly to the user and the permissions that the user got inherited from the groups assigned with.
-![List user permissions details](/static/assets/on-premise/images/manage-permissions/list-user-permissions.png)
-4. Click **Add** in the Add Permission dialog box to add permissions to users as shown in the following image.
-![Add permission to user](/static/assets/on-premise/images/manage-permissions/add-permission-to-user.png)
+1. Click on the `Manage Permission` icon for the respective users in the users grid on the user management page or on the top right corner of the user profile edit page.
 
-> **Note**: By clicking on the check box `Add another`, you can add multiple permission to the groups.
+    ![Manage Permissions context menu for users](/static/assets/on-premise/images/manage-permissions/manage-permission-icon-user.png)
+
+    ![Manage Permissions option on edit user page](/static/assets/on-premise/images/manage-permissions/edit-user.png)
+
+2. Here, you will find both the permissions assigned directly to the user and the permissions that the user inherited from the groups assigned to them.
+
+    ![List user permissions details](/static/assets/on-premise/images/manage-permissions/list-user-permissions.png)
+
+3. Click **Add** in the Add Permission dialog box to add permissions to users, as shown in the following image.
+
+    ![Add permission to user](/static/assets/on-premise/images/manage-permissions/add-permission-to-user.png)
 
 ### Steps to add permission to users
 
 1. Select the access mode.
 2. Select the entity.
-3. Select the scope if the access mode is not `Create` or if the entity is specific item type.
+3. Select the scope if the access mode is not `Create` or if the entity is a specific item type.
 4. Click **Add** to add the framed permission to users.
 
 ## Manage group permissions
 
-`Manage Permissions` page for the group can be accessed from any one of the following places.
+The `Manage Permissions` page for the group can be accessed from any one of the following places:
 
-1. Click on the `Manage Permission` icon for the respective group in the groups grid on the group management page.
-![Manage Permissions context menu for group](/static/assets/on-premise/images/manage-permissions/manage-permission-icon-group.png)
-2. On the top right corner of the group edit page.
-![Manage Permissions option on edit group page](/static/assets/on-premise/images/manage-permissions/edit-group.png)
+1. Click on the `Manage Permission` icon for the respective group in the groups grid on the group management page or on the top right corner of the group edit page.
 
-3. Here, you will find the permissions assigned directly to the group. Refer to the following screenshot for `Manage Permissions` in the user page.
-![List user permissions details](/static/assets/on-premise/images/manage-permissions/list-group-permissions.png)
+    ![Manage Permissions context menu for group](/static/assets/on-premise/images/manage-permissions/manage-permission-icon-group.png)
 
-4. Click **Add** in the Add Permission dialog box to add permissions to the group as shown in the following image.
-![Add permission to group](/static/assets/on-premise/images/manage-permissions/add-permission-to-group.png)
+    ![Manage Permissions option on edit group page](/static/assets/on-premise/images/manage-permissions/edit-group.png)
 
-N>By clicking on the check box `Add another`, you can add multiple permission to the groups.
+2. Here, you will find the permissions assigned directly to the group. Refer to the following screenshot for `Manage Permissions` in the user page.
+
+    ![List user permissions details](/static/assets/on-premise/images/manage-permissions/list-group-permissions.png)
+
+3. Click **Add** in the Add Permission dialog box to add permissions to the group, as shown in the following image.
+
+    ![Add permission to group](/static/assets/on-premise/images/manage-permissions/add-permission-to-group.png)
 
 ### Steps to add permission to the group
 
 1. Select the access mode.
 2. Select the entity.
-3. Select the scope if the access mode is not `Create` or if the entity is specific item type.
+3. Select the scope if the access mode is not `Create` or if the entity is a specific item type.
 4. Click **Add** to add framed permission to the group.
