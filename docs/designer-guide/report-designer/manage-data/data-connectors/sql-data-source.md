@@ -28,14 +28,14 @@ When you create a new data, the `NEW DATASOURCE` panel will show up with basic o
 2. In **Server Name** field, you need to select existing server in the local network from the drop-down list or specify the specific remote server name like `myserver.domain.com`.
 3. In [Authentication Type](./../../../manage-data/data-connectors/sql-data-source/#authentication-types-for-basic-connection) field, choose **Windows** or **SQL Server** authentication.
 4. Choose or enter an existing valid database. e.g. AdventureWorks.
-![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/basic-options.png)
+   ![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/basic-options.png)
 5. Configure the `Encrypt` and `Trust Server Certificate` options based on your SQL Server configuration.
-![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/enable-encryption.png)
+   ![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/enable-encryption.png)
 6. Click on the `Connect` to connect the Bold Reports with Microsoft SQL server database.
 7. Drag and drop the table from the table schema in the query design view page.
-![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/query-designer.png)
+   ![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/query-designer.png)
 8. Click `Finish` to save the data source with a relevant name to proceed with designing report.
-![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/data-list.png)
+   ![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/data-list.png)
 
 #### Authentication types for basic connection
 
