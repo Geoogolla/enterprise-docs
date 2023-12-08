@@ -251,11 +251,11 @@ If you have an SSL certificate for your domain and need to configure the site wi
 
 1. Uncomment the following marked lines in the Nginx config file.
 
-![Ssl Config](/static/assets/on-premise/images/installation/ssl-config.png)
+    ![Ssl Config](/static/assets/on-premise/images/installation/ssl-config.png)
 
 2. Comment the following marked line in the Nginx config file.
 
-![Config Mark](/static/assets/on-premise/images/installation/ssl-config-mark.png)
+    ![Config Mark](/static/assets/on-premise/images/installation/ssl-config-mark.png)
 
 3. Replace the `example.com` with your domain name.
 4. Define the path of the SSL certificate: `ssl_certificate /etc/ssl/domain.crt`.
