@@ -26,7 +26,6 @@ From the login window, choose your account type and proceed to login.
 
 * Bold Reports Login Credentials
 * Azure AD
-* Syncfusion Login Credentials
 
 ![Application startup login form](/static/assets/on-premise/images/getting-started/login-option.png)
 
