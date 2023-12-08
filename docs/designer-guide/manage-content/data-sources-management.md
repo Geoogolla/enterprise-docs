@@ -23,21 +23,21 @@ Data source can be added to Report Server only if the user has `Create All Data 
 ### Steps to add a data source
 
 1. Click on the `Create Data Source` button from Data Sources listing page.
-![Create data source menu option](/static/assets/on-premise/images/manage-content/manage-data-sources/create-data-source-menu-option.png)
+    ![Create data source menu option](/static/assets/on-premise/images/manage-content/manage-data-sources/create-data-source-menu-option.png)
 
    > While adding datasource we can also add new Dataset to the Report Server either by using `Create New Datasource` option or `Use existing Datasource` option.
 
 #### Create New Datasource
 
 1. Click on `Create New Datasource` option, it will show enabled connectors like below image.
-![Set data connectors type](/static/assets/on-premise/images/manage-content/manage-data-sources/connectors-type.png)
+    ![Set data connectors type](/static/assets/on-premise/images/manage-content/manage-data-sources/connectors-type.png)
 
 2. Choose the data source. Enter the name, description and the other required details of the data source and click on the
 `Save and Create DataSet` option.
     ![Set data source properties](/static/assets/on-premise/images/manage-content/manage-data-sources/add-new-data-source.png)
 
 3. Enter the name and description of the dataset and click on `Proceed to Query Designer` option.
-![Proceed to designer](/static/assets/on-premise/images/manage-content/manage-data-sources/proceed-to-designer.png).
+    ![Proceed to designer](/static/assets/on-premise/images/manage-content/manage-data-sources/proceed-to-designer.png).
 
 4. After designing dataset click on the `save` option.
 
