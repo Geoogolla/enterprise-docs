@@ -91,13 +91,13 @@ Smart labels manage overlapping of labels even when a large number of labels are
 
 ## Axis Settings
 
-Charts typically have two axes to help organize and display data more meaningfully. It can be easily visualized by presenting series data with different ranges or unit types on different axes using primary and secondary axes.
+Charts typically have two axes to help organize and display data more meaningfully. They can be easily visualized by presenting series data with different ranges or unit types on different axes, using primary and secondary axes.
 
 `Primary` and `Secondary` axis options will be listed in the Category and Value property dropdown.
 
 ![Primary and Secondary axis](/static/assets/on-premise/images/report-designer/report-items/chart/series/primary-and-secondary-axis-options.png)
 
-If you want to showcase the number of units sold (in unit type numbers) in every month of the year with the total sale amount (in unit type Dollars), you don’t have to compare this in two different charts. You can display the total number of units sold (in unit type number) in the primary y-axis and the total sale amount (in unit type Dollars) will be displayed in the secondary y-axis and thus we can compare multiple series with different ranges in a same chart.
+If you want to showcase the number of units sold (in unit type numbers) in every month of the year along with the total sale amount (in unit type Dollars), you don’t have to compare this in two different charts. Instead, you can display the total number of units sold (in unit type numbers) on the primary y-axis and the total sale amount (in unit type Dollars) will be displayed on the secondary y-axis. This allows us to compare multiple series with different ranges on the same chart.
 
 ![Chart secondary axis](/static/assets/on-premise/images/report-designer/report-items/chart/series/secondary-axis-series.png)
 
