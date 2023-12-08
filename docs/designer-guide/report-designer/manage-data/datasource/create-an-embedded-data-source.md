@@ -28,7 +28,7 @@ To bind data to a report item, a minimum of one data source is needed. A data so
     * In **Authentication Type** field, choose **Windows** or **SQL Server** authentication.
     * If you have chosen **SQL Server** authentication, specify the **username** and **password** of the server.
     * In **Database** field, choose or enter an existing valid database e.g. AdventureWorks.
-![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/datasource/save-new-data-source.png#width=482px)
+      ![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/datasource/save-new-data-source.png#width=482px)
 6. Now, click on the `Save` button and the new embedded data source will be added in data source list pane like below.
    ![Data source list view](/static/assets/on-premise/images/report-designer/manage-data/datasource/data-source-list-view.png#width=513px)
 7. The embedded data source is created in the report and it is ready to create/use the data.

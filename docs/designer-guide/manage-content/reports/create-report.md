@@ -109,7 +109,7 @@ Once you are done with the report designing, click on the `Publish` option.
 2. Now, the report preview can be visualized like below.
 ![Chart report preview](/static/assets/on-premise/images/manage-content/manage-reports/create-reports/report-preview-page.png)
 
-> Download the above report design from [link](https://github.com/boldreports/resources/tree/master/docs/manage-content/test.rdl).
+> Download the above report design from [link](https://github.com/boldreports/resources/blob/master/docs/manage-content/reports/create-report.rdl).
 
 ## See also
 
