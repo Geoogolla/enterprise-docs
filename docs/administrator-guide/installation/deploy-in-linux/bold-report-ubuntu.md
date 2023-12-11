@@ -250,9 +250,13 @@ Once the Nginx configuration is established, run the `sudo nginx -t` to verify t
 If you have an SSL certificate for your domain and need to configure the site with your SSL certificate, follow these steps or you can skip this.
 
 1. Uncomment the following marked lines in the Nginx config file.
-![Ssl Config](/static/assets/on-premise/images/installation/ssl-config.png)
+
+    ![Ssl Config](/static/assets/on-premise/images/installation/ssl-config.png)
+
 2. Comment the following marked line in the Nginx config file.
-![Config Mark](/static/assets/on-premise/images/installation/ssl-config-mark.png)
+
+    ![Config Mark](/static/assets/on-premise/images/installation/ssl-config-mark.png)
+
 3. Replace the `example.com` with your domain name.
 4. Define the path of the SSL certificate: `ssl_certificate /etc/ssl/domain.crt`.
 5. Specify the directory where the SSL certificate key is located: `ssl_certificate_key /etc/ssl/domain.key`.
