@@ -60,6 +60,7 @@
     "Admin Utility": {
         "Reset Password": "reset-password",
         "Reset Application Database": "reset-application-database",
+        "Reset 2FA": "reset-two-factor-authentication",
         "v2.4 or older": {
           "Reset Password for Bold Reports version 2.4 or older": "reset-password",
           "Reset Application Database for Bold Reports version 2.4 or older": "reset-application-database"
@@ -184,7 +185,8 @@
         "Does Report Server store reports execution data to server database": "does-report-server-store-reports-execution-data-to-server-database.md",
         "How to install PhantomJS manually?":"how-to-install-phantomjs-manually.md",
         "Will the OpenID user have access to site2? When, if the user is imported from OpenID connect under site1": "will-the-openid-user-have-access-to-site2-when-if-the-user-is-imported-from-openid-connect-under-site1.md",
-        "Does Bold Reports support scaling?": "does-bold-reports-support-scaling.md"
+        "Does Bold Reports support scaling?": "does-bold-reports-support-scaling.md",
+        "How to restart the Bold Reports Embedded application": "how-to-restart-the-bold-reports-embedded-application.md"
     }
 },
 "Designer Guide":{
