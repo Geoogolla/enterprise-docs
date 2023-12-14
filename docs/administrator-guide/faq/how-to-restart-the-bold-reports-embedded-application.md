@@ -27,7 +27,7 @@ Please refer to your hosting environment’s documentation for how to restart th
 
     ![iis-manager-restart](/static/assets/on-premise/images/faq/iis-manager-restart.png)
 
-    > **Note**: If the Bold BI Embedded and Bold Reports enterprise apps are installed with a common login, the site name will be `BoldAppsEnterpriseEdition`.
+    > **Note**: If the Bold Reports Embedded and Bold BI enterprise apps are installed with a common login, the site name will be `BoldAppsEnterpriseEdition`.
 
 ## Linux
 
