@@ -34,3 +34,4 @@ This section explains about how to use the admin utility and list of command ava
 Please find the list of commands available in admin utility currently.
 * [**Reset Password**](./../admin-utility/reset-password/)
 * [**Update Application Database**](./../admin-utility/reset-application-database/)
+* [**Reset 2FA**](./../admin-utility/reset-two-factor-authentication/)
