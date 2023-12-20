@@ -521,7 +521,7 @@
 },
 "Licensing": "licensing.md",
 "Security": "security.md",
-"Performance metrics": "bold-reports-performance-metrics.md",
+"Performance Metrics": "bold-reports-performance-metrics.md",
 "REST API Reference": {
 	"Site Administration": {
          "v1.0": "v1.0?html=true",
