@@ -18,7 +18,7 @@ This section explains how to perform single sign-on for users in Keycloak with t
 
 ## Prerequisites
 
-* An admin account in [Keycloak](https://www.keycloak.org/getting-started/getting-started-zip).
+* An admin account in Keycloak.
 * Install the Bold Reports application.
 
 ### Steps to register the Bold Reports application
