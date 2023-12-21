@@ -41,3 +41,5 @@ This section helps to get the answer for the frequently asked questions in `Bold
 * [Does Bold Reports support scaling?](./../faq/does-bold-reports-support-scaling/)
 
 * [How to restart the Bold Reports Embedded application?](./../faq/how-to-restart-the-bold-reports-embedded-application/)
+
+* [How to Install the Chromium Package Manually in Bold Reports?](./../faq/how-to-install-chromium-packages/)
