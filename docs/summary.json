@@ -79,7 +79,8 @@
             "OpenID Connect": {
                 "OneLogin": "onelogin.md",
                 "Okta": "okta.md",
-                "Auth0": "auth0.md"
+                "Auth0": "auth0.md",
+                "Keycloak": "keycloak.md"
             },
             "Office 365": "office-365.md"
         }
