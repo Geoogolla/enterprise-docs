@@ -94,6 +94,9 @@
         "Report Settings": "report-settings.md",
         "Oauth2.0": "oauth-settings.md",
         "OpenID Connect": "open-id-connect-settings.md",
+        "CORS Settings": "cors-settings.md",
+        "Content Security Policy Settings": "content-security-policy.md",
+        "X-Frame-Options Configuration": "x-frame-options.md",
         "Synchronization Schedule": {
             "Active Directory Synchronization Schedule": "active-directory-synchronization-schedule.md",
             "Azure Active Directory Synchronization Schedule": "azure-active-directory-synchronization-schedule.md",
