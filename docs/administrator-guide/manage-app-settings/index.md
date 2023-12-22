@@ -33,3 +33,9 @@ Settings in Bold Reports Report Server stores valuable information required for 
 * [Notifications Settings](./../../designer-guide/notifications/)
 
 * [Embed settings](./../../developer-guide/embed-in-application/iframe/embed-secret-key/)
+
+* [CORS settings](./../../administrator-guide/manage-app-settings/cors-settings/)
+
+* [Content Security Policy Settings](./../../administrator-guide/manage-app-settings/content-security-policy/)
+
+* [X-Frame-Options Configuration](./../../administrator-guide/manage-app-settings/x-frame-options/)

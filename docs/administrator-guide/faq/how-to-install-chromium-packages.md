@@ -46,4 +46,4 @@ After copying the chromium packages into the specified directory mentioned in th
 
  > **NOTE:**
  > * The above-highlighted location doesn’t exist. Please create them manually and move the downloaded packages.
- > * If you are using the Bold Reports version below 5.4 or the Azure App Service Environment, install [phantomjs](./../how-to-install-phantomjs-manually/)instead of the chromium package.
+ > * If you are using the Bold Reports version below 5.4 or the Azure App Service Environment, install [phantomjs](./../how-to-install-phantomjs-manually/) instead of the chromium package.
