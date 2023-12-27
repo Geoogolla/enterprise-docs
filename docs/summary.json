@@ -82,7 +82,8 @@
                 "Auth0": "auth0.md",
                 "Keycloak": "keycloak.md"
             },
-            "Office 365": "office-365.md"
+            "Office 365": "office-365.md",
+            "Azure Active Directory":"azure-active-directory.md"
         }
     },
     "Manage App Settings": {
