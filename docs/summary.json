@@ -490,6 +490,7 @@
             "Manage Report Views": "manage-report-views.md",
             "Export report": "export-report.md"
         },
+        "Report Layout": "report-layout.md",
         "DataSources": "data-sources-management.md",
         "DataSet": "dataset-management.md"
     },
