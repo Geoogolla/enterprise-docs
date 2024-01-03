@@ -48,7 +48,7 @@ Please refer to your operating system’s documentation for instructions on how 
 
    ![reset-command](/static/assets/on-premise/images/tenant-management/admin-utility/reset-con-string-1.png)
 
-3. Once the database has been updated successfully, restart the application in [IIS](../../faq/how-to-restart-the-bold-reports-embedded-application/#windows).
+3. Once the database has been updated successfully, restart the application in [IIS](../../faq/how-to-restart-the-bold-reports-enterprise-application/#windows).
 
 ## Linux
 
@@ -84,7 +84,7 @@ Please refer to your operating system’s documentation for instructions on how 
 
    ![linux-reset-command](/static/assets/on-premise/images/tenant-management/admin-utility/linux-reset-cmd.png)
 
-3. Once the database has been updated successfully, restart the application by following this [link](../../faq/how-to-restart-the-bold-reports-embedded-application/#linux)
+3. Once the database has been updated successfully, restart the application by following this [link](../../faq/how-to-restart-the-bold-reports-enterprise-application/#linux)
 
 ## Docker
 

@@ -115,6 +115,7 @@
                 "OpenID Support": "openid-settings",
                 "JSON Web Token": "json-web-token"
             },
+            "Security":"security.md",
             "API Keys": "api-keys",
             "Manage License": "manage-license"
           },
@@ -190,7 +191,7 @@
         "How to install PhantomJS manually?":"how-to-install-phantomjs-manually.md",
         "Will the OpenID user have access to site2? When, if the user is imported from OpenID connect under site1": "will-the-openid-user-have-access-to-site2-when-if-the-user-is-imported-from-openid-connect-under-site1.md",
         "Does Bold Reports support scaling?": "does-bold-reports-support-scaling.md",
-        "How to restart the Bold Reports Embedded application": "how-to-restart-the-bold-reports-embedded-application.md",
+        "How to restart the Bold Reports Enterprise application": "how-to-restart-the-bold-reports-enterprise-application.md",
         "How to Install the Chromium Package Manually in Bold Reports": "how-to-install-chromium-packages.md"
     }
 },

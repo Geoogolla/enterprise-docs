@@ -42,7 +42,7 @@ If you installed the build offline or skipped the packages during the build inst
  </tr>
  </table>
 
-After copying the chromium packages into the specified directory mentioned in the above table, you must restart the web,API, and job services. Please refer to this [link](./../how-to-restart-the-bold-reports-embedded-application/) for more information.
+After copying the chromium packages into the specified directory mentioned in the above table, you must restart the web,API, and job services. Please refer to this [link](./../how-to-restart-the-bold-reports-enterprise-application/) for more information.
 
  > **NOTE:**
  > * The above-highlighted location doesn’t exist. Please create them manually and move the downloaded packages.
