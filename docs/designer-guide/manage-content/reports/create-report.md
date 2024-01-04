@@ -21,8 +21,8 @@ This section explains how to create and design a report in Bold Reports On-Premi
 2. Enter the report name in the dialog box and click on
 `Add and Design` button.
 ![Report designer initial view](/static/assets/on-premise/images/manage-content/manage-reports/create-reports/add-and-design-button.png)
-    > Report designing in designer will save as draft report.
-    >![Draft report](/static/assets/on-premise/images/manage-content/manage-reports/create-reports/draft-report.png)
+   > Report designing in designer will save as draft report.
+   >![Draft report](/static/assets/on-premise/images/manage-content/manage-reports/create-reports/draft-report.png)
 3. Now, the report designer page opens in a new tab, with a blank report by default.
 ![Report designer initial view](/static/assets/on-premise/images/manage-content/manage-reports/create-reports/report-designer-initial-view.png)
 > * Click on the `Try the new designer` toggle button if the user wants to experiment with the new designer.
@@ -110,6 +110,22 @@ Once you are done with the report designing, click on the `Publish` option.
 ![Chart report preview](/static/assets/on-premise/images/manage-content/manage-reports/create-reports/report-preview-page.png)
 
 > Download the above report design from [link](https://github.com/boldreports/resources/blob/master/docs/manage-content/reports/create-report.rdl).
+
+## Report Part
+
+1. Published report parts can be viewed under the `Report Parts` section.
+
+    ![report-part-listing-page](/static/assets/on-premise/images/manage-content/manage-reports/create-reports/report-part.png)
+
+2. Choose the `Edit` icon to edit the report part.
+
+    ![edit-report-part](/static/assets/on-premise/images/manage-content/manage-reports/create-reports/edit-report-part.png)
+
+3. Choose the delete option to delete the report part.
+
+    ![delete-report-part](/static/assets/on-premise/images/manage-content/manage-reports/create-reports/report-part-delete.png)
+
+    > Note: To know more about it, refer to the section [Report Parts](../../../report-designer/report-parts/).
 
 ## See also
 
