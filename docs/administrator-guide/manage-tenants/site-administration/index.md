@@ -22,4 +22,6 @@ You can explore the Site Administration in detail here,
 
 [Authentication](./../site-administration/authentication/)
 
+[Security](./../site-administration/security/)
+
 [Manage License](./../site-administration/manage-license/)
