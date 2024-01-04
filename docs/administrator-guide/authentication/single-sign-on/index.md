@@ -12,4 +12,6 @@ Single Sign-On (SSO) is an authentication scheme that allows you to login into t
 
 You can refer more details from the following sections to configure Single Sign-On for Bold Reports:
 
-[OAuth 2.0 - OneLogin in Bold Reports](./../single-sign-on/oauth-2.0/onelogin/)
+* [OAuth 2.0 - OneLogin in Bold Reports](./../single-sign-on/oauth-2.0/onelogin/)
+
+* [Azure Active Directory](./../single-sign-on/azure-active-directory/)
