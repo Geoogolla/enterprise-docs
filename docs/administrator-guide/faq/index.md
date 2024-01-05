@@ -43,3 +43,5 @@ This section helps to get the answer for the frequently asked questions in `Bold
 * [How to restart the Bold Reports Enterprise application?](./../faq/how-to-restart-the-bold-reports-enterprise-application/)
 
 * [How to Install the Chromium Package Manually in Bold Reports?](./../faq/how-to-install-chromium-packages/)
+
+* [How to resolve a login failure for users in Windows authentication mode](./../faq/how-to-resolve-login-failed-for-user-in-windows-authentication-mode/)
