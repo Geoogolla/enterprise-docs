@@ -8,17 +8,17 @@ documentation: ug
 
 # Enterprise License Overview
 
-An enterprise license is a type of software licensing agreement that grants a large organization the right to use a software product across the entire business. It allows them to use the software or service across the entire organization without needing to get individual licenses for each user or device.
+An enterprise license, including those for Bold Reports, is a type of software licensing agreement that grants a large organization the right to use the Bold Reports software product across the entire business. It allows them to use the Bold Reports software or service across the entire organization without needing to obtain individual licenses for each user or device.
 
 **Key characteristics of an enterprise license often include:**
 
-1. **Unlimited Usage:** The software can be installed and used on any number of devices within the organization, without restrictions on the number of users or installations.
+1. Bold Reports can be installed and used on any number of devices within the organization, without restrictions on the number of users or installations.
 
-2. **Centralized Management:** The organization can manage all licenses centrally, making it easier to track usage, renewals, and compliance.
+2. The organization can manage all licenses centrally, making it easier to track usage, renewals, and compliance.
 
-3. **Additional Features:** Enterprise licenses often come with access to additional features or services, such as premium support, training, and customization options.
+3. Enterprise licenses often come with access to additional features or services, such as premium support, training, and customization options.
 
-4. **Cost Efficiency:** Compared to purchasing individual licenses for each user or device, enterprise licensing offers cost efficiency. This could involve a flat fee, a pricing structure based on the organization's size, or a usage-based model.
+4. Compared to purchasing individual licenses for each user or device, enterprise licensing offers cost efficiency. This could involve a flat fee, a pricing structure based on the organization's size, or a usage-based model.
 
 ## Types of License validation in Bold Reports:
 
@@ -28,35 +28,35 @@ An enterprise license is a type of software licensing agreement that grants a la
 
 ## Online License Validation
 
-* Online license validation is a process used by software companies to verify the authenticity and legality of a software license by connecting to the internet. It ensures that the provided license key or credentials are legitimate before allowing the software to operate or granting access to certain features.
+* Online license validation is a process used by Bold Reports to verify the authenticity and legality of a Bold Reports license by connecting to the internet. It ensures that the provided Bold Reports license key or credentials are legitimate before allowing Bold Reports to operate or granting access to certain features.
 
 * To activate your account and start the Bold Reports Enterprise Application using online license validation, use your login credentials. For more detailed instructions, please follow the [documentation](./../administrator-guide/application-startup/#activate-the-account-using-login-credentials).
 
 ### How It Works
 
-1. **User Input:** When a user installs or activates the software, they enter a license key or credentials provided by the software vendor.
+1. When a user installs or activates the Bold Reports, they enter a license key or credentials provided by the Bold Reports software vendor.
 
-2. **License Check:** The software sends a request to the vendor's server over the internet, including details about the license key or credentials.
+2. Bold Reports initiates a request to its designated server over the internet, transmitting details about the license key or credentials.
 
-3. **Validation:** The server checks the provided license key or credentials to verify if they are genuine, unused, and align with the authorized usage rights.
+3. The server checks the provided license key or credentials to verify if they are genuine, unused, and align with the authorized usage rights.
 
-4. **Authorization:** If the license key meets the criteria and is valid, the software is authorized to run or access various features according to the terms of the license agreement.
+4. If the license key meets the criteria and is valid, Bold Reports is authorized to run or access various features according to the terms of the license agreement.
 
 ### Uses of an Online License Validation
 
-1. **Anti-Piracy Measure:** Online validation helps prevent software piracy by ensuring that only genuine and authorized license keys are accepted, reducing unauthorized usage or distribution.
+1. Online validation helps prevent Bold Reports piracy by ensuring that only genuine and authorized license keys are accepted, reducing unauthorized usage or distribution.
 
-2. **Ensuring Compliance:** It ensures users adhere to the software license terms and conditions, allowing software providers to monitor and regulate authorized software use.
+2. It ensures users adhere to Bold Reports license terms and conditions, allowing Bold Reports providers to monitor and regulate authorized software use.
 
-3. **Security Enhancement:** By validating licenses online, it adds a layer of security, allowing only legitimate users with authorized licenses to access the software, reducing the risk of unauthorized access or security breaches.
+3. By validating licenses online, it adds a layer of security, allowing only legitimate users with authorized licenses to access Bold Reports, reducing the risk of unauthorized access or security breaches.
 
-4. **Subscription and Payment Models:** It supports subscription-based or usage-based payment models by periodically verifying licenses to ensure users maintain active subscriptions or licenses for continued access.
+4. It supports subscription-based or usage-based payment models by periodically verifying licenses to ensure users maintain active subscriptions or licenses for continued access.
 
-5. **Version Control and Updates:** Online validation ensures users have access to the correct version or updates of the software, maintaining compatibility, security, and functionality.
+5. Online validation ensures users of Bold Reports have access to the correct version or updates of the Bold Reports software, maintaining compatibility, security, and functionality.
 
 ## Offline license validation
 
-* Offline license validation involves authenticating the legitimacy of a software license without requiring an active internet connection. It verifies the validity and authenticity of a provided license key or credentials locally on the device without connecting to a central server or online system.
+* Offline license validation, including for Bold Reports, involves authenticating the legitimacy of a Bold Reports software license without requiring an active internet connection. It verifies the validity and authenticity of a provided Bold Reports license key or credentials locally on the device without connecting to a central server or online system.
 
 * While the default setting for the Bold Reports License mandates online license validation, if you face network limitations or any barriers hindering online license validation, you can obtain an offline license key for your subscription.
 
@@ -64,23 +64,23 @@ An enterprise license is a type of software licensing agreement that grants a la
 
 ### How It Works
 
-1. **Local Verification:** The process authenticates the license key or credentials directly on the user's device, checking their validity without requiring an internet connection.
+1. The process authenticates the license key or credentials directly on the user's device, checking their validity without requiring an internet connection.
 
-2. **Validation Process:** The software compares the provided license key or credentials against locally stored data or cryptographic methods to ensure they are genuine and in line with the software's licensing terms.
+2. Bold Reports compares the provided license key or credentials against locally stored data or cryptographic methods to ensure they are genuine and in line with the Bold Reports licensing terms.
 
-3. **Authorization:** If the license key or credentials are valid and meet the validation criteria, the software gets authorized to run or access specific features as per the terms of the license agreement.
+3. If the license key or credentials for Bold Reports are valid and meet the validation criteria, Bold Reports gets authorized to run or access specific features as per the terms of the license agreement.
 
 ### Uses of an Offline License Validation
 
-1. **Limited Internet Access:** It's beneficial in environments with limited or no internet connectivity, ensuring software activation and usage without requiring an online connection.
+1. It's beneficial in environments with limited or no internet connectivity, ensuring Bold Reports activation and usage without requiring an online connection.
 
-2. **Secure Environments:** For highly secure environments, closed networks, or systems isolated from the internet for security reasons, offline validation ensures software activation without compromising security.
+2. For highly secure environments, closed networks, or systems isolated from the internet for security reasons, offline validation ensures Bold Reports activation without compromising security.
 
-3. **Remote Locations:** In areas with poor connectivity, offline validation allows software usage without depending on internet availability.
+3. In areas with poor connectivity, offline validation allows Bold Reports usage without depending on internet availability.
 
-4. **Confidentiality and Privacy:** It offers a layer of privacy by verifying licenses locally, without transmitting sensitive license information over the internet.
+4. It offers a layer of privacy by verifying licenses locally, without transmitting sensitive license information over the internet.
 
-5. **Reduced Dependency:** It decreases reliance on continuous internet access for license validation, making it convenient for users operating in offline or restricted network environments.
+5. It decreases reliance on continuous internet access for license validation, making it convenient for users operating in offline or restricted network environments.
 
 ### How to get the offline license key file
 
