@@ -103,8 +103,9 @@ Place the downloaded license key file in the Bold Reports installation location.
 3. Open the config.xml file at the below location:
    `{deployment_location}\app_data\reporting\configuration\config.xml`
 
-4. Set true to the OfflineCapable node, if the node is not available, then add the node as shown below and then save the file. Refer to [kb](https://support.boldreports.com/kb/article/14885/enable-offline-mode-for-bold-reports-resolve-errors-when-an-internet-connections-are-not-available) for more info.
+4. Set true to the OfflineCapable node, if the node is not available, then add the node as shown below and then save the file.
    `<OfflineCapable>true</OfflineCapable>`
+   Refer to [kb](https://support.boldreports.com/kb/article/14885/enable-offline-mode-for-bold-reports-resolve-errors-when-an-internet-connections-are-not-available) for more info.
    ![Offline Capable](/static/assets/on-premise/images/getting-started/offline-capable-node.png)
 
 5. [Restart](./../administrator-guide/faq/how-to-restart-the-bold-reports-enterprise-application/) the Bold Reports application.
