@@ -16,7 +16,7 @@ An enterprise license, including those for Bold Reports, is a type of software l
 
 2. The organization can manage all licenses centrally, making it easier to track usage, renewals, and compliance.
 
-3. Enterprise licenses often come with access to additional features or services, such as premium support, training, and customization options.
+3. Enterprise licenses often come with access to additional services, such as premium support.
 
 4. Compared to purchasing individual licenses for each user or device, enterprise licensing offers cost efficiency. This could involve a flat fee, a pricing structure based on the organization's size, or a usage-based model.
 
@@ -51,8 +51,6 @@ An enterprise license, including those for Bold Reports, is a type of software l
 3. **Security Enhancement:** By validating licenses online, it adds a layer of security, allowing only legitimate users with authorized licenses to access Bold Reports, reducing the risk of unauthorized access or security breaches.
 
 4. **Subscription Model:** It supports a subscription-based model by periodically verifying licenses to ensure that users maintain active subscriptions or licenses for continued access.
-
-5. **Version Control and Updates:** Online validation ensures users of Bold Reports have access to the correct version or updates of the Bold Reports software, maintaining compatibility, security, and functionality.
 
 ## Offline license validation
 
