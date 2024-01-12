@@ -51,15 +51,13 @@ If you want to configure the Bold Reports application as a subapplication, pleas
 
 Once provided all the details to host the application in IIS and click `Next` to proceed further.
 
-## PhantomJS
+## Chromium Packages
 
-> **IMPORTANT:** PhantomJS is a headless WebKit scriptable with JavaScript. This is free software or open source, and it may contain MIT, BSD, LGPL, GPL, or other similar licenses that contain third-party code. This executable file is necessary to achieve an image and PDF export functionalities in the dashboard and widgets. Without this file, the image and PDF export options in the dashboard and widgets will no longer be available. If you choose to download PhantomJS, then you must accept all terms and conditions to use it with Syncfusion products.
+> **IMPORTANT:** Chromium packages are necessary to enable image and PDF export functionalities in reports and schedules from Bold Reports. Without these packages, the image and PDF export options will be disabled.
 
-Read and accept the license and third-party terms and conditions by checking the options``LICENSE`` and ``Third-party`` for install PhantomJS and click ``INSTALL``.
+![Chromium](/static/assets/on-premise/images/installation/chromium.png)
 
-![Panthom](/static/assets/on-premise/images/installation/panthom.png)
-
-> **NOTE**: If you have internet connection problem or if you are installing on an air-gapped machine, unselect the PhantomJS download option below and continue to install. You can also install it manually later by following the instructions [here](https://help.boldreports.com/enterprise-reporting/administrator-guide/faq/how-to-install-phantomjs-manually/).
+> **NOTE**: If you encounter problems with your internet connection or have no connection, unselect the option to download Chromium Packages and continue with the installation. Refer to the provided guide for instructions on [manually installing the Chromium Packages](../../faq/how-to-install-chromium-packages/).
 
 ### Client libraries
 
@@ -85,16 +83,17 @@ If you did not install the client libraries during this installation, then after
 
 Please follow below steps to change the application binding information
 
-1. Add new binding to Bold Reports Enterprise Reporting edition on IIS as shown in the image below.
- **`Example: example.com`**
-![IIS Binding](/static/assets/on-premise/images/getting-started/add-binding.png)  
-    >Don’t remove existing bindings.
-2. Go to site settings page of the UMS application using below old binding and update the new binding information as shown in image below.
-**`http://localhost:{port-no}/ums/administration`**  
-![IDP Base URL](/static/assets/on-premise/images/getting-started/idp-base-url.png)
-3. Then navigate to the site listing page of UMS application and click `Edit` on the deployed site as shown in image below.
-**`http://localhost:{port-no}/ums/sites`**  
-![RS Base URL](/static/assets/on-premise/images/getting-started/ums-url-edit.png)
+1. Add new binding to Bold Reports Enterprise Reporting edition on IIS as shown in the image below.**`Example: example.com`**
+    ![IIS Binding](/static/assets/on-premise/images/getting-started/add-binding.png)
+    `Don’t remove existing bindings.`
+
+2. Go to site settings page of the UMS application using below old binding and update the new binding information as shown in image below.**`http://localhost:{port-no}/ums/administration`**
+
+    ![IDP Base URL](/static/assets/on-premise/images/getting-started/idp-base-url.png)
+
+3. Then navigate to the site listing page of UMS application and click `Edit` on the deployed site as shown in image below.**`http://localhost:{port-no}/ums/sites`**  
+    ![RS Base URL](/static/assets/on-premise/images/getting-started/ums-url-edit.png)
+
 4. Update the new binding information as shown in image below.![RS Base URL](/static/assets/on-premise/images/getting-started/ums-base-url.png)
 5. Now, Bold Reports site can be browsed using the new binding.
 6. Repeat the step 3 and 4 to change custom domain for deployed sites.
