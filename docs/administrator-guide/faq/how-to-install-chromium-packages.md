@@ -45,5 +45,5 @@ If you installed the build offline or skipped the packages during the build inst
 After copying the chromium packages into the specified directory mentioned in the above table, you must restart the web,API, and job services. Please refer to this [link](./../how-to-restart-the-bold-reports-enterprise-application/) for more information.
 
  > **NOTE:**
- > * If the above-highlighted location doesn’t exist, Please create them manually and move the downloaded packages.
+ > * If the above-highlighted location doesn’t exist, please create it manually and move the downloaded packages.
  > * If you are using the Bold Reports version below 5.4 or the Azure App Service Environment, install [phantomjs](./../how-to-install-phantomjs-manually/) instead of the chromium package.
