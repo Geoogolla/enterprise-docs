@@ -62,4 +62,4 @@ Follow the below steps to configure SSL for Bold Reports application in IIS Mana
 
    ![Browse application](/static/assets/on-premise/images/how-to/browse-https.png)
 
->Please refer this [Link](https://help.boldreports.com/enterprise-reporting/administrator-guide/installation/windows-installer/#how-to-change-the-binding-in-the-bold-reports-enterprise-reporting) to change the binding information in Bold Reports Enterprise Reporting Application.
+> Please refer this [Link](../../installation/windows-installer/installation-and-deployment/#how-to-change-the-binding-in-the-bold-reports-enterprise-reporting) to change the binding information in Bold Reports Enterprise Reporting Application.
