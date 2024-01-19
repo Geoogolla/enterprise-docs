@@ -63,7 +63,7 @@ Once you have provided all the details to host the application in IIS and click 
 
 ![Client](/static/assets/on-premise/images/installation/client.png)
 
-Read and accept the license to ship the selected client libraries, and then click Next.
+Read and accept the license to ship the selected client libraries, and then click `Install`.
 
 After the installation process is completed, you can launch the application by clicking `Launch Application`.
 
