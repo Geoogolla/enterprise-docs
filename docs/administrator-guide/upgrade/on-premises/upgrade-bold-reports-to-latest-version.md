@@ -86,7 +86,7 @@ Chromium packages are necessary to achieve `image and PDF export` functionalitie
 
 ### Client libraries
 
-Bold Reports Enterprise Edition uses client libraries such as Oracle, PostgreSQL, MySQL to connect with their respective SQL database variants. Check the license of each library to give consent for installation. The selected client libraries alone will be shipped with the product.
+Bold Reports Enterprise Edition uses client libraries such as Oracle, PostgreSQL, MySQL,Snowflake, and MongoDB to connect with their respective SQL database variants. Check the license of each library to give consent for installation. The selected client libraries alone will be shipped with the product.
 
 ![client libraries](/static/assets/on-premise/images/getting-started/installation-client-libraries.png)
 
