@@ -32,7 +32,7 @@ You need to provide the port number, location, and site name to host Bold Report
 
 We can deploy the bold reports application as the main application or subapplication.
 
-If you want to configure the Bold Reports application as the main application, please select `No` in the `Would you like to configure Bold Reports - Enterprise Reporting as a sub application` block.
+If you want to configure the Bold Reports application as the main application, please select `No` in the `Would you like to configure Bold Reports - Enterprise Reporting as a sub application` block and provide the Port Number and Site Name.
 
 ![Mainapplication_select](/static/assets/on-premise/images/installation/mainapplication_select.png)
 
