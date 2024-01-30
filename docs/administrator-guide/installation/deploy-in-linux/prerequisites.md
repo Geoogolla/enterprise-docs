@@ -27,7 +27,7 @@ The following software requirements are necessary to run the Bold Reports Enterp
 
 * **Database:** Microsoft SQL Server 2012+ | PostgreSQL.
 
-* **Web Server:** [Nginx](https://learn.microsoft.com/en-us/aspnet/core/host-and-deploy/linux-nginx?view=aspnetcore-3.1&tabs=linux-ubuntu#install-nginx) or [Apache](https://learn.microsoft.com/en-us/aspnet/core/host-and-deploy/linux-apache?view=aspnetcore-3.1)
+* **Web Server:** [Nginx](https://learn.microsoft.com/en-us/aspnet/core/host-and-deploy/linux-nginx?view=aspnetcore-3.1&tabs=linux-ubuntu#install-nginx)
 
 * **Web Browser:** Microsoft Edge, Mozilla Firefox, and Chrome.
 
