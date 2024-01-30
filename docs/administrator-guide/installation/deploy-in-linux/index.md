@@ -9,7 +9,7 @@ documentation: ug
 
 ## Deploying in Linux
 
-This document explains setting up a Bold Reports application on an Linux server.
+This document explains how to set up a Bold Reports application on an Linux server.
 
 1. [Prerequisites](./prerequisites/)
 

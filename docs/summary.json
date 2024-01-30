@@ -6,6 +6,18 @@
             "Install Bold Reports over Bold BI":"install-bold-reports-over-bold-bi.md",
             "Silent Installation":"silent-installation.md"
         },
+        "Deploying in Azure": {
+            "Prerequisites":"prerequisites.md",
+            "Recommended Azure VM configuration":"vm-configuration.md",
+            "Self-deploy a Bold Reports Server on Microsoft Azure":"self-deploy-bold-reports-on-azure-vm.md",
+            "Bold Reports in Microsoft Azure Marketplace":"bold-reports-in-azure-marketplace.md",
+            "Upgrade to the latest version of Bold Reports Enterprise Edition":"upgrade-vm-to-latest-version.md"
+        },
+        "Deploying in AWS": {
+            "Prerequisites":"prerequisites.md",
+            "Self-deploy a Bold Reports Server on Amazon Web Service":"self-deploy-bold-reports-server-on-amazon-web-service.md",
+            "Upgrade VM to the latest version":"upgrade-vm-latest-version.md"
+        },
         "Azure App Service":{
 	    "Prerequisites":"prerequisites.md",
 	    "Recommendations":"recommendations.md",
