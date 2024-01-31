@@ -19,11 +19,11 @@ This section describes simple steps to design a report using Web Report Designer
 3. Choose `SQL` type to connect data.
 ![Data source types panel](/static/assets/on-premise/images/report-designer/report-creation/datasource-types-panel.png '#width=350px')
 4. In the new data source panel,
- * In **Name** field, specify the data source name without special characters.
- * In **Server Name** field, you need to select existing server in the local network from the drop-down list or specify the specific remote server name like `myserver.domain.com`.
- * In **Authentication Type** field, choose **Windows** or **SQL Server** authentication.
- * If you have chosen **SQL Server** authentication, specify the **username** and **password** of the server.
- * In **Database** field, choose or enter a existing valid database e.g. AdventureWorks.
+    * In **Name** field, specify the data source name without special characters.
+    * In **Server Name** field, you need to select existing server in the local network from the drop-down list or specify the specific remote server name like `myserver.domain.com`.
+    * In **Authentication Type** field, choose **Windows** or **SQL Server** authentication.
+    * If you have chosen **SQL Server** authentication, specify the **username** and **password** of the server.
+    * In **Database** field, choose or enter a existing valid database e.g. AdventureWorks.
 ![Data source fields panel](/static/assets/on-premise/images/report-designer/report-creation/datasource-fields-panel.png '#width=400px')
 5. Click the `Connect` button. Now the following view will be displayed.
 ![Query designer initial view](/static/assets/on-premise/images/report-designer/report-creation/query-designer-full-view.png)
