@@ -11,7 +11,7 @@ Report parameters can be used to filter the report data or associate related rep
 ## Create parameter
 
 1. To add a parameter, click on the `Parameter` icon in the `Data Configuration` panel. It opens the `PARAMETERS` panel.
-  ![Parameter icon](/static/assets/on-premise/images/report-designer/report-parameters/add-report-parameter/parameter-icon.png#width=411px)
+  ![Parameter icon](/static/assets/on-premise/images/report-designer/report-parameters/add-report-parameter/parameter-icon.png '#width=411px')
 2. Next, click on the `NEW PARAMETER` button in the `PARAMETERS` panel.
   ![Parameters pane](/static/assets/on-premise/images/report-designer/report-parameters/add-report-parameter/parameters-pane.png)
 3. Now, the following wizard will be displayed.
