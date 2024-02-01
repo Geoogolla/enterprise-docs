@@ -49,6 +49,7 @@ You can connect Excel data using the following two options,
 ![Left schema](/static/assets/on-premise/images/report-designer/manage-data/excel-data-source/excel-file-left-schema.png)
 5. Now, drag and drop the worksheet/table you want to analyze, from the left pane in the query design view page and execute.
 ![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/excel-data-source/execute-schema-file.png)
+   > NOTE: The Excel data source does not allow multiple joins across sheets or tables.
 6. Click `Finish` to save the data source with a relevant name to proceed with designing report.
 ![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/excel-data-source/file-data-list.png)
 
