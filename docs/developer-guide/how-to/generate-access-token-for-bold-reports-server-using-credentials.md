@@ -38,7 +38,7 @@ Use `HTTPClient` with `ASP.NET Core`, `ASP.NET MVC`, and `ASP.NET Web Forms` app
                 new KeyValuePair<string, string>("password", password)
                   });
 
-                var result = client.PostAsync("https://on-premise-demo.boldreports.com/reporting/api/site/site1/token", content).Result;
+                var result = client.PostAsync("https://demo.example.com/reporting/api/site/site1/token", content).Result;
                 string resultContent = result.Content.ReadAsStringAsync().Result;
                 var token = JsonConvert.DeserializeObject<Token>(resultContent);
 
@@ -75,7 +75,7 @@ Use `Ajax` to interact with RESTful APIs. Refer to the following code to generat
                apiRequest.userid = "user@example.com"; // Provide your Email ID
                $.ajax({
                   type: "POST",
-                  url: "https://on-premise-demo.boldreports.com/reporting/api/site/site1/get-user-key",
+                  url: "https://demo.example.com/reporting/api/site/site1/get-user-key",
                   data: apiRequest,
                   success: function (data) {
                      dataValue = data.Token;
@@ -99,7 +99,7 @@ function token(res, callback, callbackInput) {
 
   var options = {
     method: 'POST',
-    host: 'on-premise-demo.boldreports.com',
+    host: 'demo.example.com',
     port: 443,
     path: '/reporting/api/site/site1/get-user-key',
     headers: {
