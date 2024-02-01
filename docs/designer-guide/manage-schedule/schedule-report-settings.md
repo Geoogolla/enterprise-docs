@@ -27,7 +27,7 @@ This section explains how to use schedule report settings to compress the export
 
 6. For instance, let's consider a sample user with the following details:
     First Name : John
-    Last Name :
+    Last Name : Michael
     Email: johnmichael@gmail.com
 
 7. With this sample user, the possible password combination and its unlock password have been explained below.
@@ -47,7 +47,7 @@ This section explains how to use schedule report settings to compress the export
             The Last four characters of the First Name
         </td>
         <td>
-            MichJohn
+            johnJohn
         </td>
     </tr>
     <tr>
@@ -56,7 +56,7 @@ This section explains how to use schedule report settings to compress the export
             First four characters of Last Name
         </td>
         <td>
-            John
+            JohnMich
         </td>
     </tr>
     <tr>

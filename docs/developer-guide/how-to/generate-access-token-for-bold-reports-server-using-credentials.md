@@ -24,8 +24,8 @@ Use `HTTPClient` with `ASP.NET Core`, `ASP.NET MVC`, and `ASP.NET Web Forms` app
         public string GenerateToken()
         {
             System.Net.ServicePointManager.SecurityProtocol |= System.Net.SecurityProtocolType.Tls11 | System.Net.SecurityProtocolType.Tls12;
-            string userName = "guest@boldreports.com";
-            string password = "demo";
+            string userName = "user@example.com"; //Provide your Email ID
+            string password = "demo"; //Provide your Password
 
             using (var client = new HttpClient())
             {
@@ -71,8 +71,8 @@ Use `Ajax` to interact with RESTful APIs. Refer to the following code to generat
          $(function () {
                var dataValue = "";
                var apiRequest = new Object();
-               apiRequest.password = "demo";
-               apiRequest.userid = "guest@boldreports.com";
+               apiRequest.password = "demo"; //Provide your Password
+               apiRequest.userid = "user@example.com"; // Provide your Email ID
                $.ajax({
                   type: "POST",
                   url: "https://on-premise-demo.boldreports.com/reporting/api/site/site1/get-user-key",
@@ -93,8 +93,8 @@ Use `Http` module to interact with RESTful APIs. Refer to the following code to 
 ```js
 function token(res, callback, callbackInput) {
   var postData = JSON.stringify({
-    userid: 'guest@boldreports.com',
-    password: 'demo'
+    userid: 'user@example.com', // Provide your Email ID
+    password: 'demo' // Provide your Password
   })
 
   var options = {
