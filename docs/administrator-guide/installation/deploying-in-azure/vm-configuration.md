@@ -40,7 +40,7 @@ Virtual Machines of the General Purpose type are ideally suited for test and dev
  </tr>
   <tr>
  <td> Storage </td>
- <td> 100 GB or larger volume for Bold BI server storage </td>
+ <td> 100 GB or larger volume for Bold Reports server storage </td>
  </tr>
  </table>
 
@@ -76,6 +76,6 @@ The Optimized VM type is suitable for high-traffic and large data processing pro
  </tr>
   <tr>
  <td> Storage </td>
- <td> 100 GB or larger volume for Bold BI server storage </td>
+ <td> 100 GB or larger volume for Bold Reports server storage </td>
  </tr>
  </table>
