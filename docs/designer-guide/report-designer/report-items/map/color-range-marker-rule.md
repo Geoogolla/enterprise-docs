@@ -7,7 +7,7 @@ description: This section describes how to define a color range rule for Map mar
 
 We can set the start, middle, and end colors. Then specify the distribution options. Based on the specified distribution type and using the provided colors, make a lot of hues that delivers a presentation like a heat map. The start color applies to the low end of the data range and the end color applies to data at the high end of the data range.
 
-![Map color rule types](/static/assets/on-premise/images/report-designer/report-items/map/marker-color-rule/types.png#width=540px)
+![Map color rule types](/static/assets/on-premise/images/report-designer/report-items/map/marker-color-rule/types.png '#width=540px')
 
 Specify the required colors in `Start` color, `Middle` color and `End` color fields. By default red, yellow and green colors will be applied on map marker icons.
 
