@@ -48,7 +48,7 @@ Create a new dataset by following the steps provided in [Create Data](./../../ma
 
     Paste the above query in query editor.
 
-     ![Query of Sales by category dataset](/static/assets/on-premise/images/report-designer/report-parameters/create-cascading-parameter/sales-by-category-dataset-query.png)
+    ![Query of Sales by category dataset](/static/assets/on-premise/images/report-designer/report-parameters/create-cascading-parameter/sales-by-category-dataset-query.png)
 
 4. Click on the `Run` icon in toolbar, now the **Parameters** dialog opens automatically. Type the desired value for each query parameter in the parameter value column.
 
@@ -57,11 +57,11 @@ Create a new dataset by following the steps provided in [Create Data](./../../ma
    * In **@Category** parameter, we have typed `Components` as value.
    * In **@Subcategory** parameter, we have typed `Brakes` as value.
 
-   ![Query parameter dialog](/static/assets/on-premise/images/report-designer/report-parameters/create-cascading-parameter/sales-by-category-parameters-dialog.png)
+   ![Query parameter dialog](/static/assets/on-premise/images/report-designer/report-parameters/create-cascading-parameter/sales-by-category-parameters-dialog.png '#width=400px')
 5. Click on the `Finish` button. Now, the `SalesbyCategory` dataset will be listed under the `DATA` pane.
 
 Once you save the dataset, an equivalent report parameters will be created under the `PARAMETERS` panel like below.
-![Report parameter list for sales by category dataset](/static/assets/on-premise/images/report-designer/report-parameters/create-cascading-parameter/sales-by-category-parameter-list.png)
+![Report parameter list for sales by category dataset](/static/assets/on-premise/images/report-designer/report-parameters/create-cascading-parameter/sales-by-category-parameter-list.png '#width=350px')
 
 ### Create dataset for independent parameter
 
@@ -84,12 +84,13 @@ Once you save the dataset, an equivalent report parameters will be created under
 ### Set available values for independent parameter
 
 1. Click `Parameter` icon in the configuration panel to open a `PARAMETERS` panel.
-![Parameter icon](/static/assets/on-premise/images/report-designer/report-parameters/create-cascading-parameter/parameter-icon.png)
-2. Edit the **Category** parameter. In name field, verify that the name is **Category**. Refer [Edit Report Parameter](./../../report-parameters/edit/) section.
+![Parameter icon](/static/assets/on-premise/images/report-designer/report-parameters/create-cascading-parameter/parameter-icon.png '#width=250px')
+2. Edit the **Category** parameter. In name field, verify that the name is **Category**.
+    Refer [Edit Report Parameter](./../../report-parameters/edit/) section.
 3. Click `Assign Value >>` to open the `Parameter Assign` dialog.
 4. Select `Query Value` option under `Available Value` tab.
 5. Select the `CategoryValues` in dataset field, `Category` in value and label field.
-![Define available values for category parameter](/static/assets/on-premise/images/report-designer/report-parameters/create-cascading-parameter/category-parameter-query-value.png)
+![Define available values for category parameter](/static/assets/on-premise/images/report-designer/report-parameters/create-cascading-parameter/category-parameter-query-value.png '#width=400px')
 6. Click on the `Ok` button and `Save` the parameter.
 
 ### Create dataset for dependent parameter
@@ -112,7 +113,7 @@ Next, need to create dataset for dependent parameter and assign values to it. Fo
 
     ![Sub category values dataset](/static/assets/on-premise/images/report-designer/report-parameters/create-cascading-parameter/sub-category-values-dataset-query.png)
 4. Click on the `Run` icon in toolbar, now the **Parameters** dialog opens automatically. For example, In **@Category** parameter, we have typed `Components` as value.
-![Query parameters dialog](/static/assets/on-premise/images/report-designer/report-parameters/create-cascading-parameter/query-parameter-dialog-for-category-parameter.png)
+![Query parameters dialog](/static/assets/on-premise/images/report-designer/report-parameters/create-cascading-parameter/query-parameter-dialog-for-category-parameter.png '#width=400px')
 5. Click on the `OK` button, the result set will display 14 rows.
 ![Preview data for sub category values dataset ](/static/assets/on-premise/images/report-designer/report-parameters/create-cascading-parameter/sub-category-values-preview-data.png)
 6. Click on the `Finish` button. Now, the `SubcategoryValues` dataset will be listed under the `DATA` pane.
@@ -124,7 +125,7 @@ Next, need to create dataset for dependent parameter and assign values to it. Fo
 3. Click on `Assign Value>>` to open  the `Parameter Assign` dialog.
 4. Select `Query Value` option under `Available Value` tab.
 5. Select the `SubcategoryValues` in dataset field, `Subcategory` in value and label field.
-     ![Define available values for Subcategory parameter](/static/assets/on-premise/images/report-designer/report-parameters/create-cascading-parameter/subcategory-parameter-query-value.png)
+     ![Define available values for Subcategory parameter](/static/assets/on-premise/images/report-designer/report-parameters/create-cascading-parameter/subcategory-parameter-query-value.png '#width=400px')
 6. Click on the `Ok` button and `Save` the `Subcategory` parameter.
 
 ## Filter a table data based on report parameter
@@ -135,8 +136,8 @@ Next, need to create dataset for dependent parameter and assign values to it. Fo
    > Refer [Design a simple table report](./../../design-rdl-report-in-web-report-designer/#add-table-report-item) section to create a table report in Web Report Designer.
 2. Click on the `Preview` button in the report header.
 3. Choose `Accessories` in the `Category` parameter drop-down, based on the `Accessories` category the values will be populated in the `SubCategory` drop-down.
-![Choose value for Category parameter](/static/assets/on-premise/images/report-designer/report-parameters/create-cascading-parameter/sub-category-parameter-drop-down.png)
+![Choose value for Category parameter](/static/assets/on-premise/images/report-designer/report-parameters/create-cascading-parameter/sub-category-parameter-drop-down.png '#width=350px')
 4. Choose `Bike Racks` in the `Subcategory` dropdown and click on `View Report` button.
-![Final report preview](/static/assets/on-premise/images/report-designer/report-parameters/create-cascading-parameter/report-preview-final-view.png)
+![Final report preview](/static/assets/on-premise/images/report-designer/report-parameters/create-cascading-parameter/report-preview-final-view.png '#width=450px')
 
 > Download the above report design from [link](https://github.com/boldreports/resources/tree/master/docs/report-designer/report-parameters/create-cascading-parameter.rdl).
