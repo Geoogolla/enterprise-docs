@@ -86,7 +86,7 @@ Schedules can be created only if the user has `Create All Schedules` permission.
   For instance, let's consider a sample user with the following details:
 
   First Name : John<br/>
-  Last Name :<br/>
+  Last Name : Michael<br/>
   Email: johnmichael@gmail.com<br/>
 
   With this sample user, the possible password combination and its unlock password have been explained below.
@@ -106,7 +106,7 @@ Schedules can be created only if the user has `Create All Schedules` permission.
         Last four characters of First Name
     </td>
     <td>
-        MichJohn
+        johnJohn
     </td>
 </tr>
     <tr>
@@ -115,7 +115,7 @@ Schedules can be created only if the user has `Create All Schedules` permission.
         First four characters of Last Name
     </td>
     <td>
-        John
+        JohnMich
     </td>
 </tr>
     <tr>

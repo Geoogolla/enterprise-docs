@@ -50,8 +50,8 @@ public class Token
 }
 
 private static string tokenurl = "/reporting/api/site/site1/token";
-private static string boldReportsUrl = "https://on-premise-demo.boldreports.com"; // Provide your Bold Reports URL
-private static string username = "guest@boldreports.com"; // Provide your Email ID
+private static string boldReportsUrl = "https://demo.example.com"; // Provide your Bold Reports URL
+private static string username = "user@example.com"; // Provide your Email ID
 private static string nonce = Guid.NewGuid().ToString();
 private static string timeStamp = DateTimeToUnixTimeStamp(DateTime.UtcNow).ToString();
 private static string secretCode = "lettffAEI0FtKDGdrDekEv7WUbHwOwO"; // Provide your embed secret key value from the Bold Reports Report Server Embed Settings.
