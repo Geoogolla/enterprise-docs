@@ -10,6 +10,8 @@ documentation: ug
 
 This section explains how to import users from a database into Bold Reports On-Premise.
 
+> **NOTE:** To import users from the existing database, you must configure the database connection in the [Database Settings](./../../../../manage-app-settings/database-settings/) within the User Directories tab.
+
 Only users belonging to the `System Administrator` group can import users from the database into Bold Reports On-Premise.
 
 ## Listing Database Users
@@ -18,29 +20,9 @@ Only users belonging to the `System Administrator` group can import users from t
 
     ![Add New Users](/static/assets/on-premise/images/manage-users-and-groups/users/import-from-database/add-new-users.png)
 
-* It will redirect to the `User Directories` tab. Here, you can change the database type, fill in the Sever name, Username, Password, and existing database name. Once the test connection has succeeded, click `Next`.
-
-    ![Import Users test connection](/static/assets/on-premise/images/manage-users-and-groups/users/import-from-database/database-test-connection.png)
-
-* Add the required user data and click `Save`.
-
-    ![Save User Details](/static/assets/on-premise/images/manage-users-and-groups/users/import-from-database/save-user-details.png)
-
-    ![Import Users table details](/static/assets/on-premise/images/manage-users-and-groups/users/import-from-database/table-details.png)
-
-* Switch the account activation type to `Email` and then save the changes.
-
-    ![Change Account Activation Type](/static/assets/on-premise/images/manage-users-and-groups/users/import-from-database/change-account-activation-type.png)
-
-    ![Account Activation Mode](/static/assets/on-premise/images/manage-users-and-groups/users/import-from-database/account-activation-mode.png)
-
-* Click `Import from Database`, and it will redirect to another page that will appear as follows.
-
-    ![Add New Users](/static/assets/on-premise/images/manage-users-and-groups/users/import-from-database/add-new-users.png)
+* The link will redirect to another page that will appear as follows:
 
     ![Import Users from Database - Home](/static/assets/on-premise/images/manage-users-and-groups/users/import-from-database/import-users-home.png)
-
-> **NOTE:** To learn more about configuring database settings, refer to the following [link](./../../../../manage-app-settings/database-settings/) to import users.
 
 ## Select Users and Import
 

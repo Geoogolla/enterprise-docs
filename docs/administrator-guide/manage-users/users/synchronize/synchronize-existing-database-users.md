@@ -10,6 +10,10 @@ documentation: ug
 
 This section explains how to synchronize the details of the imported existing database users with the existing database.
 
+> **Note:** Before synchronizing the Existing Database users, follow the provided steps:
+> 1. Configure [Database Settings](./../../../../manage-app-settings/database-settings/).
+> 2. Import users from the existing database into Bold Reports by referring to the following [link](./../../../../manage-users/users/import-users/import-users-from-database/).
+
 You can navigate to the user synchronization page from users page, as shown in the image below:
 
 ![Imported Database Users Synchronization Link](/static/assets/on-premise/images/manage-users-and-groups/users/synchronize-existing-database-users/user-synchronisation-navigation-button-for-importdb.png)
