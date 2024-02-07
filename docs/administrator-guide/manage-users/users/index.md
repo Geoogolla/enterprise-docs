@@ -8,7 +8,7 @@ documentation: ug
 
 # Users
 
-This section explains how to manage, import and synchronize user in the Bold Reports Server. You can learn more details from the following sections:
+This section explains how to manage, import and synchronize users on the Bold Reports Server. You can learn more details in the following sections:
 
 * [Manage Users](./../users/manage-users/)
 
