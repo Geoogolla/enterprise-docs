@@ -8,12 +8,12 @@ keywords: ejReportDesigner, reportdesigner, expression, built-in-fields
 
 Expressions provide great flexibility to control the content, style, data, value and behavior of your reports. Expressions must start with equal sign (=), if not the value will be considered as a string literal.
 
-![set-an-expression](/static/assets/on-premise/images/report-designer/compose-report/expressions/set-expression.png)
+![set-an-expression](/static/assets/on-premise/images/report-designer/compose-report/expressions/set-expression.png '#width=400px')
 
 1. Choose **Options** from the first drop-down list to set expression with **Built-in-fields**, **Operators** and **Functions**.
-![expression-in-options](/static/assets/on-premise/images/report-designer/compose-report/expressions/options-dropdown.png)
+![expression-in-options](/static/assets/on-premise/images/report-designer/compose-report/expressions/options-dropdown.png '#width=250px')
 2. Choose **Data** from the second drop-down list to set expression with **Parameters** and **Dataset Fields**.
-![expression-in-data](/static/assets/on-premise/images/report-designer/compose-report/expressions/data-dropdown.png)
+![expression-in-data](/static/assets/on-premise/images/report-designer/compose-report/expressions/data-dropdown.png '#width=250px')
 
 ## Supported Expressions
 

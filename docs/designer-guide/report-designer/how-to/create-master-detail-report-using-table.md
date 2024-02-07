@@ -15,7 +15,7 @@ To achieve this, create a query that combines multiple tables and returns a sing
 Let us look at the procedures to create a tablix report item with a row and detail group that displays the master-detail relationship.
 
 1. As a first step, open the Bold Report Designer.
-![Bold reports designer](/static/assets/on-premise/images/report-designer/how-to/master-details-nested-item/bold-reports-designer.png)
+![Bold reports designer](/static/assets/on-premise/images/report-designer/how-to/master-details-nested-item/bold-reports-designer.png '#width=450px')
 
 2. Connect to the data source using this documentation [link](./../../manage-data/datasource/).
 
@@ -38,10 +38,10 @@ Let us look at the procedures to create a tablix report item with a row and deta
     WHERE (PMPDCL.CultureID = 'en')
     ```
 5. Drag the table report item and configure the fields. Then, add groups in the tablix to display the data using this documentation [link](./../../report-items/tablix/add-or-delete-a-details-group-ssrs/).
-![Master table design](/static/assets/on-premise/images/report-designer/how-to/master-details-nested-item/initial-master-report-design.png)
+![Master table design](/static/assets/on-premise/images/report-designer/how-to/master-details-nested-item/initial-master-report-design.png '#width=550px')
 
 6. Drag the another table report item and configure the field as shown in the following image.
-![Detail table design](/static/assets/on-premise/images/report-designer/how-to/master-details-nested-item/initial-master-detail-table.png)
+![Detail table design](/static/assets/on-premise/images/report-designer/how-to/master-details-nested-item/initial-master-detail-table.png '#width=500px')
 
    You can download the previously created report from here(
 [Initial master-detail table design.](https://www.syncfusion.com/downloads/support/directtrac/general/ze/Product-catalog-836330880.zip))

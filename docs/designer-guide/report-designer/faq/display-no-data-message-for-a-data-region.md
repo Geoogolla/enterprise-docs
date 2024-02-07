@@ -17,7 +17,7 @@ Under the `No Rows` category in the properties panel, set the text that you want
 
 Alternatively, you can set the message text based on dynamic values using `Expressions`. Refer [Set Expression](./../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../compose-report/properties-panel/#reset-expression) sections to open the set/reset expression menu in the properties panel.
 
-![No rows message as expression](/static/assets/on-premise/images/report-designer/faq/display-no-data-message-for-a-data-region/message-as-expression-in-table.png)
+![No rows message as expression](/static/assets/on-premise/images/report-designer/faq/display-no-data-message-for-a-data-region/message-as-expression-in-table.png '#width=350px')
 
 During report preview, the specified message will be displayed if the user specified value is not available in the database.
 
@@ -33,7 +33,7 @@ Under the `No Data` category in the properties panel, set the text that you want
 
 Alternatively, you can set the message text based on dynamic values using `Expressions`. Refer [Set Expression](./../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../compose-report/properties-panel/#reset-expression) sections to open the set/reset expression menu in the properties panel.
 
-![No data message as expression](/static/assets/on-premise/images/report-designer/faq/display-no-data-message-for-a-data-region/message-as-expression-in-chart.png)
+![No data message as expression](/static/assets/on-premise/images/report-designer/faq/display-no-data-message-for-a-data-region/message-as-expression-in-chart.png '#width=350px')
 
 During report preview, the specified message will be displayed if user specified value is not available in the database.
 

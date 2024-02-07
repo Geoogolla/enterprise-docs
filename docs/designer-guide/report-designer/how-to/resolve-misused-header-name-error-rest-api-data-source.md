@@ -7,13 +7,13 @@ description: This section describes how to resolve the misused header name error
 
 This section explains how to resolve the misused header name error when creating Rest API data source in Bold Reports.
 
-![Misused header name error](/static/assets/on-premise/images/report-designer/how-to/resolve-misused-header-name-error/misused-header-error.png)
+![Misused header name error](/static/assets/on-premise/images/report-designer/how-to/resolve-misused-header-name-error/misused-header-error.png '#width=400px')
 
 ## When the error occurs
 
 This error occurs when the user explicitly pass `Content-Type` or `Content-Length` reserved headers in the `Header(s)` list.
 
-![Reserved headers](/static/assets/on-premise/images/report-designer/how-to/resolve-misused-header-name-error/reserved-headers.png)
+![Reserved headers](/static/assets/on-premise/images/report-designer/how-to/resolve-misused-header-name-error/reserved-headers.png '#width=400px')
 
 ## Why the error occurs
 
@@ -25,4 +25,4 @@ In Bold Reports REST API data source connector, we have handled the `Content-Typ
 
 2. Choose the content type in `Data Format` field.
 
-    ![Data Format](/static/assets/on-premise/images/report-designer/how-to/resolve-misused-header-name-error/data-format.png)
+    ![Data Format](/static/assets/on-premise/images/report-designer/how-to/resolve-misused-header-name-error/data-format.png '#width=450px')

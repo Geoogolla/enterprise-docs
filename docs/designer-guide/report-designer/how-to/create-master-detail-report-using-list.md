@@ -15,7 +15,7 @@ To achieve this, create a query that combines multiple tables and returns a sing
 Let us look at the procedures to create a list report item with a detail group that displays the master-detail relationship.
 
 1. As a first step, open the Bold Report Designer.
-![Bold reports designer](/static/assets/on-premise/images/report-designer/how-to/master-details-nested-item/bold-reports-designer.png)
+![Bold reports designer](/static/assets/on-premise/images/report-designer/how-to/master-details-nested-item/bold-reports-designer.png '#width=400px')
 
 2. Connect to the data source using this documentation [link](./../../manage-data/datasource/).
 
@@ -38,16 +38,16 @@ Let us look at the procedures to create a list report item with a detail group t
     WHERE (PMPDCL.CultureID = 'en')
     ```
 5. Drag the table report item and configure the field as shown in the following image.
-![Detail table design](/static/assets/on-premise/images/report-designer/how-to/master-details-nested-item/list-detail-table.png)
+![Detail table design](/static/assets/on-premise/images/report-designer/how-to/master-details-nested-item/list-detail-table.png '#width=550px')
 
 6. Drag the list report item and set the dataset name to the `Dataset` property in the properties panel.
-![Master table design](/static/assets/on-premise/images/report-designer/how-to/master-details-nested-item/assign-dataset-list.png)
+![Master table design](/static/assets/on-premise/images/report-designer/how-to/master-details-nested-item/assign-dataset-list.png '#width=350px')
 
 7. Add groups to the list to display the data as shown in the following image.
-![Master table design](/static/assets/on-premise/images/report-designer/how-to/master-details-nested-item/initail-list-design.png)
+![Master table design](/static/assets/on-premise/images/report-designer/how-to/master-details-nested-item/initail-list-design.png '#width=600px')
 
 8. Cut the detail table from body and paste inside the list as shown in the following image.
-![Master table design](/static/assets/on-premise/images/report-designer/how-to/master-details-nested-item/final-list-design.png)
+![Master table design](/static/assets/on-premise/images/report-designer/how-to/master-details-nested-item/final-list-design.png '#width=600px')
 
 9. Click on the Preview at the top-right corner of the Report Designer toolbar to see the output result.
-![Output](/static/assets/on-premise/images/report-designer/how-to/master-details-nested-item/output-list.png)
+![Output](/static/assets/on-premise/images/report-designer/how-to/master-details-nested-item/output-list.png '#width=600px')
