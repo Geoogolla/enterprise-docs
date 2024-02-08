@@ -27,9 +27,9 @@ The first row in the CSV template represents the column heading. Bold Reports as
 We consider the following columns as mandatory in the downloaded CSV file.
 
 * Username
-* Email address (It is mandatory only in the [Email required](./../../../../manage-users/account-activation/#email-required) mode).
+* Email address (It is mandatory only in the [Email required](https://help.boldreports.com/enterprise-reporting/administrator-guide/manage-users/account-activation/#email-required) mode).
 * Full Name
-* Password (It is mandatory only in the [Automatic activation](./../../../../manage-users/account-activation/#automatic-activation) mode).
+* Password (It is mandatory only in the [Automatic activation](https://help.boldreports.com/enterprise-reporting/administrator-guide/manage-users/account-activation/#automatic-activation) mode).
 
 Follow the below steps to add users using the CSV template
 

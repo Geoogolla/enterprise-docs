@@ -27,7 +27,7 @@ The `Add User` dialog will be displayed as shown in the image below.
 
 Fill out the form with the email address, username, first name and last name, then click on `Add`.
 
-> **NOTE** : An email address is mandatory only in the [Email required](./../../../manage-users/account-activation/#email-required) mode. Users created with passwords in the Bold Reports application will be recognized as local users.
+> **NOTE** : An email address is mandatory only in the [Email required](https://help.boldreports.com/enterprise-reporting/administrator-guide/manage-users/account-activation/#email-required) mode. Users created with passwords in the Bold Reports application will be recognized as local users.
 
 A new account will be created for the user, and an account activation email will be sent to the email address with an activation link to activate the Bold Reports Server account.
 
@@ -67,7 +67,7 @@ Verify the user information and click `Add`.
 
 ![Existing User](/static/assets/on-premise/images/manage-users-and-groups/users/manage-user/existing-ums-user.png)
 
-To learn how to add a user in UMS, refer to the following [guide](./../../../manage-tenants/manage-users/).
+To learn how to add a user in UMS, refer to the following [guide](https://help.boldreports.com/enterprise-reporting/administrator-guide/manage-tenants/manage-users/).
 
 ## Import users from CSV
 
@@ -92,9 +92,9 @@ The first row in the CSV template represents the column heading. Bold Reports as
 We consider the following columns as mandatory in the downloaded CSV file.
 
 * Username
-* Email address (It is mandatory only in the [Email required](./../../../manage-users/account-activation/#email-required) mode)
+* Email address (It is mandatory only in the [Email required](https://help.boldreports.com/enterprise-reporting/administrator-guide/manage-users/account-activation/#email-required) mode)
 * Full Name
-* Password (It is mandatory only in the [Automatic activation](./../../../manage-users/account-activation/#automatic-activation) mode)
+* Password (It is mandatory only in the [Automatic activation](https://help.boldreports.com/enterprise-reporting/administrator-guide/manage-users/account-activation/#automatic-activation) mode)
 
 Follow the steps below to add users using the CSV template:
 
