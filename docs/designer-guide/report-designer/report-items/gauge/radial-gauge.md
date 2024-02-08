@@ -11,9 +11,9 @@ The radial gauges are degrees of circular to represent key performance indicatio
 ## Add a radial gauge to the report
 
 1. The radial gauge report item is listed in the item panel under the `Deviation category`.
-![Radial gauge item in item panel](/static/assets/on-premise/images/report-designer/report-items/gauge/radial-gauge/item-panel.png)
+![Radial gauge item in item panel](/static/assets/on-premise/images/report-designer/report-items/gauge/radial-gauge/item-panel.png '#width=145px')
 2. Drag the radial gauge report item into the design area from the item panel.
-![Drag the radial gauge report item into design area](/static/assets/on-premise/images/report-designer/report-items/gauge/radial-gauge/item-drag.png)
+![Drag the radial gauge report item into design area](/static/assets/on-premise/images/report-designer/report-items/gauge/radial-gauge/item-drag.png '#width=355px')
 3. After dropping the radial gauge item in the design area, the respective item properties will be listed in the properties panel.
 ![Radial gauge item with properties view](/static/assets/on-premise/images/report-designer/report-items/gauge/radial-gauge/designer-area.png)
 
@@ -39,7 +39,7 @@ Using the background color property, you can customize background color of a rad
 
 This property is used to assign the dataset to a radial gauge report item. The available datasets in the report will be listed in the `Dataset` property dropdown. You can choose the desired dataset from the dropdown.
 
-![Data category](/static/assets/on-premise/images/report-designer/report-items/gauge/radial-gauge/dataset.png)
+![Data category](/static/assets/on-premise/images/report-designer/report-items/gauge/radial-gauge/dataset.png '#width=355px')
 
 > Refer to the [Create Data](./../../../manage-data/dataset/create-an-embedded-dataset/) section to add dataset to your report.
 
@@ -47,7 +47,7 @@ This property is used to assign the dataset to a radial gauge report item. The a
 
 This property is used to select the type of a radial gauge report item. You can select `Radial`, `Half Circle`, or `Auto` from the dropdown.
 
-![Radial Gauge Type](/static/assets/on-premise/images/report-designer/report-items/gauge/radial-gauge/type.png)
+![Radial Gauge Type](/static/assets/on-premise/images/report-designer/report-items/gauge/radial-gauge/type.png '#width=355px')
 
 * `Radial`: Displays the radial gauge of start-angle(0) and sweep-angle(320).
 
@@ -99,7 +99,7 @@ This property is used to assign the `pointer marker length` value. You can also 
 
 To show or hide the pointer cap in radial gauge, toggle the `Enable Cap` checkbox, the pointer cap is supported only for pointer of type `Needle`.
 
-You can customize the Cap in the `Advanced Options` menu. To open and handle the nested properties of Pointer Cap, refer to the [Advanced Properties](./../../../compose-report/properties-panel/#advanced-properties) section.![Pointer Cap](/static/assets/on-premise/images/report-designer/report-items/gauge/radial-gauge/pointer-cap.png)
+You can customize the Cap in the `Advanced Options` menu. To open and handle the nested properties of Pointer Cap, refer to the [Advanced Properties](./../../../compose-report/properties-panel/#advanced-properties) section.![Pointer Cap](/static/assets/on-premise/images/report-designer/report-items/gauge/radial-gauge/pointer-cap.png '#width=385px')
 
 Using these properties, the pointer cap width, pointer cap color can be customized in the radial gauge design.
 
@@ -135,7 +135,7 @@ By clicking the `Reverse Direction` checkbox, you can reverse the scale directio
 
 To show or hide the scale labels in radial gauge, toggle the `Label` checkbox.
 
-You can customize the scale label in the `Advanced Options` menu. To open and handle the nested properties of labels, refer to the [Advanced Properties](./../../../compose-report/properties-panel/#advanced-properties) section.![Scale Labels](/static/assets/on-premise/images/report-designer/report-items/gauge/radial-gauge/labels-advanced-options.png)
+You can customize the scale label in the `Advanced Options` menu. To open and handle the nested properties of labels, refer to the [Advanced Properties](./../../../compose-report/properties-panel/#advanced-properties) section.![Scale Labels](/static/assets/on-premise/images/report-designer/report-items/gauge/radial-gauge/labels-advanced-options.png '#width=385px')
 
 Using these properties, the scale label font color, font family, font size, and font style can be customized in the radial gauge design.
 
@@ -205,13 +205,13 @@ The position property is used to set the width, height, left and top position of
 
 Data element can be used to control visibility of a report item when exporting the report in XML format. The Data element properties are listed in the properties panel, under the `Data Element` category.
 
-![Data element properties](/static/assets/on-premise/images/report-designer/report-items/tablix/data-element-properties.png)
+![Data element properties](/static/assets/on-premise/images/report-designer/report-items/tablix/data-element-properties.png '#width=355px')
 
 <span style="font-weight:bold">Name</span>
 
 You can assign a custom name for the radial gauge element using the `Name` field. The radial gauge will be exported with the provided name.
 
-![Data element name property](/static/assets/on-premise/images/report-designer/report-items/tablix/name-property.png)
+![Data element name property](/static/assets/on-premise/images/report-designer/report-items/tablix/name-property.png '#width=355px')
 
 > Note: The name cannot contain spaces, and it must begin with a letter followed by letters, numbers, or the underscore character (_).
 
@@ -222,7 +222,7 @@ On exporting the report, the visibility of the radial gauge can be controlled us
 * **Auto** or **Output** - Exports the radial gauge report item
 * **NoOutput** - Does not export the radial gauge report item
 
-![Data element output property](/static/assets/on-premise/images/report-designer/report-items/tablix/output-property.png)
+![Data element output property](/static/assets/on-premise/images/report-designer/report-items/tablix/output-property.png '#width=355px')
 
 ### Visibility
 
@@ -234,7 +234,7 @@ The visibility property is used to conditionally show or hide the radial gauge r
 
 The page name property is used to name the first worksheet of the Excel workbook, when exporting the report to excel format.
 
-![Page name property](/static/assets/on-premise/images/report-designer/report-items/gauge/page-name.png)
+![Page name property](/static/assets/on-premise/images/report-designer/report-items/gauge/page-name.png '#width=355px')
 
 You can set the static or dynamic text as page name. To set and reset dynamic text, refer [Set Expression](./../../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../../compose-report/properties-panel/#reset-expression) section.
 

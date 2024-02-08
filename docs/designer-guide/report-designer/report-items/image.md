@@ -11,10 +11,10 @@ Image reportitem is used to display images in a report and it can be loaded from
 ## Add a image to the report
 
 1. The image reportitem is listed in the item panel under the `Basic Items` category.
-![image listed in itempanel](/static/assets/on-premise/images/report-designer/report-items/image/image-reportitem-itempanel.png)
+![image listed in itempanel](/static/assets/on-premise/images/report-designer/report-items/image/image-reportitem-itempanel.png '#width=410px')
 
 2. Drag and drop the image reportitem into the design area from the item panel.
-![Drag and drop image reportitem into design area](/static/assets/on-premise/images/report-designer/report-items/image/image-reportitem-designarea.png)
+![Drag and drop image reportitem into design area](/static/assets/on-premise/images/report-designer/report-items/image/image-reportitem-designarea.png '#width=410px')
 
 3. Once you drop the image item into design area, respective item properties will be listed the properties panel.
 ![image item with properties view](/static/assets/on-premise/images/report-designer/report-items/image/image-properties.png)
@@ -25,16 +25,16 @@ Image reportitem is used to display images in a report and it can be loaded from
 
 `Basic Settings` contains `Source` and `Value` properties. `Source` includes **Embedded**, **External**, **Database** image type as shown below.
 
-![image reportitem basic setting](/static/assets/on-premise/images/report-designer/report-items/image/basic-properties.png)
+![image reportitem basic setting](/static/assets/on-premise/images/report-designer/report-items/image/basic-properties.png '#width=355px')
 
 * **External**
 
-    External image source can be used to display the dynamic image in the report, by specifying a URL to the image or set an [Expression](./../../compose-report/link-data/#set-expression) that evaluates to the URL. To add an external image in a report, specify a valid URL in the value property text field.    ![image reportitem external type](/static/assets/on-premise/images/report-designer/report-items/image/image-external-type.png)
+    External image source can be used to display the dynamic image in the report, by specifying a URL to the image or set an [Expression](./../../compose-report/link-data/#set-expression) that evaluates to the URL. To add an external image in a report, specify a valid URL in the value property text field.    ![image reportitem external type](/static/assets/on-premise/images/report-designer/report-items/image/image-external-type.png '#width=355px')
 
 * **Embedded**
 
     Embedded option is used to display the embedded image that are available in the report. To embed an image in a report, refer [Image Manager](./../../image-manager/add-image/#add-an-embedded-image) section.
-    ![image reportitem basic setting](/static/assets/on-premise/images/report-designer/report-items/image/image-basic-settings.png)
+    ![image reportitem basic setting](/static/assets/on-premise/images/report-designer/report-items/image/image-basic-settings.png '#width=355px')
 
 * **Database**
 
@@ -42,22 +42,22 @@ Image reportitem is used to display images in a report and it can be loaded from
 
     * **Value**
 
-        The available dataset fields in the report will be listed in the value field drop-down. Choose a dataset field that is bounds to a database field that contains an image or set an [Expression](./../../compose-report/link-data/#set-expression) that evaluates to the image value.        ![image reportitem value](/static/assets/on-premise/images/report-designer/report-items/image/image-database-value.png)
+        The available dataset fields in the report will be listed in the value field drop-down. Choose a dataset field that is bounds to a database field that contains an image or set an [Expression](./../../compose-report/link-data/#set-expression) that evaluates to the image value.        ![image reportitem value](/static/assets/on-premise/images/report-designer/report-items/image/image-database-value.png '#width=355px')
 
     * **MIME Type**
 
         MIME property can be used to specify the type of image. Supported MIME types are listed in the MIME property drop-down list. Choose the MIME type as per your image type.
 
-        ![image reportitem mime type](/static/assets/on-premise/images/report-designer/report-items/image/image-mime-type.png)
+        ![image reportitem mime type](/static/assets/on-premise/images/report-designer/report-items/image/image-mime-type.png '#width=355px')
 
 ### Link
 
-Linking is used to create interactive report using **Hyperlink** and **Report Linking** action. Refer [Linking](./../../compose-report/link-data/) section to know more about linking. Select the `Enable  Link` checkbox, to enable the sub properties.![show-link-action](/static/assets/on-premise/images/report-designer/report-items/image/enable-link-action.png)
+Linking is used to create interactive report using **Hyperlink** and **Report Linking** action. Refer [Linking](./../../compose-report/link-data/) section to know more about linking. Select the `Enable  Link` checkbox, to enable the sub properties.![show-link-action](/static/assets/on-premise/images/report-designer/report-items/image/enable-link-action.png '#width=355px')
 
 ### Appearance
 
 `Appearance` is used to improvise the style of an image layout. Border style, color, width properties are listed under the `Appearance` category.
-![subreport appearance](/static/assets/on-premise/images/report-designer/report-items/subreport/subreport-appearence.png)
+![subreport appearance](/static/assets/on-premise/images/report-designer/report-items/subreport/subreport-appearence.png '#width=355px')
 
 #### Border
 
@@ -72,7 +72,7 @@ Sizing property allow us to format the size of the images displayed in the desig
 * FitProportional
 * Clip
 
-![Image reportitem sizing](/static/assets/on-premise/images/report-designer/report-items/image/image-sizing.png)
+![Image reportitem sizing](/static/assets/on-premise/images/report-designer/report-items/image/image-sizing.png '#width=355px')
 
 #### AutoSize
 
@@ -92,7 +92,7 @@ Clip option is used to display an image from the top left corner of the picture 
 
 ### Position
 
-Position property is used to set the width, height, left and top position of the image item in the report design. To handle these properties using properties panel refer [Position](./../../compose-report/common-properties/#position) section.![subreport item position](/static/assets/on-premise/images/report-designer/report-items/subreport/subreport-norows-position.png)
+Position property is used to set the width, height, left and top position of the image item in the report design. To handle these properties using properties panel refer [Position](./../../compose-report/common-properties/#position) section.![subreport item position](/static/assets/on-premise/images/report-designer/report-items/subreport/subreport-norows-position.png '#width=355px')
 
 ### Visibility
 

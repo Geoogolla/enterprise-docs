@@ -13,7 +13,7 @@ Line reportitem allows to separate the report sections  horizontally, vertically
 ## To draw a line
 
 1. Drag and drop line reportitem from the itempanel to designer surface.
-![Drag and drop line report item in design area](/static/assets/on-premise/images/report-designer/report-items/line/drag-drop-line-reportitem.png)
+![Drag and drop line report item in design area](/static/assets/on-premise/images/report-designer/report-items/line/drag-drop-line-reportitem.png '#width=285px')
 
 2. Line report item and its associated properties are listed in the property panel.
 ![Line report item in design area](/static/assets/on-premise/images/report-designer/report-items/line/line-reportitem-designarea.png)
@@ -24,23 +24,23 @@ Line reportitem allows to separate the report sections  horizontally, vertically
 
 The line style property can be used to change the style of the line report item. This property is listed under `Basic Settings` category. They are **Solid**, **Dashed** and **Dotted**.
 
-![Line reportitem different styles](/static/assets/on-premise/images/report-designer/report-items/line/line-style-types.png)
+![Line reportitem different styles](/static/assets/on-premise/images/report-designer/report-items/line/line-style-types.png '#width=355px')
 
 ### Border
 
 The line style property allows to increase or decrease thickness of line report item along three different line styles.
 
-![Line reportitem border styles](/static/assets/on-premise/images/report-designer/report-items/line/line-reportitem-border.png)
+![Line reportitem border styles](/static/assets/on-premise/images/report-designer/report-items/line/line-reportitem-border.png '#width=450px')
 
 ### Position
 
 The line style property allows the line reportitem to place left and top position in the designer surface.
-![Line report item in postion change](/static/assets/on-premise/images/report-designer/report-items/line/line-reportitem-position.png)
+![Line report item in postion change](/static/assets/on-premise/images/report-designer/report-items/line/line-reportitem-position.png '#width=355px')
 
 ### Size
 
 The line style property allows to increase or decrease the width and height of line report item.
-![Line report item in size change](/static/assets/on-premise/images/report-designer/report-items/line/line-reportitem-size.png)
+![Line report item in size change](/static/assets/on-premise/images/report-designer/report-items/line/line-reportitem-size.png '#width=355px')
 
 ### Visibility
 
