@@ -181,7 +181,7 @@ To show/hide the chart title, toggle the `Show Chart Title` checkbox. The **char
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/funnel-chart/chart-title.png '#width=385px')
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/funnel-chart/chart-title-design.png )
+![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/funnel-chart/chart-title-design.png)
 
 ### No Data
 

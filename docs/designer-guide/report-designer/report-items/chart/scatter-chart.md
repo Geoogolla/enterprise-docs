@@ -113,7 +113,7 @@ The border style, color, width and background color properties can be used to st
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/appearance-property.png '#width=385px')
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/scatter-chart/appearance-design.pn)
+![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/scatter-chart/appearance-design.png)
 
 ### Chart Area
 
