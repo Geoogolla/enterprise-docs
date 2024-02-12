@@ -7,15 +7,15 @@ description: This section describes how to change chart type at any point in rep
 
 This section explains how to change the type of chart report item during the report design using the chart type switcher in Bold Reports Designer. You can change the chart type using the `Chart Type` dropdown under series properties. To open specific series properties, choose the series name in `Choose Series` dropdown.
 
-![Series selection](/static/assets/on-premise/images/report-designer/report-items/chart/switch-chart-type/chose-series.png)
+![Series selection](/static/assets/on-premise/images/report-designer/report-items/chart/switch-chart-type/chose-series.png '#width=385px')
 
 Clicking on the `Edit` icon, will display properties to customize the respective series.
 
-![Series properties](/static/assets/on-premise/images/report-designer/report-items/chart/switch-chart-type/series-properties.png)
+![Series properties](/static/assets/on-premise/images/report-designer/report-items/chart/switch-chart-type/series-properties.png '#width=385px')
 
 Chart type switcher is listed under `Basic Settings`.
 
-![Chart type switcher](/static/assets/on-premise/images/report-designer/report-items/chart/switch-chart-type/chart-type.png)
+![Chart type switcher](/static/assets/on-premise/images/report-designer/report-items/chart/switch-chart-type/chart-type.png '#width=385px')
 
 Based on the present series chart type, compatible chart types will be listed under chart type dropdown. For example, if the existing series type is pie chart, the chart type dropdown will have chart types as shown below.
 
@@ -25,7 +25,7 @@ Based on the present series chart type, compatible chart types will be listed un
 
 If the chart has single series, then changing the chart type will directly change the chart to expected chart type. For example, if the report has a column chart with single series.
 
-![Single series](/static/assets/on-premise/images/report-designer/report-items/chart/switch-chart-type/single-series.png)
+![Single series](/static/assets/on-premise/images/report-designer/report-items/chart/switch-chart-type/single-series.png '#width=355px')
 
 To change chart series type to `Line`, choose `Line` in chart type dropdown.
 
@@ -37,19 +37,19 @@ If the chart has multiple series, you can switch chart type for individual serie
 
 For example, the below chart design has multiple series. Both series are of column chart type.
 
-![Multiple series](/static/assets/on-premise/images/report-designer/report-items/chart/switch-chart-type/multiple-series.png)
+![Multiple series](/static/assets/on-premise/images/report-designer/report-items/chart/switch-chart-type/multiple-series.png '#width=385px')
 
 To change individual series type, choose respective series in the `Choose Series` dropdown and click edit icon.
 
-![Choose series](/static/assets/on-premise/images/report-designer/report-items/chart/switch-chart-type/choose-multi-series.png)
+![Choose series](/static/assets/on-premise/images/report-designer/report-items/chart/switch-chart-type/choose-multi-series.png '#width=385px')
 
 Now, choose expected chart type in `Chart Type` dropdown.
 
-![Choose chart type](/static/assets/on-premise/images/report-designer/report-items/chart/switch-chart-type/choose-chart-type.png)
+![Choose chart type](/static/assets/on-premise/images/report-designer/report-items/chart/switch-chart-type/choose-chart-type.png '#width=385px')
 
 Respective series type will be changed in chart design as shown below,
 
-![Chart design](/static/assets/on-premise/images/report-designer/report-items/chart/switch-chart-type/individual-series.png)
+![Chart design](/static/assets/on-premise/images/report-designer/report-items/chart/switch-chart-type/individual-series.png '#width=385px')
 
 If the target chart type is not compatible with other series types in the chart, it will show a confirmation dialog.
 
@@ -59,12 +59,12 @@ For example, now choose `Bar` chart type for second series.
 
 A confirmation dialog will be displayed like below.
 
-![Confirmation alert](/static/assets/on-premise/images/report-designer/report-items/chart/switch-chart-type/confirmation.png)
+![Confirmation alert](/static/assets/on-premise/images/report-designer/report-items/chart/switch-chart-type/confirmation.png '#width=315px')
 
 Clicking `Yes` will change existing series types to bar.
 
-![Bar chart](/static/assets/on-premise/images/report-designer/report-items/chart/switch-chart-type/bar-chrt.png)
+![Bar chart](/static/assets/on-premise/images/report-designer/report-items/chart/switch-chart-type/bar-chrt.png '#width=385px')
 
 Clicking `No` will let the respective series unchanged.
 
-![Chart design](/static/assets/on-premise/images/report-designer/report-items/chart/switch-chart-type/individual-series.png)
+![Chart design](/static/assets/on-premise/images/report-designer/report-items/chart/switch-chart-type/individual-series.png '#width=385px')
