@@ -12,7 +12,7 @@ The supported chart types are listed in the itempanel under the following catego
 * Proportion
 * Distribution
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/chart-types-in-item-panel.png)
+![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/chart-types-in-item-panel.png '#width=225px')
 
 Choose an appropriate chart type, based on the type of data you are presenting.
 
