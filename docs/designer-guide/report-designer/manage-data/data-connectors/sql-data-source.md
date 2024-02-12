@@ -15,8 +15,10 @@ To configure the Microsoft SQL Server data source, follow these steps:
 
 1. Click on the **Data** icon in the configuration panel.
    ![Data icon configuration panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/data-configuration-panel.png '#width=410px')
+
 2. In the `DATA` configuration panel, click on the `NEW DATA` button.
    ![Data icon configuration panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/new-data-button.png '#width=355px')
+
 3. In the connection type panel, choose the `SQL` data source type.
    ![Connection types panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/connection-types.png '#width=355px')
 
@@ -25,15 +27,22 @@ To configure the Microsoft SQL Server data source, follow these steps:
 When you create a new data, the `NEW DATASOURCE` panel will show up with basic options,
 
 1. Specify the data source name without special characters, in **Name** field.
+
 2. In **Server Name** field, you need to select existing server in the local network from the drop-down list or specify the specific remote server name like `myserver.domain.com`.
+
 3. In [Authentication Type](./../../../manage-data/data-connectors/sql-data-source/#authentication-types-for-basic-connection) field, choose **Windows** or **SQL Server** authentication.
+
 4. Choose or enter an existing valid database. e.g. AdventureWorks.
    ![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/basic-options.png '#width=385px')
+
 5. Configure the `Encrypt` and `Trust Server Certificate` options based on your SQL Server configuration.
    ![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/enable-encryption.png '#width=385px')
+
 6. Click on the `Connect` to connect the Bold Reports with Microsoft SQL server database.
+
 7. Drag and drop the table from the table schema in the query design view page.
    ![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/query-designer.png '#width=410px')
+
 8. Click `Finish` to save the data source with a relevant name to proceed with designing report.
    ![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/data-list.png '#width=325px')
 

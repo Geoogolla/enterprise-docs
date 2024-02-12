@@ -64,12 +64,12 @@ Once you select the CSV format, the `Separator` options will show as below. You 
 
 You can set authentication type, either as **None** or **Basic HTTP Authentication**.
 
-Use *None* type in following cases,
+Use **None** type in following cases,
 
 1. To connect OData services without any authentication, choose **None** under **Authentication Type**.
 2. If your data source supports API Key/API Token authentication, pass these values under **Header(s)** by clicking **+Add**. Choose **None** under **Authentication Type**.
 
-Use *Basic Http authentication*, if your OData service requires username and password to authenticate. Choose **Basic HTTP Authentication** under **Authentication Type** and input the username and password.
+Use **Basic Http authentication**, if your OData service requires username and password to authenticate. Choose **Basic HTTP Authentication** under **Authentication Type** and input the username and password.
 
 ## Pass dynamic values
 

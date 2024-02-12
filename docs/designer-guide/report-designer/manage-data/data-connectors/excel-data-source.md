@@ -10,11 +10,8 @@ The Bold Reports allows you to connect to the Excel data source that retrieves d
 ## File Prerequisites
 
 1. Bold Reports supports connecting Excel workbooks created with version 2007 and later with `.xlsx` and `.xls` file extensions.
-
 2. Prepared workbook should be a structured one. It should be created with unique column names and the value in a row must be in same data type for the corresponding columns.
-
 3. The first row values of your worksheet will be considered as column names by default in Bold Reports. So, provide a unique and meaningful column name in your spreadsheet that will make it easy to identify your data.
-
 4. You can upload a maximum of file size 20 MB.
 
 ## How to create Excel data source
@@ -40,33 +37,33 @@ You can connect Excel data using the following two options,
 ### Load from disk
 
 1. Choose `File` option in `Type` field. Now, the upload option will start displaying like below.
-![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/excel-data-source/file-upload-option.png '#width=335px')
+   ![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/excel-data-source/file-upload-option.png '#width=335px')
 2. Click on the three-dotted button to open upload box. Browse the Excel file and click open,
-![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/excel-data-source/browse-file.png '#width=335px')
+   ![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/excel-data-source/browse-file.png '#width=335px')
 3. Here, Bold Reports allows different `Extract Type` and click [here](./../../../manage-data/data-connectors/excel-data-source/#importing-data) to know about each extract type.
-![Choose extract type](/static/assets/on-premise/images/report-designer/manage-data/excel-data-source/extract-type.png '#width=350px')
+   ![Choose extract type](/static/assets/on-premise/images/report-designer/manage-data/excel-data-source/extract-type.png '#width=350px')
 4. Click on the `Connect` to proceed with query design pane. The query design pane will show the worksheets/tables in a tree view on the left side pane.
-![Left schema](/static/assets/on-premise/images/report-designer/manage-data/excel-data-source/excel-file-left-schema.png '#width=250px')
+   ![Left schema](/static/assets/on-premise/images/report-designer/manage-data/excel-data-source/excel-file-left-schema.png '#width=250px')
 5. Now, drag and drop the worksheet/table you want to analyze, from the left pane in the query design view page and execute.
-![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/excel-data-source/execute-schema-file.png)
-   > NOTE: The Excel data source does not allow multiple joins across sheets or tables.
+   ![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/excel-data-source/execute-schema-file.png)
+    > NOTE: The Excel data source does not allow multiple joins across sheets or tables.
 6. Click `Finish` to save the data source with a relevant name to proceed with designing report.
-![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/excel-data-source/file-data-list.png '#width=355px')
+   ![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/excel-data-source/file-data-list.png '#width=355px')
 
 ### Load from external URL
 
 1. Choose `External` option in `Type` field.
-![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/excel-data-source/external-type.png '#width=355px')
+   ![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/excel-data-source/external-type.png '#width=355px')
 2. Specify an external URL in the `External` text area.
-![Choose source type](/static/assets/on-premise/images/report-designer/manage-data/excel-data-source/specify-web-service.png '#width=355px')
+   ![Choose source type](/static/assets/on-premise/images/report-designer/manage-data/excel-data-source/specify-web-service.png '#width=355px')
 3. Here, Bold Reports allows different `Extract Type` and click [here](./../../../manage-data/data-connectors/excel-data-source/#importing-data) to know about each extract type.
-![Choose extract type](/static/assets/on-premise/images/report-designer/manage-data/excel-data-source/extract-type.png '#width=355px')
+   ![Choose extract type](/static/assets/on-premise/images/report-designer/manage-data/excel-data-source/extract-type.png '#width=355px')
 4. Click on the `Connect` to proceed with query design pane. The query design pane will show the worksheets/tables in a tree view on the left side pane.
-![Left schema](/static/assets/on-premise/images/report-designer/manage-data/excel-data-source/excel-file-left-schema.png '#width=250px')
+   ![Left schema](/static/assets/on-premise/images/report-designer/manage-data/excel-data-source/excel-file-left-schema.png '#width=250px')
 5. Drag and drop the table from the left pane in the query design view page and execute.
-![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/excel-data-source/execute-schema-file.png)
+   ![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/excel-data-source/execute-schema-file.png)
 6. Click `Finish` to save the data source with a relevant name to proceed with designing report.
-![Dataset list view](/static/assets/on-premise/images/report-designer/manage-data/excel-data-source/file-data-list.png '#width=355px')
+   ![Dataset list view](/static/assets/on-premise/images/report-designer/manage-data/excel-data-source/file-data-list.png '#width=355px')
 
 ## Importing data
 

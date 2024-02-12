@@ -9,32 +9,32 @@ keywords : create report, reportserver, web designer
 To publish a Reports to other site(s), follow these steps:
 
 1. Click Actions in the reports grid context menu and select Publish to publish the corresponding Report.
-![Publish Site](/static/assets/on-premise/images/manage-content/manage-reports/publish-site/publish-site.png)
+   ![Publish Site](/static/assets/on-premise/images/manage-content/manage-reports/publish-site/publish-site.png)
 
 2. Select Internal Site for publishing reports in publish dialog and proceed Next.
-![Select Site](/static/assets/on-premise/images/manage-content/manage-reports/publish-site/select-site.png)
+   ![Select Site](/static/assets/on-premise/images/manage-content/manage-reports/publish-site/select-site.png)
 
 ## Internal Site
 
 You can publish the Reports to the sites created in the same Bold Reports server.
 
 1. Choose the sites in the drop-down that you want to publish the Report.
-![Select Dashboard](/static/assets/on-premise/images/manage-content/manage-reports/publish-site/select-dashboard.png)
+   ![Select Dashboard](/static/assets/on-premise/images/manage-content/manage-reports/publish-site/select-dashboard.png)
 
 2. Specify the category name that you want, the Report to be published in other sites.
-![Select Category](/static/assets/on-premise/images/manage-content/manage-reports/publish-site/select-category.png)
+   ![Select Category](/static/assets/on-premise/images/manage-content/manage-reports/publish-site/select-category.png)
 
 3. Specify the description for the Reports, if you need.
-![Select Description](/static/assets/on-premise/images/manage-content/manage-reports/publish-site/select-description.png)
+   ![Select Description](/static/assets/on-premise/images/manage-content/manage-reports/publish-site/select-description.png)
 
 4. You can choose the owner (who has permission to create report, data source and category) of the reports in published site using the Advanced option. If you do not, it will publish the report with random user (who has permission to create report, data source and category).
-![Select Advance](/static/assets/on-premise/images/manage-content/manage-reports/publish-site/select-advance.png)
+   ![Select Advance](/static/assets/on-premise/images/manage-content/manage-reports/publish-site/select-advance.png)
 
 5. You can individually configure the fields in the Advanced window.
-![Advance Config](/static/assets/on-premise/images/manage-content/manage-reports/publish-site/advance-config.png)
+   ![Advance Config](/static/assets/on-premise/images/manage-content/manage-reports/publish-site/advance-config.png)
 
 6. On submitting the form, the publishing process will be started and you can check the status of the publishing in the Published Resources page.
-![Submit Site](/static/assets/on-premise/images/manage-content/manage-reports/publish-site/submit-site.png)
+   ![Submit Site](/static/assets/on-premise/images/manage-content/manage-reports/publish-site/submit-site.png)
 
 ## Manage published Reports
 
