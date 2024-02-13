@@ -10,8 +10,11 @@ The Bold Reports allows you to connect to the Excel data source that retrieves d
 ## File Prerequisites
 
 1. Bold Reports supports connecting Excel workbooks created with version 2007 and later with `.xlsx` and `.xls` file extensions.
+
 2. Prepared workbook should be a structured one. It should be created with unique column names and the value in a row must be in same data type for the corresponding columns.
+
 3. The first row values of your worksheet will be considered as column names by default in Bold Reports. So, provide a unique and meaningful column name in your spreadsheet that will make it easy to identify your data.
+
 4. You can upload a maximum of file size 20 MB.
 
 ## How to create Excel data source

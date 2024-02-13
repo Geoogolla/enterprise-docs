@@ -13,13 +13,13 @@ To display analytical data on the map surface, first we need to link the analyti
 To bind analytical and shape data, follow these steps:
 
 1. In the properties panel, under the **Basic Settings** category, choose **World Map** in **Shapes** property and the data set in the **DataSet** property.
-![Set shape data and analytical data](/static/assets/on-premise/images/report-designer/report-items/map/binding-data/select-shape-and-dataset.png '#width=385px')
+   ![Set shape data and analytical data](/static/assets/on-premise/images/report-designer/report-items/map/binding-data/select-shape-and-dataset.png '#width=385px')
 2. Then click on the edit icon for the `Binding Data` property under **Basic Settings**.
-![Edit analytical and spatial link](/static/assets/on-premise/images/report-designer/report-items/map/binding-data/edit-icon.png '#width=385px')
+   ![Edit analytical and spatial link](/static/assets/on-premise/images/report-designer/report-items/map/binding-data/edit-icon.png '#width=385px')
 3. Now, you will be taken to the **Binding Field Pairs** panel. The binding field pairs panel can be used to link the analytical data and shape data.
-![Edit analytical and spatial link](/static/assets/on-premise/images/report-designer/report-items/map/binding-data/binding-field-pairs-panel.png '#width=385px')
+   ![Edit analytical and spatial link](/static/assets/on-premise/images/report-designer/report-items/map/binding-data/binding-field-pairs-panel.png '#width=385px')
 4. Click on the **ADD** icon in the top-right corner. **Field Name** is a shape field and the **Binding expression** is an analytical field.
-![Add new binding expression](/static/assets/on-premise/images/report-designer/report-items/map/binding-data/add-binding-expression.png '#width=385px')
+   ![Add new binding expression](/static/assets/on-premise/images/report-designer/report-items/map/binding-data/add-binding-expression.png '#width=385px')
     * The **Field Name** drop-down will list the available fields in the selected shape data.
     ![Field name](/static/assets/on-premise/images/report-designer/report-items/map/binding-data/field-name-drop-down.png '#width=385px')
     * The **Binding expression** drop-down will list the available fields in the selected data set.

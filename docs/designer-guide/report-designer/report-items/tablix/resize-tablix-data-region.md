@@ -39,34 +39,34 @@ Use `LeftCenter` to resize the width outwards or inwards in left direction,
 **Change width and height proportionally**:
 
 1. Select the tablix data region in the design area.
-![Adjust column width of the table](/static/assets/on-premise/images/report-designer/report-items/tablix/select-tablix-data-region-to-resize.png '#width=315px')
+   ![Adjust column width of the table](/static/assets/on-premise/images/report-designer/report-items/tablix/select-tablix-data-region-to-resize.png '#width=315px')
 2. To resize the data region place the mouse pointer in `LeftTop` or `RightTop` or `LeftBottom` or `RightBottom` position on the data region. Now, the resizer arrow will be enabled in the respective position like below,
-![Adjust column width of the table](/static/assets/on-premise/images/report-designer/report-items/tablix/resize-bottom-label.png '#width=315px')
+   ![Adjust column width of the table](/static/assets/on-premise/images/report-designer/report-items/tablix/resize-bottom-label.png '#width=315px')
 3. Hold and drag the resizer arrow, now the tablix data region will be resized proportionally in all direction.
-![Adjust column width of the table](/static/assets/on-premise/images/report-designer/report-items/tablix/over-all-resize-ouput.png '#width=315px')
+   ![Adjust column width of the table](/static/assets/on-premise/images/report-designer/report-items/tablix/over-all-resize-ouput.png '#width=315px')
 
 ### Set width and height in table properties
 
 1. Select a tablix data region, now the respective item properties will be listed in the properties panel.
-![Resize the table column](/static/assets/on-premise/images/report-designer/report-items/tablix/select-tablix-data-region-to-resize.png '#width=315px')
+   ![Resize the table column](/static/assets/on-premise/images/report-designer/report-items/tablix/select-tablix-data-region-to-resize.png '#width=315px')
 2. In the properties panel, modify the `Height` and `Width` property of the tablix data region.
-![Resize the table column](/static/assets/on-premise/images/report-designer/report-items/tablix/tablix-width-and-height-properties.png '#width=385px')
+   ![Resize the table column](/static/assets/on-premise/images/report-designer/report-items/tablix/tablix-width-and-height-properties.png '#width=385px')
 
 ## Resize the column
 
 ### Set column width using gripper
 
 1. Place the mouse pointer in the respective column border.
-![Resize the table column](/static/assets/on-premise/images/report-designer/report-items/tablix/resize-column.png '#width=315px')
+   ![Resize the table column](/static/assets/on-premise/images/report-designer/report-items/tablix/resize-column.png '#width=315px')
 2. Drag the column gripper horizontally, to adjust the column width.
-![Adjust column width of the table](/static/assets/on-premise/images/report-designer/report-items/tablix/resize-column-ouput.png '#width=315px')
+   ![Adjust column width of the table](/static/assets/on-premise/images/report-designer/report-items/tablix/resize-column-ouput.png '#width=315px')
 
 ### Set column width in cell properties
 
 1. Select a cell in the tablix data region, now the respective cell item properties will be listed in the properties panel.
-![Resize the table column](/static/assets/on-premise/images/report-designer/report-items/tablix/select-cell-to-resize-width.png '#width=315px')
+   ![Resize the table column](/static/assets/on-premise/images/report-designer/report-items/tablix/select-cell-to-resize-width.png '#width=315px')
 2. In the properties panel, modify the `Width` property of the respective cell.
-![Resize the table column](/static/assets/on-premise/images/report-designer/report-items/tablix/set-width-property.png '#width=355px')
+   ![Resize the table column](/static/assets/on-premise/images/report-designer/report-items/tablix/set-width-property.png '#width=355px')
 
 ### Using touch resizer
 
@@ -83,16 +83,16 @@ Now, drag  the bubble horizontally to adjust the column width.
 ### Set row height using gripper
 
 1. Place the mouse pointer in the respective row border.
-![Resize the table row](/static/assets/on-premise/images/report-designer/report-items/tablix/resize-row.png '#width=315px')
+   ![Resize the table row](/static/assets/on-premise/images/report-designer/report-items/tablix/resize-row.png '#width=315px')
 2. Drag the row gripper vertically upwards or downwards, to adjust the row height.
-![Adjust row height of the table](/static/assets/on-premise/images/report-designer/report-items/tablix/resize-row-ouput.png '#width=315px')
+   ![Adjust row height of the table](/static/assets/on-premise/images/report-designer/report-items/tablix/resize-row-ouput.png '#width=315px')
 
 ### Set row height in cell properties
 
 1. Select a cell in the tablix data region, now the respective cell item properties will be listed in the properties panel.
-![Resize the table column](/static/assets/on-premise/images/report-designer/report-items/tablix/select-cell-to-resize-width.png '#width=315px')
+   ![Resize the table column](/static/assets/on-premise/images/report-designer/report-items/tablix/select-cell-to-resize-width.png '#width=315px')
 2. In the properties panel, modify the `Height` property of the respective cell.
-![Resize the table column](/static/assets/on-premise/images/report-designer/report-items/tablix/set-height-property.png '#width=355px')
+   ![Resize the table column](/static/assets/on-premise/images/report-designer/report-items/tablix/set-height-property.png '#width=355px')
 
 ### Using touch resizer
 

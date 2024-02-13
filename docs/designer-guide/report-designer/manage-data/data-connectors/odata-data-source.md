@@ -75,15 +75,15 @@ Use **Basic Http authentication**, if your OData service requires username and p
 
 You can pass dynamic values for URL, headers, and parameters using [Expressions](./../../../compose-report/expressions/). To set an expression for required fields, click on the square icon provided for respective field. For example, follow the below steps to set expression for URL field.
 1. Click on the square icon in right corner of URL field to open expression menu,
-![Expression option](/static/assets/on-premise/images/report-designer/manage-data/web-data-source/url-exp-option.png '#width=355px')
+   ![Expression option](/static/assets/on-premise/images/report-designer/manage-data/web-data-source/url-exp-option.png '#width=355px')
 2. Choose `Expression` option from the menu,
-![Choose expression option](/static/assets/on-premise/images/report-designer/manage-data/web-data-source/expression-menu.png '#width=355px')
+   ![Choose expression option](/static/assets/on-premise/images/report-designer/manage-data/web-data-source/expression-menu.png '#width=355px')
 3. Now, this will launch the expression dialog,
-![Open expression dialog](/static/assets/on-premise/images/report-designer/manage-data/web-data-source/expression-dialog.png '#width=385px')
+   ![Open expression dialog](/static/assets/on-premise/images/report-designer/manage-data/web-data-source/expression-dialog.png '#width=385px')
 4. Enter the required expression and click OK.
-![Enter expression](/static/assets/on-premise/images/report-designer/manage-data/odata-data-source/enter-expression.png '#width=385px')
+   ![Enter expression](/static/assets/on-premise/images/report-designer/manage-data/odata-data-source/enter-expression.png '#width=385px')
 5. Now, the square icon will be indicated with black color and URL field denoted with `<<Exp>>`,
-![Enter expression](/static/assets/on-premise/images/report-designer/manage-data/web-data-source/url-set-exp-output.png '#width=355px')
+   ![Enter expression](/static/assets/on-premise/images/report-designer/manage-data/web-data-source/url-set-exp-output.png '#width=355px')
 
 To reset the expression, choose `Reset` option from the menu. Specify other required connection settings and click `Connect`. Once you click on connect for the first time, it will prompt for a actual URL to load data in query design.
 

@@ -14,7 +14,7 @@ Refer [Create Data](./../../manage-data/dataset/create-an-embedded-dataset/) sec
 ## Create query parameter in design mode
 
 1. Drag and drop a table into design area and open the `Query Filters` dialog, in the query designer.
-![Open query filter dialog](/static/assets/on-premise/images/report-designer/transforming-data/define-query-parameters/open-query-filter-dialog.png '#width=400px')
+   ![Open query filter dialog](/static/assets/on-premise/images/report-designer/transforming-data/define-query-parameters/open-query-filter-dialog.png '#width=400px')
    > Refer [Query filters](./../../transforming-data/query-filter/) section to learn more about query filters.
 2. Click on the **Add** icon, to create a new filter.
 3. Choose any dataset field in the  first drop-down list.
@@ -22,7 +22,7 @@ Refer [Create Data](./../../manage-data/dataset/create-an-embedded-dataset/) sec
 5. In the **Value** field, provide a value to filter the data.
 6. Select the checkbox next to the value filed, to create a new `query parameter`.
 7. Click on the `OK` button.
-![Query joiner icon in enabled state](/static/assets/on-premise/images/report-designer/transforming-data/define-query-parameters/create-query-parameter.png '#width=450px')
+   ![Query joiner icon in enabled state](/static/assets/on-premise/images/report-designer/transforming-data/define-query-parameters/create-query-parameter.png '#width=450px')
 
 Once you save the dataset, an equivalent report parameters will be created under the `PARAMETERS` panel like below.
 ![Query joiner icon in enabled state](/static/assets/on-premise/images/report-designer/transforming-data/define-query-parameters/report-parameters-list.png '#width=350px')
@@ -30,18 +30,18 @@ Once you save the dataset, an equivalent report parameters will be created under
 ## Create query parameter in code mode
 
 1. Click on the `switcher` in query designer toolbar, to switch to the query mode.
-![Query joiner icon in enabled state](/static/assets/on-premise/images/report-designer/transforming-data/define-query-parameters/code-switcher-icon.png)
+   ![Query joiner icon in enabled state](/static/assets/on-premise/images/report-designer/transforming-data/define-query-parameters/code-switcher-icon.png)
 2. Specify the query in the text area, the query specified in the below snap returns the list of data from the `AdventureWorks` database, `SalesOrderDetail` table for the `Sales` schema.
-![Query joiner icon in enabled state](/static/assets/on-premise/images/report-designer/transforming-data/define-query-parameters/specify-query-in-text-area.png)
+   ![Query joiner icon in enabled state](/static/assets/on-premise/images/report-designer/transforming-data/define-query-parameters/specify-query-in-text-area.png)
 3. Now, add the following `WHERE` clause at the end of the query to create a query parameter.
     ```js
     WHERE  (([Sales].[SalesOrderDetail].[SalesOrderID] = @SalesOrderID))
     ```
    ![Query joiner icon in enabled state](/static/assets/on-premise/images/report-designer/transforming-data/define-query-parameters/add-where-clause.png)
 4. Click on the `Finish` button, now the `Parameters` dialog opens.
-![Query joiner icon in enabled state](/static/assets/on-premise/images/report-designer/transforming-data/define-query-parameters/query-parameter-dialog.png '#width=400px')
+   ![Query joiner icon in enabled state](/static/assets/on-premise/images/report-designer/transforming-data/define-query-parameters/query-parameter-dialog.png '#width=400px')
 5. Enter the value for parameter in the value field and click `OK`.
-![Query joiner icon in enabled state](/static/assets/on-premise/images/report-designer/transforming-data/define-query-parameters/enter-query-parameter-value.png '#width=400px')
+   ![Query joiner icon in enabled state](/static/assets/on-premise/images/report-designer/transforming-data/define-query-parameters/enter-query-parameter-value.png '#width=400px')
 
 Once you save the dataset, an equivalent report parameters will be created under the `PARAMETERS` panel like below.
 ![Query joiner icon in enabled state](/static/assets/on-premise/images/report-designer/transforming-data/define-query-parameters/report-parameters-list.png '#width=350px')

@@ -58,13 +58,13 @@ Similarly, assign `OrderYear` in column grouping pane and sales field in data ce
 ### Add child row group
 
 1. In the `Row Groups` pane, open the group menu in `ProdCat1` group field.
-![Matrix simple design](/static/assets/on-premise/images/report-designer/report-items/matrix/open-group-menu-to-add-child-group.png '#width=395px')
+   ![Matrix simple design](/static/assets/on-premise/images/report-designer/report-items/matrix/open-group-menu-to-add-child-group.png '#width=395px')
 2. From the context menu, click on `Child Group...` option under `Add Group` category.
-![Matrix simple design](/static/assets/on-premise/images/report-designer/report-items/matrix/child-row-group.png '#width=395px')
+   ![Matrix simple design](/static/assets/on-premise/images/report-designer/report-items/matrix/child-row-group.png '#width=395px')
 3. Once you click on the `Child Group` option, a `Tablix Group` dialog will be opened to configure the grouping.
-![Open group menu](/static/assets/on-premise/images/report-designer/report-items/matrix/tablix-group-dialog.png '#width=395px')
+   ![Open group menu](/static/assets/on-premise/images/report-designer/report-items/matrix/tablix-group-dialog.png '#width=395px')
 4. Here, `SubCat` field is chosen as child row group in tablix data region. Click on the `OK` button
-![Open group menu](/static/assets/on-premise/images/report-designer/report-items/matrix/select-child-row-group.png '#width=395px')
+   ![Open group menu](/static/assets/on-premise/images/report-designer/report-items/matrix/select-child-row-group.png '#width=395px')
 
 Now, the matrix design will look like below.
 
@@ -73,13 +73,13 @@ Now, the matrix design will look like below.
 ### Add child column group
 
 1. In the `Column Groups` pane, open the group menu in `OrderYear1` group field.
-![Matrix simple design](/static/assets/on-premise/images/report-designer/report-items/matrix/open-group-menu-to-add-column-child-group.png '#width=395px')
+   ![Matrix simple design](/static/assets/on-premise/images/report-designer/report-items/matrix/open-group-menu-to-add-column-child-group.png '#width=395px')
 2. From the context menu, click on `Child Group...` option under `Add Group` category.
-![Matrix simple design](/static/assets/on-premise/images/report-designer/report-items/matrix/choose-child-group-option.png '#width=395px')
+   ![Matrix simple design](/static/assets/on-premise/images/report-designer/report-items/matrix/choose-child-group-option.png '#width=395px')
 3. Once you click on the `Child Group` option, a `Tablix Group` dialog will be opened to configure the grouping.
-![Open group menu](/static/assets/on-premise/images/report-designer/report-items/matrix/tablix-group-dialog.png '#width=395px')
+   ![Open group menu](/static/assets/on-premise/images/report-designer/report-items/matrix/tablix-group-dialog.png '#width=395px')
 4. Here, `OrderQtr` field is chosen as child column group in tablix data region. Click on the `OK` button
-![Open group menu](/static/assets/on-premise/images/report-designer/report-items/matrix/choose-child-group-field.png '#width=395px')
+   ![Open group menu](/static/assets/on-premise/images/report-designer/report-items/matrix/choose-child-group-field.png '#width=395px')
 
 Now, the matrix design will look like below.
 

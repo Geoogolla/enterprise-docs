@@ -11,9 +11,9 @@ Expressions provide great flexibility to control the content, style, data, value
 ![set-an-expression](/static/assets/on-premise/images/report-designer/compose-report/expressions/set-expression.png '#width=400px')
 
 1. Choose **Options** from the first drop-down list to set expression with **Built-in-fields**, **Operators** and **Functions**.
-![expression-in-options](/static/assets/on-premise/images/report-designer/compose-report/expressions/options-dropdown.png '#width=250px')
+   ![expression-in-options](/static/assets/on-premise/images/report-designer/compose-report/expressions/options-dropdown.png '#width=250px')
 2. Choose **Data** from the second drop-down list to set expression with **Parameters** and **Dataset Fields**.
-![expression-in-data](/static/assets/on-premise/images/report-designer/compose-report/expressions/data-dropdown.png '#width=250px')
+   ![expression-in-data](/static/assets/on-premise/images/report-designer/compose-report/expressions/data-dropdown.png '#width=250px')
 
 ## Supported Expressions
 

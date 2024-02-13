@@ -13,10 +13,10 @@ Line reportitem allows to separate the report sections  horizontally, vertically
 ## To draw a line
 
 1. Drag and drop line reportitem from the itempanel to designer surface.
-![Drag and drop line report item in design area](/static/assets/on-premise/images/report-designer/report-items/line/drag-drop-line-reportitem.png '#width=285px')
+   ![Drag and drop line report item in design area](/static/assets/on-premise/images/report-designer/report-items/line/drag-drop-line-reportitem.png '#width=285px')
 
 2. Line report item and its associated properties are listed in the property panel.
-![Line report item in design area](/static/assets/on-premise/images/report-designer/report-items/line/line-reportitem-designarea.png)
+   ![Line report item in design area](/static/assets/on-premise/images/report-designer/report-items/line/line-reportitem-designarea.png)
 
 ## Line Properties
 

@@ -85,7 +85,7 @@ You can connect JSON data using the following three options,
 5. Click `Finish` to save the data source with a relevant name to proceed with designing report.
    ![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/json-data-source/external-data-list.png '#width=355px')
 
-> Note: In schema tree, the nested fields in the JSON data will be shown as flat structure.
+   > Note: In schema tree, the nested fields in the JSON data will be shown as flat structure.
 
 ## See also
 

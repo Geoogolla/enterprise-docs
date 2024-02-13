@@ -23,10 +23,10 @@ The parent and child group are used for creating a hierarchy, the groups depend 
 To add a first column group in the basic tablix structure follow the below steps.
 
 1. Select and right click in the cell to which you need to add a parent child group.
-![Enable grouping panel](/static/assets/on-premise/images/report-designer/report-items/tablix-insert-or-delete-group/open-column-group-cell-menu.png '#width=355px')
+   ![Enable grouping panel](/static/assets/on-premise/images/report-designer/report-items/tablix-insert-or-delete-group/open-column-group-cell-menu.png '#width=355px')
 2. In the cell menu, click on the `Parent Group` under the `Column Group` category.
 3. Once you click on the `Parent Group` option, a `Tablix Group` dialog will be opened to configure the grouping.
-![Open group menu](/static/assets/on-premise/images/report-designer/report-items/tablix-insert-or-delete-group/tablix-group-dialog.png '#width=315px')
+   ![Open group menu](/static/assets/on-premise/images/report-designer/report-items/tablix-insert-or-delete-group/tablix-group-dialog.png '#width=315px')
     * **Group By**: Based on the dataset assigned to the tablix region, dataset fields will be listed in this drop-down or else click on the square icon to create an expression.
     * **Add Group Header**: Enable this option to add a header to this group
     * **Add Group Footer**: Enable this option to add a footer to this group
@@ -50,9 +50,9 @@ Similarly, you can add child and adjacent group in the column group. Refer [Inse
 Column group can be deleted either using the cell context menu or using the group menu provided in grouping panel.
 
 1. Select and right click on a column group which you want to delete from the tablix data region.
-![Open group menu](/static/assets/on-premise/images/report-designer/report-items/tablix-insert-or-delete-group/delete-column-group-menu.png '#width=355px')
+   ![Open group menu](/static/assets/on-premise/images/report-designer/report-items/tablix-insert-or-delete-group/delete-column-group-menu.png '#width=355px')
 2. In the cell menu, click on the `Delete Column Group` option. Now, the following confirmation dialog will be launched.
-![Open group menu](/static/assets/on-premise/images/report-designer/report-items/tablix-insert-or-delete-group/delete-row-group-dialog.png '#width=315px')
+   ![Open group menu](/static/assets/on-premise/images/report-designer/report-items/tablix-insert-or-delete-group/delete-row-group-dialog.png '#width=315px')
 3. In the `Delete Group` dialog choose one of the following options and click on the `OK` button.
     * **Delete group and related rows and columns** - Choose this option to delete the group and all related rows that display group data. For the details group, if the same column belongs to both detail and group data, only the detail data rows are deleted.
     * **Delete group only** - Choose this option to keep the structure of the tablix data region and delete only the group definition.

@@ -47,7 +47,7 @@ To bind data to a chart report item placed in the design area, focus on that rep
 
 Click `Properties` icon in the configuration panel, the property pane opens. Now, switch to `DATA` tab.
 
-   ![Chart properties pane](/static/assets/on-premise/images/report-designer/report-items/chart/bubble-chart/chart-properties-pane.png '#width=425px')
+![Chart properties pane](/static/assets/on-premise/images/report-designer/report-items/chart/bubble-chart/chart-properties-pane.png '#width=425px')
 
 The available data in the report will be listed in the drop-down, choose a data in the drop-down list.
 
@@ -55,14 +55,14 @@ The available data in the report will be listed in the drop-down, choose a data 
 
 The numeric columns and numeric expressions are listed under the `Measures` section; other type of columns and dimension expressions are listed under the `Dimensions` section.
 
-   ![Measures and dimensions](/static/assets/on-premise/images/report-designer/report-items/chart/bubble-chart/measures-dimensions-category.png '#width=385px')
+![Measures and dimensions](/static/assets/on-premise/images/report-designer/report-items/chart/bubble-chart/measures-dimensions-category.png '#width=385px')
 
 **Drag and Drop Measure Element**:
    Select and drag the numeric column (measure element) or the numeric expression column from the `Measure` section and drop it in the `Y Values` section.
 
    ![Add a Y-value field](/static/assets/on-premise/images/report-designer/report-items/chart/bubble-chart/add-y-values-field.png '#width=385px')
 
-You can add multiple numeric columns in the `Y-value` section.
+   You can add multiple numeric columns in the `Y-value` section.
 
    ![Add a Y-value field](/static/assets/on-premise/images/report-designer/report-items/chart/bubble-chart/add-multiple-series.png '#width=385px')
 
@@ -119,7 +119,7 @@ To format bubble chart follow the below steps:
 1. Drag and drop the bubble chart into design area and resize it to required size.
 2. Configure the data to the bubble chart.
 3. Focus on the bubble chart and click `Properties` icon in the configuration panel, the property pane opens.
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/bubble-chart/open-chart-properties.png '#width=425px')
+   ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/bubble-chart/open-chart-properties.png '#width=425px')
 
 You can see the list of properties available for the widget with default value.
 
@@ -232,9 +232,9 @@ You can also enable the `Minor Grid Lines` and customize the major and minor gri
 The page break property can be used to control the amount of information on each page when you preview the report. Follow the below steps to apply page break property for chart report item.
 
 1. The Break Location property specifies where the page break should occur. Choose any `Break Location` type in the drop-down.
-![Break location](/static/assets/on-premise/images/report-designer/report-items/rectangle/break-location-types.png '#width=355px')
+   ![Break location](/static/assets/on-premise/images/report-designer/report-items/rectangle/break-location-types.png '#width=355px')
 2. To restart the page numbering on each page, enable `Page Number Reset` property checkbox.
-![Reset page number](/static/assets/on-premise/images/report-designer/report-items/rectangle/page-break-property.png '#width=355px')
+   ![Reset page number](/static/assets/on-premise/images/report-designer/report-items/rectangle/page-break-property.png '#width=355px')
 
 ### Data Element
 
@@ -291,9 +291,9 @@ Tooltip property can be used to display informative text or value, when the user
 
 ## Preview report
 
-The final report design looks like below.
-![Preview icon in design view](/static/assets/on-premise/images/report-designer/report-items/chart/bubble-chart/preview-icon.png '#width=445px')
+1. The final report design looks like below.
+   ![Preview icon in design view](/static/assets/on-premise/images/report-designer/report-items/chart/bubble-chart/preview-icon.png '#width=445px')
 2. Now, the report preview can be visualized like below.
-![Chart report preview](/static/assets/on-premise/images/report-designer/report-items/chart/bubble-chart/report-preview-page.png '#width=445px')
+   ![Chart report preview](/static/assets/on-premise/images/report-designer/report-items/chart/bubble-chart/report-preview-page.png '#width=445px')
 
 > Download the above report design from [link](https://github.com/boldreports/resources/tree/master/docs/report-designer/chart/bubble-chart.rdl).

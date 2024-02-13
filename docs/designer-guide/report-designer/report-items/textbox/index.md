@@ -11,11 +11,11 @@ TextBox can be used to display static text for titles, highlighting key informat
 ## Add a textbox to the report
 
 1. The textbox report item is listed in the item panel under the `Basic Items` category.
-![Textbox listed in item panel](/static/assets/on-premise/images/report-designer/report-items/textbox/textbox-in-item-panel.png '#width=145px')
+   ![Textbox listed in item panel](/static/assets/on-premise/images/report-designer/report-items/textbox/textbox-in-item-panel.png '#width=145px')
 2. Drag and drop the textbox report item into the design area from the item panel.
-![Drag and drop textbox report item into design area](/static/assets/on-premise/images/report-designer/report-items/textbox/drag-and-drop-textbox.png '#width=410px')
+   ![Drag and drop textbox report item into design area](/static/assets/on-premise/images/report-designer/report-items/textbox/drag-and-drop-textbox.png '#width=410px')
 3. Once you drop the textbox item into design area, respective textbox properties will be listed in the properties panel.
-![Textbox item with properties view](/static/assets/on-premise/images/report-designer/report-items/textbox/textbox-item-with-properties-view.png)
+   ![Textbox item with properties view](/static/assets/on-premise/images/report-designer/report-items/textbox/textbox-item-with-properties-view.png)
 
 ## Properties
 

@@ -11,11 +11,11 @@ The rectangle report item is used to visually separate regions of the report or 
 ## Add a rectangle to the report
 
 1. The rectangle report item is listed in the item panel under the `Basic Items` category.
-![Rectangle listed in item panel](/static/assets/on-premise/images/report-designer/report-items/rectangle/rectangle-item-in-item-panel.png '#width=165px')
+   ![Rectangle listed in item panel](/static/assets/on-premise/images/report-designer/report-items/rectangle/rectangle-item-in-item-panel.png '#width=165px')
 2. Drag and drop the rectangle report item into the design area from the item panel.
-![Drag and drop rectangle report item into design area](/static/assets/on-premise/images/report-designer/report-items/rectangle/drag-and-drop-rectangle.png '#width=225px')
+   ![Drag and drop rectangle report item into design area](/static/assets/on-premise/images/report-designer/report-items/rectangle/drag-and-drop-rectangle.png '#width=225px')
 3. Once you drop the rectangle item into design area, respective item properties will be listed the properties panel.
-![Rectangle item with properties view](/static/assets/on-premise/images/report-designer/report-items/rectangle/rectangle-item-with-properties-view.png)
+   ![Rectangle item with properties view](/static/assets/on-premise/images/report-designer/report-items/rectangle/rectangle-item-with-properties-view.png)
 
 ## Properties
 
@@ -46,9 +46,9 @@ Background image property can be used to display company logos, watermarks, or a
 The page break property is used to control the amount of information on each page when you preview the report. Follow the below steps to apply page break property for rectangle item.
 
 1. Choose any `Break Location` type in the drop-down.
-![Break location](/static/assets/on-premise/images/report-designer/report-items/rectangle/break-location-types.png '#width=355px')
+   ![Break location](/static/assets/on-premise/images/report-designer/report-items/rectangle/break-location-types.png '#width=355px')
 2. To reset page number on each page, enable `Page Number Reset` property checkbox.
-![Reset page number](/static/assets/on-premise/images/report-designer/report-items/rectangle/page-break-property.png '#width=355px')
+   ![Reset page number](/static/assets/on-premise/images/report-designer/report-items/rectangle/page-break-property.png '#width=355px')
 
 ### Position
 

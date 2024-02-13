@@ -17,6 +17,6 @@ Refer the [Tablix Properties](./../../report-items/tablix/) section to set and e
 ## Add matrix to the report
 
 1. The matrix report item is listed in the item panel under the `Data Regions` category.
-![Matrix listed in item panel](/static/assets/on-premise/images/report-designer/report-items/matrix/item-panel-view.png '#width=195px')
+   ![Matrix listed in item panel](/static/assets/on-premise/images/report-designer/report-items/matrix/item-panel-view.png '#width=195px')
 2. Drag and drop the matrix report item into the design area from the item panel. The properties of matrix report item will be listed in properties panel. By default, it will be named as `Tablix1`
-![Drag and drop tablix report item into design area](/static/assets/on-premise/images/report-designer/report-items/matrix/drag-and-drop-matrix.png '#width=385px')
+   ![Drag and drop tablix report item into design area](/static/assets/on-premise/images/report-designer/report-items/matrix/drag-and-drop-matrix.png '#width=385px')

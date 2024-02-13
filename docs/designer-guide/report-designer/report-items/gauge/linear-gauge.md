@@ -11,11 +11,11 @@ Linear gauges are rectangular in shape and oriented horizontally or vertically. 
 ## Add a linear gauge to the report
 
 1. The linear gauge report item is listed in the item panel under the `Deviation` category.
-![Linear gauge item in item panel](/static/assets/on-premise/images/report-designer/report-items/gauge/linear-gauge/item-panel.png '#width=145px')
+   ![Linear gauge item in item panel](/static/assets/on-premise/images/report-designer/report-items/gauge/linear-gauge/item-panel.png '#width=145px')
 2. Drag the linear gauge report item into the design area from the item panel.
-![Drag and drop linear gauge report item into design area](/static/assets/on-premise/images/report-designer/report-items/gauge/linear-gauge/item-drag.png '#width=355px')
+   ![Drag and drop linear gauge report item into design area](/static/assets/on-premise/images/report-designer/report-items/gauge/linear-gauge/item-drag.png '#width=355px')
 3. After dropping the linear gauge item in the design area, the respective item properties will be listed in the properties panel.
-![Linear gauge item with properties view](/static/assets/on-premise/images/report-designer/report-items/gauge/linear-gauge/designer-area.png)
+   ![Linear gauge item with properties view](/static/assets/on-premise/images/report-designer/report-items/gauge/linear-gauge/designer-area.png)
 
 ## Properties
 

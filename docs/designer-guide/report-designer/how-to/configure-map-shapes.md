@@ -52,10 +52,10 @@ Add the entry of your file name and display name as shown below and save the fil
 ## Visualize shape data on map
 
 1. Launch the on-premise application and [create a new report](https://help.boldreports.com/enterprise-reporting/designer-guide/manage-content/reports/create-report/#steps-to-create-a-report).
-![New report](/static/assets/on-premise/images/report-designer/how-to/configure-map-shapes/new-report.png '#width=450px')
+   ![New report](/static/assets/on-premise/images/report-designer/how-to/configure-map-shapes/new-report.png '#width=450px')
 2. Drag a map into design area from item panel.
-![New report](/static/assets/on-premise/images/report-designer/how-to/configure-map-shapes/add-map.png)
+   ![New report](/static/assets/on-premise/images/report-designer/how-to/configure-map-shapes/add-map.png)
 3. The newly added shape data entry will be listed in the **Shapes** property drop-down under **Basic Settings** category.
-![Shapes property](/static/assets/on-premise/images/report-designer/how-to/configure-map-shapes/shapes-property.png '#width=350px')
+   ![Shapes property](/static/assets/on-premise/images/report-designer/how-to/configure-map-shapes/shapes-property.png '#width=350px')
 
 Refer [Design a rdl report using map](./../../report-items/map/use-case/design-map-using-custom-rule/) section to visualize shape data and analytical data using map report item.

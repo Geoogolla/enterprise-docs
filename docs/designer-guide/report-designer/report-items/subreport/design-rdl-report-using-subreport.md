@@ -20,18 +20,18 @@ This section describes the steps to create SSRS RDL report to compare two differ
       ```
       ![create a dataset](/static/assets/on-premise/images/report-designer/report-items/subreport/main-report-dataset.png '#width=410px')
 2. To compare the employee details, create two parameters named `Employee-A` and `Employee-B` in the main report and assign the required dataset field value to the parameters as shown in the following snaps. Refer [Parameter](./../../../report-parameters/add/#create-parameter) and [Assign Value](./../../../report-parameters/define-available-values-for-parameter/#query-values) section to create and assign value to the parameters.
-![Create a parameter](/static/assets/on-premise/images/report-designer/report-items/subreport/main-report-parameter.png '#width=385px')
-![Assign parameter values](/static/assets/on-premise/images/report-designer/report-items/subreport/assign-parameter-values.png '#width=455px')
+   ![Create a parameter](/static/assets/on-premise/images/report-designer/report-items/subreport/main-report-parameter.png '#width=385px')
+   ![Assign parameter values](/static/assets/on-premise/images/report-designer/report-items/subreport/assign-parameter-values.png '#width=455px')
 3. Using textbox and line report items, design a simple report as shown below.
-![create a main report](/static/assets/on-premise/images/report-designer/report-items/subreport/main-report-textbox.png '#width=355px')
-> Note: Refer [Textbox](./../../../report-items/textbox/), [Line](./../../../report-items/line/) section to design the above report design.
+   ![create a main report](/static/assets/on-premise/images/report-designer/report-items/subreport/main-report-textbox.png '#width=355px')
+   > Note: Refer [Textbox](./../../../report-items/textbox/), [Line](./../../../report-items/line/) section to design the above report design.
 
 ### Add subreport
 
 1. Drag and drop subreport item listed in the item panel under the `Sub Reports` category.
-![Subreport listed in item panel](/static/assets/on-premise/images/report-designer/report-items/subreport/subreportitem-itempanel.png '#width=385px')
+   ![Subreport listed in item panel](/static/assets/on-premise/images/report-designer/report-items/subreport/subreportitem-itempanel.png '#width=385px')
 2. To compare the employee details,  drag and drop two subreport items side by side in the design area.
-![Drag and drop subreportitem into design area](/static/assets/on-premise/images/report-designer/report-items/subreport/subreportitem-designarea.png '#width=410px')
+   ![Drag and drop subreportitem into design area](/static/assets/on-premise/images/report-designer/report-items/subreport/subreportitem-designarea.png '#width=410px')
 
 ## Create a subreport
 
@@ -65,13 +65,13 @@ Design a subreport to display the employee details.
       Now, the dataset created in the report will be listed in the `Data panel` as shown below.
       ![Subreport three dataset](/static/assets/on-premise/images/report-designer/report-items/subreport/subreport-three-dataset.png '#width=385px')
 4. Based on the `@SalesPersonID` query parameter created in dataset query, equivalent report parameter will be created automatically in the report as shown below.
-![Subreport parameter](/static/assets/on-premise/images/report-designer/report-items/subreport/subreport-parameter.png '#width=385px')
+   ![Subreport parameter](/static/assets/on-premise/images/report-designer/report-items/subreport/subreport-parameter.png '#width=385px')
 
 ### Design report
 
 Here we have designed a simple subreport using image, textbox and table reportitem as shown below.
 ![subreport item with properties view](/static/assets/on-premise/images/report-designer/report-items/subreport/create-a-subreport.png '#width=425px')
->Note: Refer [Image](./../../../report-items/image/), [Line](./../../../report-items/line/), [Table](./../../../report-items/tablix/design-ssrs-rdl-report-using-table/) section to design the above subreport.
+> Note: Refer [Image](./../../../report-items/image/), [Line](./../../../report-items/line/), [Table](./../../../report-items/tablix/design-ssrs-rdl-report-using-table/) section to design the above subreport.
 
 ### Assign fields
 
@@ -115,9 +115,9 @@ Similarly set the report path to the another subreport item by following the abo
 To assign parameter values to the sub report from main report follow the below steps:
 
 1. Click on the **Set Parameters** button and click on the **ADD** icon.
-![selected report path](/static/assets/on-premise/images/report-designer/report-items/subreport/parameter-add-icon.png '#width=385px')
+   ![selected report path](/static/assets/on-premise/images/report-designer/report-items/subreport/parameter-add-icon.png '#width=385px')
 2. The available parameters in the sub report will be listed in the `Parameters Name` drop down, choose the parameter name and assign values. Here, the following expression `=Parameters!Employee-A.Value` is assigned to the `SalesPersonID` parameter of subreport.
-![Pass the parameter value](/static/assets/on-premise/images/report-designer/report-items/subreport/parameter-values-passed.png '#width=385px')
+   ![Pass the parameter value](/static/assets/on-premise/images/report-designer/report-items/subreport/parameter-values-passed.png '#width=385px')
 3. Similarly set the parameter name and assign values to the another subreport item by following the above steps.
 
 Now, the report path and parameters are set for both subreport item in the report as shown below snap.

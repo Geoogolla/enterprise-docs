@@ -75,10 +75,10 @@ Follow steps 1 - 4, to add parameters.
 #### Reset Expression
 
 1. To reset an expression, click on the square icon and select `Reset`.
-![Select reset option](/static/assets/on-premise/images/report-designer/compose-report/link-data/select-reset-option.png '#width=350px')
+   ![Select reset option](/static/assets/on-premise/images/report-designer/compose-report/link-data/select-reset-option.png '#width=350px')
 
 2. The icon will be indicated in `White color`, after reset action.
-![After reset expression](/static/assets/on-premise/images/report-designer/compose-report/link-data/after-reset.png)
+   ![After reset expression](/static/assets/on-premise/images/report-designer/compose-report/link-data/after-reset.png)
 
 #### Remove Parameters
 
@@ -93,10 +93,10 @@ Hyperlink is used to link to a webpages in a report. Follow the below steps to a
 ### Add a hyperlink
 
 1. Select **URL** option in the `Link To` property dropdown, now the fields required to specify external URL will be enabled under the link property.
-
    ![enable-url-in-link](/static/assets/on-premise/images/report-designer/compose-report/link-data/enable-link-url.png '#width=350px')
 
-2. In **URL** option, enter URL or set an [Expression](./../../compose-report/link-data/#set-expression) that evaluates to the URL as shown below.   ![provide-the-url](/static/assets/on-premise/images/report-designer/compose-report/link-data/enable-link-url-save.png '#width=350px')
+2. In **URL** option, enter URL or set an [Expression](./../../compose-report/link-data/#set-expression) that evaluates to the URL as shown below.
+   ![provide-the-url](/static/assets/on-premise/images/report-designer/compose-report/link-data/enable-link-url-save.png '#width=350px')
 
 3. To view the link, click **Preview** and click on the report item, it will navigate to the given **URL** link.
 
@@ -104,6 +104,6 @@ Hyperlink is used to link to a webpages in a report. Follow the below steps to a
 
 1. Select the text box, image, or chart series to which you want to link a bookmark. The respective item properties will be listed in the `Properties` pane.
 2. Under `Link` category, choose `Bookmark` option. An option to link the bookmark will be enabled.
-![Choose Bookmark](/static/assets/on-premise/images/report-designer/compose-report/book-mark/choose-bookmark-option.png '#width=350px')
+   ![Choose Bookmark](/static/assets/on-premise/images/report-designer/compose-report/book-mark/choose-bookmark-option.png '#width=350px')
 3. In the bookmark dropdown, type or select a bookmark or set an expression that evaluates to a bookmark.
-![Choose value](/static/assets/on-premise/images/report-designer/compose-report/book-mark/choose-value.png '#width=350px')
+   ![Choose value](/static/assets/on-premise/images/report-designer/compose-report/book-mark/choose-value.png '#width=350px')
