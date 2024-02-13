@@ -23,16 +23,17 @@ To open the already created category, click any category in the left panel to vi
 To add a new category, you should have `Create All Categories` permission.
 Category can be added by the below ways,
 
-1. While publishing the designed report to the Report Server, `New Category` option will be shown.
+1. While publishing the designed report to the Report Server, `Create Category` option will be shown.
    ![Publish report](/static/assets/on-premise/images/manage-categories/publish-report.png)
 2. While copying the reports from context menu of the report listing page.
     ![Publish report](/static/assets/on-premise/images/manage-categories/create-category.png)
 3. Click on the `[+]` icon from the toolbar and click on the `Create Category` option .
     ![Create category button](/static/assets/on-premise/images/manage-categories/create-category-button.png)
 
-Provide a name and description (optional) for the category and click **Add**.
-    ![Add a new category for reports](/static/assets/on-premise/images/manage-categories/add-category.png)
-    > `Read, Write, Delete` permission for that `Specific Category` is provided to the user who created the category.
+    Provide a name and description (optional) for the category and click **Add**.
+        ![Add a new category for reports](/static/assets/on-premise/images/manage-categories/add-category.png)
+
+> `Read, Write, Delete` permission for that `Specific Category` is provided to the user who created the category.
 
 ## Update category
 
