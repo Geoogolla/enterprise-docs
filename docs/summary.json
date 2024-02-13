@@ -3,6 +3,8 @@
     "Getting Started": "getting-started.md",
     "Installation": {
         "Windows Installer":{
+            "Prerequisites":"prerequisites.md",
+            "Installation and Deployment":"installation-and-deployment.md",
             "Install Bold Reports over Bold BI":"install-bold-reports-over-bold-bi.md",
             "Silent Installation":"silent-installation.md"
         },
@@ -146,7 +148,7 @@
             "Upgrade v1.x to latest": "upgrade-bold-reports-from-v1.x-to-latest.md",
             "Migrate Data to Bold Reports Multi-Tenant": "data-migration.md"
            },
-           "Upgrade v2.x to latest": "upgrade-bold-reports-from-v2.x-to-latest.md"
+           "Version Upgrade": "upgrade-bold-reports-to-latest-version.md"
         },
         "Azure": {
             "Upgrade v2.4.19 to latest":"upgrade-v2.x-to-latest.md",

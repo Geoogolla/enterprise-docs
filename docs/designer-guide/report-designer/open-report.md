@@ -22,7 +22,7 @@ The respective report will be opened with Report Designer in new tab.
 To edit a report which is available in local machine, first upload that report in on-premise server. Then, we can edit the report using [edit option](./../open-report/#edit-an-existing-report).
 
 1. Click on the `[+]` icon from the left side panel and click on the `Upload Report` option.
-    ![Upload button](/static/assets/on-premise/images/report-designer/open-report/upload-report-new.png)
+    ![Upload button](/static/assets/on-premise/images/report-designer/open-report/upload-report-new.png '#width=200px')
 
 2. Select a category for the report and fill in the name and description of the report.
     ![Choose category](/static/assets/on-premise/images/report-designer/open-report/choose-category.png)

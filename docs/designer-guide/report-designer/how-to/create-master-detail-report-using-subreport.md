@@ -13,12 +13,12 @@ This documentation explains the step-by-step procedure to create master-detail r
 ## Create and customize the detail report
 
 1. As a first step, open the Bold Report Designer.
-![Bold reports designer](/static/assets/on-premise/images/report-designer/how-to/master-detail-report-subreport/bold-reports-designer.png)
+![Bold reports designer](/static/assets/on-premise/images/report-designer/how-to/master-detail-report-subreport/bold-reports-designer.png '#width=400px')
 
 2. To add parameters to the detail report, click `Parameters`. Then, click `New parameter` in the parameter panel.
 
 3. Now, the following wizard will be displayed.
-![Parameter wizard](/static/assets/on-premise/images/report-designer/how-to/master-detail-report-subreport/parameter-wizard.png)
+![Parameter wizard](/static/assets/on-premise/images/report-designer/how-to/master-detail-report-subreport/parameter-wizard.png '#width=350px')
 
 4. Specify the parameter name as `ProdSubCat`, the prompt as `ProdSubCat` and set visibility to `hidden`.
 
@@ -56,7 +56,7 @@ You can download the created Detail report from here,
 ## Create a master report
 
 1. Open the Bold Report Designer.
-![Bold reports designer](/static/assets/on-premise/images/report-designer/how-to/master-detail-report-subreport/bold-reports-designer.png)
+![Bold reports designer](/static/assets/on-premise/images/report-designer/how-to/master-detail-report-subreport/bold-reports-designer.png '#width=450px')
 
 2. Connect to the data source using this documentation [link](./../../manage-data/datasource/).
 

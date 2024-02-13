@@ -11,25 +11,25 @@ A document map is a navigational feature that displays a separate side pane with
 
 To add links to the document map, configure the `DocumentMap` property under `Miscellaneous` category of the report item properties. You can also set the document map property for a table or matrix group.
 
-![Document Map property](/static/assets/on-premise/images/report-designer/compose-report/document-map/document-map.png)
+![Document Map property](/static/assets/on-premise/images/report-designer/compose-report/document-map/document-map.png '#width=350px')
 
 You can configure a static text or an expression which evaluates to the text that you want to display as a value for document map property.
 
-![Static text or expression](/static/assets/on-premise/images/report-designer/compose-report/document-map/expression.png)
+![Static text or expression](/static/assets/on-premise/images/report-designer/compose-report/document-map/expression.png '#width=350px')
 
 ## Configure Document Map
 
 For example, the below report design has a tablix report item with three parent groups.
 
-![Tablix report](/static/assets/on-premise/images/report-designer/compose-report/document-map/sample-design.png)
+![Tablix report](/static/assets/on-premise/images/report-designer/compose-report/document-map/sample-design.png '#width=400px')
 
 The report preview looks like below,
 
-![Tablix report](/static/assets/on-premise/images/report-designer/compose-report/document-map/report-preview.png)
+![Tablix report](/static/assets/on-premise/images/report-designer/compose-report/document-map/report-preview.png '#width=400px')
 
 Follow the below steps to list the category, subcategory and model in document map hierarchical structure. On clicking which the user can be directly taken to the clicked category or subcategory or model in preview. To achieve this, select the tablix and open grouping panel.
 
-![Select tablix](/static/assets/on-premise/images/report-designer/compose-report/document-map/select-tablix.png)
+![Select tablix](/static/assets/on-premise/images/report-designer/compose-report/document-map/select-tablix.png '#width=400px')
 
 Click on the `Category` group to show respective group properties.
 
@@ -37,7 +37,7 @@ Click on the `Category` group to show respective group properties.
 
 Under `Miscellaneous` category, assign the `=Fields!Category.Value` as expression in `Document Map` property.
 
-![Assign expression](/static/assets/on-premise/images/report-designer/compose-report/document-map/assign-expression.png)
+![Assign expression](/static/assets/on-premise/images/report-designer/compose-report/document-map/assign-expression.png '#width=350px')
 
 Similarly, assign `=Fields!Subcategory.Value` and `=Fields!Model.Value` as value for SubCategory and Model groups respectively.
 
@@ -49,7 +49,7 @@ In this way we can create document Map to navigate through the report.
 
 Click the `Show/Hide` Document Map button on the report viewer toolbar to toggle the display.
 
-![Show or hide document](/static/assets/on-premise/images/report-designer/compose-report/document-map/toggle-document-map.png)
+![Show or hide document](/static/assets/on-premise/images/report-designer/compose-report/document-map/toggle-document-map.png '#width=400px')
 
 ## Rendering Behaviour
 

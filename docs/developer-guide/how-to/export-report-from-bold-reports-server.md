@@ -57,8 +57,8 @@ public class ItemResponse
 
 public static ItemResponse ExportReport()
 {
-   var BoldReportsURL = "https://on-premise-demo.boldreports.com";
-   var itemId = Guid.Parse("b401dfc7-91f8-42a6-9f30-0b3e1323a5cc");
+   var BoldReportsURL = "https://demo.example.com"; // Provide your Bold Reports URL
+   var itemId = Guid.Parse("b401dfc7-91f8-42a6-9f30-0b3e1323a5cc"); // Provide your Report ID
    var exporttypeId = "PDF";
    var itemRequest = new ApiExportReport
       {

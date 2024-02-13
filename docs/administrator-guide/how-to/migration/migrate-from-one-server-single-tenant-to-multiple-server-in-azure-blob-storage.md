@@ -75,5 +75,4 @@ documentation: ug
 > * Also, the utility will not migrate the following items like Admin Settings and Profile Pictures.<br>
 >
 > * The utility will not migrate the password of the user. So we need to set the password manually. In ums page set password for the user manually as shown in the screenshot below.<br>
-><br>
 > ![Blob password](/static/assets/on-premise/images/how-to/blob-password.png)
