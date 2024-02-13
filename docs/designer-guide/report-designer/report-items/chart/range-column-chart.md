@@ -13,7 +13,7 @@ These types of charts are categorized under the `Comparison` category in the ite
 
 Drag and drop a range column chart from the item panel into the design area.
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/range-column-chart/drag-chart-from-item-panel.png)
+![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/range-column-chart/drag-chart-from-item-panel.png '#width=195px')
 
 Now, the range column chart will be rendered in the design area and the chart properties will be listed in the properties panel.
 
@@ -56,63 +56,63 @@ To configure data into a range column chart, follow the steps:
 
 2. Click the `Properties` icon in the configuration panel, the property pane opens. Now, switch to the `DATA` tab.
 
-   ![Chart properties pane](/static/assets/on-premise/images/report-designer/report-items/chart/range-column-chart/chart-properties-pane.png)
+   ![Chart properties pane](/static/assets/on-premise/images/report-designer/report-items/chart/range-column-chart/chart-properties-pane.png '#width=425px')
 
 3. The available data in the report will be listed in the dropdown, choose a data in the dropdown list.
 
-   ![Choose the dataset for chart](/static/assets/on-premise/images/report-designer/report-items/chart/range-column-chart/data-assign-drop-down.png)
+   ![Choose the dataset for chart](/static/assets/on-premise/images/report-designer/report-items/chart/range-column-chart/data-assign-drop-down.png '#width=385px')
 
 4. The numeric columns and numeric expressions are listed under the `Measures` section; other types of columns and dimension expressions are listed under the `Dimensions` section.
 
-   ![Measures and dimensions](/static/assets/on-premise/images/report-designer/report-items/chart/range-column-chart/measures-dimensions-category.png)
+   ![Measures and dimensions](/static/assets/on-premise/images/report-designer/report-items/chart/range-column-chart/measures-dimensions-category.png '#width=385px')
 
 5. **Drag and Drop Measure Element**:
 
    Select and drag the `Highvalue` or the numeric expression column from the `Measures` section and drop it in the `High(s)` section.
 
-   ![Add a High value field](/static/assets/on-premise/images/report-designer/report-items/chart/range-column-chart/add-high-value-field.png)
+   ![Add a High value field](/static/assets/on-premise/images/report-designer/report-items/chart/range-column-chart/add-high-value-field.png '#width=385px')
 
    Now, the report item design will look like below:
 
-   ![Preview after adding y-value field](/static/assets/on-premise/images/report-designer/report-items/chart/range-column-chart/high-value-chart-design-view.png)
+   ![Preview after adding y-value field](/static/assets/on-premise/images/report-designer/report-items/chart/range-column-chart/high-value-chart-design-view.png '#width=385px')
 
    Select and drag the `Lowvalue` or the numeric expression column from the `Measures` section and drop it in the `Low(s)` section.
 
-   ![Add a Low value field](/static/assets/on-premise/images/report-designer/report-items/chart/range-column-chart/add-low-value-field.png)
+   ![Add a Low value field](/static/assets/on-premise/images/report-designer/report-items/chart/range-column-chart/add-low-value-field.png '#width=385px')
 
    Now, the report item design will look like below:
 
-   ![Preview after adding y-value field](/static/assets/on-premise/images/report-designer/report-items/chart/range-column-chart/low-value-chart-design-view.png)
+   ![Preview after adding y-value field](/static/assets/on-premise/images/report-designer/report-items/chart/range-column-chart/low-value-chart-design-view.png '#width=385px')
 
 6. **Aggregate Options**:
 
    Click the `Settings` icon (highlighted below) to open the aggregation type dropdown list.
 
-   ![Aggregate settings icon](/static/assets/on-premise/images/report-designer/report-items/chart/range-column-chart/aggregation-settings-icon.png)
+   ![Aggregate settings icon](/static/assets/on-premise/images/report-designer/report-items/chart/range-column-chart/aggregation-settings-icon.png '#width=185px')
 
    You can set the aggregation type by which you can compute the selected column.
 
-   ![Aggregate menu list](/static/assets/on-premise/images/report-designer/report-items/chart/range-column-chart/aggregation-settings-menu.png)
+   ![Aggregate menu list](/static/assets/on-premise/images/report-designer/report-items/chart/range-column-chart/aggregation-settings-menu.png '#width=385px')
 
 7. **Drag and Drop Dimension Element**:
 
    Select and drag the dimension element from the `Dimensions` section to measure against any of the selected numeric column(s) in `High(s)` or `Low(s)` section, and drop it into the `Column` section.
 
-   ![Add dimension field](/static/assets/on-premise/images/report-designer/report-items/chart/range-column-chart/add-field-to-column-section.png)
+   ![Add dimension field](/static/assets/on-premise/images/report-designer/report-items/chart/range-column-chart/add-field-to-column-section.png '#width=385px')
 
    Now, the report item design will look like below:
 
-   ![Preview after adding dimension field](/static/assets/on-premise/images/report-designer/report-items/chart/range-column-chart/column-field-design-preview.png)
+   ![Preview after adding dimension field](/static/assets/on-premise/images/report-designer/report-items/chart/range-column-chart/column-field-design-preview.png '#width=385px')
 
 8. **Grouping**:
 
    You can group the added column element with another column, by adding the respective dimension element into the `Row(s)` section.
 
-   ![Achieve grouping by row values](/static/assets/on-premise/images/report-designer/report-items/chart/range-column-chart/add-field-to-rows-section.png)
+   ![Achieve grouping by row values](/static/assets/on-premise/images/report-designer/report-items/chart/range-column-chart/add-field-to-rows-section.png '#width=385px')
 
    Now, the report item design will look like below.
 
-   ![Preview of row value grouping ](/static/assets/on-premise/images/report-designer/report-items/chart/range-column-chart/row-field-design-preview.png)
+   ![Preview of row value grouping ](/static/assets/on-premise/images/report-designer/report-items/chart/range-column-chart/row-field-design-preview.png '#width=385px')
 
 9. **Formatting Column and Row(s) sections**:
 
@@ -136,11 +136,11 @@ You can see the list of properties available for the widget with the default val
 
 The **Name** property can be used to provide a unique name for the chart item in the report.
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/range-column-chart/name-property.png)
+![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/range-column-chart/name-property.png '#width=385px')
 
 ### Basic Settings
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/range-column-chart/basic-settings.png)
+![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/range-column-chart/basic-settings.png '#width=385px')
 
 #### Show Legend
 
@@ -150,7 +150,7 @@ A Legend is a text used to describe the data plotted. This allows you to toggle 
 
 You can add multiple series to the chart and the available series will be listed in the `Choose Series` dropdown. To customize the series appearance, choose the required series name in the dropdown.
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/range-column-chart/multi-series-list-in-drop-down.png)
+![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/range-column-chart/multi-series-list-in-drop-down.png '#width=355px')
 
 Refer to the [Series](./../../../report-items/chart/series/) section, to customize each series using the properties panel.
 
@@ -158,7 +158,7 @@ Refer to the [Series](./../../../report-items/chart/series/) section, to customi
 
 The border style, color, width, and background color properties can be used to style the chart and customize its appearance in the report design. These properties are listed under the `Appearance` category in the properties panel.
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/range-column-chart/appearance-property.png)
+![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/range-column-chart/appearance-property.png '#width=385px')
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/range-column-chart/appearance-design.png)
 
@@ -166,17 +166,17 @@ The border style, color, width, and background color properties can be used to s
 
 The **Chart Area** property can be used to customize the area of the chart design.
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/range-column-chart/chart-area-sketch.png)
+![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/range-column-chart/chart-area-sketch.png '#width=385px')
 
 These properties are listed under the `Chart Area` category.
 
 In this case, we have set the `Color Palette` as `Custom`.
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/range-column-chart/chart-area.png)
+![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/range-column-chart/chart-area.png '#width=385px')
 
 Refer to the [Custom Colors](./../../../report-items/chart/color-palette/#define-custom-color-palette) for more information.
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/range-column-chart/chart-area-custom-color.png)
+![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/range-column-chart/chart-area-custom-color.png '#width=385px')
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/range-column-chart/chart-area-design.png)
 
@@ -186,7 +186,7 @@ Use the [Color Palette](./../../../report-items/chart/color-palette/) property t
 
 To show/hide the chart title, toggle the `Show Chart Title` checkbox. The **chart title** can be customized by editing the `Title Text` property of the chart. You can customize the font color, font text, font style, border, background, and position of the title.
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/range-column-chart/chart-title.png)
+![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/range-column-chart/chart-title.png '#width=385px')
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/range-column-chart/chart-title-design.png)
 
@@ -194,7 +194,7 @@ To show/hide the chart title, toggle the `Show Chart Title` checkbox. The **char
 
 The **No Data** property is used to display static text when a dataset results with empty or zero rows at runtime.
 
-![Chart No data message](/static/assets/on-premise/images/report-designer/report-items/chart/range-column-chart/no-data.png)
+![Chart No data message](/static/assets/on-premise/images/report-designer/report-items/chart/range-column-chart/no-data.png '#width=385px')
 
 To set/reset no data message properties, refer to the [No Data Message](./../../../report-items/chart/no-data-message/) property section.
 
@@ -202,7 +202,7 @@ To set/reset no data message properties, refer to the [No Data Message](./../../
 
 The **Category axis** displays text labels instead of numbers. To use the categorical axis, toggle the `Enable Axis` checkbox under the `Category Axis` category in the chart properties.
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/range-column-chart/category-axis.png)
+![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/range-column-chart/category-axis.png '#width=385px')
 
 To set/reset axis properties, refer to the [Axis Properties](./../../../report-items/chart/axis/) property.
 
@@ -212,7 +212,7 @@ The **Value axis** uses a numerical scale and displays numbers as labels. To use
 
 Here, we have set the `Interval Type` to `Number`, `Interval` to `5`. Then, we set the `Maximum` and `Minimum` value to `0` and `35`.
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/range-column-chart/value-axis.png)
+![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/range-column-chart/value-axis.png '#width=385px')
 
 To set/reset axis properties, refer to the [Axis Properties](./../../../report-items/chart/axis/) property.
 
@@ -220,31 +220,31 @@ To set/reset axis properties, refer to the [Axis Properties](./../../../report-i
 
 The **Grid line** properties can be set to category and value axis.
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/range-column-chart/grid-line.png)
+![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/range-column-chart/grid-line.png '#width=385px')
 
 #### Category Axis
 
 To show the grid line for the category axis, enable the `Category Axis` checkbox.
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/range-column-chart/category-axis-grid-line.png)
+![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/range-column-chart/category-axis-grid-line.png '#width=425px')
 
 You can also enable the `Minor Grid Lines` and customize the major and minor gridline style and color in the `Advanced Options` menu.
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/range-column-chart/category-grid-line-advanced-properties.png)
+![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/range-column-chart/category-grid-line-advanced-properties.png '#width=385px')
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/range-column-chart/category-axis-minor-grid-lines.png)
+![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/range-column-chart/category-axis-minor-grid-lines.png '#width=425px')
 
 #### Value Axis
 
 To show the grid line for the value axis, enable the `Value Axis` checkbox.
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/range-column-chart/value-axis-grid-line.png)
+![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/range-column-chart/value-axis-grid-line.png '#width=425px')
 
 You can also enable the `Minor Grid Lines` and customize the major and minor gridline style and color in the `Advanced Options` menu.
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/range-column-chart/value-grid-line-advanced-properties.png)
+![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/range-column-chart/value-grid-line-advanced-properties.png '#width=385px')
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/range-column-chart/value-axis-minor-grid-lines.png)
+![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/range-column-chart/value-axis-minor-grid-lines.png '#width=425px')
 
 ### Page break
 
@@ -252,23 +252,23 @@ The **page break** property can be used to control the amount of information on 
 
 1. The **Break Location** property specifies where the page break should occur. Choose any `Break Location` type in the dropdown.
 
-   ![Break location](/static/assets/on-premise/images/report-designer/report-items/chart/range-column-chart/break-location-types.png)
+   ![Break location](/static/assets/on-premise/images/report-designer/report-items/chart/range-column-chart/break-location-types.png '#width=385px')
 
 2. To restart the page numbering on each page, enable the `Page Number Reset` property checkbox.
 
-   ![Reset page number](/static/assets/on-premise/images/report-designer/report-items/chart/range-column-chart/page-break-property.png)
+   ![Reset page number](/static/assets/on-premise/images/report-designer/report-items/chart/range-column-chart/page-break-property.png '#width=355px')
 
 ### Data Element
 
 Data element can be used to control visibility of a report item when exporting the report in XML format. The Data element properties are listed in the properties panel, under the `Data Element` category.
 
-![Data element properties](/static/assets/on-premise/images/report-designer/report-items/chart/range-column-chart/data-element-properties.png)
+![Data element properties](/static/assets/on-premise/images/report-designer/report-items/chart/range-column-chart/data-element-properties.png '#width=385px')
 
 #### Name
 
 You can assign a custom name to the chart element using the `Name` field. The chart report item will be exported with the provided name.
 
-![Data element name property](/static/assets/on-premise/images/report-designer/report-items/chart/range-column-chart/data-element-name-properties.png)
+![Data element name property](/static/assets/on-premise/images/report-designer/report-items/chart/range-column-chart/data-element-name-properties.png '#width=335px')
 
 > Note: The name cannot contain spaces, and it must begin with a letter followed by letters, numbers, or the underscore character (_).
 
@@ -279,7 +279,7 @@ On exporting the report, the visibility of the chart can be controlled using the
 * **Auto** or **Output** - Exports the chart report item
 * **NoOutput** - Does not export the chart report item
 
-![Data element output property](/static/assets/on-premise/images/report-designer/report-items/chart/range-column-chart/output-property.png)
+![Data element output property](/static/assets/on-premise/images/report-designer/report-items/chart/range-column-chart/output-property.png '#width=385px')
 
 ### Miscellaneous
 
@@ -287,7 +287,7 @@ On exporting the report, the visibility of the chart can be controlled using the
 
 The **page name** property is used to name the first worksheet of the Excel workbook when exporting the report to excel format.
 
-![Page name property](/static/assets/on-premise/images/report-designer/report-items/chart/range-column-chart/page-name.png)
+![Page name property](/static/assets/on-premise/images/report-designer/report-items/chart/range-column-chart/page-name.png '#width=385px')
 
 You can set static or dynamic text as the page name. To set and reset dynamic text, refer to the [Set Expression](./../../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../../compose-report/properties-panel/#reset-expression) section.
 
@@ -314,7 +314,7 @@ The **Tooltip** property can be used to display informative text or values when 
 To customize the tooltip property in the report preview, go to [Series Properties](https://help.boldreports.com/enterprise-reporting/designer-guide/report-designer/report-items/chart/series/#tooltip), under the Miscellaneous Category set tooltip as like below.
 `="Country: " & Fields!Country.Value + "<br>" + "Season: " & Fields!Season.Value + "<br>" + "High Value: " + Fields!Highvalue.Value + "<br>" + "Low Value: " + Fields!Lowvalue.Value`
 
-![Tooltip Property](/static/assets/on-premise/images/report-designer/report-items/chart/range-column-chart/tooltip-property-preview.png)
+![Tooltip Property](/static/assets/on-premise/images/report-designer/report-items/chart/range-column-chart/tooltip-property-preview.png '#width=385px')
 
 ## Preview report
 

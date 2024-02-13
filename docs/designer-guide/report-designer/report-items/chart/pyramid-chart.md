@@ -14,7 +14,7 @@ These types of charts are categorized under the `Proportion` category in the ite
 
 Drag and drop the pyramid chart from the item panel into the design area.
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/pyramid-chart/drag-a-chart-from-item-panel.png)
+![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/pyramid-chart/drag-a-chart-from-item-panel.png '#width=185px')
 
 Now, the pyramid chart will be rendered in the design area and the chart properties will be listed in the properties panel.
 
@@ -65,45 +65,45 @@ To configure data into a pyramid chart, follow the steps:
 
 2. Click the `Properties` icon in the configuration panel, the property pane opens. Now, switch to the `DATA` tab.
 
-   ![Chart properties pane](/static/assets/on-premise/images/report-designer/report-items/chart/pyramid-chart/chart-properties-pane.png)
+   ![Chart properties pane](/static/assets/on-premise/images/report-designer/report-items/chart/pyramid-chart/chart-properties-pane.png '#width=425px')
 
 3. The available data in the report will be listed in the dropdown, choose a data in the dropdown list.
 
-   ![Choose the dataset for chart](/static/assets/on-premise/images/report-designer/report-items/chart/pyramid-chart/data-assign-drop-down.png)
+   ![Choose the dataset for chart](/static/assets/on-premise/images/report-designer/report-items/chart/pyramid-chart/data-assign-drop-down.png '#width=385px')
 
 4. The numeric columns and numeric expressions are listed under the `Measures` section; other types of columns and dimension expressions are listed under the `Dimensions` section.
 
-   ![Measures and dimensions](/static/assets/on-premise/images/report-designer/report-items/chart/pyramid-chart/measures-dimensions-category.png)
+   ![Measures and dimensions](/static/assets/on-premise/images/report-designer/report-items/chart/pyramid-chart/measures-dimensions-category.png '#width=385px')
 
 5. **Drag and Drop Measure Element**:
 
    Select and drag the numeric column (measure element) or the numeric expression column from the `Measure` section and drop it in the `Y Value(s)` section.
 
-   ![Add a Y-value field](/static/assets/on-premise/images/report-designer/report-items/chart/pyramid-chart/add-y-values-field.png)
+   ![Add a Y-value field](/static/assets/on-premise/images/report-designer/report-items/chart/pyramid-chart/add-y-values-field.png '#width=385px')
 
    Now, the report item design will look like below:
 
-   ![Preview after adding y-value field](/static/assets/on-premise/images/report-designer/report-items/chart/pyramid-chart/y-value-chart-design-view.png)
+   ![Preview after adding y-value field](/static/assets/on-premise/images/report-designer/report-items/chart/pyramid-chart/y-value-chart-design-view.png '#width=385px')
 
 6. **Aggregate Options**:
 
    Click the `Settings` icon (highlighted below) to open the aggregation type dropdown list.
 
-   ![Aggregate settings icon](/static/assets/on-premise/images/report-designer/report-items/chart/pyramid-chart/aggregation-settings-icon.png)
+   ![Aggregate settings icon](/static/assets/on-premise/images/report-designer/report-items/chart/pyramid-chart/aggregation-settings-icon.png '#width=185px')
 
    You can set the aggregation type by which you can compute the selected column.
 
-   ![Aggregate menu list](/static/assets/on-premise/images/report-designer/report-items/chart/pyramid-chart/aggregation-settings-menu.png)
+   ![Aggregate menu list](/static/assets/on-premise/images/report-designer/report-items/chart/pyramid-chart/aggregation-settings-menu.png '#width=385px')
 
 7. **Drag and Drop Dimension Element**:
 
    Select and drag the dimension element from the `Dimensions` section to measure against any of the selected numeric column(s) in `Y Value(s)` section, and drop it into the `Column` section.
 
-   ![Add dimension field](/static/assets/on-premise/images/report-designer/report-items/chart/pyramid-chart/add-field-to-column-section.png)
+   ![Add dimension field](/static/assets/on-premise/images/report-designer/report-items/chart/pyramid-chart/add-field-to-column-section.png '#width=385px')
 
    Now, the report item design will look like below:
 
-   ![Preview after adding dimension field](/static/assets/on-premise/images/report-designer/report-items/chart/pyramid-chart/column-field-design-preview.png)
+   ![Preview after adding dimension field](/static/assets/on-premise/images/report-designer/report-items/chart/pyramid-chart/column-field-design-preview.png '#width=385px')
 
 8. **Grouping**:
 
@@ -131,11 +131,11 @@ You can see the list of properties available for the widget with the default val
 
 The **Name** property can be used to provide a unique name for the chart item in the report.
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/pyramid-chart/name-property.png)
+![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/pyramid-chart/name-property.png '#width=385px')
 
 ### Basic Settings
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/pyramid-chart/basic-settings.png)
+![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/pyramid-chart/basic-settings.png '#width=385px')
 
 #### Show Legend
 
@@ -145,19 +145,19 @@ A Legend is a text used to describe the data plotted. This allows you to toggle 
 
 You can add multiple series to the chart and the available series will be listed in the `Choose Series` dropdown. To customize the series appearance, choose the required series name in the dropdown.
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/pyramid-chart/multi-series-list-in-drop-down.png)
+![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/pyramid-chart/multi-series-list-in-drop-down.png '#width=385px')
 
 We can edit the selected series by clicking the edit button.
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/pyramid-chart/edit-series.png)
+![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/pyramid-chart/edit-series.png '#width=385px')
 
 In this case, we have enabled the `Enable SmartLabel` property.
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/pyramid-chart/enable-smart-label.png)
+![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/pyramid-chart/enable-smart-label.png '#width=385px')
 
 In the `Data Label Settings` properties, we have enabled the `Show Data Label` property.
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/pyramid-chart/data-label-settings.png)
+![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/pyramid-chart/data-label-settings.png '#width=385px')
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/pyramid-chart/data-label-settings-preview.png)
 
@@ -167,7 +167,7 @@ Refer to the [Series](./../../../report-items/chart/series/) section, to customi
 
 The border style, color, width, and background color properties can be used to style the chart and customize its appearance in the report design. These properties are listed under the `Appearance` category in the properties panel.
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/pyramid-chart/appearance-property.png)
+![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/pyramid-chart/appearance-property.png '#width=385px')
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/pyramid-chart/appearance-design.png)
 
@@ -175,7 +175,7 @@ The border style, color, width, and background color properties can be used to s
 
 The **Chart Area** property can be used to customize the area of the chart design.
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/pyramid-chart/chart-area-sketch.png)
+![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/pyramid-chart/chart-area-sketch.png '#width=410px')
 
 Use the [Color Palette](./../../../report-items/chart/color-palette/) property to customize the color of the chart. `Color Palette` are listed under the `Chart Area` category.
 
@@ -187,7 +187,7 @@ Here, we have set the `Color Palette` as `EarthTones` and the design is shown be
 
 To show/hide the chart title, toggle the `Show Chart Title` checkbox. The **chart title** can be customized by editing the `Title Text` property of the chart. You can customize the font color, font text, font style, border, background, and position of the title.
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/pyramid-chart/chart-title.png)
+![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/pyramid-chart/chart-title.png '#width=385px')
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/pyramid-chart/chart-title-design.png)
 
@@ -195,7 +195,7 @@ To show/hide the chart title, toggle the `Show Chart Title` checkbox. The **char
 
 The **No Data** property is used to display static text when a dataset results with empty or zero rows at runtime.
 
-![Chart No data message](/static/assets/on-premise/images/report-designer/report-items/chart/pyramid-chart/no-data.png)
+![Chart No data message](/static/assets/on-premise/images/report-designer/report-items/chart/pyramid-chart/no-data.png '#width=385px')
 
 To set/reset no data message properties, refer to the [No Data Message](./../../../report-items/chart/no-data-message/) property section.
 
@@ -205,23 +205,23 @@ The **page break** property can be used to control the amount of information on 
 
 1. The **Break Location** property specifies where the page break should occur. Choose any `Break Location` type in the drop-down.
 
-   ![Break location](/static/assets/on-premise/images/report-designer/report-items/chart/pyramid-chart/break-location-types.png)
+   ![Break location](/static/assets/on-premise/images/report-designer/report-items/chart/pyramid-chart/break-location-types.png '#width=385px')
 
 2. To restart the page numbering on each page, enable `Page Number Reset` property checkbox.
 
-   ![Reset page number](/static/assets/on-premise/images/report-designer/report-items/chart/pyramid-chart/page-break-property.png)
+   ![Reset page number](/static/assets/on-premise/images/report-designer/report-items/chart/pyramid-chart/page-break-property.png '#width=385px')
 
 ### Data Element
 
 Data element can be used to control visibility of a report item when exporting the report in XML format. The Data element properties are listed in the properties panel, under the `Data Element` category.
 
-![Data element properties](/static/assets/on-premise/images/report-designer/report-items/chart/pyramid-chart/data-element-properties.png)
+![Data element properties](/static/assets/on-premise/images/report-designer/report-items/chart/pyramid-chart/data-element-properties.png '#width=385px')
 
 #### Name
 
 You can assign a custom name to the chart element using the `Name` field. The chart report item will be exported with the provided name.
 
-![Data element name property](/static/assets/on-premise/images/report-designer/report-items/chart/pyramid-chart/data-element-name-properties.png)
+![Data element name property](/static/assets/on-premise/images/report-designer/report-items/chart/pyramid-chart/data-element-name-properties.png '#width=385px')
 
 > Note: The name cannot contain spaces, and it must begin with a letter followed by letters, numbers, or the underscore character (_).
 
@@ -232,7 +232,7 @@ On exporting the report, the visibility of the chart can be controlled using the
 * **Auto** or **Output** - Exports the chart report item
 * **NoOutput** - Does not export the chart report item
 
-![Data element output property](/static/assets/on-premise/images/report-designer/report-items/chart/pyramid-chart/output-property.png)
+![Data element output property](/static/assets/on-premise/images/report-designer/report-items/chart/pyramid-chart/output-property.png '#width=385px')
 
 ### Miscellaneous
 
@@ -240,7 +240,7 @@ On exporting the report, the visibility of the chart can be controlled using the
 
 The **page name** property is used to name the first worksheet of the Excel workbook when exporting the report to excel format.
 
-![Page name property](/static/assets/on-premise/images/report-designer/report-items/chart/pyramid-chart/page-name.png)
+![Page name property](/static/assets/on-premise/images/report-designer/report-items/chart/pyramid-chart/page-name.png '#width=385px')
 
 You can set static or dynamic text as the page name. To set and reset dynamic text, refer to the [Set Expression](./../../../compose-report/properties-panel/#set-expression) and [Reset Expression](./../../../compose-report/properties-panel/#reset-expression) section.
 
@@ -264,10 +264,10 @@ You can set static or dynamic text as the value for the bookmark property. To se
 
 1. The final design view of the report is shown below.
 
-   ![Preview icon in design view](/static/assets/on-premise/images/report-designer/report-items/chart/pyramid-chart/preview-icon.png)
+   ![Preview icon in design view](/static/assets/on-premise/images/report-designer/report-items/chart/pyramid-chart/preview-icon.png '#width=455px')
 
 2. Now, the report preview can be visualized as below.
 
-   ![Chart report preview](/static/assets/on-premise/images/report-designer/report-items/chart/pyramid-chart/report-preview-page.png)
+   ![Chart report preview](/static/assets/on-premise/images/report-designer/report-items/chart/pyramid-chart/report-preview-page.png '#width=455px')
 
 > Download the above report design from the [link](https://github.com/boldreports/resources/tree/master/docs/report-designer/chart/pyramid-chart.rdl).
