@@ -44,15 +44,13 @@ Installer will automatically detect the existing Bold BI hosting details and sho
 
 ![Bold ID IIS](/static/assets/on-premise/images/installation/bold-reports-over-bold-bi/boldid-iis.png)
 
-## PhantomJS
+## Chromium Packages
 
-> **IMPORTANT:** PhantomJS is a headless WebKit scriptable with JavaScript. This is free software or open source, and it may contain MIT, BSD, LGPL, GPL, or other similar licenses that contain third-party code. This executable file is necessary to achieve image and PDF export functionalities in the dashboard and widgets. Without this file, the image and PDF export options in the dashboard and widgets will no longer be available. If you choose to download PhantomJS, then you must accept all terms and conditions to use it with Syncfusion products.
+> **IMPORTANT:** Chromium packages are necessary to enable image and PDF export functionalities in reports and schedules from Bold Reports. Without these packages, the image and PDF export options will be disabled.
 
-Read and accept the license and third-party terms and conditions by checking the options `LICENSE` and `Third-party` for installing PhantomJS and click `Next`.
+![Chromium](/static/assets/on-premise/images/installation/bold-reports-over-bold-bi/chromium.png)
 
-![Panthom JS](/static/assets/on-premise/images/installation/bold-reports-over-bold-bi/panthomjs.png)
-
-> **NOTE**: If you have any problem with internet connection or do not have an internet connection, unselect the PhantomJS download option and continue to install. To manually install PhantomJS.
+> **NOTE**: If you encounter problems with your internet connection or have no connection, unselect the option to download Chromium Packages and continue with the installation. Refer to the provided guide for instructions on [manually installing the Chromium Packages](./../../../faq/how-to-install-chromium-packages/)
 
 ## Client libraries
 
