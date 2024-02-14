@@ -11,11 +11,11 @@ Indicator report items are minimal representation of gauge used to visualize the
 ## Add an indicator to the report
 
 1. The indicator report item is listed in the item panel under the `KPI` category.
-![Indicator item in item panel](/static/assets/on-premise/images/report-designer/report-items/indicator/item-panel.png '#width=145px')
+   ![Indicator item in item panel](/static/assets/on-premise/images/report-designer/report-items/indicator/item-panel.png '#width=145px')
 2. Drag and drop the indicator report item into the design area from the item panel.
-![Drag and drop indicator report item into design area](/static/assets/on-premise/images/report-designer/report-items/indicator/item-drag.png '#width=285px')
+   ![Drag and drop indicator report item into design area](/static/assets/on-premise/images/report-designer/report-items/indicator/item-drag.png '#width=285px')
 3. After dropping the indicator item in the design area, the respective item properties will be listed in the properties panel.
-![Indicator item with properties view](/static/assets/on-premise/images/report-designer/report-items/indicator/designer-area.png '#width=385px')
+   ![Indicator item with properties view](/static/assets/on-premise/images/report-designer/report-items/indicator/designer-area.png '#width=385px')
 
 ## Properties
 

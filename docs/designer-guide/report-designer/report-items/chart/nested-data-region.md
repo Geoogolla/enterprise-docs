@@ -56,14 +56,14 @@ Similarly, assign `OrderYear` in column group.
 ## Add chart into the matrix
 
 1. Drag and drop a rectangle and place inside the second row, last cell.
-![Matrix simple design](/static/assets/on-premise/images/report-designer/report-items/chart/nested-data-region/add-rectangle.png '#width=355px')
+   ![Matrix simple design](/static/assets/on-premise/images/report-designer/report-items/chart/nested-data-region/add-rectangle.png '#width=355px')
    > Use rectangles to control the sizing of inserted chart item.
 2. Now, drag a `Exploded-pie` chart from the item panel and place inside the rectangle.
-![Matrix simple design](/static/assets/on-premise/images/report-designer/report-items/chart/nested-data-region/add-chart-into-cell.png '#width=355px')
+   ![Matrix simple design](/static/assets/on-premise/images/report-designer/report-items/chart/nested-data-region/add-chart-into-cell.png '#width=355px')
 3. The chart will be placed inside rectangle within table cell as below,
-![Matrix simple design](/static/assets/on-premise/images/report-designer/report-items/chart/nested-data-region/add-chart-design.png '#width=355px')
+   ![Matrix simple design](/static/assets/on-premise/images/report-designer/report-items/chart/nested-data-region/add-chart-design.png '#width=355px')
 4. Resize the chart and matrix design as required.
-![Matrix simple design](/static/assets/on-premise/images/report-designer/report-items/chart/nested-data-region/resize-table-design.png '#width=355px')
+   ![Matrix simple design](/static/assets/on-premise/images/report-designer/report-items/chart/nested-data-region/resize-table-design.png '#width=355px')
 
 ## Assign data to chart
 

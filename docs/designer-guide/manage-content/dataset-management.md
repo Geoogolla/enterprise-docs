@@ -42,6 +42,7 @@ We can create dataset by following ways.
     ![Upload DataSet](/static/assets/on-premise/images/manage-content/manage-data-sets/upload-dataset-option.png)
 
 2. Enter the name and description of the dataset.
+
 3. Click `Browse` and select the `.rsd` file to upload.
     ![Auto-Filled Dataset Name](/static/assets/on-premise/images/manage-content/manage-data-sets/upload-dataset-name.png)
 
@@ -85,14 +86,14 @@ This section explains on how to share dataset with the other users in the Report
     ![Manage dataset permission option](/static/assets/on-premise/images/manage-content/manage-data-sets/manage-dataset-permissions.png)
 
 2. Click the `Manage Access` button.
-![Set permissions to share a dataset](/static/assets/on-premise/images/manage-content/manage-data-sets/manage-dataset-permission-dialog.png)
+    ![Set permissions to share a dataset](/static/assets/on-premise/images/manage-content/manage-data-sets/manage-dataset-permission-dialog.png)
 
 3. Select the permission access and the users or groups to share the dataset.
     ![Add permission to dataset](/static/assets/on-premise/images/manage-content/manage-data-sets/add-dataset-permission.png)
 
 4. After selecting the access and users or groups, click on the `Add` button.
-![Add button](/static/assets/on-premise/images/manage-content/manage-data-sets/add-access-dataset-permission.png)
-> Only the user who have share permission can share the dataset with other Report Server users.
+    ![Add button](/static/assets/on-premise/images/manage-content/manage-data-sets/add-access-dataset-permission.png)
+    > Only the user who have share permission can share the dataset with other Report Server users.
 
 ### Remove dataset permission
 
@@ -120,7 +121,9 @@ For each change in the dataset including changes in the event, user and date.
     ![Update DataSet](/static/assets/on-premise/images/manage-content/manage-data-sets/update-dataset-option.png)
 
 2. Enter the name and description of the dataset.
+
 3. Click `Browse` and select the `.rsd` file to upload.
+
 4. Select the `DataSource`. In the select data source dialog, you can either select a data source that is already available in the Report Server or create a new data source at that time itself.
     ![Select a data source for the uploaded dataset](/static/assets/on-premise/images/manage-content/manage-data-sets/update-dataset-dialog.png)
 

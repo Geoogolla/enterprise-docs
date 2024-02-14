@@ -27,8 +27,7 @@ When you create a new data, the `NEW DATASOURCE` panel will show up with basic o
 3. Enter a valid CDATA username in the **UserName** text box.
 4. Enter a valid CDATA password in the **Password** text box.
 5. Select a database that you want to query in the listed database associated with the given CDATA server in the database drop-down.
-
-![Web datasource properties](/static/assets/on-premise/images/report-designer/manage-data/cdata-data-source/basic-options.png '#width=360px')
+   ![Web datasource properties](/static/assets/on-premise/images/report-designer/manage-data/cdata-data-source/basic-options.png '#width=360px')
 
 Click on the `Connect` to proceed with query design pane. Now, enter the required query and execute. Its corresponding values will be shown in grid for preview.
 

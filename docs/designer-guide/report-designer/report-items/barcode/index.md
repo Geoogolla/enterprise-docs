@@ -15,11 +15,11 @@ One-Dimensional barcodes represents data in the widths and spacings of printed p
 ### Adding a one dimensional barcode to the report
 
 1. One-dimensional barcode report item is listed in the item panel under the `Barcodes` category.
-![Barcodes listed in item panel](/static/assets/on-premise/images/report-designer/report-items/barcode/barcode-item-in-item-panel.png '#width=245px')
+   ![Barcodes listed in item panel](/static/assets/on-premise/images/report-designer/report-items/barcode/barcode-item-in-item-panel.png '#width=245px')
 2. Drag and drop the 1-D barcode report item into the design area from the item panel.
-![Drag and drop barcode report item into design area](/static/assets/on-premise/images/report-designer/report-items/barcode/drag-and-drop-1D-barcode.png '#width=425px')
+   ![Drag and drop barcode report item into design area](/static/assets/on-premise/images/report-designer/report-items/barcode/drag-and-drop-1D-barcode.png '#width=425px')
 3. Once you drop the barcode item into design area, respective item properties will be listed the properties panel.
-![Barcode item with properties view](/static/assets/on-premise/images/report-designer/report-items/barcode/1D-barcode-properties.png '#width=425px')
+   ![Barcode item with properties view](/static/assets/on-premise/images/report-designer/report-items/barcode/1D-barcode-properties.png '#width=425px')
 
 ### Properties
 
@@ -71,11 +71,11 @@ Two-dimensional (2D) barcodes are used for coding large amounts of information i
 ### Adding a two dimensional barcode to the report
 
 1. Two-dimensional barcode report item is listed in the item panel under the `Barcodes` category.
-![Barcodes listed in item panel](/static/assets/on-premise/images/report-designer/report-items/barcode/2D-barcode-item-in-item-panel.png '#width=245px')
+   ![Barcodes listed in item panel](/static/assets/on-premise/images/report-designer/report-items/barcode/2D-barcode-item-in-item-panel.png '#width=245px')
 2. Drag and drop the 2-D barcode report item into the design area from the item panel.
-![Drag and drop barcode report item into design area](/static/assets/on-premise/images/report-designer/report-items/barcode/drag-and-drop-2D-barcode.png '#width=410px')
+   ![Drag and drop barcode report item into design area](/static/assets/on-premise/images/report-designer/report-items/barcode/drag-and-drop-2D-barcode.png '#width=410px')
 3. Once you drop the barcode item into design area, respective item properties will be listed the properties panel.
-![Barcode item with properties view](/static/assets/on-premise/images/report-designer/report-items/barcode/2D-barcode-properties.png)
+   ![Barcode item with properties view](/static/assets/on-premise/images/report-designer/report-items/barcode/2D-barcode-properties.png)
 
 ### Properties
 

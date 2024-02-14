@@ -11,7 +11,7 @@ Bookmark links allows the users to navigate to different parts of the RDL report
 
 1. Select the text box, image, table, chart, or other report item to which you want to add a bookmark. The respective report item properties will be listed in the `Properties` pane.
 2. Under `Miscellaneous` category, enter a string or expression in `Bookmark` text field. It will act as the label for this bookmark.
-![Configure Bookmark](/static/assets/on-premise/images/report-designer/compose-report/book-mark/configure-bookmark.png '#width=350px')
+    ![Configure Bookmark](/static/assets/on-premise/images/report-designer/compose-report/book-mark/configure-bookmark.png '#width=350px')
 
 Refer [Set Expressions](./../../compose-report/properties-panel/#set-expression) and [Reset Expressions](./../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel.
 
@@ -23,9 +23,9 @@ Refer [Set Expressions](./../../compose-report/properties-panel/#set-expression)
 
 1. Select the text box, image, or chart series to which you want to link a bookmark. The respective item properties will be listed in the `Properties` pane.
 2. Under `Link` category, choose `Bookmark` option. An option to link the bookmark will be enabled.
-![Choose Bookmark](/static/assets/on-premise/images/report-designer/compose-report/book-mark/choose-bookmark-option.png '#width=350px')
+    ![Choose Bookmark](/static/assets/on-premise/images/report-designer/compose-report/book-mark/choose-bookmark-option.png '#width=350px')
 3. In the bookmark dropdown, type or select a bookmark or set an expression that evaluates to a bookmark.
-![Choose value](/static/assets/on-premise/images/report-designer/compose-report/book-mark/choose-value.png '#width=300px')
+    ![Choose value](/static/assets/on-premise/images/report-designer/compose-report/book-mark/choose-value.png '#width=300px')
 
 ## Designing bookmark report
 

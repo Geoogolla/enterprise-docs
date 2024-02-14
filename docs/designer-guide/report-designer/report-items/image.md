@@ -11,13 +11,13 @@ Image reportitem is used to display images in a report and it can be loaded from
 ## Add a image to the report
 
 1. The image reportitem is listed in the item panel under the `Basic Items` category.
-![image listed in itempanel](/static/assets/on-premise/images/report-designer/report-items/image/image-reportitem-itempanel.png '#width=410px')
+    ![image listed in itempanel](/static/assets/on-premise/images/report-designer/report-items/image/image-reportitem-itempanel.png '#width=410px')
 
 2. Drag and drop the image reportitem into the design area from the item panel.
-![Drag and drop image reportitem into design area](/static/assets/on-premise/images/report-designer/report-items/image/image-reportitem-designarea.png '#width=410px')
+    ![Drag and drop image reportitem into design area](/static/assets/on-premise/images/report-designer/report-items/image/image-reportitem-designarea.png '#width=410px')
 
 3. Once you drop the image item into design area, respective item properties will be listed the properties panel.
-![image item with properties view](/static/assets/on-premise/images/report-designer/report-items/image/image-properties.png)
+    ![image item with properties view](/static/assets/on-premise/images/report-designer/report-items/image/image-properties.png)
 
 ## Image properties
 

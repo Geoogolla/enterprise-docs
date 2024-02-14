@@ -50,10 +50,10 @@ Follow steps 1 - 4, to add sort expression.
 ## Reset Expression
 
 1. To reset an expression, click on the square icon and select `Reset`.
-![Select reset expression](/static/assets/on-premise/images/report-designer/compose-report/sort-data/sort-reset.png '#width=350px')
+   ![Select reset expression](/static/assets/on-premise/images/report-designer/compose-report/sort-data/sort-reset.png '#width=350px')
 
 2. The icon will be indicated in `White color`, after reset action.
-![After reset expression](/static/assets/on-premise/images/report-designer/compose-report/sort-data/after-reset-expression.png)
+   ![After reset expression](/static/assets/on-premise/images/report-designer/compose-report/sort-data/after-reset-expression.png)
 
 ## Reordering
 

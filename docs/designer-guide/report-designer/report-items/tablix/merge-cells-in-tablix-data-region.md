@@ -30,7 +30,7 @@ In the following sections, merge action for each area of tablix data region is d
 
    ![Merge corner cells](/static/assets/on-premise/images/report-designer/report-items/tablix/merge-corner-cells.png '#width=410px')
 3. Now, the selected cell in the corner area will be merged like below.
-![Merge corner cells](/static/assets/on-premise/images/report-designer/report-items/tablix/corner-cell-merge-output.png '#width=385px')
+   ![Merge corner cells](/static/assets/on-premise/images/report-designer/report-items/tablix/corner-cell-merge-output.png '#width=385px')
 
 > If the cell has any content, the content of the top-left cell will be displayed in the newly merged cell. The content of the rest of the cells in the merged region will be cleared.
 
@@ -42,7 +42,7 @@ In the following sections, merge action for each area of tablix data region is d
 
    ![Merge corner cells](/static/assets/on-premise/images/report-designer/report-items/tablix/select-cell-in-body-area-for-merge-action.png '#width=410px')
 3. Now, the selected cell in the body area will be merged like below.
-![Merge corner cells](/static/assets/on-premise/images/report-designer/report-items/tablix/body-cells-merge-output.png '#width=385px')
+   ![Merge corner cells](/static/assets/on-premise/images/report-designer/report-items/tablix/body-cells-merge-output.png '#width=385px')
 
 > If the cell has any content, the content of the top-left cell will be displayed in the newly merged cell. The content of the rest of the cells in the merged region will be cleared.
 
@@ -54,7 +54,7 @@ In the following sections, merge action for each area of tablix data region is d
 
     ![Merge corner cells](/static/assets/on-premise/images/report-designer/report-items/tablix/select-cell-in-row-group-area-for-merge-action.png '#width=410px')
 3. Now, the selected cell in the row group area will be merged like below.
-![Merge corner cells](/static/assets/on-premise/images/report-designer/report-items/tablix/merge-row-group-cells-output.png '#width=385px')
+   ![Merge corner cells](/static/assets/on-premise/images/report-designer/report-items/tablix/merge-row-group-cells-output.png '#width=385px')
 
 > If the cell has any content, the content of the top-left cell will be displayed in the newly merged cell. The content of the rest of the cells in the merged region will be cleared.
 
@@ -66,7 +66,7 @@ In the following sections, merge action for each area of tablix data region is d
 
    ![Merge corner cells](/static/assets/on-premise/images/report-designer/report-items/tablix/select-cell-in-column-group-area-for-merge-action.png '#width=410px')
 3. Now, the selected cell in the column group area will be merged like below.
-![Merge corner cells](/static/assets/on-premise/images/report-designer/report-items/tablix/merge-row-group-cells-output.png '#width=385px')
+   ![Merge corner cells](/static/assets/on-premise/images/report-designer/report-items/tablix/merge-row-group-cells-output.png '#width=385px')
 
 > If the cell has any content, the content of the top-left cell will be displayed in the newly merged cell. The content of the rest of the cells in the merged region will be cleared.
 
@@ -80,6 +80,6 @@ Once a cell is merged, you can split using the `Split Cells` option in the menu 
 
    ![Split corner cells](/static/assets/on-premise/images/report-designer/report-items/tablix/select-cell-in-column-group-area-for-split-action.png '#width=410px')
 3. Now, the selected cell in the column group area will split like below.
-![Split corner cells](/static/assets/on-premise/images/report-designer/report-items/tablix/split-row-group-cells-output.png '#width=385px')
+   ![Split corner cells](/static/assets/on-premise/images/report-designer/report-items/tablix/split-row-group-cells-output.png '#width=385px')
 
 > If the cell has any content, the content of the top-left cell will be displayed in the newly merged cell. The content of the rest of the cells in the merged region will be cleared.

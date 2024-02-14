@@ -119,35 +119,35 @@ Now, the group menu will open in the respective group like below,
 ### Add parent group
 
 1. To add a parent group, click on the `Parent Group...` option under `Add Group` category.
-![Open group member properties](/static/assets/on-premise/images/report-designer/report-items/tablix/parent-group-menu.png '#width=385px')
+   ![Open group member properties](/static/assets/on-premise/images/report-designer/report-items/tablix/parent-group-menu.png '#width=385px')
 2. Now, `Tablix Group` dialog will open like below.
-![Open group member properties](/static/assets/on-premise/images/report-designer/report-items/tablix/tablix-group-dialog.png '#width=5385px')
+   ![Open group member properties](/static/assets/on-premise/images/report-designer/report-items/tablix/tablix-group-dialog.png '#width=5385px')
 3. Choose field in the group dialog and click `OK` button.
-![Open group member properties](/static/assets/on-premise/images/report-designer/report-items/tablix/choose-field-in-group-dialog.png '#width=385px')
+   ![Open group member properties](/static/assets/on-premise/images/report-designer/report-items/tablix/choose-field-in-group-dialog.png '#width=385px')
 4. Now, a new parent group will be added above a group in the grouping panel.
-![Open group member properties](/static/assets/on-premise/images/report-designer/report-items/tablix/new-parent-group.png '#width=385px')
+   ![Open group member properties](/static/assets/on-premise/images/report-designer/report-items/tablix/new-parent-group.png '#width=385px')
 
 ### Add child group
 
 1. To add a child group, click on the `Child Group...` option under `Add Group` category.
-![Open group member properties](/static/assets/on-premise/images/report-designer/report-items/tablix/child-group-menu.png '#width=385px')
+   ![Open group member properties](/static/assets/on-premise/images/report-designer/report-items/tablix/child-group-menu.png '#width=385px')
 2. Now, `Tablix Group` dialog will open like below.
-![Open group member properties](/static/assets/on-premise/images/report-designer/report-items/tablix/tablix-group-dialog.png '#width=385px')
+   ![Open group member properties](/static/assets/on-premise/images/report-designer/report-items/tablix/tablix-group-dialog.png '#width=385px')
 3. Choose field in the group dialog and click `OK` button.
-![Open group member properties](/static/assets/on-premise/images/report-designer/report-items/tablix/choose-field-in-group-dialog.png '#width=385px')
+   ![Open group member properties](/static/assets/on-premise/images/report-designer/report-items/tablix/choose-field-in-group-dialog.png '#width=385px')
 4. Now, a new child group will be added under a group in the grouping panel.
-![Open group member properties](/static/assets/on-premise/images/report-designer/report-items/tablix/child-group-output.png '#width=355px')
+   ![Open group member properties](/static/assets/on-premise/images/report-designer/report-items/tablix/child-group-output.png '#width=355px')
 
 > You cannot add child group for `Details` group.
 
 ### Add adjacent group
 
 1. To add a adjacent group, click on the `Adjacent Before` or `Adjacent After` option under `Add Group` category.
-![Open group member properties](/static/assets/on-premise/images/report-designer/report-items/tablix/adjacent-group-menu.png '#width=385px')
+   ![Open group member properties](/static/assets/on-premise/images/report-designer/report-items/tablix/adjacent-group-menu.png '#width=385px')
 2. Now, `Tablix Group` dialog will open like below.
-![Open group member properties](/static/assets/on-premise/images/report-designer/report-items/tablix/tablix-group-dialog.png '#width=385px')
+   ![Open group member properties](/static/assets/on-premise/images/report-designer/report-items/tablix/tablix-group-dialog.png '#width=385px')
 3. Choose field in the group dialog and click `OK` button.
-![Open group member properties](/static/assets/on-premise/images/report-designer/report-items/tablix/choose-field-in-group-dialog.png '#width=385px')
+   ![Open group member properties](/static/assets/on-premise/images/report-designer/report-items/tablix/choose-field-in-group-dialog.png '#width=385px')
 4. Now, a new adjacent group will be added above or below a group in the grouping panel.
     **Adjacent Before**
     ![Open group member properties](/static/assets/on-premise/images/report-designer/report-items/tablix/adjacent-above.png '#width=385px')

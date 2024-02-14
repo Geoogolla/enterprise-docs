@@ -13,9 +13,11 @@ This section explains the custom schedule report settings to customize the `Sche
 ## Mail template customization
 
 * The mail template defines the text that is sent via email to the Report Server user.
+
 * Initially, the default template will be displayed in the mail template. If the custom password is enabled, the user can add a password hint to the mail template if necessary.
+
 * And you can also customize the email template to your preference.
-![Customize Email Template](/static/assets/on-premise/images/manage-schedule/manage-report-schedules/customize-email-template.png)
+    ![Customize Email Template](/static/assets/on-premise/images/manage-schedule/manage-report-schedules/customize-email-template.png)
 
 ## Mail template predefined variables
 

@@ -73,15 +73,15 @@ Click `Finish` to save the data source with a relevant name to proceed with desi
 You can pass dynamic values for URL, Follow the below steps to set expression for URL field.
 
 1. Click on the square icon in right corner of URL field to open expression menu,
-![Expression option](/static/assets/on-premise/images/report-designer/manage-data/web-data-source/url-exp-option.png '#width=385px')
+   ![Expression option](/static/assets/on-premise/images/report-designer/manage-data/web-data-source/url-exp-option.png '#width=385px')
 2. Choose `Expression` option from the menu,
-![Choose expression option](/static/assets/on-premise/images/report-designer/manage-data/web-data-source/expression-menu.png '#width=385px')
+   ![Choose expression option](/static/assets/on-premise/images/report-designer/manage-data/web-data-source/expression-menu.png '#width=385px')
 3. Now, this will launch the expression dialog,
-![Open expression dialog](/static/assets/on-premise/images/report-designer/manage-data/web-data-source/expression-dialog.png '#width=415px')
+   ![Open expression dialog](/static/assets/on-premise/images/report-designer/manage-data/web-data-source/expression-dialog.png '#width=415px')
 4. Enter the required expression and click OK.
-![Enter expression](/static/assets/on-premise/images/report-designer/manage-data/web-data-source/enter-expression.png '#width=415px')
+   ![Enter expression](/static/assets/on-premise/images/report-designer/manage-data/web-data-source/enter-expression.png '#width=415px')
 5. Now, the square icon will be indicated with black color and URL field denoted with `<<Exp>>`,
-![Enter expression](/static/assets/on-premise/images/report-designer/manage-data/web-data-source/url-set-exp-output.png '#width=355px')
+   ![Enter expression](/static/assets/on-premise/images/report-designer/manage-data/web-data-source/url-set-exp-output.png '#width=355px')
 
 To reset the expression, choose `Reset` option from the menu. Specify other required connection settings and click `Connect`. Once you click on connect for the first time, it will prompt for a actual URL to load data in query design.
 
@@ -112,15 +112,15 @@ Similarly, you can add multiple headers and pass value for it.
 During report processing, you can pass dynamic values for each key in headers using expressions. To set expression for headers, follow these steps:
 
 1. Click on the square icon in right corner of *Value* field to open expression menu,
-![Expression for headers](/static/assets/on-premise/images/report-designer/manage-data/web-data-source/expression-for-headers.png '#width=385px')
+   ![Expression for headers](/static/assets/on-premise/images/report-designer/manage-data/web-data-source/expression-for-headers.png '#width=385px')
 2. Choose `Expression` option from the menu,
-![Choose expression option](/static/assets/on-premise/images/report-designer/manage-data/web-data-source/exp-menu-headers.png '#width=385px')
+   ![Choose expression option](/static/assets/on-premise/images/report-designer/manage-data/web-data-source/exp-menu-headers.png '#width=385px')
 3. Now, this will launch the expression dialog,
-![Open expression dialog](/static/assets/on-premise/images/report-designer/manage-data/web-data-source/exp-dialog-value.png '#width=410px')
+   ![Open expression dialog](/static/assets/on-premise/images/report-designer/manage-data/web-data-source/exp-dialog-value.png '#width=410px')
 4. Enter the required expression and click OK.
-![Enter expression](/static/assets/on-premise/images/report-designer/manage-data/web-data-source/enter-exp-header-val.png '#width=410px')
+   ![Enter expression](/static/assets/on-premise/images/report-designer/manage-data/web-data-source/enter-exp-header-val.png '#width=410px')
 5. Now, the square icon will be indicated with black color and value field denoted with `<<Exp>>`,
-![Enter expression](/static/assets/on-premise/images/report-designer/manage-data/web-data-source/exp-output-header.png '#width=385px')
+   ![Enter expression](/static/assets/on-premise/images/report-designer/manage-data/web-data-source/exp-output-header.png '#width=385px')
 
 To reset the expression, choose `Reset` option from the menu. Specify other required connection settings and click `Connect`. Once you click on connect for the first time, it will prompt for a valid header values to load data in query design.
 
@@ -149,15 +149,15 @@ Enter the property name and its value to post the data.
 During report processing, you can pass dynamic values for each parameter using expressions. To set expression for parameter value, follow these steps:
 
 1. Click on the square icon in right corner of *Value* field to open expression menu,
-![Expression for parameters](/static/assets/on-premise/images/report-designer/manage-data/web-data-source/expression-for-parameters.png '#width=385px')
+   ![Expression for parameters](/static/assets/on-premise/images/report-designer/manage-data/web-data-source/expression-for-parameters.png '#width=385px')
 2. Choose `Expression` option from the menu,
-![Choose expression option](/static/assets/on-premise/images/report-designer/manage-data/web-data-source/exp-menu-param.png '#width=385px')
+   ![Choose expression option](/static/assets/on-premise/images/report-designer/manage-data/web-data-source/exp-menu-param.png '#width=385px')
 3. Now, this will launch the expression dialog,
-![Open expression dialog](/static/assets/on-premise/images/report-designer/manage-data/web-data-source/exp-dialog-param.png '#width=415px')
+   ![Open expression dialog](/static/assets/on-premise/images/report-designer/manage-data/web-data-source/exp-dialog-param.png '#width=415px')
 4. Enter the required expression and click OK.
-![Enter expression](/static/assets/on-premise/images/report-designer/manage-data/web-data-source/enter-exp-param.png '#width=415px')
+   ![Enter expression](/static/assets/on-premise/images/report-designer/manage-data/web-data-source/enter-exp-param.png '#width=415px')
 5. Now, the square icon will be indicated with black color and value field denoted with `<<Exp>>`,
-![Enter expression](/static/assets/on-premise/images/report-designer/manage-data/web-data-source/exp-output-param.png '#width=355px')
+   ![Enter expression](/static/assets/on-premise/images/report-designer/manage-data/web-data-source/exp-output-param.png '#width=355px')
 
 To reset the expression, choose `Reset` option from the menu. Specify other required connection settings and click `Connect`. Once you click on connect for the first time, it will prompt for a direct values to load data in query design.
 
@@ -175,7 +175,7 @@ The above action will post information into specified REST API URL and take you 
 
 To specify raw value, follow these steps:
 
-Choose *POST* method and switch the `Raw` radio button. Now, a text area with an option to set expression will start displaying.
+Choose **POST** method and switch the `Raw` radio button. Now, a text area with an option to set expression will start displaying.
 
 ![Pass parameters for post action](/static/assets/on-premise/images/report-designer/manage-data/web-data-source/enable-raw-option.png '#width=355px')
 
@@ -197,13 +197,13 @@ Enter the direct value in the text area, for example
 During report processing, you can directly pass raw data using expressions. To set expression for raw value, follow these steps:
 
 1. Click on the square icon in right corner of *Raw* field to open expression menu,
-![Expression for parameters](/static/assets/on-premise/images/report-designer/manage-data/web-data-source/exp-menu-raw.png '#width=355px')
+   ![Expression for parameters](/static/assets/on-premise/images/report-designer/manage-data/web-data-source/exp-menu-raw.png '#width=355px')
 2. Choose `Expression` option from the menu. Now, this will launch the expression dialog,
-![Open expression dialog](/static/assets/on-premise/images/report-designer/manage-data/web-data-source/exp-dialog-raw.png '#width=410px')
+   ![Open expression dialog](/static/assets/on-premise/images/report-designer/manage-data/web-data-source/exp-dialog-raw.png '#width=410px')
 3. Enter the required expression and click OK.
-![Enter expression](/static/assets/on-premise/images/report-designer/manage-data/web-data-source/exp-value-raw.png '#width=410px')
+   ![Enter expression](/static/assets/on-premise/images/report-designer/manage-data/web-data-source/exp-value-raw.png '#width=410px')
 4. Now, the square icon will be indicated with black color and value field denoted with `<<Exp>>`,
-![Enter expression](/static/assets/on-premise/images/report-designer/manage-data/web-data-source/exp-output-raw.png '#width=385px')
+   ![Enter expression](/static/assets/on-premise/images/report-designer/manage-data/web-data-source/exp-output-raw.png '#width=385px')
 
 To reset the expression, choose `Reset` option from the menu. Specify other required connection settings and click `Connect`. Once you click on connect for the first time, it will prompt for a raw data to load data in query design.
 
@@ -219,8 +219,7 @@ The above action will post the information into specified REST API URL and take 
 
 ### Syntax to pass expression in raw data
 
-**Syntax 1** :
-   When passing data as JSON object, it should be enclosed with in double quotes, the key/value strings should be enclosed within single quotes. Otherwise it can follow any syntax which supports the Client-Server transaction.
+**Syntax 1**: When passing data as JSON object, it should be enclosed with in double quotes, the key/value strings should be enclosed within single quotes. Otherwise it can follow any syntax which supports the Client-Server transaction.
 
    ```json
    = "{'ItemType':'Dataset','ReportReferences':['3fe0ea1c-b6a1-4b20-95dd-158edd24ae4b']}"
@@ -228,7 +227,7 @@ The above action will post the information into specified REST API URL and take 
 
    ![Enter expression](/static/assets/on-premise/images/report-designer/manage-data/web-data-source/raw-syntax-1.png '#width=355px')
 
-**Syntax 2** :  To use the Parameters, Data fields, or Variables along with Json object, follow the below syntax.
+**Syntax 2**: To use the Parameters, Data fields, or Variables along with Json object, follow the below syntax.
 
    ```json
    ="{'ItemType':'Dataset','ReportReferences':['" & Parameters!ReportParameter1.Value & "']}"
@@ -295,12 +294,12 @@ Once you select the CSV format, the `Separator` options will show as below. You 
 
 You can set authentication type, either as **None** or **Basic HTTP Authentication**.
 
-Use *None* type in following cases,
+Use **None** type in following cases,
 
 1. If your data source supports authentication directly through REST API URL, choose **None** under **Authentication Type**.
 2. If your data source supports API Key/API Token authentication, pass these values under **Header(s)** by clicking **+Add**. Choose **None** under **Authentication Type**.
 
-Use *Basic Http authentication*, if your data source requires username and password to authenticate. Choose **Basic HTTP Authentication** under **Authentication Type** and input the username and password.
+Use **Basic Http authentication**, if your data source requires username and password to authenticate. Choose **Basic HTTP Authentication** under **Authentication Type** and input the username and password.
 
 ## See also
 

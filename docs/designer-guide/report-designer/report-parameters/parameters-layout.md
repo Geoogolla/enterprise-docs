@@ -11,11 +11,11 @@ Parameters order is important when designing a reports with cascading parameters
 You can access the parameters layout by using the `Edit Layout` option in `Parameters Pane`.
 
 1. Open the parameters pane in the navigation panel.
-![Open parameters pane](/static/assets/on-premise/images/report-designer/report-parameters/parameters-layout/open-parameters-pane.png '#width=350px')
+   ![Open parameters pane](/static/assets/on-premise/images/report-designer/report-parameters/parameters-layout/open-parameters-pane.png '#width=350px')
 2. Click on `Edit Layout >` option in the parameters pane.
-![Edit layout option to open layout](/static/assets/on-premise/images/report-designer/report-parameters/parameters-layout/edit-layout.png '#width=350px')
+   ![Edit layout option to open layout](/static/assets/on-premise/images/report-designer/report-parameters/parameters-layout/edit-layout.png '#width=350px')
 3. Now, the parameters layout dialog will open.
-![Parameters layout dialog](/static/assets/on-premise/images/report-designer/report-parameters/parameters-layout/parameters-layout-dialog.png '#width=400px')
+   ![Parameters layout dialog](/static/assets/on-premise/images/report-designer/report-parameters/parameters-layout/parameters-layout-dialog.png '#width=400px')
 
 By default, the layout opens with four columns and two rows. You can manually reorder parameters, insert or delete rows and columns in the parameters layout dialog.
 

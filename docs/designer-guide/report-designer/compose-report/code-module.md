@@ -38,9 +38,9 @@ The Code Module is used to add custom code or custom assemblies to a report. The
 5. Click **OK**.
 6. Use the following expression to call the custom code function in the report.
     ![Call custom code function](/static/assets/on-premise/images/report-designer/compose-report/code-module/custom-code-expression.png '#width=400px')
-Refer [Expression](./../../compose-report/expressions/) section to learn more about handling expressions.
+    Refer [Expression](./../../compose-report/expressions/) section to learn more about handling expressions.
 7. To view the color changes based on the price range in a report, click `Preview`.
-![Preview custom code](/static/assets/on-premise/images/report-designer/compose-report/code-module/custom-code-preview.png '#width=450px')
+   ![Preview custom code](/static/assets/on-premise/images/report-designer/compose-report/code-module/custom-code-preview.png '#width=450px')
 
 ## Add Assembly References
 
@@ -49,10 +49,10 @@ To embed custom assemblies in a report, create a simple Visual Studio class libr
 ### Create a custom assembly
 
 1. Create a Visual Studio class library. Go to **Installed > Visual C#**, and then select **Class Library (.Net Framework)** from the listed templates. Change the application name, and then click **OK**.
-![To create c sharp class library](/static/assets/on-premise/images/report-designer/compose-report/code-module/assembly-references.png '#width=450px')
+   ![To create c sharp class library](/static/assets/on-premise/images/report-designer/compose-report/code-module/assembly-references.png '#width=450px')
 
 2. Open the class file and create a simple function as shown below.
-![To create a simple function](/static/assets/on-premise/images/report-designer/compose-report/code-module/add-references.png)
+   ![To create a simple function](/static/assets/on-premise/images/report-designer/compose-report/code-module/add-references.png)
 
 3. After defining the required functions, build the project. Now, the assembly `(.dll)` will be generated in the bin folder of the respective application.
 
@@ -61,13 +61,13 @@ To embed custom assemblies in a report, create a simple Visual Studio class libr
 ### Adding References to Custom Assembly
 
 1. Switch to the **References** tab.
-![Code module assembly references](/static/assets/on-premise/images/report-designer/compose-report/code-module/references-tab.png '#width=350px')
+   ![Code module assembly references](/static/assets/on-premise/images/report-designer/compose-report/code-module/references-tab.png '#width=350px')
 
 2. To add an **Assembly** reference, Click on the **Add** icon.
-![Add assemby references](/static/assets/on-premise/images/report-designer/compose-report/code-module/reference-add-icon.png '#width=350px')
+   ![Add assemby references](/static/assets/on-premise/images/report-designer/compose-report/code-module/reference-add-icon.png '#width=350px')
 
 3. Specify the assembly name and click **OK**.
-![Given assemby references name](/static/assets/on-premise/images/report-designer/compose-report/code-module/assembly-reference-name.png '#width=350px')
+   ![Given assemby references name](/static/assets/on-premise/images/report-designer/compose-report/code-module/assembly-reference-name.png '#width=350px')
 
 ## Add Class Instances
 
@@ -83,7 +83,7 @@ To embed custom assemblies in a report, create a simple Visual Studio class libr
 4. Use the following expression to call the embedded custom code function in the report.
 
     ![Call the method using expression](/static/assets/on-premise/images/report-designer/compose-report/code-module/custom-assembly-expression.png '#width=350px')
-Refer [Expression](./../../compose-report/expressions/) section to learn more about handling expressions.
+    Refer [Expression](./../../compose-report/expressions/) section to learn more about handling expressions.
 
 5. To view the color changes based on the price range in a report, click `Preview`.
     ![Preview the record](/static/assets/on-premise/images/report-designer/compose-report/code-module/custom-code-preview.png '#width=400px')

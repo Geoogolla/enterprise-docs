@@ -8,15 +8,15 @@ description: This section describes the steps involved in defining a custom colo
 This option can be used to define any number of colors sets based on your desired output. To define custom colors, follow these steps:
 
 1. In the properties panel, under the **Shape Color Rule** or **Marker Color Rule**category, choose **Custom** in **Type** property. Now, the **Custom Colors** field will start displaying under the type drop-down.
-![Map custom color field](/static/assets/on-premise/images/report-designer/report-items/map/custom-colors/custom-colors-field.png '#width=355px')
+   ![Map custom color field](/static/assets/on-premise/images/report-designer/report-items/map/custom-colors/custom-colors-field.png '#width=355px')
 2. Then click on the edit icon for the `Custom Colors` property.
-![Edit analytical and spatial link](/static/assets/on-premise/images/report-designer/report-items/map/custom-colors/edit-icon.png '#width=355px')
+   ![Edit analytical and spatial link](/static/assets/on-premise/images/report-designer/report-items/map/custom-colors/edit-icon.png '#width=355px')
 3. Now, you will be taken to the **Map Custom Colors** panel.
-![Edit analytical and spatial link](/static/assets/on-premise/images/report-designer/report-items/map/custom-colors/panel.png '#width=355px')
+   ![Edit analytical and spatial link](/static/assets/on-premise/images/report-designer/report-items/map/custom-colors/panel.png '#width=355px')
 4. Click on the **ADD** icon in the top-right corner. A new field with option to set color will be added in the panel.
-![Add new binding expression](/static/assets/on-premise/images/report-designer/report-items/map/custom-colors/add-field.png '#width=355px')
+   ![Add new binding expression](/static/assets/on-premise/images/report-designer/report-items/map/custom-colors/add-field.png '#width=355px')
 5. Set the desired color in the color field.
-![Set color](/static/assets/on-premise/images/report-designer/report-items/map/custom-colors/set-color.png '#width=355px')
+   ![Set color](/static/assets/on-premise/images/report-designer/report-items/map/custom-colors/set-color.png '#width=355px')
 6. Click on the **Update**.
 
 You can also set color based on dynamic values, by using the `Expressions`. Refer [Set Expressions](./../../../compose-report/properties-panel/#set-expression) and [Reset Expressions](./../../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel. Click on the square icon in the right side of the each field to open expression menu,

@@ -53,9 +53,9 @@ Design a simple table that contains following data from the fields in the datase
 To improve the tablix design apply background color, font style to the table header by following the below steps:
 
 1. Select the first row of table and click on the `Properties` icon in the configuration panel.
-![Open group menu](/static/assets/on-premise/images/report-designer/report-items/tablix-conditional-formatting/set-cell-properties.png '#width=410px')
+   ![Open group menu](/static/assets/on-premise/images/report-designer/report-items/tablix-conditional-formatting/set-cell-properties.png '#width=410px')
 2. Set font color, font style and background properties for header row as shown below.
-![Open group menu](/static/assets/on-premise/images/report-designer/report-items/tablix-conditional-formatting/set-cell-properties-output.png '#width=410px')
+   ![Open group menu](/static/assets/on-premise/images/report-designer/report-items/tablix-conditional-formatting/set-cell-properties-output.png '#width=410px')
 
 > Refer [Properties Panel](./../../../compose-report/properties-panel/) section to set or edit values in properties panel.
 
@@ -64,11 +64,11 @@ To improve the tablix design apply background color, font style to the table hea
 To highlight the table rows which has the `Country` value selected in parameter drop-down at runtime, follow the below steps:
 
 1. Select the `Details` Row group in the tablix. Now, the common properties for selected cells will be listed in the properties panel.
-![Open group menu](/static/assets/on-premise/images/report-designer/report-items/tablix-conditional-formatting/select-details-group.png '#width=410px')
+   ![Open group menu](/static/assets/on-premise/images/report-designer/report-items/tablix-conditional-formatting/select-details-group.png '#width=410px')
 2. In the properties panel select `BackgroundColor` property and then click on the square icon in the right corner of the respective property.
-![Open group menu](/static/assets/on-premise/images/report-designer/report-items/tablix-conditional-formatting/open-expression-menu-in-background-color-property.png '#width=385px')
+   ![Open group menu](/static/assets/on-premise/images/report-designer/report-items/tablix-conditional-formatting/open-expression-menu-in-background-color-property.png '#width=385px')
 3. Click on `Expression` menu to open the expression builder. Set the following conditional expression in the text area, `=IIf(Fields!Country.Value=Parameters!FormattingRow.Value,"#e2f2bf","Transparent")` and click on the `OK` button.
-![Open group menu](/static/assets/on-premise/images/report-designer/report-items/tablix-conditional-formatting/set-condition-for-background-property.png '#width=385px')
+   ![Open group menu](/static/assets/on-premise/images/report-designer/report-items/tablix-conditional-formatting/set-condition-for-background-property.png '#width=385px')
 
 ## Preview report
 

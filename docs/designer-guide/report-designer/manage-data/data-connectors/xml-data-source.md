@@ -53,38 +53,38 @@ You can connect XML data using the following three options,
    ```
 
 3. Click on the `Connect` to proceed with query design pane. The query design pane will show the specified XML data's structure in left pane.
-![Left schema](/static/assets/on-premise/images/report-designer/manage-data/xml-data-source/left-schema.png '#width=385px')
+   ![Left schema](/static/assets/on-premise/images/report-designer/manage-data/xml-data-source/left-schema.png '#width=385px')
 4. Drag and drop the table from the left pane in the query design view page and execute.
-![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/xml-data-source/execute-schema.png '#width=400px')
+   ![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/xml-data-source/execute-schema.png '#width=400px')
 5. Click `Finish` to save the data source with a relevant name to proceed with designing report.
-![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/xml-data-source/data-list.png '#width=385px')
+   ![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/xml-data-source/data-list.png '#width=385px')
 
 ### Load from disk
 
 1. Choose `File` option in `Type` field. Now, the upload option will start displaying like below.
-![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/xml-data-source/file-upload-option.png '#width=385px')
+   ![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/xml-data-source/file-upload-option.png '#width=385px')
 2. Click on the three-dotted button to open upload box. Browse the XML file and click open,
-![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/xml-data-source/browse-file.png '#width=385px')
+   ![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/xml-data-source/browse-file.png '#width=385px')
 3. Click on the `Connect` to proceed with query design pane.
-![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/xml-data-source/connect-data.png '#width=385px')
+   ![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/xml-data-source/connect-data.png '#width=385px')
 4. The query design pane will show the specified XML data's structure in left pane.
-![Left schema](/static/assets/on-premise/images/report-designer/manage-data/xml-data-source/json-file-left-schema.png '#width=250px')
+   ![Left schema](/static/assets/on-premise/images/report-designer/manage-data/xml-data-source/json-file-left-schema.png '#width=250px')
 5. Drag and drop the table from the left pane in the query design view page and execute.
-![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/xml-data-source/execute-schema-file.png)
+   ![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/xml-data-source/execute-schema-file.png)
 6. Click `Finish` to save the data source with a relevant name to proceed with designing report.
-![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/xml-data-source/file-data-list.png '#width=355px')
+   ![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/xml-data-source/file-data-list.png '#width=355px')
 
 ### Load from external URL
 
 1. Choose `External` option in `Type` field.
-![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/xml-data-source/external-type.png '#width=355px')
+   ![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/xml-data-source/external-type.png '#width=355px')
 2. Specify a external URL in the `External` text area.
-![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/xml-data-source/specify-web-service.png '#width=385px')
+   ![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/xml-data-source/specify-web-service.png '#width=385px')
 3. Click on the `Connect` to proceed with query design pane. The query design pane will show the specified XML data's structure in left pane.
 4. Drag and drop the table from the left pane in the query design view page and execute.
-![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/xml-data-source/execute-schema-external.png)
+   ![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/xml-data-source/execute-schema-external.png)
 5. Click `Finish` to save the data source with a relevant name to proceed with designing report.
-![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/xml-data-source/external-data-list.png '#width=350px')
+   ![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/xml-data-source/external-data-list.png '#width=350px')
 
 > Note: In schema tree, the nested fields in the XML data will be shown as flat structure.
 
