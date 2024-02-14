@@ -6,14 +6,14 @@ platform: bold-reports
 documentation: ug
 ---
 
-# Prerequisites to use Bold Reports on Microsoft Azure App service
+# Prerequisites to use Bold Reports on the Microsoft Azure App service
 
-This section explains the requirement to use the Bold Reports on Microsoft Azure App service.
-1. Need the Microsoft Azure subscription. If you do not have already, you can use the free trial on this [website](https://azure.microsoft.com/en-us/free/).
+This section explains the requirement to use Bold Reports on the Microsoft Azure App service.
+1. You need a Microsoft Azure subscription. If you don't already have one, you can sign up for a free trial on this [website](https://azure.microsoft.com/en-us/free/).
 
 2. Bold Reports Enterprise Edition license.
 
-3. Supported databases to configure Bold Reports application.
+3. You need to have one of the following supported databases configured for the Bold Reports application:
 
     * Microsoft SQL Server 2012+
     * PostgreSQL
