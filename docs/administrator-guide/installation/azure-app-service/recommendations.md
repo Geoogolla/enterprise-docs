@@ -6,15 +6,15 @@ platform: bold-reports
 documentation: ug
 ---
 
-# Recommended Azure App service configuration to use Bold Reports on Microsoft Azure App service
+# Recommended Azure App service configuration to use Bold Reports on the Microsoft Azure App service
 
-This section will explain the recommended Azure App service configuration to install the Bold Reports application. For a complete list of Azure App service plans, refer to this [Windows Azure App service plans](https://azure.microsoft.com/en-in/pricing/details/app-service/windows).
+This section will explain the recommended Azure App service configuration to install the Bold Reports application. For a complete list of Azure App service plans, refer to this [Windows Azure App service plan](https://azure.microsoft.com/en-in/pricing/details/app-service/windows).
 
-You have to choose the correct Azure App service configuration to better experience with Bold Reports.
+You have to choose the correct Azure App service configuration to have a better experience with Bold Reports.
 
-## Azure App service plans for test, development and production environments
+## Azure App service plans for test, development, and production environments
 
- The Basic service plan can be used for the test or development environment. Also, you can use the same basic service plan for production environment, if your app receive only low or medium level traffic.
+The basic service plan can be used in a test or development environment. Also, you can use the same basic service plan for the production environment if your app receives only low or medium-level traffic.
 
 ## Recommended specifications for test and development environments
 
@@ -44,11 +44,11 @@ You have to choose the correct Azure App service configuration to better experie
  </tr>
  </table>
 
- > **NOTE:**  Also, you can use the above-recommended configuration Azure App service plan for the low traffic production servers.
+ > **NOTE:**  Also, you can use the above-recommended configuration of the Azure App service plan for the low-traffic production servers.
 
-The Premium service plan can be used in the high traffic and large data processing production environment. For more information about the Premium service plan, refer to this [App service plans](https://azure.microsoft.com/en-in/pricing/details/app-service/windows/).
+The Premium service plan can be used in a high-traffic and large-data processing production environment. For more information about the Premium service plan, refer to this [App service plans](https://azure.microsoft.com/en-in/pricing/details/app-service/windows/).
 
-## Recommended specifications for production environment
+## Recommended specifications for the production environment
 
 <table>
  <tr>
