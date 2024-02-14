@@ -12,7 +12,8 @@
         },
         "url": {
             "freeTrial": "https://www.boldreports.com/pricing",
-            "scheduleFreeDemo": "https://www.boldreports.com/schedule-free-demo"
+            "scheduleFreeDemo": "https://www.boldreports.com/schedule-free-demo",
+            "suggestAFeature": "https://www.boldreports.com/feedback"
         },
         "pdf": {
             "tocLevel": 1,
