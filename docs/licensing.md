@@ -20,7 +20,7 @@ An enterprise license, including those for Bold Reports, is a type of software l
 
 4. Compared to purchasing individual licenses for each user or device, enterprise licensing offers cost efficiency. This could involve a flat fee, a pricing structure based on the organization's size, or a usage-based model.
 
-## Types of License validation in Bold Reports:
+## Types of License validation in Bold Reports
 
 1. [Online License Validation](#online-license-validation)
 

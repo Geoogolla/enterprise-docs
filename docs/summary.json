@@ -3,8 +3,22 @@
     "Getting Started": "getting-started.md",
     "Installation": {
         "Windows Installer":{
+            "Prerequisites":"prerequisites.md",
+            "Installation and Deployment":"installation-and-deployment.md",
             "Install Bold Reports over Bold BI":"install-bold-reports-over-bold-bi.md",
             "Silent Installation":"silent-installation.md"
+        },
+        "Deploying in Azure": {
+            "Prerequisites":"prerequisites.md",
+            "Recommended Azure VM configuration":"vm-configuration.md",
+            "Self-deploy a Bold Reports Server on Microsoft Azure":"self-deploy-bold-reports-on-azure-vm.md",
+            "Bold Reports in Microsoft Azure Marketplace":"bold-reports-in-azure-marketplace.md",
+            "Upgrade to the latest version of Bold Reports Enterprise Edition":"upgrade-vm-to-latest-version.md"
+        },
+        "Deploying in AWS": {
+            "Prerequisites":"prerequisites.md",
+            "Self-deploy a Bold Reports Server on Amazon Web Service":"self-deploy-bold-reports-server-on-amazon-web-service.md",
+            "Upgrade VM to the latest version":"upgrade-vm-latest-version.md"
         },
         "Azure App Service":{
 	    "Prerequisites":"prerequisites.md",
@@ -134,7 +148,7 @@
             "Upgrade v1.x to latest": "upgrade-bold-reports-from-v1.x-to-latest.md",
             "Migrate Data to Bold Reports Multi-Tenant": "data-migration.md"
            },
-           "Upgrade v2.x to latest": "upgrade-bold-reports-from-v2.x-to-latest.md"
+           "Version Upgrade": "upgrade-bold-reports-to-latest-version.md"
         },
         "Azure": {
             "Upgrade v2.4.19 to latest":"upgrade-v2.x-to-latest.md",
