@@ -46,7 +46,7 @@ To configure data into column chart follow the steps:
 2. Click `Properties` icon in the configuration panel, the property pane opens. Now, switch to `DATA` tab.
    ![Chart properties pane](/static/assets/on-premise/images/report-designer/report-items/chart/column-chart/chart-properties-pane.png '#width=425px')
 3. The available data in the report will be listed in the drop-down, choose a data in the drop-down list.
-![Choose the dataset for chart](/static/assets/on-premise/images/report-designer/report-items/chart/data-assign-drop-down.png '#width=385px')
+   ![Choose the dataset for chart](/static/assets/on-premise/images/report-designer/report-items/chart/data-assign-drop-down.png '#width=385px')
 4. The numeric columns and numeric expressions are listed under the `Measures` section; other type of columns and dimension expressions are listed under the `Dimensions` section.
    ![Measures and dimensions](/static/assets/on-premise/images/report-designer/report-items/chart/column-chart/measures-dimensions-category.png '#width=385px')
 5. **Drag and Drop Measure Element**:
@@ -81,7 +81,7 @@ To format column chart follow the below steps:
 1. Drag and drop the column chart into design area and resize it to required size.
 2. Configure the data to the column chart.
 3. Focus on the column chart and click `Properties` icon in the configuration panel, the property pane opens.
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/column-chart/open-chart-properties.png)
+   ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/column-chart/open-chart-properties.png)
 
 You can see the list of properties available for the widget with default value.
 
@@ -194,9 +194,9 @@ You can also enable the `Minor Grid Lines` and customize the major and minor gri
 The page break property can be used to control the amount of information on each page when you preview the report. Follow the below steps to apply page break property for chart report item.
 
 1. The Break Location property specifies where the page break should occur. Choose any `Break Location` type in the drop-down.
-![Break location](/static/assets/on-premise/images/report-designer/report-items/rectangle/break-location-types.png '#width=385px')
+   ![Break location](/static/assets/on-premise/images/report-designer/report-items/rectangle/break-location-types.png '#width=385px')
 2. To restart the page numbering on each page, enable `Page Number Reset` property checkbox.
-![Reset page number](/static/assets/on-premise/images/report-designer/report-items/rectangle/page-break-property.png '#width=385px')
+   ![Reset page number](/static/assets/on-premise/images/report-designer/report-items/rectangle/page-break-property.png '#width=385px')
 
 ### Data Element
 
@@ -254,8 +254,8 @@ Tooltip property can be used to display informative text or value, when the user
 ## Preview report
 
 1. The final design view of report is shown below.
-![Preview icon in design view](/static/assets/on-premise/images/report-designer/report-items/chart/column-chart/preview-icon.png '#width=445px')
+   ![Preview icon in design view](/static/assets/on-premise/images/report-designer/report-items/chart/column-chart/preview-icon.png '#width=445px')
 2. Now, the report preview can be visualized like below.
-![Chart report preview](/static/assets/on-premise/images/report-designer/report-items/chart/column-chart/report-preview-page.png '#width=445px')
+   ![Chart report preview](/static/assets/on-premise/images/report-designer/report-items/chart/column-chart/report-preview-page.png '#width=445px')
 
 > Download the above report design from [link](https://github.com/boldreports/resources/tree/master/docs/report-designer/chart/column.rdl).

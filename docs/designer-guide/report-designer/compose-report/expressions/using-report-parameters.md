@@ -13,7 +13,7 @@ Parameters that are available in the report are listed in the **Data** dropdown 
 ## Displaying Parameters Collection
 
 1. After Report parameters creation, report parameters are listed in the list view, double click on any of the report parameter.
-![parameter collection in list view](/static/assets/on-premise/images/report-designer/compose-report/expressions/choose-parameter.png '#width=200px')
+   ![parameter collection in list view](/static/assets/on-premise/images/report-designer/compose-report/expressions/choose-parameter.png '#width=200px')
 
 2. Parameter field values are shown as expression in the textarea and click **OK** to save the selected expression.
-![selected-parameter-textarea](/static/assets/on-premise/images/report-designer/compose-report/expressions/selected-parameter.png '#width=400px')
+   ![selected-parameter-textarea](/static/assets/on-premise/images/report-designer/compose-report/expressions/selected-parameter.png '#width=400px')

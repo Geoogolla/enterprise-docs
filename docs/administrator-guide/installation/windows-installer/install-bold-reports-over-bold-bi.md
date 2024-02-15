@@ -14,35 +14,27 @@ This section explains how to install and deploy the Bold Reports Enterprise Edit
 
 This topic explains the steps required to install the Bold Reports Enterprise Edition.
 
-Run the Bold Reports Enterprise Reporting on your machine.
+* Run the Bold Reports Enterprise Reporting on your machine.
 
-![Exe Setup](/static/assets/on-premise/images/installation/bold-reports-over-bold-bi/exe-setup.png)
+    ![Exe Setup](/static/assets/on-premise/images/installation/bold-reports-over-bold-bi/exe-setup.png)
 
-You can check the license agreement of the Bold Reports Enterprise edition by clicking the `License Terms and Conditions` and click `Next`.
+* You can check the license agreement for the Bold Reports Enterprise edition by clicking the `License Terms and Conditions` and clicking `Next`.
 
-![License Agreement](/static/assets/on-premise/images/installation/bold-reports-over-bold-bi/license-agreement.png)
+    ![License Agreement](/static/assets/on-premise/images/installation/bold-reports-over-bold-bi/license-agreement.png)
 
-Then prompt will appear to proceed whether you are going to use the existing Bold ID for Bold Reports Enterprise Edition.
+* Then a prompt will appear, asking whether you intend to proceed using the existing Bold ID for Bold Reports Enterprise Edition.
 
-![Prompt Dialog](/static/assets/on-premise/images/installation/bold-reports-over-bold-bi/prompt-dialog.png)
+    ![Prompt Dialog](/static/assets/on-premise/images/installation/bold-reports-over-bold-bi/prompt-dialog.png)
 
-## Proceed installation without Common Login
+## Proceed with installation without Common Login
 
-If you select `No` to proceed the installation without common login, then Bold Reports Enterprise Reporting installation will be cancelled.
+If you select `No` to proceed the installation without common login, the Bold Reports Enterprise Reporting installation will be cancelled.
+    ![Cancelled Process](/static/assets/on-premise/images/installation/bold-reports-over-bold-bi/cancelled-process.png)
 
-![Cancelled Process](/static/assets/on-premise/images/installation/bold-reports-over-bold-bi/cancelled-process.png)
+## Proceed with installation with common login
 
-## Proceed installation with common login
-
-If you select `Yes` to proceed the installation with common login for both Bold Reports and Bold BI products, then installation will host the Bold Reports as one of sub application inside the existing Bold BI Site hosted on IIS for common login to work.
-
-## Hosting type
-
-Installer will automatically detect the existing Bold BI hosting details and show them in the following web hosting type.
-
-* IIS
-
-![Bold ID IIS](/static/assets/on-premise/images/installation/bold-reports-over-bold-bi/boldid-iis.png)
+If you select `Yes` to proceed with the installation using common login for both Bold BI products and Bold Reports, the installer will automatically detect the existing Bold Reports hosting details and display them in the following web hosting type. These details cannot be modified; simply verify them and click Next.
+    ![Bold ID IIS](/static/assets/on-premise/images/installation/bold-reports-over-bold-bi/boldid-iis.png)
 
 ## Chromium Packages
 
@@ -52,40 +44,36 @@ Installer will automatically detect the existing Bold BI hosting details and sho
 
 > **NOTE**: If you encounter problems with your internet connection or have no connection, unselect the option to download Chromium Packages and continue with the installation. Refer to the provided guide for instructions on [manually installing the Chromium Packages](./../../../faq/how-to-install-chromium-packages/)
 
-## Client libraries
+* Then `client library prompt` will open. Bold Reports Enterprise Edition utilizes client libraries, including Oracle, PostgreSQL, MySQL, and MongoDB, to connect with their respective SQL database variants. Please check the license of each library and provide consent for installation. Only the selected client libraries will be shipped with the product. Read and accept the license to proceed with shipping the selected client libraries, and then click `Install`.
+    ![Client Libraries](/static/assets/on-premise/images/installation/bold-reports-over-bold-bi/client-libraries.png)
 
-> **IMPORTANT**: Bold Reports Enterprise Edition uses client libraries such as Oracle, PostgreSQL, MySQL, CDATA, MemSQL, and MariaDB to connect with their respective SQL database variants. Check the license of each library to give consent for installation. The selected client libraries alone will be shipped into the product.
+* Once the installation is complete, you can launch the application by clicking `Launch Application` and proceed to set up your Bold Reports site.
 
-![Client Libraries](/static/assets/on-premise/images/installation/bold-reports-over-bold-bi/client-libraries.png)
+    ![Launch Application](/static/assets/on-premise/images/installation/bold-reports-over-bold-bi/launch-application.png)
 
-Read and accept the license to ship the selected client libraries and click `Install`.
+* It will open in your browser. Login with your username and password which is already registered on Bold BI.
 
-After the installation process is completed, you can launch the application by clicking `Launch Application`.
+    ![Login Page](/static/assets/on-premise/images/installation/bold-reports-over-bold-bi/login-page.png)
 
-![Launch Application](/static/assets/on-premise/images/installation/bold-reports-over-bold-bi/launch-application.png)
+* After logging in, this page will open. Click on your profile and select `Manage Sites` (Admin Access).
+    ![BI UMS](/static/assets/on-premise/images/installation/bold-reports-over-bold-bi/bi-ums.png)
 
-## Registering Bold Reports site
+* After that, the following page will open. Navigate to **Settings > Manage License > Enterprise Reporting**. Then click `Login to activate account` to register on the site.
 
-You cannot setup the Bold Reports application directly by clicking Launch Application when common login is selected.
+    ![UMS Server](/static/assets/on-premise/images/installation/bold-reports-over-bold-bi/ums-server.png)
 
-First, you need to activate the license on the UMS server and then register the site.
+* After logging in, your subscription details will be displayed. Now you are ready to use the Bold Reports application.
 
-* Go to **settings > Manage License > Enterprise Reporting** in the UMS settings page.
+    ![Subscription Details](/static/assets/on-premise/images/installation/bold-reports-over-bold-bi/subscription-details.png)
 
-* Then, click `Login to activate account` to register on the site.
-
-![UMS Server](/static/assets/on-premise/images/installation/bold-reports-over-bold-bi/ums-server.png)
-
-After registering the site, you have to manually create the site for Bold Reports from the site management page by opening the URL as follows.
-
-`http://{hostname}/ums/sites?action=create-new-site`
-
-Please setup the Bold Reports site by following the steps given [here](./../../../manage-tenants/create-site/).
+* After registering the site, you have to manually create the site for Bold Reports from the site management page by opening the URL as follows:
+    `http://{hostname}/ums/sites?action=create-new-site`<br>
+    Please set up the Bold Reports site by following the steps given [here](./../../../manage-tenants/create-site/).
 
 ## Application structure when common login selected
 
-The following changes were made on IIS after proceeding with the common Bold ID.
-
-Normally, Bold Reports are hosted in IIS with the site name as BoldReportsOnPremiseEdition, but after using the common login (Bold ID), the site name has been renamed as BoldAppsEnterpriseEdition, and Bold Reports will be hosted as sub-app as reporting under the BoldAppsEnterpriseEdition as shown below.
+Bold Reports will be installed as a sub-application within the existing Bold BI Site, which is hosted on IIS. The following changes were made to IIS after using the common Bold ID. Normally, Bold BI is hosted with the site name `BoldBIEnterpriseEdition` in IIS, but after using the common login (Bold ID), the site name has been changed to `BoldAppsEnterpriseEdition`. Additionally, Bold Reports will be hosted as a sub-app called `reporting` under the `BoldAppsEnterpriseEdition` site.
 
 ![IIS Reports](/static/assets/on-premise/images/installation/bold-reports-over-bold-bi/iis-reports.png)
+
+> **NOTE:** Bold ID is the common identity provider application in our Bold products that can be used to provide Single Sign-On (SSO) to both Bold Reports and Bold BI.

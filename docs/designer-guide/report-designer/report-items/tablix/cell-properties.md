@@ -34,11 +34,11 @@ Similarly, you can insert other report items into the table cell. The following 
 ### Insert item using cell menu
 
 1. Select a cell in tablix and right click in the respective cell. Now, the cell menu will be opened like below.
-![Drag and drop image into table cell](/static/assets/on-premise/images/report-designer/report-items/tablix/open-cell-menu.png '#width=355px')
+   ![Drag and drop image into table cell](/static/assets/on-premise/images/report-designer/report-items/tablix/open-cell-menu.png '#width=355px')
 2. Choose the required report item from the `Insert` menu option.
-![Drag and drop image into table cell](/static/assets/on-premise/images/report-designer/report-items/tablix/insert-report-item-menu-items.png '#width=355px')
+   ![Drag and drop image into table cell](/static/assets/on-premise/images/report-designer/report-items/tablix/insert-report-item-menu-items.png '#width=355px')
 3. Now, the old report item in the cell will be replaced by new report item.
-![Drag and drop image into table cell](/static/assets/on-premise/images/report-designer/report-items/tablix/drag-and-drop-image-into-table-cell-output.png '#width=315px')
+   ![Drag and drop image into table cell](/static/assets/on-premise/images/report-designer/report-items/tablix/drag-and-drop-image-into-table-cell-output.png '#width=315px')
 
     > Here, line report item is used to demonstrate the behaviour.
 
@@ -84,33 +84,33 @@ You can also use the following keyboard shortcuts to perform cut, copy and paste
 
 **Cut** :
 1. Select a tablix cell, use the `Cut` icon in the toolbar or right-click and select the `Cut` option from the menu.
-![Cut menu options](/static/assets/on-premise/images/report-designer/report-items/tablix/cut-option-in-menu-and-toolbar.png '#width=325px')
+   ![Cut menu options](/static/assets/on-premise/images/report-designer/report-items/tablix/cut-option-in-menu-and-toolbar.png '#width=325px')
 2. Now, the report item will be deleted and new `Textbox` will be inserted in the respective cell.
-![Cut menu options](/static/assets/on-premise/images/report-designer/report-items/tablix/cut-action-output.png '#width=285px')
+   ![Cut menu options](/static/assets/on-premise/images/report-designer/report-items/tablix/cut-action-output.png '#width=285px')
 
 **Copy** :
 
 1. Select a tablix cell, use the `Copy` icon in the toolbar or right-click and select the `Copy` option from the menu.
-![Copy menu options](/static/assets/on-premise/images/report-designer/report-items/tablix/copy-option-in-menu-and-toolbar.png '#width=325px')
+   ![Copy menu options](/static/assets/on-premise/images/report-designer/report-items/tablix/copy-option-in-menu-and-toolbar.png '#width=325px')
 2. The copied cell content can be later inserted in any other cell in the tablix or in the design area.
 
 **Paste** :
 
 1. Select a tablix cell, use the `Paste` icon in the toolbar or right-click and select the `Paste` option in the cell menu.
-![Paste menu options](/static/assets/on-premise/images/report-designer/report-items/tablix/paste-option-in-menu-and-toolbar.png '#width=325px')
+   ![Paste menu options](/static/assets/on-premise/images/report-designer/report-items/tablix/paste-option-in-menu-and-toolbar.png '#width=325px')
 2. Now, previously copied item will be pasted in the selected cell.
-![Paste menu options](/static/assets/on-premise/images/report-designer/report-items/tablix/paste-single-cell.png '#width=285px')
+   ![Paste menu options](/static/assets/on-premise/images/report-designer/report-items/tablix/paste-single-cell.png '#width=285px')
 
 ### Cut Copy and Paste operation in multiple cell
 
 You can perform the cut/copy and paste action in multiple cells at a time.
 
 1. Select the required cells in the tablix data region and perform copy or cut action. Here, copy action is performed.
-![Paste menu options](/static/assets/on-premise/images/report-designer/report-items/tablix/multiple-cell-selection-for-copy-action.png '#width=325px')
+   ![Paste menu options](/static/assets/on-premise/images/report-designer/report-items/tablix/multiple-cell-selection-for-copy-action.png '#width=325px')
 2. Now, select the cells in which you need to paste the copied cell content in the tablix data region and perform paste action.
-![Paste menu options](/static/assets/on-premise/images/report-designer/report-items/tablix/perform-paste-action.png '#width=325px')
+   ![Paste menu options](/static/assets/on-premise/images/report-designer/report-items/tablix/perform-paste-action.png '#width=325px')
 3. The copied cell contents will be pasted in the selected cells like below,
-![Paste menu options](/static/assets/on-premise/images/report-designer/report-items/tablix/paste-multiple-cell-output.png '#width=285px')
+   ![Paste menu options](/static/assets/on-premise/images/report-designer/report-items/tablix/paste-multiple-cell-output.png '#width=285px')
 
 The copied cell content area and target cell content area to perform paste action need to be same. In the below example, the cell content in the second row, first two columns are copied and trying to pasting the cell content in second row, last column.
 

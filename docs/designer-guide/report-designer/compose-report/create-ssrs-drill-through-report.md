@@ -57,25 +57,27 @@ Refer the [Pie chart](./../../report-items/data-bar/design-ssrs-data-bar-using-t
 ![Main report](/static/assets/on-premise/images/report-designer/compose-report/create-ssrs-drill-through-report/main-report.png)
 
 1. Open the chart properties,
-![Chart properties](/static/assets/on-premise/images/report-designer/compose-report/create-ssrs-drill-through-report/chart-properties.png '#width=350px')
+   ![Chart properties](/static/assets/on-premise/images/report-designer/compose-report/create-ssrs-drill-through-report/chart-properties.png '#width=350px')
 2. Choose `Sales1` series in choose series dropdown and click `edit` icon.
-![Choose series](/static/assets/on-premise/images/report-designer/compose-report/create-ssrs-drill-through-report/choose-series.png '#width=350px')
+   ![Choose series](/static/assets/on-premise/images/report-designer/compose-report/create-ssrs-drill-through-report/choose-series.png '#width=350px')
 3. The respective series properties will be listed in secondary panel.
-![Series properties](/static/assets/on-premise/images/report-designer/compose-report/create-ssrs-drill-through-report/series-properties.png  '#width=350px')
+   ![Series properties](/static/assets/on-premise/images/report-designer/compose-report/create-ssrs-drill-through-report/series-properties.png  '#width=350px')
 4. Under `Link` category, choose `Report` option in `Link To` property.
-![Link to property](/static/assets/on-premise/images/report-designer/compose-report/create-ssrs-drill-through-report/choose-report-action.png '#width=350px')
+   ![Link to property](/static/assets/on-premise/images/report-designer/compose-report/create-ssrs-drill-through-report/choose-report-action.png '#width=350px')
 5. In the `Report` field, browse and set the path of already designed data bar report.
-![Set report path](/static/assets/on-premise/images/report-designer/compose-report/create-ssrs-drill-through-report/set-report-path.png '#width=350px')
+   ![Set report path](/static/assets/on-premise/images/report-designer/compose-report/create-ssrs-drill-through-report/set-report-path.png '#width=350px')
 6. Click on `Set Parameters` button. Now, the parameters dialog will open like below.
-![Set parameters](/static/assets/on-premise/images/report-designer/compose-report/create-ssrs-drill-through-report/open-parameters-dialog.png '#width=350px')
+   ![Set parameters](/static/assets/on-premise/images/report-designer/compose-report/create-ssrs-drill-through-report/open-parameters-dialog.png '#width=350px')
 7. Click on `ADD` option in the dialog to configure parameter values.
-![Add parameter](/static/assets/on-premise/images/report-designer/compose-report/create-ssrs-drill-through-report/add-parameter-field.png '#width=350px')
+   ![Add parameter](/static/assets/on-premise/images/report-designer/compose-report/create-ssrs-drill-through-report/add-parameter-field.png '#width=350px')
 8. In the `Parameter Name` field, select the parameter name of the selected report.
-![Select parameter](/static/assets/on-premise/images/report-designer/compose-report/create-ssrs-drill-through-report/select-parameter.png '#width=350px')
+   ![Select parameter](/static/assets/on-premise/images/report-designer/compose-report/create-ssrs-drill-through-report/select-parameter.png '#width=350px')
 9. Provide the `=Fields!ProdCat.Value` expression value in `Parameter Value` field and click `OK`.
-![Provide parameter value](/static/assets/on-premise/images/report-designer/compose-report/create-ssrs-drill-through-report/provide-parameter-value.png '#width=350px')
-> Refer [Link Report](./../../compose-report/link-data/#report-linking) section to know more about report linking.
-![Set report action](/static/assets/on-premise/images/report-designer/compose-report/create-ssrs-drill-through-report/set-report-action.png '#width=350px')
+   ![Provide parameter value](/static/assets/on-premise/images/report-designer/compose-report/create-ssrs-drill-through-report/provide-parameter-value.png '#width=350px')
+
+   > Refer [Link Report](./../../compose-report/link-data/#report-linking) section to know more about report linking.
+
+   ![Set report action](/static/assets/on-premise/images/report-designer/compose-report/create-ssrs-drill-through-report/set-report-action.png '#width=350px')
 
 ## Drill through chart series
 

@@ -8,7 +8,7 @@ documentation: ug
 
 # Groups
 
-This section explains how to manage, import and synchronize groups in the Bold Reports Server. You can learn more details from the following sections:
+This section explains how to manage, import and synchronize groups in the Bold Reports Server. You can learn more details in the following sections:
 
 * [Manage Groups](./../groups/manage-groups/)
 

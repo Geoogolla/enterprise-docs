@@ -18,23 +18,23 @@ This section explains the requirements to use the Bold Reports on Podman and dep
 
 The following hardware requirements are necessary to run the Bold Reports solution:
 
-* **Operating System**: Bold Reports Podman can run on different Linux distributions. Verified on the following operating systems:
+* **Operating System:** Bold Reports Podman can run on different Linux distributions. Verified on the following operating systems:
     * Ubuntu 20.04 LTS
     * Cent OS 7
     * Windows
     * Red Hat Enterprise Linux (RHEL)
     * Alpine Linux
-* **CPU**: 4-core.
-* **Memory**: 16 GB RAM.
-* **Disk Space**: 8 GB or more.
+* **CPU:** 4-core.
+* **Memory:** 16 GB RAM.
+* **Disk Space:** 8 GB or more.
 
 ### Software requirements
 
 The following software requirements are necessary to run the Bold Reports Enterprise edition:
 
-* **Database**: Microsoft SQL Server 2012+ | PostgreSQL
-* **Application**: Podman
-* **Web Browser**: Microsoft Edge, Mozilla Firefox, and Chrome
+* **Database:** Microsoft SQL Server 2012+ | PostgreSQL
+* **Application:** Podman
+* **Web Browser:** Microsoft Edge, Mozilla Firefox, and Chrome
 
 ## Installation
 

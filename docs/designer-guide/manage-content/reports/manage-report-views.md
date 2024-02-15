@@ -29,7 +29,7 @@ This section explains how to open, add, update, share, and delete Report Views i
     After views saved, you can save the same view again in a new name by clicking `Save As`.
     ![Create Report View](/static/assets/on-premise/images/manage-content/manage-reports/save-as-icon.png)
 
-   >A view icon will be available for the report, which contains parameters.
+   > A view icon will be available for the report, which contains parameters.
 
 2. Views will be added, and saved Report Views will be displayed in the `Saved Views` panel.
    ![View Report views](/static/assets/on-premise/images/manage-content/manage-reports/saved-view.png)
@@ -45,26 +45,27 @@ This section explains how to open, add, update, share, and delete Report Views i
     ![Manage Reports view](/static/assets/on-premise/images/manage-content/manage-reports/report-views-from-server.png)
 
 2. Click the report view.
+
 3. The saved view will be opened.
     ![Manage Reports view](/static/assets/on-premise/images/manage-content/manage-reports/url-view-name.png)
 
-    >The URL will include the name of the saved view.
+    > The URL will include the name of the saved view.
 
 ### Share the Report Views
 
 Saved Report Views can be shared with other users and groups in the Bold Report Server. They can also be shared with anonymous users.
 
 1. To share the report views, click the `share` icon of the respective report view from the `Saved Views` panel.
-![Share Report View](/static/assets/on-premise/images/manage-content/manage-reports/share-icon.png)
+   ![Share Report View](/static/assets/on-premise/images/manage-content/manage-reports/share-icon.png)
 
 2. Click the `Manage Access` button.
-![Share Report View popup](/static/assets/on-premise/images/manage-content/manage-reports/share-report-view.png)
+   ![Share Report View popup](/static/assets/on-premise/images/manage-content/manage-reports/share-report-view.png)
 
 3. Select the users or groups to share the report view.
-![Add permission to a report view](/static/assets/on-premise/images/manage-content/manage-reports/selecting-user-group.png)
+   ![Add permission to a report view](/static/assets/on-premise/images/manage-content/manage-reports/selecting-user-group.png)
 
 4. After selecting the users or groups, click on the `Add` button.
-![Add button](/static/assets/on-premise/images/manage-content/manage-reports/manage-access-report-view.png)
+   ![Add button](/static/assets/on-premise/images/manage-content/manage-reports/manage-access-report-view.png)
 
 ### Copy the Report Views link
 
@@ -97,7 +98,7 @@ Support for managing views in `new Viewer` begins at version 5.2.26.
     After views are saved, you can save the same view again in a new name by clicking `Save As`.
     ![Create Report View](/static/assets/on-premise/images/manage-content/manage-reports/ej2-save-as-icon.png)
 
-   >A view icon will be available for the report, which contains parameters.
+   > A view icon will be available for the report, which contains parameters.
 
 2. Views will be added, and saved Report Views will be displayed in the `Saved Views` panel.
    ![View Report views](/static/assets/on-premise/images/manage-content/manage-reports/ej2-saved-view.png)
@@ -113,26 +114,27 @@ Support for managing views in `new Viewer` begins at version 5.2.26.
     ![Manage Reports view](/static/assets/on-premise/images/manage-content/manage-reports/ej2-report-views-from-server.png)
 
 2. Click the report view.
+
 3. The saved view will be opened.
     ![Manage Reports view](/static/assets/on-premise/images/manage-content/manage-reports/ej2-url-view-name.png)
 
-    >The URL will include the name of the saved view.
+    > The URL will include the name of the saved view.
 
 ### Share the Report Views
 
 Saved Report Views can be shared with other users and groups in the Bold Report Server. They can also be shared with anonymous users.
 
 1. To share the report views, click the `share` icon of the respective report view from the `Saved Views` panel.
-![Share Report View](/static/assets/on-premise/images/manage-content/manage-reports/ej2-share-icon.png)
+   ![Share Report View](/static/assets/on-premise/images/manage-content/manage-reports/ej2-share-icon.png)
 
 2. Click the `Manage Access` button.
-![Share Report View popup](/static/assets/on-premise/images/manage-content/manage-reports/ej2-share-report-view.png)
+   ![Share Report View popup](/static/assets/on-premise/images/manage-content/manage-reports/ej2-share-report-view.png)
 
 3. Select the users or groups to share the report view.
-![Add permission to a report view](/static/assets/on-premise/images/manage-content/manage-reports/ej2-selecting-user-group.png)
+   ![Add permission to a report view](/static/assets/on-premise/images/manage-content/manage-reports/ej2-selecting-user-group.png)
 
 4. After selecting the users or groups, click on the `Add` button.
-![Add button](/static/assets/on-premise/images/manage-content/manage-reports/ej2-manage-access-report-view.png)
+   ![Add button](/static/assets/on-premise/images/manage-content/manage-reports/ej2-manage-access-report-view.png)
 
 ### Copy the Report Views link
 

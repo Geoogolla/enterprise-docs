@@ -17,7 +17,7 @@ Bold Reports designer provides an option called `Show unique values` when creati
 
 1. [Create a new parameter](./../../report-parameters/add/) or [edit an existing parameter](./../../report-parameters/edit/).
 2. In parameters configuration panel, enable the `Show unique values` checkbox.
-![Enable unique values](/static/assets/on-premise/images/report-designer/how-to/distinct-values-parameter/enable-unique-value.png '#width=350px')
+   ![Enable unique values](/static/assets/on-premise/images/report-designer/how-to/distinct-values-parameter/enable-unique-value.png '#width=350px')
 3. Save the parameter.
 
 When the report runs, the unique values will be listed in parameter dropdown.

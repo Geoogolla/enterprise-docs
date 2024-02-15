@@ -10,22 +10,22 @@ The following steps guides you to design a map using custom color rule and custo
 ## Create data set
 
 1. In the data panel, click `New Data`.
-![New data](/static/assets/on-premise/images/report-designer/report-items/map/color-rule-use-case/new-data.png '#width=350px')
+   ![New data](/static/assets/on-premise/images/report-designer/report-items/map/color-rule-use-case/new-data.png '#width=350px')
 2. Choose the `JSON` connection type.
-![JSON connection](/static/assets/on-premise/images/report-designer/report-items/map/color-rule-use-case/sql-connection.png '#width=350px')
+   ![JSON connection](/static/assets/on-premise/images/report-designer/report-items/map/color-rule-use-case/sql-connection.png '#width=350px')
 3. Choose `File` as `Type`.
-![Choose source type](/static/assets/on-premise/images/report-designer/report-items/map/color-rule-use-case/type.png '#width=425px')
+   ![Choose source type](/static/assets/on-premise/images/report-designer/report-items/map/color-rule-use-case/type.png '#width=425px')
 4. Click on the upload button, browse and upload the JSON file in `File Path` field.
-![Provide connection details](/static/assets/on-premise/images/report-designer/report-items/map/color-rule-use-case/connection-details.png '#width=380px')
+   ![Provide connection details](/static/assets/on-premise/images/report-designer/report-items/map/color-rule-use-case/connection-details.png '#width=380px')
 5. Click on the `Connect` button.
 6. In the query builder, the available fields in JSON file will be loaded under default table name, `Result`.
-![Enter query](/static/assets/on-premise/images/report-designer/report-items/map/color-rule-use-case/query-designer.png)
+   ![Enter query](/static/assets/on-premise/images/report-designer/report-items/map/color-rule-use-case/query-designer.png)
 7. Drag and drop the `Result` table and execute.
-![Execute table](/static/assets/on-premise/images/report-designer/report-items/map/color-rule-use-case/execute-query.png)
+   ![Execute table](/static/assets/on-premise/images/report-designer/report-items/map/color-rule-use-case/execute-query.png)
 8. Modify the data set `Name` and click Finish.
-![Data list](/static/assets/on-premise/images/report-designer/report-items/map/color-rule-use-case/data-list.png '#width=385px')
+   ![Data list](/static/assets/on-premise/images/report-designer/report-items/map/color-rule-use-case/data-list.png '#width=385px')
 
->Note: Download the sample JSON file from [here](https://www.syncfusion.com/downloads/support/directtrac/general/ze/World-GDP-Growth-JSON-185214165). This data is downloaded from [Data world bank](https://data.worldbank.org/indicator/NY.GDP.MKTP.KD.ZG).
+> Note: Download the sample JSON file from [here](https://www.syncfusion.com/downloads/support/directtrac/general/ze/World-GDP-Growth-JSON-185214165). This data is downloaded from [Data world bank](https://data.worldbank.org/indicator/NY.GDP.MKTP.KD.ZG).
 
 ## Add map to the report design
 

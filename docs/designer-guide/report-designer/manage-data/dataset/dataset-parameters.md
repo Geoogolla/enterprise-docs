@@ -41,10 +41,10 @@ If you import a shared dataset into the report, the list of available parameters
 ## Create parameter
 
 1. To create a new parameter, click on the `ADD` button.
-![Add parameter](/static/assets/on-premise/images/report-designer/manage-data/dataset-parameters/report-parameters-dialog.png '#width=355px')
+   ![Add parameter](/static/assets/on-premise/images/report-designer/manage-data/dataset-parameters/report-parameters-dialog.png '#width=355px')
 2. **Parameter Name** : In the **Parameter Name** text box, provide the name for the parameter. The parameter name must be unique within the dataset.
 3. **Value** : In **Value** field, provide the value for the parameter. The **Value** of a parameter can be a static value or an expression, but it cannot refer to any report items or fields.
-![Create parameter](/static/assets/on-premise/images/report-designer/manage-data/dataset-parameters/create-parameter.png '#width=355px')
+   ![Create parameter](/static/assets/on-premise/images/report-designer/manage-data/dataset-parameters/create-parameter.png '#width=355px')
 
 > The parameters which you create here will act as a `User Defined` parameter in the report, neither creates a query parameter nor affects existing query parameter.
 
@@ -77,11 +77,11 @@ The below snap depicts the parameter list before reordering the parameters.
 To change the order of the dataset parameters after creating it, follow the below steps.
 
 1. Click and hold the icon in the left corner of **Parameter Name** field.
- ![Gripper icon to drag fields](/static/assets/on-premise/images/report-designer/manage-data/dataset-parameters/gripper-icon-to-perform-drag-action.png '#width=410px')
+   ![Gripper icon to drag fields](/static/assets/on-premise/images/report-designer/manage-data/dataset-parameters/gripper-icon-to-perform-drag-action.png '#width=410px')
 2. Then drag and move the dataset parameter field to higher or lower position in the list.
-![Drag parameter field](/static/assets/on-premise/images/report-designer/manage-data/dataset-parameters/drag-start-action.png '#width=355px')
+   ![Drag parameter field](/static/assets/on-premise/images/report-designer/manage-data/dataset-parameters/drag-start-action.png '#width=355px')
 3. Drop the dataset parameter field in desired position.
-![Drag action demo](/static/assets/on-premise/images/report-designer/manage-data/dataset-parameters/drag-action-demo.png '#width=355px')
+   ![Drag action demo](/static/assets/on-premise/images/report-designer/manage-data/dataset-parameters/drag-action-demo.png '#width=355px')
 
 The below snap depicts the parameter list after reordering the parameters.
 

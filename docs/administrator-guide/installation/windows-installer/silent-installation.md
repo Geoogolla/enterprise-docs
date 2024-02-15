@@ -6,33 +6,33 @@ platform: report-platform
 documentation: ug
 ---
 
-# Install the Bold Reports Enterprise Reporting in silent mode
+# Install Bold Reports Enterprise Reporting in silent mode
 
-This section explains how to install and deploy the Bold Reports Enterprise Reporting in silent mode. This silent installer can be included in your existing installation process.
+This section explains how to install and deploy Bold Reports Enterprise Reporting in silent mode. This silent installer can be included in your existing installation process.
 
-## Installing the Bold Reports Enterprise Reporting in command line
+## Installing Bold Reports Enterprise Reporting in command line
 
-Please follow the below steps to install the Bold Reports Enterprise Reporting in silent mode.
+Please follow the below steps to install Bold Reports Enterprise Reporting in silent mode.
 
-1. First you need to [download](https://help.boldreports.com/enterprise-reporting/administrator-guide/getting-started/#registration--download) the `BoldReports_EnterpriseReporting.exe` from your account.
+1. First, you need to [download](https://help.boldreports.com/enterprise-reporting/administrator-guide/getting-started/#registration--download) the `BoldReports_EnterpriseReporting.exe` from your account.
 
 2. Run the downloaded `BoldReports_EnterpriseReporting.exe` by double-clicking it. The installer wizard automatically opens and extracts the package into the `%temp%` folder.
 
 3. The file `boldreports_enterprisereporting(version)(timestamp).exe` file will be extracted into the `%temp%` directory.
 
-4. Run `%temp%.`, then Temp folder will be opened. The `boldreports_enterprisereporting(version)(timestamp).exe` file will be present in one of the temp folders. The folder name will start with `is`.
+4. Run `%temp%.`, and then Temp folder will be opened. The `boldreports_enterprisereporting(version)(timestamp).exe` file will be present in one of the temp folders. The folder name will start with `is`.
 
     ![Temp-folder](/static/assets/on-premise/images/installation/silent-installation/temp-folder.png)
 
-5. Copy the extracted `boldreports_enterprisereporting(version)(timestamp).exe` file and paste it in any of the local drive.
+5. Copy the extracted `boldreports_enterprisereporting(version)(timestamp).exe` file and paste it on any of the local drives.
 
 6. Exit the Wizard.
 
     ![Exit-wizard](/static/assets/on-premise/images/installation/silent-installation/exit-wizard.png)
 
-7. Open the windows command prompt in **Administrator** mode and navigate to the `boldreportenterprisereport(version)(timestamp).exe` file location which has been copied and pasted to the local drive.
+7. Open the Windows command prompt in **Administrator** mode and navigate to the `boldreportenterprisereport(version)(timestamp).exe` file location, which has been copied and pasted to the local drive.
 
-8. Provide the necessary arguments in the below command to install the the above `Bold Reports Enterprise Edition` installer in silent mode.
+8. Provide the necessary arguments in the below command to install the above `Bold Reports Enterprise Edition` installer in silent mode.
 
       **parameters:**
      ```console
@@ -49,9 +49,9 @@ Please follow the below steps to install the Bold Reports Enterprise Reporting i
 
 If you need to set the application configuration details during the setup installation itself, you can use this parameter list.
 
-Once the silent installation was completed, your application will be configured by default and you can proceed to use the boldreports.
+Once the silent installation is completed, your application will be configured by default, and you can proceed to use the boldreports.
 
-Download the [application_startup](https://github.com/boldreports/api-payload/blob/master/v2/application_startup.json) JSON file and provide ServerConfiguration and UmsConfiguration details in application_startup.json file.
+Download the [application_startup](https://github.com/boldreports/api-payload/blob/master/v2/application_startup.json) JSON file and provide ServerConfiguration and UmsConfiguration details in the application_startup.json file.
 
 We have to provide Database, Storage and Site details in **ServerConfiguration**
 
@@ -61,11 +61,11 @@ We have to provide Database, Storage and Site details in **ServerConfiguration**
 
 ![ServerConfiguration-example](/static/assets/on-premise/images/installation/silent-installation/server-configuration-example.png)
 
-> NOTE: We don't need to provide **DataStoreConfiguration** details, which is required only for BoldBI. Hence, we can ignore it.
+> NOTE: We don't need to provide **DataStoreConfiguration** details, as they are only required for BoldBI. Hence, we can ignore them.
 
 We have to provide Database, Storage, User and unlockkey details in **UmsConfiguration**
 
-Please follow the below steps to get **unlockkey**
+Please follow the below steps to get an **unlock key**
 1. Go to [Bold Reports Account](https://www.boldreports.com/account/downloads) and login with your account credentials.
 2. Go to the Subscriptions section.
 3. Click the Get Offline License Key File to download the offline key.
@@ -77,7 +77,7 @@ Please follow the below steps to get **unlockkey**
 
 ![UmsConfiguration-example](/static/assets/on-premise/images/installation/silent-installation/ums-configuration-example.png)
 
-After providing your inputs in the file, then set **IsSilentStartUp** to **true** and provide the path of JSON file to the installer as an argument.
+After providing your inputs in the file, set **IsSilentStartUp** to **true** and provide the path of JSON file to the installer as an argument.
 
 ![Silent-startUp-true](/static/assets/on-premise/images/installation/silent-installation/silent-startup-true.png)
 

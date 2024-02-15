@@ -28,8 +28,7 @@ When you create a new data, the `NEW DATASOURCE` panel will show up with basic o
 4. Enter a valid Google Cloud SQL username in the **UserName** text box.
 5. Enter a valid Google Cloud SQL password in the **Password** text box.
 6. Select a database that you want to query in the listed database associated with the given Google Cloud SQL server in the database drop-down.
-
-![Web datasource properties](/static/assets/on-premise/images/report-designer/manage-data/google-cloud-sql-data-source/basic-options.png '#width=385px')
+   ![Web datasource properties](/static/assets/on-premise/images/report-designer/manage-data/google-cloud-sql-data-source/basic-options.png '#width=385px')
 
 Click on the `Connect` to proceed with query design pane. Now, enter the required query and execute. Its corresponding values will be shown in grid for preview.
 

@@ -19,15 +19,15 @@ Click on `Assign Value >>` to open parameter assign dialog.
 Follow the below steps to add available values for the parameter.
 
 1. Select `Specify` option under `Available Value` tab.
-![Parameter assign values dialog](/static/assets/on-premise/images/report-designer/report-parameters/add-report-parameter/available-value-specify-value.png '#width=450px')
+   ![Parameter assign values dialog](/static/assets/on-premise/images/report-designer/report-parameters/add-report-parameter/available-value-specify-value.png '#width=450px')
 2. Click on the **Add** icon. Now, a list in which you can type values and labels appears.
-![Available value add field](/static/assets/on-premise/images/report-designer/report-parameters/add-report-parameter/available-value-add-field.png '#width=450px')
+   ![Available value add field](/static/assets/on-premise/images/report-designer/report-parameters/add-report-parameter/available-value-add-field.png '#width=450px')
 3. Enter the value in the **Value** text box, and optionally, the label in the **Label** text box.
    > If you do not provide the label, the value is used.
 
    ![Create available values list](/static/assets/on-premise/images/report-designer/report-parameters/add-report-parameter/create-available-values-list.png '#width=450px')
 4. Click `OK` and `Save` the parameter.
-![Save report parameter](/static/assets/on-premise/images/report-designer/report-parameters/add-report-parameter/save-report-parameter.png '#width=350px')
+   ![Save report parameter](/static/assets/on-premise/images/report-designer/report-parameters/add-report-parameter/save-report-parameter.png '#width=350px')
 
 On report preview, the available values defined for the parameter will be listed in the drop-down list like below.
 
@@ -36,13 +36,13 @@ On report preview, the available values defined for the parameter will be listed
 ## Query values
 
 1. Select `Query Value` option under `Available Value` tab.
-![Available value query value option](/static/assets/on-premise/images/report-designer/report-parameters/add-report-parameter/available-value-query-value-option.png '#width=400px')
+   ![Available value query value option](/static/assets/on-premise/images/report-designer/report-parameters/add-report-parameter/available-value-query-value-option.png '#width=400px')
 2. In **Dataset** drop-down, choose the name of the dataset. Datasets can be defined using the data view.
 3. In **Value field**, choose the name of the field that provides parameter values.
    > Note: These fields are retrieved from the list of column or field names in the dataset.
 4. In **Label field**, choose the name of the field that provides the parameter names. If there is no separate field for names, choose the same field similar to **Value field**.
 5. Click `OK`.
-![Available values query value fields](/static/assets/on-premise/images/report-designer/report-parameters/add-report-parameter/available-values-query-value-fields.png '#width=400px')
+   ![Available values query value fields](/static/assets/on-premise/images/report-designer/report-parameters/add-report-parameter/available-values-query-value-fields.png '#width=400px')
 6. Save the parameter.
 
 On report preview, the `ProductID` parameter will list the values of `ProductID` field from query data.
@@ -55,7 +55,7 @@ To remove the available values defined for the parameter follow the below steps:
 1. Refer [Edit Parameter](./../../report-parameters/edit/) section and open parameter properties.
 2. Click on `Assign Value >>` to open parameter assign dialog.
 3. Under the `Available Values` tab, choose the `None` option.
-![Remove available values](/static/assets/on-premise/images/report-designer/report-parameters/add-report-parameter/remove-available-values.png '#width=400px')
+   ![Remove available values](/static/assets/on-premise/images/report-designer/report-parameters/add-report-parameter/remove-available-values.png '#width=400px')
 4. Click `OK` and save the parameter.
 
 ## Filter a table data based on report parameter
@@ -63,18 +63,18 @@ To remove the available values defined for the parameter follow the below steps:
 Using the `ProductID` parameter, we can filter the `ProductID` field values at runtime like below.
 
 1. Select the table report item to enable grouping panel in the designer.
-![Open table data assign menu](/static/assets/on-premise/images/report-designer/report-parameters/add-report-parameter/enable-grouping-panel.png '#width=400px')
+   ![Open table data assign menu](/static/assets/on-premise/images/report-designer/report-parameters/add-report-parameter/enable-grouping-panel.png '#width=400px')
 2. Now, click on the `(Details)` member field in the grouping panel to open the tablix member properties.
-![Open tablix member properties](/static/assets/on-premise/images/report-designer/report-parameters/add-report-parameter/tablix-member-properties.png)
+   ![Open tablix member properties](/static/assets/on-premise/images/report-designer/report-parameters/add-report-parameter/tablix-member-properties.png)
 3. In `Tablix Member` properties, click on `Set Filters...` button.
-![Open filter dialog](/static/assets/on-premise/images/report-designer/report-parameters/add-report-parameter/tablix-member-set-filters.png '#width=350px')
+   ![Open filter dialog](/static/assets/on-premise/images/report-designer/report-parameters/add-report-parameter/tablix-member-set-filters.png '#width=350px')
 4. Refer [Set filters](./../../compose-report/filter-data/) section to create new filter expression.
-![Create filter](/static/assets/on-premise/images/report-designer/report-parameters/add-report-parameter/create-product-id-filter.png '#width=400px')
+   ![Create filter](/static/assets/on-premise/images/report-designer/report-parameters/add-report-parameter/create-product-id-filter.png '#width=400px')
 5. Choose the `Equal` operator and assign the `ProductID` parameter in the **Value** field. Save the filter.
-![Save filter](/static/assets/on-premise/images/report-designer/report-parameters/add-report-parameter/save-filter-equation.png '#width=400px')
+   ![Save filter](/static/assets/on-premise/images/report-designer/report-parameters/add-report-parameter/save-filter-equation.png '#width=400px')
 6. Preview the report, now the following view will be displayed.
-![Textbox parameter type](/static/assets/on-premise/images/report-designer/report-parameters/add-report-parameter/drop-down-list-parameter-using-specify-option.png '#width=450px')
+   ![Textbox parameter type](/static/assets/on-premise/images/report-designer/report-parameters/add-report-parameter/drop-down-list-parameter-using-specify-option.png '#width=450px')
 7. The manually created values will be listed in the drop-down. Choose any value from the drop-down list.
-![Textbox parameter type](/static/assets/on-premise/images/report-designer/report-parameters/add-report-parameter/drop-down-values-list-specify-option.png '#width=250px')
+   ![Textbox parameter type](/static/assets/on-premise/images/report-designer/report-parameters/add-report-parameter/drop-down-values-list-specify-option.png '#width=250px')
 8. Click on `View Report`.
-![Filter product id values](/static/assets/on-premise/images/report-designer/report-parameters/add-report-parameter/preview-of-parameters-using-specify-option.png '#width=450px')
+   ![Filter product id values](/static/assets/on-premise/images/report-designer/report-parameters/add-report-parameter/preview-of-parameters-using-specify-option.png '#width=450px')

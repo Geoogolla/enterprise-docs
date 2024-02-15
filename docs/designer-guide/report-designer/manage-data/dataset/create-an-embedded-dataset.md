@@ -49,8 +49,8 @@ This section guides you to create an embedded dataset in Bold Report Designer.
 ## Save Data
 
 1. Click on the `Finish` button in the tools pane.
-![Finish data button](/static/assets/on-premise/images/report-designer/manage-data/dataset/finish-data-connection.png '#width=415px')
+   ![Finish data button](/static/assets/on-premise/images/report-designer/manage-data/dataset/finish-data-connection.png '#width=415px')
 2. Your dataset should now be listed in the `Data` panel like below.
-![Data list view](/static/assets/on-premise/images/report-designer/manage-data/dataset/data-list-view.png '#width=415px')
+   ![Data list view](/static/assets/on-premise/images/report-designer/manage-data/dataset/data-list-view.png '#width=415px')
 3. Expand the icon to view the data fields.
-![Data fields list](/static/assets/on-premise/images/report-designer/manage-data/dataset/data-fields-list.png '#width=415px')
+   ![Data fields list](/static/assets/on-premise/images/report-designer/manage-data/dataset/data-fields-list.png '#width=415px')

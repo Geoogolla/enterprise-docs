@@ -32,8 +32,7 @@ Data source can be added to Report Server only if the user has `Create All Data 
 1. Click on `Create New Datasource` option, it will show enabled connectors like below image.
     ![Set data connectors type](/static/assets/on-premise/images/manage-content/manage-data-sources/connectors-type.png)
 
-2. Choose the data source. Enter the name, description and the other required details of the data source and click on the
-`Save and Create DataSet` option.
+2. Choose the data source. Enter the name, description and the other required details of the data source and click on the **Save and Create DataSet** option.
     ![Set data source properties](/static/assets/on-premise/images/manage-content/manage-data-sources/add-new-data-source.png)
 
 3. Enter the name and description of the dataset and click on `Proceed to Query Designer` option.
@@ -43,24 +42,23 @@ Data source can be added to Report Server only if the user has `Create All Data 
 
     >`Read Write Delete` permission for the `Specific Data Source` will be added for the user who created the data source.
 
-> **Note** : `Security Content`
-> ![password encryption](/static/assets/on-premise/images/manage-content/manage-data-sources/password-encryption.png)
-> * A password will be encrypted and saved in the database.
-> * When the `save password` option is not enabled, the credentials will not be stored in the database, and the system will prompt for the username and password on every occasion.
-> * When the `Save Password` option is enabled, the password is encrypted, and the credentials are stored in the database, preventing the system from prompting for the username and password on every occasion.
+    > **Note**: Security Content
+    > ![password encryption](/static/assets/on-premise/images/manage-content/manage-data-sources/password-encryption.png)
+    > * A password will be encrypted and saved in the database.
+    > * When the `save password` option is not enabled, the credentials will not be stored in the database, and the system will prompt for the username and password on every occasion.
+    > * When the `Save Password` option is enabled, the password is encrypted, and the credentials are stored in the database, preventing the system from prompting for the username and password on every occasion.
 
 #### Use existing Datasource
 
 1. Click on `Use existing Datasource` option, it will show all existing data sources.
 
 2. Select the existing data source, click on `Connect` button to create new dataset.
-![Set Use existing Datasource](/static/assets/on-premise/images/manage-content/manage-data-sources/add-data-source-existing.png)
+   ![Set Use existing Datasource](/static/assets/on-premise/images/manage-content/manage-data-sources/add-data-source-existing.png)
 
 3. Enter the name and description of the dataset and click on `Proceed to Query Designer` option.
-![Proceed to designer](/static/assets/on-premise/images/manage-content/manage-data-sources/proceed-to-designer.png).
+   ![Proceed to designer](/static/assets/on-premise/images/manage-content/manage-data-sources/proceed-to-designer.png).
 
 4. After designing dataset click on the `save` option.
-
     >`Read Write Delete` permission for the `Specific Data Source` will be added for the user who created the data source.
 
 ## Edit Datasource as XML
@@ -80,17 +78,17 @@ This section explains on how to share data sources with the other users in the R
 ### Steps to share a data source
 
 1. Click the `Actions` button in the Data sources grid context menu and select `Sharing Permissions` option.
-![Sharing permission menu option](/static/assets/on-premise/images/manage-content/manage-data-sources/manage-datasource-permission-context-menu.png)
+   ![Sharing permission menu option](/static/assets/on-premise/images/manage-content/manage-data-sources/manage-datasource-permission-context-menu.png)
 
 2. Click the `Manage Access` button.
-![Select data source access permission](/static/assets/on-premise/images/manage-content/manage-data-sources/select-datasource-permission-dialog.png)
+   ![Select data source access permission](/static/assets/on-premise/images/manage-content/manage-data-sources/select-datasource-permission-dialog.png)
 
 3. Select the permission access and the users or groups to share the datasource.
-    ![Add permission to a data source](/static/assets/on-premise/images/manage-content/manage-data-sources/add-datasource-permission.png)
+   ![Add permission to a data source](/static/assets/on-premise/images/manage-content/manage-data-sources/add-datasource-permission.png)
 
 4. After selecting the access and users or groups, click on the `Add` button.
-![Add button](/static/assets/on-premise/images/manage-content/manage-data-sources/add-access-datasource-permission.png)
-> Only the user who have share permission can share the data source with other Report Server users.
+   ![Add button](/static/assets/on-premise/images/manage-content/manage-data-sources/add-access-datasource-permission.png)
+   > Only the user who have share permission can share the data source with other Report Server users.
 
 ### Remove data source Permission
 
@@ -104,13 +102,11 @@ This section explains how to update the data sources in Bold Reports.
 ### Steps to update the data source
 
 1. Click the `Actions` in the data sources grid context menu and select `Update` option.
-![Update datasource menu option](/static/assets/on-premise/images/manage-content/manage-data-sources/update-datasource-option.png)
+   ![Update datasource menu option](/static/assets/on-premise/images/manage-content/manage-data-sources/update-datasource-option.png)
 
-2. The name, description and the other required details can be changed by clicking `Update` option in the update data source
-dialog box.
-![Update option](/static/assets/on-premise/images/manage-content/manage-data-sources/update-option.png)
-
->This option is available on Bold Reports On-Premise Edition from `2.2.28` version.
+2. The name, description and the other required details can be changed by clicking `Update` option in the update data source dialog box.
+   ![Update option](/static/assets/on-premise/images/manage-content/manage-data-sources/update-option.png)
+   > This option is available on Bold Reports On-Premise Edition from `2.2.28` version.
 
 ## Delete data source
 

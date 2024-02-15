@@ -11,8 +11,8 @@ documentation: ug
 
 ## Deployment prerequisites
 
-1. Access to a Linux server with a standard user account with sudo privileges.
-2. Install `Nginx`.
+1. Access to a Linux server with a standard user account and sudo privileges.
+2. Install `Nginx`by running the following commands:
 
     ```console
     sudo apt-get update
@@ -21,15 +21,15 @@ documentation: ug
     sudo apt-get install nginx
     ```
 
-3. Install zip.
+3. Install `zip` by running the following command
     ```console
     sudo apt-get install zip
     ```
-4. Install ``GDIPlus`` package using the following command.
+4. Install `GDIPlus` package using the following command.
     ```console
     sudo apt-get install libgdiplus
     ```
-5. Add an ``openssl conf`` path in the environment, if does not exist.
+5. Add an `openssl conf` path in the environment if it does not exist.
     ```console
     export OPENSSL_CONF=/etc/ssl/
     ```
@@ -38,38 +38,40 @@ documentation: ug
 
 1. Register and download the Bold Reports Linux package from [here](../../../getting-started/#registration-and-download).
 
-2. Download the Bold Reports Linux package by running the following command.
+2. Download the Bold Reports Linux package by running the following command:
     ```console
     sudo wget {Bold Reports Linux package link}
     ```
-3. Extract the zip file.
+3. Extract the zip file by running the following command:
     ```console
     sudo unzip {Bold Reports Linux package zip file}
     ```
-4. Change the directory to `BoldReports_EnterpriseReporting-Linux` by running the following command.
+4. Change the directory to `BoldReports_EnterpriseReporting-Linux` by running the following command:
     ```console
     cd BoldReports_EnterpriseReporting-Linux
     ```
-5. Execute the following command to deploy Bold Reports in your Linux machine.
+5. Execute the following command to deploy Bold Reports on your Linux machine.
     ```console
      sudo bash install-boldreports.sh -i {new} -u {user} -h {host URL} -n {true or false}
      ```
 
-     * **i** : Installation type - Specifies either it is a new or upgrade installation.
+     * **i:** Installation type : Specifies either it is a new or upgrade installation.
 
-     * **u** : Specify the user or group that manages the service.
+     * **u:** Specify the user or group that manages the service.
 
-     * **h** : Domain or IP address of the machine with http protocol.
+     * **h:** Domain or IP address of the machine with HTTP protocol.
 
-     * **n** : Setting this to “true” will automatically configure the Bold Reports with Nginx front-end server.
+     * **n:** Setting this to `true` will automatically configure the Bold Reports with the Nginx front-end server.
 
-**IMPORTANT**: If you have any existing applications running in that Linux machine using Nginx, set “-n” value to false and configure the [Nginx manually](#manually-configure-nginx). Example for new installation,
+    > **IMPORTANT:** If you have any existing applications running on that Linux machine using Nginx, set “-n” value to false and configure [Nginx manually](#manually-configure-nginx).
 
-```console
-sudo bash install-boldreports.sh -i new -u www-data -h http://linux.example.com -n true
-```
+    Example for a new installation,
 
-Once the installation completed, open the host URL in the browser and continue the application startup.
+    ```console
+        sudo bash install-boldreports.sh -i new -u www-data -h http://linux.example.com -n true
+    ```
+
+Once the installation is complete, open the host URL in the browser and continue the application startup.
 
 ## Upgrade breaking changes
 
@@ -105,11 +107,11 @@ Update the below **reportservice** and **viewer** codes in the Nginx configurati
 
 ![Nginx configuration](/static/assets/on-premise/images/installation/viewer.png)
 
-Once the Nginx configuration is updated, run the `sudo nginx -t`  to verify the syntax of the configuration files. If the configuration file test is successful, force the Nginx to pick up the changes by running the `sudo nginx -s reload`.
+Once the Nginx configuration is updated, run `sudo nginx -t` to verify the syntax of the configuration files. If the configuration file test is successful, force Nginx to pick up the changes by running the `sudo nginx -s reload`.
 
-## Manually Configure Nginx
+## Manually configure Nginx
 
-To configure Nginx as a reverse proxy to forward requests to the Bold Reports app, modify /etc/nginx/sites-available/default. Open it in a text editor, and add the following code.
+To configure Nginx as a reverse proxy to forward requests to the Bold Reports app, modify /etc/nginx/sites-available/default. Open it in a text editor and add the following code:
 
 ```cmd
        #server {
@@ -243,30 +245,30 @@ To configure Nginx as a reverse proxy to forward requests to the Bold Reports ap
 }
 ```
 
-Once the Nginx configuration is established, run the `sudo nginx -t` to verify the syntax of the configuration files. If the configuration file test is successful, force the Nginx to pick up the changes by running the `sudo nginx -s` reload.
+Once the Nginx configuration is established, run `sudo nginx -t` to verify the syntax of the configuration files. If the configuration file test is successful, force Nginx to pick up the changes by running the `sudo nginx -s` reload.
 
 ## Configure SSL
 
-If you have an SSL certificate for your domain and need to configure the site with your SSL certificate, follow these steps or you can skip this.
+If you have an SSL certificate for your domain and need to configure the site with your SSL certificate, follow these steps, or you can skip this.
 
 1. Uncomment the following marked lines in the Nginx config file.
 
     ![Ssl Config](/static/assets/on-premise/images/installation/ssl-config.png)
 
-2. Comment the following marked line in the Nginx config file.
+2. Comment on the following marked line in the Nginx config file.
 
     ![Config Mark](/static/assets/on-premise/images/installation/ssl-config-mark.png)
 
-3. Replace the `example.com` with your domain name.
+3. Replace `example.com` with your domain name.
 4. Define the path of the SSL certificate: `ssl_certificate /etc/ssl/domain.crt`.
 5. Specify the directory where the SSL certificate key is located: `ssl_certificate_key /etc/ssl/domain.key`.
-6. Save and run the sudo `nginx -t` to verify the syntax of the configuration file. If the configuration file test is successful, force the Nginx to pick up the changes by running the `sudo nginx -s reload`.
+6. Save and run sudo `nginx -t` to verify the syntax of the configuration file. If the configuration file test is successful, force Nginx to pick up the changes by running `sudo nginx -s reload`.
 
 >**NOTE**: If you are configuring the application with SSL, you need to update the URLs in the product.
 >json with `HTTPS` located in the `/var/www/bold-services/application/app_data/configuration`.
 
 ## Next steps
 
-* `Install Optional Libraries`
+* [Install Optional Libraries](./../../../installation/deploy-in-linux/install-opt-library/)
 
 * [Application Startup](../../../application-startup/)

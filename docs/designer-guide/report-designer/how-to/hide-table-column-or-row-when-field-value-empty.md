@@ -13,9 +13,9 @@ This section explains how to hide a table column or row when the field value is 
 ## Hide the table column when the field value is empty
 
 1. Drag and drop the table, then select the dataset and assign the field values.
-![table deisgn](/static/assets/on-premise/images/report-designer/how-to/hide-row-column/hide-row-column-table-design.png '#width=350px')
+   ![table deisgn](/static/assets/on-premise/images/report-designer/how-to/hide-row-column/hide-row-column-table-design.png '#width=350px')
 2. Select the row and click `visibility` under the properties panel.
-![set visibility expression](/static/assets/on-premise/images/report-designer/how-to/hide-row-column/hide-column-expression.png '#width=450px')
+   ![set visibility expression](/static/assets/on-premise/images/report-designer/how-to/hide-row-column/hide-column-expression.png '#width=450px')
 3. You can hide the empty column in the table based on the column visibility expression as follows.  
 
    ```csharp
@@ -23,14 +23,14 @@ This section explains how to hide a table column or row when the field value is 
    ```
 
 4. Click `Preview` at the top-right corner of the Report Designer toolbar to see the output result.
-![output-column](/static/assets/on-premise/images/report-designer/how-to/hide-row-column/hide-column-output.png '#width=450px')
+   ![output-column](/static/assets/on-premise/images/report-designer/how-to/hide-row-column/hide-column-output.png '#width=450px')
 
 ## Hide the table row when the field value is empty
 
 1. Drag and drop the table, then select the dataset and assign the field values.
-![table deisgn](/static/assets/on-premise/images/report-designer/how-to/hide-row-column/hide-row-column-table-design.png '#width=450px')
+   ![table deisgn](/static/assets/on-premise/images/report-designer/how-to/hide-row-column/hide-row-column-table-design.png '#width=450px')
 2. Select the row and click `visibility` under the properties panel.
-![set visibility expression](/static/assets/on-premise/images/report-designer/how-to/hide-row-column/hide-row-expression.png '#width=400px')
+   ![set visibility expression](/static/assets/on-premise/images/report-designer/how-to/hide-row-column/hide-row-expression.png '#width=400px')
 3. You can hide the empty column in the table based on the column visibility expression as follows.
 
    ```csharp
@@ -38,4 +38,4 @@ This section explains how to hide a table column or row when the field value is 
    ```
 
 4. Click `Preview` at the top-right corner of the Report Designer toolbar to see the output result.
-![output-row](/static/assets/on-premise/images/report-designer/how-to/hide-row-column/hide-row-output.png '#width=400px')
+   ![output-row](/static/assets/on-premise/images/report-designer/how-to/hide-row-column/hide-row-output.png '#width=400px')
