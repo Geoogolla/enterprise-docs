@@ -84,6 +84,7 @@
     "User Role": "user-role.md",
     "Authentication": {
         "Single Sign On": {
+            "Overview": "overview.md",
             "OAuth 2.0": {
                 "OneLogin": "onelogin.md",
                 "Okta": "okta.md",
