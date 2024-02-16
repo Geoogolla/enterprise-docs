@@ -144,7 +144,7 @@ OAuth 2.0 functionality is available in both Bold Reports sites and the User Man
 OAuth 2.0 can be set as the default authentication method when [OAuth 2.0](#steps-to-configure-oauth-20-in-bold-reports) settings is enabled and saved. Follow the below steps.
 1. On the settings page, click on the Authentication tab and select General.
 2. Enable the option **Enable Default Authentication** and select **OAuth 2.0** as the default authentication provider, as shown in the following screenshot.
-![Oauth Default Setting](/static/assets/on-premise/images/authentication/single-sign-on/oauth/oauth-default-authentication.png)
+    ![Oauth Default Setting](/static/assets/on-premise/images/authentication/single-sign-on/oauth/oauth-default-authentication.png)
 
 ### Disabling OAuth 2.0 Settings
 

@@ -18,6 +18,6 @@ You can find more details on configuring Single Sign-On for Bold Reports and exp
 
 * [Azure Active Directory](./../single-sign-on/azure-active-directory/)
 
-* [OAuth 2.0 - OneLogin in Bold Reports](./../single-sign-on/oauth-2.0/onelogin/)
+* [OAuth 2.0](./../single-sign-on/oauth-2.0/)
 
 * [OpenID Connect](./../single-sign-on/openid-connect/)
