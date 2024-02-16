@@ -122,7 +122,7 @@ Follow these below steps to upgrade the Bold Reports Azure App service version f
 
         <tr>
         <td>.NET version</td>
-        <td>.NET 5</td>
+        <td>.NET 6</td>
         </tr>
         </table>
 
