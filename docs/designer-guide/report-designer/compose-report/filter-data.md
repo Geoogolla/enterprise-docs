@@ -17,7 +17,7 @@ Filters are used to filter the dataset field by passing the specific dataset fie
    ![add-field-filters](/static/assets/on-premise/images/report-designer/compose-report/filter-data/filters-add.png '#width=400px')
 
 2. Dataset fields are listed in the first drop-down list, choose the necessary field from the drop-down list or set an [Expression](./../../compose-report/filter-data/#set-expression).
-![add-expression](/static/assets/on-premise/images/report-designer/compose-report/filter-data/expression-field.png '#width=200px')
+   ![add-expression](/static/assets/on-premise/images/report-designer/compose-report/filter-data/expression-field.png '#width=200px')
 
 3. **Operator** types are listed in the second drop-down list.
 
@@ -53,10 +53,10 @@ Follow steps 1 - 4, to add filters.
 ## Reset Expression
 
 1. To reset an expression, click on the square icon and select `Reset`.
-![Select filter reset expression](/static/assets/on-premise/images/report-designer/compose-report/filter-data/expression-icon-reset.png '#width=400px')
+   ![Select filter reset expression](/static/assets/on-premise/images/report-designer/compose-report/filter-data/expression-icon-reset.png '#width=400px')
 
 2. The icon will be indicated in `White color`, after reset action.
-![After reset expression](/static/assets/on-premise/images/report-designer/compose-report/filter-data/after-reset-expression.png)
+   ![After reset expression](/static/assets/on-premise/images/report-designer/compose-report/filter-data/after-reset-expression.png)
 
 ## Reordering
 

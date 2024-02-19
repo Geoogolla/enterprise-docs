@@ -15,8 +15,10 @@ To configure the Microsoft SQL Server data source, follow these steps:
 
 1. Click on the **Data** icon in the configuration panel.
    ![Data icon configuration panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/data-configuration-panel.png '#width=410px')
+
 2. In the `DATA` configuration panel, click on the `NEW DATA` button.
    ![Data icon configuration panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/new-data-button.png '#width=355px')
+
 3. In the connection type panel, choose the `SQL` data source type.
    ![Connection types panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/connection-types.png '#width=355px')
 

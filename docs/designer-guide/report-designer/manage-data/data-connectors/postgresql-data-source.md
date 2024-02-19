@@ -23,27 +23,18 @@ To configure the PostgreSQL data source, follow these steps:
 When you create a new data, the `NEW DATASOURCE` panel will show up with basic options,
 
 1. Specify the data source name without special characters, in **Name** field.
-
 2. In **Server Name** field, you need to specify the remote server name like `myserver.domain.com`.
-
 3. In **Port** field, you need to specify the Port number. Here, the default port number is `5432`.
-
 4. Specify the username of your PostgreSQL server in **Username** field.
-
 5. Specify the password of your PostgreSQL server in **Password** field.
-
 6. Enable the Save password option to embed the credentials within the report when saving it in Report Server.
-
 7. Choose or enter an existing valid database. e.g. Northwind.
-![Basic Option](/static/assets/on-premise/images/report-designer/manage-data/postgresql-data-source/basic-options.png '#width=355px')
-
+   ![Basic Option](/static/assets/on-premise/images/report-designer/manage-data/postgresql-data-source/basic-options.png '#width=355px')
 8. Click on the `Connect` to connect the Bold Reports with PostgreSQL database.
-
 9. Drag and drop the table from the table schema in the query design view page.
-![Query Designer](/static/assets/on-premise/images/report-designer/manage-data/postgresql-data-source/query-designer.png)
-
+   ![Query Designer](/static/assets/on-premise/images/report-designer/manage-data/postgresql-data-source/query-designer.png)
 10. Click `Finish` to save the data source with a relevant name to proceed with designing report.
-![Data List](/static/assets/on-premise/images/report-designer/manage-data/postgresql-data-source/data-list.png '#width=355px')
+   ![Data List](/static/assets/on-premise/images/report-designer/manage-data/postgresql-data-source/data-list.png '#width=355px')
 
 ### Create PostgreSQL data source with advanced options
 

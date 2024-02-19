@@ -30,7 +30,9 @@ This section guides you to link a shared datasource in Bold Report Designer.
 6. In **Name** field, specify the data source name without special characters.
 
 7. In **Shared DataSource** field, you can select an existing shared data sources in the server from the drop-down list.
-![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/datasource/save-new-shared-data-source.png '#width=385px')
+
+   ![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/datasource/save-new-shared-data-source.png '#width=385px')
+
 8. Now, click on the `Save` button and the new shared data source will be added in data list pane like below.
 
    ![Data source list view](/static/assets/on-premise/images/report-designer/manage-data/datasource/data-source-list-view.png '#width=385px')

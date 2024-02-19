@@ -23,17 +23,15 @@ To open the already created category, click any category in the left panel to vi
 To add a new category, you should have `Create All Categories` permission.
 Category can be added by the below ways,
 
-1. While publishing the designed report to the Report Server, `Create Category` option will be shown.
-   ![Publish report](/static/assets/on-premise/images/manage-categories/publish-report.png)
+1. While publishing the designed report to the Report Server, `New Category` option will be shown.
+    ![Publish report](/static/assets/on-premise/images/manage-categories/publish-report.png)
 2. While copying the reports from context menu of the report listing page.
     ![Publish report](/static/assets/on-premise/images/manage-categories/create-category.png)
 3. Click on the `[+]` icon from the toolbar and click on the `Create Category` option .
     ![Create category button](/static/assets/on-premise/images/manage-categories/create-category-button.png)
-
     Provide a name and description (optional) for the category and click **Add**.
-        ![Add a new category for reports](/static/assets/on-premise/images/manage-categories/add-category.png)
-
-> `Read, Write, Delete` permission for that `Specific Category` is provided to the user who created the category.
+    ![Add a new category for reports](/static/assets/on-premise/images/manage-categories/add-category.png)
+    > `Read, Write, Delete` permission for that `Specific Category` is provided to the user who created the category.
 
 ## Update category
 
@@ -42,7 +40,7 @@ To update the category name and description of the already created category, fol
 1. Click the settings option available in the category.
 2. Select **Update** from the context menu.
 3. Modify the name or description and click **Update**.
-![Update category name and description](/static/assets/on-premise/images/manage-categories/update-category.png)
+    ![Update category name and description](/static/assets/on-premise/images/manage-categories/update-category.png)
 
 ## Share category
 
@@ -51,17 +49,14 @@ You can set permissions to the categories to share with other users in the Repor
 ### Steps to share a category
 
 1. Click **Actions** in the category list context menu and select **Sharing Permissions**.
-![Select Sharing Permissions option](/static/assets/on-premise/images/manage-categories/category-setting-options.png)
+    ![Select Sharing Permissions option](/static/assets/on-premise/images/manage-categories/category-setting-options.png)
 2. Click the `Manage Access` button.
-![Set permissions to share a Category](/static/assets/on-premise/images/manage-categories/share-category.png)
-
+    ![Set permissions to share a Category](/static/assets/on-premise/images/manage-categories/share-category.png)
 3. Select the permission access and the users or groups to share the Category.
     ![Add permission to Category](/static/assets/on-premise/images/manage-categories/add-permission.png)
-
 4. After selecting the access and users or groups, click on the `Add` button.
-![Add button](/static/assets/on-premise/images/manage-categories/select-category-permission.png)
-
->Only the user who have permission can share the category with other Report Server users.
+    ![Add button](/static/assets/on-premise/images/manage-categories/select-category-permission.png)
+    > Only the user who have permission can share the category with other Report Server users.
 
 ### Remove Category permission
 

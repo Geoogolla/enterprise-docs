@@ -12,11 +12,11 @@ They convey a lot of information in a little space, often used in table and matr
 ## Add data bar to the report
 
 1. The data bar report item is listed in the item panel under the `KPI` category.
-![Data bar item in item panel](/static/assets/on-premise/images/report-designer/report-items/data-bar/item-panel.png '#width=145px')
+   ![Data bar item in item panel](/static/assets/on-premise/images/report-designer/report-items/data-bar/item-panel.png '#width=145px')
 2. Drag and drop the data bar report item into the design area or inside tablix cell from the item panel.
-![Drag and drop data bar report item into design area](/static/assets/on-premise/images/report-designer/report-items/data-bar/item-drag.png '#width=355px')
+   ![Drag and drop data bar report item into design area](/static/assets/on-premise/images/report-designer/report-items/data-bar/item-drag.png '#width=355px')
 3. After dropping the data bar item in the design area or inside tablix cell, the respective item properties will be listed in the properties panel.
-![Data bar item with properties view](/static/assets/on-premise/images/report-designer/report-items/data-bar/designer-area.png)
+   ![Data bar item with properties view](/static/assets/on-premise/images/report-designer/report-items/data-bar/designer-area.png)
 
 ## Create data
 
@@ -115,9 +115,9 @@ To set/reset no data message properties, refer [No Data Message](../chart/no-dat
 The page break property can be used to control the amount of information on each page when you preview the report. Follow the below steps to apply page break property for data bar report item.
 
 1. The Break Location property specifies where the page break should occur. Choose any `Break Location` type in the drop-down.
-![Break location](/static/assets/on-premise/images/report-designer/report-items/rectangle/break-location-types.png '#width=355px')
+   ![Break location](/static/assets/on-premise/images/report-designer/report-items/rectangle/break-location-types.png '#width=355px')
 2. To restart the page numbering on each page, enable `Page Number Reset` property checkbox.
-![Reset page number](/static/assets/on-premise/images/report-designer/report-items/rectangle/page-break-property.png '#width=355px')
+   ![Reset page number](/static/assets/on-premise/images/report-designer/report-items/rectangle/page-break-property.png '#width=355px')
 
 ### Position
 

@@ -23,11 +23,11 @@ Now, the `Parameters` dialog will be launched.
 ## Create a new dataset parameter
 
 1. To add a new dataset parameter, click on the `Add` icon.
-![Query joiner icon in enabled state](/static/assets/on-premise/images/report-designer/transforming-data/create-or-link-dataset-parameters/add-parameter.png '#width=400px')
+   ![Query joiner icon in enabled state](/static/assets/on-premise/images/report-designer/transforming-data/create-or-link-dataset-parameters/add-parameter.png '#width=400px')
 2. **Parameter Name** : In the **Parameter Name** text box, provide the name for the parameter.
 3. **Value** : In **Value** field, provide the value in the `=Parameters!SalesOrderID.Value` format.
 4. Click `OK` to save the dataset parameter.
-![Query joiner icon in enabled state](/static/assets/on-premise/images/report-designer/transforming-data/create-or-link-dataset-parameters/provide-values-in-fields.png '#width=400px')
+   ![Query joiner icon in enabled state](/static/assets/on-premise/images/report-designer/transforming-data/create-or-link-dataset-parameters/provide-values-in-fields.png '#width=400px')
 
 Repeat the above steps to create multiple dataset parameters.
 ![Query joiner icon in enabled state](/static/assets/on-premise/images/report-designer/transforming-data/create-or-link-dataset-parameters/multiple-parameters.png '#width=400px')
@@ -42,20 +42,20 @@ Once you save the dataset, an equivalent report parameters will be created under
 The **Value** field in dataset parameter can contain an expression that evaluates to a value, to pass to the query parameter.
 
 1. To set expression, click on the square icon and select `Expression`.
-![Expression icon ](/static/assets/on-premise/images/report-designer/transforming-data/create-or-link-dataset-parameters/expression-icon-value-field.png '#width=400px')
+   ![Expression icon ](/static/assets/on-premise/images/report-designer/transforming-data/create-or-link-dataset-parameters/expression-icon-value-field.png '#width=400px')
 2. It will launch the expression dialog like below.
-![Expression dialog](/static/assets/on-premise/images/report-designer/transforming-data/create-or-link-dataset-parameters/expression-dialog.png '#width=450px')
+   ![Expression dialog](/static/assets/on-premise/images/report-designer/transforming-data/create-or-link-dataset-parameters/expression-dialog.png '#width=450px')
 3. Refer [Expression](./../../compose-report/expressions/) section to know more about the handling expressions in Report Designer. Here, the `SalesOrderID` field is assigned as expression for `SalesOrderID` parameter.
-![Assign data field as expression](/static/assets/on-premise/images/report-designer/transforming-data/create-or-link-dataset-parameters/aasign-data-fields.png '#width=450px')
+   ![Assign data field as expression](/static/assets/on-premise/images/report-designer/transforming-data/create-or-link-dataset-parameters/aasign-data-fields.png '#width=450px')
 4. The icon will be indicated in `Black color`, if the expression is applied to the value field.
-![Expression indication](/static/assets/on-premise/images/report-designer/transforming-data/create-or-link-dataset-parameters/expression-set-indication.png '#width=400px')
+   ![Expression indication](/static/assets/on-premise/images/report-designer/transforming-data/create-or-link-dataset-parameters/expression-set-indication.png '#width=400px')
 
 ### Reset Expression
 
 1. To reset the applied expression in **Value** field, click on the square icon and select `Reset`.
-![Select reset expression](/static/assets/on-premise/images/report-designer/transforming-data/create-or-link-dataset-parameters/reset-expression-option.png '#width=400px')
+   ![Select reset expression](/static/assets/on-premise/images/report-designer/transforming-data/create-or-link-dataset-parameters/reset-expression-option.png '#width=400px')
 2. The icon will be indicated in `White color`, after reset action.
-![After reset expression](/static/assets/on-premise/images/report-designer/transforming-data/create-or-link-dataset-parameters/expression-reset-indication.png '#width=400px')
+   ![After reset expression](/static/assets/on-premise/images/report-designer/transforming-data/create-or-link-dataset-parameters/expression-reset-indication.png '#width=400px')
 
 ## Reorder parameters
 
@@ -68,11 +68,11 @@ The below snap depicts the parameter list before reordering the parameters.
 To change the order of the dataset parameters after creating it, follow the below steps.
 
 1. Click and hold the icon in the left corner of **Parameter Name** field.
- ![Query joiner icon in enabled state](/static/assets/on-premise/images/report-designer/transforming-data/create-or-link-dataset-parameters/gripper-icon-to-perform-drag-action.png '#width=400px')
+   ![Query joiner icon in enabled state](/static/assets/on-premise/images/report-designer/transforming-data/create-or-link-dataset-parameters/gripper-icon-to-perform-drag-action.png '#width=400px')
 2. Then drag and move the dataset parameter field to higher or lower position in the list.
-![Query joiner icon in enabled state](/static/assets/on-premise/images/report-designer/transforming-data/create-or-link-dataset-parameters/drag-start-action.png '#width=400px')
+   ![Query joiner icon in enabled state](/static/assets/on-premise/images/report-designer/transforming-data/create-or-link-dataset-parameters/drag-start-action.png '#width=400px')
 3. Drop the dataset parameter field in desired position.
-![Query joiner icon in enabled state](/static/assets/on-premise/images/report-designer/transforming-data/create-or-link-dataset-parameters/drag-action-demo.png '#width=400px')
+   ![Query joiner icon in enabled state](/static/assets/on-premise/images/report-designer/transforming-data/create-or-link-dataset-parameters/drag-action-demo.png '#width=400px')
 
 The below snap depicts the parameter list after reordering the parameters.
 
@@ -102,10 +102,10 @@ Refer [Create query parameter](./../../transforming-data/define-query-parameters
 The following steps guides to link a query parameter with a report parameter.
 
 1. Open the dataset `Parameters` dialog, the available query parameters in the dataset query will be automatically listed in the dialog.
-![Query joiner icon in enabled state](/static/assets/on-premise/images/report-designer/transforming-data/create-or-link-dataset-parameters/parameter-list-on-open-action.png '#width=400px')
+   ![Query joiner icon in enabled state](/static/assets/on-premise/images/report-designer/transforming-data/create-or-link-dataset-parameters/parameter-list-on-open-action.png '#width=400px')
 2. In the list find the parameter name to which you want to link a report parameter.
 3. **Value** Field: The available report parameters in the report will be listed in the **Value** field drop-down. Choose a report parameter to which you want to link the respective query parameter.
-![Query joiner icon in enabled state](/static/assets/on-premise/images/report-designer/transforming-data/create-or-link-dataset-parameters/value-field-drop-down.png '#width=400px')
+   ![Query joiner icon in enabled state](/static/assets/on-premise/images/report-designer/transforming-data/create-or-link-dataset-parameters/value-field-drop-down.png '#width=400px')
 4. Click on the `OK` button to save the parameter linking state.
 
 In the below snap, `SalesOrderID` report parameter is linked with a `SalesOrderID` query parameter.

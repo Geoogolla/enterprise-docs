@@ -11,11 +11,11 @@ The radial gauges are degrees of circular to represent key performance indicatio
 ## Add a radial gauge to the report
 
 1. The radial gauge report item is listed in the item panel under the `Deviation category`.
-![Radial gauge item in item panel](/static/assets/on-premise/images/report-designer/report-items/gauge/radial-gauge/item-panel.png '#width=145px')
+   ![Radial gauge item in item panel](/static/assets/on-premise/images/report-designer/report-items/gauge/radial-gauge/item-panel.png '#width=145px')
 2. Drag the radial gauge report item into the design area from the item panel.
-![Drag the radial gauge report item into design area](/static/assets/on-premise/images/report-designer/report-items/gauge/radial-gauge/item-drag.png '#width=355px')
+   ![Drag the radial gauge report item into design area](/static/assets/on-premise/images/report-designer/report-items/gauge/radial-gauge/item-drag.png '#width=355px')
 3. After dropping the radial gauge item in the design area, the respective item properties will be listed in the properties panel.
-![Radial gauge item with properties view](/static/assets/on-premise/images/report-designer/report-items/gauge/radial-gauge/designer-area.png)
+   ![Radial gauge item with properties view](/static/assets/on-premise/images/report-designer/report-items/gauge/radial-gauge/designer-area.png)
 
 ## Properties
 

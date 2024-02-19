@@ -19,6 +19,7 @@ Grouping can be used to organize and group data in data regions by a field value
 2. Based on the dataset assigned to the data region, dataset fields will be listed in this drop-down or else click on the square icon to set an [Expression](./../../compose-report/group-data/#set-expression).
 
     ![open-expression](/static/assets/on-premise/images/report-designer/compose-report/sort-data/expression-field.png '#width=200px')
+
 3. Click OK.
 4. To add multiple group expression, follow steps 1 - 3.
 
@@ -42,10 +43,10 @@ Follow steps 1 - 3, to add group expression.
 ## Reset Expression
 
 1. To reset an expression, click on the square icon and select `Reset`.
-![Select reset expression](/static/assets/on-premise/images/report-designer/compose-report/group-data/group-reset.png '#width=300px')
+   ![Select reset expression](/static/assets/on-premise/images/report-designer/compose-report/group-data/group-reset.png '#width=300px')
 
 2. The icon will be indicated in `White color`, after reset action.
-![After reset expression](/static/assets/on-premise/images/report-designer/compose-report/group-data/after-reset-expression.png)
+   ![After reset expression](/static/assets/on-premise/images/report-designer/compose-report/group-data/after-reset-expression.png)
 
 ## Reordering
 

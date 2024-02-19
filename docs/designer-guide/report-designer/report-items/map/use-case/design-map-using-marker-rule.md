@@ -10,22 +10,22 @@ The following steps guides you to design a map using marker rule and color rule 
 ## Create data set
 
 1. In the data panel, click `New Data`.
-![New data](/static/assets/on-premise/images/report-designer/report-items/map/marker-rule-use-case/new-data.png '#width=350px')
+   ![New data](/static/assets/on-premise/images/report-designer/report-items/map/marker-rule-use-case/new-data.png '#width=350px')
 2. Choose the `JSON` connection type.
-![JSON connection](/static/assets/on-premise/images/report-designer/report-items/map/marker-rule-use-case/sql-connection.png '#width=350px')
+   ![JSON connection](/static/assets/on-premise/images/report-designer/report-items/map/marker-rule-use-case/sql-connection.png '#width=350px')
 3. Choose `File` as `Type`.
-![Choose source type](/static/assets/on-premise/images/report-designer/report-items/map/marker-rule-use-case/type.png '#width=385px')
+   ![Choose source type](/static/assets/on-premise/images/report-designer/report-items/map/marker-rule-use-case/type.png '#width=385px')
 4. Click on the upload button, browse and upload the JSON file in `File Path` field.
-![Provide connection details](/static/assets/on-premise/images/report-designer/report-items/map/marker-rule-use-case/connection-details.png '#width=385px')
+   ![Provide connection details](/static/assets/on-premise/images/report-designer/report-items/map/marker-rule-use-case/connection-details.png '#width=385px')
 5. Click on the `Connect` button.
 6. In the query builder, the available fields in JSON file will be loaded under default table name, `Result`.
-![Enter query](/static/assets/on-premise/images/report-designer/report-items/map/marker-rule-use-case/query-designer.png)
+   ![Enter query](/static/assets/on-premise/images/report-designer/report-items/map/marker-rule-use-case/query-designer.png)
 7. Drag and drop the `Result` table and execute.
-![Execute table](/static/assets/on-premise/images/report-designer/report-items/map/marker-rule-use-case/execute-query.png)
+   ![Execute table](/static/assets/on-premise/images/report-designer/report-items/map/marker-rule-use-case/execute-query.png)
 8. Modify the data set `Name` and click Finish.
-![Data list](/static/assets/on-premise/images/report-designer/report-items/map/marker-rule-use-case/data-list.png '#width=375px')
+   ![Data list](/static/assets/on-premise/images/report-designer/report-items/map/marker-rule-use-case/data-list.png '#width=375px')
 
->Note: This Data is created on our own for demonstration purpose. Download the sample JSON file from [here](https://www.syncfusion.com/downloads/support/directtrac/general/ze/mineralresources-1752410690).
+> Note: This Data is created on our own for demonstration purpose. Download the sample JSON file from [here](https://www.syncfusion.com/downloads/support/directtrac/general/ze/mineralresources-1752410690).
 
 ## Add map to the report design
 

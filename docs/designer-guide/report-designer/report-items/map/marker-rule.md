@@ -24,13 +24,13 @@ Once you enable the marker rule, other properties required for defining marker s
 This option can be used to define any number of marker style sets based on your desired output. To define marker styles, follow these steps:
 
 1. Click on the edit icon for the `Markers` property.
-![Markers style](/static/assets/on-premise/images/report-designer/report-items/map/marker-rule/edit-icon.png '#width=355px')
+   ![Markers style](/static/assets/on-premise/images/report-designer/report-items/map/marker-rule/edit-icon.png '#width=355px')
 2. Now, you will be taken to the **Map Marker** panel.
-![Edit analytical and spatial link](/static/assets/on-premise/images/report-designer/report-items/map/marker-rule/panel.png '#width=355px')
+   ![Edit analytical and spatial link](/static/assets/on-premise/images/report-designer/report-items/map/marker-rule/panel.png '#width=355px')
 3. Click on the **ADD** icon in the top-right corner. A new field with option to set marker style will be added in the panel.
-![Add new marker style](/static/assets/on-premise/images/report-designer/report-items/map/marker-rule/add-field.png '#width=355px')
+   ![Add new marker style](/static/assets/on-premise/images/report-designer/report-items/map/marker-rule/add-field.png '#width=355px')
 4. Set the desired style in the marker style field.
-![Set marker style](/static/assets/on-premise/images/report-designer/report-items/map/marker-rule/set-style.png '#width=355px')
+   ![Set marker style](/static/assets/on-premise/images/report-designer/report-items/map/marker-rule/set-style.png '#width=355px')
 5. Click on the **Update**.
 
 You can also set marker style based on dynamic values, by using the `Expressions`. Refer [Set Expressions](./../../../compose-report/properties-panel/#set-expression) and [Reset Expressions](./../../../compose-report/properties-panel/#reset-expression) section to open set/reset expression menu in properties panel. Click on the square icon in the right side of the each field to open expression menu,

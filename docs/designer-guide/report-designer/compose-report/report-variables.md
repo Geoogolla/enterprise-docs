@@ -18,13 +18,13 @@ At run time, the value of report variables is calculated once and is maintained 
 For example, we may want to add report printing time in each page of the report, but using direct expression in a text box will print different time in each page. To get round this problem, we can create a report variable to hold the same time in each page. To create a report variable follow the below steps,
 
 1. The report variables property is listed under Report properties. Click on the Properties icon to open Report Properties.
-![Report properties](/static/assets/on-premise/images/report-designer/compose-report/report-variables/report-properties.png '#width=350px')
+   ![Report properties](/static/assets/on-premise/images/report-designer/compose-report/report-variables/report-properties.png '#width=350px')
 2. The report variable option is provided under the **Code** category.
-![Property category](/static/assets/on-premise/images/report-designer/compose-report/report-variables/variables-option.png '#width=350px')
+   ![Property category](/static/assets/on-premise/images/report-designer/compose-report/report-variables/variables-option.png '#width=350px')
 3. Click on the editor icon, to open the **Variables** panel.
-![Open variables panel](/static/assets/on-premise/images/report-designer/compose-report/report-variables/edit-icon.png '#width=350px')
+   ![Open variables panel](/static/assets/on-premise/images/report-designer/compose-report/report-variables/edit-icon.png '#width=350px')
 4. Click on the ADD icon in the top right corner, to add new variable field.
-![Add new variable field](/static/assets/on-premise/images/report-designer/compose-report/report-variables/add-option.png '#width=300px')
+   ![Add new variable field](/static/assets/on-premise/images/report-designer/compose-report/report-variables/add-option.png '#width=300px')
 5. Enter the name of the variable in **Name** field.
    > Note: A name should start with an alphabet character and it should not contain spaces and special characters except underscore.
 6. In value field, enter the direct value in the text field or click on the small square icon to enter an expression.

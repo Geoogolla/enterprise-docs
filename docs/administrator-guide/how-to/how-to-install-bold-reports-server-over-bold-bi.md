@@ -126,7 +126,7 @@ Follow the below steps to install Bold Reports server over Bold BI in azure app 
 
     ![Add Key and Value](/static/assets/on-premise/images/how-to/azure-combination-deployment/add-configuration-settings.png)
 
-25. Click `General Settings` and select .NET Version to **.NET 5**.
+25. Click `General Settings` and select .NET Version to **.NET 6**.
 
     <table>
     <tr>
@@ -136,7 +136,7 @@ Follow the below steps to install Bold Reports server over Bold BI in azure app 
 
     <tr>
     <td>.NET version</td>
-    <td>.NET 5</td>
+    <td>.NET 6</td>
     </tr>
     </table>
 

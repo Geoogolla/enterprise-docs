@@ -12,11 +12,11 @@ They represents multiple data points, often used in table and matrices.
 ## Add sparkline to the report
 
 1. The sparkline report item is listed in the item panel under the `KPI` category.
-![Sparkline item in item panel](/static/assets/on-premise/images/report-designer/report-items/sparkline/item-panel.png '#width=125px')
+   ![Sparkline item in item panel](/static/assets/on-premise/images/report-designer/report-items/sparkline/item-panel.png '#width=125px')
 2. Drag and drop the sparkline report item into the design area or inside tablix cell from the item panel.
-![Drag and drop sparkline report item into design area](/static/assets/on-premise/images/report-designer/report-items/sparkline/item-drag.png '#width=385px')
+   ![Drag and drop sparkline report item into design area](/static/assets/on-premise/images/report-designer/report-items/sparkline/item-drag.png '#width=385px')
 3. After dropping the sparkline item in the design area or inside tablix cell, the respective item properties will be listed in the properties panel.
-![Sparkline item with properties view](/static/assets/on-premise/images/report-designer/report-items/sparkline/designer-area.png '#width=410px')
+   ![Sparkline item with properties view](/static/assets/on-premise/images/report-designer/report-items/sparkline/designer-area.png '#width=410px')
 
 ## Create data
 
@@ -115,9 +115,9 @@ To set/reset no data message properties, refer [No Data Message](../chart/no-dat
 The page break property can be used to control the amount of information on each page when you preview the report. Follow the below steps to apply page break property for sparkline report item.
 
 1. The Break Location property specifies where the page break should occur. Choose any `Break Location` type in the drop-down.
-![Break location](/static/assets/on-premise/images/report-designer/report-items/rectangle/break-location-types.png '#width=315px')
+   ![Break location](/static/assets/on-premise/images/report-designer/report-items/rectangle/break-location-types.png '#width=315px')
 2. To restart the page numbering on each page, enable `Page Number Reset` property checkbox.
-![Reset page number](/static/assets/on-premise/images/report-designer/report-items/rectangle/page-break-property.png '#width=315px')
+   ![Reset page number](/static/assets/on-premise/images/report-designer/report-items/rectangle/page-break-property.png '#width=315px')
 
 ### Position
 
