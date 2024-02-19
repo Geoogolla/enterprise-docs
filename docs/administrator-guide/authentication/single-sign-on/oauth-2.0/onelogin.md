@@ -51,15 +51,15 @@ This section explains how to perform Single Sign-On(SSO) for users in OneLogin w
 
    ![Redirecturi in setting](/static/assets/on-premise/images/authentication/single-sign-on/oauth/onelogin/login-redirect-uri.png)
 
-9. Click `SSO` tab, you will find the `Client ID` and `Client Secret` and use it in the Bold Reports application.
+9. Click on the `SSO` tab to locate the `Client ID` and `Client Secret`, then utilize them in the Bold Reports application.
 
    ![OneLoginClient details](/static/assets/on-premise/images/authentication/single-sign-on/oauth/onelogin/onelogin-client-secret.png)
 
-After successful registration in OneLogin, save these settings in Bold Reports settings page to enable this authentication.
+After successful registering in OneLogin, save these settings on the Bold Reports settings page to enable this authentication.
 
 ## Enable OneLogin authentication in Bold Reports
 
-Configure the settings in Bold Reports as in the following snap to enable the authentication using OneLogin.
+Configure the settings in Bold Reports as shown in the following snapshot to enable authentication using OneLogin.
 
   ![OneLogin settings](/static/assets/on-premise/images/authentication/single-sign-on/oauth/onelogin/configure-boldreport-onelogin.png)
 
@@ -79,7 +79,7 @@ The fields to be saved in the Bold Reports to enable the OneLogin for authentica
 
 <tr>
 <td>Authorization Endpoint</td>
-<td>It should be in the format <span style="color:#0c9dd1">https://subdomain.onelogin.com/oidc/auth</span> Please refer <a href="https://developers.onelogin.com/openid-connect/api/authorization-code">here</a> for more details.
+<td>The format should be as follows: <span style="color:#0c9dd1">https://subdomain.onelogin.com/oidc/auth</span>. For more details, please refer <a href="https://developers.onelogin.com/openid-connect/api/authorization-code">here</a>.
 </td>
 </tr>
 
@@ -90,7 +90,7 @@ The fields to be saved in the Bold Reports to enable the OneLogin for authentica
 
 <tr>
 <td>Token Endpoint</td>
-<td>It should be in the format <span style="color:#0c9dd1">https://subdomain.onelogin.com/oidc/token</span> Please refer <a href="https://developers.onelogin.com/openid-connect/api/authorization-code-grant">here</a> for more details.</td>
+<td>The format should be as follows: <span style="color:#0c9dd1">https://subdomain.onelogin.com/oidc/token</span>. For more details, please refer <a href="https://developers.onelogin.com/openid-connect/api/authorization-code-grant">here</a></td>
 </tr>
 
 <tr>
@@ -100,17 +100,17 @@ The fields to be saved in the Bold Reports to enable the OneLogin for authentica
 
 <tr>
 <td>User Information Endpoint</td>
-<td>It should be in the format <span style="color:#0c9dd1">https://subdomain.onelogin.com/oidc/me</span> Please refer <a href="https://developers.onelogin.com/openid-connect/api/user-info">here</a> for more details.
+<td>The format should be as follows: <span style="color:#0c9dd1">https://subdomain.onelogin.com/oidc/me</span>. For more details, please refer <a href="https://developers.onelogin.com/openid-connect/api/user-info">here</a>.
 </tr>
 
 <tr>
 <td>Client ID</td>
-<td>The Client ID you get after registered the Bold Reports application in OneLogin website.</td>
+<td>The Client ID is obtained after registering the Bold Reports application on the OneLogin website.</td>
 </tr>
 
 <tr>
 <td>Client Secret</td>
-<td>The Client Secret you get after registered the Bold Reports application in OneLogin website.</td>
+<td>The Client Secret is obtained after registering the Bold Reports application on the OneLogin website.</td>
 </tr>
 
 <tr>
@@ -120,7 +120,7 @@ The fields to be saved in the Bold Reports to enable the OneLogin for authentica
 
 <tr>
 <td>Email</td>
-<td>This must be the email of an admin account of OneLogin website.</td>
+<td>This must be the email of an admin account on the OneLogin website.</td>
 </tr>
 
 </table>
