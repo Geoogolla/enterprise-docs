@@ -6,7 +6,7 @@ platform: report-platform
 documentation: ug
 ---
 
-# Single Sign-On(SSO) with OneLogin authentication in Bold Reports
+# Single Sign-On (SSO) with OneLogin authentication in Bold Reports
 
 Users can be added to the Bold Reports application using the OneLogin provider. Once imported, you can share reports and email exported reports with them.
 
@@ -43,7 +43,7 @@ This section explains how to perform Single Sign-On(SSO) for users in OneLogin w
 
    ![Applicationname](/static/assets/on-premise/images/authentication/single-sign-on/oauth/onelogin/oneloginname.png)
 
-7. Click the `Configuration` tab and save the `Redirect URI's` and `Login Url`. For Bold Reports mobile application, use the `Mobile App Redirect URI`, and for the web application, use the `Redirect URI`.
+7. Click the `Configuration` tab and save the `Redirect URI's` and `Login Url`.
 
    ![Redirect URI](/static/assets/on-premise/images/authentication/single-sign-on/oauth/onelogin/onelogin-save-redirect-uri.png)
 

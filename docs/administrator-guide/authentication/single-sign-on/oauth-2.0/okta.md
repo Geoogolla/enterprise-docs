@@ -113,7 +113,7 @@ The fields to be saved in the Bold Reports to enable Okta for authentication are
         User Information Endpoint
     </td>
     <td>
-        It should be in the format <span style="color:#0c9dd1">${baseUrl}/v1/token</span>. Please refer <span href="https://developer.okta.com/docs/reference/api/oidc/#userinfo">here, for more details.
+        It should be in the format <span style="color:#0c9dd1">${baseUrl}/v1/token</span>. Please refer <a href="https://developer.okta.com/docs/reference/api/oidc/#userinfo">here</a>, for more details.
     </td>
 </tr>
 </tr>
