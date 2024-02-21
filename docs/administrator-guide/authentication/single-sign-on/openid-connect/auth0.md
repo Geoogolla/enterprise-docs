@@ -8,8 +8,6 @@ documentation: ug
 
 # Single Sign-On (SSO) with Auth0 authentication in Bold Reports
 
-Users can be added to the Bold Reports application using the Auth0 provider. By importing them, you can share the reports and email exported reports with them.
-
 Bold Reports application supports adding users using the Auth0 provider. By importing them, you can share the reports and email exported reports with them.
 
 ## How to register the Bold Reports application in Auth0

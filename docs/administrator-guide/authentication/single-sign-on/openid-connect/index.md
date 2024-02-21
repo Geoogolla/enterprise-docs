@@ -88,6 +88,7 @@ Following is a list of few OpenID Connect providers, and that explains how to co
 * [Auth0](./../openid-connect/auth0/)
 * [Okta](./../openid-connect/okta/)
 * [OneLogin](./../openid-connect/onelogin/)
+* [keycloak](./../openid-connect/keycloak/)
 
 OpenID Connect is provided on both the Bold Reports sites and the User Management Server. It can be managed individually for each site on the settings page by disabling the option, as shown in the following screenshot.
 
