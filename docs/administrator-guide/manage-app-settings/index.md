@@ -8,7 +8,7 @@ documentation: ug
 
 # Settings
 
-Settings in Bold Reports Report Server stores valuable information required for the application to use. Admin users only can use the following settings in Bold Reports Report Server.
+The settings in Bold Reports Report Server store valuable information necessary for the application's functioning. Only admin users are permitted to utilize the following settings in Bold Reports Report Server:
 
 * [Site Settings](./../../administrator-guide/custom-rebranding/)
 
