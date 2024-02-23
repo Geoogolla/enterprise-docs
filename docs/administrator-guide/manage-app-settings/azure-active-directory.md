@@ -11,7 +11,7 @@ This section explains what [Azure Active Directory](https://www.microsoft.com/en
 
 ## Steps to register the Bold Reports application in Azure Active Directory to import users and groups
 
-You may consult the [documentation](./../../how-to/set-up-azure-active-directory/#steps-to-register-bold-reports-on-premise-application-in-azure-active-directory) for guidance on registering the Bold Reports application in Azure Active Directory to facilitate the importation of users and groups.
+You may consult the [documentation](https://help.boldreports.com/enterprise-reporting/administrator-guide/how-to/set-up-azure-active-directory/#steps-to-register-bold-reports-on-premise-application-in-azure-active-directory) for guidance on registering the Bold Reports application in Azure Active Directory to facilitate the importation of users and groups.
 
 ## Configure Azure Active Directory details in Bold Reports to import users and groups
 
