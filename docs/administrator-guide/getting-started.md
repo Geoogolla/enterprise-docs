@@ -45,5 +45,5 @@ Please follow the below steps to install the Bold Reports Enterprise Reporting b
 
 ### See Also
 
-* [Installation and Deployment](./../installation/windows-installer/)
+* [Installation and Deployment](./../installation/windows-installer/installation-and-deployment/)
 * [Application Startup](./../application-startup/)
