@@ -31,7 +31,7 @@ When you create a new data, the `NEW DATASOURCE` panel will show up with basic o
 
 Click on the `Connect` to proceed with query design pane. Now, enter the required query and execute. Its corresponding values will be shown in grid for preview.
 
-![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/cdata-data-source/execute-schema.png '#width=425px')
+![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/cdata-data-source/execute-schema.png '#width=600px')
 
 Click `Finish` to save the data source with a relevant name to proceed with designing report.
 

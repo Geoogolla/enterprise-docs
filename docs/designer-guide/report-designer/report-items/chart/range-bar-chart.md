@@ -172,7 +172,7 @@ The border style, color, width, and background color properties can be used to s
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/range-bar-chart/appearance-property.png '#width=385px')
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/range-bar-chart/appearance-design.png '#width=425px')
+![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/range-bar-chart/appearance-design.png)
 
 ### Chart Area
 

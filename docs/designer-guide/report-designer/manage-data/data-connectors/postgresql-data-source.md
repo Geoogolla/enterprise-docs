@@ -34,7 +34,7 @@ When you create a new data, the `NEW DATASOURCE` panel will show up with basic o
 9. Drag and drop the table from the table schema in the query design view page.
    ![Query Designer](/static/assets/on-premise/images/report-designer/manage-data/postgresql-data-source/query-designer.png)
 10. Click `Finish` to save the data source with a relevant name to proceed with designing report.
-   ![Data List](/static/assets/on-premise/images/report-designer/manage-data/postgresql-data-source/data-list.png '#width=355px')
+    ![Data List](/static/assets/on-premise/images/report-designer/manage-data/postgresql-data-source/data-list.png '#width=355px')
 
 ### Create PostgreSQL data source with advanced options
 

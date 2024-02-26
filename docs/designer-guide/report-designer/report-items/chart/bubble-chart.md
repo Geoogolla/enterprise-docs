@@ -246,7 +246,7 @@ Data element can be used to control visibility of a report item when exporting t
 
 You can assign a custom name for the chart element using the `Name` field. The chart report item will be exported with the provided name.
 
-![Data element name property](/static/assets/on-premise/images/report-designer/report-items/tablix/name-property.png '#width=5355px')
+![Data element name property](/static/assets/on-premise/images/report-designer/report-items/tablix/name-property.png '#width=355px')
 
 > Note: The name cannot contain spaces, and it must begin with a letter followed by letters, numbers, or the underscore character (_).
 
@@ -292,8 +292,8 @@ Tooltip property can be used to display informative text or value, when the user
 ## Preview report
 
 1. The final report design looks like below.
-   ![Preview icon in design view](/static/assets/on-premise/images/report-designer/report-items/chart/bubble-chart/preview-icon.png '#width=445px')
+   ![Preview icon in design view](/static/assets/on-premise/images/report-designer/report-items/chart/bubble-chart/preview-icon.png '#width=600px')
 2. Now, the report preview can be visualized like below.
-   ![Chart report preview](/static/assets/on-premise/images/report-designer/report-items/chart/bubble-chart/report-preview-page.png '#width=445px')
+   ![Chart report preview](/static/assets/on-premise/images/report-designer/report-items/chart/bubble-chart/report-preview-page.png '#width=600px')
 
 > Download the above report design from [link](https://github.com/boldreports/resources/tree/master/docs/report-designer/chart/bubble-chart.rdl).

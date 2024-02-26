@@ -73,7 +73,7 @@ After writing your query, click the `Execute` option in the tools pane. You can 
 
 If you tried to switch back design view by disabling the Code Slider in tools pane, you will be prompted with an alert message to remove your query for confirmation as proceeding with this action, will reset the code view query.
 
-![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/aws-opensearch-data-source/switcher-alert.png '#width=415px')
+![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/aws-opensearch-data-source/switcher-alert.png '#width=650px')
 
 Clicking `Yes` will discard the query and take you to design view, otherwise click `No`. Save the data source by clicking the `Finish` button.
 

@@ -24,8 +24,8 @@ Now, the `Parameters` dialog will be launched.
 
 1. To add a new dataset parameter, click on the `Add` icon.
    ![Query joiner icon in enabled state](/static/assets/on-premise/images/report-designer/transforming-data/create-or-link-dataset-parameters/add-parameter.png '#width=400px')
-2. **Parameter Name** : In the **Parameter Name** text box, provide the name for the parameter.
-3. **Value** : In **Value** field, provide the value in the `=Parameters!SalesOrderID.Value` format.
+2. **Parameter Name**: In the **Parameter Name** text box, provide the name for the parameter.
+3. **Value**: In **Value** field, provide the value in the `=Parameters!SalesOrderID.Value` format.
 4. Click `OK` to save the dataset parameter.
    ![Query joiner icon in enabled state](/static/assets/on-premise/images/report-designer/transforming-data/create-or-link-dataset-parameters/provide-values-in-fields.png '#width=400px')
 

@@ -83,14 +83,14 @@ Refer the [Pie chart](./../../report-items/data-bar/design-ssrs-data-bar-using-t
 
 Now, click on the `Preview` button and the report preview will look like normal pie chart.
 
-![Main report preview](/static/assets/on-premise/images/report-designer/compose-report/create-ssrs-drill-through-report/report-preview.png '#width=350px')
+![Main report preview](/static/assets/on-premise/images/report-designer/compose-report/create-ssrs-drill-through-report/report-preview.png '#width=600px')
 
 Then click on any series in the report preview,
 
-![Main report preview](/static/assets/on-premise/images/report-designer/compose-report/create-ssrs-drill-through-report/click-on-series.png '#width=350px')
+![Main report preview](/static/assets/on-premise/images/report-designer/compose-report/create-ssrs-drill-through-report/click-on-series.png '#width=600px')
 
 The sub-report displays sub-category wise sales amount of `Bikes` product. Click on the `Go to parent` icon to navigate from sub-report to main report.
 
-![Drill through report](/static/assets/on-premise/images/report-designer/compose-report/create-ssrs-drill-through-report/drill-through-report.png '#width=350px')
+![Drill through report](/static/assets/on-premise/images/report-designer/compose-report/create-ssrs-drill-through-report/drill-through-report.png '#width=550px')
 
 > Download the above report design from the links - [Parent report](https://github.com/boldreports/resources/tree/master/docs/report-designer/compose-report/create-ssrs-drill-through-report-pie-chart.rdl) and [Child report](https://github.com/boldreports/resources/tree/master/docs/report-designer/compose-report/create-ssrs-drill-through-report-databar.rdl)

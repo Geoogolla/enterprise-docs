@@ -74,6 +74,6 @@ To highlight the table rows which has the `Country` value selected in parameter 
 
 On report preview, select the country in the parameter drop-down and click on the `View Report` button. Now, based on the selected country the rows which contains the selected country name will be highlighted as shown below.
 
-![Open group menu](/static/assets/on-premise/images/report-designer/report-items/tablix-conditional-formatting/conditional-fomatting-output.png '#width=425px')
+![Open group menu](/static/assets/on-premise/images/report-designer/report-items/tablix-conditional-formatting/conditional-fomatting-output.png '#width=550px')
 
 > Download the above report design from [link](https://github.com/boldreports/resources/tree/master/docs/report-designer/tablix/conditional-formatting-tablix-data-region.rdl).

@@ -16,7 +16,7 @@ When you create a report design with nested data regions, the dataset assigned t
 
 If the chart data region is nested within a table, the `Data` tab of the chart report item will be in the disabled state until you assign data to the table report item.
 
-![Tablix listed in item panel](/static/assets/on-premise/images/report-designer/report-items/tablix-nested-data-regions/assign-data-to-chart-initial-view.png '#width=425px')
+![Tablix listed in item panel](/static/assets/on-premise/images/report-designer/report-items/tablix-nested-data-regions/assign-data-to-chart-initial-view.png '#width=600px')
 
 To enable the `Data` panel for chart report item, select the table report item and assign the dataset in the `Dataset` property using properties panel.
 
@@ -24,21 +24,21 @@ To enable the `Data` panel for chart report item, select the table report item a
 
 Now, select the nested chart report item in the table cell and notice the `Data` panel is in enabled state.
 
-![Tablix listed in item panel](/static/assets/on-premise/images/report-designer/report-items/tablix-nested-data-regions/assign-data-to-chart-enabled-view.png '#width=425px')
+![Tablix listed in item panel](/static/assets/on-premise/images/report-designer/report-items/tablix-nested-data-regions/assign-data-to-chart-enabled-view.png '#width=600px')
 
 Switch to the `Data` tab and assign data fields to the chart.
 
-![Tablix listed in item panel](/static/assets/on-premise/images/report-designer/report-items/tablix-nested-data-regions/chart-data-panel-full-view.png '#width=425px')
+![Tablix listed in item panel](/static/assets/on-premise/images/report-designer/report-items/tablix-nested-data-regions/chart-data-panel-full-view.png '#width=600px')
 
 ### Assign data to the nested tablix region
 
 If any of the tablix data region is nested within another tablix region, the `Dataset` property for the nested tablix region will not available in the tablix properties.
 
-![Tablix listed in item panel](/static/assets/on-premise/images/report-designer/report-items/tablix-nested-data-regions/assign-data-for-nested-table.png '#width=425px')
+![Tablix listed in item panel](/static/assets/on-premise/images/report-designer/report-items/tablix-nested-data-regions/assign-data-for-nested-table.png '#width=600px')
 
 So to assign data to the nested tablix region, select the parent data region and assign the dataset in the `Dataset` property using properties panel.
 
-![Tablix listed in item panel](/static/assets/on-premise/images/report-designer/report-items/tablix-nested-data-regions/assign-data-to-parent-data-region.png '#width=425px')
+![Tablix listed in item panel](/static/assets/on-premise/images/report-designer/report-items/tablix-nested-data-regions/assign-data-to-parent-data-region.png '#width=600px')
 
 Now, select a cell in nested tablix region and open the data assign menu. The available fields in the respective dataset will be listed in the data assign menu, from then you can assign data to the nested tablix region.
 
@@ -75,7 +75,7 @@ The data bind to the nested data regions, based on the position of the nested da
 3. Select the `List` report item and choose the dataset in the `Dataset` property using property panel.
    ![Assign data to the list](/static/assets/on-premise/images/report-designer/report-items/tablix-nested-data-regions/assign-dataset-to-list.png '#width=315px')
 4. In the Row Grouping pane, click on the `(Details)` field, now the tablix member properties will be listed in the properties panel.
-   ![Assign data to the list](/static/assets/on-premise/images/report-designer/report-items/tablix-nested-data-regions/open-details-group-properties.png '#width=410px')
+   ![Assign data to the list](/static/assets/on-premise/images/report-designer/report-items/tablix-nested-data-regions/open-details-group-properties.png '#width=550px')
 5. Click on the `Groups` button to open the `Grouping` dialog.
    ![Assign data to the list](/static/assets/on-premise/images/report-designer/report-items/tablix-nested-data-regions/grouping-button.png '#width=315px')
 6. Change the Name to `SalesOrderID`. Click `Add` in the `Grouping` dialog and choose `SalesOrderID` in drop-down list and click `OK`.
@@ -93,6 +93,6 @@ The data bind to the nested data regions, based on the position of the nested da
 
 A simple sales order details report is designed using list and table data regions to group the data based on `SalesOrderID`.
 
-![Assign data to the list](/static/assets/on-premise/images/report-designer/report-items/tablix-nested-data-regions/final-design.png '#width=425px')
+![Assign data to the list](/static/assets/on-premise/images/report-designer/report-items/tablix-nested-data-regions/final-design.png '#width=600px')
 
 > Download the above report design from [link](https://github.com/boldreports/resources/tree/master/docs/report-designer/tablix/nested-data-region.rdl).

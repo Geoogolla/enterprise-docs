@@ -12,7 +12,7 @@ The properties are listed under different categories in the properties panel bas
 
 Click on the required static tablix member in the `Row Groups` or `Column Groups` pane, now the respective tablix member properties will be listed in the properties panel.
 
-![Open static member properties](/static/assets/on-premise/images/report-designer/report-items/tablix/open-static-member-properties.png '#width=425px')
+![Open static member properties](/static/assets/on-premise/images/report-designer/report-items/tablix/open-static-member-properties.png '#width=600px')
 
 ### Miscellaneous
 
@@ -93,7 +93,7 @@ On exporting the report, the visibility of the static row or column can be contr
 
 Click on the required group tablix member in the `Row Groups` or `Column Groups` pane, now the respective tablix member properties will be listed in the properties panel.
 
-![Open group member properties](/static/assets/on-premise/images/report-designer/report-items/tablix/open-group-member-properties.png '#width=425px')
+![Open group member properties](/static/assets/on-premise/images/report-designer/report-items/tablix/open-group-member-properties.png '#width=600px')
 
 ### Basic settings
 

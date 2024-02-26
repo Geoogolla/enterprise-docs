@@ -44,7 +44,7 @@ In `User Sort` property, set the interactive sorting using following fields:
 * **Sort Expression Scope**: Available details, row and column grouping in the respective data region will be listed in the `Sort Expression Scope` field.
     * To enable the interactive sorting on `Details Row` then choose details group.
     * To enable the interactive sorting on `Grouping Column` then choose the group.
-   ![Sorting properties](/static/assets/on-premise/images/report-designer/compose-report/interactive-sorting/sort-scope.png '#width=350px')
+      ![Sorting properties](/static/assets/on-premise/images/report-designer/compose-report/interactive-sorting/sort-scope.png '#width=350px')
 * **Sort Target**: Select the grouping level or data region within the report to sort.
    ![Sorting properties](/static/assets/on-premise/images/report-designer/compose-report/interactive-sorting/sort-target.png '#width=350px')
 

@@ -81,7 +81,7 @@ Bold Reports allows you to import excel as `Worksheets` and `Tables`.
 
 Bold Reports Excel data connector allows you to connect data from different worksheets. In the following excel file, there are two worksheets.
 
-![Excel with multiple worksheet](/static/assets/on-premise/images/report-designer/manage-data/excel-data-source/multiple-worksheet.png '#width=410px')
+![Excel with multiple worksheet](/static/assets/on-premise/images/report-designer/manage-data/excel-data-source/multiple-worksheet.png '#width=600px')
 
 To connect entire worksheet along with tables, choose `Worksheets` in Extract type.
 
@@ -95,7 +95,7 @@ Click on the `Connect`. The query designer will show the worksheets in a tree vi
 
 Bold Reports `Excel` data connector allows you to connect multiple tables across the worksheets. In the following workbook, `Order Details` worksheet has two different tables.
 
-![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/excel-data-source/spreadsheet-tables.png '#width=410px')
+![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/excel-data-source/spreadsheet-tables.png '#width=600px')
 
 To connect one or more tables from your worksheets, choose `Tables` in Extract type.
 

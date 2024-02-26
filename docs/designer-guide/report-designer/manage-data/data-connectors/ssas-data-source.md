@@ -72,7 +72,7 @@ Set the connection string and authentication type as required and click on `Conn
 
 Now, enter the required query and execute. Its corresponding values will be shown in grid for preview.
 
-![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/ssas-data-source/execute-schema.png '#width=410px')
+![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/ssas-data-source/execute-schema.png '#width=600px')
 
 > Only query mode is supported for Microsoft SQL Server Analysis Services data source.
 

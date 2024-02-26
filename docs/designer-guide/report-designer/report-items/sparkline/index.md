@@ -16,7 +16,7 @@ They represents multiple data points, often used in table and matrices.
 2. Drag and drop the sparkline report item into the design area or inside tablix cell from the item panel.
    ![Drag and drop sparkline report item into design area](/static/assets/on-premise/images/report-designer/report-items/sparkline/item-drag.png '#width=385px')
 3. After dropping the sparkline item in the design area or inside tablix cell, the respective item properties will be listed in the properties panel.
-   ![Sparkline item with properties view](/static/assets/on-premise/images/report-designer/report-items/sparkline/designer-area.png '#width=410px')
+   ![Sparkline item with properties view](/static/assets/on-premise/images/report-designer/report-items/sparkline/designer-area.png '#width=600px')
 
 ## Create data
 
@@ -42,7 +42,7 @@ To configure data into sparkline follow the below steps:
 
 1. To bind data to a sparkline report item, focus on that report item.
 2. Click `Properties` icon in the configuration panel, the property pane opens. Now, switch to `DATA` tab.
-   ![Chart properties pane](/static/assets/on-premise/images/report-designer/report-items/sparkline/chart-properties-pane.png '#width=410px')
+   ![Chart properties pane](/static/assets/on-premise/images/report-designer/report-items/sparkline/chart-properties-pane.png '#width=600px')
 3. The available data in the report will be listed in the drop-down, choose a data in the drop-down list.
    ![Choose the dataset for chart](/static/assets/on-premise/images/report-designer/report-items/sparkline/data-assign-drop-down.png '#width=315px')
 4. The numeric columns and numeric expressions are listed under the `Measures` section; other type of columns and dimension expressions are listed under the `Dimensions` section.

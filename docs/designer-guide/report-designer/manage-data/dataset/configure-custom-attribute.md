@@ -26,19 +26,19 @@ The user level attribute has high priority than the other levels. The group and 
 
 This attribute can be set by the site admin for a user in the user management profile page. You can view the attributes inherited from the group and site level in the user’s attribute listing.
 
-![User Level Add Custom Attribute Button](/static/assets/on-premise/images/report-designer/manage-data/configure-custom-attribute/custom-attribute-add-button-user-level.png '#width=445px')
+![User Level Add Custom Attribute Button](/static/assets/on-premise/images/report-designer/manage-data/configure-custom-attribute/custom-attribute-add-button-user-level.png)
 
 ## Group level attribute
 
 This attribute can be set by the site admin for a group in the group profile page. You can view the attributes inherited from the site level in the group’s attribute listing.
 
-![Group Level Add Custom Attribute Button](/static/assets/on-premise/images/report-designer/manage-data/configure-custom-attribute/custom-attribute-add-button-group-level.png '#width=445px')
+![Group Level Add Custom Attribute Button](/static/assets/on-premise/images/report-designer/manage-data/configure-custom-attribute/custom-attribute-add-button-group-level.png)
 
 ## Site level attribute
 
 This attribute can be set by the UMS admin for a site in the site details page.
 
-![Site Level Add Custom Attribute Button](/static/assets/on-premise/images/report-designer/manage-data/configure-custom-attribute/custom-attribute-add-button-tenant-level.png '#width=445px')
+![Site Level Add Custom Attribute Button](/static/assets/on-premise/images/report-designer/manage-data/configure-custom-attribute/custom-attribute-add-button-tenant-level.png)
 
 ## Adding custom attribute
 
@@ -77,15 +77,15 @@ The custom attribute can be used in custom query by manually providing the requi
 
 Syntax: `${{:AttributeName}}`
 
-![Use custom attribute in code view](/static/assets/on-premise/images/report-designer/manage-data/configure-custom-attribute/custom-attribute-in-code-view.png '#width=410px')
+![Use custom attribute in code view](/static/assets/on-premise/images/report-designer/manage-data/configure-custom-attribute/custom-attribute-in-code-view.png)
 
 Here, created a simple report for **Adam**, the data is retrieved based on the condition for the column `Resource_Name` as given in the custom attribute **Resources**.
 
-![Sample Report for user Adam](/static/assets/on-premise/images/report-designer/manage-data/configure-custom-attribute/custom-attribute-sample-report-Adam.png '#width=395px')
+![Sample Report for user Adam](/static/assets/on-premise/images/report-designer/manage-data/configure-custom-attribute/custom-attribute-sample-report-Adam.png)
 
 For **Christ**, the data is retrieved based on the condition for the column `Resource_Name` as given in the custom attribute **Resources**.
 
-![Sample Report for user Christ](/static/assets/on-premise/images/report-designer/manage-data/configure-custom-attribute/custom-attribute-sample-report-Christ.png '#width=395px')
+![Sample Report for user Christ](/static/assets/on-premise/images/report-designer/manage-data/configure-custom-attribute/custom-attribute-sample-report-Christ.png)
 
 ## 2. Web Connection window
 
