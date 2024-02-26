@@ -106,7 +106,7 @@ Follow the below steps to connect to the virtual machine.
 
 This section provides instructions on how to install and run the Bold Reports server on a virtual machine (VM).
 
-* Install the Bold Reports server on the created virtual machine (VM) in the Azure portal using the [help link](../../../installation/windows-installer/).
+* Install the Bold Reports server on the created virtual machine (VM) in the Azure portal using the [help link](../../../installation/windows-installer/installation-and-deployment/).
 
 * Launch your application either by default or through your desktop shortcut menu item. For example, start Bold Reports in IIS.
 

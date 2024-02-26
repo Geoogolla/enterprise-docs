@@ -22,4 +22,4 @@ To upgrade the Bold Reports Server VM to the latest source from older versions, 
 
     ![certificate-warning](/static/assets/on-premise/images/installation/deploying-in-aws/cert-warning.png)
 
-4. Once connected to the virtual machine, follow the provided steps to upgrade the Bold Reports Server to the [latest version](../../../upgrade/on-premises/).
+4. Once connected to the virtual machine, follow the provided steps to upgrade the Bold Reports Server to the [latest version](../../../upgrade/on-premises/upgrade-bold-reports-to-latest-version/).

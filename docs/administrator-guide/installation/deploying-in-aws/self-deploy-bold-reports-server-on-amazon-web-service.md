@@ -88,7 +88,7 @@ Install and run the Bold Reports server on an AWS EC2 instance by following thes
 
 This section provides instructions on how to install and run the Bold Reports server on a virtual machine (VM).
 
-* Install the Bold Reports server on the created virtual machine (VM) in the AWS portal using the help [link](../../../installation/windows-installer/).
+* Install the Bold Reports server on the created virtual machine (VM) in the AWS portal using the help [link](../../../installation/windows-installer/installation-and-deployment/).
 
 * Launch your application either by default or through your desktop shortcut menu item. For example, `start Bold Reports in IIS`.
 

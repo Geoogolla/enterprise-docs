@@ -23,4 +23,4 @@ To upgrade your Bold Reports Server VM to the latest source from older versions,
 4. After a successful connection, the identity verification window will be displayed, as shown below. Click `Yes`to accept the certificate problems and connect to the virtual machine.
   ![self-vm-connect-verfication](/static/assets/on-premise/images/installation/deploying-in-azure/self-vm-connect-verification.png)
 
-5. Once connected to the virtual machine, follow the provided [steps](../../../upgrade/on-premises/) to upgrade the Bold Reports Server to the latest version.
+5. Once connected to the virtual machine, follow the provided [steps](../../../upgrade/on-premises/upgrade-bold-reports-to-latest-version/) to upgrade the Bold Reports Server to the latest version.
