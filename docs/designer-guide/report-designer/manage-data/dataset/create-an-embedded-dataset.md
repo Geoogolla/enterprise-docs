@@ -40,7 +40,7 @@ This section guides you to create an embedded dataset in Bold Report Designer.
 
    After you drop the item into the center pane, it displays like below:
 
-   ![Query designer with query table](/static/assets/on-premise/images/report-designer/manage-data/dataset/drag-drop-table-in-query-designer-output.png '#width=415px')
+   ![Query designer with query table](/static/assets/on-premise/images/report-designer/manage-data/dataset/drag-drop-table-in-query-designer-output.png '#width=600px')
 
 8. To search the table or view from the data collection, you can use the `Search` field in the left pane of the query designer.
 

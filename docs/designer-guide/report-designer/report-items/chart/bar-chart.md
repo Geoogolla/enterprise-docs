@@ -147,7 +147,7 @@ The border style, color, width, and background color properties can be used to s
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/bar-chart/appearance-property.png '#width=355px')
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/bar-chart/appearance-design.png '#width=425px')
+![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/bar-chart/appearance-design.png '#width=600px')
 
 ### Chart Area
 

@@ -15,7 +15,7 @@ The following steps guides you to design ssrs rdl report using table.
 2. Drag and drop the table report item into the design area from the item panel.
    ![Drag and drop tablix report item into design area](/static/assets/on-premise/images/report-designer/report-items/tablix/drag-and-drop-table.png '#width=355px')
 3. Respective table properties will be listed in the properties panel.
-   ![Tablix item with properties view](/static/assets/on-premise/images/report-designer/report-items/tablix/table-item-with-properties-view.png '#width=425px')
+   ![Tablix item with properties view](/static/assets/on-premise/images/report-designer/report-items/tablix/table-item-with-properties-view.png '#width=600px')
 
 ## Initial design
 
@@ -54,7 +54,7 @@ There are a few different ways to assign the fields into a table:
 ### Textbox properties
 
 1. Select a cell in the table, now the respective textbox properties will be listed in the properties panel.
-   ![Sort dialog](/static/assets/on-premise/images/report-designer/report-items/tablix/selected-cell-properties.png '#width=410px')
+   ![Sort dialog](/static/assets/on-premise/images/report-designer/report-items/tablix/selected-cell-properties.png '#width=600px')
 2. In the `Content` property, type the value or set the data field using the expression editor.
    > Refer [Set expression](./../../../compose-report/properties-panel/#set-expression) section to open expression menu and to set expression.
 3. Here, the `=Fields!Sales.Value` expression is entered in the content property field to assign `Sales` data field into the respective cell.

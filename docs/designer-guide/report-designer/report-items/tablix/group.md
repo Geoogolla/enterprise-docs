@@ -30,7 +30,7 @@ By default, a table, matrix, or list, report items created with `Details` group 
 
 ## Edit group properties
 
-After creating groups, the group properties such as [filters](./../../../compose-report/filter-data/), [sort](./../../../compose-report/sort-data/), and [groups expressions](./../../../compose-report/group-data/) can be modified to organize the data visualization of the respective group in data region. To edit an existing group, select the respective member in the Row or Column Groups pane of the grouping panel. Now, the respective member properties will be listed in the properties panel.![Open group member properties](/static/assets/on-premise/images/report-designer/report-items/tablix/open-group-member-properties.png '#width=425px')
+After creating groups, the group properties such as [filters](./../../../compose-report/filter-data/), [sort](./../../../compose-report/sort-data/), and [groups expressions](./../../../compose-report/group-data/) can be modified to organize the data visualization of the respective group in data region. To edit an existing group, select the respective member in the Row or Column Groups pane of the grouping panel. Now, the respective member properties will be listed in the properties panel.![Open group member properties](/static/assets/on-premise/images/report-designer/report-items/tablix/open-group-member-properties.png '#width=600px')
 
 Refer [Group properties](./../../../report-items/tablix/member-properties/#group-member-properties) section and modify the group properties.
 
@@ -39,8 +39,8 @@ Refer [Group properties](./../../../report-items/tablix/member-properties/#group
 You can create a nested group or adjacent groups in the data regions. The scope of group is defined by the hierarchy in which the groups are created in the data regions. To easily understand the scope of the groups in the selected tablix data region,
 
 * The visual cues are provided in the tablix data regions.
-![Groups and total ](/static/assets/on-premise/images/report-designer/report-items/tablix/groups-and-total-sketch.png '#width=385px')
+   ![Groups and total ](/static/assets/on-premise/images/report-designer/report-items/tablix/groups-and-total-sketch.png '#width=600px')
 
 * The groups are listed as tree structure in the grouping panel.
-![Group types sketch](/static/assets/on-premise/images/report-designer/report-items/tablix/group-types-sketch.png '#width=385px')
+   ![Group types sketch](/static/assets/on-premise/images/report-designer/report-items/tablix/group-types-sketch.png '#width=600px')
 To understand the visual cues in grouping panel, refer the [Grouping Panel Visual Cues](./../../../report-items/tablix/grouping-panel/#visual-cues) section.

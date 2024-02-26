@@ -143,7 +143,7 @@ This property is used to customize major and minor ticks of a linear gauge.
 
 To show or hide major and minor ticks in a scale, toggle the `Major Tick` and `Minor Tick` checkbox.
 
-You can customize major and minor ticks in the `Advanced Options` menu. To open and handle the nested properties of major and minor ticks, refer to the [Advanced Properties](./../../../compose-report/properties-panel/#advanced-properties) section.![Major Tick](/static/assets/on-premise/images/report-designer/report-items/gauge/linear-gauge/major-tick.png '#width=425px')
+You can customize major and minor ticks in the `Advanced Options` menu. To open and handle the nested properties of major and minor ticks, refer to the [Advanced Properties](./../../../compose-report/properties-panel/#advanced-properties) section.![Major Tick](/static/assets/on-premise/images/report-designer/report-items/gauge/linear-gauge/major-tick.png '#width=650px')
 
 Using this property, you can customize the major and minor ticks interval, color, length, and width.
 

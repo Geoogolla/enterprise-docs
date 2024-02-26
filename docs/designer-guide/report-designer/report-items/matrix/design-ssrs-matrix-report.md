@@ -29,7 +29,7 @@ GROUP BY DATEPART(yy, SOH.OrderDate), PC.Name, PS.Name, 'Q' + DATENAME(qq, SOH.O
 
 The matrix report item is listed in the item panel under the `Data Regions` category.
 
-![Matrix listed in item panel](/static/assets/on-premise/images/report-designer/report-items/matrix/item-panel-view.png '#width=280px')
+![Matrix listed in item panel](/static/assets/on-premise/images/report-designer/report-items/matrix/item-panel-view.png '#width=230px')
 
 Drag and drop the matrix report item into the design area from the item panel. The properties of matrix report item will be listed in properties panel. By default, it will be named as `Tablix1`.
 
@@ -120,6 +120,6 @@ In the below design background color and font styles are changed in matrix cells
 
 On report preview, the yearly sales report of a company will be displayed like below,
 
-![Matrix simple design](/static/assets/on-premise/images/report-designer/report-items/matrix/matrix-design-preview.png '#width=495px')
+![Matrix simple design](/static/assets/on-premise/images/report-designer/report-items/matrix/matrix-design-preview.png)
 
 > Download the above report design from [link](https://github.com/boldreports/resources/tree/master/docs/report-designer/matrix/design-ssrs-matrix-report.rdl).

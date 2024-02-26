@@ -57,7 +57,7 @@ In list data regions, you can place the report items anywhere instead of being l
 5. Now, right click in the textbox and click on `Expression` option.
    ![Assign expression in textbox](/static/assets/on-premise/images/report-designer/report-items/list/open-textbox-menu.png '#width=355px')
 6. In the expression editor, choose `FirstName` field from the dataset.
-   ![Bind data to the textbox](/static/assets/on-premise/images/report-designer/report-items/list/assign-dataset-field-in-textbox.png '#width=410px')
+   ![Bind data to the textbox](/static/assets/on-premise/images/report-designer/report-items/list/assign-dataset-field-in-textbox.png '#width=550px')
 7. Similarly, assign `LastName` field and create another expression. Then, customize the text appearance using the textbox properties in properties panel.
    ![Bind data field to the textbox](/static/assets/on-premise/images/report-designer/report-items/list/assign-expression-in-textbox.png)
    > Refer [Display dynamic text using expression](./../../../report-items/textbox/design-rdl-report-using-textbox/#display-dynamic-text-using-expression) section to assign expression in textbox report item.

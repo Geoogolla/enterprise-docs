@@ -140,7 +140,7 @@ To format a range area chart, follow the below steps:
 2. Configure the data for the range area chart.
 3. Focus on the range area chart and click the `Properties` icon in the configuration panel, the property pane opens.
 
-   ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/range-area-chart/open-chart-properties.png '#width=425px')
+   ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/range-area-chart/open-chart-properties.png)
 
 You can see the list of properties available for the widget with the default value.
 
@@ -172,7 +172,7 @@ The border style, color, width, and background color properties can be used to s
 
 ![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/range-area-chart/appearance-property.png '#width=385px')
 
-![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/range-area-chart/appearance-design.png '#width=425px')
+![Chart Types](/static/assets/on-premise/images/report-designer/report-items/chart/range-area-chart/appearance-design.png)
 
 ### Chart Area
 

@@ -25,7 +25,7 @@ Sorting arrange the data in either ascending or descending order to present data
 
    * **Descending** sorts the data in Z-A order.
 
-   ![add-field-to-sort](/static/assets/on-premise/images/report-designer/compose-report/sort-data/sort-add-field.png '#width=350px')
+      ![add-field-to-sort](/static/assets/on-premise/images/report-designer/compose-report/sort-data/sort-add-field.png '#width=350px')
 
 4. Click OK.
 5. To add multiple sort expression, follow steps 1 - 4.

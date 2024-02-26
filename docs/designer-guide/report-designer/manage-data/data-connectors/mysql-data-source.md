@@ -31,7 +31,7 @@ Then enter the valid connection string and authentication type to connect with s
 
 Click on the `Connect` to proceed with query design pane. Now, enter the required query and execute. Its corresponding values will be shown in grid for preview.
 
-![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/mysql-data-source/execute-schema.png '#width=410px')
+![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/mysql-data-source/execute-schema.png '#width=600px')
 
 > Only query mode is supported for MySQL data source.
 

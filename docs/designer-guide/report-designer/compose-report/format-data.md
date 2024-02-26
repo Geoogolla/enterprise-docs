@@ -86,7 +86,7 @@ Percentage type has following options:
 
 * **Include Space**: Enable this option to include space between percent symbol and value.
 
-![percentage-format](/static/assets/on-premise/images/report-designer/compose-report/format-data/format-percentage.png '#width=400px')
+   ![percentage-format](/static/assets/on-premise/images/report-designer/compose-report/format-data/format-percentage.png '#width=400px')
 
 ## Format Custom
 

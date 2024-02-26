@@ -45,11 +45,11 @@ GROUP BY DATEPART(yy, SOH.OrderDate), PC.Name, PS.Name, 'Q' + DATENAME(qq, SOH.O
 9. [Add a column](./../../../report-items/tablix/insert-or-delete-a-column-ssrs/#insert-a-column) to the right and name it as `Sales Indicator`.
    ![Add column in table](/static/assets/on-premise/images/report-designer/report-items/data-bar/design/add-column.png '#width=355px')
 10. Drag and drop the data bar report item into last cell of the table.
-   ![Add data bar report item](/static/assets/on-premise/images/report-designer/report-items/data-bar/design/add-databar.png '#width=355px')
+    ![Add data bar report item](/static/assets/on-premise/images/report-designer/report-items/data-bar/design/add-databar.png '#width=355px')
 
-   Now, the report design will look like below.
+    Now, the report design will look like below.
 
-   ![Basic design of data bar report](/static/assets/on-premise/images/report-designer/report-items/data-bar/design/intial-design.png '#width=385px')
+    ![Basic design of data bar report](/static/assets/on-premise/images/report-designer/report-items/data-bar/design/intial-design.png '#width=385px')
 
 > Cannot insert a data bar into a detail cell. Detail members can only contain the static inner members.
 

@@ -15,4 +15,4 @@ This section describes the steps required to edit a report parameter in Bold Rep
    ![Open context menu](/static/assets/on-premise/images/report-designer/report-parameters/edit-report-parameter/open-context-menu.png '#width=350px')
 4. Choose `Edit` from the context menu, it will launch the `EDIT PARAMETER` panel.
    ![Edit report parameter](/static/assets/on-premise/images/report-designer/report-parameters/edit-report-parameter/edit-report-parameter.png '#width=350px')
-5. Modify the parameter fields and click `Save`.
+5. Modify the parameter fields and click `Save.

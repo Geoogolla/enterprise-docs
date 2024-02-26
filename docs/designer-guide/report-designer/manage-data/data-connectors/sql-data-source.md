@@ -35,7 +35,7 @@ When you create a new data, the `NEW DATASOURCE` panel will show up with basic o
    ![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/enable-encryption.png '#width=385px')
 6. Click on the `Connect` to connect the Bold Reports with Microsoft SQL server database.
 7. Drag and drop the table from the table schema in the query design view page.
-   ![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/query-designer.png '#width=410px')
+   ![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/query-designer.png '#width=650px')
 8. Click `Finish` to save the data source with a relevant name to proceed with designing report.
    ![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/data-list.png '#width=325px')
 
@@ -69,7 +69,7 @@ Set the connection string and authentication type as required and click on `Conn
 
 Drag and drop the table from the table schema in the query design view page.
 
-![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/query-designer.png '#width=410px')
+![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/query-designer.png '#width=650px')
 
 Click `Finish` to save the data source with a relevant name to proceed with designing report.
 
@@ -140,7 +140,7 @@ Now, you can drag and drop the table from left panel of query design page and en
 
 When the `OK` button is clicked, the selected stored procedures data based on supplied parameter will be extracted and displayed in the preview grid,
 
-![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/stored-procedure-data.png '#width=355px')
+![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/stored-procedure-data.png '#width=650px')
 
 Save the data source by clicking the `Finish` button.
 
@@ -182,7 +182,7 @@ For example, I have dragged the `SalesOrderDetail` table in design view and appl
 
 Then, I tried to enable the `Code Switcher` to view the query, this query shows the applied filters and whatever changes that made in the table.
 
-![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/design-to-query.png '#width=410px')
+![New connection panel](/static/assets/on-premise/images/report-designer/manage-data/data-connectors/design-to-query.png '#width=650px')
 
 ## See also
 

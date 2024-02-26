@@ -21,7 +21,7 @@ Filters are used to filter the dataset field by passing the specific dataset fie
 
 3. **Operator** types are listed in the second drop-down list.
 
-   ![operators-in- filters](/static/assets/on-premise/images/report-designer/compose-report/filter-data/operators.png '#width=200px')
+   ![operators-in- filters](/static/assets/on-premise/images/report-designer/compose-report/filter-data/operators.png '#width=125px')
 
    To filter specific range of data use **Between** operator.
 

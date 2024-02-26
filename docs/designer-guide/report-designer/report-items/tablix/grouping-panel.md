@@ -75,10 +75,10 @@ In the grouping panel,
 #### Static tablix member
 
 * A static member with a header cell will be indicated with `Static` label text.
-![Static member with header cell](/static/assets/on-premise/images/report-designer/report-items/tablix/static-member-with-header-cell.png '#width=385px')
+   ![Static member with header cell](/static/assets/on-premise/images/report-designer/report-items/tablix/static-member-with-header-cell.png '#width=385px')
 
 * A static member with no header cell will be indicated with `(Static)` label text.
-![Static member with header cell](/static/assets/on-premise/images/report-designer/report-items/tablix/static-member-with-no-header-cell.png '#width=385px')
+   ![Static member with header cell](/static/assets/on-premise/images/report-designer/report-items/tablix/static-member-with-no-header-cell.png '#width=385px')
 
 #### Group tablix member
 
@@ -94,7 +94,7 @@ To edit the static and dynamic tablix member properties, select the respective m
 
 Click on the required static tablix member in the `Row Groups` or `Column Groups` pane, now the respective tablix member properties will be listed in the properties panel.
 
-![Open static member properties](/static/assets/on-premise/images/report-designer/report-items/tablix/open-static-member-properties.png '#width=425px')
+![Open static member properties](/static/assets/on-premise/images/report-designer/report-items/tablix/open-static-member-properties.png)
 
 To set and edit the properties of static tablix member, refer [Static member properties](./../../../report-items/tablix/member-properties/#static-member-properties) section.
 
@@ -102,7 +102,7 @@ To set and edit the properties of static tablix member, refer [Static member pro
 
 Click on the required group tablix member in the `Row Groups` or `Column Groups` pane, now the respective tablix member properties will be listed in the properties panel.
 
-![Open group member properties](/static/assets/on-premise/images/report-designer/report-items/tablix/open-group-member-properties.png '#width=425px')
+![Open group member properties](/static/assets/on-premise/images/report-designer/report-items/tablix/open-group-member-properties.png '#width=600px')
 
 To set and edit the properties of group tablix member, refer [Group member properties](./../../../report-items/tablix/member-properties/#group-member-properties) section.
 
@@ -110,7 +110,7 @@ To set and edit the properties of group tablix member, refer [Group member prope
 
 You can add groups or totals to the tablix data region using the grouping panel. To open the group menu click on the icon in the right corner of the row or column group member.
 
-![Open group member properties](/static/assets/on-premise/images/report-designer/report-items/tablix/group-menu-icon.png '#width=385px')
+![Open group member properties](/static/assets/on-premise/images/report-designer/report-items/tablix/group-menu-icon.png '#width=600px')
 
 Now, the group menu will open in the respective group like below,
 
@@ -121,7 +121,7 @@ Now, the group menu will open in the respective group like below,
 1. To add a parent group, click on the `Parent Group...` option under `Add Group` category.
    ![Open group member properties](/static/assets/on-premise/images/report-designer/report-items/tablix/parent-group-menu.png '#width=385px')
 2. Now, `Tablix Group` dialog will open like below.
-   ![Open group member properties](/static/assets/on-premise/images/report-designer/report-items/tablix/tablix-group-dialog.png '#width=5385px')
+   ![Open group member properties](/static/assets/on-premise/images/report-designer/report-items/tablix/tablix-group-dialog.png '#width=385px')
 3. Choose field in the group dialog and click `OK` button.
    ![Open group member properties](/static/assets/on-premise/images/report-designer/report-items/tablix/choose-field-in-group-dialog.png '#width=385px')
 4. Now, a new parent group will be added above a group in the grouping panel.

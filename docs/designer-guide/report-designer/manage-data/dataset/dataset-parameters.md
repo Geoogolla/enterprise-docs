@@ -42,11 +42,11 @@ If you import a shared dataset into the report, the list of available parameters
 
 1. To create a new parameter, click on the `ADD` button.
    ![Add parameter](/static/assets/on-premise/images/report-designer/manage-data/dataset-parameters/report-parameters-dialog.png '#width=355px')
-2. **Parameter Name** : In the **Parameter Name** text box, provide the name for the parameter. The parameter name must be unique within the dataset.
-3. **Value** : In **Value** field, provide the value for the parameter. The **Value** of a parameter can be a static value or an expression, but it cannot refer to any report items or fields.
+2. **Parameter Name**: In the **Parameter Name** text box, provide the name for the parameter. The parameter name must be unique within the dataset.
+3. **Value**: In **Value** field, provide the value for the parameter. The **Value** of a parameter can be a static value or an expression, but it cannot refer to any report items or fields.
    ![Create parameter](/static/assets/on-premise/images/report-designer/manage-data/dataset-parameters/create-parameter.png '#width=355px')
 
-> The parameters which you create here will act as a `User Defined` parameter in the report, neither creates a query parameter nor affects existing query parameter.
+   > The parameters which you create here will act as a `User Defined` parameter in the report, neither creates a query parameter nor affects existing query parameter.
 
 ## Edit parameter
 

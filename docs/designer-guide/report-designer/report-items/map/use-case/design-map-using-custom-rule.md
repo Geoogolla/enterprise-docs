@@ -35,7 +35,7 @@ The `Map` report item is listed under `Data Regions` category in the item panel.
 
 To add a `Map` report item to the report, drag the map from the item panel into design area.
 
-![Drag map into design surface](/static/assets/on-premise/images/report-designer/report-items/map/color-rule-use-case/drag-map-item.png)
+![Drag map into design surface](/static/assets/on-premise/images/report-designer/report-items/map/color-rule-use-case/drag-map-item.png '#width=350px')
 
 Now, the map item will be rendered in the design area and the map properties will be listed in properties panel.
 
