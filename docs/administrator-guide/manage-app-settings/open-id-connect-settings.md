@@ -77,4 +77,4 @@ The Bold Reports application can be configured to support OpenID Connect for Sin
 </tr>
 </table>
 
-> **Note:** Please refer to the [OpenID Conenct authentication](./../../authentication/single-sign-on/openid-connect/) documentation for more information.
+> **Note:** Please refer to the [OpenID Connect authentication](./../../authentication/single-sign-on/openid-connect/) documentation for more information.
