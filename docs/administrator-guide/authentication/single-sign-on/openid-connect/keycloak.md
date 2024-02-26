@@ -64,7 +64,7 @@ This section explains how to perform single sign-on for users in Keycloak with t
 </tr>
 </table>
 
-> Note: When configuring the access type, you can set it to `confidential`.
+> **Note:** When configuring the access type, you can set it to `confidential`.
 > After successful registration with Keycloak, save these settings in the Bold Reports settings page to enable this authentication.
 
 ### Enable Keycloak authentication support in Bold Reports
