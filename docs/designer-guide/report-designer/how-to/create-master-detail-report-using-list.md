@@ -8,13 +8,13 @@ documentation: ug
 
 # How to create master detail report using a list in Report Designer
 
-In some scenarios, your data source contains master-detail relationship and you prefer to create a single report to show the mater-detail result.
+In certain situations, when your data source includes a master-detail relationship and you wish to consolidate this information into a single report, Bold Report Enterprise Designer provides an excellent set of tools to accomplish this task efficiently.
 
-To achieve this, create a query that combines multiple tables and returns a single data set containing both master and detail records.
+To streamline this process, you'll need to create a query that pulls data from multiple tables and merges them into a single dataset. This combined dataset will contain both the master records and their corresponding detail records.
 
-Let us look at the procedures to create a list report item with a detail group that displays the master-detail relationship.
+Let's explore the steps to create a list report item with a detail group that showcases the master-detail relationship.
 
-1. As a first step, open the Bold Report Designer.
+1. To begin, launch the Bold Report Enterprise application on your system, and create a new report project or open an existing one where you want to add the master-detail report.
    ![Bold reports designer](/static/assets/on-premise/images/report-designer/how-to/master-details-nested-item/bold-reports-designer.png '#width=400px')
 
 2. Connect to the data source using this documentation [link](./../../manage-data/datasource/).
