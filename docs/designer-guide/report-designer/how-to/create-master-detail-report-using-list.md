@@ -14,7 +14,7 @@ To streamline this process, you'll need to create a query that pulls data from m
 
 Let's explore the steps to create a list report item with a detail group that showcases the master-detail relationship.
 
-1. To begin, launch the Bold Report Enterprise application on your system, and create a new report project or open an existing one where you want to add the master-detail report.
+1. To begin, launch the Bold Report Enterprise application on your system, and create a new report project or open an existing one where you want to add the master-detail report.[https://help.boldreports.com/enterprise-reporting/designer-guide/report-designer/design-rdl-report-in-web-report-designer/#report-creation]
    ![Bold reports designer](/static/assets/on-premise/images/report-designer/how-to/master-details-nested-item/bold-reports-designer.png '#width=400px')
 
 2. Connect to the data source using this documentation [link](./../../manage-data/datasource/).
