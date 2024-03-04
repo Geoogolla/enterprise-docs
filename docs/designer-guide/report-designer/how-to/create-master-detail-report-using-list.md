@@ -40,7 +40,8 @@ Utilize the documentation link provided to establish a connection to your datase
       PD.ProductDescriptionID = PMPDCL.ProductDescriptionID ON P.ProductModelID = PM.ProductModelID
     WHERE (PMPDCL.CultureID = 'en')
     ```
-5. Drag the table report item and configure the field as shown in the following image.
+5. Configure the table report item.
+Drag the tablix from the  report item and adjust the fields according to the provided image example.
    ![Detail table design](/static/assets/on-premise/images/report-designer/how-to/master-details-nested-item/list-detail-table.png '#width=550px')
 
 6. Drag the list report item and set the dataset name to the `Dataset` property in the properties panel.
