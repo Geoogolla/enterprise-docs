@@ -41,7 +41,7 @@ Utilize the documentation link provided to establish a connection to your datase
     WHERE (PMPDCL.CultureID = 'en')
     ```
 5. Configure the table report item.
-Drag the tablix from the  report item and adjust the fields according to the provided image example.
+Drag the table report item from the Data regions area to the design area and adjust the fields according to the provided image below.
    ![Detail table design](/static/assets/on-premise/images/report-designer/how-to/master-details-nested-item/list-detail-table.png '#width=550px')
 
 6. Drag the list report item and set the dataset name to the `Dataset` property in the properties panel.
