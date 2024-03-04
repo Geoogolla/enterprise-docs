@@ -18,9 +18,11 @@ Let's walk through how to craft a list report item featuring a detail group, hig
 Open a new report project or select an existing one where you wish to incorporate a master-detail report.
    ![Bold reports designer](/static/assets/on-premise/images/report-designer/how-to/master-details-nested-item/bold-reports-designer.png '#width=400px')
 
-2. Connect to the data source using this documentation [link](./../../manage-data/datasource/).
+2. Connect to your data source.
+Follow the documentation link provided for detailed instructions on connecting to your data source.[link](./../../manage-data/datasource/).
 
-3. Connect to the dataset using this documentation [link](./../../manage-data/dataset/).
+3. Connect to your dataset.
+Utilize the documentation link provided to establish a connection to your dataset. [link](./../../manage-data/dataset/).
 
 4. The `ProductCatalog` dataset is created using the following query.
    ![ProductCatalog dataset](/static/assets/on-premise/images/report-designer/how-to/master-details-nested-item/datasource-connection.gif)
