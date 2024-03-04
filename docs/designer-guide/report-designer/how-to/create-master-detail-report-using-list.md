@@ -45,7 +45,7 @@ Drag the table report item from the Data regions area to the design area and adj
    ![Detail table design](/static/assets/on-premise/images/report-designer/how-to/master-details-nested-item/initial-master-report-design.png '#width=550px')
 
 6. Set up the list report item.
-Drag the list report item  and assign the dataset name to the `Dataset` property in the properties panel .
+Drag the list report item  and assign the dataset name to the `Dataset` property in the properties panel as shown in the below image.
    ![Master table design](/static/assets/on-premise/images/report-designer/how-to/master-details-nested-item/assign-dataset-list.png '#width=350px')
 
 7. Add groups to the list to display the data as shown in the following image.
