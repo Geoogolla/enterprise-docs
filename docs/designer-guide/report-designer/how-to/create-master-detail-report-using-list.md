@@ -10,7 +10,7 @@ documentation: ug
 
 In certain situations. When your data source contains a master-detail relationship and you want to merge this information into one report, Bold Report Enterprise Designer provides an excellent set of tools to accomplish this task efficiently.
 
-To simplify, you'll create a query that gathers data from various tables and combines them into one dataset. This dataset will include both the master records and their related details.
+To simplify this, you'll create a query that gathers data from various tables and combines them into one dataset. This dataset will include both the master records and their related details.
 
 Let's walk through how to craft a list report item featuring a detail group, highlighting the master-detail relationship.
 
