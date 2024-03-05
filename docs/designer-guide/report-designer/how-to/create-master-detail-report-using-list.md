@@ -45,14 +45,14 @@ Drag the table report item from the Data Regions area to the design area and adj
    ![Detail table design](/static/assets/on-premise/images/report-designer/how-to/master-details-nested-item/initial-master-report-design.png '#width=550px')
 
 6. Set up the list report item.
-Drag the list report item from the Data Regions to the design area and assign the dataset name to the `Dataset` property in the properties panel as shown in the below image.
+Drag the list report item from the Data Regions to the design area and assign the dataset name to be `ProductCatalog` property in the properties panel as shown in the below image.
    ![Master table design](/static/assets/on-premise/images/report-designer/how-to/master-details-nested-item/assign-dataset-list.png '#width=350px')
 
 7. Add groups to the list.
-Organize the data by adding groups to the list, following the image example.
+Organize your data by adding groups to the list table  .
    ![Master table design](/static/assets/on-premise/images/report-designer/how-to/master-details-nested-item/initail-list-design.png '#width=600px')
 
-8. Cut the detail table from body and paste inside the list as shown in the following image.
+8. Cut the detail table from design area body and paste inside the list as shown in the following image.
    ![Master table design](/static/assets/on-premise/images/report-designer/how-to/master-details-nested-item/final-list-design.png '#width=600px')
 
 9. Click on the Preview at the top-right corner of the Report Designer toolbar to see the output result.
