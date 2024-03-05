@@ -52,7 +52,7 @@ Drag the list report item from the Data Regions to the design area and assign th
 Organize your data by adding groups to the list table  .
    ![Master table design](/static/assets/on-premise/images/report-designer/how-to/master-details-nested-item/initail-list-design.png '#width=600px')
 
-8. Cut the detail table from design area body and paste inside the list as shown in the following image.
+8. Cut the detail table from design area and paste inside the list as shown in the following image.
    ![Master table design](/static/assets/on-premise/images/report-designer/how-to/master-details-nested-item/final-list-design.png '#width=600px')
 
 9. Click on the Preview at the top-right corner of the Report Designer toolbar to see the output result.
