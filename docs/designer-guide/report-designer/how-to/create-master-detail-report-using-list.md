@@ -49,7 +49,7 @@ Drag the list report item from the Data Regions to the design area and assign th
    ![Master table design](/static/assets/on-premise/images/report-designer/how-to/master-details-nested-item/assign-dataset-list.png '#width=350px')
 
 7. Add groups to the list.
-Organize your data by adding groups to the list table  .
+Organize your data by adding groups to the list table  as shown in the image below:.
    ![Master table design](/static/assets/on-premise/images/report-designer/how-to/master-details-nested-item/initail-list-design.png '#width=600px')
 
 8. Cut the detail table from design area and paste inside the list on product details column as shown in the following image.
